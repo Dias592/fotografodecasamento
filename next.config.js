@@ -1,12 +1,13 @@
 /** @type {import('next').NextConfig} */
-const isProd = process.env.NODE_ENV === 'production';
+const isGithubPages = process.env.GITHUB_ACTIONS === 'true';
+const repo = 'fotografodecasamento';
 
 const nextConfig = {
   reactStrictMode: true,
   output: 'export',
   trailingSlash: true,
-  basePath: isProd ? '/fotografodecasamento' : '',
-  assetPrefix: isProd ? '/fotografodecasamento/' : '',
+  basePath: isGithubPages ? `/${repo}` : '',
+  assetPrefix: isGithubPages ? `/${repo}/` : '',
   images: {
     unoptimized: true,
     remotePatterns: [
