@@ -1,8 +1,12 @@
 /** @type {import('next').NextConfig} */
+const isProd = process.env.NODE_ENV === 'production';
+
 const nextConfig = {
   reactStrictMode: true,
   output: 'export',
   trailingSlash: true,
+  basePath: isProd ? '/fotografodecasamento' : '',
+  assetPrefix: isProd ? '/fotografodecasamento/' : '',
   images: {
     unoptimized: true,
     remotePatterns: [
