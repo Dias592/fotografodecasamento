@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.ivandiasfotografo.com.br
+
+# Sitemaps
+Sitemap: https://www.ivandiasfotografo.com.br/sitemap.xml
