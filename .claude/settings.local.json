@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd \"/d/SITE FOTO\" && mkdir -p app/sobre app/servicos/\\\\[slug\\\\] app/portfolio app/blog/\\\\[slug\\\\] app/contato components lib public)",
+      "Bash(npm install *)",
+      "Bash(npm run *)",
+      "Bash(grep -o '\"14\\\\.2\\\\.[0-9]*\"' \"/c/Users/mem10/.claude/projects/D--SITE-FOTO/fe75cb45-8ad1-4039-8efe-2d7183d47a61/tool-results/brlp6frni.txt\" | tail -5)",
+      "PowerShell(fsutil reparsepoint query \"D:\\\\SITE FOTO\\\\app\\\\blog\\\\page.tsx\"; Get-Item \"D:\\\\SITE FOTO\" -Force | Select-Object FullName,Attributes; \\(Get-Volume -DriveLetter D\\).FileSystem)"
+    ]
+  }
+}

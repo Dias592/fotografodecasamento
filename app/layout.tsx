@@ -61,7 +61,7 @@ export const metadata: Metadata = {
   category: 'photography',
   authors: [{ name: 'Ivan Dias' }],
   alternates: {
-    canonical: SITE_URL,
+    canonical: `${SITE_URL}/`,
   },
   icons: {
     icon: '/images/logo/ivan-dias-favicon.png',
@@ -81,7 +81,7 @@ export const metadata: Metadata = {
         url: `${SITE_URL}/images/hero/fotografo-casamento-sao-paulo-noivos-abraco.jpg`,
         width: 1200,
         height: 630,
-        alt: 'Ivan Dias Fotografia de Casamento',
+        alt: 'Ivan Dias - Fotógrafo de Casamento em São Paulo',
       },
     ],
   },
