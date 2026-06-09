@@ -84,7 +84,7 @@ export default function Hero() {
         variants={containerVariants}
         initial="hidden"
         animate="visible"
-        className="relative z-10 flex flex-col justify-center px-6 pb-36 pt-10 md:px-16 md:pb-28 md:pt-0"
+        className="relative z-10 flex flex-col justify-center px-6 pb-36 pt-10 md:px-16 md:pb-44 md:pt-0"
         style={{ gridArea: 'content' }}
       >
         <motion.span
