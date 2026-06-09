@@ -8,7 +8,15 @@ import CustomCursor from '@/components/CustomCursor';
 import LoadingScreen from '@/components/LoadingScreen';
 import PageTransition from '@/components/PageTransition';
 import SchemaOrg from '@/components/SchemaOrg';
-import { getLocalBusinessSchema, getPersonSchema, getWebSiteSchema } from '@/lib/schema';
+import {
+  getLocalBusinessSchema,
+  getPersonSchema,
+  getWebSiteSchema,
+  getServiceSchema,
+  getContactPageSchema,
+  getBlogSchema,
+  getHomeFAQSchema,
+} from '@/lib/schema';
 
 const GA_ID = 'G-TC1EWQPCY3';
 
@@ -79,7 +87,15 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="pt-BR" className={poppins.variable}>
       <body className="font-body antialiased">
-        <SchemaOrg schema={[getLocalBusinessSchema(), getPersonSchema(), getWebSiteSchema()]} />
+        <SchemaOrg schema={[
+          getLocalBusinessSchema(),
+          getPersonSchema(),
+          getWebSiteSchema(),
+          getServiceSchema(),
+          getContactPageSchema(),
+          getBlogSchema(),
+          getHomeFAQSchema(),
+        ]} />
         <a href="#main-content" className="skip-link font-body text-sm font-semibold">
           Pular para o conteúdo principal
         </a>
