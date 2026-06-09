@@ -87,18 +87,20 @@ export default function Portfolio() {
               viewport={{ once: true, margin: '-80px' }}
               transition={{ duration: 0.6, delay: (index % 3) * 0.1, ease: [0.22, 1, 0.36, 1] }}
               data-cursor-hover
-              className={`group relative overflow-hidden rounded-2xl ${heightClass[item.height]}`}
+              className="group relative overflow-hidden rounded-2xl"
             >
               <Image
                 src={item.src}
                 alt={item.alt}
                 role="img"
-                fill
+                width={0}
+                height={0}
                 loading="lazy"
                 placeholder="blur"
                 blurDataURL={SHIMMER_BLUR_DATA_URL}
                 sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
-                className="object-cover transition-transform duration-700 ease-out group-hover:scale-[1.08]"
+                style={{ width: '100%', height: 'auto' }}
+                className="transition-transform duration-700 ease-out group-hover:scale-[1.08]"
               />
               <div className="absolute inset-0 flex items-end bg-gradient-to-t from-blue-deep/80 via-blue-deep/0 to-transparent opacity-0 transition-opacity duration-500 group-hover:opacity-100">
                 <figcaption className="translate-y-6 p-6 font-body text-sm font-medium uppercase tracking-wide text-cream transition-transform duration-500 group-hover:translate-y-0">

@@ -20,17 +20,19 @@ export default function BlogGrid({ posts, limit }: { posts: Post[]; limit?: numb
           transition={{ duration: 0.6, delay: index * 0.1, ease: [0.22, 1, 0.36, 1] }}
         >
           <Link href={`/blog/${post.slug}`} data-cursor-hover className="group block focus-visible-ring">
-            <div className="relative aspect-[4/3] overflow-hidden rounded-2xl">
+            <div className="overflow-hidden rounded-2xl">
               <Image
                 src={post.image}
                 alt={`Casamento registrado no bairro ${post.bairro}, São Paulo`}
                 role="img"
-                fill
+                width={0}
+                height={0}
                 loading="lazy"
                 placeholder="blur"
                 blurDataURL={SHIMMER_BLUR_DATA_URL}
                 sizes="(min-width: 768px) 33vw, 100vw"
-                className="object-cover transition-transform duration-700 ease-out group-hover:scale-110"
+                style={{ width: '100%', height: 'auto' }}
+                className="transition-transform duration-700 ease-out group-hover:scale-110"
               />
               <span className="absolute left-4 top-4 rounded-full bg-blue-accent px-4 py-1.5 font-body text-xs font-semibold uppercase tracking-wide text-white">
                 {post.bairro}

@@ -22,18 +22,19 @@ export default function About() {
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true, margin: '-100px' }}
           transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
-          className="relative aspect-[4/5] w-full max-w-md overflow-hidden rounded-3xl md:justify-self-start"
+          className="w-full max-w-md overflow-hidden rounded-3xl md:justify-self-start"
         >
           <Image
             src="/images/about/ivan-dias-fotografo-retrato.jpg"
             alt="Retrato do fotógrafo Ivan Dias segurando câmera profissional em estúdio"
             role="img"
-            fill
+            width={0}
+            height={0}
             loading="lazy"
             placeholder="blur"
             blurDataURL={SHIMMER_BLUR_DATA_URL}
             sizes="(min-width: 768px) 40vw, 90vw"
-            className="object-cover"
+            style={{ width: '100%', height: 'auto' }}
           />
         </motion.div>
 
