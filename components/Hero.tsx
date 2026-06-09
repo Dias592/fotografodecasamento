@@ -89,9 +89,9 @@ export default function Hero() {
       >
         <motion.span
           variants={itemVariants}
-          className="mb-6 inline-block w-fit rounded-full border border-brown-light/40 px-4 py-1.5 font-body text-xs font-medium uppercase tracking-[0.2em] text-brown-light"
+          className="mb-6 inline-block w-fit rounded-full border border-brown-light/40 px-4 py-1.5 font-body text-[10px] font-medium uppercase tracking-[0.15em] text-brown-light md:text-xs md:tracking-[0.2em]"
         >
-          Fotógrafo de casamento · São Paulo
+          Fotógrafo de casamento · SP
         </motion.span>
 
         <motion.h1
@@ -132,6 +132,25 @@ export default function Hero() {
           >
             WhatsApp
           </a>
+        </motion.div>
+
+        {/* Foto hero visível apenas no mobile */}
+        <motion.div
+          variants={itemVariants}
+          className="mt-10 overflow-hidden rounded-2xl md:hidden"
+        >
+          <Image
+            src="/images/hero/fotografo-casamento-sao-paulo-noivos-igreja-flores.jpg"
+            alt="Noivos se abraçando em frente à igreja decorada com flores durante casamento em São Paulo"
+            width={0}
+            height={0}
+            priority
+            placeholder="blur"
+            blurDataURL={SHIMMER_BLUR_DATA_URL}
+            sizes="100vw"
+            style={{ width: '100%', height: 'auto' }}
+            className="rounded-2xl"
+          />
         </motion.div>
 
         <motion.div
