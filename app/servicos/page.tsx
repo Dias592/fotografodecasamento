@@ -6,15 +6,9 @@ import { getBreadcrumbListSchema } from '@/lib/schema';
 import { services } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Serviços de Fotografia de Casamento',
-  description:
-    'Conheça os serviços de fotografia de casamento de Ivan Dias em São Paulo: cobertura completa, pré-wedding, mini wedding e fotografia aérea com drone.',
-  alternates: { canonical: '/servicos' },
-  openGraph: {
-    title: 'Serviços de Fotografia de Casamento | Ivan Dias',
-    description: 'Cobertura completa, pré-wedding, mini wedding e drone para o seu casamento em São Paulo.',
-    url: '/servicos',
-  },
+  title: 'Serviços | Ivan Dias Fotógrafo de Casamento SP',
+  description: 'Conheça os serviços de Ivan Dias: fotografia de casamento, pré-wedding, mini wedding e ensaios de casal em São Paulo e região.',
+  alternates: { canonical: 'https://www.ivandiasfotografo.com.br/servicos/' },
 };
 
 export default function ServicosPage() {

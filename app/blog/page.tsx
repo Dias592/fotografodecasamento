@@ -6,15 +6,9 @@ import BlogGrid from '@/components/BlogGrid';
 import { posts } from '@/lib/posts';
 
 export const metadata: Metadata = {
-  title: 'Blog',
-  description:
-    'Artigos sobre fotografia de casamento por bairro de São Paulo: Itaim Bibi, Jardins, Moema, Pinheiros, Vila Mariana, Perdizes, Tatuapé e Santana.',
-  alternates: { canonical: '/blog' },
-  openGraph: {
-    title: 'Blog | Ivan Dias Fotografia',
-    description: 'Artigos sobre fotografia de casamento por bairro de São Paulo.',
-    url: '/blog',
-  },
+  title: 'Blog | Dicas de Fotografia de Casamento | Ivan Dias',
+  description: 'Dicas, inspirações e guias sobre fotografia de casamento em São Paulo. Tudo que você precisa saber para escolher o fotógrafo ideal para o seu grande dia.',
+  alternates: { canonical: 'https://www.ivandiasfotografo.com.br/blog/' },
 };
 
 export default function BlogPage() {

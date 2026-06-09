@@ -6,11 +6,9 @@ import { getBreadcrumbListSchema, getPersonSchema } from '@/lib/schema';
 import { SHIMMER_BLUR_DATA_URL } from '@/lib/utils';
 
 export const metadata: Metadata = {
-  title: 'Sobre Ivan Dias',
-  description:
-    'Conheça a trajetória de Ivan Dias, fotógrafo de casamento em São Paulo com mais de 15 anos de experiência e mais de 700 histórias registradas.',
-  alternates: { canonical: '/sobre' },
-  openGraph: { title: 'Sobre Ivan Dias', description: 'Trajetória e estilo do fotógrafo Ivan Dias.', url: '/sobre' },
+  title: 'Sobre Ivan Dias | Fotógrafo de Casamento São Paulo',
+  description: 'Conheça Ivan Dias, fotógrafo de casamento em São Paulo com mais de 15 anos de experiência e 700 casamentos registrados. Uma história de paixão pela fotografia.',
+  alternates: { canonical: 'https://www.ivandiasfotografo.com.br/sobre/' },
 };
 
 const TIMELINE = [
