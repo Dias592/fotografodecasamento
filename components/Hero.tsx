@@ -23,16 +23,18 @@ function Counter({ value, suffix }: { value: number; suffix: string }) {
   useEffect(() => {
     if (!inView) return;
     const duration = 1600;
-    const start = performance.now();
-
-    const tick = (now: number) => {
-      const progress = Math.min((now - start) / duration, 1);
-      const eased = 1 - Math.pow(1 - progress, 3);
-      setCount(Math.round(eased * value));
-      if (progress < 1) requestAnimationFrame(tick);
-    };
-
-    requestAnimationFrame(tick);
+    // aguarda o stagger da animação framer-motion terminar (≈700ms)
+    const timeout = setTimeout(() => {
+      const start = performance.now();
+      const tick = (now: number) => {
+        const progress = Math.min((now - start) / duration, 1);
+        const eased = 1 - Math.pow(1 - progress, 3);
+        setCount(Math.round(eased * value));
+        if (progress < 1) requestAnimationFrame(tick);
+      };
+      requestAnimationFrame(tick);
+    }, 700);
+    return () => clearTimeout(timeout);
   }, [inView, value]);
 
   return (
@@ -82,7 +84,7 @@ export default function Hero() {
         variants={containerVariants}
         initial="hidden"
         animate="visible"
-        className="relative z-10 flex flex-col justify-center px-6 pb-20 pt-10 md:px-16 md:py-0"
+        className="relative z-10 flex flex-col justify-center px-6 pb-36 pt-10 md:px-16 md:pb-28 md:pt-0"
         style={{ gridArea: 'content' }}
       >
         <motion.span
