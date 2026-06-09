@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { Poppins } from 'next/font/google';
+import Script from 'next/script';
 import './globals.css';
 import Navbar from '@/components/Navbar';
 import WhatsAppFloat from '@/components/WhatsAppFloat';
@@ -8,6 +9,8 @@ import LoadingScreen from '@/components/LoadingScreen';
 import PageTransition from '@/components/PageTransition';
 import SchemaOrg from '@/components/SchemaOrg';
 import { getLocalBusinessSchema, getPersonSchema, getWebSiteSchema } from '@/lib/schema';
+
+const GA_ID = 'G-TC1EWQPCY3';
 
 const poppins = Poppins({
   subsets: ['latin'],
@@ -87,6 +90,20 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <PageTransition>{children}</PageTransition>
         </main>
         <WhatsAppFloat />
+
+        {/* Google Analytics GA4 */}
+        <Script
+          src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${GA_ID}');
+          `}
+        </Script>
       </body>
     </html>
   );
