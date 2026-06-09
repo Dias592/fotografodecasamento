@@ -42,6 +42,19 @@ module.exports = {
     };
   },
   robotsTxtOptions: {
-    policies: [{ userAgent: '*', allow: '/' }],
+    policies: [
+      { userAgent: '*', allow: '/' },
+      { userAgent: 'Googlebot', allow: '/' },
+      { userAgent: 'Googlebot-Image', allow: '/' },
+      { userAgent: 'GPTBot', allow: '/' },
+      { userAgent: 'ChatGPT-User', allow: '/' },
+      { userAgent: 'ClaudeBot', allow: '/' },
+      { userAgent: 'PerplexityBot', allow: '/' },
+      { userAgent: 'anthropic-ai', allow: '/' },
+      { userAgent: 'Bingbot', allow: '/' },
+      { userAgent: 'facebookexternalhit', allow: '/' },
+      { userAgent: 'Twitterbot', allow: '/' },
+      { userAgent: 'WhatsApp', allow: '/' },
+    ],
   },
 };
