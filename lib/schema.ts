@@ -17,7 +17,7 @@ export const BAIRROS_ATENDIDOS = [
 export function getLocalBusinessSchema() {
   return {
     '@context': 'https://schema.org',
-    '@type': ['LocalBusiness', 'ProfessionalService'],
+    '@type': ['LocalBusiness', 'PhotographyBusiness'],
     '@id': `${SITE_URL}/#localbusiness`,
     name: 'Ivan Dias Fotógrafo',
     description: 'Fotógrafo de casamento em São Paulo especializado em pré-wedding, mini wedding e destination weddings.',
@@ -27,9 +27,10 @@ export function getLocalBusinessSchema() {
     priceRange: '$$$',
     address: {
       '@type': 'PostalAddress',
+      streetAddress: 'Av. Ibirapuera, 2033',
       addressLocality: 'São Paulo',
       addressRegion: 'SP',
-      postalCode: '01000-000',
+      postalCode: '04029-901',
       addressCountry: 'BR',
     },
     geo: {
@@ -43,6 +44,12 @@ export function getLocalBusinessSchema() {
         dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
         opens: '09:00',
         closes: '18:00',
+      },
+      {
+        '@type': 'OpeningHoursSpecification',
+        dayOfWeek: ['Saturday'],
+        opens: '09:00',
+        closes: '14:00',
       },
     ],
     areaServed: BAIRROS_ATENDIDOS.map((bairro) => ({
@@ -60,6 +67,7 @@ export function getServiceSchema() {
   return {
     '@context': 'https://schema.org',
     '@type': 'Service',
+    name: 'Fotografia de Casamento em São Paulo',
     serviceType: 'Fotografia de Casamento',
     provider: {
       '@type': 'LocalBusiness',
@@ -72,7 +80,7 @@ export function getServiceSchema() {
     },
     offers: {
       '@type': 'Offer',
-      url: `${SITE_URL}/servicos`,
+      url: `${SITE_URL}/servicos/`,
       priceCurrency: 'BRL',
       description: 'Cobertura completa de fotografia de casamento em São Paulo e região.',
     },
@@ -83,7 +91,7 @@ export function getContactPageSchema() {
   return {
     '@context': 'https://schema.org',
     '@type': 'ContactPage',
-    url: `${SITE_URL}/contato`,
+    url: `${SITE_URL}/contato/`,
     mainEntity: {
       '@type': 'Organization',
       name: 'Ivan Dias Fotógrafo',
@@ -176,6 +184,18 @@ export function getPersonSchema() {
       'Pré-wedding',
       'Fotografia aérea com drone',
     ],
+    sameAs: [
+      'https://www.instagram.com/ivandiasfotografo',
+      'https://www.facebook.com/ivandiasfotografo',
+    ],
+    address: {
+      '@type': 'PostalAddress',
+      streetAddress: 'Av. Ibirapuera, 2033',
+      addressLocality: 'São Paulo',
+      addressRegion: 'SP',
+      postalCode: '04029-901',
+      addressCountry: 'BR',
+    },
   };
 }
 
@@ -189,6 +209,14 @@ export function getWebSiteSchema() {
     inLanguage: 'pt-BR',
     publisher: {
       '@id': `${SITE_URL}/#person`,
+    },
+    potentialAction: {
+      '@type': 'SearchAction',
+      target: {
+        '@type': 'EntryPoint',
+        urlTemplate: `${SITE_URL}/?s={search_term_string}`,
+      },
+      'query-input': 'required name=search_term_string',
     },
   };
 }
@@ -241,13 +269,15 @@ export function getArticleSchema(options: {
     publisher: {
       '@id': `${SITE_URL}/#person`,
     },
+    image: `${SITE_URL}/images/hero/fotografo-casamento-sao-paulo-noivos-abraco.jpg`,
+    url: `${SITE_URL}/blog/${options.slug}/`,
     about: {
       '@type': 'Place',
       name: options.bairro,
     },
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id': `${SITE_URL}/blog/${options.slug}`,
+      '@id': `${SITE_URL}/blog/${options.slug}/`,
     },
   };
 }
