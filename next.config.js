@@ -6,6 +6,7 @@ const nextConfig = {
   reactStrictMode: true,
   output: 'export',
   trailingSlash: true,
+  compress: true,
   basePath: isGithubPages ? `/${repo}` : '',
   assetPrefix: isGithubPages ? `/${repo}/` : '',
   images: {
@@ -17,8 +18,16 @@ const nextConfig = {
       },
     ],
   },
-  webpack: (config) => {
+  // Reduzir JS legado — apenas browsers modernos
+  experimental: {
+    optimizePackageImports: ['framer-motion'],
+  },
+  webpack: (config, { dev }) => {
     config.resolve.symlinks = false;
+    // Tree-shaking mais agressivo em produção
+    if (!dev) {
+      config.optimization.usedExports = true;
+    }
     return config;
   },
 };

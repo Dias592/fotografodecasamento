@@ -1,14 +1,17 @@
 import type { Metadata } from 'next';
+import dynamic from 'next/dynamic';
 import Hero from '@/components/Hero';
 import IntroMarquee from '@/components/IntroMarquee';
 import About from '@/components/About';
-import Portfolio from '@/components/Portfolio';
-import Services from '@/components/Services';
-import Testimonials from '@/components/Testimonials';
-import BlogGrid from '@/components/BlogGrid';
-import FinalCTA from '@/components/FinalCTA';
-import Footer from '@/components/Footer';
 import { posts } from '@/lib/posts';
+
+// Componentes abaixo do fold — carregados de forma lazy (code splitting)
+const Portfolio = dynamic(() => import('@/components/Portfolio'), { ssr: true });
+const Services = dynamic(() => import('@/components/Services'), { ssr: true });
+const Testimonials = dynamic(() => import('@/components/Testimonials'), { ssr: true });
+const BlogGrid = dynamic(() => import('@/components/BlogGrid'), { ssr: true });
+const FinalCTA = dynamic(() => import('@/components/FinalCTA'), { ssr: true });
+const Footer = dynamic(() => import('@/components/Footer'), { ssr: true });
 
 export const metadata: Metadata = {
   title: 'Ivan Dias | Fotógrafo de Casamento em São Paulo',

@@ -8,6 +8,9 @@ export default function CustomCursor() {
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
+    // Não executar em dispositivos touch (mobile/tablet)
+    if (window.matchMedia('(pointer: coarse)').matches) return;
+
     const cursor = cursorRef.current;
     if (!cursor) return;
 

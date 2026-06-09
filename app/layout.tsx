@@ -86,6 +86,15 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="pt-BR" className={poppins.variable}>
+      <head>
+        {/* Preload da imagem LCP (hero) para mobile e desktop */}
+        <link
+          rel="preload"
+          as="image"
+          href="/images/hero/fotografo-casamento-sao-paulo-noivos-igreja-flores.jpg"
+          fetchPriority="high"
+        />
+      </head>
       <body className="font-body antialiased">
         <SchemaOrg schema={[
           getLocalBusinessSchema(),
