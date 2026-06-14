@@ -113,7 +113,7 @@ export default function Portfolio() {
 
         <div className="mt-14 flex justify-center">
           <Link
-            href="/portfolio"
+            href="/portfolio/"
             data-cursor-hover
             className="rounded-full border border-cream/30 px-8 py-4 font-body text-sm font-semibold uppercase tracking-wide text-cream transition-colors hover:bg-cream/10 focus-visible-ring"
           >

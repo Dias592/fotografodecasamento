@@ -34,7 +34,7 @@ export default function ServicosPage() {
             {services.map((service, index) => (
               <Link
                 key={service.id}
-                href={`/servicos/${service.slug}`}
+                href={`/servicos/${service.slug}/`}
                 data-cursor-hover
                 className={`group relative overflow-hidden rounded-3xl border border-blue-deep/10 bg-white p-8 transition-transform duration-500 hover:scale-[1.02] focus-visible-ring md:p-10 ${
                   index % 2 === 1 ? 'md:translate-y-10' : ''

@@ -116,7 +116,7 @@ export default function Hero() {
 
         <motion.div variants={itemVariants} className="mt-10 flex flex-wrap items-center gap-4">
           <Link
-            href="/portfolio"
+            href="/portfolio/"
             data-cursor-hover
             className="rounded-full bg-cream px-8 py-4 font-body text-sm font-semibold uppercase tracking-wide text-blue-deep transition-transform hover:scale-105 focus-visible-ring"
           >

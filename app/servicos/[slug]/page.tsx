@@ -70,7 +70,7 @@ export default function ServicoPage({ params }: Props) {
               <ol className="flex flex-wrap items-center gap-2">
                 <li><Link href="/" className="hover:text-blue-accent">Início</Link></li>
                 <li aria-hidden="true">/</li>
-                <li><Link href="/servicos" className="hover:text-blue-accent">Serviços</Link></li>
+                <li><Link href="/servicos/" className="hover:text-blue-accent">Serviços</Link></li>
                 <li aria-hidden="true">/</li>
                 <li className="text-blue-deep/80" aria-current="page">{service.title}</li>
               </ol>
@@ -142,7 +142,7 @@ export default function ServicoPage({ params }: Props) {
               .map((item) => (
                 <Link
                   key={item.id}
-                  href={`/servicos/${item.slug}`}
+                  href={`/servicos/${item.slug}/`}
                   data-cursor-hover
                   className="rounded-full border border-blue-deep/15 px-6 py-3 font-body text-sm font-medium text-blue-deep transition-colors hover:bg-blue-deep hover:text-cream focus-visible-ring"
                 >

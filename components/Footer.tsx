@@ -43,7 +43,7 @@ export default function Footer() {
             {services.map((service) => (
               <li key={service.id}>
                 <Link
-                  href={`/servicos/${service.slug}`}
+                  href={`/servicos/${service.slug}/`}
                   className="font-body text-sm text-cream/60 transition-colors hover:text-cream focus-visible-ring"
                 >
                   {service.title}
@@ -61,7 +61,7 @@ export default function Footer() {
             {posts.slice(0, 6).map((post) => (
               <li key={post.slug}>
                 <Link
-                  href={`/blog/${post.slug}`}
+                  href={`/blog/${post.slug}/`}
                   className="font-body text-sm text-cream/60 transition-colors hover:text-cream focus-visible-ring"
                 >
                   {post.bairro}
@@ -88,7 +88,7 @@ export default function Footer() {
             </li>
             <li>São Paulo · SP · Brasil</li>
             <li>
-              <Link href="/contato" className="font-semibold text-brown-light transition-colors hover:text-cream focus-visible-ring">
+              <Link href="/contato/" className="font-semibold text-brown-light transition-colors hover:text-cream focus-visible-ring">
                 Fale comigo →
               </Link>
             </li>

@@ -5,11 +5,11 @@ import { useEffect, useState } from 'react';
 import { motion, useMotionValueEvent, useScroll } from 'framer-motion';
 
 const NAV_LINKS = [
-  { href: '/sobre', label: 'Sobre' },
-  { href: '/servicos', label: 'Serviços' },
-  { href: '/portfolio', label: 'Portfólio' },
-  { href: '/blog', label: 'Blog' },
-  { href: '/contato', label: 'Contato' },
+  { href: '/sobre/', label: 'Sobre' },
+  { href: '/servicos/', label: 'Serviços' },
+  { href: '/portfolio/', label: 'Portfólio' },
+  { href: '/blog/', label: 'Blog' },
+  { href: '/contato/', label: 'Contato' },
 ];
 
 const WHATSAPP_URL =

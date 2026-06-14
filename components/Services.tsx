@@ -86,7 +86,7 @@ export default function Services() {
                 <p className="mt-3 font-body text-base text-blue-deep/65">{service.shortDescription}</p>
 
                 <Link
-                  href={`/servicos/${service.slug}`}
+                  href={`/servicos/${service.slug}/`}
                   data-cursor-hover
                   aria-label={`Saiba mais sobre o serviço ${service.title}`}
                   className="mt-6 inline-flex items-center gap-2 font-body text-sm font-semibold uppercase tracking-wide text-blue-accent transition-colors hover:text-brown-warm focus-visible-ring"

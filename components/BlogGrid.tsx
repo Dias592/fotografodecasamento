@@ -19,7 +19,7 @@ export default function BlogGrid({ posts, limit }: { posts: Post[]; limit?: numb
           viewport={{ once: true, margin: '-80px' }}
           transition={{ duration: 0.6, delay: index * 0.1, ease: [0.22, 1, 0.36, 1] }}
         >
-          <Link href={`/blog/${post.slug}`} data-cursor-hover className="group block focus-visible-ring">
+          <Link href={`/blog/${post.slug}/`} data-cursor-hover className="group block focus-visible-ring">
             <div className="relative overflow-hidden rounded-2xl">
               <Image
                 src={post.image}
