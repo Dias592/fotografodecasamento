@@ -4436,6 +4436,600 @@ export const posts: Post[] = [
       },
     ],
   },
+  {
+    slug: 'fotografo-mini-wedding-sp-pacote-casamento-intimo',
+    bairro: 'Mini Wedding Pacotes',
+    title: 'Fotógrafo para Mini Wedding SP: Como Adaptar o Pacote Para Casamentos Íntimos',
+    description:
+      'Fotógrafo para mini wedding em São Paulo: veja como adaptar o pacote de cobertura fotográfica para casamentos íntimos sem perder qualidade.',
+    excerpt:
+      'Menos convidados, mesma qualidade: veja como adaptar o pacote de fotografia para um mini wedding íntimo em São Paulo.',
+    date: '2026-08-23',
+    image: '/images/galeria/festa/casamento-sao-paulo-festa-01.jpg',
+    faq: [
+      {
+        question: 'Quais itens do pacote de casamento podem ser cortados no mini wedding?',
+        answer:
+          'No mini wedding, é possível reduzir: número de fotógrafos (de 2 para 1 em eventos menores), horas de cobertura, tamanho do álbum impresso e número de mini-álbuns para família. O que não deve ser cortado: qualidade do equipamento, backup de arquivos e qualidade da edição.',
+      },
+      {
+        question: 'Drone vale a pena em mini wedding?',
+        answer:
+          'Depende do espaço. Em mini weddings ao ar livre em fazendas, jardins ou praias, o drone agrega valor visual significativo. Em espaços urbanos fechados ou com restrições, não há como usar. Avalie custo x benefício com o fotógrafo antes de incluir.',
+      },
+      {
+        question: 'Mini wedding pode ter Same Day Edit?',
+        answer:
+          'Pode, mas é menos comum. O Same Day Edit é mais impactante em casamentos com muitos convidados, onde a exibição durante a festa gera emoção coletiva. Em mini weddings com 20 a 30 pessoas, o efeito existe, mas o investimento pode não compensar. Converse com o fotógrafo sobre a melhor opção.',
+      },
+      {
+        question: 'Qual o número ideal de convidados para um mini wedding em SP?',
+        answer:
+          'Mini weddings em SP costumam ter entre 15 e 50 convidados. Abaixo de 20 pessoas, alguns chamam de elopement wedding. Acima de 80 pessoas, o evento já se aproxima de um casamento tradicional em termos de estrutura e cobertura fotográfica necessária.',
+      },
+    ],
+  },
+  {
+    slug: 'mini-wedding-ou-casamento-completo-melhores-fotos',
+    bairro: 'Mini Wedding x Casamento',
+    title: 'Mini Wedding ou Casamento Completo: Qual Tem as Melhores Fotos? Guia Honesto',
+    description:
+      'Mini wedding ou casamento completo: qual formato tem as melhores fotos em São Paulo? Veja a comparação honesta sobre estilo, volume e emoção das imagens.',
+    excerpt:
+      'Mini wedding ou casamento tradicional: qual entrega fotos mais marcantes? Veja a comparação honesta para casais em São Paulo.',
+    date: '2026-08-25',
+    image: '/images/galeria/festa/casamento-sao-paulo-festa-02.jpg',
+    faq: [
+      {
+        question: 'Fotos de mini wedding são tão boas quanto as de casamento tradicional?',
+        answer:
+          'Em muitos casos, as fotos de mini wedding são mais emocionais e pessoais. Com menos convidados e um ritmo mais tranquilo, o fotógrafo tem mais tempo e liberdade para capturar detalhes, retratos e momentos íntimos. Não é uma questão de qualidade, mas de quantidade e estilo de imagens.',
+      },
+      {
+        question: 'Qual o número mínimo de fotos entregue em um mini wedding?',
+        answer:
+          'Um mini wedding de 4 a 6 horas com um fotógrafo geralmente resulta em 200 a 500 fotos tratadas. Casamentos completos de 10 a 12 horas com dois fotógrafos entregam entre 500 e 1.200 fotos. O volume menor do mini wedding não significa qualidade inferior — apenas escopo diferente.',
+      },
+      {
+        question: 'Mini wedding tem álbum fotográfico impresso?',
+        answer:
+          'Pode ter sim. Muitos pacotes de mini wedding oferecem álbum menor (20x20 cm, 30 páginas) como alternativa ao álbum grande de casamento completo. Alguns casais preferem investir o valor do álbum em uma sessão de pré-wedding ou pós-casamento mais elaborada.',
+      },
+      {
+        question: 'Para casal tímido, mini wedding ou casamento grande é melhor para as fotos?',
+        answer:
+          'Mini wedding tende a ser melhor para casais tímidos. Com menos pessoas olhando, o ambiente é mais relaxado e o fotógrafo tem mais tempo para colocar o casal à vontade. Casamentos grandes têm mais distração e pressão de tempo, o que pode dificultar sessões de retratos mais naturais.',
+      },
+    ],
+  },
+  {
+    slug: 'mini-wedding-em-casa-sp-fotografia',
+    bairro: 'Mini Wedding em Casa',
+    title: 'Mini Wedding em Casa em SP: Como Fotografar Casamentos Íntimos com Resultado de Alta Qualidade',
+    description:
+      'Mini wedding em casa em São Paulo: veja como o fotógrafo lida com iluminação e espaço para garantir fotos de alta qualidade em casamentos íntimos.',
+    excerpt:
+      'Casar em casa em SP? Veja como o fotógrafo se prepara para garantir fotos de alta qualidade em um mini wedding íntimo.',
+    date: '2026-08-27',
+    image: '/images/galeria/festa/casamento-sao-paulo-festa-03.jpg',
+    faq: [
+      {
+        question: 'Qual o maior desafio de fotografar um casamento em casa em SP?',
+        answer:
+          'Iluminação é o maior desafio. Casas comuns têm luz artificial mista e nem sempre favorável para fotografia. Um fotógrafo experiente chegará com antecedência para avaliar os ambientes, posicionar equipamentos de iluminação suave e identificar as melhores áreas para retratos e cobertura.',
+      },
+      {
+        question: 'Que tipo de casa é mais adequada para mini wedding com fotógrafo profissional?',
+        answer:
+          'Casas com janelas grandes (luz natural abundante), jardim ou quintal, pé-direito alto e ambientes integrados produzem os melhores resultados. Apartamentos também funcionam bem se tiverem varanda, sala ampla e boa iluminação. O fotógrafo pode visitar o espaço antes para planejar.',
+      },
+      {
+        question: 'O fotógrafo precisa visitar a casa antes do casamento em SP?',
+        answer:
+          'Para casamentos em casa, uma visita prévia do fotógrafo é muito recomendada. Ela permite avaliar a luz natural em diferentes horários, identificar os melhores cantos para retratos, mapear o layout para a cobertura e antecipar eventuais problemas técnicos como falta de tomadas ou espaço restrito.',
+      },
+      {
+        question: 'Mini wedding em apartamento é possível em SP?',
+        answer:
+          'Sim, e está cada vez mais comum em SP. Apartamentos com sala ampla, varanda ou terraço funcionam muito bem. O ideal é que o espaço tenha capacidade confortável para os convidados e área para o fotógrafo se movimentar. Ambientes compactos demais podem limitar os ângulos e a mobilidade durante a cobertura.',
+      },
+    ],
+  },
+  {
+    slug: 'fotografia-casamento-civil-sp-fotos-inesqueciveis',
+    bairro: 'Casamento Civil',
+    title: 'Fotografia de Casamento Civil SP: Como Tornar as Fotos do Cartório Inesquecíveis',
+    description:
+      'Fotografia de casamento civil em São Paulo: dicas para tornar as fotos do cartório inesquecíveis, do visual ao melhor horário para a sessão.',
+    excerpt:
+      'Dicas para transformar as fotos do casamento civil em São Paulo em registros inesquecíveis, do look ao horário ideal.',
+    date: '2026-08-29',
+    image: '/images/galeria/festa/casamento-sao-paulo-festa-04.jpg',
+    faq: [
+      {
+        question: 'Como preparar o visual para ter boas fotos no casamento civil?',
+        answer:
+          'Vista-se de forma significativa para você — não precisa ser vestido de noiva tradicional, mas algo que represente a ocasião. Considere buquê de flores, um terno ou blazer especial. Combine com antecedência com o fotógrafo sobre o estilo de imagens desejado para orientar as poses e a locação.',
+      },
+      {
+        question: 'Qual o melhor horário para fotos de casamento civil em cartório em SP?',
+        answer:
+          'A maioria dos cartórios realiza casamentos civis pela manhã. Se possível, planeje para as primeiras horas — a luz natural é mais suave e o ambiente ainda está calmo. Para a sessão externa pós-cartório, a tarde com golden hour produz imagens especialmente bonitas.',
+      },
+      {
+        question: 'É possível fazer sessão de pré-wedding no mesmo dia do casamento civil em SP?',
+        answer:
+          'Sim, e é uma combinação popular. O casal faz o cartório pela manhã e aproveita a tarde para uma sessão de fotos em um local especial — um parque, jardim, ou bairro com significado para os dois. É um jeito econômico e prático de ter fotos bonitas sem precisar de um segundo dia de produção.',
+      },
+      {
+        question: 'Quais cartórios de SP têm espaço mais bonito para fotos?',
+        answer:
+          'Alguns cartórios de SP têm salas bem decoradas e iluminação favorável para fotos. Vale perguntar ao cartório antes da cerimônia como é o espaço e se há restrições para fotógrafo. Cartórios em bairros como Jardins, Pinheiros e Perdizes costumam ter ambientes mais cuidados esteticamente.',
+      },
+    ],
+  },
+  {
+    slug: 'quanto-custa-ensaio-pre-wedding-sp-2026',
+    bairro: 'Preços Pré-Wedding',
+    title: 'Quanto Custa um Ensaio Pré-Wedding em SP em 2026? Preços Reais Revelados',
+    description:
+      'Quanto custa um ensaio pré-wedding em São Paulo em 2026? Veja preços reais, o que está incluso e como conseguir descontos.',
+    excerpt:
+      'Preços reais de pré-wedding em São Paulo em 2026: o que está incluso, quando vale pagar mais e como conseguir desconto.',
+    date: '2026-08-31',
+    image: '/images/galeria/pre-wedding/casamento-sao-paulo-pre-wedding-01.jpg',
+    faq: [
+      {
+        question: 'O preço do pré-wedding inclui álbum impresso?',
+        answer:
+          'Depende do pacote. Alguns fotógrafos incluem álbum no pré-wedding, outros entregam apenas as fotos digitais tratadas. Álbuns adicionam entre R$ 800 e R$ 3.000 ao valor, dependendo do tamanho e da qualidade de impressão. Pergunte sempre o que está incluso antes de comparar preços.',
+      },
+      {
+        question: 'É mais caro fazer pré-wedding fora de São Paulo?',
+        answer:
+          'Sim. Sessões em outras cidades ou na praia geralmente incluem taxa de deslocamento e hospedagem do fotógrafo, adicionando R$ 300 a R$ 1.500 ao custo, dependendo da distância. Algumas pessoas preferem ir ao litoral (Guarujá, Ubatuba) pela beleza das imagens, mesmo com o custo adicional.',
+      },
+      {
+        question: 'Faz diferença contratar o mesmo fotógrafo do casamento para o pré-wedding?',
+        answer:
+          'Sim, faz muita diferença. O pré-wedding com o mesmo fotógrafo do casamento funciona como um aquecimento: o casal aprende a se relacionar com a câmera, o fotógrafo descobre o que funciona melhor para cada um e o resultado no dia do casamento é visivelmente mais natural e espontâneo.',
+      },
+      {
+        question: 'Há desconto se contratar pré-wedding junto com o pacote de casamento?',
+        answer:
+          'A maioria dos fotógrafos oferece preço especial quando o pré-wedding é contratado junto com o casamento — descontos de 10% a 20% são comuns. Alguns incluem o pré-wedding como bônus em pacotes mais completos. Vale sempre perguntar sobre essa possibilidade na primeira conversa.',
+      },
+    ],
+  },
+  {
+    slug: 'melhores-lugares-pre-wedding-sao-paulo',
+    bairro: 'Locações Pré-Wedding',
+    title: 'Os Melhores Lugares Para Ensaio Pré-Wedding em São Paulo: Urbano, Verde e Histórico',
+    description:
+      'Os melhores lugares para ensaio pré-wedding em São Paulo: parques, bairros históricos e locações urbanas que valorizam as fotos do casal.',
+    excerpt:
+      'Parques, museus e bairros históricos: descubra os melhores lugares de São Paulo para um ensaio de pré-wedding marcante.',
+    date: '2026-09-02',
+    image: '/images/galeria/pre-wedding/casamento-sao-paulo-pre-wedding-02.jpg',
+    faq: [
+      {
+        question: 'Parque Ibirapuera permite ensaio fotográfico de casamento?',
+        answer:
+          'O Parque Ibirapuera é um dos locais mais usados para pré-wedding em SP. Para fotos pessoais do casal sem fins comerciais, a entrada é livre. Para uso do material em campanhas publicitárias ou no portfólio do fotógrafo, pode ser necessária autorização da gestão do parque.',
+      },
+      {
+        question: 'Quais bairros de SP têm as locações mais fotogênicas para pré-wedding?',
+        answer:
+          'Vila Madalena (grafites e ruelas), Jardins (arquitetura sofisticada), Centro Histórico (arte e história), Pinheiros (modernismo e charme), Liberdade (cultura japonesa e lanternas) e Bela Vista (Bixiga italiano) são os bairros mais usados. Cada um oferece uma identidade visual única.',
+      },
+      {
+        question: 'É possível fazer pré-wedding dentro de museu ou galeria em SP?',
+        answer:
+          'Sim, mas requer autorização prévia do local. O MASP, a Pinacoteca, o Instituto Moreira Salles e o MIS são opções incríveis e cada vez mais procuradas para sessões diferenciadas. Algumas instituições cobram cachê para uso do espaço para fins fotográficos.',
+      },
+      {
+        question: 'Quais parques além do Ibirapuera são bons para pré-wedding em SP?',
+        answer:
+          'Além do Ibirapuera, o Parque Trianon (no coração da Av. Paulista), o Parque da Aclimação (Vila Mariana), o Parque Villa-Lobos (Alto de Pinheiros) e o Horto Florestal (Zona Norte) são ótimas opções. Cada um tem uma atmosfera diferente: do mais sofisticado ao mais natural e selvagem.',
+      },
+    ],
+  },
+  {
+    slug: 'pre-wedding-guaruja-litoral-sp',
+    bairro: 'Pré-Wedding no Litoral',
+    title: 'Pré-Wedding no Guarujá e Litoral de SP: Dicas de Locação, Melhor Época e O Que Esperar',
+    description:
+      'Pré-wedding no Guarujá e litoral de SP: dicas de locação, melhor época para o ensaio e o que levar em conta para fotos na praia.',
+    excerpt:
+      'Guarujá, Maresias, Ubatuba ou Ilhabela? Veja dicas para escolher a praia ideal para o seu pré-wedding no litoral de SP.',
+    date: '2026-09-04',
+    image: '/images/galeria/pre-wedding/casamento-sao-paulo-pre-wedding-03.jpg',
+    faq: [
+      {
+        question: 'Guarujá é boa opção para pré-wedding em SP?',
+        answer:
+          'Sim. Guarujá é a opção mais acessível do litoral paulista (cerca de 85 km de SP), com praias bonitas como Enseada, Tombo e Pereque. Por ser mais próximo, o custo de deslocamento do fotógrafo é menor e é possível fazer a sessão e voltar no mesmo dia.',
+      },
+      {
+        question: 'Quando evitar o Guarujá para ensaio pré-wedding?',
+        answer:
+          'Evite feriados prolongados, Carnaval e verão intenso (dezembro a fevereiro), quando as praias ficam lotadas e o trânsito na Via Anchieta e Imigrantes é crítico. Os meses de abril a outubro oferecem praia mais tranquila, luz suave e menos aglomeração — ideal para fotos.',
+      },
+      {
+        question: 'Além do Guarujá, quais outras praias do litoral paulista são boas para pré-wedding?',
+        answer:
+          'Maresias e São Sebastião são ótimas para casais que querem praia menos movimentada e com mar mais verde. Ubatuba tem as praias mais selvagens e cercadas de Mata Atlântica — perfeita para fotos com natureza exuberante. Ilhabela é a mais exclusiva e romântica, mas também a mais cara por exigir balsa.',
+      },
+      {
+        question: 'O que usar no pré-wedding na praia?',
+        answer:
+          'Para pré-wedding na praia, looks fluidos funcionam muito bem: vestidos longos com movimento, calça de linho clara para ele. Evite roupas muito formais (dificulta movimentação na areia) e cores muito escuras sob sol forte. Acessórios como chapéu de palha e cesto adicionam charme ao estilo praiano.',
+      },
+    ],
+  },
+  {
+    slug: 'pre-wedding-urbano-sao-paulo-locacoes',
+    bairro: 'Pré-Wedding Urbano',
+    title: 'Pré-Wedding Urbano em São Paulo: Locações nas Ruas da Cidade que Impressionam',
+    description:
+      'Pré-wedding urbano em São Paulo: conheça as locações nas ruas da cidade que mais impressionam, do dia à noite.',
+    excerpt:
+      'Grafites, viadutos e luzes da cidade: veja as melhores locações urbanas de São Paulo para um pré-wedding cheio de personalidade.',
+    date: '2026-09-06',
+    image: '/images/galeria/pre-wedding/casamento-sao-paulo-pre-wedding-04.jpg',
+    faq: [
+      {
+        question: 'Por que fazer pré-wedding urbano em São Paulo?',
+        answer:
+          'SP tem uma identidade visual única que não existe em mais lugar nenhum do Brasil: grafites gigantes, arquitetura modernista, pontes iluminadas, vielas históricas e contraste entre o antigo e o moderno. Casais que amam a cidade e querem fotos que contem sua história encontram no pré-wedding urbano algo genuíno e único.',
+      },
+      {
+        question: 'Pré-wedding urbano pode ser feito à noite em SP?',
+        answer:
+          'Sim e é um dos estilos mais fascinantes. As luzes da cidade à noite criam um visual cinematográfico único. Locações como a Av. Paulista iluminada, Parque Trianon, Viaduto do Chá e regiões como a Consolação e Santa Cecília ganham um charme especial após o anoitecer.',
+      },
+      {
+        question: 'Quais ruas e locações urbanas de SP são mais usadas para pré-wedding?',
+        answer:
+          'As locações mais buscadas para pré-wedding urbano em SP são: Beco do Batman e ruelas da Vila Madalena, escadarias do Bixiga, Viaduto do Chá com vista do Vale do Anhangabaú, ruas arborizadas dos Jardins, fachada do MASP na Paulista, arcos históricos do Centro e o bairro da Liberdade.',
+      },
+      {
+        question: 'Precisa de permissão para fazer pré-wedding em locações públicas urbanas de SP?',
+        answer:
+          'Para fotos de uso pessoal em espaços públicos, normalmente não há obrigatoriedade de permissão. Para uso comercial (divulgação pelo fotógrafo como portfólio), algumas locações com obras de arte urbana protegidas podem exigir autorização. Fotógrafos experientes já conhecem as regras de cada locação.',
+      },
+    ],
+  },
+  {
+    slug: 'pre-wedding-ou-ensaio-pos-casamento-sp',
+    bairro: 'Pré ou Pós-Wedding',
+    title: 'Pré-Wedding ou Ensaio Pós-Casamento: Qual Escolher em SP?',
+    description:
+      'Pré-wedding ou ensaio pós-casamento em São Paulo: entenda as diferenças, vantagens de cada formato e quanto custa o after session.',
+    excerpt:
+      'Pré-wedding ou after session? Veja as diferenças entre os dois formatos de ensaio de casal e qual escolher em São Paulo.',
+    date: '2026-09-08',
+    image: '/images/galeria/pre-wedding/casamento-sao-paulo-pre-wedding-05.jpg',
+    faq: [
+      {
+        question: 'O que é ensaio pós-casamento (after session)?',
+        answer:
+          'O after session ou pós-wedding é uma sessão de fotos realizada após o casamento, com o casal ainda usando vestido e terno ou traje social. A vantagem é que o casal está mais relaxado — o nervosismo do grande dia já passou — e as fotos tendem a ser mais naturais e emocionais.',
+      },
+      {
+        question: 'Vale mais a pena fazer pré-wedding ou pós-wedding?',
+        answer:
+          'Pré-wedding é mais popular porque os casais aproveitam as imagens para decoração, convites e redes sociais antes do casamento. O pós-wedding é ideal para quem não teve tempo ou oportunidade antes e quer uma sessão mais relaxada. Não há resposta certa — depende do momento e dos objetivos do casal.',
+      },
+      {
+        question: 'O pós-wedding pode ser em locação diferente do casamento?',
+        answer:
+          'Sim. O after session é uma nova sessão independente do evento. Casais costumam escolher locações especiais: a praia onde se conheceram, o bairro onde moram, um lugar com significado afetivo. Em SP, é comum usar o pós-wedding para explorar locações que não eram possíveis no dia do casamento.',
+      },
+      {
+        question: 'Quanto custa um after session (pós-wedding) em São Paulo?',
+        answer:
+          'Os preços de after session em SP são semelhantes aos do pré-wedding: de R$ 1.200 a R$ 4.500, dependendo do fotógrafo, duração e locação. Casais que já contrataram o mesmo fotógrafo para o casamento costumam ter condições especiais de preço para o pós-wedding.',
+      },
+    ],
+  },
+  {
+    slug: 'pre-wedding-jardim-botanico-sao-paulo',
+    bairro: 'Pré-Wedding Jardim Botânico',
+    title: 'Ensaio Pré-Wedding no Jardim Botânico de São Paulo: Guia Completo Para Casais',
+    description:
+      'Pré-wedding no Jardim Botânico de São Paulo: regras de acesso, melhor estação para fotos e outras opções de jardins na cidade.',
+    excerpt:
+      'Tudo sobre fazer um ensaio de pré-wedding no Jardim Botânico de São Paulo, da autorização à melhor estação do ano.',
+    date: '2026-09-10',
+    image: '/images/galeria/pre-wedding/casamento-sao-paulo-pre-wedding-06.jpg',
+    faq: [
+      {
+        question: 'O Jardim Botânico de SP permite sessão de pré-wedding?',
+        answer:
+          'O Instituto de Botânica (Jardim Botânico) de São Paulo tem regras específicas para sessões fotográficas. Visitas comuns permitem fotos pessoais, mas sessões com fins comerciais ou divulgação do fotógrafo geralmente requerem autorização e pagamento de taxa ao instituto. Confirme diretamente com a administração antes de agendar.',
+      },
+      {
+        question: 'Qual a melhor estação para fotos no Jardim Botânico de SP?',
+        answer:
+          'A primavera (setembro a novembro) é a melhor época, quando muitas espécies florescem e a vegetação está exuberante. O outono (março a maio) também oferece cores bonitas e temperatura amena. Evite o verão pela chuva frequente e o inverno pela vegetação mais seca.',
+      },
+      {
+        question: 'Há outras opções de jardins botânicos ou similares em SP para pré-wedding?',
+        answer:
+          'Sim. O Horto Florestal (Zona Norte) tem uma atmosfera de mata atlântica densa e muito fotogênica. O Parque Estadual da Cantareira é ideal para fotos entre árvores altas. O Jardim Botânico de Santo André, no ABC, é menos conhecido e com menos movimento — ótimo para quem quer exclusividade.',
+      },
+      {
+        question: 'O Jardim Botânico de SP fica perto de outros pontos turísticos para sequência de locações?',
+        answer:
+          'Sim. O Jardim Botânico fica próximo ao Parque Estadual das Fontes do Ipiranga e ao Museu do Ipiranga — opções excelentes para uma sequência de locações no mesmo dia. Também é relativamente próximo ao Parque Ibirapuera, que fica a cerca de 10 minutos de carro.',
+      },
+    ],
+  },
+  {
+    slug: 'ensaio-casal-pos-casamento-sp-tendencia',
+    bairro: 'After Session',
+    title: 'Ensaio de Casal Após o Casamento em SP: Por Que Cada Vez Mais Casais Estão Fazendo',
+    description:
+      'Ensaio de casal após o casamento em São Paulo: entenda por que o after session está em alta e qual o prazo ideal para fazer.',
+    excerpt:
+      'Sem pressa e sem nervosismo: veja por que cada vez mais casais em São Paulo estão fazendo ensaios após o casamento.',
+    date: '2026-09-12',
+    image: '/images/galeria/pre-wedding/casamento-sao-paulo-pre-wedding-07.jpg',
+    faq: [
+      {
+        question: 'Por que fazer ensaio de casal após o casamento?',
+        answer:
+          'Muitos casais relatam que, no dia do casamento, estavam tão nervosos que não conseguiram aproveitar bem a sessão de fotos. O pós-wedding resolve isso: sem pressão de horários, com roupa ainda de noiva e noivo, o casal se solta mais e as fotos ficam mais naturais e espontâneas.',
+      },
+      {
+        question: 'É possível usar o vestido de noiva no ensaio pós-casamento?',
+        answer:
+          'Sim, e muitos casais fazem justamente isso — especialmente os que queriam fotos mais elaboradas mas não tiveram tempo no dia. Alguns casais até propositalmente guardam o vestido para uma sessão after session em um lugar especial, como uma praia ou viagem de lua de mel.',
+      },
+      {
+        question: 'Ensaio pós-casamento pode ser feito na lua de mel?',
+        answer:
+          'Sim, e é uma tendência crescente. Casais aproveitam destinos da lua de mel — Gramado, Maldivas, Portugal, Paris — para uma sessão de fotos com o fotógrafo contratado em SP ou com um fotógrafo local no destino. As imagens ficam com um contexto único e memorável.',
+      },
+      {
+        question: 'Qual o prazo ideal para fazer o ensaio pós-casamento?',
+        answer:
+          'O ideal é fazer nos primeiros 3 a 6 meses após o casamento, enquanto o vestido ainda está em boas condições e o casal ainda tem facilidade para relembrar as emoções do grande dia. Após 1 ano, o after session também é possível e pode coincidir com o aniversário de casamento.',
+      },
+    ],
+  },
+  {
+    slug: 'ensaio-gestante-sao-paulo-casamento-pre-wedding',
+    bairro: 'Ensaio Gestante',
+    title: 'Ensaio Gestante em São Paulo: Como Integrar a Jornada do Casamento e Pré-Wedding',
+    description:
+      'Ensaio gestante em São Paulo: melhor momento da gravidez para fotografar, preços e como integrar com o pré-wedding e o casamento.',
+    excerpt:
+      'Do pré-wedding ao ensaio gestante: veja como continuar a história do casal em fotos durante a gravidez em São Paulo.',
+    date: '2026-09-14',
+    image: '/images/galeria/pre-wedding/casamento-sao-paulo-pre-wedding-08.jpg',
+    faq: [
+      {
+        question: 'Qual o melhor momento para fazer ensaio gestante em SP?',
+        answer:
+          'O período ideal para ensaio gestante é entre a 28ª e 34ª semana de gestação: a barriga já está proeminente e fotogênica, mas a futura mamãe ainda tem boa mobilidade e energia. Evitar o final da gravidez (últimas 4 semanas) é recomendável por questões de conforto e imprevisibilidade.',
+      },
+      {
+        question: 'Casais que já fizeram pré-wedding podem usar o mesmo fotógrafo para o ensaio gestante?',
+        answer:
+          'Sim, e isso tem uma vantagem enorme: o fotógrafo já conhece o casal, sabe o que funciona bem para cada um, e os dois se sentem à vontade. A continuidade cria uma narrativa visual bonita: o casal noivo, casamento, bebê a caminho.',
+      },
+      {
+        question: 'Quanto custa ensaio gestante em SP?',
+        answer:
+          'Ensaios gestantes em SP variam de R$ 900 a R$ 3.500, dependendo do fotógrafo, duração, locação (estúdio ou externo) e produtos inclusos. Fotógrafos que também fotografam casamentos geralmente têm pacotes de ensaio gestante bem estruturados.',
+      },
+      {
+        question: 'Ensaio gestante pode ser feito em estúdio ou só em locação externa?',
+        answer:
+          'Pode ser feito nos dois formatos. Ensaio em estúdio oferece controle total de iluminação e temperatura — mais confortável para a gestante. Ensaio externo em parques, jardins ou locações urbanas produz imagens mais naturais e variadas. Alguns pacotes combinam os dois ambientes na mesma sessão.',
+      },
+    ],
+  },
+  {
+    slug: 'album-fotografico-casamento-formatos-precos-sp',
+    bairro: 'Álbum de Casamento',
+    title: 'Álbum Fotográfico de Casamento: Formatos, Preços e Como Escolher o Melhor em SP',
+    description:
+      'Álbum fotográfico de casamento em São Paulo: tipos disponíveis, preços médios e como escolher entre álbum FineArt, flush mount e fotolivro.',
+    excerpt:
+      'FineArt, flush mount ou fotolivro? Veja os formatos de álbum de casamento disponíveis em São Paulo e quanto custa cada um.',
+    date: '2026-09-16',
+    image: '/images/galeria/detalhes/casamento-sao-paulo-detalhes-01.jpg',
+    faq: [
+      {
+        question: 'Quais são os tipos de álbum fotográfico de casamento disponíveis em SP?',
+        answer:
+          'Os principais tipos são: álbum tradicional (fotos coladas em páginas), álbum FineArt (impressão de alta resolução em papel especial, acabamento profissional), álbum flush mount (páginas rígidas sem margem, layout gráfico moderno) e fotolivro (impressão digital, mais acessível). Para casamentos, o álbum FineArt ou flush mount são os mais valorizados.',
+      },
+      {
+        question: 'Quanto custa um álbum de casamento de qualidade em SP?',
+        answer:
+          'Álbuns de qualidade para casamento em SP variam de R$ 800 (fotolivro básico) a R$ 6.000 (álbum FineArt 40x40 cm com capa personalizada e estojo). Álbuns flush mount de 30x30 cm com 60 a 100 páginas custam entre R$ 2.000 e R$ 4.000. O preço depende do tamanho, número de páginas e qualidade dos materiais.',
+      },
+      {
+        question: 'É melhor incluir o álbum no pacote do fotógrafo ou comprar separado?',
+        answer:
+          'Incluir no pacote é geralmente mais vantajoso: o fotógrafo já conhece seu trabalho, sabe quais fotos funcionam melhor para o álbum e pode fazer a curadoria com mais propriedade. Comprar separado pode parecer mais barato, mas exige que você faça a seleção das fotos e o layout por conta própria.',
+      },
+      {
+        question: 'Mini-álbum para família: o que é e vale a pena?',
+        answer:
+          'Mini-álbuns são versões menores (15x15 ou 20x20 cm) do álbum principal, com seleção dos melhores momentos, geralmente presenteados para os pais dos noivos. São um gesto muito emotivo e valorizado pelas famílias. O custo adicional por mini-álbum varia de R$ 300 a R$ 800, dependendo do tamanho e acabamento.',
+      },
+    ],
+  },
+  {
+    slug: 'direcao-casais-fotografia-casamento-noivos-timidos',
+    bairro: 'Direção de Casais',
+    title: 'Como É a Direção de Casais na Fotografia de Casamento: Guia Para Noivos Tímidos',
+    description:
+      'Direção de casais na fotografia de casamento: veja como o fotógrafo coloca noivos tímidos à vontade para fotos naturais e emocionantes.',
+    excerpt:
+      'Noivos tímidos também ficam bem nas fotos: entenda como funciona a direção de casais na fotografia de casamento em SP.',
+    date: '2026-09-18',
+    image: '/images/galeria/detalhes/casamento-sao-paulo-detalhes-02.jpg',
+    faq: [
+      {
+        question: 'O que é direção de casais na fotografia de casamento?',
+        answer:
+          'Direção de casais é a técnica do fotógrafo de guiar o casal em ações e movimentos naturais — caminhar, dançar, sussurrar, olhar juntos — em vez de pedir poses estáticas. O resultado são fotos com emoção real, mesmo que o casal seja tímido ou nunca tenha feito sessão fotográfica antes.',
+      },
+      {
+        question: 'Sou muito tímido. Consigo ficar bem nas fotos de casamento?',
+        answer:
+          'Sim. Um fotógrafo com experiência em direção de casais sabe exatamente como colocar noivos tímidos à vontade. O segredo está em movimentos simples que distraem o casal da câmera: um abraço, uma dança de improviso, um beijo no rosto. Com esse tipo de direção, até os mais tímidos relaxam naturalmente.',
+      },
+      {
+        question: 'Devo fazer algo especial para me preparar para a sessão de fotos no casamento?',
+        answer:
+          'Não é necessário nenhum treino especial. Se quiser, faça o pré-wedding com o mesmo fotógrafo — é a melhor forma de se familiarizar com a câmera e com a dinâmica antes do dia principal. Converse com o fotógrafo sobre seus medos e expectativas antes do casamento.',
+      },
+      {
+        question: 'A direção de casais é diferente para cada casal?',
+        answer:
+          'Sim. Fotógrafos experientes adaptam a direção ao perfil de cada casal. Casais extrovertidos respondem bem a propostas mais ousadas e dinâmicas. Casais tímidos se saem melhor com direções sutis e movimentos cotidianos. Por isso, uma conversa prévia com o fotógrafo sobre a personalidade do casal faz toda a diferença.',
+      },
+    ],
+  },
+  {
+    slug: 'making-of-casamento-fotografia-preparacao-noiva',
+    bairro: 'Making Of',
+    title: 'Making Of do Casamento: Por Que Fotografar a Preparação da Noiva Vale Cada Clique',
+    description:
+      'Making of do casamento em São Paulo: por que registrar a preparação da noiva e do noivo é parte essencial da cobertura fotográfica.',
+    excerpt:
+      'A preparação da noiva guarda alguns dos momentos mais emocionantes do casamento. Veja por que o making of vale cada clique.',
+    date: '2026-09-20',
+    image: '/images/galeria/detalhes/casamento-sao-paulo-detalhes-03.jpg',
+    faq: [
+      {
+        question: 'O making of do casamento faz parte da cobertura completa?',
+        answer:
+          'Na maioria dos pacotes completos em SP, sim. O making of (preparação da noiva e, em muitos casos, do noivo) é parte integrante da cobertura. Começar pelo making of é essencial para capturar os primeiros momentos de emoção do dia: a noiva se vendo pronta pela primeira vez, a ajuda da mãe no vestido, o buquê nas mãos.',
+      },
+      {
+        question: 'Quanto tempo o fotógrafo precisa para o making of?',
+        answer:
+          'O ideal é que o fotógrafo chegue 2 a 3 horas antes da cerimônia para registrar o making of completo. Esse tempo permite capturar os momentos mais íntimos e emocionais da preparação sem pressa. Locais onde a noiva está se preparando devem ter boa iluminação — sempre informe o fotógrafo com antecedência.',
+      },
+      {
+        question: 'Making of do noivo também vale a pena fotografar?',
+        answer:
+          'Sim, cada vez mais casais pedem cobertura do making of do noivo também. Momentos como a colocação do terno, a ajuda dos padrinhos, o nervosismo antes da cerimônia são registros que completam a narrativa do dia. Geralmente exige um segundo fotógrafo simultâneo para cobrir os dois.',
+      },
+      {
+        question: 'O making of pode ser feito em hotel ou só em casa?',
+        answer:
+          'Pode ser feito em qualquer local onde a noiva esteja se preparando: casa, apartamento, hotel ou salão de beleza. Hotéis com quarto bem iluminado e vista bonita produzem imagens especialmente elegantes. Comunique ao fotógrafo o local e o horário de preparação com antecedência para ele planejar a chegada.',
+      },
+    ],
+  },
+  {
+    slug: 'entrega-fotos-casamento-prazo-formato-sp',
+    bairro: 'Entrega das Fotos',
+    title: 'Entrega das Fotos do Casamento: Prazo, Formato e Como Receber Suas Imagens em SP',
+    description:
+      'Entrega das fotos de casamento em São Paulo: prazos médios, formato de entrega via galeria online e o que esperar do fotógrafo.',
+    excerpt:
+      'Quanto tempo até receber as fotos do casamento e em qual formato? Veja como funciona a entrega em São Paulo.',
+    date: '2026-09-22',
+    image: '/images/galeria/detalhes/casamento-sao-paulo-detalhes-04.jpg',
+    faq: [
+      {
+        question: 'Como o fotógrafo de casamento entrega as fotos em SP?',
+        answer:
+          'A maioria dos fotógrafos em SP entrega via galeria online privada (serviços como Pixieset, Google Fotos ou Dropbox), com link compartilhado com os noivos. A galeria permite download individual ou em lote de todas as fotos em alta resolução. Alguns fotógrafos complementam com um HD ou pen drive físico.',
+      },
+      {
+        question: 'O que é galeria online de fotos de casamento?',
+        answer:
+          'É uma plataforma digital privada onde o fotógrafo disponibiliza todas as fotos tratadas do casamento. Os noivos acessam com senha, podem baixar as imagens, compartilhar com a família e, em alguns casos, fazer pedidos de impressão diretamente pela galeria. É a forma mais prática e segura de entrega digital.',
+      },
+      {
+        question: 'Por quanto tempo a galeria online de fotos do casamento fica disponível?',
+        answer:
+          'Depende do fotógrafo e da plataforma usada. Em geral, as galerias ficam disponíveis por 6 meses a 2 anos. Sempre faça backup das suas fotos em disco rígido externo ou nuvem logo após receber o link.',
+      },
+      {
+        question: 'Recebo as fotos brutas (RAW) do casamento além das tratadas?',
+        answer:
+          'Quase nunca. A entrega de arquivos RAW não é prática do mercado em SP — eles são a matéria-prima de trabalho do fotógrafo e fazem parte do processo criativo protegido. O que você recebe são as fotos já tratadas (editadas) em alta resolução, prontas para impressão e uso digital.',
+      },
+    ],
+  },
+  {
+    slug: 'casamento-ao-ar-livre-sao-paulo-riscos-fotografia',
+    bairro: 'Casamento ao Ar Livre',
+    title: 'Casamento ao Ar Livre em São Paulo: Os Riscos e Como o Fotógrafo Lida com Eles',
+    description:
+      'Casamento ao ar livre em São Paulo: principais riscos (chuva, vento, calor) e como o fotógrafo se prepara para garantir boas fotos.',
+    excerpt:
+      'Chuva, vento e calor: veja os riscos de casar ao ar livre em São Paulo e como um fotógrafo experiente se prepara para eles.',
+    date: '2026-09-24',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-07.jpg',
+    faq: [
+      {
+        question: 'Quais os principais riscos de casar ao ar livre em SP?',
+        answer:
+          'Os principais riscos são: chuva inesperada (SP tem microclima imprevisível, especialmente no verão), vento que atrapalha penteado e velas, calor intenso no meio do dia e falta de estrutura de som e iluminação que espaços fechados oferecem. Um fotógrafo experiente tem plano B para cada um desses cenários.',
+      },
+      {
+        question: 'Como o fotógrafo se prepara para casamento ao ar livre?',
+        answer:
+          'Fotógrafos experientes visitam o espaço antes do evento para planejar ângulos, identificar fontes de luz natural e sombras no horário da cerimônia, e mapear as melhores locações para a sessão de retratos. Para eventos ao ar livre, também preparam equipamento de proteção para câmeras em caso de chuva.',
+      },
+      {
+        question: 'Casamento ao ar livre em SP exige mais equipamento do fotógrafo?',
+        answer:
+          'Sim. Além do equipamento padrão, casamentos ao ar livre em SP geralmente exigem: flash externo para situações de contraluz, refletores portáteis, baterias extras (sem tomadas ao ar livre), proteção para câmeras em caso de chuva e, eventualmente, equipamento de iluminação artificial para a recepção noturna.',
+      },
+      {
+        question: 'Qual a melhor hora para cerimônia ao ar livre em SP para ter boas fotos?',
+        answer:
+          'O final da tarde, entre 16h e 18h, é o horário ideal em SP: luz dourada e suave, temperatura mais amena e o fundo de céu no pôr do sol cria imagens espetaculares. Evite cerimônias ao meio-dia pela luz dura e sombras nas faces. Cerimônias pela manhã entre 8h e 10h também funcionam bem com luz natural fresca.',
+      },
+    ],
+  },
+  {
+    slug: 'paletas-cores-decoracao-casamento-2026-estilo-fotografico',
+    bairro: 'Cores e Decoração 2026',
+    title: 'Paletas de Cores e Decoração de Casamento em Alta Para 2026: O Que Combina com Cada Estilo Fotográfico',
+    description:
+      'Paletas de cores e decoração de casamento em alta para 2026 em São Paulo, e como cada combinação influencia o resultado das fotos.',
+    excerpt:
+      'Verde-sálvia, terracota ou azul-marinho? Veja as paletas de decoração em alta para casamentos em 2026 e como elas valorizam as fotos.',
+    date: '2026-09-26',
+    image: '/images/galeria/detalhes/casamento-sao-paulo-detalhes-05.jpg',
+    faq: [
+      {
+        question: 'Quais cores de decoração funcionam melhor para fotos de casamento?',
+        answer:
+          'Tons neutros e pastéis (off-white, nude, sage green, terracota) funcionam muito bem para fotografia autoral, pois não competem com os noivos. Cores vibrantes ficam lindas em fotos de festa e dança. Evite decorações com muito neon ou iluminação colorida forte, que pode comprometer a cor das peles nas fotos.',
+      },
+      {
+        question: 'A decoração influencia na qualidade das fotos de casamento?',
+        answer:
+          'Sim, significativamente. Decoração com flores naturais, elementos em altura variada, iluminação com velas e luzes quentes e neutras potencializam as fotos. Decorações muito sintéticas, mesas superlotadas ou iluminação fria e uniforme tendem a resultar em fotos menos dinâmicas.',
+      },
+      {
+        question: 'Quais paletas de cores de casamento estão em alta para 2026?',
+        answer:
+          'As paletas mais buscadas em 2026 são: verde-sálvia com dourado e off-white (elegância natural), terracota com coral e bege (calor e modernidade), azul-marinho com dourado e marfim (clássico e sofisticado) e o monocromático em tons de cappuccino e amêndoa (minimalismo atemporal).',
+      },
+      {
+        question: 'Iluminação do espaço afeta as fotos de casamento?',
+        answer:
+          'Sim, muito. Iluminação quente (amarela) cria atmosfera romântica e favorece tons de pele nas fotos. Iluminação fria (branca ou azulada) pode deixar as imagens mais frias e menos acolhedoras. Velas e candelabros são aliados do fotógrafo para criar profundidade e romantismo nas imagens da mesa dos noivos e recepção.',
+      },
+    ],
+  },
 ];
 
 export function getPostBySlug(slug: string): Post | undefined {
