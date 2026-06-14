@@ -3,6 +3,8 @@ import dynamic from 'next/dynamic';
 import Hero from '@/components/Hero';
 import IntroMarquee from '@/components/IntroMarquee';
 import About from '@/components/About';
+import SchemaOrg from '@/components/SchemaOrg';
+import { getHomeFAQSchema } from '@/lib/schema';
 import { posts } from '@/lib/posts';
 
 // Componentes abaixo do fold — carregados de forma lazy (code splitting)
@@ -29,6 +31,7 @@ export const metadata: Metadata = {
 export default function HomePage() {
   return (
     <>
+      <SchemaOrg schema={getHomeFAQSchema()} />
       <Hero />
       <IntroMarquee />
       <About />

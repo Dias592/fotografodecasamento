@@ -15,7 +15,6 @@ import {
   getServiceSchema,
   getContactPageSchema,
   getBlogSchema,
-  getHomeFAQSchema,
 } from '@/lib/schema';
 
 const GA_ID = 'G-TC1EWQPCY3';
@@ -118,7 +117,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           getServiceSchema(),
           getContactPageSchema(),
           getBlogSchema(),
-          getHomeFAQSchema(),
         ]} />
         <a href="#main-content" className="skip-link font-body text-sm font-semibold">
           Pular para o conteúdo principal
