@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Image from 'next/image';
 import Footer from '@/components/Footer';
 import SchemaOrg from '@/components/SchemaOrg';
-import { getBreadcrumbListSchema, getPersonSchema } from '@/lib/schema';
+import { getBreadcrumbListSchema } from '@/lib/schema';
 import { SHIMMER_BLUR_DATA_URL } from '@/lib/utils';
 
 export const metadata: Metadata = {
@@ -22,13 +22,10 @@ export default function SobrePage() {
   return (
     <>
       <SchemaOrg
-        schema={[
-          getPersonSchema(),
-          getBreadcrumbListSchema([
-            { name: 'Início', url: '/' },
-            { name: 'Sobre', url: '/sobre' },
-          ]),
-        ]}
+        schema={getBreadcrumbListSchema([
+          { name: 'Início', url: '/' },
+          { name: 'Sobre', url: '/sobre' },
+        ])}
       />
 
       <section className="relative overflow-hidden bg-cream pb-24 pt-36 md:pb-32 md:pt-44">

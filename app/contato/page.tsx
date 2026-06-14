@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import Footer from '@/components/Footer';
 import SchemaOrg from '@/components/SchemaOrg';
-import { getBreadcrumbListSchema, getLocalBusinessSchema } from '@/lib/schema';
+import { getBreadcrumbListSchema } from '@/lib/schema';
 import ContactForm from '@/components/ContactForm';
 
 export const metadata: Metadata = {
@@ -17,13 +17,10 @@ export default function ContatoPage() {
   return (
     <>
       <SchemaOrg
-        schema={[
-          getLocalBusinessSchema(),
-          getBreadcrumbListSchema([
-            { name: 'Início', url: '/' },
-            { name: 'Contato', url: '/contato' },
-          ]),
-        ]}
+        schema={getBreadcrumbListSchema([
+          { name: 'Início', url: '/' },
+          { name: 'Contato', url: '/contato' },
+        ])}
       />
 
       <section className="relative overflow-hidden bg-blue-deep pb-24 pt-36 text-cream md:pb-32 md:pt-44">

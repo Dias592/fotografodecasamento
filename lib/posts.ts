@@ -3340,6 +3340,1102 @@ export const posts: Post[] = [
       },
     ],
   },
+  {
+    slug: 'fotografo-casamento-sao-paulo-como-escolher',
+    bairro: 'Como Escolher',
+    title: 'Fotógrafo de Casamento em São Paulo: Como Escolher o Profissional Certo em 2026',
+    description:
+      'Guia completo para escolher o fotógrafo de casamento certo em São Paulo: o que avaliar no portfólio, quando contratar e quais perguntas fazer antes de fechar.',
+    excerpt:
+      'Escolher o fotógrafo certo é uma das decisões mais importantes do seu casamento. Veja o que avaliar no portfólio, no estilo e na experiência antes de fechar contrato em São Paulo.',
+    date: '2026-06-10',
+    image: '/images/galeria/detalhes/casamento-sao-paulo-detalhes-09.jpg',
+    faq: [
+      {
+        question: 'Como escolher um fotógrafo de casamento em São Paulo?',
+        answer:
+          'Para escolher bem, analise o portfólio completo do fotógrafo (não apenas os destaques), verifique o estilo — documental, autoral ou tradicional — e confirme se ele trabalha com dois fotógrafos na cobertura. Leia depoimentos reais de clientes, pergunte sobre prazo de entrega, contrato e backup dos arquivos. Em SP, o mercado é competitivo: priorize experiência comprovada, no mínimo 5 anos e mais de 100 casamentos registrados.',
+      },
+      {
+        question: 'Quanto tempo antes do casamento devo contratar o fotógrafo em SP?',
+        answer:
+          'O ideal é contratar com 12 a 18 meses de antecedência. Fotógrafos conceituados em São Paulo costumam ter a agenda concorrida, especialmente para datas de sábado entre março e dezembro. Deixar para 3 ou 4 meses antes pode significar perder o profissional desejado.',
+      },
+      {
+        question: 'Quais perguntas fazer ao fotógrafo de casamento antes de fechar contrato?',
+        answer:
+          'Pergunte: quantos casamentos você já fotografou? Você faz backup dos arquivos? Quanto tempo leva a entrega? O contrato cobre imprevistos? Você faz Same Day Edit? Há taxa extra para locações fora de São Paulo? Essas perguntas evitam surpresas e garantem segurança jurídica e criativa.',
+      },
+      {
+        question: 'Fotografia autoral é diferente de fotografia tradicional de casamento?',
+        answer:
+          'Sim. O fotógrafo autoral prioriza momentos espontâneos, luz natural e narrativa emocional. Já o tradicional foca em poses clássicas e registros formais. Para casamentos modernos em São Paulo, a maioria dos noivos prefere o estilo autoral ou documental, que capta a essência real do dia.',
+      },
+      {
+        question: 'Como saber se o portfólio do fotógrafo é autêntico?',
+        answer:
+          'Peça para ver galerias completas de pelo menos 3 casamentos diferentes, não apenas as melhores fotos. Observe a consistência de luz, edição e emoção nas imagens. Fotógrafos honestos mostram o trabalho completo, incluindo momentos de espera e detalhes, não só os cliques perfeitos.',
+      },
+    ],
+  },
+  {
+    slug: 'quanto-custa-fotografo-casamento-sp-precos',
+    bairro: 'Preços e Pacotes',
+    title: 'Quanto Custa um Fotógrafo de Casamento em SP? Guia Completo de Pacotes e Preços Reais',
+    description:
+      'Quanto custa um fotógrafo de casamento em São Paulo em 2026? Veja faixas de preço reais, o que está incluso nos pacotes e como negociar parcelamento.',
+    excerpt:
+      'Os valores de fotografia de casamento em São Paulo variam bastante conforme o pacote. Veja faixas de preço reais, o que costuma estar incluso e como avaliar se vale o investimento.',
+    date: '2026-06-12',
+    image: '/images/galeria/detalhes/casamento-sao-paulo-detalhes-10.jpg',
+    faq: [
+      {
+        question: 'Qual o preço médio de um fotógrafo de casamento em São Paulo em 2026?',
+        answer:
+          'Em 2026, os pacotes de fotografia de casamento em SP variam de R$ 2.500 (cobertura básica, um fotógrafo, entrega digital) a R$ 20.000 ou mais (pacote completo com dois fotógrafos, dois cinegrafistas, álbum premium, drone e Same Day Edit). O valor médio para uma cobertura completa de qualidade fica entre R$ 6.000 e R$ 12.000.',
+      },
+      {
+        question: 'O que está incluso no pacote completo de fotógrafo de casamento?',
+        answer:
+          'Um pacote completo geralmente inclui: dois fotógrafos, cobertura do making of à recepção, entrega digital de todas as fotos tratadas em alta resolução, álbum fotográfico impresso, mini álbuns para a família, vídeo em Full HD ou 4K e arquivo para download. Adicionais como drone e Same Day Edit costumam ser cobrados separadamente.',
+      },
+      {
+        question: 'Vale a pena pagar mais caro por um fotógrafo de casamento em SP?',
+        answer:
+          'Sim, dentro de um limite razoável. Fotógrafos com mais experiência entregam consistência e segurança — sabem lidar com luz difícil, imprevistos e direção de casais. O casamento acontece uma única vez; as fotos ficam para sempre. Investir entre 5% e 10% do orçamento total do casamento em fotografia é considerado equilibrado.',
+      },
+      {
+        question: 'Existe diferença de preço entre fotógrafo de casamento e filmagem em SP?',
+        answer:
+          'Sim. A filmagem de casamento geralmente custa entre 70% e 100% do valor da fotografia quando contratadas separadamente. Contratar os dois serviços com o mesmo estúdio costuma gerar desconto de 15% a 25%, além de garantir mais coerência estética no resultado final.',
+      },
+      {
+        question: 'Posso parcelar o fotógrafo de casamento em São Paulo?',
+        answer:
+          'A maioria dos fotógrafos e estúdios em SP aceita parcelamento. O modelo mais comum é: 30% a 50% de entrada no fechamento do contrato (reserva da data) e o restante dividido em parcelas mensais até a véspera do evento. Sempre exija contrato assinado antes de qualquer pagamento.',
+      },
+    ],
+  },
+  {
+    slug: 'cobertura-completa-casamento-sao-paulo-o-que-incluso',
+    bairro: 'Cobertura Completa',
+    title: 'Cobertura Completa de Casamento em São Paulo: O Que Está Incluso e O Que É Adicional',
+    description:
+      'Entenda o que é uma cobertura completa de casamento em São Paulo, o que costuma estar incluso no pacote e o que é cobrado como adicional (drone, Same Day Edit, hora extra).',
+    excerpt:
+      'Cobertura completa vai além de "fotografar o casamento". Veja o que esse tipo de pacote inclui em São Paulo e o que normalmente é cobrado separadamente.',
+    date: '2026-06-14',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-19.jpg',
+    faq: [
+      {
+        question: 'O que é uma cobertura completa de casamento?',
+        answer:
+          'Cobertura completa significa que o fotógrafo acompanha todo o evento: do making of da noiva (e do noivo) até o fim da festa. Isso inclui o registro da preparação, a cerimônia, a sessão de retratos dos noivos, a mesa dos convidados, o bolo, o buquê e a recepção. A maioria dos pacotes completos em SP inclui dois fotógrafos para garantir todos os ângulos.',
+      },
+      {
+        question: 'Drone e Same Day Edit fazem parte da cobertura completa de casamento?',
+        answer:
+          'Normalmente não. Drone e Same Day Edit são considerados adicionais e cobrados separadamente. O drone exige autorização da ANAC e piloto habilitado. O Same Day Edit é um vídeo editado e exibido ainda durante a festa — um diferencial poderoso, mas com custo adicional de R$ 1.500 a R$ 3.000.',
+      },
+      {
+        question: 'Quantas horas dura uma cobertura completa de casamento em SP?',
+        answer:
+          'Uma cobertura completa dura em média 10 a 14 horas, desde o making of da noiva até o encerramento da festa. Casamentos mais longos ou com cerimônia e festa em locais diferentes podem exigir horas extras, que geralmente são cobradas separadamente (entre R$ 300 e R$ 600 por hora extra por fotógrafo).',
+      },
+      {
+        question: 'Dois fotógrafos são realmente necessários no casamento?',
+        answer:
+          'Para casamentos com mais de 80 convidados ou cerimônias em locais grandes, dois fotógrafos são essenciais. Enquanto um acompanha a chegada da noiva, o outro registra as expressões dos convidados e do noivo no altar. A cobertura dupla garante que nenhum momento importante seja perdido.',
+      },
+      {
+        question: 'Quando recebo as fotos após o casamento?',
+        answer:
+          'O prazo médio de entrega em SP é de 30 a 90 dias após o evento. Fotógrafos com agenda cheia e tratamento detalhado podem levar até 120 dias. Confirme sempre o prazo no contrato. Alguns profissionais oferecem entrega expressa (7 a 15 dias) como adicional pago.',
+      },
+    ],
+  },
+  {
+    slug: 'erros-contratar-fotografo-casamento-sp',
+    bairro: 'Dicas para Noivos',
+    title: 'Os 7 Erros Que Casais Cometem ao Contratar Fotógrafo de Casamento em SP',
+    description:
+      'Conheça os erros mais comuns na hora de contratar um fotógrafo de casamento em São Paulo e como evitá-los para não ter arrependimentos depois do grande dia.',
+    excerpt:
+      'Pequenos deslizes na contratação podem custar caro depois do casamento. Veja os erros mais comuns que os casais cometem ao escolher o fotógrafo em São Paulo — e como evitá-los.',
+    date: '2026-06-16',
+    image: '/images/galeria/detalhes/casamento-sao-paulo-detalhes-12.jpg',
+    faq: [
+      {
+        question: 'Qual o maior erro ao escolher fotógrafo de casamento?',
+        answer:
+          'Escolher baseado apenas no preço mais baixo. Em fotografia de casamento, preço baixo quase sempre significa menos experiência, equipe reduzida ou entrega sem garantias. O arrependimento pós-casamento com fotos de baixa qualidade é irreversível — o evento não se repete.',
+      },
+      {
+        question: 'É arriscado fechar com um fotógrafo de casamento sem contrato?',
+        answer:
+          'Sim, é um risco enorme. Sem contrato, você não tem garantia de datas, entrega, quantidade de fotos, substituto em caso de imprevistos, nem direito a restituição do sinal. Em SP, profissionais sérios sempre trabalham com contrato detalhado e documentado.',
+      },
+      {
+        question: 'Ver apenas as melhores fotos do portfólio é suficiente para contratar?',
+        answer:
+          'Não. Peça sempre para ver uma galeria completa de um casamento real. As melhores fotos de um portfólio podem ter sido feitas em condições ideais. Uma galeria completa mostra como o fotógrafo se sai em momentos difíceis: luz artificial, espaços pequenos, noivos nervosos.',
+      },
+      {
+        question: 'O que acontece se o fotógrafo tiver um imprevisto no dia do casamento?',
+        answer:
+          'Fotógrafos profissionais sérios têm plano de contingência: um substituto de confiança com estilo similar. Pergunte isso antes de fechar. Se o fotógrafo não tiver resposta clara para essa pergunta, é um sinal de alerta.',
+      },
+      {
+        question: 'Posso contratar fotógrafo e videomaker separados para economizar?',
+        answer:
+          'Pode, mas há riscos. Profissionais que não se conhecem podem ter estilos diferentes, disputar espaço e luz, e gerar resultados inconsistentes. Contratar uma equipe integrada (foto + vídeo no mesmo estúdio) costuma trazer um resultado mais coeso, apesar do custo inicial parecer maior.',
+      },
+    ],
+  },
+  {
+    slug: 'fotografia-casamento-autoral-sao-paulo',
+    bairro: 'Estilo Autoral',
+    title: 'Fotografia de Casamento Autoral em São Paulo: O Que É e Por Que Muda Tudo nas Suas Fotos',
+    description:
+      'Entenda o que é fotografia autoral de casamento, em que ela difere do estilo tradicional e por que esse olhar faz tanta diferença no resultado final em São Paulo.',
+    excerpt:
+      'O estilo do fotógrafo muda completamente o resultado das suas fotos de casamento. Entenda o que é a fotografia autoral e por que ela tem ganhado espaço entre os noivos em São Paulo.',
+    date: '2026-06-18',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-22.jpg',
+    faq: [
+      {
+        question: 'O que é fotografia autoral de casamento?',
+        answer:
+          'Fotografia autoral é um estilo em que o fotógrafo imprime sua visão artística nas imagens — ângulos únicos, uso criativo da luz, composições inusitadas e edição com identidade própria. Em vez de seguir fórmulas, o fotógrafo autoral cria um trabalho singular que reflete tanto a personalidade dos noivos quanto a visão artística do profissional.',
+      },
+      {
+        question: 'Fotografia autoral é o mesmo que fotojornalismo de casamento?',
+        answer:
+          'São parecidos, mas diferentes. O fotojornalismo prioriza o registro puro dos momentos sem intervenção. A fotografia autoral pode combinar momentos espontâneos com direção de casais e escolhas estéticas mais marcadas. Muitos fotógrafos de casamento em SP misturam os dois estilos.',
+      },
+      {
+        question: 'Fotografia autoral de casamento é mais cara?',
+        answer:
+          'Em geral, sim. Fotógrafos com estilo autoral reconhecido investem anos desenvolvendo técnica, olhar e identidade visual. Esse posicionamento de nicho se reflete no preço — e no resultado. Em SP, fotógrafos autorais experientes cobram entre R$ 8.000 e R$ 20.000 por cobertura completa.',
+      },
+      {
+        question: 'Como saber se o estilo autoral do fotógrafo combina com meu casamento?',
+        answer:
+          'Analise pelo menos 5 casamentos completos do portfólio. Observe se a paleta de cores, a edição e os enquadramentos combinam com o estilo do seu evento. Um casamento rústico no campo pede um olhar diferente de um casamento urbano e minimalista em SP.',
+      },
+      {
+        question: 'Fotógrafo autoral interfere na festa ou é discreto?',
+        answer:
+          'A maioria dos fotógrafos autorais trabalha de forma discreta, capturando momentos reais sem interromper o fluxo do evento. A direção de casais (quando há poses) é feita em momentos planejados, como a sessão de retratos. O objetivo é que os noivos e convidados esqueçam que estão sendo fotografados.',
+      },
+    ],
+  },
+  {
+    slug: 'fotografo-casamento-drone-sp',
+    bairro: 'Fotografia Aérea',
+    title: 'Fotógrafo de Casamento com Drone em SP: Vale a Pena Incluir no Pacote?',
+    description:
+      'Drone na cobertura do casamento vale a pena? Veja regras da ANAC, custo médio em São Paulo e para quais tipos de evento a fotografia aérea faz mais diferença.',
+    excerpt:
+      'A fotografia aérea pode ser um diferencial e tanto — ou um gasto desnecessário, dependendo do local. Veja quando vale a pena incluir o drone na cobertura do seu casamento em SP.',
+    date: '2026-06-20',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-24.jpg',
+    faq: [
+      {
+        question: 'É obrigatório ter licença da ANAC para usar drone em casamento em SP?',
+        answer:
+          'Sim. O uso de drones para fins comerciais no Brasil exige habilitação junto à ANAC e cadastro no SISANT. Em áreas urbanas como São Paulo, há restrições de altitude e zonas proibidas (próximas a aeroportos, por exemplo). Sempre pergunte ao fotógrafo se ele tem habilitação ANAC antes de contratar.',
+      },
+      {
+        question: 'Quanto custa incluir drone na cobertura de casamento em SP?',
+        answer:
+          'O custo adicional do drone em casamentos varia de R$ 1.000 a R$ 3.000, dependendo do tempo de voo e do pacote contratado. Alguns estúdios incluem o drone em pacotes premium. O investimento vale especialmente para casamentos ao ar livre, em fazendas, jardins ou espaços com visual privilegiado.',
+      },
+      {
+        question: 'Todo espaço de festa em SP permite uso de drone?',
+        answer:
+          'Não. Muitos espaços em SP, especialmente em regiões centrais e próximas a aeroportos (como Congonhas), proíbem ou restringem o uso de drones. Espaços ao ar livre em Alphaville, Granja Viana e no interior têm menos restrições. Verifique com o espaço e com o fotógrafo antes de incluir o drone no pacote.',
+      },
+      {
+        question: 'Para que tipo de casamento o drone faz mais diferença?',
+        answer:
+          'Casamentos ao ar livre são os que mais se beneficiam do drone: fazendas, jardins, praias, sítios, vinícolas e espaços com área verde ampla. Em casamentos em salões fechados ou em centros urbanos com restrições aéreas, o drone tem uso muito limitado e pode não valer o custo adicional.',
+      },
+    ],
+  },
+  {
+    slug: 'cobertura-casamento-dois-fotografos-sao-paulo',
+    bairro: 'Equipe de Cobertura',
+    title: 'Como Funciona a Cobertura de Casamento com Dois Fotógrafos em São Paulo',
+    description:
+      'Por que ter dois fotógrafos no casamento faz diferença? Entenda como funciona a cobertura dupla, quando ela é essencial e o que perguntar ao estúdio em São Paulo.',
+    excerpt:
+      'Um ou dois fotógrafos? Entenda como a cobertura com dupla de profissionais funciona na prática e em quais casamentos ela faz mais diferença em São Paulo.',
+    date: '2026-06-22',
+    image: '/images/galeria/detalhes/casamento-sao-paulo-detalhes-13.jpg',
+    faq: [
+      {
+        question: 'Por que ter dois fotógrafos no casamento faz diferença?',
+        answer:
+          'Com dois fotógrafos, é possível cobrir simultaneamente a preparação da noiva e do noivo, registrar a expressão dos convidados enquanto a noiva entra, capturar múltiplos ângulos da cerimônia e garantir que nenhum momento importante seja perdido. Para casamentos com mais de 60 convidados, dois fotógrafos são considerados essenciais.',
+      },
+      {
+        question: 'O segundo fotógrafo é tão qualificado quanto o principal?',
+        answer:
+          'Depende do estúdio. Em equipes profissionais sérias, o segundo fotógrafo é um profissional experiente com equipamento próprio de qualidade. Pergunte sempre sobre o nível de experiência e o portfólio do segundo fotógrafo antes de fechar o contrato.',
+      },
+      {
+        question: 'Todos os pacotes de casamento em SP incluem dois fotógrafos?',
+        answer:
+          'Não. Pacotes básicos costumam incluir apenas um fotógrafo. O segundo fotógrafo geralmente está nos pacotes intermediários e completos. Se o pacote escolhido incluir apenas um profissional, verifique se é possível adicionar o segundo como item opcional e qual o custo.',
+      },
+      {
+        question: 'Dois fotógrafos entregam o dobro de fotos?',
+        answer:
+          'Não necessariamente. A quantidade de fotos entregues depende da curadoria e do trabalho de seleção e edição. Com dois fotógrafos, há mais imagens brutas, mas o fotógrafo principal faz a curadoria, eliminando duplicatas e fotos de menor qualidade. O resultado é uma galeria mais rica e diversa, não necessariamente maior.',
+      },
+    ],
+  },
+  {
+    slug: 'fotografia-filmagem-casamento-sp-contratar-junto-separado',
+    bairro: 'Foto e Vídeo',
+    title: 'Fotografia e Filmagem de Casamento em SP: Contratar Junto ou Separado?',
+    description:
+      'Fotografia e filmagem de casamento: contratar com o mesmo estúdio ou separado? Veja vantagens, riscos e diferenças de preço em São Paulo para decidir com segurança.',
+    excerpt:
+      'Foto e vídeo do mesmo estúdio ou de fornecedores diferentes? Veja as vantagens e os riscos de cada opção para o seu casamento em São Paulo.',
+    date: '2026-06-24',
+    image: '/images/galeria/festa/casamento-sao-paulo-festa-05.jpg',
+    faq: [
+      {
+        question: 'Vale mais a pena contratar foto e vídeo juntos ou separados para o casamento?',
+        answer:
+          'Contratar com um estúdio que oferece os dois serviços tem vantagens: coerência estética, melhor coordenação no dia, negociação de pacote com desconto e um único ponto de contato. Contratar separado permite mais personalização de cada serviço, mas exige gestão de dois fornecedores e pode gerar conflito de espaço durante o evento.',
+      },
+      {
+        question: 'Qual a diferença entre filmagem de casamento e Same Day Edit?',
+        answer:
+          'A filmagem de casamento resulta em um filme completo do evento, entregue semanas após a cerimônia, com edição elaborada, trilha sonora e narrativa. O Same Day Edit é um vídeo curto (3 a 5 minutos) editado e exibido ainda durante a festa — um teaser emocional que impressiona os convidados. São produtos diferentes e complementares.',
+      },
+      {
+        question: 'O filme de casamento em 4K vale a pena?',
+        answer:
+          'Sim, especialmente para casamentos com orçamento mais alto. O vídeo em 4K oferece qualidade de imagem superior, ideal para exibição em telas grandes e futuras gerações de TVs. A diferença de preço em relação ao Full HD costuma ser de R$ 500 a R$ 1.500, dependendo do estúdio.',
+      },
+      {
+        question: 'Fotógrafo e cinegrafista disputam espaço durante o casamento?',
+        answer:
+          'Sem coordenação prévia, sim. É comum que fotógrafo e videomaker se atrapalhem, especialmente durante a cerimônia. Quando contratados pelo mesmo estúdio, eles já têm um protocolo de trabalho conjunto. Se forem profissionais diferentes, é essencial que conversem antes do evento e definam posicionamentos.',
+      },
+    ],
+  },
+  {
+    slug: 'fotografo-casamento-itaim-bibi-sp',
+    bairro: 'Itaim Bibi',
+    title: 'Fotógrafo de Casamento no Itaim Bibi SP: Espaços, Dicas e Como Planejar Sua Cobertura',
+    description:
+      'Fotógrafo de casamento no Itaim Bibi, em São Paulo: conheça os melhores espaços, dicas de horário para fotos externas e o que perguntar antes de contratar.',
+    excerpt:
+      'O Itaim Bibi reúne alguns dos espaços de casamento mais sofisticados de São Paulo. Veja dicas de locação, drone e horários ideais para fotos no bairro.',
+    date: '2026-06-26',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-26.jpg',
+    faq: [
+      {
+        question: 'Quais os melhores espaços para casamento no Itaim Bibi em SP?',
+        answer:
+          'O Itaim Bibi é um dos bairros mais sofisticados de SP para casamentos. Entre os espaços mais buscados estão o Espaço Único, o Villa Bisutti, o Club Transatlântico e hotéis como Grand Hyatt e Tivoli Mofarrej, que ficam na região. O bairro mistura espaços modernos com tradicionais, ideal para casamentos de médio e alto padrão.',
+      },
+      {
+        question: 'Fotógrafo de casamento no Itaim Bibi cobra taxa de deslocamento?',
+        answer:
+          'Fotógrafos baseados em SP geralmente não cobram taxa de deslocamento para o Itaim Bibi, pois é uma área central da cidade. Pergunte sempre ao fechar o contrato se há taxa para horários com trânsito intenso ou estacionamento no bairro.',
+      },
+      {
+        question: 'O Itaim Bibi tem restrições para uso de drone em casamentos?',
+        answer:
+          'Sim. Por ser uma área urbana densa e próxima ao Aeroporto de Congonhas, o Itaim Bibi tem restrições sérias para voos de drone. Em eventos internos ou em espaços fechados da região, o uso de drone é praticamente inviável. Consulte sempre o fotógrafo e o espaço antes de incluir esse serviço.',
+      },
+      {
+        question: 'Qual o melhor horário para fotos externas de casamento no Itaim Bibi?',
+        answer:
+          'A golden hour — cerca de 1 hora antes do pôr do sol — oferece luz natural suave e ideal para fotos externas. No Itaim Bibi, o fotógrafo pode aproveitar a arquitetura moderna do bairro, jardins de hotéis e ruas arborizadas como a Rua Pedroso Alvarenga. Evite o meio-dia pela luz dura e sombras indesejadas.',
+      },
+    ],
+  },
+  {
+    slug: 'casamento-jardins-sp-saloes-fotografo',
+    bairro: 'Jardins',
+    title: 'Casamento nos Jardins SP: Os Melhores Salões e Como Escolher Seu Fotógrafo',
+    description:
+      'Fotógrafo de casamento nos Jardins, São Paulo: descubra os salões mais procurados da região e como escolher o profissional ideal para registrar o seu dia.',
+    excerpt:
+      'Os Jardins reúnem alguns dos espaços de casamento mais exclusivos de São Paulo. Veja quais salões se destacam na região e como escolher o fotógrafo certo.',
+    date: '2026-06-28',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-29.jpg',
+    faq: [
+      {
+        question: 'Qual a diferença entre casar nos Jardins e em outros bairros de SP?',
+        answer:
+          'Os Jardins (Jardim Paulista, Jardim Europa, Jardim América) concentram alguns dos espaços de casamento mais exclusivos de SP, com infraestrutura premium, serviços de alto padrão e fácil acesso para convidados da zona Sul e Centro. O bairro tem charme arquitetônico único e fotogênico, com casarões históricos e jardins bem cuidados.',
+      },
+      {
+        question: 'Quais espaços de casamento existem nos Jardins em São Paulo?',
+        answer:
+          'A região dos Jardins tem opções como o Espaço Villa Verde, hotéis de luxo como Fasano e Unique, salões em mansões históricas e bistrôs com jardim privativo. É um bairro ideal para casamentos boutique e mini weddings com alto padrão estético.',
+      },
+      {
+        question: 'Fotógrafo precisa de credencial especial para trabalhar nos Jardins SP?',
+        answer:
+          'Não há credencial específica para bairros. Mas alguns espaços premium nos Jardins exigem que os fornecedores (fotógrafos, videomakers) sejam previamente aprovados ou integrem uma lista de credenciados do espaço. Verifique isso com o local da festa ao planejar.',
+      },
+      {
+        question: 'Como aproveitar a arquitetura dos Jardins nas fotos de casamento?',
+        answer:
+          'Um bom fotógrafo usará as fachadas de sobrados históricos, vielas arborizadas e a iluminação suave das ruas dos Jardins para criar imagens com atmosfera única. Peça ao fotógrafo para incluir uma sessão de retratos externos no bairro antes ou após a cerimônia.',
+      },
+    ],
+  },
+  {
+    slug: 'fotografo-casamento-moema-sp',
+    bairro: 'Moema',
+    title: 'Fotógrafo de Casamento em Moema SP: Locações, Estilo e O Que Esperar na Cobertura',
+    description:
+      'Fotógrafo de casamento em Moema, São Paulo: veja as melhores locações da região, incluindo o Parque Ibirapuera, e o que esperar de uma boa cobertura fotográfica.',
+    excerpt:
+      'Moema é um dos bairros mais desejados para casamentos em São Paulo. Veja locações, o charme do Parque Ibirapuera e dicas para a cobertura fotográfica.',
+    date: '2026-06-30',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-30.jpg',
+    faq: [
+      {
+        question: 'Moema é um bom bairro para casar em São Paulo?',
+        answer:
+          'Sim. Moema é um dos bairros mais desejados para casamentos em SP pela combinação de espaços verdes (Parque Ibirapuera ao lado), gastronomia sofisticada e fácil acesso. É ideal para casamentos de médio e alto padrão, com boa oferta de espaços para diferentes estilos de cerimônia.',
+      },
+      {
+        question: 'Qual a vantagem de fazer fotos de casamento no Parque Ibirapuera?',
+        answer:
+          'O Parque Ibirapuera, próximo a Moema, é um dos cenários mais fotogênicos de SP: arquitetura de Oscar Niemeyer, lagos, árvores centenárias e luz natural generosa. Fotógrafos de casamento locais conhecem bem os melhores ângulos e horários para sessões no parque. É preciso verificar permissão prévia para fotos comerciais.',
+      },
+      {
+        question: 'Tem estacionamento fácil nos espaços de casamento em Moema?',
+        answer:
+          'A maioria dos espaços em Moema tem estacionamento próprio ou manobrista. Informe-se com o espaço sobre capacidade e custo. O fotógrafo geralmente chega mais cedo e não deve ter dificuldade, mas é um ponto importante a comunicar para convidados vindos de outras regiões.',
+      },
+    ],
+  },
+  {
+    slug: 'casamento-vila-madalena-sp-guia-fotografico',
+    bairro: 'Vila Madalena',
+    title: 'Casamento em Vila Madalena SP: Guia Fotográfico com Dicas de Locações Únicas',
+    description:
+      'Fotógrafo de casamento na Vila Madalena, São Paulo: conheça as locações mais autênticas do bairro e o estilo fotográfico que mais combina com a região.',
+    excerpt:
+      'Grafites, ruelas charmosas e atmosfera bohemia: veja por que a Vila Madalena é um cenário único para casamentos autorais em São Paulo.',
+    date: '2026-07-02',
+    image: '/images/galeria/detalhes/casamento-sao-paulo-detalhes-17.jpg',
+    faq: [
+      {
+        question: 'Por que a Vila Madalena é um bairro especial para casamentos em SP?',
+        answer:
+          'A Vila Madalena tem uma identidade visual única: grafites, ruelas charmosas, botecos históricos e uma atmosfera bohemia que resulta em fotos autênticas e cheias de personalidade. É perfeita para casamentos descontraídos, alternativos ou para casais que buscam fugir do estilo clássico de salão.',
+      },
+      {
+        question: 'Quais locações na Vila Madalena são mais usadas para fotos de casamento?',
+        answer:
+          'O Beco do Batman e arredores com grafites são os mais famosos, mas a Rua Aspicuelta, o Largo da Harmonia e espaços como o Ateliê Aberto são ótimas opções. Fotógrafos que conhecem o bairro sabem os melhores horários para evitar movimento excessivo e capturar a essência local.',
+      },
+      {
+        question: 'Casamentos na Vila Madalena costumam ser em qual estilo?',
+        answer:
+          'Em geral, casamentos na Vila Madalena têm estilo descontraído, criativo e moderno. São comuns mini weddings em bares, bistrôs e espaços alternativos, casamentos temáticos e cerimônias ao ar livre. O bairro combina bem com fotografia autoral e documental.',
+      },
+    ],
+  },
+  {
+    slug: 'fotografo-casamento-pinheiros-sp',
+    bairro: 'Pinheiros',
+    title: 'Fotógrafo de Casamento em Pinheiros SP: Espaços Charmosos e Como Registrar Cada Detalhe',
+    description:
+      'Fotógrafo de casamento em Pinheiros, São Paulo: descubra espaços charmosos para mini weddings, boas locações externas e dicas de planejamento na região.',
+    excerpt:
+      'Pinheiros tem opções charmosas para casamentos íntimos e mini weddings em São Paulo. Veja locações, arquitetura e dicas para a cobertura fotográfica.',
+    date: '2026-07-04',
+    image: '/images/galeria/detalhes/casamento-sao-paulo-detalhes-18.jpg',
+    faq: [
+      {
+        question: 'Pinheiros tem espaços para casamentos menores e mini weddings?',
+        answer:
+          'Sim. Pinheiros é um dos bairros de SP com mais opções para mini weddings e casamentos íntimos: bistrôs com espaço privativo, galerias de arte, ateliês e restaurantes com jardim. São espaços com capacidade de 20 a 80 pessoas, perfeitos para casamentos descontraídos e modernos.',
+      },
+      {
+        question: 'A arquitetura de Pinheiros é boa para fotos de casamento externas?',
+        answer:
+          'Sim. Pinheiros mistura arquitetura modernista, fachadas coloridas, ruas arborizadas e espaços culturais. A região entre a Rua dos Pinheiros, a Rua Teodoro Sampaio e o Mercado Municipal de Pinheiros oferece cenários variados e fotogênicos para sessões externas.',
+      },
+      {
+        question: 'Casar em Pinheiros é mais barato do que casar nos Jardins ou Itaim Bibi?',
+        answer:
+          'Em geral, sim. Pinheiros tem uma variedade maior de espaços acessíveis, incluindo galerias, bistrôs e casas históricas que oferecem valores mais competitivos que os espaços premium do Itaim e Jardins.',
+      },
+    ],
+  },
+  {
+    slug: 'fotografo-casamento-vila-mariana-sp',
+    bairro: 'Vila Mariana',
+    title: 'Fotógrafo de Casamento na Vila Mariana SP: Salões, Espaços e Inspirações Reais',
+    description:
+      'Fotógrafo de casamento na Vila Mariana, São Paulo: conheça as opções de salões da região e veja dicas para escolher um profissional que conheça o bairro.',
+    excerpt:
+      'A Vila Mariana é uma boa opção para casamentos religiosos e civis em São Paulo. Veja espaços da região e o que considerar ao escolher o fotógrafo.',
+    date: '2026-07-06',
+    image: '/images/galeria/detalhes/casamento-sao-paulo-detalhes-21.jpg',
+    faq: [
+      {
+        question: 'A Vila Mariana tem boas opções para casamentos em São Paulo?',
+        answer:
+          'Sim. A Vila Mariana é um bairro residencial consolidado com boa infraestrutura para eventos. Sua proximidade com o Parque Aclimação, igrejas tradicionais e salões de festa bem estruturados a torna uma boa opção para casamentos religiosos e civis de médio porte.',
+      },
+      {
+        question: 'Fotógrafo precisa conhecer o bairro para fotografar bem?',
+        answer:
+          'Conhecer o bairro ajuda muito. Fotógrafos com experiência na Vila Mariana sabem os melhores horários para fotos externas, onde o trânsito compromete o deslocamento e quais ângulos nos salões locais funcionam melhor. Pergunte ao fotógrafo se ele já trabalhou na região.',
+      },
+    ],
+  },
+  {
+    slug: 'casamento-alto-pinheiros-sp-fotografo',
+    bairro: 'Alto de Pinheiros',
+    title: 'Casamento no Alto de Pinheiros SP: Locações Exclusivas e Como Fotografar com Beleza',
+    description:
+      'Fotógrafo de casamento no Alto de Pinheiros, São Paulo: conheça locações exclusivas ao ar livre e dicas para valorizar a atmosfera do bairro nas fotos.',
+    excerpt:
+      'O Alto de Pinheiros oferece casas com jardins espaçosos e chácaras urbanas, ideais para casamentos ao ar livre em São Paulo. Veja dicas de locação e estilo.',
+    date: '2026-07-08',
+    image: '/images/galeria/detalhes/casamento-sao-paulo-detalhes-23.jpg',
+    faq: [
+      {
+        question: 'O Alto de Pinheiros é indicado para casamentos ao ar livre em SP?',
+        answer:
+          'Sim. O Alto de Pinheiros tem casas com jardins espaçosos, espaços temáticos e chácaras urbanas que permitem casamentos ao ar livre em plena São Paulo. A região é mais calma que bairros centrais, com menos ruído urbano e mais verde, ideal para casamentos com atmosfera intimista.',
+      },
+      {
+        question: 'Tem espaços de casamento rústico no Alto de Pinheiros?',
+        answer:
+          'Existem espaços com elementos rústicos na região, como casas com vigas de madeira, jardins com pedras naturais e decorações country. Para casamentos rústicos clássicos, o ideal é combinar um espaço no Alto de Pinheiros com decoração temática — o fotógrafo precisa conhecer o estilo para valorizar esses elementos.',
+      },
+    ],
+  },
+  {
+    slug: 'fotografo-casamento-abc-paulista-santo-andre-sao-bernardo',
+    bairro: 'ABC Paulista',
+    title: 'Fotógrafo de Casamento no ABC Paulista: Cobertura Completa em Santo André, São Bernardo e São Caetano',
+    description:
+      'Fotógrafo de casamento no ABC Paulista (Santo André, São Bernardo e São Caetano do Sul), atendendo toda a região com cobertura completa vinda de São Paulo.',
+    excerpt:
+      'Fotógrafos de São Paulo atendem todo o ABC Paulista. Veja como funciona o deslocamento, os espaços da região e o que considerar ao planejar a cobertura.',
+    date: '2026-07-10',
+    image: '/images/galeria/detalhes/casamento-sao-paulo-detalhes-27.jpg',
+    faq: [
+      {
+        question: 'Fotógrafo de casamento de São Paulo atende o ABC Paulista?',
+        answer:
+          'Sim. A maioria dos fotógrafos profissionais de SP atende toda a Grande São Paulo, incluindo Santo André, São Bernardo do Campo e São Caetano do Sul. Verifique se há taxa de deslocamento — alguns profissionais incluem o ABC na cobertura padrão, outros cobram deslocamento a partir de certa distância.',
+      },
+      {
+        question: 'O ABC tem bons espaços para casamentos?',
+        answer:
+          'Sim. O ABC Paulista tem uma boa infraestrutura de espaços para eventos, com salões de diferentes portes, haras, sítios e chácaras na região de São Bernardo e Ribeirão Pires. Os preços dos espaços costumam ser mais acessíveis que na capital, permitindo casamentos mais elaborados com o mesmo orçamento.',
+      },
+      {
+        question: 'Quanto tempo o fotógrafo de SP leva para chegar no ABC para o casamento?',
+        answer:
+          'Dependendo do horário, o trajeto SP-ABC pode levar de 40 minutos a mais de 1h30 no trânsito. Profissionais experientes levam isso em conta no planejamento, chegando com antecedência. Combine sempre o horário de chegada e o local de início da cobertura no contrato.',
+      },
+    ],
+  },
+  {
+    slug: 'fotografo-casamento-alphaville-barueri-sp',
+    bairro: 'Alphaville',
+    title: 'Fotógrafo de Casamento em Alphaville e Barueri SP: Cobertura em Espaços de Luxo',
+    description:
+      'Fotógrafo de casamento em Alphaville e Barueri, região metropolitana de São Paulo: espaços de luxo, taxas de deslocamento e dicas sobre o uso de drone.',
+    excerpt:
+      'Alphaville e Barueri reúnem espaços de casamento de alto padrão na Grande São Paulo. Veja dicas sobre deslocamento, drone e o que esperar da cobertura.',
+    date: '2026-07-12',
+    image: '/images/galeria/detalhes/casamento-sao-paulo-detalhes-28.jpg',
+    faq: [
+      {
+        question: 'Alphaville tem espaços bons para casamentos em São Paulo?',
+        answer:
+          'Alphaville e Barueri concentram alguns dos espaços de casamento mais exclusivos da Grande São Paulo: clubes de alto padrão, haras, sítios e espaços com vista para a represa e área verde. São muito procurados para casamentos ao ar livre e eventos com alto número de convidados.',
+      },
+      {
+        question: 'Fotógrafo de SP cobra taxa para atender casamentos em Alphaville?',
+        answer:
+          'Depende do profissional. Alguns fotógrafos baseados em SP cobram taxa de deslocamento para Alphaville (cerca de 30 km da capital). Outros incluem a região no atendimento padrão. Pergunte isso ao contratar e inclua no contrato para evitar surpresas.',
+      },
+      {
+        question: 'Drone funciona bem em casamentos em Alphaville?',
+        answer:
+          'Alphaville é uma das regiões da Grande SP com menos restrições para uso de drone em eventos ao ar livre. Os espaços amplos, com verde e lagos, potencializam o resultado das imagens aéreas. Verifique sempre a regulamentação local e a habilitação ANAC do piloto.',
+      },
+    ],
+  },
+  {
+    slug: 'fotografo-casamento-zona-sul-sp',
+    bairro: 'Zona Sul',
+    title: 'Fotógrafo de Casamento na Zona Sul de SP: Melhores Bairros, Salões e Dicas de Cobertura',
+    description:
+      'Fotógrafo de casamento na Zona Sul de São Paulo: veja os bairros mais procurados para casar, incluindo Santo Amaro, Campo Belo e Interlagos, e dicas de cobertura.',
+    excerpt:
+      'Moema, Vila Mariana, Santo Amaro e Campo Belo estão entre os bairros mais procurados para casamentos na Zona Sul de SP. Veja dicas para escolher seu fotógrafo.',
+    date: '2026-07-14',
+    image: '/images/galeria/festa/casamento-sao-paulo-festa-07.jpg',
+    faq: [
+      {
+        question: 'Quais bairros da Zona Sul de SP são mais usados para casamentos?',
+        answer:
+          'Na Zona Sul, os bairros mais procurados para casamentos são Moema, Vila Mariana, Santo Amaro, Campo Belo e a região de Interlagos. Santo Amaro tem boa oferta de salões e espaços de eventos, enquanto Campo Belo mistura sofisticação com localização central.',
+      },
+      {
+        question: 'Fotógrafo de casamento na Zona Sul de SP tem portfólio com espaços da região?',
+        answer:
+          'Fotógrafos experientes que atuam em SP costumam ter portfólio variado com espaços de diferentes regiões. Peça sempre para ver imagens de casamentos realizados em espaços semelhantes ao seu — isso ajuda a entender como o fotógrafo lida com a luz e o ambiente específico.',
+      },
+    ],
+  },
+  {
+    slug: 'mini-wedding-sao-paulo-fotografia-cobertura',
+    bairro: 'Mini Wedding',
+    title: 'Mini Wedding em São Paulo: Tudo Que Você Precisa Saber Sobre Fotografia e Cobertura',
+    description:
+      'Fotógrafo de mini wedding em São Paulo: entenda como funciona a cobertura fotográfica desse formato, preços médios e as melhores locações para casamentos intimistas.',
+    excerpt:
+      'Mini weddings pedem uma cobertura fotográfica mais próxima e personalizada. Veja como funciona, quanto custa e quais locações em São Paulo são mais fotogênicas.',
+    date: '2026-07-16',
+    image: '/images/galeria/festa/casamento-sao-paulo-festa-10.jpg',
+    faq: [
+      {
+        question: 'O que é mini wedding e como a fotografia funciona nesse formato?',
+        answer:
+          'Mini wedding é um casamento com número reduzido de convidados (geralmente até 50 pessoas) em espaço intimista. A fotografia se adapta ao formato: menos convidados significa mais possibilidade de atenção individualizada, sessões de retratos mais longas e registros mais emocionais. O pacote costuma ser mais compacto e personalizado.',
+      },
+      {
+        question: 'Mini wedding precisa de dois fotógrafos?',
+        answer:
+          'Para mini weddings com até 30 convidados em espaço compacto, um fotógrafo experiente costuma dar conta. Para eventos com 30 a 80 pessoas ou em espaços com cerimônia e festa separados, o segundo fotógrafo continua sendo recomendado.',
+      },
+      {
+        question: 'Pacote de fotografia de mini wedding é mais barato que casamento completo?',
+        answer:
+          'Geralmente sim, mas não proporcionalmente. Um mini wedding com 5 horas de cobertura custa menos que um casamento de 12 horas, mas o custo por hora pode ser similar, pois o fotógrafo tem os mesmos custos fixos de equipamento, edição e deslocamento. Em média, pacotes de mini wedding variam de R$ 3.000 a R$ 8.000 em SP.',
+      },
+      {
+        question: 'Quais espaços em SP são melhores para mini wedding com boas fotos?',
+        answer:
+          'Espaços com luz natural, jardins ou decoração intimista produzem as melhores fotos de mini wedding. Em SP, bistrôs com área externa, galerias de arte, ateliês e casas históricas em bairros como Pinheiros, Vila Madalena e Jardins são escolhas populares e fotogênicas.',
+      },
+      {
+        question: 'É possível fazer um mini wedding em casa com fotógrafo profissional em SP?',
+        answer:
+          'Sim, e está cada vez mais em alta. Casamentos em casa têm uma intimidade única que resulta em fotos muito emocionais. O fotógrafo precisará avaliar a iluminação e o espaço com antecedência. Casas com áreas externas, jardins ou varandas amplas produzem os melhores resultados.',
+      },
+    ],
+  },
+  {
+    slug: 'casamento-civil-cartorio-sao-paulo-fotografo',
+    bairro: 'Casamento Civil',
+    title: 'Casamento Civil em Cartório em São Paulo: Vale Contratar Fotógrafo? O Que Fazer',
+    description:
+      'Fotógrafo para casamento civil em cartório em São Paulo: entenda se vale a pena contratar, regras dos cartórios, preços médios e dicas de ensaio.',
+    excerpt:
+      'Mesmo uma cerimônia civil rápida pode virar um registro emocional inesquecível. Veja se vale contratar fotógrafo para o cartório em São Paulo e o que considerar.',
+    date: '2026-07-18',
+    image: '/images/galeria/festa/casamento-sao-paulo-festa-11.jpg',
+    faq: [
+      {
+        question: 'Vale a pena contratar fotógrafo para casamento civil no cartório em SP?',
+        answer:
+          'Sim, especialmente se o casamento civil for a celebração principal. Mesmo que a cerimônia seja simples e rápida, as fotos capturam um momento histórico e emocional único. Muitos casais contratam o fotógrafo para o cartório + um almoço ou jantar comemorativo logo depois, criando um mini álbum especial.',
+      },
+      {
+        question: 'Cartórios em SP permitem fotógrafo durante a cerimônia civil?',
+        answer:
+          'A maioria dos cartórios em SP permite a presença de fotógrafo. Alguns têm restrições de movimento ou flash. Pergunte ao cartório com antecedência sobre as regras. O fotógrafo profissional saberá se adaptar às limitações do espaço.',
+      },
+      {
+        question: 'Quanto custa contratar fotógrafo só para casamento civil em SP?',
+        answer:
+          'Sessões focadas em casamento civil costumam ter pacotes menores, de 2 a 4 horas, com valor entre R$ 1.200 e R$ 3.500 em SP, dependendo do fotógrafo e do que está incluso (entrega digital, álbum). Alguns fotógrafos combinam o civil com um ensaio externo na mesma tarde.',
+      },
+      {
+        question: 'É possível fazer ensaio de casal antes ou depois do cartório em SP?',
+        answer:
+          'Sim, e é uma ótima ideia. Casais costumam fazer uma sessão de retratos em um local bonito próximo ao cartório — um parque, jardim ou rua fotogênica — logo antes ou depois da cerimônia. Em SP, há muitas opções perto dos principais cartórios para criar imagens mais criativas do dia.',
+      },
+    ],
+  },
+  {
+    slug: 'ensaio-pre-wedding-sao-paulo-guia-completo',
+    bairro: 'Pré-Wedding',
+    title: 'Ensaio Pré-Wedding em São Paulo: Guia Completo com Dicas, Preços e Melhores Locações',
+    description:
+      'Ensaio pré-wedding em São Paulo: veja preços médios, as melhores locações da cidade, a melhor época do ano e quanto tempo dura uma sessão completa.',
+    excerpt:
+      'O ensaio pré-wedding é uma das partes mais aguardadas da preparação do casamento. Veja preços, locações e dicas para aproveitar ao máximo a sessão em São Paulo.',
+    date: '2026-07-20',
+    image: '/images/galeria/pre-wedding/casamento-sao-paulo-pre-wedding-01.jpg',
+    faq: [
+      {
+        question: 'O que é ensaio pré-wedding e para que serve?',
+        answer:
+          'O pré-wedding é uma sessão de fotos do casal antes do casamento, em locação escolhida por eles. Serve para criar imagens para convite, site de casamento, decoração e redes sociais, além de ser uma oportunidade para o casal se familiarizar com o fotógrafo e com a câmera antes do grande dia.',
+      },
+      {
+        question: 'Quanto custa um ensaio pré-wedding em São Paulo?',
+        answer:
+          'Em SP, os preços variam de R$ 1.200 a R$ 4.500, dependendo do fotógrafo, das horas de sessão, da locação e dos produtos inclusos (álbum, fotos tratadas, vídeo). Fotógrafos com posicionamento premium cobram entre R$ 2.500 e R$ 5.000 por sessão completa.',
+      },
+      {
+        question: 'Onde fazer pré-wedding em São Paulo: quais são as melhores locações?',
+        answer:
+          'Em SP, as locações mais usadas são o Parque Ibirapuera (clássico e fotogênico), a região dos Jardins (sofisticação urbana), a Vila Madalena (estilo autoral e grafites), o Jardim Botânico, o Vale do Anhangabaú e o Centro Histórico. Cada local oferece uma atmosfera diferente — a escolha depende do estilo do casal.',
+      },
+      {
+        question: 'Qual a melhor época para fazer pré-wedding em São Paulo?',
+        answer:
+          'As melhores épocas em SP são outono e inverno (abril a agosto), quando o tempo é mais seco e previsível, com menos chuva e temperaturas amenas. Evite dezembro e janeiro pela instabilidade climática.',
+      },
+      {
+        question: 'Quanto tempo dura um ensaio pré-wedding?',
+        answer:
+          'A maioria das sessões dura entre 2 e 4 horas. Sessões mais longas permitem troca de looks, mudança de locação e um ritmo mais relaxado — resultando em fotos mais naturais. Sessões rápidas de 1h30 são possíveis para orçamentos menores, mas limitam as possibilidades criativas.',
+      },
+    ],
+  },
+  {
+    slug: 'pre-wedding-praia-litoral-sp-fotografo',
+    bairro: 'Pré-Wedding na Praia',
+    title: 'Pré-Wedding na Praia: Como Organizar e O Que Esperar das Fotos no Litoral de SP',
+    description:
+      'Pré-wedding na praia: veja quais praias do litoral de São Paulo são mais fotogênicas, o melhor horário para as fotos e como funciona o deslocamento do fotógrafo.',
+    excerpt:
+      'Guarujá, Ubatuba, Ilhabela e Maresias são alguns dos destinos preferidos para ensaios pré-wedding no litoral de SP. Veja dicas para organizar a sua sessão na praia.',
+    date: '2026-07-22',
+    image: '/images/galeria/pre-wedding/casamento-sao-paulo-pre-wedding-02.jpg',
+    faq: [
+      {
+        question: 'Quais praias de SP são melhores para ensaio pré-wedding?',
+        answer:
+          'As praias mais usadas para pré-wedding em SP são Guarujá (Enseada e Pereque), Ubatuba (Prumirim e Félix), Ilhabela (Pacuíba e do Sino), Maresias e Juréia. Cada uma tem características únicas: Ilhabela é a mais selvagem e exuberante, Guarujá é a mais acessível, Ubatuba tem paisagens mais verdes.',
+      },
+      {
+        question: 'Qual o melhor horário para fazer fotos de pré-wedding na praia?',
+        answer:
+          'Golden hour (1h antes do pôr do sol) é o momento mais desejado — a luz alaranjada e quente é perfeita para fotos românticas na areia. O amanhecer também é excelente e tem a vantagem de praia mais vazia. Evite o meio-dia pelo sol intenso e sombras duras nas faces.',
+      },
+      {
+        question: 'O fotógrafo precisa se deslocar até a praia? Há taxa adicional?',
+        answer:
+          'Sim, o deslocamento até o litoral paulista geralmente implica custo adicional: combustível, pedágio e hospedagem do fotógrafo se a sessão for em Ubatuba ou Ilhabela. Para Guarujá e Litoral Sul, a taxa costuma ser mais acessível, entre R$ 200 e R$ 600.',
+      },
+    ],
+  },
+  {
+    slug: 'como-se-preparar-ensaio-pre-wedding-looks-dicas',
+    bairro: 'Dicas de Pré-Wedding',
+    title: 'Como se Preparar Para o Ensaio Pré-Wedding: Looks, Maquiagem e Dicas de Pose',
+    description:
+      'Como se preparar para o ensaio pré-wedding: dicas de looks, número de trocas de roupa, maquiagem e direção de poses para um ensaio em São Paulo.',
+    excerpt:
+      'O que vestir, quantas trocas de roupa fazer e como se sentir confiante na frente da câmera. Veja dicas para aproveitar bem o seu ensaio pré-wedding.',
+    date: '2026-07-24',
+    image: '/images/galeria/pre-wedding/casamento-sao-paulo-pre-wedding-03.jpg',
+    faq: [
+      {
+        question: 'Qual look usar no ensaio pré-wedding?',
+        answer:
+          'Escolha roupas que representem a personalidade do casal. Combinações harmônicas (não necessariamente iguais) funcionam bem. Evite estampas muito chamativas que distraiam do casal. Para sessões ao ar livre, aposte em tons neutros e suaves. Para sessões urbanas, looks modernos e styling mais editorial combinam melhor.',
+      },
+      {
+        question: 'Quantas trocas de roupa fazer no pré-wedding?',
+        answer:
+          'O ideal é de 1 a 3 trocas, dependendo da duração da sessão. Mais de 3 trocas pode tornar a sessão cansativa e tirar a naturalidade das fotos. Dê preferência a mudanças significativas de estilo: casual + formal, ou roupa de dia + look mais elaborado para o entardecer.',
+      },
+      {
+        question: 'O fotógrafo vai me dar direção de poses no pré-wedding?',
+        answer:
+          'Um bom fotógrafo de casamento em SP vai sim direcionar o casal — não em poses estáticas, mas em movimentos naturais: caminhar de mãos dadas, dançar, sussurrar algo no ouvido, olhar juntos para um determinado ponto. Esse tipo de direção gera fotos espontâneas com mais emoção.',
+      },
+      {
+        question: 'Preciso fazer maquiagem profissional para o pré-wedding?',
+        answer:
+          'Recomendado, mas não obrigatório. A maquiagem profissional para fotos é diferente da maquiagem do dia a dia — é mais resistente e fotogênica. Uma make mais elaborada aumenta a confiança da noiva e o resultado nas fotos. Alguns pacotes de pré-wedding oferecem produção de make inclusa.',
+      },
+    ],
+  },
+  {
+    slug: 'fotografo-bodas-de-ouro-sao-paulo',
+    bairro: 'Bodas de Ouro',
+    title: 'Fotógrafo de Bodas de Ouro em São Paulo: Como Celebrar 50 Anos de Casamento em Fotos',
+    description:
+      'Fotógrafo de bodas de ouro em São Paulo: veja como celebrar 50 anos de casamento com um ensaio fotográfico especial, preços médios e ideias de locação.',
+    excerpt:
+      'Comemorar 50 anos de casamento merece um registro à altura. Veja como funciona um ensaio de bodas de ouro em São Paulo e como envolver a família nas fotos.',
+    date: '2026-07-26',
+    image: '/images/galeria/festa/casamento-sao-paulo-festa-12.jpg',
+    faq: [
+      {
+        question: 'O que são bodas de ouro e como comemorar com fotografia em SP?',
+        answer:
+          'Bodas de ouro marcam os 50 anos de casamento. Em SP, é cada vez mais comum comemorar com uma sessão fotográfica especial — seja um ensaio no mesmo local do casamento original, uma festa com a família ou um ensaio externo em locação significativa para o casal. As fotos viram legado para os filhos e netos.',
+      },
+      {
+        question: 'Quanto custa contratar fotógrafo para bodas de ouro em SP?',
+        answer:
+          'Pacotes de ensaio para bodas de ouro em SP variam de R$ 1.500 a R$ 5.000, dependendo da duração, locação, produtos inclusos (álbum, quadros) e do fotógrafo. Para festas de bodas com cobertura completa, o valor se aproxima de um pacote de casamento.',
+      },
+      {
+        question: 'Qual locação é boa para fotos de bodas de ouro em SP?',
+        answer:
+          'Locações com significado para o casal são sempre as mais emocionantes: a igreja onde casaram, o bairro onde se conheceram, o restaurante da primeira data. Sem conexão afetiva, os Jardins, o Centro Histórico e espaços clássicos de SP também produzem imagens lindas.',
+      },
+      {
+        question: 'Filhos e netos podem participar das fotos de bodas de ouro?',
+        answer:
+          'Sim, e costuma ser muito emocionante. Muitos casais incluem filhos e até netos nas fotos de bodas de ouro, criando imagens de família que contam a história de gerações. O fotógrafo pode alternar fotos só do casal com fotos da família completa.',
+      },
+    ],
+  },
+  {
+    slug: 'bodas-de-ouro-sp-custo-cobertura-fotografica',
+    bairro: 'Bodas de Ouro',
+    title: 'Bodas de Ouro em SP: Quanto Custa e O Que Incluir na Cobertura Fotográfica',
+    description:
+      'Bodas de ouro em São Paulo: quanto custa a cobertura fotográfica, quando contratar dois fotógrafos e qual formato de álbum é mais especial para o evento.',
+    excerpt:
+      'Festas de bodas de ouro têm necessidades próprias de cobertura fotográfica. Veja custos médios em SP e como escolher o álbum ideal para esse momento.',
+    date: '2026-07-28',
+    image: '/images/galeria/festa/casamento-sao-paulo-festa-15.jpg',
+    faq: [
+      {
+        question: 'Festa de bodas de ouro precisa de dois fotógrafos?',
+        answer:
+          'Para festas com mais de 80 convidados ou em locações maiores, dois fotógrafos garantem cobertura completa. Para celebrações mais íntimas (almoço em família, ensaio especial), um fotógrafo experiente é suficiente.',
+      },
+      {
+        question: 'Álbum fotográfico de bodas de ouro: qual formato é mais especial?',
+        answer:
+          'Para bodas de ouro, álbuns de formato grande (30x40 ou 40x40 cm) com impressão FineArt e capa em tecido ou couro têm um valor emocional e estético especial. Esses álbuns viram um presente para deixar para os filhos e netos — um legado visual da história do casal.',
+      },
+    ],
+  },
+  {
+    slug: 'fotos-bodas-de-prata-sao-paulo-ensaio',
+    bairro: 'Bodas de Prata',
+    title: 'Fotos de Bodas de Prata em São Paulo: Celebre 25 Anos de União com Ensaio Especial',
+    description:
+      'Fotógrafo de bodas de prata em São Paulo: veja como celebrar 25 anos de casamento com um ensaio fotográfico especial em locais com significado para o casal.',
+    excerpt:
+      'Vinte e cinco anos de história merecem um registro especial. Veja como funciona um ensaio de bodas de prata em São Paulo e onde fazer as fotos.',
+    date: '2026-07-30',
+    image: '/images/galeria/pre-wedding/casamento-sao-paulo-pre-wedding-04.jpg',
+    faq: [
+      {
+        question: 'O que são bodas de prata e como celebrar com fotos em SP?',
+        answer:
+          'Bodas de prata são os 25 anos de casamento. Uma forma bonita de comemorar é com um ensaio fotográfico do casal — muitas vezes os dois juntos não aparecem em fotos há anos! O ensaio pode ser na cidade, em um local com significado afetivo ou na praia.',
+      },
+    ],
+  },
+  {
+    slug: 'fotografo-casamento-rustico-sao-paulo',
+    bairro: 'Casamento Rústico',
+    title: 'Fotógrafo para Casamento Rústico em São Paulo: Espaços, Estilo e Dicas de Cobertura',
+    description:
+      'Fotógrafo de casamento rústico em São Paulo: conheça os melhores espaços nos arredores da cidade, fazendas e sítios, e veja como o drone valoriza esse estilo.',
+    excerpt:
+      'Fazendas, sítios e vinícolas perto de São Paulo são ótimos para casamentos rústicos. Veja espaços recomendados e como o drone potencializa as fotos nesse estilo.',
+    date: '2026-08-01',
+    image: '/images/galeria/pre-wedding/casamento-sao-paulo-pre-wedding-05.jpg',
+    faq: [
+      {
+        question: 'Quais são os melhores espaços para casamento rústico próximos a SP?',
+        answer:
+          'Nos arredores de SP, os espaços mais procurados para casamento rústico são fazendas em Ibiúna, Mairiporã, Cotia e na região de Atibaia. Locais como haras, sítios com celeiro e vinícolas também são muito usados. A menos de 100 km de SP já é possível encontrar espaços com vegetação densa e arquitetura rústica.',
+      },
+      {
+        question: 'Como o drone funciona em casamentos rústicos e em fazendas?',
+        answer:
+          'Casamentos em fazendas e sítios são os melhores cenários para drone: sem restrições urbanas, com paisagem ampla e verde, as imagens aéreas ficam espetaculares. Se o espaço permitir, o drone em casamentos rústicos é um dos melhores investimentos adicionais.',
+      },
+    ],
+  },
+  {
+    slug: 'destination-wedding-sao-paulo-fotografo',
+    bairro: 'Destination Wedding',
+    title: 'Destination Wedding em São Paulo: O Que É e Como Fotografar um Casamento de Destino',
+    description:
+      'Destination wedding em São Paulo: entenda o conceito, por que SP pode ser destino de casamento para casais de outras cidades e como funciona o fotógrafo que viaja.',
+    excerpt:
+      'Destination wedding vai muito além do destino em si — envolve experiência, logística e um fotógrafo preparado para viajar. Veja como isso funciona em São Paulo.',
+    date: '2026-08-03',
+    image: '/images/galeria/pre-wedding/casamento-sao-paulo-pre-wedding-06.jpg',
+    faq: [
+      {
+        question: 'O que é destination wedding?',
+        answer:
+          'Destination wedding é um casamento realizado em um destino especial — diferente da cidade onde o casal mora — que pode ser uma praia, montanha, vinícola, cidade histórica ou mesmo outro país. O foco é numa experiência imersiva para o casal e um grupo seleto de convidados.',
+      },
+      {
+        question: 'São Paulo pode ser destino de casamento para casais de outras cidades?',
+        answer:
+          'Sim. SP é um destino de casamento para casais de todo o Brasil que querem a sofisticação e os recursos da maior metrópole do país: fornecedores especializados, culinária de ponta, espaços icônicos e fotógrafos renomados.',
+      },
+      {
+        question: 'Fotógrafo de São Paulo viaja para destination wedding em outros estados?',
+        answer:
+          'Sim. Muitos fotógrafos de casamento de SP aceitam destination weddings em outros estados e países. Os custos de viagem (passagens, hospedagem, diárias) são adicionados ao pacote. O valor varia conforme o destino e a duração do evento.',
+      },
+    ],
+  },
+  {
+    slug: 'fotografia-documental-casamento-o-que-e',
+    bairro: 'Fotografia Documental',
+    title: 'O Que É Fotografia Documental de Casamento? Diferenças, Vantagens e Para Quem Serve',
+    description:
+      'Fotografia documental de casamento: entenda o que é esse estilo, a diferença com o fotojornalismo e por que ele se tornou tão popular em São Paulo.',
+    excerpt:
+      'Risos, lágrimas e olhares genuínos: entenda o que é a fotografia documental de casamento e por que esse estilo conquistou tantos casais em São Paulo.',
+    date: '2026-08-05',
+    image: '/images/galeria/festa/casamento-sao-paulo-festa-18.jpg',
+    faq: [
+      {
+        question: 'O que é fotografia documental de casamento?',
+        answer:
+          'Fotografia documental de casamento é um estilo que prioriza o registro espontâneo e não interferente dos momentos: risos, lágrimas, abraços, olhares e reações genuínas. O fotógrafo não organiza poses nem interrompe o fluxo do evento — ele observa e registra como um jornalista visual.',
+      },
+      {
+        question: 'Qual a diferença entre fotografia documental e fotojornalismo de casamento?',
+        answer:
+          'Os termos são frequentemente usados como sinônimos. Tecnicamente, fotojornalismo é a aplicação da linguagem do jornalismo na cobertura de eventos. Fotografia documental é mais ampla e pode incluir uma narrativa mais subjetiva e artística. Na prática, ambos os estilos buscam autenticidade e espontaneidade.',
+      },
+      {
+        question: 'Posso pedir fotos específicas ao fotógrafo documental?',
+        answer:
+          'Sim. A lista de must-shots (fotos obrigatórias) é comum em qualquer estilo. O fotógrafo documental garante essas fotos, mas as complementa com toda a riqueza de momentos espontâneos que acontecem entre as poses.',
+      },
+    ],
+  },
+  {
+    slug: 'same-day-edit-casamento-o-que-e-vale-a-pena',
+    bairro: 'Same Day Edit',
+    title: 'Same Day Edit de Casamento: O Que É, Quanto Custa e Vale a Pena?',
+    description:
+      'Same Day Edit de casamento em São Paulo: entenda o que é, quanto custa esse serviço e se ele substitui o filme completo do casamento.',
+    excerpt:
+      'Um vídeo emocionante exibido ainda durante a festa: veja o que é o Same Day Edit, quanto custa em São Paulo e se vale a pena incluir no seu casamento.',
+    date: '2026-08-07',
+    image: '/images/galeria/festa/casamento-sao-paulo-festa-20.jpg',
+    faq: [
+      {
+        question: 'O que é Same Day Edit em casamento?',
+        answer:
+          'Same Day Edit é um vídeo curto (geralmente 3 a 7 minutos) editado e exibido durante a própria festa de casamento, normalmente entre o jantar e a abertura da pista. Ele reúne os melhores momentos do dia: making of, cerimônia, primeiras fotos dos noivos — compilados com trilha sonora e narração, causando emoção coletiva nos convidados.',
+      },
+      {
+        question: 'Quanto custa o Same Day Edit em São Paulo?',
+        answer:
+          'Em SP, o Same Day Edit é cobrado como adicional ao pacote de vídeo, variando de R$ 1.500 a R$ 3.000. O valor inclui a equipe de edição presente no evento e o arquivo final do vídeo entregue após o casamento.',
+      },
+      {
+        question: 'O Same Day Edit substitui o filme de casamento completo?',
+        answer:
+          'Não. São produtos diferentes. O Same Day Edit é um teaser emocional exibido no mesmo dia. O filme completo de casamento é um produto elaborado, editado com calma após o evento, com duração de 20 a 60 minutos. Os dois se complementam.',
+      },
+    ],
+  },
+  {
+    slug: 'drone-casamento-sp-licenca-anac-fotografia-aerea',
+    bairro: 'Drone e ANAC',
+    title: 'Drone em Casamento SP: É Obrigatório Ter Licença ANAC? Tudo Sobre Fotografia Aérea',
+    description:
+      'Drone em casamento em São Paulo: entenda as exigências da ANAC para pilotos, quais zonas da cidade têm restrição de voo e o que verificar antes de contratar.',
+    excerpt:
+      'Antes de incluir drone na cobertura do seu casamento em São Paulo, é importante entender as regras da ANAC e as zonas de restrição de voo na cidade.',
+    date: '2026-08-09',
+    image: '/images/galeria/festa/casamento-sao-paulo-festa-04.jpg',
+    faq: [
+      {
+        question: 'Todo piloto de drone para casamento precisa de habilitação ANAC?',
+        answer:
+          'Sim. O uso de drones para fins comerciais (incluindo fotografia de casamentos) exige cadastro na ANAC e no sistema SISANT. Pilotos que voam drones acima de 250g em operações pagas precisam de certificado específico. Pergunte sempre ao fotógrafo se ele tem a habilitação antes de contratar.',
+      },
+      {
+        question: 'Existem zonas em SP onde é proibido voar drone para casamentos?',
+        answer:
+          'Sim. SP tem diversas zonas de restrição aérea: raio de até 7 km dos aeroportos de Congonhas e Campo de Marte, áreas próximas a instalações militares e governamentais. Bairros como Itaim Bibi, Brooklin, Campo Belo e Moema ficam próximos a Congonhas e têm restrições.',
+      },
+    ],
+  },
+  {
+    slug: 'quantas-fotos-recebo-casamento-sp',
+    bairro: 'Quantidade de Fotos',
+    title: 'Quantas Fotos Recebo do Meu Casamento? O Que Esperar do Seu Fotógrafo em SP',
+    description:
+      'Quantas fotos um fotógrafo de casamento entrega em São Paulo? Veja números médios, prazos de entrega e o que esperar em termos de resolução e qualidade.',
+    excerpt:
+      'Quantidade de fotos, prazo de entrega e resolução: veja o que é considerado padrão por bons fotógrafos de casamento em São Paulo e o que pode ser sinal de alerta.',
+    date: '2026-08-11',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-01.jpg',
+    faq: [
+      {
+        question: 'Qual o número mínimo de fotos que devo receber do meu casamento?',
+        answer:
+          'Para uma cobertura completa de 10 a 12 horas com dois fotógrafos em SP, o mínimo esperado é de 500 fotos tratadas. A média de fotógrafos bem avaliados em SP é de 600 a 1.200 fotos. Desconfie de promessas de mais de 2.000 fotos — pode indicar falta de curadoria e qualidade inconsistente.',
+      },
+      {
+        question: 'Prazo de entrega das fotos de casamento em SP: quanto tempo esperar?',
+        answer:
+          'O prazo médio é de 30 a 90 dias após o casamento. Fotógrafos com agenda cheia em alta temporada (outubro a março) podem levar até 120 dias. Prazos mais curtos (15 a 30 dias) costumam ser cobrados como entrega expressa. Confirme sempre o prazo exato no contrato.',
+      },
+      {
+        question: 'Recebo as fotos em alta resolução ou somente em baixa para redes sociais?',
+        answer:
+          'Fotógrafos profissionais entregam as fotos em alta resolução — adequadas para impressão em qualquer tamanho — além de versões otimizadas para compartilhamento digital. Confirme no contrato que a entrega inclui arquivos em alta resolução e sem marca d\'água.',
+      },
+    ],
+  },
+  {
+    slug: 'contrato-fotografo-casamento-sp-o-que-deve-ter',
+    bairro: 'Contrato',
+    title: 'Contrato com Fotógrafo de Casamento: O Que Não Pode Faltar no Seu Acordo em SP',
+    description:
+      'Contrato com fotógrafo de casamento em São Paulo: veja as cláusulas essenciais que não podem faltar para garantir segurança jurídica no seu acordo.',
+    excerpt:
+      'Um bom contrato protege os dois lados. Veja quais cláusulas não podem faltar no contrato com o fotógrafo de casamento em São Paulo.',
+    date: '2026-08-13',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-02.jpg',
+    faq: [
+      {
+        question: 'Quais cláusulas essenciais deve ter um contrato com fotógrafo de casamento?',
+        answer:
+          'O contrato deve incluir: data, horário e local do evento; número de fotógrafos e horas de cobertura; prazo e formato de entrega das fotos; número mínimo de imagens tratadas; plano de contingência (substituto em imprevistos); condições de pagamento e sinal; política de cancelamento; direitos de uso das imagens.',
+      },
+      {
+        question: 'O fotógrafo pode usar minhas fotos de casamento na divulgação do trabalho dele?',
+        answer:
+          'Geralmente sim, mas isso deve estar explícito no contrato. A maioria dos fotógrafos inclui uma cláusula que permite usar as imagens para divulgação profissional. Caso você prefira privacidade total, negocie essa cláusula antes de assinar.',
+      },
+      {
+        question: 'O que acontece se o fotógrafo não cumprir o contrato de casamento?',
+        answer:
+          'Em caso de descumprimento, você tem direito a buscar ressarcimento pela via extrajudicial ou judicial. O contrato é sua proteção legal. Guarde todos os comprovantes de pagamento, e-mails e conversas.',
+      },
+    ],
+  },
+  {
+    slug: 'chuva-casamento-fotografo-como-lidar-sp',
+    bairro: 'Imprevistos no Casamento',
+    title: 'Chuva no Casamento: Como um Bom Fotógrafo Transforma o Imprevisto em Arte',
+    description:
+      'Chuva no dia do casamento em São Paulo: veja como fotógrafos experientes lidam com esse imprevisto e como esse cenário pode gerar fotos ainda mais marcantes.',
+    excerpt:
+      'Chuva no casamento não precisa ser um problema. Veja como fotógrafos experientes em São Paulo transformam esse imprevisto em registros únicos e cinematográficos.',
+    date: '2026-08-15',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-03.jpg',
+    faq: [
+      {
+        question: 'O que o fotógrafo faz quando chove no dia do casamento?',
+        answer:
+          'Fotógrafos experientes têm um plano B para chuva: identificam áreas cobertas no espaço, usam guarda-chuvas ou capas como elemento criativo, exploram reflexos nas poças, janelas molhadas e iluminação artificial do espaço. Casamentos com chuva muitas vezes produzem fotos mais dramáticas e únicas que dias de sol perfeito.',
+      },
+      {
+        question: 'Chuva estraga as fotos de casamento ao ar livre em SP?',
+        answer:
+          'Não necessariamente. Muitos fotógrafos afirmam que a chuva traz elementos dramáticos únicos à fotografia — luz difusa, reflexos, atmosfera cinematográfica. Casamentos ao ar livre em SP podem ter cobertura alternativa (gazebo, área semiaberta) para os momentos essenciais, enquanto a chuva vira cenário para fotos criativas.',
+      },
+    ],
+  },
+  {
+    slug: 'tendencias-fotografia-casamento-2026-sao-paulo',
+    bairro: 'Tendências 2026',
+    title: 'Tendências de Fotografia de Casamento Para 2026 em São Paulo',
+    description:
+      'Tendências de fotografia de casamento para 2026 em São Paulo: fotografia analógica, edição natural, casamentos noturnos e vídeos verticais para redes sociais.',
+    excerpt:
+      'De fotos em filme analógico a edições mais naturais: veja as principais tendências de fotografia de casamento para 2026 em São Paulo.',
+    date: '2026-08-17',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-04.jpg',
+    faq: [
+      {
+        question: 'Quais são as tendências de fotografia de casamento em 2026?',
+        answer:
+          'Em 2026, as principais tendências em SP incluem: fotografia analógica integrada ao digital (fotos em filme 35mm para nostalgia), edição com cores mais naturais e menos contrastadas, pré-wedding em destinos internacionais, uso criativo de reflexos e prismas, casamentos noturnos com iluminação dramática e maior demanda por vídeos verticais (reels) para redes sociais.',
+      },
+      {
+        question: 'Estilo de edição de fotos de casamento mudou em 2026?',
+        answer:
+          'Sim. A tendência em 2026 é edição com tons mais neutros e naturais, peles com cores fiéis e saturação mais suave — em contraste com a edição com filtros fortes e tons muito alaranjados ou esverdeados que dominaram os anos anteriores. O objetivo é fotos que pareçam atemporais.',
+      },
+      {
+        question: 'Fotos em filme analógico voltaram para casamentos?',
+        answer:
+          'Sim, o analógico voltou com força como elemento diferencial. Muitos fotógrafos de casamento em SP estão incorporando rolagens de filme 35mm ou médio formato como complemento ao digital. As fotos em filme têm textura, granulação e paleta de cores únicas que o digital não reproduz perfeitamente.',
+      },
+    ],
+  },
+  {
+    slug: 'melhores-meses-casar-sp-estacao-fotos',
+    bairro: 'Melhor Época para Casar',
+    title: 'Melhores Meses Para Casar em SP: Como a Estação do Ano Afeta Suas Fotos',
+    description:
+      'Melhor época para casar em São Paulo pensando nas fotos: veja como cada estação do ano afeta a luz, o clima e o resultado das imagens do seu casamento.',
+    excerpt:
+      'A estação do ano influencia diretamente a luz e o clima do seu casamento. Veja qual é a melhor época para casar em São Paulo pensando nas fotos.',
+    date: '2026-08-19',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-05.jpg',
+    faq: [
+      {
+        question: 'Qual a melhor época para casar em SP para ter fotos bonitas?',
+        answer:
+          'Os meses de abril a setembro são geralmente os melhores para casamentos ao ar livre em SP: clima mais seco, menos chuva, temperatura amena e luz natural suave. Dezembro a fevereiro é alta temporada, mas com risco alto de chuva à tarde. Para casamentos noturnos ou em espaços fechados, qualquer época funciona bem.',
+      },
+      {
+        question: 'Casamento de inverno em São Paulo tem fotos boas?',
+        answer:
+          'Sim. O inverno em SP (junho a agosto) é seco e com luz dourada no final da tarde — perfeito para golden hour photos. A desvantagem é que fica escuro mais cedo, reduzindo o tempo para fotos ao ar livre com luz natural. Fotógrafos com experiência em luz artificial compensam bem essa limitação.',
+      },
+      {
+        question: 'Casamento no verão em SP: cuidados com luz e calor nas fotos?',
+        answer:
+          'O verão em SP (dezembro a março) tem luz intensa e calor, além de risco de chuvas no fim da tarde. Para fotos externas, fotógrafos evitam o período das 11h às 15h pela dureza da luz. A golden hour no verão é deslumbrante, mas imprevisível por conta das nuvens. Tenha sempre um plano alternativo.',
+      },
+    ],
+  },
+  {
+    slug: 'locacoes-casamento-sao-paulo-alta-2026',
+    bairro: 'Locações em Alta',
+    title: 'Locações de Casamento em São Paulo que Vão Estar em Alta em 2026 Segundo Fotógrafos',
+    description:
+      'Locações de casamento em alta em São Paulo para 2026: galerias de arte, espaços industriais requalificados, hotéis de design e rooftops com vista da cidade.',
+    excerpt:
+      'Galerias de arte, galpões requalificados e rooftops com vista da cidade: veja quais tipos de espaço estarão em alta para casamentos em São Paulo em 2026.',
+    date: '2026-08-21',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-06.jpg',
+    faq: [
+      {
+        question: 'Quais tipos de espaço estão em alta para casamentos em SP em 2026?',
+        answer:
+          'Em 2026, os tipos de espaço em alta para casamentos em SP são: galerias de arte e espaços culturais, jardins privados em mansões históricas, espaços industriais requalificados (galpões com tijolo aparente e pé-direito alto), hotéis de design com terraços e vistas da cidade, e bistrôs íntimos para mini weddings.',
+      },
+      {
+        question: 'Casamentos em cobertura (rooftop) em SP são viáveis para fotografia?',
+        answer:
+          'Sim e estão muito em alta. Coberturas em SP oferecem panorama único da skyline da cidade — lindíssimo para fotos de casal ao entardecer. O desafio é o vento e, em alguns casos, a ausência de cobertura em caso de chuva. Fotógrafos adoram coberturas pela luz e pelo cenário único.',
+      },
+    ],
+  },
 ];
 
 export function getPostBySlug(slug: string): Post | undefined {

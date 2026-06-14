@@ -58,7 +58,7 @@ export default function SatellitePost({ post }: { post: Post }) {
         <div className="mt-10 overflow-hidden rounded-3xl">
           <Image
             src={post.image}
-            alt={`Cerimônia de casamento fotografada no bairro ${post.bairro}, São Paulo`}
+            alt={`${post.title} | Ivan Dias Fotógrafo`}
             role="img"
             width={0}
             height={0}
@@ -73,7 +73,7 @@ export default function SatellitePost({ post }: { post: Post }) {
         <p className="mt-10 font-body text-lg leading-relaxed text-blue-deep/75">{post.excerpt}</p>
         <p className="mt-6 font-body text-base leading-relaxed text-blue-deep/70">{post.description}</p>
         <p className="mt-6 font-body text-base leading-relaxed text-blue-deep/70">
-          Se você está planejando o seu casamento no bairro {post.bairro} e busca um fotógrafo que
+          Se você está planejando o seu casamento em São Paulo e busca um fotógrafo que
           una sensibilidade, técnica e um olhar autoral, será um prazer conversar sobre a sua
           história e como podemos eternizá-la com imagens que você vai guardar para sempre.
         </p>
@@ -120,7 +120,7 @@ export default function SatellitePost({ post }: { post: Post }) {
         </p>
 
         <h2 className="mt-16 font-heading text-2xl font-bold tracking-tightest text-blue-deep md:text-3xl">
-          Perguntas frequentes sobre casamentos em {post.bairro}
+          Perguntas frequentes
         </h2>
 
         <dl className="mt-8 flex flex-col gap-6">
