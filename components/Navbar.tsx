@@ -39,8 +39,8 @@ export default function Navbar() {
     <motion.header
       animate={{ y: hidden ? '-100%' : '0%' }}
       transition={{ duration: 0.35, ease: [0.22, 1, 0.36, 1] }}
-      className={`fixed inset-x-0 top-0 z-40 transition-colors duration-500 ${
-        scrolled ? 'bg-blue-deep/80 backdrop-blur-md shadow-lg shadow-black/10' : 'bg-transparent'
+      className={`fixed inset-x-0 top-0 z-40 bg-blue-deep/80 backdrop-blur-md transition-shadow duration-500 ${
+        scrolled ? 'shadow-lg shadow-black/10' : ''
       }`}
     >
       <nav
