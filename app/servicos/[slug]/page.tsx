@@ -66,7 +66,7 @@ export default function ServicoPage({ params }: Props) {
 
         <div className="relative mx-auto grid max-w-7xl grid-cols-1 items-center gap-16 px-6 md:grid-cols-2 md:px-12">
           <div>
-            <nav aria-label="Breadcrumb" className="font-body text-xs uppercase tracking-wide text-blue-deep/50">
+            <nav aria-label="Breadcrumb" className="font-body text-xs uppercase tracking-wide text-blue-deep/70">
               <ol className="flex flex-wrap items-center gap-2">
                 <li><Link href="/" className="hover:text-blue-accent">Início</Link></li>
                 <li aria-hidden="true">/</li>

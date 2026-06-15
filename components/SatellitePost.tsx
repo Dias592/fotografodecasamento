@@ -32,7 +32,7 @@ export default function SatellitePost({ post }: { post: Post }) {
       />
 
       <div className="mx-auto max-w-3xl px-6 md:px-12">
-        <nav aria-label="Breadcrumb" className="font-body text-xs uppercase tracking-wide text-blue-deep/50">
+        <nav aria-label="Breadcrumb" className="font-body text-xs uppercase tracking-wide text-blue-deep/70">
           <ol className="flex flex-wrap items-center gap-2">
             <li><Link href="/" className="hover:text-blue-accent">Início</Link></li>
             <li aria-hidden="true">/</li>
@@ -50,7 +50,7 @@ export default function SatellitePost({ post }: { post: Post }) {
           {post.title}
         </h1>
 
-        <p className="mt-4 font-body text-sm text-blue-deep/50">
+        <p className="mt-4 font-body text-sm text-blue-deep/70">
           Publicado em{' '}
           {new Date(post.date).toLocaleDateString('pt-BR', { day: '2-digit', month: 'long', year: 'numeric' })}
         </p>

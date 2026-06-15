@@ -97,7 +97,7 @@ export default function Footer() {
       </div>
 
       <div className="mx-auto mt-14 max-w-7xl border-t border-cream/10 px-6 pt-8 md:px-12">
-        <p className="font-body text-xs text-cream/40">
+        <p className="font-body text-xs text-cream/60">
           © {new Date().getFullYear()} Ivan Dias Fotografia. Todos os direitos reservados.
         </p>
       </div>

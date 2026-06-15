@@ -50,7 +50,7 @@ export default function Gallery() {
               {category}
             </button>
           ))}
-          <span className="ml-auto self-center font-body text-sm text-cream/50">
+          <span className="ml-auto self-center font-body text-sm text-cream/70">
             {filtered.length} fotos
           </span>
         </div>

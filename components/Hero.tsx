@@ -160,7 +160,7 @@ export default function Hero() {
           {STATS.map((stat) => (
             <div key={stat.label}>
               <Counter value={stat.value} suffix={stat.suffix} />
-              <p className="mt-1 font-body text-xs text-cream/50 md:text-sm">{stat.label}</p>
+              <p className="mt-1 font-body text-xs text-cream/70 md:text-sm">{stat.label}</p>
             </div>
           ))}
         </motion.div>
