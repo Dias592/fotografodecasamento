@@ -190,7 +190,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 24 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 1, ease: [0.22, 1, 0.36, 1] }}
-          className="absolute bottom-10 left-10 right-10 overflow-hidden rounded-2xl border border-cream/20 bg-blue-deep/40 p-6 backdrop-blur-md"
+          className="absolute bottom-20 left-10 right-10 z-20 overflow-hidden rounded-2xl border border-cream/20 bg-blue-deep/60 p-6 backdrop-blur-md"
         >
           <Image
             src="/images/hero/fotografo-casamento-sao-paulo-detalhe-aliancas.jpg"
