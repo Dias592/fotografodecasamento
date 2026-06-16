@@ -86,19 +86,19 @@ const WHATSAPP_URL =
 const GALLERY = [
   {
     src: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-16.jpg',
-    alt: 'Cerimônia de casamento elegante no ABC Paulista',
+    alt: 'Cerimônia de casamento elegante',
   },
   {
     src: '/images/galeria/festa/casamento-sao-paulo-festa-18.jpg',
-    alt: 'Festa de casamento intimista em São Caetano do Sul',
+    alt: 'Festa de casamento intimista',
   },
   {
     src: '/images/galeria/pre-wedding/casamento-sao-paulo-pre-wedding-15.jpg',
-    alt: 'Ensaio pré-wedding romântico no ABC Paulista',
+    alt: 'Ensaio pré-wedding romântico de casal',
   },
   {
     src: '/images/galeria/detalhes/casamento-sao-paulo-detalhes-14.jpg',
-    alt: 'Detalhes e alianças em casamento sofisticado no ABC',
+    alt: 'Detalhes e alianças em casamento sofisticado',
   },
 ];
 
@@ -156,8 +156,8 @@ export default function SaoCaetanoPage() {
         {/* Imagem hero */}
         <div className="relative h-72 md:h-auto">
           <Image
-            src="/images/hero/fotografo-casamento-sao-paulo-noivos-abraco.jpg"
-            alt="Noivos em momento romântico — Ivan Dias Fotógrafo São Caetano do Sul"
+            src="/images/hero/fotografo-casamento-sao-paulo-detalhe-aliancas.jpg"
+            alt="Detalhes de alianças em casamento — Ivan Dias Fotógrafo"
             fill
             priority
             sizes="(min-width: 768px) 50vw, 100vw"
@@ -229,7 +229,7 @@ export default function SaoCaetanoPage() {
             Portfólio
           </span>
           <h2 className="mt-3 font-heading text-2xl font-bold tracking-tightest text-blue-deep md:text-3xl">
-            Momentos registrados em casamentos no ABC Paulista
+            Momentos do portfólio de Ivan Dias
           </h2>
           <div className="mt-8 grid grid-cols-2 gap-3 md:grid-cols-4">
             {GALLERY.map(({ src, alt }) => (

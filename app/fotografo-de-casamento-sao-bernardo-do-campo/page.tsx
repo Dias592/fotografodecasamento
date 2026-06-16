@@ -86,19 +86,19 @@ const WHATSAPP_URL =
 const GALLERY = [
   {
     src: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
-    alt: 'Cerimônia de casamento registrada no ABC Paulista',
+    alt: 'Cerimônia de casamento registrada',
   },
   {
     src: '/images/galeria/festa/casamento-sao-paulo-festa-12.jpg',
-    alt: 'Festa de casamento em São Bernardo do Campo',
+    alt: 'Momento de festa e alegria no casamento',
   },
   {
     src: '/images/galeria/pre-wedding/casamento-sao-paulo-pre-wedding-10.jpg',
-    alt: 'Ensaio pré-wedding de casal no ABC Paulista',
+    alt: 'Ensaio pré-wedding de casal',
   },
   {
     src: '/images/galeria/detalhes/casamento-sao-paulo-detalhes-08.jpg',
-    alt: 'Detalhes de decoração em casamento no ABC',
+    alt: 'Detalhes de decoração em casamento',
   },
 ];
 
@@ -229,7 +229,7 @@ export default function SaoBernardoPage() {
             Portfólio
           </span>
           <h2 className="mt-3 font-heading text-2xl font-bold tracking-tightest text-blue-deep md:text-3xl">
-            Momentos registrados em casamentos no ABC Paulista
+            Momentos do portfólio de Ivan Dias
           </h2>
           <div className="mt-8 grid grid-cols-2 gap-3 md:grid-cols-4">
             {GALLERY.map(({ src, alt }) => (
