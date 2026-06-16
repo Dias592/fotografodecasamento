@@ -154,14 +154,14 @@ export default function SaoBernardoPage() {
         </div>
 
         {/* Imagem hero */}
-        <div className="relative overflow-hidden">
+        <div className="relative">
           <Image
             src="/images/portfolio/casamento-sao-paulo-noiva-altar-cerimonia.jpg"
             alt="Noiva no altar durante cerimônia de casamento — Ivan Dias Fotógrafo"
-            width={0}
-            height={0}
+            width={800}
+            height={1200}
             sizes="(min-width: 768px) 50vw, 100vw"
-            style={{ width: '100%', height: 'auto' }}
+            className="block h-auto w-full"
             priority
             placeholder="blur"
             blurDataURL={SHIMMER_BLUR_DATA_URL}

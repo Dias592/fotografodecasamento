@@ -154,14 +154,14 @@ export default function SaoCaetanoPage() {
         </div>
 
         {/* Imagem hero */}
-        <div className="relative overflow-hidden">
+        <div className="relative">
           <Image
             src="/images/hero/fotografo-casamento-sao-paulo-noivos-igreja-flores.jpg"
             alt="Noiva com buquê de flores na entrada da igreja — Ivan Dias Fotógrafo"
-            width={0}
-            height={0}
+            width={1400}
+            height={2100}
             sizes="(min-width: 768px) 50vw, 100vw"
-            style={{ width: '100%', height: 'auto' }}
+            className="block h-auto w-full"
             priority
             placeholder="blur"
             blurDataURL={SHIMMER_BLUR_DATA_URL}
