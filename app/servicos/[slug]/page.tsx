@@ -4,9 +4,100 @@ import Link from 'next/link';
 import Image from 'next/image';
 import Footer from '@/components/Footer';
 import SchemaOrg from '@/components/SchemaOrg';
-import { getBreadcrumbListSchema } from '@/lib/schema';
+import { getBreadcrumbListSchema, getFAQPageSchema } from '@/lib/schema';
 import { getServiceBySlug, services } from '@/lib/services';
 import { SHIMMER_BLUR_DATA_URL } from '@/lib/utils';
+import { pageKeywords } from '@/lib/seo-keywords';
+import ServiceFAQ from '@/components/ServiceFAQ';
+
+const SERVICE_FAQS: Record<string, { question: string; answer: string }[]> = {
+  'cobertura-completa': [
+    {
+      question: 'O que está incluso na cobertura completa?',
+      answer: 'A cobertura completa inclui making of da noiva e do noivo, cerimônia, recepção, galeria digital em alta resolução, vídeo do casamento e álbum fotográfico impresso.',
+    },
+    {
+      question: 'Quantos fotógrafos acompanham o evento?',
+      answer: 'Para coberturas completas, trabalhamos com uma equipe dedicada de fotógrafo e cinegrafista, garantindo registros simultâneos dos dois noivos durante o making of.',
+    },
+    {
+      question: 'Qual é o prazo de entrega das fotos?',
+      answer: 'O prazo médio é de 30 a 60 dias após o casamento, com entrega em galeria digital de alta resolução para visualização e download ilimitado.',
+    },
+    {
+      question: 'A cobertura inclui edição profissional?',
+      answer: 'Sim, todas as fotografias passam por edição profissional com tratamento de cor, luz e composição antes da entrega na galeria digital.',
+    },
+  ],
+  'pre-wedding': [
+    {
+      question: 'Onde podemos fazer o ensaio pré-wedding?',
+      answer: 'O local é escolhido pelo casal — parques, locações urbanas, praias, cachoeiras ou qualquer ambiente que reflita a personalidade e a história de vocês.',
+    },
+    {
+      question: 'Quantas fotos são entregues no ensaio?',
+      answer: 'O número de fotos entregues varia conforme a duração do ensaio, mas priorizamos qualidade sobre quantidade — cada imagem é selecionada e editada com cuidado.',
+    },
+    {
+      question: 'Podemos usar as fotos no convite de casamento?',
+      answer: 'Sim! As imagens do pré-wedding são frequentemente usadas em convites, painéis de decoração, redes sociais e lembranças do casamento.',
+    },
+    {
+      question: 'O ensaio inclui vídeo?',
+      answer: 'Sim, a cobertura do pré-wedding inclui foto e vídeo, com possibilidade de um clip curto para as redes sociais do casal.',
+    },
+  ],
+  'mini-wedding': [
+    {
+      question: 'Qual é o número máximo de convidados para um mini wedding?',
+      answer: 'O mini wedding atende celebrações com até 80 convidados, reunindo apenas as pessoas mais especiais ao redor do casal.',
+    },
+    {
+      question: 'A cobertura do mini wedding inclui making of?',
+      answer: 'Sim, a cobertura completa do mini wedding inclui o making of da noiva, a cerimônia e a recepção, com a mesma dedicação de uma grande celebração.',
+    },
+    {
+      question: 'Mini wedding pode ser realizado em espaços menores?',
+      answer: 'Sim, espaços como haras, jardins, restaurantes e sítios são opções encantadoras para mini weddings com até 80 convidados.',
+    },
+    {
+      question: 'O valor do mini wedding é diferente da cobertura completa?',
+      answer: 'O investimento varia conforme a duração do evento e os itens contratados. Entre em contato para receber um orçamento personalizado para o seu mini wedding.',
+    },
+  ],
+  drone: [
+    {
+      question: 'O drone pode ser usado em qualquer local?',
+      answer: 'O voo de drone depende de autorização prévia do DECEA e das condições do espaço aéreo. Verificamos a viabilidade na locação antes do evento para garantir tudo dentro da legalidade.',
+    },
+    {
+      question: 'O drone complementa a cobertura fotográfica?',
+      answer: 'Sim, as imagens aéreas são integradas à galeria e ao vídeo do casamento ou ensaio, adicionando perspectivas únicas à narrativa visual.',
+    },
+    {
+      question: 'É possível usar drone em cerimônias ao ar livre?',
+      answer: 'Cerimônias ao ar livre são as mais indicadas para o uso de drone, capturando a grandiosidade da locação e os momentos únicos vistos de cima.',
+    },
+    {
+      question: 'O serviço de drone pode ser contratado separadamente?',
+      answer: 'Sim, o drone pode ser contratado como complemento tanto para o ensaio pré-wedding quanto para o dia do casamento, de forma independente ou integrada à cobertura completa.',
+    },
+  ],
+};
+
+const AREA_LINKS = [
+  { href: '/blog/fotografo-de-casamento-itaim-bibi/', label: 'Itaim Bibi' },
+  { href: '/blog/fotografo-de-casamento-jardins/', label: 'Jardins' },
+  { href: '/blog/fotografo-de-casamento-moema/', label: 'Moema' },
+  { href: '/blog/fotografo-de-casamento-pinheiros/', label: 'Pinheiros' },
+  { href: '/blog/fotografo-de-casamento-vila-mariana/', label: 'Vila Mariana' },
+  { href: '/blog/fotografo-de-casamento-perdizes/', label: 'Perdizes' },
+  { href: '/blog/fotografo-de-casamento-tatuape/', label: 'Tatuapé' },
+  { href: '/blog/fotografo-de-casamento-santana/', label: 'Santana' },
+  { href: '/fotografo-de-casamento-santo-andre/', label: 'Santo André' },
+  { href: '/fotografo-de-casamento-sao-bernardo-do-campo/', label: 'São Bernardo do Campo' },
+  { href: '/fotografo-de-casamento-sao-caetano-do-sul/', label: 'São Caetano do Sul' },
+];
 
 const SERVICE_IMAGES: Record<string, string> = {
   'cobertura-completa': '/images/servicos/fotografo-casamento-sao-paulo-cobertura-completa.jpg',
@@ -33,6 +124,7 @@ export function generateMetadata({ params }: Props): Metadata {
   return {
     title: service.title,
     description: service.description,
+    keywords: pageKeywords[service.slug] ?? [],
     alternates: { canonical: `/servicos/${service.slug}` },
     openGraph: {
       title: `${service.title} | Ivan Dias Fotografia`,
@@ -49,11 +141,14 @@ export default function ServicoPage({ params }: Props) {
   return (
     <>
       <SchemaOrg
-        schema={getBreadcrumbListSchema([
-          { name: 'Início', url: '/' },
-          { name: 'Serviços', url: '/servicos' },
-          { name: service.title, url: `/servicos/${service.slug}` },
-        ])}
+        schema={[
+          getBreadcrumbListSchema([
+            { name: 'Início', url: '/' },
+            { name: 'Serviços', url: '/servicos' },
+            { name: service.title, url: `/servicos/${service.slug}` },
+          ]),
+          ...(SERVICE_FAQS[service.slug] ? [getFAQPageSchema(SERVICE_FAQS[service.slug])] : []),
+        ]}
       />
 
       <section className="relative overflow-hidden bg-cream pb-24 pt-36 md:pb-32 md:pt-44">
@@ -149,6 +244,36 @@ export default function ServicoPage({ params }: Props) {
                   {item.title}
                 </Link>
               ))}
+          </div>
+        </div>
+      </section>
+
+      {SERVICE_FAQS[service.slug] && (
+        <section className="bg-blue-deep py-20 text-cream">
+          <div className="mx-auto max-w-4xl px-6 md:px-12">
+            <h2 className="font-heading text-2xl font-bold tracking-tightest md:text-3xl">
+              Perguntas frequentes
+            </h2>
+            <ServiceFAQ items={SERVICE_FAQS[service.slug]} />
+          </div>
+        </section>
+      )}
+
+      <section className="bg-cream py-16">
+        <div className="mx-auto max-w-7xl px-6 md:px-12">
+          <h2 className="font-heading text-2xl font-bold tracking-tightest text-blue-deep">
+            Atendemos casamentos em toda São Paulo e ABC Paulista
+          </h2>
+          <div className="mt-8 flex flex-wrap gap-3">
+            {AREA_LINKS.map(({ href, label }) => (
+              <Link
+                key={href}
+                href={href}
+                className="rounded-full border border-blue-deep/20 px-5 py-2 font-body text-sm font-semibold text-blue-deep transition-colors hover:border-blue-accent hover:text-blue-accent"
+              >
+                {label}
+              </Link>
+            ))}
           </div>
         </div>
       </section>

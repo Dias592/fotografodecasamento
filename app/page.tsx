@@ -6,6 +6,7 @@ import About from '@/components/About';
 import SchemaOrg from '@/components/SchemaOrg';
 import { getHomeFAQSchema } from '@/lib/schema';
 import { posts } from '@/lib/posts';
+import { pageKeywords } from '@/lib/seo-keywords';
 
 // Componentes abaixo do fold — carregados de forma lazy (code splitting)
 const Portfolio = dynamic(() => import('@/components/Portfolio'), { ssr: true });
@@ -19,6 +20,7 @@ export const metadata: Metadata = {
   title: 'Ivan Dias | Fotógrafo de Casamento em São Paulo',
   description:
     'Fotografia de casamento autoral em São Paulo. Mais de 700 casamentos registrados, 15 anos de experiência e cobertura completa, pré-wedding, mini wedding e drone.',
+  keywords: pageKeywords['home'],
   alternates: { canonical: '/' },
   openGraph: {
     title: 'Ivan Dias | Fotógrafo de Casamento em São Paulo',

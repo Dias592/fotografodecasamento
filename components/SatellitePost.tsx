@@ -119,6 +119,18 @@ export default function SatellitePost({ post }: { post: Post }) {
           — é por lá que muitos casais encontram inspiração e tiram dúvidas antes de fechar a data.
         </p>
 
+        <div className="mt-12 rounded-2xl border border-blue-deep/10 bg-white p-8">
+          <h2 className="font-heading text-xl font-bold text-blue-deep">
+            Conheça nossos serviços para casamentos em {post.bairro}
+          </h2>
+          <div className="mt-4 flex flex-wrap gap-3">
+            <Link href="/servicos/cobertura-completa/" className="rounded-full bg-blue-accent px-5 py-2 font-body text-sm font-semibold text-white hover:opacity-90">Cobertura Completa</Link>
+            <Link href="/servicos/pre-wedding/" className="rounded-full border border-blue-deep/20 px-5 py-2 font-body text-sm font-semibold text-blue-deep hover:border-blue-accent hover:text-blue-accent">Ensaio Pré-Wedding</Link>
+            <Link href="/servicos/mini-wedding/" className="rounded-full border border-blue-deep/20 px-5 py-2 font-body text-sm font-semibold text-blue-deep hover:border-blue-accent hover:text-blue-accent">Mini Wedding</Link>
+            <Link href="/servicos/drone/" className="rounded-full border border-blue-deep/20 px-5 py-2 font-body text-sm font-semibold text-blue-deep hover:border-blue-accent hover:text-blue-accent">Fotografia com Drone</Link>
+          </div>
+        </div>
+
         <h2 className="mt-16 font-heading text-2xl font-bold tracking-tightest text-blue-deep md:text-3xl">
           Perguntas frequentes
         </h2>

@@ -41,6 +41,16 @@ export const posts: Post[] = [
         answer:
           'Sim. O Itaim Bibi e arredores oferecem cenários urbanos sofisticados que combinam muito bem com ensaios de pré-wedding ao entardecer.',
       },
+      {
+        question: 'Quanto custa um fotógrafo de casamento no Itaim Bibi?',
+        answer:
+          'Os pacotes para casamentos no Itaim Bibi partem de R$ 3.200, com cobertura completa do making of à festa, incluindo edição profissional e entrega em galeria digital de alta resolução. Solicite um orçamento personalizado pelo WhatsApp.',
+      },
+      {
+        question: 'Você atende mini weddings no Itaim Bibi?',
+        answer:
+          'Sim, atendo mini weddings com até 80 convidados no Itaim Bibi e região. Temos pacotes específicos para cerimônias intimistas com o mesmo cuidado fotográfico de uma grande celebração.',
+      },
     ],
   },
   {
@@ -68,6 +78,16 @@ export const posts: Post[] = [
         question: 'O fotógrafo acompanha também os preparativos no hotel?',
         answer:
           'Sim, a cobertura completa inclui o making of em hotéis e residências da região antes da cerimônia.',
+      },
+      {
+        question: 'Quanto custa um fotógrafo de casamento nos Jardins?',
+        answer:
+          'Os pacotes para casamentos nos Jardins partem de R$ 3.200, com cobertura completa do making of à festa, incluindo edição profissional e entrega em galeria digital de alta resolução. Solicite um orçamento personalizado pelo WhatsApp.',
+      },
+      {
+        question: 'Você atende mini weddings nos Jardins?',
+        answer:
+          'Sim, atendo mini weddings com até 80 convidados nos Jardins e região. Temos pacotes específicos para cerimônias intimistas com o mesmo cuidado fotográfico de uma grande celebração.',
       },
     ],
   },
@@ -97,6 +117,16 @@ export const posts: Post[] = [
         answer:
           'Sim, o fotógrafo organiza a logística para cobrir cerimônia e recepção mesmo quando ocorrem em endereços distintos dentro da região.',
       },
+      {
+        question: 'Quanto custa um fotógrafo de casamento em Moema?',
+        answer:
+          'Os pacotes para casamentos em Moema partem de R$ 3.200, com cobertura completa do making of à festa, incluindo edição profissional e entrega em galeria digital de alta resolução. Solicite um orçamento personalizado pelo WhatsApp.',
+      },
+      {
+        question: 'Você atende mini weddings em Moema?',
+        answer:
+          'Sim, atendo mini weddings com até 80 convidados em Moema e região. Temos pacotes específicos para cerimônias intimistas com o mesmo cuidado fotográfico de uma grande celebração.',
+      },
     ],
   },
   {
@@ -124,6 +154,16 @@ export const posts: Post[] = [
         question: 'O fotógrafo trabalha com luz noturna em ambientes fechados?',
         answer:
           'Sim, equipamentos com excelente desempenho em baixa luz garantem fotos nítidas mesmo em festas com iluminação ambiente.',
+      },
+      {
+        question: 'Quanto custa um fotógrafo de casamento em Pinheiros?',
+        answer:
+          'Os pacotes para casamentos em Pinheiros partem de R$ 3.200, com cobertura completa do making of à festa, incluindo edição profissional e entrega em galeria digital de alta resolução. Solicite um orçamento personalizado pelo WhatsApp.',
+      },
+      {
+        question: 'Você atende mini weddings em Pinheiros?',
+        answer:
+          'Sim, atendo mini weddings com até 80 convidados em Pinheiros e região. Temos pacotes específicos para cerimônias intimistas com o mesmo cuidado fotográfico de uma grande celebração.',
       },
     ],
   },
@@ -153,6 +193,16 @@ export const posts: Post[] = [
         answer:
           'Com certeza, retratos com pais, avós e padrinhos fazem parte da cobertura completa e ganham destaque no álbum final.',
       },
+      {
+        question: 'Quanto custa um fotógrafo de casamento na Vila Mariana?',
+        answer:
+          'Os pacotes para casamentos na Vila Mariana partem de R$ 3.200, com cobertura completa do making of à festa, incluindo edição profissional e entrega em galeria digital de alta resolução. Solicite um orçamento personalizado pelo WhatsApp.',
+      },
+      {
+        question: 'Você atende mini weddings na Vila Mariana?',
+        answer:
+          'Sim, atendo mini weddings com até 80 convidados na Vila Mariana e região. Temos pacotes específicos para cerimônias intimistas com o mesmo cuidado fotográfico de uma grande celebração.',
+      },
     ],
   },
   {
@@ -180,6 +230,16 @@ export const posts: Post[] = [
         question: 'É possível agendar visita técnica à locação antes do evento?',
         answer:
           'Sim, a visita técnica ajuda a planejar ângulos, pontos de luz e logística, garantindo uma cobertura ainda mais precisa.',
+      },
+      {
+        question: 'Quanto custa um fotógrafo de casamento em Perdizes?',
+        answer:
+          'Os pacotes para casamentos em Perdizes partem de R$ 3.200, com cobertura completa do making of à festa, incluindo edição profissional e entrega em galeria digital de alta resolução. Solicite um orçamento personalizado pelo WhatsApp.',
+      },
+      {
+        question: 'Você atende mini weddings em Perdizes?',
+        answer:
+          'Sim, atendo mini weddings com até 80 convidados em Perdizes e região. Temos pacotes específicos para cerimônias intimistas com o mesmo cuidado fotográfico de uma grande celebração.',
       },
     ],
   },
@@ -209,6 +269,16 @@ export const posts: Post[] = [
         answer:
           'Sim, é possível personalizar o pacote para focar exclusivamente na recepção, conforme a necessidade do casal.',
       },
+      {
+        question: 'Quanto custa um fotógrafo de casamento no Tatuapé?',
+        answer:
+          'Os pacotes para casamentos no Tatuapé partem de R$ 3.200, com cobertura completa do making of à festa, incluindo edição profissional e entrega em galeria digital de alta resolução. Solicite um orçamento personalizado pelo WhatsApp.',
+      },
+      {
+        question: 'Você atende mini weddings no Tatuapé?',
+        answer:
+          'Sim, atendo mini weddings com até 80 convidados no Tatuapé e região. Temos pacotes específicos para cerimônias intimistas com o mesmo cuidado fotográfico de uma grande celebração.',
+      },
     ],
   },
   {
@@ -236,6 +306,16 @@ export const posts: Post[] = [
         question: 'Quais formatos de entrega estão disponíveis?',
         answer:
           'Galeria digital em alta resolução, álbum fine art impresso e versões otimizadas para redes sociais fazem parte da entrega final.',
+      },
+      {
+        question: 'Quanto custa um fotógrafo de casamento em Santana?',
+        answer:
+          'Os pacotes para casamentos em Santana partem de R$ 3.200, com cobertura completa do making of à festa, incluindo edição profissional e entrega em galeria digital de alta resolução. Solicite um orçamento personalizado pelo WhatsApp.',
+      },
+      {
+        question: 'Você atende mini weddings em Santana?',
+        answer:
+          'Sim, atendo mini weddings com até 80 convidados em Santana e região. Temos pacotes específicos para cerimônias intimistas com o mesmo cuidado fotográfico de uma grande celebração.',
       },
     ],
   },

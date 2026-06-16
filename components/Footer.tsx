@@ -9,7 +9,7 @@ const SOCIALS = [
 export default function Footer() {
   return (
     <footer className="bg-blue-deep py-16 text-cream">
-      <div className="mx-auto grid max-w-7xl grid-cols-1 gap-12 px-6 md:grid-cols-4 md:px-12">
+      <div className="mx-auto grid max-w-7xl grid-cols-1 gap-12 px-6 md:grid-cols-5 md:px-12">
         <div>
           <Link href="/" className="font-heading text-2xl font-extrabold italic tracking-tightest">
             Ivan Dias
@@ -71,6 +71,29 @@ export default function Footer() {
           </ul>
         </nav>
 
+        <nav aria-label="ABC Paulista">
+          <h2 className="font-heading text-sm font-semibold uppercase tracking-wide text-brown-light">
+            ABC Paulista
+          </h2>
+          <ul className="mt-5 flex flex-col gap-3">
+            <li>
+              <Link href="/fotografo-de-casamento-santo-andre/" className="font-body text-sm text-cream/60 transition-colors hover:text-cream focus-visible-ring">
+                Santo André
+              </Link>
+            </li>
+            <li>
+              <Link href="/fotografo-de-casamento-sao-bernardo-do-campo/" className="font-body text-sm text-cream/60 transition-colors hover:text-cream focus-visible-ring">
+                São Bernardo
+              </Link>
+            </li>
+            <li>
+              <Link href="/fotografo-de-casamento-sao-caetano-do-sul/" className="font-body text-sm text-cream/60 transition-colors hover:text-cream focus-visible-ring">
+                São Caetano
+              </Link>
+            </li>
+          </ul>
+        </nav>
+
         <div>
           <h2 className="font-heading text-sm font-semibold uppercase tracking-wide text-brown-light">
             Contato
@@ -100,6 +123,12 @@ export default function Footer() {
         <p className="font-body text-xs text-cream/60">
           © {new Date().getFullYear()} Ivan Dias Fotografia. Todos os direitos reservados.
         </p>
+        <div className="mt-4 border-t border-cream/10 pt-4 text-center">
+          <span className="font-body text-xs text-cream/40">Outros serviços: </span>
+          <a href="https://pixiformaturas.com.br" target="_blank" rel="noopener noreferrer" className="font-body text-xs text-cream/60 transition-colors hover:text-cream">Pixi Formaturas</a>
+          <span className="font-body text-xs text-cream/40"> · </span>
+          <a href="https://ivandiasfoto.com.br" target="_blank" rel="noopener noreferrer" className="font-body text-xs text-cream/60 transition-colors hover:text-cream">Ivan Dias Corporativo</a>
+        </div>
       </div>
     </footer>
   );
