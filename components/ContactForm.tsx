@@ -16,6 +16,9 @@ const INITIAL_STATE: FormState = { name: '', email: '', date: '', message: '' };
 
 const EMAIL_REGEX = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
+const LABEL = 'font-body text-sm font-semibold text-blue-deep';
+const INPUT = 'w-full rounded-xl border border-blue-deep/30 bg-blue-deep/5 px-4 py-3 font-body text-sm text-blue-deep placeholder:text-blue-deep/50 focus:border-blue-accent focus:outline-none focus:ring-2 focus:ring-blue-accent/20';
+
 function buildWhatsAppUrl(state: FormState) {
   const text =
     `Olá Ivan! Meu nome é ${state.name}.\n` +
@@ -62,13 +65,11 @@ export default function ContactForm() {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, margin: '-80px' }}
       transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
-      className="grid grid-cols-1 gap-6 md:grid-cols-2"
+      className="grid grid-cols-1 gap-5 md:grid-cols-2"
       aria-label="Formulário de contato"
     >
-      <div className="flex flex-col gap-2">
-        <label htmlFor="name" className="font-body text-sm font-medium text-blue-deep">
-          Nome
-        </label>
+      <div className="flex flex-col gap-1.5">
+        <label htmlFor="name" className={LABEL}>Nome</label>
         <input
           id="name"
           name="name"
@@ -78,20 +79,16 @@ export default function ContactForm() {
           onChange={handleChange('name')}
           aria-invalid={Boolean(errors.name)}
           aria-describedby={errors.name ? 'name-error' : undefined}
-          className="rounded-xl border border-blue-deep/20 bg-white px-4 py-3 font-body text-blue-deep placeholder:text-blue-deep/40 focus-visible-ring"
+          className={INPUT}
           placeholder="Seu nome completo"
         />
         {errors.name && (
-          <p id="name-error" className="font-body text-xs text-brown-light">
-            {errors.name}
-          </p>
+          <p id="name-error" className="font-body text-xs font-medium text-red-600">{errors.name}</p>
         )}
       </div>
 
-      <div className="flex flex-col gap-2">
-        <label htmlFor="email" className="font-body text-sm font-medium text-cream/80">
-          E-mail
-        </label>
+      <div className="flex flex-col gap-1.5">
+        <label htmlFor="email" className={LABEL}>E-mail</label>
         <input
           id="email"
           name="email"
@@ -101,34 +98,28 @@ export default function ContactForm() {
           onChange={handleChange('email')}
           aria-invalid={Boolean(errors.email)}
           aria-describedby={errors.email ? 'email-error' : undefined}
-          className="rounded-xl border border-blue-deep/20 bg-white px-4 py-3 font-body text-blue-deep placeholder:text-blue-deep/40 focus-visible-ring"
+          className={INPUT}
           placeholder="seuemail@exemplo.com"
         />
         {errors.email && (
-          <p id="email-error" className="font-body text-xs text-brown-light">
-            {errors.email}
-          </p>
+          <p id="email-error" className="font-body text-xs font-medium text-red-600">{errors.email}</p>
         )}
       </div>
 
-      <div className="flex flex-col gap-2 md:col-span-2">
-        <label htmlFor="date" className="font-body text-sm font-medium text-blue-deep">
-          Data prevista do casamento (opcional)
-        </label>
+      <div className="flex flex-col gap-1.5 md:col-span-2">
+        <label htmlFor="date" className={LABEL}>Data prevista do casamento <span className="font-normal text-blue-deep/60">(opcional)</span></label>
         <input
           id="date"
           name="date"
           type="date"
           value={form.date}
           onChange={handleChange('date')}
-          className="rounded-xl border border-blue-deep/20 bg-white px-4 py-3 font-body text-blue-deep placeholder:text-blue-deep/40 focus-visible-ring"
+          className={INPUT}
         />
       </div>
 
-      <div className="flex flex-col gap-2 md:col-span-2">
-        <label htmlFor="message" className="font-body text-sm font-medium text-blue-deep">
-          Mensagem
-        </label>
+      <div className="flex flex-col gap-1.5 md:col-span-2">
+        <label htmlFor="message" className={LABEL}>Mensagem</label>
         <textarea
           id="message"
           name="message"
@@ -137,13 +128,11 @@ export default function ContactForm() {
           onChange={handleChange('message')}
           aria-invalid={Boolean(errors.message)}
           aria-describedby={errors.message ? 'message-error' : undefined}
-          className="resize-none rounded-xl border border-cream/20 bg-cream/5 px-4 py-3 font-body text-cream placeholder:text-cream/40 focus-visible-ring"
+          className={`${INPUT} resize-none`}
           placeholder="Conte um pouco sobre o seu casamento e o que você procura..."
         />
         {errors.message && (
-          <p id="message-error" className="font-body text-xs text-brown-light">
-            {errors.message}
-          </p>
+          <p id="message-error" className="font-body text-xs font-medium text-red-600">{errors.message}</p>
         )}
       </div>
 
@@ -156,7 +145,7 @@ export default function ContactForm() {
           Enviar pelo WhatsApp
         </button>
         {submitted && (
-          <p role="status" className="mt-4 font-body text-sm text-brown-light">
+          <p role="status" className="mt-4 font-body text-sm font-medium text-blue-deep">
             Obrigado! Abrimos o WhatsApp para você concluir o envio da sua mensagem.
           </p>
         )}

@@ -98,7 +98,7 @@ const GALLERY = [
   },
   {
     src: '/images/galeria/detalhes/casamento-sao-paulo-detalhes-04.jpg',
-    alt: 'Detalhes da decoração e alianças em casamento no ABC',
+    alt: 'Detalhes da decoração e alianças em casamento',
   },
 ];
 
