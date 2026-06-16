@@ -156,8 +156,8 @@ export default function SaoBernardoPage() {
         {/* Imagem hero */}
         <div className="relative h-72 md:h-auto">
           <Image
-            src="/images/hero/fotografo-casamento-sao-paulo-noivos-igreja-flores.jpg"
-            alt="Noivos na entrada da igreja decorada com flores — Ivan Dias Fotógrafo ABC Paulista"
+            src="/images/portfolio/casamento-sao-paulo-noiva-altar-cerimonia.jpg"
+            alt="Noiva no altar durante cerimônia de casamento — Ivan Dias Fotógrafo"
             fill
             priority
             sizes="(min-width: 768px) 50vw, 100vw"

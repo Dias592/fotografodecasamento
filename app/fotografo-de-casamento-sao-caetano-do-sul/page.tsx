@@ -156,8 +156,8 @@ export default function SaoCaetanoPage() {
         {/* Imagem hero */}
         <div className="relative h-72 md:h-auto">
           <Image
-            src="/images/hero/fotografo-casamento-sao-paulo-detalhe-aliancas.jpg"
-            alt="Detalhes de alianças em casamento — Ivan Dias Fotógrafo"
+            src="/images/hero/fotografo-casamento-sao-paulo-noivos-igreja-flores.jpg"
+            alt="Noiva com buquê de flores na entrada da igreja — Ivan Dias Fotógrafo"
             fill
             priority
             sizes="(min-width: 768px) 50vw, 100vw"
