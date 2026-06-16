@@ -49,7 +49,7 @@ export default function FinalCTA() {
             Ou conte um pouco sobre o seu casamento
           </h3>
           <div className="mt-8">
-            <ContactForm />
+            <ContactForm variant="dark" />
           </div>
         </div>
       </div>

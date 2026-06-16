@@ -12,12 +12,13 @@ type FormState = {
 
 type FormErrors = Partial<Record<keyof FormState, string>>;
 
+interface Props {
+  variant?: 'light' | 'dark';
+}
+
 const INITIAL_STATE: FormState = { name: '', email: '', date: '', message: '' };
 
 const EMAIL_REGEX = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-
-const LABEL = 'font-body text-sm font-semibold text-blue-deep';
-const INPUT = 'w-full rounded-xl border border-blue-deep/30 bg-blue-deep/5 px-4 py-3 font-body text-sm text-blue-deep placeholder:text-blue-deep/50 focus:border-blue-accent focus:outline-none focus:ring-2 focus:ring-blue-accent/20';
 
 function buildWhatsAppUrl(state: FormState) {
   const text =
@@ -29,10 +30,26 @@ function buildWhatsAppUrl(state: FormState) {
   return `https://wa.me/5511953025177?text=${encodeURIComponent(text)}`;
 }
 
-export default function ContactForm() {
+export default function ContactForm({ variant = 'light' }: Props) {
   const [form, setForm] = useState<FormState>(INITIAL_STATE);
   const [errors, setErrors] = useState<FormErrors>({});
   const [submitted, setSubmitted] = useState(false);
+
+  const isDark = variant === 'dark';
+
+  const LABEL = isDark
+    ? 'font-body text-sm font-semibold text-cream'
+    : 'font-body text-sm font-semibold text-blue-deep';
+
+  const INPUT = isDark
+    ? 'w-full rounded-xl border border-cream/20 bg-cream/5 px-4 py-3 font-body text-sm text-cream placeholder:text-cream/50 focus:border-blue-accent focus:outline-none focus:ring-2 focus:ring-blue-accent/20'
+    : 'w-full rounded-xl border border-blue-deep/30 bg-blue-deep/5 px-4 py-3 font-body text-sm text-blue-deep placeholder:text-blue-deep/50 focus:border-blue-accent focus:outline-none focus:ring-2 focus:ring-blue-accent/20';
+
+  const ERROR = isDark
+    ? 'font-body text-xs font-medium text-brown-light'
+    : 'font-body text-xs font-medium text-red-600';
+
+  const OPTIONAL = isDark ? 'font-normal text-cream/60' : 'font-normal text-blue-deep/60';
 
   const validate = (): boolean => {
     const nextErrors: FormErrors = {};
@@ -82,9 +99,7 @@ export default function ContactForm() {
           className={INPUT}
           placeholder="Seu nome completo"
         />
-        {errors.name && (
-          <p id="name-error" className="font-body text-xs font-medium text-red-600">{errors.name}</p>
-        )}
+        {errors.name && <p id="name-error" className={ERROR}>{errors.name}</p>}
       </div>
 
       <div className="flex flex-col gap-1.5">
@@ -101,13 +116,13 @@ export default function ContactForm() {
           className={INPUT}
           placeholder="seuemail@exemplo.com"
         />
-        {errors.email && (
-          <p id="email-error" className="font-body text-xs font-medium text-red-600">{errors.email}</p>
-        )}
+        {errors.email && <p id="email-error" className={ERROR}>{errors.email}</p>}
       </div>
 
       <div className="flex flex-col gap-1.5 md:col-span-2">
-        <label htmlFor="date" className={LABEL}>Data prevista do casamento <span className="font-normal text-blue-deep/60">(opcional)</span></label>
+        <label htmlFor="date" className={LABEL}>
+          Data prevista do casamento <span className={OPTIONAL}>(opcional)</span>
+        </label>
         <input
           id="date"
           name="date"
@@ -131,9 +146,7 @@ export default function ContactForm() {
           className={`${INPUT} resize-none`}
           placeholder="Conte um pouco sobre o seu casamento e o que você procura..."
         />
-        {errors.message && (
-          <p id="message-error" className="font-body text-xs font-medium text-red-600">{errors.message}</p>
-        )}
+        {errors.message && <p id="message-error" className={ERROR}>{errors.message}</p>}
       </div>
 
       <div className="md:col-span-2">
@@ -145,7 +158,7 @@ export default function ContactForm() {
           Enviar pelo WhatsApp
         </button>
         {submitted && (
-          <p role="status" className="mt-4 font-body text-sm font-medium text-blue-deep">
+          <p role="status" className={`mt-4 font-body text-sm font-medium ${isDark ? 'text-brown-light' : 'text-blue-deep'}`}>
             Obrigado! Abrimos o WhatsApp para você concluir o envio da sua mensagem.
           </p>
         )}

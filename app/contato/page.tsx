@@ -69,7 +69,7 @@ export default function ContatoPage() {
           <div className="rounded-3xl border border-cream/10 bg-cream/5 p-8 backdrop-blur-sm md:p-10">
             <h2 className="font-heading text-xl font-bold md:text-2xl">Envie uma mensagem</h2>
             <div className="mt-8">
-              <ContactForm />
+              <ContactForm variant="dark" />
             </div>
           </div>
         </div>
