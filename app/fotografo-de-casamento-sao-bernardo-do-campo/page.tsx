@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Image from 'next/image';
 import Link from 'next/link';
 import Footer from '@/components/Footer';
 import ContactForm from '@/components/ContactForm';
@@ -6,6 +7,7 @@ import SchemaOrg from '@/components/SchemaOrg';
 import ServiceFAQ from '@/components/ServiceFAQ';
 import { getBreadcrumbListSchema } from '@/lib/schema';
 import { pageKeywords } from '@/lib/seo-keywords';
+import { SHIMMER_BLUR_DATA_URL } from '@/lib/utils';
 
 const CITY = 'São Bernardo do Campo';
 const SLUG = 'fotografo-de-casamento-sao-bernardo-do-campo';
@@ -81,6 +83,25 @@ const jsonLd = {
 const WHATSAPP_URL =
   'https://wa.me/5511953025177?text=Ol%C3%A1%20Ivan!%20Vi%20seu%20site%20e%20quero%20saber%20sobre%20fotografia%20de%20casamento%20em%20S%C3%A3o%20Bernardo%20do%20Campo.';
 
+const GALLERY = [
+  {
+    src: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    alt: 'Cerimônia de casamento registrada no ABC Paulista',
+  },
+  {
+    src: '/images/galeria/festa/casamento-sao-paulo-festa-12.jpg',
+    alt: 'Festa de casamento em São Bernardo do Campo',
+  },
+  {
+    src: '/images/galeria/pre-wedding/casamento-sao-paulo-pre-wedding-10.jpg',
+    alt: 'Ensaio pré-wedding de casal no ABC Paulista',
+  },
+  {
+    src: '/images/galeria/detalhes/casamento-sao-paulo-detalhes-08.jpg',
+    alt: 'Detalhes de decoração em casamento no ABC',
+  },
+];
+
 export default function SaoBernardoPage() {
   return (
     <>
@@ -93,22 +114,24 @@ export default function SaoBernardoPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
 
-      {/* Hero */}
-      <section className="relative overflow-hidden bg-blue-deep pb-24 pt-36 text-cream md:pb-32 md:pt-44">
+      {/* Hero — texto + imagem 2 colunas */}
+      <section className="relative overflow-hidden bg-blue-deep text-cream md:grid md:min-h-[85vh] md:grid-cols-2">
         <span
           aria-hidden="true"
-          className="bg-number absolute -right-16 top-0 select-none font-heading text-[14rem] leading-none text-cream md:text-[22rem]"
+          className="bg-number pointer-events-none absolute -right-16 top-0 z-10 select-none font-heading text-[14rem] leading-none text-cream opacity-[0.06] md:text-[22rem]"
         >
           SBC
         </span>
-        <div className="relative mx-auto max-w-7xl px-6 md:px-12">
+
+        {/* Conteúdo */}
+        <div className="relative z-10 flex flex-col justify-center px-6 pb-24 pt-36 md:px-16 md:pb-32 md:pt-44">
           <span className="font-body text-xs font-semibold uppercase tracking-[0.25em] text-brown-light">
             ABC Paulista
           </span>
-          <h1 className="mt-4 max-w-3xl font-heading text-4xl font-black italic tracking-tightest md:text-6xl">
+          <h1 className="mt-4 max-w-xl font-heading text-4xl font-black italic tracking-tightest md:text-6xl">
             Fotógrafo de Casamento em São Bernardo do Campo
           </h1>
-          <p className="mt-6 max-w-xl font-body text-base leading-relaxed text-cream/70 md:text-lg">
+          <p className="mt-6 max-w-md font-body text-base leading-relaxed text-cream/70 md:text-lg">
             Ivan Dias registra casamentos em São Bernardo do Campo e toda a região do ABC Paulista
             com sensibilidade, técnica autoral e mais de 700 celebrações na trajetória.
           </p>
@@ -128,6 +151,21 @@ export default function SaoBernardoPage() {
               Ver portfólio
             </Link>
           </div>
+        </div>
+
+        {/* Imagem hero */}
+        <div className="relative h-72 md:h-auto">
+          <Image
+            src="/images/hero/fotografo-casamento-sao-paulo-noivos-igreja-flores.jpg"
+            alt="Noivos na entrada da igreja decorada com flores — Ivan Dias Fotógrafo ABC Paulista"
+            fill
+            priority
+            sizes="(min-width: 768px) 50vw, 100vw"
+            className="object-cover"
+            placeholder="blur"
+            blurDataURL={SHIMMER_BLUR_DATA_URL}
+          />
+          <div className="absolute inset-0 bg-blue-deep/25" />
         </div>
       </section>
 
@@ -184,10 +222,48 @@ export default function SaoBernardoPage() {
         </div>
       </section>
 
-      {/* Serviços */}
-      <section className="bg-cream py-20">
+      {/* Galeria de fotos */}
+      <section className="bg-cream py-16">
         <div className="mx-auto max-w-7xl px-6 md:px-12">
-          <h2 className="font-heading text-3xl font-bold tracking-tightest text-blue-deep md:text-4xl">
+          <span className="font-body text-xs font-semibold uppercase tracking-[0.25em] text-blue-accent">
+            Portfólio
+          </span>
+          <h2 className="mt-3 font-heading text-2xl font-bold tracking-tightest text-blue-deep md:text-3xl">
+            Momentos registrados em casamentos no ABC Paulista
+          </h2>
+          <div className="mt-8 grid grid-cols-2 gap-3 md:grid-cols-4">
+            {GALLERY.map(({ src, alt }) => (
+              <div key={src} className="relative aspect-square overflow-hidden rounded-2xl">
+                <Image
+                  src={src}
+                  alt={alt}
+                  fill
+                  sizes="(min-width: 768px) 25vw, 50vw"
+                  className="object-cover transition-transform duration-500 hover:scale-105"
+                  placeholder="blur"
+                  blurDataURL={SHIMMER_BLUR_DATA_URL}
+                />
+              </div>
+            ))}
+          </div>
+          <div className="mt-8 text-center">
+            <Link
+              href="/portfolio/"
+              className="inline-flex items-center gap-2 font-body text-sm font-semibold uppercase tracking-wide text-brown-warm transition-colors hover:text-blue-accent"
+            >
+              Ver portfólio completo
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} className="h-4 w-4" aria-hidden="true">
+                <path d="M5 12h14M13 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Serviços */}
+      <section className="bg-blue-deep py-20 text-cream">
+        <div className="mx-auto max-w-7xl px-6 md:px-12">
+          <h2 className="font-heading text-3xl font-bold tracking-tightest md:text-4xl">
             Serviços para casamentos em São Bernardo do Campo
           </h2>
           <div className="mt-10 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
@@ -200,11 +276,11 @@ export default function SaoBernardoPage() {
               <Link
                 key={href}
                 href={href}
-                className="rounded-2xl border border-blue-deep/10 bg-white p-6 transition-shadow hover:shadow-md"
+                className="rounded-2xl border border-cream/10 bg-cream/5 p-6 transition-colors hover:border-cream/30"
               >
-                <h3 className="font-heading text-lg font-semibold text-blue-deep">{title}</h3>
-                <p className="mt-2 font-body text-sm leading-relaxed text-blue-deep/65">{desc}</p>
-                <span className="mt-4 inline-block font-body text-sm font-semibold text-blue-accent">
+                <h3 className="font-heading text-lg font-semibold text-cream">{title}</h3>
+                <p className="mt-2 font-body text-sm leading-relaxed text-cream/65">{desc}</p>
+                <span className="mt-4 inline-block font-body text-sm font-semibold text-brown-light">
                   Saiba mais →
                 </span>
               </Link>
@@ -214,35 +290,41 @@ export default function SaoBernardoPage() {
       </section>
 
       {/* FAQ */}
-      <section className="bg-blue-deep py-20 text-cream">
+      <section className="bg-cream py-20">
         <div className="mx-auto max-w-4xl px-6 md:px-12">
-          <h2 className="font-heading text-2xl font-bold tracking-tightest md:text-3xl">
+          <h2 className="font-heading text-2xl font-bold tracking-tightest text-blue-deep md:text-3xl">
             Perguntas frequentes — São Bernardo do Campo
           </h2>
           <ServiceFAQ items={faqItems} />
         </div>
       </section>
 
-      {/* Depoimento placeholder */}
-      <section className="bg-cream py-16">
+      {/* Depoimento */}
+      <section className="bg-blue-deep py-16 text-cream">
         <div className="mx-auto max-w-3xl px-6 text-center md:px-12">
-          <blockquote className="font-heading text-xl italic text-blue-deep md:text-2xl">
-            &quot;Ivan capturou cada detalhe do nosso casamento no ABC com uma sensibilidade incrível.
-            As fotos emocionam toda vez que olhamos.&quot;
+          <svg viewBox="0 0 32 32" fill="currentColor" className="mx-auto h-8 w-8 text-brown-light opacity-60" aria-hidden="true">
+            <path d="M10 8C6.7 8 4 10.7 4 14s2.7 6 6 6c.4 0 .8 0 1.2-.1C10.4 21.5 9.3 23 7 24h4c3.9-1.4 6-4.5 6-8 0-4.4-3.1-8-7-8zm14 0c-3.3 0-6 2.7-6 6s2.7 6 6 6c.4 0 .8 0 1.2-.1C24.4 21.5 23.3 23 21 24h4c3.9-1.4 6-4.5 6-8 0-4.4-3.1-8-7-8z" />
+          </svg>
+          <blockquote className="mt-6 font-heading text-xl italic md:text-2xl">
+            Ivan capturou cada detalhe do nosso casamento no ABC com uma sensibilidade incrível.
+            As fotos emocionam toda vez que olhamos.
           </blockquote>
-          <p className="mt-4 font-body text-sm text-blue-deep/60">— Casal atendido no ABC Paulista</p>
+          <p className="mt-4 font-body text-sm text-cream/60">— Casal atendido no ABC Paulista</p>
         </div>
       </section>
 
       {/* Formulário de contato */}
-      <section className="bg-blue-deep py-20 text-cream">
+      <section className="bg-cream py-20">
         <div className="mx-auto max-w-7xl px-6 md:px-12">
           <div className="grid grid-cols-1 gap-16 md:grid-cols-2">
             <div>
-              <h2 className="font-heading text-3xl font-bold tracking-tightest md:text-4xl">
+              <span className="font-body text-xs font-semibold uppercase tracking-[0.25em] text-blue-accent">
+                Contato
+              </span>
+              <h2 className="mt-4 font-heading text-3xl font-bold tracking-tightest text-blue-deep md:text-4xl">
                 Vamos conversar sobre o seu casamento em São Bernardo do Campo?
               </h2>
-              <p className="mt-6 font-body text-base leading-relaxed text-cream/70">
+              <p className="mt-6 font-body text-base leading-relaxed text-blue-deep/70">
                 Preencha o formulário ou entre em contato diretamente pelo WhatsApp.
               </p>
               <a
@@ -254,7 +336,7 @@ export default function SaoBernardoPage() {
                 Falar no WhatsApp
               </a>
             </div>
-            <div className="rounded-3xl border border-cream/10 bg-cream/5 p-8 backdrop-blur-sm">
+            <div className="rounded-3xl border border-blue-deep/10 bg-white p-8 shadow-sm">
               <ContactForm />
             </div>
           </div>
@@ -262,7 +344,7 @@ export default function SaoBernardoPage() {
       </section>
 
       {/* Cross-domain */}
-      <section className="bg-cream py-10">
+      <section className="border-t border-blue-deep/10 bg-cream py-10">
         <div className="mx-auto max-w-7xl px-6 text-center md:px-12">
           <p className="font-body text-sm text-blue-deep/60">
             Outros serviços:{' '}
