@@ -115,7 +115,7 @@ export default function SantoAndrePage() {
       />
 
       {/* Hero — texto + imagem 2 colunas */}
-      <section className="relative overflow-hidden bg-blue-deep text-cream md:grid md:min-h-[85vh] md:grid-cols-2">
+      <section className="relative overflow-hidden bg-blue-deep text-cream md:grid md:grid-cols-2">
         <span
           aria-hidden="true"
           className="bg-number pointer-events-none absolute -right-16 top-0 z-10 select-none font-heading text-[14rem] leading-none text-cream opacity-[0.06] md:text-[22rem]"
@@ -124,7 +124,7 @@ export default function SantoAndrePage() {
         </span>
 
         {/* Conteúdo */}
-        <div className="relative z-10 flex flex-col justify-center px-6 pb-24 pt-36 md:px-16 md:pb-32 md:pt-44">
+        <div className="relative z-10 flex flex-col justify-center px-6 pb-24 pt-36 md:min-h-[85vh] md:px-16 md:pb-32 md:pt-44">
           <span className="font-body text-xs font-semibold uppercase tracking-[0.25em] text-brown-light">
             ABC Paulista
           </span>
@@ -154,14 +154,15 @@ export default function SantoAndrePage() {
         </div>
 
         {/* Imagem hero */}
-        <div className="relative h-72 md:absolute md:inset-y-0 md:right-0 md:w-1/2">
+        <div className="relative overflow-hidden">
           <Image
             src="/images/hero/fotografo-casamento-sao-paulo-noivos-abraco.jpg"
             alt="Noivos se abraçando em casamento — Ivan Dias Fotógrafo"
-            fill
-            priority
+            width={0}
+            height={0}
             sizes="(min-width: 768px) 50vw, 100vw"
-            className="object-cover object-[center_20%]"
+            style={{ width: '100%', height: 'auto' }}
+            priority
             placeholder="blur"
             blurDataURL={SHIMMER_BLUR_DATA_URL}
           />
@@ -295,7 +296,7 @@ export default function SantoAndrePage() {
           <h2 className="font-heading text-2xl font-bold tracking-tightest text-blue-deep md:text-3xl">
             Perguntas frequentes — Santo André
           </h2>
-          <ServiceFAQ items={faqItems} />
+          <ServiceFAQ items={faqItems} variant="light" />
         </div>
       </section>
 

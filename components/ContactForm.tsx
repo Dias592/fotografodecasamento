@@ -66,7 +66,7 @@ export default function ContactForm() {
       aria-label="Formulário de contato"
     >
       <div className="flex flex-col gap-2">
-        <label htmlFor="name" className="font-body text-sm font-medium text-cream/80">
+        <label htmlFor="name" className="font-body text-sm font-medium text-blue-deep">
           Nome
         </label>
         <input
@@ -78,7 +78,7 @@ export default function ContactForm() {
           onChange={handleChange('name')}
           aria-invalid={Boolean(errors.name)}
           aria-describedby={errors.name ? 'name-error' : undefined}
-          className="rounded-xl border border-cream/20 bg-cream/5 px-4 py-3 font-body text-cream placeholder:text-cream/40 focus-visible-ring"
+          className="rounded-xl border border-blue-deep/20 bg-white px-4 py-3 font-body text-blue-deep placeholder:text-blue-deep/40 focus-visible-ring"
           placeholder="Seu nome completo"
         />
         {errors.name && (
@@ -101,7 +101,7 @@ export default function ContactForm() {
           onChange={handleChange('email')}
           aria-invalid={Boolean(errors.email)}
           aria-describedby={errors.email ? 'email-error' : undefined}
-          className="rounded-xl border border-cream/20 bg-cream/5 px-4 py-3 font-body text-cream placeholder:text-cream/40 focus-visible-ring"
+          className="rounded-xl border border-blue-deep/20 bg-white px-4 py-3 font-body text-blue-deep placeholder:text-blue-deep/40 focus-visible-ring"
           placeholder="seuemail@exemplo.com"
         />
         {errors.email && (
@@ -112,7 +112,7 @@ export default function ContactForm() {
       </div>
 
       <div className="flex flex-col gap-2 md:col-span-2">
-        <label htmlFor="date" className="font-body text-sm font-medium text-cream/80">
+        <label htmlFor="date" className="font-body text-sm font-medium text-blue-deep">
           Data prevista do casamento (opcional)
         </label>
         <input
@@ -121,12 +121,12 @@ export default function ContactForm() {
           type="date"
           value={form.date}
           onChange={handleChange('date')}
-          className="rounded-xl border border-cream/20 bg-cream/5 px-4 py-3 font-body text-cream placeholder:text-cream/40 focus-visible-ring"
+          className="rounded-xl border border-blue-deep/20 bg-white px-4 py-3 font-body text-blue-deep placeholder:text-blue-deep/40 focus-visible-ring"
         />
       </div>
 
       <div className="flex flex-col gap-2 md:col-span-2">
-        <label htmlFor="message" className="font-body text-sm font-medium text-cream/80">
+        <label htmlFor="message" className="font-body text-sm font-medium text-blue-deep">
           Mensagem
         </label>
         <textarea
