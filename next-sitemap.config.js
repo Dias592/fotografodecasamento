@@ -38,7 +38,9 @@ module.exports = {
       loc: path,
       changefreq,
       priority,
-      lastmod: new Date().toISOString(),
+      lastmod: path.startsWith('/blog/') && path !== '/blog/'
+        ? undefined
+        : new Date().toISOString(),
     };
   },
   robotsTxtOptions: {

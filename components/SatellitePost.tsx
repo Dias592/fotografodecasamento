@@ -1,9 +1,19 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { Post } from '@/lib/posts';
+import { Post, posts } from '@/lib/posts';
 import { SHIMMER_BLUR_DATA_URL } from '@/lib/utils';
 import SchemaOrg from './SchemaOrg';
 import { getArticleSchema, getBreadcrumbListSchema, getFAQPageSchema } from '@/lib/schema';
+
+function getRelatedPosts(current: Post, count = 4): Post[] {
+  const others = posts.filter((p) => p.slug !== current.slug);
+  const idx = posts.findIndex((p) => p.slug === current.slug);
+  const results: Post[] = [];
+  for (let i = 1; results.length < count && i < others.length + 1; i++) {
+    results.push(others[(idx + i) % others.length]);
+  }
+  return results;
+}
 
 const WHATSAPP_URL =
   'https://wa.me/5511953025177?text=Ol%C3%A1%20Ivan!%20Vi%20seu%20site%20e%20quero%20saber%20sobre%20fotografia%20de%20casamento.';
@@ -143,6 +153,41 @@ export default function SatellitePost({ post }: { post: Post }) {
             </div>
           ))}
         </dl>
+
+        <div className="mt-16 border-t border-blue-deep/10 pt-12">
+          <h2 className="font-heading text-xl font-bold tracking-tightest text-blue-deep">
+            Outros bairros e regiões atendidos
+          </h2>
+          <p className="mt-2 font-body text-sm text-blue-deep/60">
+            Ivan Dias atende casamentos em toda a Grande São Paulo. Confira mais guias por região:
+          </p>
+          <ul className="mt-6 grid grid-cols-1 gap-3 sm:grid-cols-2">
+            {getRelatedPosts(post).map((related) => (
+              <li key={related.slug}>
+                <Link
+                  href={`/blog/${related.slug}/`}
+                  className="flex items-center gap-3 rounded-xl border border-blue-deep/10 bg-white p-4 transition-colors hover:border-blue-accent hover:text-blue-accent focus-visible-ring"
+                >
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.8} className="h-4 w-4 shrink-0 text-blue-accent" aria-hidden="true">
+                    <path d="M5 12h14M13 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round" />
+                  </svg>
+                  <span className="font-body text-sm font-semibold text-blue-deep">{related.bairro}</span>
+                </Link>
+              </li>
+            ))}
+          </ul>
+          <div className="mt-6">
+            <Link
+              href="/blog/"
+              className="inline-flex items-center gap-2 font-body text-sm font-semibold uppercase tracking-wide text-blue-accent hover:underline underline-offset-4 focus-visible-ring"
+            >
+              Ver todos os bairros
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} className="h-4 w-4" aria-hidden="true">
+                <path d="M5 12h14M13 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
+            </Link>
+          </div>
+        </div>
       </div>
     </article>
   );
