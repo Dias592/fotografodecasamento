@@ -114,38 +114,94 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-de-casamento-moema',
     bairro: 'Moema',
-    title: 'Fotógrafo de Casamento em Moema: registros que emocionam',
+    title: 'Fotógrafo de Casamento em Moema: Guia Completo de Espaços, Luz e Logística',
     description:
-      'Saiba como escolher um fotógrafo de casamento em Moema e quais espaços do bairro mais se destacam para cerimônias e festas memoráveis.',
+      'Guia completo de fotografia de casamento em Moema: Welucci Single, Parque Ibirapuera para pré-wedding, igrejas, logística com Vila Olímpia e Itaim Bibi, e como escolher o fotógrafo certo para o bairro.',
     excerpt:
-      'Moema combina espaços verdes e salões modernos, formando o cenário perfeito para fotos que equilibram natureza e sofisticação urbana.',
+      'Moema combina a sofisticação residencial com a natureza única do entorno do Ibirapuera — um dos cenários mais completos para casamentos em São Paulo. Este guia cobre os principais espaços do bairro, a melhor janela de luz para fotos, logística e como planejar a cobertura fotográfica para cada formato de celebração.',
     date: '2026-02-02',
+    updatedDate: '2026-06-28',
     image: '/images/blog/fotografo-casamento-moema-festa.jpg',
+    sections: [
+      {
+        h2: 'Moema: o bairro que equilibra natureza e sofisticação urbana',
+        content: '<p>Moema é um dos bairros mais completos de São Paulo para casamentos — não apenas pela oferta de espaços, mas pela combinação única de vegetação generosa, arquitetura sofisticada e uma malha urbana que facilita a logística no dia. Faz divisa com o Parque Ibirapuera a norte, Vila Olímpia a leste e Campo Belo a sul, formando um corredor de altíssima densidade de eventos na Zona Sul.</p><p>Para Ivan Dias, Moema tem uma qualidade de luz diferenciada: as árvores que bordejam a maioria das ruas do bairro filtram a luz solar, criando uma paleta mais suave e difusa do que nos bairros mais densos como Vila Olímpia ou Itaim Bibi. Isso se traduz em fotos com menos contraste duro, mais ricas em meios-tons — e um resultado final mais atemporal. <a href="/servicos/cobertura-completa/">Conheça a cobertura completa de Ivan Dias para casamentos em Moema.</a></p>',
+      },
+      {
+        h2: 'Welucci Single: referência premium em Moema',
+        content: '<p>O <strong>Welucci Single</strong> é um dos espaços do Grupo Welucci em Moema — endereço de referência para casamentos e eventos sociais no bairro. Com capacidade para eventos intimistas e de médio porte, o espaço tem um design contemporâneo que favorece a fotografia: iluminação planejada, pé-direito adequado para flash difuso e áreas de circulação que permitem ângulos variados ao longo da festa.</p><p>Ivan Dias atende casamentos em todos os espaços do Grupo Welucci em São Paulo. Para planejar a cobertura fotográfica em um espaço específico do grupo, o ideal é fazer o briefing com o fotógrafo com antecedência — incluindo uma visita técnica no horário exato do evento para mapear a luz e os ângulos disponíveis. <a href="/contato/">Entre em contato para verificar disponibilidade de data.</a></p>',
+      },
+      {
+        h2: 'Igrejas e cerimônias religiosas em Moema',
+        content: '<p>Moema tem algumas das igrejas mais tradicionais da Zona Sul de São Paulo, com capacidade para cerimônias com centenas de convidados. A iluminação é o principal desafio fotográfico: igrejas mais antigas têm iluminação de tungstênio com temperatura de cor baixa (1800–2700K), criando um tom âmbar que pode parecer bonito ao vivo mas exige ajuste técnico na câmera para não ficar alaranjado em excesso nas fotos.</p><p>Ivan Dias realiza visita técnica em todas as igrejas onde vai fotografar — sempre no mesmo horário do evento. Esse protocolo permite identificar de onde entra a luz natural, qual é a posição mais favorável durante a cerimônia e se flash difuso é permitido pelo pároco. Esse planejamento faz diferença visível no resultado final.</p>',
+      },
+      {
+        h2: 'Pré-wedding no Parque Ibirapuera',
+        content: '<p>O Parque Ibirapuera é o cenário de pré-wedding mais icônico de São Paulo — e Moema é o bairro que fica literalmente ao lado. Para casais que moram ou casam em Moema, incluir uma sessão no Ibirapuera no roteiro do pré-wedding é uma decisão natural e logisticamente simples.</p><p>O parque tem cenários completamente diferentes dentro de um mesmo espaço: o espelho d\'água da Marquise, as figueiras centenárias, o pergolado com sombra filtrada, a área de gramado aberto e as fachadas do Museu de Arte Moderna. Ivan Dias recomenda programar a sessão entre 16h30 e 18h15 de abril a setembro, quando o sol entra em ângulo mais baixo e cria luz dourada através das copas. <a href="/servicos/pre-wedding/">Veja como funciona o ensaio pré-wedding com Ivan Dias.</a></p>',
+      },
+      {
+        h2: 'Logística com Vila Olímpia, Itaim Bibi e Ibirapuera',
+        content: '<p>Uma das combinações mais comuns no roteiro dos casamentos de Moema é: making of no apartamento dos noivos, cerimônia em uma das igrejas do bairro, fotos no Parque do Povo ou Ibirapuera (entardecer) e festa em espaço próximo. Esse roteiro é viável em Moema por uma razão simples: tudo fica a menos de 10 minutos de carro.</p>',
+        table: {
+          caption: 'Tempo estimado entre pontos — Moema (sábado, fora do pico)',
+          headers: ['Origem', 'Destino', 'Tempo normal', 'Com trânsito'],
+          rows: [
+            ['Igreja (Moema)', 'Espaço de festa (Moema)', '3–8 min', '8–15 min'],
+            ['Moema', 'Parque do Povo (Vl. Olímpia)', '5–10 min', '10–18 min'],
+            ['Moema', 'Parque Ibirapuera (entrada)', '3–6 min', '6–12 min'],
+            ['Moema', 'Itaim Bibi', '8–12 min', '12–22 min'],
+          ],
+        },
+      },
+      {
+        h2: 'Quanto custa um fotógrafo de casamento em Moema',
+        content: '<p>Os valores abaixo são referência para o mercado atual de Moema. Para entender o que cada faixa inclui — horas de cobertura, número de fotos, álbum físico e entregáveis digitais — consulte o guia completo de <a href="/blog/quanto-custa-fotografo-casamento-sao-paulo/">quanto custa um fotógrafo de casamento em São Paulo</a>.</p>',
+        table: {
+          caption: 'Faixas de mercado — Moema (2025–2026)',
+          headers: ['Formato', 'Horas de cobertura', 'Faixa do pacote fotográfico'],
+          rows: [
+            ['Civil + jantar intimista', '2–4h', 'R$ 3.200–R$ 5.500'],
+            ['Mini wedding (até 60 pax)', '4–6h', 'R$ 4.500–R$ 8.000'],
+            ['Casamento completo', '8–10h', 'R$ 6.000–R$ 12.000'],
+            ['Cobertura com segundo fotógrafo', '8–10h', 'R$ 8.000–R$ 15.000'],
+          ],
+        },
+      },
+      {
+        h2: 'Como escolher o fotógrafo certo para um casamento em Moema',
+        content: '<p>Moema tem uma mistura de espaços — salões fechados com iluminação técnica, espaços semi-abertos com influência do entorno arborizado e igrejas com iluminação variável. O fotógrafo ideal para o bairro precisa ter fluência em todos esses ambientes dentro de um mesmo evento.</p><p>Ao avaliar fotógrafos, peça portfólios de casamentos completos — não apenas fotos selecionadas. Um álbum completo mostra consistência: o fotógrafo que entrega bem no making of, na cerimônia, no pôr do sol e nas fotos de festa é diferente do que tem apenas boas fotos de ensaio ao ar livre. Ivan Dias disponibiliza álbuns completos para consulta antes do orçamento. <a href="/contato/">Solicite um orçamento personalizado ou agende uma conversa pelo WhatsApp.</a></p>',
+      },
+    ],
     faq: [
       {
-        question: 'Moema é um bom bairro para fotos ao ar livre?',
+        question: 'O Welucci Single fica em Moema?',
         answer:
-          'Sim, a proximidade com o Parque Ibirapuera oferece cenários naturais incríveis para ensaios e fotos do casal.',
+          'Sim — o Welucci Single está na Rua Tuim, 1041, em Moema. É um dos espaços do Grupo Welucci na capital, com design contemporâneo e estrutura para eventos intimistas e de médio porte. Ivan Dias atende casamentos em todos os espaços do grupo.',
       },
       {
-        question: 'Quais cuidados o fotógrafo toma em locações com luz variável?',
+        question: 'Parque Ibirapuera é liberado para pré-wedding?',
         answer:
-          'Equipamentos com boa performance em diferentes condições de luz e um planejamento prévio do horário garantem resultados consistentes.',
+          'Sim, o Ibirapuera é público e permite sessões fotográficas. Para ensaios mais elaborados com equipamento de iluminação, algumas áreas exigem autorização da Prefeitura. Ivan Dias conhece os pontos e horários mais favoráveis — a melhor luz cai entre 16h30 e 18h15 de abril a setembro.',
       },
       {
-        question: 'É possível combinar cerimônia e festa em locais diferentes?',
+        question: 'Moema tem igrejas para casamento religioso?',
         answer:
-          'Sim, o fotógrafo organiza a logística para cobrir cerimônia e recepção mesmo quando ocorrem em endereços distintos dentro da região.',
+          'Sim — Moema tem igrejas católicas tradicionais com capacidade para grandes cerimônias. O desafio fotográfico é a iluminação interna de tungstênio — Ivan Dias faz visita técnica no horário exato do evento para ajustar o kit e garantir resultados consistentes.',
+      },
+      {
+        question: 'É possível fazer cerimônia em Moema e festa na Vila Olímpia?',
+        answer:
+          'Sim, e é um roteiro muito comum. O trajeto entre Moema e Vila Olímpia leva de 10 a 14 minutos em condições normais. O fotógrafo precisa sair da cerimônia antes do cortejo para chegar ao local da festa antes dos noivos — esse detalhe precisa estar no cronograma.',
       },
       {
         question: 'Quanto custa um fotógrafo de casamento em Moema?',
         answer:
-          'Os pacotes para casamentos em Moema partem de R$ 3.200, com cobertura completa do making of à festa, incluindo edição profissional e entrega em galeria digital de alta resolução. Solicite um orçamento personalizado pelo WhatsApp.',
+          'Os pacotes partem de R$ 3.200 para coberturas de 2 a 4 horas. Para casamentos completos com 8 a 10 horas, a faixa fica entre R$ 6.000 e R$ 12.000. Solicite orçamento personalizado pelo WhatsApp — resposta em até 24 horas.',
       },
       {
-        question: 'Você atende mini weddings em Moema?',
+        question: 'Você faz pré-wedding no Ibirapuera e casamento em Moema no mesmo dia?',
         answer:
-          'Sim, atendo mini weddings com até 80 convidados em Moema e região. Temos pacotes específicos para cerimônias intimistas com o mesmo cuidado fotográfico de uma grande celebração.',
+          'Sim, quando o cronograma permite. O roteiro mais comum é: ensaio externo no Ibirapuera ao entardecer (16h30–18h) e cerimônia/festa a partir das 19h em espaço de Moema. Com 3–5 minutos entre os locais, a logística é viável e o resultado é variado e completo.',
       },
     ],
   },
@@ -2153,43 +2209,99 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-de-casamento-sorocaba',
     bairro: 'Sorocaba',
-    title: 'Fotógrafo de Casamento em Sorocaba: Registros que Eternizam Cada Detalhe',
+    title: 'Fotógrafo de Casamento em Sorocaba: Guia Completo — Welucci, Fazendas e Logística',
     description:
-      'Procurando fotógrafo de casamento em Sorocaba? Veja como escolher o profissional certo, os melhores espaços da cidade e o que esperar de uma cobertura completa.',
+      'Guia completo de fotografia de casamento em Sorocaba: espaços Welucci Sansu e Fontana, fazendas e chácaras da região, logística desde SP, pré-wedding e quanto custa contratar o fotógrafo certo.',
     excerpt:
-      'Sorocaba cresceu muito como polo de casamentos no interior paulista, com espaços sofisticados e uma cena de eventos consolidada. Veja como garantir registros à altura da celebração.',
+      'Sorocaba cresceu muito como polo de casamentos no interior paulista — com espaços premium do Grupo Welucci (Sansu e Fontana), fazendas com paisagem aberta e chácaras a 90 km de São Paulo. Este guia cobre os principais espaços, a logística da Raposo Tavares e como planejar uma cobertura fotográfica de qualidade para um casamento na região.',
     date: '2026-01-10',
+    updatedDate: '2026-06-28',
     image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-05.jpg',
+    sections: [
+      {
+        h2: 'Sorocaba como polo de casamentos do interior paulista',
+        content: '<p>Sorocaba é a quarta maior cidade do estado de São Paulo e um dos principais mercados de casamentos do interior. Com uma classe média consolidada, infraestrutura de eventos crescente e localização estratégica a 90 km da capital pela Raposo Tavares, a cidade tem atraído cada vez mais casais que querem o padrão de espaços e serviços da capital sem a correria e os preços de São Paulo.</p><p>Para Ivan Dias, Sorocaba tem um perfil fotográfico distinto: espaços com mais área aberta, fazendas com paisagem de interior e uma luz que, no outono e inverno, tem uma qualidade dourada e horizontal que a capital raramente oferece. <a href="/servicos/cobertura-completa/">Solicite orçamento para cobertura completa em Sorocaba.</a></p>',
+      },
+      {
+        h2: 'Espaços Welucci em Sorocaba: Sansu e Fontana',
+        content: '<p>O Grupo Welucci tem duas unidades na região de Sorocaba — o <strong>Welucci Sansu</strong> e o <strong>Welucci Fontana</strong> — que representam o padrão premium do grupo no interior paulista. São espaços com estrutura completa de buffet, jardins elaborados e uma proposta que combina sofisticação com a atmosfera mais tranquila do interior.</p><p>Ivan Dias atende casamentos em todos os espaços Welucci, incluindo as unidades do interior. Para eventos nessas unidades, o planejamento de deslocamento entra no briefing com antecedência — o fotógrafo define o horário de saída de SP para chegar ao local com margem suficiente para visita técnica no dia. <a href="/contato/">Consulte disponibilidade de data para casamentos em Sorocaba.</a></p>',
+        h3s: [
+          {
+            title: 'Welucci Sansu',
+            content: '<p>Espaço com perfil mais intimista dentro do portfólio Welucci em Sorocaba — indicado para casamentos de médio porte com até 150 convidados. A arquitetura tem elementos que mesclam o contemporâneo com o charme interiorano da região. Para o fotógrafo, o Sansu tem boas condições de luz natural no período da tarde — o que permite um golden hour aproveitável para o ensaio do casal antes da festa começar.</p>',
+          },
+          {
+            title: 'Welucci Fontana',
+            content: '<p>O Fontana tem um perfil de maior capacidade, com espaço para festas de grande porte e uma área de jardim que permite cerimônias ao ar livre. A combinação de cerimônia externa e recepção interna é uma das mais fotograficamente ricas — o fotógrafo tem luz natural na cerimônia e iluminação controlada na festa, com uma transição que permite criar imagens com paletas completamente diferentes no mesmo evento.</p>',
+          },
+        ],
+      },
+      {
+        h2: 'Fazendas e chácaras na região de Sorocaba',
+        content: '<p>Além dos espaços Welucci, a região de Sorocaba tem uma oferta sólida de fazendas históricas e chácaras com estrutura para eventos. A Serra de Sorocaba e as áreas rurais nos municípios ao redor oferecem paisagens abertas com pastagens, matas ciliares e lagos que criam cenários fotográficos únicos para o interior paulista.</p><p>Ivan Dias destaca o diferencial fotográfico das fazendas de Sorocaba: a altitude da região (750–900m) garante uma umidade e nebulosidade que, especialmente de abril a julho, cria nevoeiros matinais lindos para fotos de cerimônia ao ar livre. O golden hour nas fazendas da Serra de Sorocaba — com campos abertos e poucas construções ao horizonte — produz imagens com uma paleta de luz raramente encontrada em espaços urbanos. <a href="/servicos/pre-wedding/">Planeje o ensaio pré-wedding em uma fazenda da região.</a></p>',
+      },
+      {
+        h2: 'Logística desde São Paulo: Raposo Tavares e Castello Branco',
+        content: '<p>Sorocaba fica a 90–100 km de São Paulo, com duas rotas principais: Rodovia Raposo Tavares (SP-270, acesso mais direto ao centro) e Rodovia Castello Branco (SP-280, alternativa com melhor condição de tráfego). Em sábados de manhã, o trajeto leva 1h a 1h15. Em sábados à tarde, especialmente no sentido SP→Sorocaba de outubro a fevereiro, o congestionamento na Raposo Tavares pode estender para 1h45 a 2h.</p>',
+        table: {
+          caption: 'Tempo estimado SP → Sorocaba',
+          headers: ['Rota', 'Distância', 'Tempo normal', 'Sábado tarde'],
+          rows: [
+            ['Raposo Tavares (SP-270)', '90 km', '1h–1h10', '1h30–2h'],
+            ['Castello Branco (SP-280)', '100 km', '1h10–1h20', '1h25–1h50'],
+            ['Rodoanel + Castello Branco', '105 km', '1h15–1h25', '1h30–2h'],
+          ],
+        },
+      },
+      {
+        h2: 'Pré-wedding em Sorocaba e região',
+        content: '<p>A região de Sorocaba oferece cenários de pré-wedding completamente diferentes dos disponíveis em São Paulo: fazendas com campos abertos e luz de horizonte, o Rio Sorocaba com vegetação ciliar, o Parque das Águas e reservas de mata atlântica nos municípios vizinhos (Araçariguama, Porto Feliz). Para casais que querem um ensaio com identidade interiorana sem viajar para o litoral ou a Serra da Mantiqueira, Sorocaba é uma das melhores opções.</p><p>A combinação mais procurada por Ivan Dias para pré-weddings em Sorocaba: uma sessão no final da tarde em fazenda ou campo aberto (16h30–18h) aproveitando o golden hour do interior, seguida de registro em ambiente urbano com a arquitetura histórica de Sorocaba ao entardecer. <a href="/servicos/pre-wedding/">Veja como funciona o ensaio pré-wedding e os pacotes disponíveis.</a></p>',
+      },
+      {
+        h2: 'Quanto custa fotografar um casamento em Sorocaba',
+        content: '<p>Para eventos em Sorocaba, Ivan Dias inclui taxa de deslocamento no orçamento — geralmente entre R$ 300 e R$ 500, dependendo da data e do horário de retorno. Em casamentos que se estendem até a madrugada, pode ser necessário incluir hospedagem no pacote. Tudo é detalhado no contrato antes da confirmação.</p>',
+        table: {
+          caption: 'Faixas de mercado — Sorocaba (2025–2026)',
+          headers: ['Formato', 'Horas de cobertura', 'Faixa do pacote fotográfico', 'Deslocamento'],
+          rows: [
+            ['Civil + recepção', '4–6h', 'R$ 3.200–R$ 6.000', '+ R$ 300–R$ 500'],
+            ['Casamento em buffet Welucci', '8–10h', 'R$ 6.000–R$ 12.000', '+ R$ 300–R$ 500'],
+            ['Casamento em fazenda', '8–10h', 'R$ 5.500–R$ 11.000', '+ R$ 300–R$ 500'],
+            ['Casamento grande (200+ pax)', '10–12h', 'R$ 8.000–R$ 14.000', '+ R$ 400–R$ 600'],
+          ],
+        },
+      },
+    ],
     faq: [
       {
-        question: 'Vale a pena contratar um fotógrafo de São Paulo para um casamento em Sorocaba?',
+        question: 'Ivan Dias atende casamentos nos espaços Welucci de Sorocaba?',
         answer:
-          'Sim — muitos casais de Sorocaba optam por fotógrafos da capital por questão de estilo e portfólio. O deslocamento costuma ser cobrado à parte (cerca de R$ 300 a R$ 600), mas o acesso a profissionais com mais experiência e maior variedade de estilos pode compensar amplamente esse custo adicional.',
+          'Sim — Ivan Dias atende casamentos em todas as unidades do Grupo Welucci, incluindo Welucci Sansu e Welucci Fontana em Sorocaba. O deslocamento é combinado previamente e incluso no orçamento. Entre em contato para verificar disponibilidade.',
       },
       {
-        question: 'Quais são os melhores espaços para casamento em Sorocaba?',
+        question: 'Vale trazer fotógrafo de SP para casar em Sorocaba?',
         answer:
-          'Sorocaba conta com fazendas charmosas nos arredores, salões modernos no centro e espaços ao ar livre com paisagens do interior paulista. Locais como chácara e eventos em área verde são muito populares para casamentos ao pôr do sol, gerando imagens com luz dourada natural excepcionais.',
+          'Sim — a diferença de portfólio e experiência é significativa. O custo de deslocamento (R$ 300–R$ 500) é pequeno frente à diferença de resultado. Muitos casais de Sorocaba optam por fotógrafos da capital exatamente por isso.',
       },
       {
-        question: 'Como é a logística de um fotógrafo vindo de SP para Sorocaba?',
+        question: 'Qual a melhor rota de SP para Sorocaba em dia de casamento?',
         answer:
-          'Sorocaba fica a cerca de 90 km de São Paulo, com fácil acesso pela Rodovia Raposo Tavares. A maioria dos fotógrafos cobra uma taxa de deslocamento e, em alguns casos, hospedagem quando o evento se estende até tarde. Vale combinar todos esses detalhes com antecedência no contrato.',
+          'Para casamentos com início à tarde, prefira a Castello Branco — tende a ter menos congestionamento do que a Raposo Tavares nos sábados. Ivan Dias sai com 1h30 de margem para qualquer evento em Sorocaba.',
       },
       {
-        question: 'Quando contratar o fotógrafo para um casamento em Sorocaba?',
+        question: 'Há bons cenários para pré-wedding em Sorocaba?',
         answer:
-          'Com pelo menos 6 a 10 meses de antecedência, especialmente para datas de alta temporada (outubro a dezembro) e fins de semana. Profissionais de São Paulo com agenda disputada costumam ter datas de interior reservadas com ainda mais antecedência.',
+          'Sim — fazendas com campos abertos, o Rio Sorocaba e reservas de mata nos municípios vizinhos (Araçariguama, Porto Feliz) oferecem cenários completamente diferentes dos disponíveis em SP. Golden hour em campo aberto no interior é uma das condições de luz mais bonitas para fotografia de casal.',
       },
       {
-        question: 'O pré-wedding pode ser feito em Sorocaba ou nos arredores?',
+        question: 'Drone funciona bem em Sorocaba?',
         answer:
-          'Sim — a região de Sorocaba oferece cenários lindos para ensaios ao ar livre: fazendas, campos abertos, o Rio Sorocaba e parques com vegetação nativa. Para quem prefere o visual urbano, o centro histórico da cidade também tem charme e personalidade.',
+          'Sim — Sorocaba está fora das restrições dos aeroportos de SP e a maioria dos espaços ao ar livre permite voo. Ivan Dias opera drone com habilitação ANAC. Confirme com o espaço e inclua no contrato.',
       },
       {
-        question: 'Existe diferença de preço entre contratar fotógrafo local de Sorocaba e trazer de SP?',
+        question: 'Quanto custa um fotógrafo de casamento em Sorocaba?',
         answer:
-          'Fotógrafos locais tendem a ter preços um pouco menores por não incluírem taxa de deslocamento, mas o portfólio e a experiência variam muito. A recomendação é sempre avaliar o trabalho em primeiro lugar — e depois comparar preços considerando o custo total, incluindo deslocamento quando aplicável.',
+          'Para casamentos em buffet com 8 a 10 horas, o pacote fica entre R$ 6.000 e R$ 12.000 + deslocamento (R$ 300–R$ 500). Solicite orçamento personalizado pelo WhatsApp — resposta em até 24 horas.',
       },
     ],
   },
@@ -2282,86 +2394,212 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-de-casamento-guarulhos',
     bairro: 'Guarulhos',
-    title: 'Fotógrafo de Casamento em Guarulhos: Registros com Qualidade de São Paulo',
+    title: 'Fotógrafo de Casamento em Guarulhos: Guia Completo de Buffets, Logística e Pré-Wedding',
     description:
-      'Procura fotógrafo de casamento em Guarulhos? Conheça os espaços mais procurados da cidade e como garantir uma cobertura fotográfica de alto nível para o seu grande dia.',
+      'Guia completo de fotografia de casamento em Guarulhos: buffets confirmados (Europa, Evian, Bosque Maia), logística desde SP, Parque Estadual da Cantareira para pré-wedding e quanto custa contratar o fotógrafo certo.',
     excerpt:
-      'Guarulhos é a segunda maior cidade do estado e tem uma cena de eventos crescente. Com fácil acesso à capital, o casamento em Guarulhos pode contar com os melhores fotógrafos da região.',
+      'Guarulhos é a segunda maior cidade do estado e tem uma cena de eventos consolidada, com buffets de referência como o Europa, Evian e Bosque Maia Master. Este guia cobre os principais espaços onde Ivan Dias já fotografou casamentos na cidade, a logística desde São Paulo e as melhores opções de pré-wedding na região da Cantareira.',
     date: '2026-01-22',
+    updatedDate: '2026-06-28',
     image: '/images/galeria/detalhes/casamento-sao-paulo-detalhes-08.jpg',
+    sections: [
+      {
+        h2: 'Guarulhos no mercado de casamentos da Grande São Paulo',
+        content: '<p>Guarulhos é a segunda maior cidade do estado de São Paulo, com cerca de 1,4 milhão de habitantes e uma cena de casamentos ativa e consolidada. Faz divisa direta com a capital — os bairros do extremo norte de São Paulo são contíguos à zona sul de Guarulhos — e concentra uma oferta de buffets e salões que rivaliza com muitos bairros da capital em capacidade e estrutura.</p><p>Para casais de Guarulhos, contratar um fotógrafo de SP é o padrão do mercado: a distância é curta, a maioria dos profissionais não cobra taxa extra de deslocamento, e a diferença de portfólio é significativa. Ivan Dias, com mais de 700 casamentos fotografados em São Paulo e região, já cobriu casamentos em vários dos principais buffets de Guarulhos.</p>',
+      },
+      {
+        h2: 'Buffets e espaços confirmados em Guarulhos',
+        content: '<p>Guarulhos tem uma concentração expressiva de buffets de grande porte — espaços que operam com equipe própria de gastronomia, decoração base incluída e capacidade para centenas de convidados. Ivan Dias já fotografou casamentos nos seguintes espaços da cidade:</p>',
+        h3s: [
+          {
+            title: 'Buffet Europa',
+            content: '<p>Um dos buffets mais tradicionais e conhecidos de Guarulhos, com décadas de história no mercado de eventos da cidade. Capacidade para grandes festas, iluminação de buffet clássica e uma estrutura completa que facilita o planejamento fotográfico. Ivan Dias conhece bem a dinâmica do espaço: as áreas de cerimônia e recepção têm boa separação, o que permite ao fotógrafo antecipar posições sem comprometer nenhum ângulo.</p>',
+          },
+          {
+            title: 'Buffet Evian',
+            content: '<p>Espaço de referência em Guarulhos para casamentos de médio e grande porte. Com decoração contemporânea e iluminação planejada para eventos, o Buffet Evian tem uma estética que facilita fotos de ambiente — os espaços são bem proporcionados e permitem ângulos amplos com a decoração ao fundo. Uma das escolhas frequentes de casais que buscam um espaço mais moderno dentro do formato buffet tradicional.</p>',
+          },
+          {
+            title: 'Bosque Maia Master (Buffet Mediterrâneo)',
+            content: '<p>Localizado na área verde do Parque Estadual do Bosque Maia, este espaço combina o formato de buffet com um entorno de natureza diferenciado — árvores centenárias, jardins e uma atmosfera que contrasta com o ambiente urbano de Guarulhos. Para fotografia, o Bosque Maia oferece um diferencial importante: a possibilidade de registros externos com fundo verde denso, sem precisar se deslocar para outro local. Ivan Dias indica o espaço como um dos mais fotogênicos da cidade para cerimônias ao entardecer.</p>',
+          },
+        ],
+      },
+      {
+        h2: 'Distância e logística desde São Paulo',
+        content: '<p>Guarulhos fica a 20–30 km do centro de São Paulo, dependendo do bairro de origem. O acesso principal para eventos no corredor de buffets da cidade é pela Rodovia Hélio Smidt, pela Marginal Tietê / Dutra ou pela SP-056 (Estrada Municipal). Em sábados de manhã o trânsito é tranquilo; sábados à tarde (após 15h) no sentido SP→Guarulhos podem ter lentidão no acesso via Dutra.</p>',
+        table: {
+          caption: 'Tempo estimado SP → Guarulhos (buffets centrais)',
+          headers: ['Origem em SP', 'Rota', 'Tempo normal', 'Sábado tarde'],
+          rows: [
+            ['Centro / Sé', 'Marginal Tietê + Dutra', '25–35 min', '40–60 min'],
+            ['Zona Norte (Santana)', 'SP-056 direta', '20–28 min', '30–45 min'],
+            ['Zona Leste (Tatuapé)', 'Radial Leste + Dutra', '30–40 min', '45–65 min'],
+            ['Aeroporto (GRU)', 'Acesso local', '10–18 min', '15–30 min'],
+          ],
+        },
+      },
+      {
+        h2: 'Pré-wedding no Bosque Maia e Serra da Cantareira',
+        content: '<p>Guarulhos tem dois cenários naturais de destaque para ensaios de pré-wedding. O <strong>Parque Estadual do Bosque Maia</strong> — o mesmo entorno do Buffet Mediterrâneo — tem mata densa, lagos e luz filtrada pelas árvores que cria resultados fotográficos de grande qualidade. O acesso é controlado, mas com agendamento é possível usar a área do parque para ensaios nas manhãs de final de semana.</p><p>A <strong>Serra da Cantareira</strong> tem núcleos com acesso por Guarulhos — o Núcleo Cabuçu oferece trilhas e cachoeiras a poucos quilômetros da cidade. Para casais que querem mata atlântica densa, névoa matinal e um fundo completamente diferente da cidade, o Cabuçu é uma alternativa que Ivan Dias recomenda explorar com pelo menos dois reconhecimentos de local antes do ensaio.</p>',
+      },
+      {
+        h2: 'Aeroporto de Guarulhos (GRU) e uso de drone',
+        content: '<p>Guarulhos tem o maior aeroporto do Brasil — e isso cria restrições importantes para o uso de drone em casamentos. A maior parte da área urbana da cidade está dentro do cone de aproximação do GRU, com restrições de altura que inviabilizam o uso de drone sem autorização específica da ANAC e do DECEA. Buffets como o Bosque Maia, pelo entorno de parque, também têm restrições próprias de segurança.</p><p>Se drone é prioridade, confirme com o fotógrafo se o espaço específico permite o voo e se ele tem a habilitação ANAC necessária. Para pré-weddings fora de Guarulhos — em Caieiras, Franco da Rocha ou Mairiporã — o espaço aéreo é menos restrito e o drone funciona melhor.</p>',
+      },
+      {
+        h2: 'Quanto custa fotografar um casamento em Guarulhos',
+        content: '<p>Os valores abaixo são referência para o mercado atual de Guarulhos. Para entender o que cada faixa inclui em horas, álbum e entregáveis, consulte o guia completo de <a href="/blog/quanto-custa-fotografo-casamento-sao-paulo/">quanto custa um fotógrafo de casamento em São Paulo</a>.</p>',
+        table: {
+          caption: 'Faixas de mercado — Guarulhos (2025–2026)',
+          headers: ['Formato', 'Horas de cobertura', 'Faixa do pacote fotográfico', 'Observação'],
+          rows: [
+            ['Civil + recepção', '4–6h', 'R$ 3.200–R$ 6.000', 'Sem segundo fotógrafo'],
+            ['Casamento em buffet médio', '8–10h', 'R$ 5.500–R$ 10.000', 'Segundo fotógrafo opcional'],
+            ['Casamento grande (200+ pax)', '10–12h', 'R$ 8.000–R$ 14.000', 'Com segundo fotógrafo'],
+            ['Chácara / espaço ao ar livre', '8–10h', 'R$ 5.500–R$ 11.000', 'Drone a confirmar (GRU)'],
+          ],
+        },
+      },
+      {
+        h2: 'Erros frequentes em casamentos nos buffets de Guarulhos',
+        content: '<p><strong>Não considerar o trânsito no sentido SP→Guarulhos</strong> é o erro mais comum. Buffets de Guarulhos têm boa infraestrutura, mas ficam em pontos que exigem usar a Dutra ou a Marginal Tietê — corredores com tráfego imprevisível em sábados de fim de tarde. O fotógrafo experiente sai com 1h de margem para qualquer evento em Guarulhos.</p><p><strong>Subestimar os espaços externos dos buffets</strong> é o segundo ponto. Muitos buffets de Guarulhos têm jardins, alamedas ou entornos verdes que são pouco utilizados para fotos — especialmente no Bosque Maia. Mapear esses espaços na visita técnica e incluí-los no roteiro do dia é uma decisão que agrega muito ao álbum final sem custo adicional.</p>',
+      },
+    ],
     faq: [
       {
-        question: 'Guarulhos tem bons espaços para casamentos?',
+        question: 'Guarulhos tem bons buffets para casamentos?',
         answer:
-          'Sim — Guarulhos cresceu muito na oferta de espaços para eventos nos últimos anos, com salões modernos, buffets completos e fazendas nos arredores que oferecem ambientes mais intimistas. A proximidade com São Paulo também facilita o acesso a decoradores, cerimonialistas e fotógrafos da capital.',
+          'Sim — o Buffet Europa, Buffet Evian e Bosque Maia Master (Buffet Mediterrâneo) são três dos espaços mais procurados, com capacidade para grandes festas e estrutura completa. Ivan Dias já fotografou casamentos nos três e conhece bem as condições de iluminação e logística de cada um.',
       },
       {
         question: 'Qual a vantagem de contratar fotógrafo de São Paulo para um casamento em Guarulhos?',
         answer:
-          'Guarulhos faz limite com a capital e está a menos de 30 km do centro de São Paulo. A maioria dos fotógrafos paulistanos não cobra taxa de deslocamento extra para Guarulhos ou cobra valores simbólicos. Isso dá acesso a um mercado muito maior de profissionais especializados em diferentes estilos.',
+          'Guarulhos faz limite com a capital e está a menos de 30 km do centro de São Paulo. A maioria dos fotógrafos paulistanos não cobra taxa de deslocamento extra para Guarulhos. Isso dá acesso a um mercado muito maior de profissionais com portfólios mais amplos.',
+      },
+      {
+        question: 'Drone é permitido em buffets de Guarulhos?',
+        answer:
+          'A maior parte de Guarulhos está no cone de restrição do Aeroporto Internacional GRU. Buffets na área central têm restrições de altura que geralmente inviabilizam o drone sem autorização específica do DECEA. Confirme com o fotógrafo e com o espaço antes de incluir no contrato.',
+      },
+      {
+        question: 'Bosque Maia é bom para pré-wedding?',
+        answer:
+          'Sim — o entorno verde do Parque Estadual do Bosque Maia, com árvores centenárias e lagos, cria um cenário diferenciado para ensaios. Com agendamento, é possível usar a área do parque em manhãs de fim de semana. Ivan Dias indica o local como um dos mais fotogênicos de Guarulhos.',
       },
       {
         question: 'Como o tráfego na região afeta a logística do fotógrafo?',
         answer:
-          'O acesso entre São Paulo e Guarulhos pode ter trânsito intenso nos fins de semana. Fotógrafos experientes já preveem isso ao planejar a chegada — saindo com antecedência e tendo um plano de rota alternativa. Vale combinar no contrato o horário de chegada com uma margem de segurança.',
-      },
-      {
-        question: 'Existem locações diferenciadas em Guarulhos para pré-wedding?',
-        answer:
-          'Sim — a Serra da Cantareira tem trechos com acesso por Guarulhos, com vegetação de mata atlântica densa e luz filtrada pelas árvores, ideal para ensaios intimistas. Parques e reservas naturais da cidade também oferecem cenários naturais interessantes e menos explorados.',
+          'O acesso pela Dutra e Marginal Tietê pode ter trânsito intenso nos sábados à tarde. Fotógrafos experientes saem com 1h de margem e têm rotas alternativas mapeadas. Vale confirmar em contrato o horário de chegada com essa margem incluída.',
       },
       {
         question: 'Quando contratar fotógrafo para casamento em Guarulhos?',
         answer:
-          'Com 6 a 12 meses de antecedência. Por estar na Grande São Paulo, Guarulhos compete diretamente com a capital na disputa pela agenda dos melhores fotógrafos — especialmente em fins de semana de alta temporada.',
-      },
-      {
-        question: 'O contrato precisa mencionar taxa de deslocamento para Guarulhos?',
-        answer:
-          'Sempre confirme esse ponto diretamente com o fotógrafo. Muitos profissionais da capital não cobram deslocamento extra para a Grande São Paulo, mas é fundamental ter isso formalizado em contrato para evitar cobranças surpresa no dia ou na fatura final.',
+          'Com 6 a 12 meses de antecedência. Guarulhos compete diretamente com a capital na disputa pela agenda dos melhores fotógrafos, especialmente em fins de semana de alta temporada (outubro a março).',
       },
     ],
   },
   {
     slug: 'fotografo-de-casamento-santo-andre',
     bairro: 'Santo André',
-    title: 'Fotógrafo de Casamento em Santo André: Do ABC Paulista Para o Mundo',
+    title: 'Fotógrafo de Casamento em Santo André: Guia Completo do ABC Paulista',
     description:
-      'Casando em Santo André e buscando fotógrafo? Conheça o mercado fotográfico do ABC paulista, os espaços mais procurados e como garantir registros de alto nível.',
+      'Guia completo de fotografia de casamento em Santo André: espaços confirmados (Mezzatorre, Cook Hall), igrejas, logística do ABCDM, pré-wedding no Parque Celso Daniel e quanto custa contratar fotógrafo de qualidade.',
     excerpt:
-      'Santo André, coração do ABC paulista, combina uma identidade cultural forte com espaços modernos de eventos. Veja como escolher o fotógrafo certo para eternizar esse momento único.',
+      'Santo André é o polo do ABCDM — com a maior oferta de espaços para eventos da região, igrejas tradicionais e buffets de referência como o Mezzatorre e o Cook Hall. Este guia cobre tudo que você precisa saber sobre fotografia de casamento em Santo André: onde casar, logística, pré-wedding e quanto custa.',
     date: '2026-01-26',
+    updatedDate: '2026-06-28',
     image: '/images/galeria/festa/casamento-sao-paulo-festa-09.jpg',
+    sections: [
+      {
+        h2: 'Santo André como polo do ABCDM',
+        content: '<p>Santo André é a cidade mais populosa do ABCDM e concentra a maior oferta de espaços para eventos da região. É também o centro comercial e de serviços do Grande ABC — o que se traduz em uma cena de casamentos consolidada, com buffets de referência, igrejas tradicionais e uma cultura de celebração que valoriza festas longas e muita família.</p><p>Para casais de Santo André, contratar um fotógrafo de São Paulo é o padrão. A cidade fica a apenas 20 km do centro da capital pela Av. dos Estados — menos tempo de deslocamento do que muitos bairros paulistanos distantes. Ivan Dias atende o ABCDM regularmente e conhece os espaços e a dinâmica cultural dos casamentos na região. Veja o panorama completo do <a href="/blog/fotografo-casamento-abc-paulista-santo-andre-sao-bernardo/">ABCDM</a>.</p>',
+      },
+      {
+        h2: 'Espaços confirmados em Santo André',
+        content: '<p>Ivan Dias já fotografou casamentos em dois dos principais espaços de Santo André — o que significa conhecimento das condições reais de iluminação, logística interna e oportunidades fotográficas de cada local:</p>',
+        h3s: [
+          {
+            title: 'Mezzatorre',
+            content: '<p>Um dos espaços mais procurados de Santo André para casamentos de médio e grande porte. O Mezzatorre tem estrutura completa de buffet, iluminação planejada para eventos e uma área externa que Ivan Dias utiliza para o ensaio do casal ao entardecer quando o cronograma permite. A entrada dos noivos e o primeiro dance têm bons ângulos pela disposição da pista e dos assentos — detalhe que o fotógrafo mapeia na visita técnica prévia.</p>',
+          },
+          {
+            title: 'Cook Hall Buffet',
+            content: '<p>Espaço contemporâneo em Santo André com perfil mais moderno do que os buffets tradicionais da cidade. O Cook Hall tem acabamento atual, iluminação mais técnica e espaços divididos que permitem diferentes atmosferas ao longo da noite — da cerimônia íntima ao salão de festas. Ivan Dias destaca a versatilidade do espaço para criar registros com diferentes paletas de luz ao longo do mesmo evento.</p>',
+          },
+        ],
+      },
+      {
+        h2: 'Igrejas e cerimônias religiosas em Santo André',
+        content: '<p>Santo André tem igrejas católicas tradicionais com décadas de história e infraestrutura adequada para cerimônias com muitos convidados. A iluminação interna das igrejas mais antigas é o principal desafio fotográfico: naves com pouca luz natural e iluminação artificial de tungstênio ou LED exigem configuração específica de câmera e, em alguns casos, flash difuso autorizado pelo pároco.</p><p>Ivan Dias realiza visita técnica nas igrejas sempre no mesmo horário do evento — o comportamento da luz muda completamente entre 10h da manhã e 18h da tarde. Esse reconhecimento prévio é o que diferencia um resultado fotográfico consistente de fotos com exposição irregular ao longo da cerimônia.</p>',
+      },
+      {
+        h2: 'Logística do ABCDM e acesso desde São Paulo',
+        content: '<p>Santo André fica a 20–30 km do centro de São Paulo. O acesso principal é pela Av. dos Estados / Via Anchieta, com alternativa pelo Rodoanel Sul. Em sábados à tarde, o sentido SP→ABC pode ter lentidão próximo ao acesso Anchieta a partir das 15h — Ivan Dias prevê 1h de margem para qualquer casamento na região.</p>',
+        table: {
+          caption: 'Tempo estimado SP → Santo André',
+          headers: ['Origem em SP', 'Rota', 'Tempo normal', 'Sábado tarde'],
+          rows: [
+            ['Centro / Sé', 'Av. dos Estados direta', '20–28 min', '35–55 min'],
+            ['Vila Mariana / Moema', 'Via Anchieta SP-150', '22–30 min', '35–55 min'],
+            ['Brooklin / Itaim Bibi', 'Rodoanel Sul + acesso', '25–35 min', '40–60 min'],
+            ['Diadema (adj.)', 'Acesso direto', '10–15 min', '15–25 min'],
+          ],
+        },
+      },
+      {
+        h2: 'Pré-wedding no Parque Celso Daniel e região',
+        content: '<p>O Parque Prefeito Celso Daniel é o principal parque de Santo André e um dos cenários mais utilizados por Ivan Dias para pré-weddings na região. Com um lago central, jardins bem cuidados e áreas de mata dentro do perímetro urbano, o parque oferece um contraste com a cidade que funciona muito bem para casais que preferem cenários naturais sem viajar. A melhor janela de luz é entre 16h e 18h de abril a agosto.</p><p>Para casais que preferem um cenário mais marcante, a Represa Billings — acessível pela região de São Bernardo / Riacho Grande a 20–25 minutos de Santo André — oferece vistas de água aberta e vegetação de margem que criam um resultado muito diferente dos parques urbanos. Ivan Dias faz o reconhecimento do ponto exato de acesso em todos os ensaios na região.</p>',
+      },
+      {
+        h2: 'Quanto custa fotografar um casamento em Santo André',
+        content: '<p>Os valores abaixo são referência para o mercado atual de Santo André e ABCDM. Para análise completa do que cada faixa inclui, consulte o guia de <a href="/blog/quanto-custa-fotografo-casamento-sao-paulo/">quanto custa um fotógrafo de casamento em São Paulo</a>.</p>',
+        table: {
+          caption: 'Faixas de mercado — Santo André e ABCDM (2025–2026)',
+          headers: ['Formato', 'Horas de cobertura', 'Faixa do pacote fotográfico', 'Observação'],
+          rows: [
+            ['Civil + recepção', '4–6h', 'R$ 3.200–R$ 6.000', 'Sem segundo fotógrafo'],
+            ['Casamento em buffet', '8–10h', 'R$ 5.500–R$ 10.000', 'Segundo fotógrafo opcional'],
+            ['Casamento grande (200+ pax)', '10–12h', 'R$ 8.000–R$ 14.000', 'Com segundo fotógrafo'],
+            ['Cobertura ABCDM combinada', '8–12h', 'R$ 5.500–R$ 14.000', 'Sem taxa de deslocamento'],
+          ],
+        },
+      },
+      {
+        h2: 'Cultura dos casamentos no ABC: o que esperar',
+        content: '<p>Os casamentos em Santo André têm uma identidade própria dentro da Grande São Paulo: festas mais longas (frequentemente até 2h da manhã), participação de família extensa, alta energia na pista de dança e forte valorização do registro fotográfico completo. É comum encontrar 150 a 300 convidados em casamentos que seriam considerados "médios" na capital.</p><p>Para o fotógrafo, isso significa planejamento de cobertura longa — coberturas de 10 a 12 horas são frequentes. Ivan Dias destaca o momento dos cumprimentos pós-cerimônia como o mais intenso logisticamente: em festas com 200+ convidados, o fotógrafo precisa se mover entre grupos rapidamente para registrar todos os encontros importantes sem criar filas ou constrangimento.</p>',
+      },
+    ],
     faq: [
       {
-        question: 'Santo André tem boa oferta de fotógrafos de casamento?',
+        question: 'Quais buffets Ivan Dias já fotografou em Santo André?',
         answer:
-          'Sim — o ABC paulista tem um mercado fotográfico ativo, com profissionais locais de qualidade e fácil acesso a fotógrafos de São Paulo. A proximidade com a capital (cerca de 20 km) torna Santo André uma das cidades da Grande SP com melhor cobertura de serviços fotográficos para casamentos.',
+          'Ivan Dias já fotografou casamentos no Mezzatorre e no Cook Hall Buffet — dois dos espaços mais procurados de Santo André. Conhece as condições reais de iluminação, os ângulos de destaque e a logística interna de cada espaço.',
       },
       {
-        question: 'Quais são os melhores espaços para casamentos em Santo André?',
+        question: 'Santo André tem boas igrejas para cerimônia religiosa?',
         answer:
-          'Santo André conta com salões modernos, buffets tradicionais e espaços ao ar livre nos parques da cidade. O Parque Central e o Parque Prefeito Celso Daniel oferecem cenários naturais interessantes para ensaios e retratos. Para cerimônias mais sofisticadas, espaços nas regiões nobres do Jardim e da Vila são muito procurados.',
+          'Sim — Santo André tem igrejas católicas tradicionais com capacidade para grandes cerimônias. O principal cuidado fotográfico é com a iluminação interna, que varia muito entre igrejas. Ivan Dias faz visita técnica no horário exato do evento para mapear a luz disponível.',
       },
       {
-        question: 'Vale a pena contratar fotógrafo de São Paulo para um casamento em Santo André?',
+        question: 'Vale contratar fotógrafo de São Paulo para casamento em Santo André?',
         answer:
-          'Perfeitamente — Santo André fica a apenas 20 a 30 minutos do centro de São Paulo pela Avenida dos Estados ou pelo Acesso Anchieta. A maioria dos fotógrafos paulistanos atende o ABC sem custo adicional ou com uma taxa mínima de deslocamento. Isso dá ao casal acesso a um portfólio de profissionais muito maior.',
+          'Sim — Santo André fica a 20 km do centro de São Paulo e a maioria dos fotógrafos profissionais não cobra taxa adicional de deslocamento. O acesso pela Av. dos Estados ou Via Anchieta é direto e previsível.',
       },
       {
-        question: 'O ABC paulista tem locações diferenciadas para pré-wedding?',
+        question: 'Pré-wedding em Santo André: onde fazer?',
         answer:
-          'Sim — além dos parques de Santo André, a região do Riacho Grande em São Bernardo do Campo oferece paisagens à beira de represa. Espaços industriais reformados e vielas com grafites do ABC também têm sido muito usados para ensaios com estética urbana e contemporânea.',
+          'O Parque Celso Daniel é o principal local para ensaios em Santo André — lago central, jardins e áreas de mata com luz natural excelente entre 16h e 18h. Para cenários de água, a Represa Billings em Riacho Grande (São Bernardo) fica a 20–25 minutos.',
       },
       {
-        question: 'Como o trânsito do ABC afeta o dia do casamento?',
+        question: 'Quanto custa um fotógrafo de casamento em Santo André?',
         answer:
-          'O ABC pode ter trânsito intenso nas vias de acesso, especialmente às sextas-feiras à tarde e sábados. Fotógrafos que atendem a região com frequência já conhecem as melhores rotas e chegam com folga. Vale alinhar no briefing o endereço exato do local e o horário de chegada com margem de segurança.',
+          'Para casamentos em buffet com 8 a 10 horas de cobertura, a faixa fica entre R$ 5.500 e R$ 10.000. Para coberturas de 4 a 6 horas (civil + recepção), o ponto de partida é R$ 3.200. Solicite orçamento personalizado pelo WhatsApp.',
       },
       {
-        question: 'Há diferença cultural nos casamentos do ABC em relação à capital?',
+        question: 'Os casamentos em Santo André têm alguma característica especial?',
         answer:
-          'Os casamentos no ABC têm uma identidade própria — muitas vezes mais festivos, com festas longas e grande participação de família extensa. Fotógrafos com experiência na região sabem que é comum coberturas de 10 a 12 horas, com muita energia na pista de dança e momentos espontâneos de alto valor emocional.',
+          'Festas longas (até 2h da manhã), muitos convidados e alta energia são as marcas dos casamentos no ABC. Coberturas de 10 a 12 horas são comuns. Ivan Dias planeja o roteiro do dia com essa duração em mente, garantindo energia e qualidade fotográfica do início ao fim.',
       },
     ],
   },
@@ -2540,43 +2778,80 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-de-casamento-jundiai',
     bairro: 'Jundiaí',
-    title: 'Fotógrafo de Casamento em Jundiaí: Entre Vinhedos e Casamentos Inesquecíveis',
+    title: 'Fotógrafo de Casamento em Jundiaí e Vinhedo: Vinhedos, Welucci Kratos e Serra do Japi',
     description:
-      'Procura fotógrafo de casamento em Jundiaí? Descubra os espaços mais procurados da região, a influência dos vinhedos italianos no cenário e como garantir registros de alto nível.',
+      'Guia completo de fotografia de casamento em Jundiaí e Vinhedo: Welucci Kratos, vinícolas, fazendas históricas, pré-wedding na Serra do Japi e quanto custa contratar o fotógrafo certo na região.',
     excerpt:
-      'Jundiaí é conhecida pelos vinhedos, pela Serra do Japi e por uma cena de eventos sofisticada. Casamentos na região têm um charme que fotógrafos criativos adoram explorar.',
+      'Jundiaí e Vinhedo formam um dos destinos de casamento mais completos do interior paulista — com o Welucci Kratos em Vinhedo, vinhedos de influência italiana, a Serra do Japi e fazendas históricas a 60 km de São Paulo. Este guia cobre os principais espaços, a melhor época do ano e como planejar a cobertura fotográfica para cada tipo de espaço na região.',
     date: '2026-02-15',
+    updatedDate: '2026-06-28',
     image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-03.jpg',
+    sections: [
+      {
+        h2: 'Jundiaí e Vinhedo: o corredor premium do interior paulista',
+        content: '<p>Jundiaí e Vinhedo formam um eixo de alto padrão no interior de São Paulo, a apenas 60 km da capital. Vinhedo, em particular, tem um dos índices de renda per capita mais altos do estado — o que se reflete em uma oferta de espaços para casamentos que rivaliza com os melhores da capital. Fazendas históricas, vinícolas com arquitetura europeia, espaços premium como o Welucci Kratos e a beleza da Serra do Japi criam um conjunto que poucos destinos do interior paulista conseguem replicar.</p><p>Para Ivan Dias, a região tem um diferencial fotográfico claro: a qualidade de luz do interior em altitude (800–900m), combinada com paisagens de vinícula ou fazenda, produz imagens com uma profundidade e calor que a capital raramente oferece. <a href="/servicos/cobertura-completa/">Conheça a cobertura completa para casamentos em Jundiaí e Vinhedo.</a></p>',
+      },
+      {
+        h2: 'Welucci Kratos: referência premium em Vinhedo',
+        content: '<p>O <strong>Welucci Kratos</strong>, em Vinhedo, é a unidade do Grupo Welucci mais voltada para o interior paulista — com uma proposta de grandiosidade e acabamento que define o padrão do grupo. Capacidade para grandes festas, jardins amplos, arquitetura contemporânea e uma localização que aproveita o entorno verde de Vinhedo como pano de fundo natural.</p><p>Para casamentos no Welucci Kratos, Ivan Dias realiza visita técnica prévia para mapear a iluminação do espaço no horário exato do evento — um protocolo que ele segue em todos os espaços Welucci. A combinação de iluminação interna técnica com o entorno ao ar livre permite criar uma variedade de registros muito maior do que em espaços exclusivamente fechados. <a href="/contato/">Verifique disponibilidade de data para o Welucci Kratos.</a></p>',
+      },
+      {
+        h2: 'Vinhedos e vinícolas: o cenário mais icônico da região',
+        content: '<p>A região de Jundiaí concentra vinhedos de influência italiana que, especialmente de março a maio (período de colheita), têm um visual cinematográfico. As fileiras de parreiras criam perspectivas naturais que servem como corredor para fotos da cerimônia ou do ensaio do casal. No outono, as folhas que amarelam e avermelhavam criam um fundo impossível de replicar em outro cenário.</p><p>Ivan Dias destaca o horário crítico para fotografia em vinícula: o golden hour entre 16h30 e 18h15 de março a setembro, quando o sol entra em ângulo baixo entre as fileiras de uva e cria feixes de luz que atravessam a perspectiva. Esse momento dura cerca de 45 minutos e precisa estar reservado no cronograma para o ensaio externo do casal. <a href="/servicos/pre-wedding/">Planeje o ensaio pré-wedding em vinícula com Ivan Dias.</a></p>',
+      },
+      {
+        h2: 'Fazendas históricas e capelas coloniais',
+        content: '<p>Jundiaí tem fazendas do século XIX com casarões coloniais e capelas preservadas que são alguns dos cenários mais fotograficamente ricos de todo o interior paulista. A arquitetura de taipa e pedra, os jardins com ipês e o interior das capelas com iluminação de vela criam uma estética que remete a um Brasil que poucos destinos mantiveram preservado.</p><p>O desafio fotográfico nas capelas coloniais é a iluminação: pequenas, com pouca janela e frequentemente iluminadas apenas por velas ou lâmpadas antigas. Ivan Dias trabalha com lentes de grande abertura (f/1.4–f/1.8) e ISO alto para preservar a atmosfera sem usar flash — garantindo fotos que transmitem o mesmo clima que o casal viveu durante a cerimônia.</p>',
+      },
+      {
+        h2: 'Serra do Japi: pré-wedding em mata atlântica preservada',
+        content: '<p>A Serra do Japi é uma das maiores e mais preservadas reservas de mata atlântica do estado — e fica a menos de 20 minutos do centro de Jundiaí. Com mirantes com vista para o vale, trilhas com vegetação densa e uma luz filtrada que cria atmosferas únicas, é um dos cenários de pré-wedding mais valorizados do interior paulista.</p><p>O acesso às melhores locações da Serra do Japi exige conhecimento prévio do local — trilhas que mudam de aspecto com as estações e pontos de luz que funcionam apenas em determinados horários. Ivan Dias faz reconhecimento prévio em todos os pré-weddings na serra, garantindo que o casal aproveite os melhores pontos no horário certo.</p>',
+      },
+      {
+        h2: 'Logística desde São Paulo e quanto custa',
+        content: '<p>Jundiaí fica a 60–70 km de São Paulo pelas rodovias Anhanguera (SP-330) ou Bandeirantes (SP-348). Em sábados de manhã o trajeto leva 45–55 minutos; à tarde pode estender para 1h20–1h45. Vinhedo fica a mais 15 minutos de Jundiaí na direção de Campinas. Ivan Dias inclui taxa de deslocamento no orçamento para toda a região de Jundiaí/Vinhedo.</p>',
+        table: {
+          caption: 'Faixas de mercado — Jundiaí e Vinhedo (2025–2026)',
+          headers: ['Formato', 'Horas de cobertura', 'Faixa do pacote', 'Deslocamento'],
+          rows: [
+            ['Civil + recepção', '4–6h', 'R$ 3.200–R$ 6.000', '+ R$ 200–R$ 400'],
+            ['Casamento Welucci Kratos', '8–10h', 'R$ 6.000–R$ 12.000', '+ R$ 200–R$ 400'],
+            ['Casamento em vinícula / fazenda', '8–10h', 'R$ 5.500–R$ 11.000', '+ R$ 200–R$ 400'],
+            ['Casamento grande (200+ pax)', '10–12h', 'R$ 8.000–R$ 14.000', '+ R$ 300–R$ 500'],
+          ],
+        },
+      },
+    ],
     faq: [
       {
-        question: 'Quais são os melhores espaços para casamentos em Jundiaí?',
+        question: 'Ivan Dias atende casamentos no Welucci Kratos em Vinhedo?',
         answer:
-          'Jundiaí é privilegiada com uma oferta muito diversificada: vinícolas e vinhedos com clima europeu, fazendas históricas, sítios com vista para a Serra do Japi, salões modernos e espaços ao ar livre com paisagismo exuberante. A região de vinhedos italianos no entorno da cidade é especialmente procurada para casamentos temáticos e românticos.',
+          'Sim — Ivan Dias atende casamentos em todos os espaços do Grupo Welucci, incluindo o Welucci Kratos em Vinhedo. O deslocamento é combinado previamente e incluído no orçamento. Entre em contato para verificar disponibilidade de data.',
       },
       {
-        question: 'Como os vinhedos de Jundiaí aparecem nas fotos de casamento?',
+        question: 'Qual a melhor época para casamento em vinícula em Jundiaí?',
         answer:
-          'As fileiras de parreiras, especialmente no outono quando as folhas ficam douradas, criam fundos naturais cinematográficos impossíveis de replicar em estúdio. Fotógrafos com sensibilidade para luz natural sabem que a golden hour nos vinhedos de Jundiaí produz imagens com qualidade de luz única — quente, dourada e com profundidade.',
+          'Março a maio, durante a safra e colheita, com folhas maduras e uvas coloridas. E julho a setembro, com luz de inverno limpa e tons dourados nas parreiras. Evite dezembro a fevereiro — chuvas frequentes e luz de verão dura são os maiores desafios fotográficos.',
       },
       {
-        question: 'Fotógrafo de São Paulo atende Jundiaí?',
+        question: 'Fotógrafo de São Paulo atende Jundiaí e Vinhedo?',
         answer:
-          'Sim — Jundiaí fica a cerca de 60 km da capital pela Rodovia Anhanguera ou pela Via Bandeirantes, com acesso relativamente rápido. Muitos fotógrafos paulistanos conhecem bem os espaços de Jundiaí e a taxa de deslocamento costuma variar entre R$ 200 e R$ 500, dependendo do profissional.',
+          'Sim — Jundiaí fica a 60 km da capital pela Anhanguera ou Bandeirantes. A taxa de deslocamento varia de R$ 200 a R$ 400 dependendo do horário de retorno. Ivan Dias atende a região regularmente.',
       },
       {
-        question: 'A Serra do Japi oferece boas locações para pré-wedding?',
+        question: 'A Serra do Japi é boa para pré-wedding?',
         answer:
-          'A Serra do Japi é uma das maiores reservas de mata atlântica do estado e tem trilhas e mirantes com vistas deslumbrantes. Para ensaios de casal, os mirantes e as bordas da Serra oferecem uma combinação de vegetação densa e vistas abertas que resulta em imagens com profundidade e beleza naturais ímpares.',
+          'Excelente — mata atlântica densa, mirantes com vista para o vale e luz filtrada pelas copas criam imagens impossíveis de replicar em SP. Necessita reconhecimento prévio do ponto exato e horário ideal. Ivan Dias faz esse planejamento para todos os ensaios na região.',
       },
       {
-        question: 'Quando contratar fotógrafo para casamento em Jundiaí?',
+        question: 'Drone é permitido na região de Jundiaí/Vinhedo?',
         answer:
-          'Com 8 a 12 meses de antecedência, especialmente para espaços nos vinhedos e fazendas históricas que têm capacidade limitada e alta demanda. O outono (março a maio) é uma época muito procurada pelos casais que querem aproveitar as cores douradas dos vinhedos nas fotos.',
+          'Sim — a região está fora das restrições dos aeroportos de SP. Fazendas e vinícolas com área aberta são excelentes para drone. Ivan Dias opera com habilitação ANAC. Confirme com o espaço específico e inclua em contrato.',
       },
       {
-        question: 'Há particularidades culturais nos casamentos de Jundiaí?',
+        question: 'Quanto custa um fotógrafo de casamento em Jundiaí ou Vinhedo?',
         answer:
-          'Jundiaí tem forte influência italiana, que aparece nos casamentos com tradições culinárias, decoração inspirada na Itália e, frequentemente, cerimônias em capelas históricas. Fotógrafos atentos a essa identidade cultural conseguem capturar nuances que tornam o álbum de Jundiaí verdadeiramente único.',
+          'Para casamentos com 8 a 10 horas de cobertura, a faixa fica entre R$ 5.500 e R$ 12.000 + deslocamento (R$ 200–R$ 400). Solicite orçamento personalizado pelo WhatsApp — resposta em até 24 horas.',
       },
     ],
   },
@@ -2927,43 +3202,94 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-de-casamento-sao-bernardo-do-campo',
     bairro: 'São Bernardo do Campo',
-    title: 'Fotógrafo de Casamento em São Bernardo do Campo: ABC com Sofisticação',
+    title: 'Fotógrafo de Casamento em São Bernardo do Campo: Guia Completo do ABC',
     description:
-      'Casando em São Bernardo do Campo? Saiba como encontrar o fotógrafo ideal para o seu casamento e quais são os melhores espaços desta cidade do ABC paulista.',
+      'Guia completo de fotografia de casamento em São Bernardo do Campo: Buffet Jardim Viena, chácaras na Represa Billings, logística do ABCDM, pré-wedding em Riacho Grande e quanto custa contratar o fotógrafo certo.',
     excerpt:
-      'São Bernardo do Campo é a maior cidade do ABC e tem uma cena de eventos sofisticada. Com espaços modernos, chácaras na represa e fácil acesso à capital, a cidade oferece excelentes condições para casamentos inesquecíveis.',
+      'São Bernardo do Campo é a maior e mais sofisticada cidade do ABCDM — com buffets de referência como o Jardim Viena, chácaras à beira da Represa Billings em Riacho Grande e um mercado de casamentos exigente. Este guia cobre os espaços confirmados por Ivan Dias, a logística da região e os melhores cenários para pré-wedding.',
     date: '2026-03-23',
+    updatedDate: '2026-06-28',
     image: '/images/galeria/festa/casamento-sao-paulo-festa-02.jpg',
+    sections: [
+      {
+        h2: 'São Bernardo do Campo no ABCDM',
+        content: '<p>São Bernardo do Campo é a maior cidade em área e em PIB do ABCDM — a região formada por Santo André, São Bernardo, São Caetano do Sul, <a href="/blog/fotografo-de-casamento-diadema/">Diadema</a> e <a href="/blog/fotografo-de-casamento-maua/">Mauá</a>. Com uma classe média-alta consolidada e uma identidade cultural mais sofisticada do que outras cidades do ABC, São Bernardo tem um mercado de casamentos que se distingue pela exigência estética dos casais e pela qualidade dos espaços disponíveis.</p><p>Ivan Dias atende São Bernardo regularmente e conhece os espaços, as rotas e o perfil dos casamentos na cidade. Veja o panorama completo do <a href="/blog/fotografo-casamento-abc-paulista-santo-andre-sao-bernardo/">ABCDM</a> para entender como as cidades se complementam na escolha de espaço e fotógrafo.</p>',
+      },
+      {
+        h2: 'Buffet Jardim Viena: espaço confirmado em São Bernardo',
+        content: '<p>O <strong>Buffet Jardim Viena</strong> é um dos espaços de referência de São Bernardo do Campo para casamentos de médio e grande porte. Ivan Dias já fotografou casamentos no local e conhece as condições reais do espaço: iluminação, layout das áreas de cerimônia e recepção, ângulos favoráveis para a entrada dos noivos e os melhores pontos para o ensaio externo quando há jardim disponível.</p><p>O Jardim Viena tem um perfil clássico de buffet do ABC — estrutura completa, capacidade para grandes festas e uma atmosfera que favorece celebrações com muita família. Para o fotógrafo, o conhecimento prévio do espaço é uma vantagem direta: cada minuto do evento é aproveitado sem necessidade de reconhecimento improvisado no dia.</p>',
+      },
+      {
+        h2: 'Chácaras e espaços ao ar livre em Riacho Grande',
+        content: '<p>A região de Riacho Grande, na divisa de São Bernardo com a Represa Billings, concentra as chácaras e sítios mais procurados para casamentos ao ar livre no ABCDM. Com vista para a represa, jardins amplos e uma atmosfera que contrasta com a cidade, esses espaços oferecem um cenário fotográfico de grande qualidade — especialmente para cerimônias ao entardecer.</p><p>Ivan Dias destaca Riacho Grande como um dos locais mais versáteis da Grande São Paulo: em uma única sessão, é possível ter fotos com água, vegetação nativa e céu aberto — sem sair de um raio de 30 km da capital. O golden hour na represa entre 17h e 18h30 de maio a agosto cria reflexos dourados na água que elevam muito o resultado do álbum.</p>',
+      },
+      {
+        h2: 'Represa Billings para pré-wedding',
+        content: '<p>A Represa Billings — com 127 km² de extensão — é o maior espelho d\'água artificial de São Paulo e um dos cenários de pré-wedding mais subestimados da Grande SP. As margens em Riacho Grande têm acesso controlado, vegetação ribeirinha e pouca urbanização — criando vistas que surpreendem casais que nunca consideraram a região como destino de ensaio.</p><p>O acesso mais indicado por Ivan Dias é pelos pontos de beira de represa na Estrada do Riacho Grande, onde as margens são mais limpas e a vista é mais ampla. A melhor janela de luz é entre 17h e 18h30 de abril a setembro. O casal deve ter disponibilidade para se deslocar 20–25 minutos de Santo André ou do centro de São Bernardo até o ponto de ensaio.</p>',
+      },
+      {
+        h2: 'Logística e distância desde São Paulo',
+        content: '<p>São Bernardo do Campo faz divisa direta com a capital na região de Rudge Ramos e estende-se até Riacho Grande no sentido do litoral. O acesso mais rápido desde o centro de SP é pela Av. dos Estados / Via Anchieta, com a Rodovia dos Imigrantes como alternativa para o sul da cidade.</p>',
+        table: {
+          caption: 'Tempo estimado SP → São Bernardo do Campo',
+          headers: ['Origem em SP', 'Rota', 'Tempo normal', 'Sábado tarde'],
+          rows: [
+            ['Centro / Sé', 'Av. dos Estados + acesso', '20–28 min', '35–55 min'],
+            ['Santo André (adj.)', 'Acesso direto', '10–18 min', '15–28 min'],
+            ['Diadema (adj.)', 'Via Anchieta', '15–22 min', '20–35 min'],
+            ['Riacho Grande (represa)', 'Via Anchieta SP-150', '30–40 min', '45–65 min'],
+          ],
+        },
+      },
+      {
+        h2: 'Quanto custa fotografar um casamento em São Bernardo',
+        content: '<p>Os valores abaixo refletem o mercado atual de São Bernardo e ABCDM. Para análise detalhada, consulte o guia de <a href="/blog/quanto-custa-fotografo-casamento-sao-paulo/">quanto custa um fotógrafo de casamento em São Paulo</a>.</p>',
+        table: {
+          caption: 'Faixas de mercado — São Bernardo do Campo (2025–2026)',
+          headers: ['Formato', 'Horas de cobertura', 'Faixa do pacote fotográfico', 'Observação'],
+          rows: [
+            ['Civil + recepção', '4–6h', 'R$ 3.200–R$ 6.000', 'Sem segundo fotógrafo'],
+            ['Casamento em buffet', '8–10h', 'R$ 5.500–R$ 10.000', 'Segundo fotógrafo opcional'],
+            ['Casamento em chácara (Riacho Grande)', '8–10h', 'R$ 5.500–R$ 11.000', 'Drone disponível'],
+            ['Casamento grande (200+ pax)', '10–12h', 'R$ 8.000–R$ 14.000', 'Com segundo fotógrafo'],
+          ],
+        },
+      },
+      {
+        h2: 'O que torna os casamentos em São Bernardo únicos',
+        content: '<p>São Bernardo tem um perfil de casamento diferenciado dentro do ABC: os casais costumam ter alta exigência estética, com decoração elaborada e serviços premium. O foco em qualidade de imagem é maior do que em outras cidades da região — o que se reflete nos pacotes contratados, com maior frequência de segundo fotógrafo e pacotes de álbum mais completos.</p><p>Ivan Dias observa que casamentos em São Bernardo, especialmente em chácaras de Riacho Grande, têm um ritmo diferente dos buffets urbanos: com mais espaço para o casal circular, o fotógrafo consegue criar uma diversidade de enquadramentos ao longo do dia que resulta em álbuns com personalidade visual marcante.</p>',
+      },
+    ],
     faq: [
       {
-        question: 'Quais são os melhores espaços para casamentos em São Bernardo do Campo?',
+        question: 'Qual buffet Ivan Dias já fotografou em São Bernardo do Campo?',
         answer:
-          'São Bernardo tem uma oferta diversificada: salões e buffets modernos no centro expandido, chácaras e sítios na região de Riacho Grande com vista para a Represa Billings, espaços industriais reformados com arquitetura contemporânea e clubes tradicionais com infraestrutura completa. A Represa Billings é especialmente procurada para cerimônias ao pôr do sol.',
+          'Ivan Dias já fotografou casamentos no Buffet Jardim Viena — um dos espaços de referência de São Bernardo para eventos de médio e grande porte. Conhece o layout, a iluminação e os ângulos do espaço, o que permite um planejamento fotográfico mais preciso.',
       },
       {
         question: 'A Represa Billings oferece bons cenários para fotografia de casamento?',
         answer:
-          'É um dos cenários mais subestimados do ABC para casamentos. A represa tem uma extensão enorme e as chácaras em suas margens oferecem vistas que lembram destinos litorâneos, com reflexos da luz sobre a água ao fim da tarde. Para ensaios e cerimônias ao ar livre, é um dos melhores cenários naturais a menos de 30 km da capital.',
+          'Sim — a Represa Billings em Riacho Grande é um dos cenários mais subestimados do ABCDM. Com vista de água aberta, vegetação ribeirinha e luz dourada ao entardecer, as chácaras na área criam um resultado fotográfico que surpreende casais que nunca consideraram a região.',
       },
       {
-        question: 'Fotógrafos de São Paulo atendem São Bernardo do Campo facilmente?',
+        question: 'Fotógrafos de São Paulo atendem São Bernardo facilmente?',
         answer:
-          'Sim — São Bernardo faz limite com a capital e está a menos de 20 km do centro de São Paulo. A maioria dos fotógrafos paulistanos atende o ABC sem custo adicional de deslocamento ou com uma taxa mínima. É uma das regiões da Grande SP com melhor cobertura pelo mercado fotográfico da capital.',
+          'Sim — São Bernardo faz divisa com a capital e a maioria dos fotógrafos profissionais não cobra taxa adicional de deslocamento para o ABCDM. O acesso pela Av. dos Estados é rápido em condições normais.',
       },
       {
-        question: 'O que diferencia os casamentos em São Bernardo dos de outras cidades do ABC?',
+        question: 'Drone funciona bem em chácaras de Riacho Grande?',
         answer:
-          'São Bernardo tem uma identidade mais sofisticada dentro do ABC, com uma classe média alta consolidada e espaços de eventos de alto padrão. Os casamentos tendem a ser bem produzidos, com decoração elaborada e serviços premium. Fotógrafos que trabalham na cidade percebem que os casais costumam ter alta exigência estética.',
+          'Sim — a região de Riacho Grande está fora das restrições aéreas dos aeroportos de SP. Chácaras com área aberta e vista para a represa são excelentes para fotos aéreas. Confirme a habilitação ANAC do operador e inclua no contrato.',
       },
       {
-        question: 'Quando contratar fotógrafo para casamento em São Bernardo do Campo?',
+        question: 'Quando contratar fotógrafo para casamento em São Bernardo?',
         answer:
-          'Com 6 a 10 meses de antecedência. Por estar na Grande São Paulo, São Bernardo compete diretamente com a capital na disputa pela agenda dos melhores profissionais, especialmente em fins de semana de alta temporada (outubro a dezembro).',
+          'Com 6 a 10 meses de antecedência, especialmente para espaços em Riacho Grande que têm alta demanda de abril a outubro.',
       },
       {
-        question: 'Há bons cenários para pré-wedding em São Bernardo?',
+        question: 'Quanto custa um fotógrafo de casamento em São Bernardo?',
         answer:
-          'Sim — as margens da Represa Billings em Riacho Grande, os parques urbanos da cidade e os espaços industriais históricos do ABC são cenários com muita personalidade. Para ensaios mais elaborados, a proximidade com a capital e com Santos (litoral) dá liberdade total na escolha do local.',
+          'Para casamentos em buffet com 8 a 10 horas, a faixa fica entre R$ 5.500 e R$ 10.000. Para chácaras em Riacho Grande com drone, entre R$ 5.500 e R$ 11.000. Solicite orçamento personalizado pelo WhatsApp.',
       },
     ],
   },
@@ -3099,43 +3425,108 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-de-casamento-mairipora',
     bairro: 'Mairiporã',
-    title: 'Fotógrafo de Casamento em Mairiporã: Serra da Cantareira e Casamentos com Alma',
+    title: 'Fotógrafo de Casamento em Mairiporã: Guia Completo Serra da Cantareira',
     description:
-      'Casando em Mairiporã? Saiba como garantir registros fotográficos que capturam a beleza única desta cidade serrana a 30 km de São Paulo, com a Mata Atlântica como cenário.',
+      'Guia completo de fotografia de casamento em Mairiporã: Buffet Callegari e espaços confirmados na Serra da Cantareira, chácaras, microclima serrano, logística desde SP e quanto custa contratar o fotógrafo certo.',
     excerpt:
-      'Mairiporã é o segredo mais bem guardado dos casamentos ao ar livre próximos à capital. Com a Serra da Cantareira, chácaras encantadoras e um microclima serrano, a cidade oferece uma natureza exuberante a apenas 30 km de São Paulo.',
+      'Mairiporã é o destino preferido dos casamentos ao ar livre próximos a São Paulo — com a Serra da Cantareira ao fundo, microclima mais fresco e chácaras com mata atlântica real. Ivan Dias já fotografou no Buffet Callegari e em outros espaços da região serrana. Este guia cobre tudo: locais confirmados, logística, melhor época e pré-wedding na natureza.',
     date: '2026-04-08',
+    updatedDate: '2026-06-28',
     image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-14.jpg',
+    sections: [
+      {
+        h2: 'Por que Mairiporã é o destino favorito para casamentos ao ar livre',
+        content: '<p>Mairiporã fica na borda da Serra da Cantareira — a maior floresta urbana do mundo — e tem um microclima entre 5°C e 8°C mais fresco do que São Paulo. Chácaras e sítios da região têm jardins com vegetação nativa densa, lagos naturais, alamedas de bambu e um silêncio que contrasta completamente com a capital — tudo a apenas 30 a 40 km do centro.</p><p>Para o fotógrafo, Mairiporã oferece condições de luz excepcionais: a altitude e a cobertura vegetal filtram a luz solar, suavizando as sombras e criando uma paleta de verdes que aparece em poucos destinos de casamento no Brasil. Ivan Dias destaca Mairiporã como um dos locais onde o ambiente trabalha ativamente a favor das fotos — reduzindo a necessidade de intervenções técnicas e permitindo coberturas mais fluidas e naturais.</p>',
+      },
+      {
+        h2: 'Espaços confirmados em Mairiporã',
+        content: '<p>Ivan Dias já fotografou casamentos nos seguintes espaços de Mairiporã e da Serra da Cantareira:</p>',
+        h3s: [
+          {
+            title: 'Buffet Callegari (Serra da Cantareira)',
+            content: '<p>O Buffet Callegari é um dos espaços mais tradicionais e bem posicionados da Serra da Cantareira para casamentos. Com estrutura completa de buffet, jardins amplos com vegetação da serra ao fundo e capacidade para festas de médio e grande porte, o espaço combina o conforto de um buffet tradicional com o cenário natural que define os casamentos de Mairiporã. Ivan Dias conhece bem o layout do Callegari: os ângulos da cerimônia ao ar livre, os jardins para o ensaio do casal e as melhores janelas de luz ao longo do dia naquele espaço específico.</p>',
+          },
+          {
+            title: 'Quinta da Cantareira',
+            content: '<p>A Quinta da Cantareira é um dos espaços mais fotogênicos da região serrana — com arquitetura que remete a uma quinta portuguesa, jardins cuidados e a densa vegetação da Serra da Cantareira como fundo natural. Ivan Dias já fotografou casamentos no espaço e destaca dois diferenciais fotográficos: a alameda de entrada, que cria um corredor natural ideal para a saída dos noivos, e a área de jardim lateral, que ao entardecer recebe uma luz filtrada pelas copas que resulta em fotos de grande qualidade para o ensaio do casal.</p>',
+          },
+          {
+            title: 'Villa Borghese',
+            content: '<p>A Villa Borghese em Mairiporã combina arquitetura italiana com o entorno verde da Serra da Cantareira. É um dos espaços mais versáteis da região: cerimônia ao ar livre, recepção em salão com vista para o jardim e área externa com iluminação noturna que permite festas longas com qualidade fotográfica constante. Ivan Dias conhece os pontos críticos do espaço — o corredor entre o jardim e o salão é um dos ângulos mais impactantes para fotos da entrada dos convidados e do cumprimento pós-cerimônia.</p>',
+          },
+        ],
+      },
+      {
+        h2: 'Chácaras e sítios da região serrana',
+        content: '<p>Além dos buffets, Mairiporã tem uma concentração expressiva de chácaras e sítios particulares que alugam o espaço integralmente para casamentos. Espaços nas estradas que sobem a serra — como a Rodovia Laércio Corte e os ramais de Cabuçu, Tupã e Terra Preta — têm jardins elaborados com lagos, pontes rústicas e acesso visual à mata atlântica.</p><p>Esses espaços têm perfis mais exclusivos e frequentemente trabalham com número limitado de convidados (até 150 pessoas), o que favorece casamentos mais intimistas com alto padrão fotográfico. Ivan Dias recomenda a visita técnica a esses espaços sempre no mesmo horário do evento — a luz muda completamente ao longo do dia na montanha, e o que parece sombra às 14h pode ser light spot perfeito às 17h30.</p>',
+      },
+      {
+        h2: 'Microclima e melhor época para casamentos em Mairiporã',
+        content: '<p>O microclima serrano de Mairiporã é o principal argumento para muitos casais. No verão (dezembro–fevereiro), a temperatura é 6°C mais baixa do que São Paulo, tornando cerimônias ao ar livre muito mais confortáveis. No inverno (junho–agosto), as manhãs têm névoa que às vezes persiste até o início da tarde — criando uma atmosfera fotográfica única, mas que pode complicar cerimônias em espaços descobertos.</p><p>A melhor combinação de clima e luz para fotografia é de <strong>março a maio</strong> e de <strong>setembro a novembro</strong>: dias com boa luminosidade, menor risco de chuva no fim da tarde e temperatura amena. O golden hour na serra cai entre 17h e 18h15 nesse período — um dos momentos mais impactantes para o ensaio do casal ao ar livre.</p>',
+        table: {
+          caption: 'Calendário de condições em Mairiporã para casamentos ao ar livre',
+          headers: ['Período', 'Temperatura', 'Risco de chuva', 'Qualidade da luz'],
+          rows: [
+            ['Dez–Fev (verão)', '20–27°C', 'Alto (fin. tarde)', 'Boa, mas intensa'],
+            ['Mar–Mai (outono)', '17–24°C', 'Baixo a médio', 'Excelente'],
+            ['Jun–Ago (inverno)', '12–20°C', 'Baixo', 'Boa, névoa matinal'],
+            ['Set–Nov (primavera)', '16–25°C', 'Médio', 'Excelente'],
+          ],
+        },
+      },
+      {
+        h2: 'Pré-wedding na Serra da Cantareira e entorno',
+        content: '<p>Mairiporã e a Serra da Cantareira são o destino de pré-wedding mais procurado por casais paulistanos que querem natureza real sem viajar. O Parque Estadual da Cantareira — com acesso pelo Núcleo Cabuçu, que fica dentro do município de Mairiporã — tem trilhas com mata atlântica densa, cachoeiras e uma luz verde filtrada pelas copas que cria imagens de rara beleza.</p><p>Para ensaios em chácaras, Ivan Dias recomenda reservar um espaço específico para a sessão — muitas chácaras oferecem isso como serviço separado. A janela de luz ideal é entre 16h30 e 18h15 de março a outubro. Levar uma troca de roupa é sempre recomendado: a umidade da serra pode deixar a primeira roupa úmida depois de 30 minutos em área externa.</p>',
+      },
+      {
+        h2: 'Logística desde São Paulo e cidades vizinhas',
+        content: '<p>O acesso a Mairiporã desde São Paulo é pela Rodovia Deputado Laércio Corte (SP-360), com entrada pelos bairros de Tremembé ou Horto Florestal. Em sábados de manhã o trajeto é tranquilo — 30 a 40 minutos desde a Zona Norte. Em sábados à tarde, especialmente de setembro a março, o retorno no sentido Mairiporã→SP pode ter lentidão no trecho da SP-360 próximo ao Horto.</p><p>Ivan Dias sai com 1h de margem para qualquer evento em Mairiporã e sempre confirma as rotas internas da cidade no dia anterior — estradas de terra que levam às chácaras podem estar em condições diferentes dependendo da chuva da semana.</p>',
+      },
+      {
+        h2: 'Quanto custa fotografar um casamento em Mairiporã',
+        content: '<p>Casamentos em chácaras de Mairiporã tendem a ter coberturas mais longas pelo ritmo do evento. Os valores abaixo são referência para 2025–2026. Para análise completa, consulte o guia de <a href="/blog/quanto-custa-fotografo-casamento-sao-paulo/">quanto custa um fotógrafo de casamento em São Paulo</a>.</p>',
+        table: {
+          caption: 'Faixas de mercado — Mairiporã e Serra da Cantareira (2025–2026)',
+          headers: ['Formato', 'Horas de cobertura', 'Faixa do pacote fotográfico', 'Observação'],
+          rows: [
+            ['Mini wedding / intimista', '4–6h', 'R$ 4.500–R$ 8.000', 'Até 80 convidados'],
+            ['Casamento em chácara', '8–10h', 'R$ 5.500–R$ 11.000', 'Drone disponível na região'],
+            ['Casamento em buffet (Callegari)', '8–10h', 'R$ 5.500–R$ 10.000', 'Segundo fotógrafo opcional'],
+            ['Casamento grande (150+ pax)', '10–12h', 'R$ 8.000–R$ 14.000', 'Com segundo fotógrafo'],
+          ],
+        },
+      },
+    ],
     faq: [
       {
-        question: 'Por que Mairiporã é tão procurada para casamentos ao ar livre?',
+        question: 'Ivan Dias já fotografou no Buffet Callegari em Mairiporã?',
         answer:
-          'Mairiporã fica na borda da Serra da Cantareira, a maior floresta urbana do mundo, e tem um microclima mais fresco e úmido do que a capital. Chácaras e sítios na região têm jardins com vegetação nativa exuberante, lagos naturais e uma tranquilidade que contrasta completamente com o agito de São Paulo — tudo isso a apenas 30 km do centro.',
+          'Sim — o Buffet Callegari (Serra da Cantareira) é um dos espaços confirmados na agenda de Ivan Dias em Mairiporã. Ele conhece o layout, os jardins, os ângulos da cerimônia e as melhores janelas de luz do espaço.',
       },
       {
-        question: 'Quais são os melhores espaços para casamentos em Mairiporã?',
+        question: 'Qual a melhor época para casar em chácara em Mairiporã?',
         answer:
-          'Mairiporã tem uma concentração expressiva de chácaras e sítios com infraestrutura para eventos, muitos deles com jardins elaborados, lagos artificiais, alamedas de bambu e pontes rústicas. Espaços na Estrada de Mairiporã e nas regiões de Cabuçu e Tupã são muito procurados por casais que querem natureza real nas fotos sem sair da Grande São Paulo.',
+          'Março a maio e setembro a novembro oferecem a melhor combinação de clima, luz e baixo risco de chuva. O inverno (junho–agosto) tem dias secos e luz de qualidade, mas pode ter névoa matinal. O verão tem risco de chuva no fim da tarde — tenha plano B definido com o fotógrafo.',
       },
       {
-        question: 'Fotógrafos de São Paulo atendem Mairiporã facilmente?',
+        question: 'Drone funciona bem em Mairiporã?',
         answer:
-          'Sim — Mairiporã fica a apenas 30 a 40 minutos de São Paulo pela Rodovia Deputado Laércio Corte (SP-360) ou pelos bairros de Tremembé e Horto Florestal. A maioria dos fotógrafos paulistanos não cobra taxa de deslocamento extra para Mairiporã, tornando a cidade uma das opções mais acessíveis fora da capital.',
+          'Sim — a região de Mairiporã está fora das restrições aéreas dos aeroportos de SP. Chácaras com espaço aberto são excelentes para fotos aéreas. Ivan Dias opera drone com habilitação ANAC — confirme se o espaço contratado autoriza o voo.',
       },
       {
-        question: 'A Serra da Cantareira é usada como cenário nas fotos?',
+        question: 'Fotógrafos de São Paulo atendem Mairiporã sem taxa extra?',
         answer:
-          'Frequentemente — a vegetação densa da Cantareira, com sua luz filtrada entre as árvores e a umidade que cria névoas matinais, é um cenário fotográfico de rara beleza. Muitas chácaras da região fazem limite com trilhas ou reservas florestais, permitindo retratos com o fundo verde-profundo da mata atlântica em plena luz natural.',
+          'A maioria sim — Mairiporã fica a 30–40 minutos de São Paulo pela SP-360. Ivan Dias atende Mairiporã sem taxa adicional de deslocamento. Confirme em contrato para evitar surpresas.',
       },
       {
-        question: 'Qual é o clima de Mairiporã para casamentos ao ar livre?',
+        question: 'A Serra da Cantareira é usada para pré-wedding?',
         answer:
-          'O microclima serrano de Mairiporã é geralmente mais fresco e agradável do que São Paulo, com temperaturas entre 5°C e 8°C abaixo da capital. Isso é uma vantagem enorme para cerimônias ao ar livre, especialmente no verão. A neblina matinal que às vezes aparece nas serras também cria atmosferas fotográficas muito especiais.',
+          'Frequentemente — o Núcleo Cabuçu do Parque Estadual da Cantareira tem trilhas e cachoeiras com luz filtrada pela mata atlântica. É um dos cenários de pré-wedding mais únicos a menos de 40 km de SP. Necessita agendamento prévio e reconhecimento do ponto exato de acesso.',
       },
       {
-        question: 'Quando contratar fotógrafo para casamento em Mairiporã?',
+        question: 'Quanto custa um fotógrafo de casamento em Mairiporã?',
         answer:
-          'Com 6 a 10 meses de antecedência. Por estar tão próxima de São Paulo e ter uma oferta de espaços muito atraente, Mairiporã tem alta demanda especialmente nos fins de semana de primavera e outono. Os melhores espaços e fotógrafos costumam ter agenda preenchida com bastante antecedência nessas épocas.',
+          'Para casamentos em chácara com 8 a 10 horas de cobertura, a faixa fica entre R$ 5.500 e R$ 11.000. Para mini weddings de 4 a 6 horas, entre R$ 4.500 e R$ 8.000. Solicite orçamento personalizado pelo WhatsApp.',
       },
     ],
   },
@@ -5163,15 +5554,19 @@ export const posts: Post[] = [
         h3s: [
           {
             title: 'Rooftops corporativos',
-            content: '<p>São a tipologia mais procurada do bairro. Com vista para os prédios da Berrini, Faria Lima e JK, funcionam muito bem ao entardecer — o golden hour entre 17h e 18h30 cria reflexos e contraluz de grande impacto visual. O desafio técnico está na transição para a noite: quando a iluminação artificial assume, a luz fria e mista do espaço exige flash de apoio já configurado. Fotógrafos sem experiência nesse ambiente entregam fotos com qualidade muito desigual entre o início da noite e o fim da festa.</p>',
+            content: '<p>São a tipologia mais procurada do bairro. Com vista para os prédios da Berrini, Faria Lima e JK, funcionam muito bem ao entardecer — o golden hour entre 17h e 18h30 cria reflexos e contraluz de grande impacto visual. Entre os rooftops e espaços urbanos onde Ivan Dias já fotografou casamentos na região estão o <strong>Spazio Olímpia</strong> e o <strong>Rooftop Faria Lima</strong> — dois exemplos do perfil corporativo premium que caracteriza o bairro. O desafio técnico está na transição para a noite: quando a iluminação artificial assume, a luz fria e mista exige flash de apoio já configurado. Fotógrafos sem experiência nesse ambiente entregam fotos com qualidade muito desigual entre o início da noite e o fim da festa.</p>',
           },
           {
-            title: 'Salões e hotéis de grande porte',
-            content: '<p>Hotéis boutique e espaços multifuncionais da região comportam de 80 a 300 convidados, com iluminação padronizada e pés-direitos altos. São ideais para recepções formais com muitos convidados — a iluminação homogênea facilita fotos de grupo, mas pode criar uma atmosfera fria para os registros íntimos da cerimônia. Flash difuso bem posicionado é indispensável nesses ambientes.</p>',
+            title: 'Salões e espaços de grande porte',
+            content: '<p>Espaços multifuncionais e buffets de referência da região comportam de 80 a 300 convidados. Ivan Dias fotografou casamentos no <strong>Villa Vérico</strong> (Itaim Bibi) e no <strong>Buffet Actuel</strong> (Itaim Bibi) — dois dos espaços mais tradicionais do corredor Vila Olímpia/Itaim Bibi. São ideais para recepções formais com muitos convidados: iluminação homogênea facilita fotos de grupo, mas pode criar uma atmosfera fria para os registros íntimos. Flash difuso bem posicionado é indispensável nesses ambientes.</p>',
           },
           {
             title: 'Restaurantes e espaços exclusivos',
-            content: '<p>Uma categoria crescente na Vila Olímpia são os restaurantes de alto padrão que alugam o espaço integralmente para casamentos com até 60 pessoas. A iluminação quente e a decoração já instalada criam um ambiente de fácil aproveitamento fotográfico. São a escolha ideal para casais que querem um <a href="/blog/mini-wedding-sao-paulo-fotografia-cobertura/">mini wedding em São Paulo</a> sem abrir mão do padrão estético.</p>',
+            content: '<p>Uma das categorias mais marcantes da região são os espaços premium que operam com exclusividade. Ivan Dias já fotografou casamentos no <strong>Bisutti Gomes de Carvalho</strong>, no <strong>Bisutti Tenerife</strong>, no <strong>Lugar 166</strong> (Vila Olímpia), no <strong>Trafôo</strong> e no <strong>Coco Bambu Market Place</strong>. Esses espaços têm iluminação quente e decoração de alto padrão já instalada — o que facilita o aproveitamento fotográfico e cria um ambiente ideal para <a href="/blog/mini-wedding-sao-paulo-fotografia-cobertura/">mini weddings em São Paulo</a> com até 80 pessoas.</p>',
+          },
+          {
+            title: 'Grupo Welucci na região: Welucci Estaiada',
+            content: '<p>O <strong>Welucci Estaiada</strong> é um dos espaços premium do Grupo Welucci próximos à Vila Olímpia. Com vista para a Ponte Estaiada e arquitetura moderna, o espaço tem um perfil visual muito procurado por casais que querem o skyline de São Paulo como pano de fundo. A iluminação técnica e os amplos vãos criam condições fotográficas interessantes, especialmente para fotos ao entardecer com a ponte iluminada ao fundo.</p>',
           },
         ],
       },
@@ -5288,8 +5683,8 @@ export const posts: Post[] = [
         content: '<p>Pela concentração de profissionais e pelo ritmo de vida do bairro, o casamento civil — com cerimônia em cartório, escritório de advocacia ou espaço privado seguida de jantar intimista — é o formato mais comum entre casais do Brooklin. Cerimônias no fim do dia útil ou em sábados de manhã com jantar noturno são combinações frequentes.</p><p>Para o fotógrafo, o casamento civil traz um desafio específico: em 2 a 4 horas de cobertura, cada minuto conta. A cobertura precisa começar já no making of ou na chegada ao local, e o fotógrafo tem pouco espaço para recuperar momentos perdidos. Planejamento do roteiro com o casal na semana anterior ao evento é essencial. Consulte o guia sobre <a href="/blog/quanto-custa-fotografo-casamento-2-horas/">fotografia de casamento por 2 horas</a> para entender o que é possível registrar nesse formato.</p>',
       },
       {
-        h2: 'Buffets e salões fechados de porte médio',
-        content: '<p>O Brooklin não tem a densidade de rooftops da Vila Olímpia ou os grandes salões do Itaim Bibi — e esse é exatamente o seu perfil. Os espaços disponíveis são, em sua maioria, de porte médio (até 120 pessoas), com ambiente mais clean e contemporâneo. São adequados para casamentos que priorizam qualidade sobre quantidade de convidados.</p>',
+        h2: 'Buffets, salões e espaços de referência no Brooklin',
+        content: '<p>O Brooklin não tem a densidade de rooftops da Vila Olímpia ou os grandes salões do Itaim Bibi — e esse é exatamente o seu perfil. Os espaços disponíveis são, em sua maioria, de porte médio (até 150 pessoas), com ambiente mais clean e contemporâneo. Ivan Dias fotografou casamentos no <strong>Coco Bambu Market Place</strong> — um dos espaços mais versáteis do bairro. O <strong>Pátio Welucci</strong> é outro espaço de referência da região, parte do Grupo Welucci — com estrutura premium e capacidade para eventos de médio e grande porte, tem se tornado uma escolha frequente de casais do corredor Brooklin–Vila Olímpia–Itaim Bibi que buscam um espaço moderno com serviço completo.</p>',
         table: {
           caption: 'Perfil dos espaços de casamento no Brooklin',
           headers: ['Porte', 'Capacidade', 'Perfil do espaço', 'Adequado para'],
@@ -5422,8 +5817,8 @@ export const posts: Post[] = [
         content: '<p>Diadema tem igrejas católicas, evangélicas e de outras denominações com boa infraestrutura para cerimônias religiosas. As igrejas mais tradicionais da cidade têm nave ampla e boa iluminação natural — condições favoráveis para fotografia. O desafio está nas cerimônias em igrejas menores ou com iluminação artificial intensa (holofotes coloridos), que exigem ajuste fino do fotógrafo.</p><p>Para casamentos religiosos, a visita técnica prévia à igreja — feita no mesmo horário do evento — é fundamental para entender a luz disponível e o posicionamento permitido pelo pároco ou pastor. Fotógrafos sem essa experiência de planejamento entregam resultados inconsistentes em cerimônias religiosas.</p>',
       },
       {
-        h2: 'Espaços de festa em Diadema: salões e buffets',
-        content: '<p>Diadema tem uma oferta crescente de salões de festa e buffets, especialmente em bairros como Conceição, Casa Grande e Serraria. Os espaços têm, em sua maioria, capacidade entre 80 e 200 convidados e um perfil de decoração mais tradicional — adequado para casamentos com muita família e festa longa.</p><p>Para casamentos ao ar livre, as chácaras na região de divisa com Ribeirão Pires e São Bernardo (Riacho Grande) são as opções mais procuradas pelos casais de Diadema. Esses espaços combinam área verde com infraestrutura para eventos e ficam a 20 a 30 minutos do centro da cidade.</p>',
+        h2: 'Espaços de festa em Diadema e região do ABCDM',
+        content: '<p>O ABCDM tem uma oferta consolidada de salões de festa e buffets. Ivan Dias já fotografou casamentos em espaços da região como o <strong>Espaço Alfarre</strong> (Alfarre Festas), o <strong>Espaço Pallazium</strong>, o <strong>Espaço Mônaco</strong>, o <strong>Buffet D\'Matos</strong> e o <strong>Buffet Status</strong> — espaços com capacidade entre 80 e 300 convidados e perfil de decoração completo, adequados para festas longas com muita família.</p><p>Para casamentos ao ar livre, as chácaras na região de divisa com Ribeirão Pires e São Bernardo (Riacho Grande) são as opções mais procuradas pelos casais de Diadema. Esses espaços combinam área verde com infraestrutura para eventos e ficam a 20 a 30 minutos do centro da cidade.</p>',
       },
       {
         h2: 'Pré-wedding na Represa Billings',
@@ -5527,7 +5922,7 @@ export const posts: Post[] = [
       },
       {
         h2: 'Salões fechados de porte médio',
-        content: '<p>Além das chácaras, Mauá tem uma oferta de salões de festa e buffets fechados nos bairros centrais e nas imediações da Av. João Ramalho. Esses espaços têm perfil mais tradicional — adequados para festas com muitos convidados, iluminação controlada e cardápio de buffet completo.</p>',
+        content: '<p>Além das chácaras, Mauá tem uma oferta de salões de festa e buffets fechados nos bairros centrais e nas imediações da Av. João Ramalho. Ivan Dias também fotografou casamentos em espaços da região do ABCDM como o <strong>Espaço Mônaco</strong>, o <strong>Buffet D\'Matos</strong> e o <strong>Buffet Status</strong> — espaços com perfil mais tradicional, adequados para festas com muitos convidados, iluminação controlada e cardápio de buffet completo. Para espaços específicos de <a href="/blog/fotografo-de-casamento-santo-andre/">Santo André</a> ou <a href="/blog/fotografo-de-casamento-sao-bernardo-do-campo/">São Bernardo</a>, consulte os guias dedicados de cada cidade.</p>',
         table: {
           caption: 'Comparação de espaços em Mauá',
           headers: ['Tipo de espaço', 'Capacidade típica', 'Ponto forte', 'Desafio fotográfico'],
@@ -5722,6 +6117,857 @@ export const posts: Post[] = [
         answer:
           'Sim, é uma das regiões da Grande SP com melhor potencial para drone em casamentos ao ar livre. Sem o adensamento urbano da capital, os espaços rurais de Mairiporã, Caieiras e Franco da Rocha permitem voos com vista das serras e reservatórios — resultado visualmente impactante. Confirme a regulamentação ANAC com o operador.',
       },
+    ],
+  },
+  // ─── Morumbi / Zona Oeste ────────────────────────────────────────────────────
+  {
+    slug: 'fotografo-de-casamento-morumbi',
+    bairro: 'Morumbi',
+    title: 'Fotógrafo de Casamento no Morumbi: Casa Welucci, Grupo Welucci SP e Espaços Premium',
+    description:
+      'Guia completo de fotografia de casamento no Morumbi e Zona Oeste de São Paulo: Casa Welucci, Welucci Gardens, Village e The One, logística com Itaim Bibi e Butantã, e como planejar a cobertura fotográfica.',
+    excerpt:
+      'O Morumbi concentra alguns dos espaços de casamento mais exclusivos de São Paulo — com residências de alto padrão, chácaras dentro da cidade e o portfólio premium do Grupo Welucci com a Casa Welucci, Gardens, Village e The One. Este guia cobre os espaços da região, a logística e como contratar o fotógrafo certo para um casamento no Morumbi.',
+    date: '2026-06-28',
+    updatedDate: '2026-06-28',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-07.jpg',
+    sections: [
+      {
+        h2: 'Morumbi e a Zona Oeste como polo de casamentos premium',
+        content: '<p>O Morumbi é um dos bairros mais sofisticados de São Paulo — com condomínios de alto padrão, residências com jardins amplos e uma identidade que mistura o verde generoso de uma área ainda com muita vegetação e a sofisticação de uma das áreas mais valorizadas da cidade. Para casamentos, esse perfil se traduz em celebrações mais exclusivas e reservadas: menos volume, mais qualidade.</p><p>A Zona Oeste de São Paulo — que inclui Morumbi, Butantã, Vila Sônia e adjacências — tem uma oferta crescente de espaços premium que competem com os bairros da Zona Sul em estrutura e acabamento. Ivan Dias atende toda essa região e conhece as particularidades fotográficas de cada tipo de espaço. <a href="/servicos/cobertura-completa/">Veja a cobertura completa para casamentos no Morumbi.</a></p>',
+      },
+      {
+        h2: 'Grupo Welucci no Morumbi e SP Capital',
+        content: '<p>O Grupo Welucci tem uma presença expressiva em São Paulo capital, com unidades que atendem diferentes perfis e capacidades. Ivan Dias atende casamentos em todos os espaços do grupo na capital:</p>',
+        h3s: [
+          {
+            title: 'Casa Welucci (Morumbi)',
+            content: '<p>A <strong>Casa Welucci</strong> no Morumbi tem um perfil mais intimista e residencial dentro do portfólio Welucci — com a atmosfera de uma casa de alto padrão adaptada para eventos exclusivos. O espaço favorece casamentos com número reduzido de convidados e alto cuidado com cada detalhe. Para o fotógrafo, a Casa Welucci oferece uma iluminação mais próxima do ambiente doméstico — janelas amplas, luz natural predominante e uma paleta que remete a interiores sofisticados. Ivan Dias trabalha com lentes de grande abertura para aproveitar essa luz suave sem comprometer a qualidade nas áreas de menor iluminação.</p>',
+          },
+          {
+            title: 'Welucci Gardens, Village e The One (SP Capital)',
+            content: '<p>O Grupo Welucci tem ainda três unidades em São Paulo capital — <strong>Gardens</strong>, <strong>Village</strong> e <strong>The One</strong> — cada uma com perfil e capacidade distintos. O The One posiciona-se como o espaço de maior capacidade e acabamento mais imponente do grupo na capital. O Gardens tem um conceito de áreas externas integradas ao salão. O Village trabalha com um perfil de espaço completo para festas tradicionais de grande porte. Ivan Dias atende casamentos em todas as unidades — e realiza visita técnica específica em cada espaço antes do evento para mapear a iluminação e os melhores ângulos. <a href="/contato/">Entre em contato para verificar disponibilidade nas unidades Welucci.</a></p>',
+          },
+          {
+            title: 'Welucci Vila Real',
+            content: '<p>O <strong>Welucci Vila Real</strong> tem como ponto forte o entorno rural: área verde ampla, paisagem de campo aberto e uma luz de horizonte que a maioria dos espaços do grupo em São Paulo não tem. Para o fotógrafo, esse espaço representa uma oportunidade de golden hour com céu aberto e sem construções ao fundo — uma das condições mais valorizadas para o ensaio do casal ao entardecer. A combinação de estrutura Welucci com cenário de campo produz um álbum com identidade visual distinta de qualquer unidade urbana do grupo.</p>',
+          },
+          {
+            title: 'Welucci Fagundes',
+            content: '<p>O <strong>Welucci Fagundes</strong> é o espaço de caráter histórico do grupo — um casarão colonial com arquitetura que remete ao Brasil do século XIX. Para fotografia, esse espaço tem dois pontos fortes excepcionais: a arquitetura com pedra, madeira e telha colonial cria fundos com textura e profundidade que espaços contemporâneos não reproduzem; e as áreas de varanda e corredor do casarão geram perspectivas naturais com luz lateral que enquadram os noivos como em uma pintura clássica. Casamentos no Fagundes têm um resultado fotográfico com forte identidade — diferente de qualquer outra unidade Welucci.</p>',
+          },
+          {
+            title: 'Welucci Ocean',
+            content: '<p>O <strong>Welucci Ocean</strong> é a unidade de praia do grupo — o único espaço Welucci onde o fotógrafo trabalha com luz de litoral: reflexos de água, areia, brisa e a intensidade do sol tropical que exige um set técnico completamente diferente dos espaços urbanos. Os pontos fortes são a exclusividade do cenário — pôr do sol sobre o mar como fundo do ensaio do casal — e a versatilidade entre cerimônia na areia e recepção em espaço coberto com vista para o oceano. Ivan Dias atende o Welucci Ocean com equipamento preparado para alta umidade e luz intensa. <a href="/contato/">Consulte disponibilidade para casamentos no Welucci Ocean.</a></p>',
+          },
+        ],
+      },
+      {
+        h2: 'Chácaras e espaços ao ar livre no Morumbi',
+        content: '<p>O Morumbi ainda tem algumas das últimas chácaras urbanas de São Paulo — terrenos amplos, dentro do perímetro da cidade, com jardins e área verde que permitem cerimônias ao ar livre sem sair da capital. Esses espaços são raros e muito procurados por casais que querem natureza nas fotos sem abrir mão da logística urbana.</p><p>Ivan Dias destaca o diferencial fotográfico dessas chácaras: com a vegetação densa e o skyline ao fundo em alguns ângulos, é possível criar imagens que não parecem "de cidade" — mesmo estando a 15 minutos de Pinheiros. O ensaio do casal nesse tipo de espaço ao entardecer produz um dos resultados mais versáteis que São Paulo oferece. <a href="/servicos/pre-wedding/">Planeje o pré-wedding em chácara no Morumbi.</a></p>',
+      },
+      {
+        h2: 'Logística: Morumbi, Itaim Bibi e Butantã',
+        content: '<p>O Morumbi tem uma posição central privilegiada: fica entre Itaim Bibi (a leste), Pinheiros (a norte), Butantã (a oeste) e Santo Amaro (a sul). Para casamentos com cerimônia e festa em locais diferentes, os trajetos internos da Zona Oeste têm trânsito muito mais previsível do que o corredor da Faria Lima ou a Marginal Tietê.</p>',
+        table: {
+          caption: 'Tempo estimado a partir do Morumbi — sábado',
+          headers: ['Destino', 'Tempo normal', 'Com trânsito'],
+          rows: [
+            ['Itaim Bibi', '10–15 min', '15–25 min'],
+            ['Pinheiros', '8–12 min', '12–20 min'],
+            ['Butantã / Vila Sônia', '5–10 min', '8–15 min'],
+            ['Brooklin / Campo Belo', '15–20 min', '20–30 min'],
+          ],
+        },
+      },
+      {
+        h2: 'Pré-wedding no Morumbi e arredores',
+        content: '<p>O Morumbi oferece alguns dos melhores cenários de pré-wedding dentro de São Paulo: o Parque Estadual da Cidade, com mata nativa e trilhas a poucos minutos de bairros residenciais, e as ruas arborizadas e condomínios com jardins que criam fundos limpos sem precisar ir até o Ibirapuera ou o Parque do Povo.</p><p>Para casais que querem sair do Morumbi, a Serra de Cotia — a 30 minutos pela Raposo Tavares — oferece chácaras com paisagem de interior e qualidade de luz que complementam bem um ensaio iniciado no bairro. Ivan Dias combina os dois locais em sessões de 3 horas quando o cronograma permite.</p>',
+      },
+      {
+        h2: 'Quanto custa fotografar um casamento no Morumbi',
+        content: '<p>Os valores abaixo são referência para o mercado atual do Morumbi e Zona Oeste. Para análise detalhada do que cada faixa inclui, consulte o guia de <a href="/blog/quanto-custa-fotografo-casamento-sao-paulo/">quanto custa um fotógrafo de casamento em São Paulo</a>.</p>',
+        table: {
+          caption: 'Faixas de mercado — Morumbi e Zona Oeste SP (2025–2026)',
+          headers: ['Formato', 'Horas de cobertura', 'Faixa do pacote fotográfico'],
+          rows: [
+            ['Civil + jantar intimista', '2–4h', 'R$ 3.200–R$ 5.500'],
+            ['Casamento em espaço Welucci', '8–10h', 'R$ 6.000–R$ 13.000'],
+            ['Casamento em chácara urbana', '8–10h', 'R$ 5.500–R$ 11.000'],
+            ['Casamento grande (200+ pax)', '10–12h', 'R$ 8.000–R$ 15.000'],
+          ],
+        },
+      },
+    ],
+    faq: [
+      {
+        question: 'Ivan Dias atende casamentos nos espaços Welucci do Morumbi e SP Capital?',
+        answer:
+          'Sim — Ivan Dias atende casamentos em todos os espaços do Grupo Welucci em São Paulo: Casa Welucci (Morumbi), Welucci Gardens, Village e The One (SP Capital). Entre em contato para verificar disponibilidade de data.',
+      },
+      {
+        question: 'O Morumbi tem chácaras para casamento dentro de SP?',
+        answer:
+          'Sim — o Morumbi ainda tem espaços com área verde e jardins amplos dentro do perímetro da cidade. São raros e muito procurados por casais que querem natureza nas fotos sem sair da capital.',
+      },
+      {
+        question: 'Qual a diferença entre Casa Welucci, Welucci Village e Welucci The One?',
+        answer:
+          'A Casa Welucci tem perfil mais intimista e residencial — ideal para até 100 convidados. O Village é para festas de grande porte com estrutura completa de buffet. O The One é o espaço de maior capacidade e acabamento mais imponente do grupo em SP. Cada um tem condições de iluminação diferentes — Ivan Dias faz visita técnica em todos.',
+      },
+      {
+        question: 'Pré-wedding no Parque Estadual da Cidade (Morumbi) é possível?',
+        answer:
+          'Sim — o Parque Estadual da Cidade tem trilhas com mata nativa e uma luz filtrada pelas copas muito semelhante à Serra da Cantareira. O acesso é controlado — verificar horários e autorização com antecedência. Ivan Dias conhece os melhores pontos e horários do parque.',
+      },
+      {
+        question: 'Quanto custa um fotógrafo de casamento no Morumbi?',
+        answer:
+          'Para casamentos com 8 a 10 horas em espaço Welucci ou chácara, a faixa fica entre R$ 5.500 e R$ 13.000. Solicite orçamento personalizado pelo WhatsApp — resposta em até 24 horas.',
+      },
+    ],
+  },
+  // ─── Serra da Mantiqueira ─────────────────────────────────────────────────────
+  {
+    slug: 'fotografo-casamento-serra-mantiqueira',
+    bairro: 'Serra da Mantiqueira',
+    title: 'Fotógrafo de Casamento na Serra da Mantiqueira: Welucci Canto Verde e Casamentos na Montanha',
+    description:
+      'Guia completo de fotografia de casamento na Serra da Mantiqueira: Welucci Canto Verde, chácaras e pousadas de altitude, logística desde SP, melhor época e como contratar o fotógrafo certo para um casamento na montanha.',
+    excerpt:
+      'A Serra da Mantiqueira é um dos destinos de casamento mais especiais do Brasil — com altitude, frio, paisagens de vale e uma luz que transforma qualquer cerimônia ao ar livre em algo inesquecível. O Welucci Canto Verde é um dos espaços de referência da região. Este guia cobre tudo: logística, clima, melhores espaços e como planejar a cobertura fotográfica para um casamento na serra.',
+    date: '2026-06-28',
+    updatedDate: '2026-06-28',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-09.jpg',
+    sections: [
+      {
+        h2: 'A Serra da Mantiqueira como destino de casamento',
+        content: '<p>A Serra da Mantiqueira — que inclui destinos como Campos do Jordão, Monte Verde, Gonçalves, Itamonte e as cidades do Circuito das Águas — é um dos destinos de casamento mais procurados do Sudeste brasileiro. A altitude (1.400 a 1.800m), o frio, a neblina e a paisagem de vales com araucárias e fazendas históricas criam uma atmosfera completamente diferente de qualquer destino paulistano.</p><p>Para Ivan Dias, a Mantiqueira representa um desafio e um prazer fotográficos únicos: a luz de altitude — mais limpa, com céu mais azul e neblina de vale ao amanhecer — cria condições que ele raramente encontra em SP. Casamentos na Mantiqueira tendem a ter álbuns com uma identidade visual marcante e muito diferente do padrão urbano. <a href="/servicos/cobertura-completa/">Consulte a cobertura completa para casamentos na Serra da Mantiqueira.</a></p>',
+      },
+      {
+        h2: 'Welucci Canto Verde: referência premium na Mantiqueira',
+        content: '<p>O <strong>Welucci Canto Verde</strong> é a unidade do Grupo Welucci na Serra da Mantiqueira — um espaço de alto padrão que combina a sofisticação do grupo com o cenário natural da serra. Com arquitetura que dialoga com a paisagem de montanha, jardins com visão para os vales e infraestrutura completa de buffet, o Canto Verde é uma das escolhas mais procuradas por casais que querem unir estrutura premium com natureza de altitude.</p><p>Ivan Dias atende casamentos no Welucci Canto Verde e conhece as particularidades fotográficas do espaço na serra: a neblina matinal que às vezes persiste até o início da tarde, o vento que afeta posicionamento e direção do noivos, e a luz fria de altitude que exige ajuste diferente na câmera em relação aos espaços de SP. <a href="/contato/">Verifique disponibilidade para o Welucci Canto Verde.</a></p>',
+      },
+      {
+        h2: 'Pousadas e chácaras de altitude na Mantiqueira',
+        content: '<p>Além do Welucci Canto Verde, a Serra da Mantiqueira tem pousadas de charme com capacidade para casamentos intimistas, fazendas históricas com câmaras de colheita e celeiros adaptados para eventos, e sítios em altitude com uma vista panorâmica de vale que serve de cenário para toda a festa.</p><p>Os espaços menores, com até 80 convidados, são especialmente fotogênicos: a escala humana da celebração, o foco em cada detalhe e a presença constante da natureza ao fundo criam álbuns onde cada foto tem peso emocional. Ivan Dias destaca que casamentos íntimos na Mantiqueira têm alguns dos resultados fotográficos mais ricos de toda a sua agenda — exatamente pela combinação de luz de altitude, natureza densa e celebração concentrada.</p>',
+      },
+      {
+        h2: 'Luz e clima: o que esperar na fotografia de montanha',
+        content: '<p>A Serra da Mantiqueira tem condições climáticas que afetam diretamente a fotografia. A neblina — que aparece com frequência em manhãs de outono e inverno — cria uma atmosfera etérea para cerimônias ao ar livre, mas pode fechar rapidamente e afetar a visibilidade. O frio (5°C a 15°C no inverno) exige conforto dos noivos para que as fotos de exteror sejam naturais — dificilmente um casal vai parecer relaxado e apaixonado se estiver com muito frio.</p>',
+        table: {
+          caption: 'Condições por época — Serra da Mantiqueira para casamentos ao ar livre',
+          headers: ['Período', 'Temperatura', 'Neblina matinal', 'Qualidade da luz'],
+          rows: [
+            ['Dez–Mar (verão/chuvas)', '18–26°C', 'Baixa', 'Boa, mas nublada'],
+            ['Abr–Jun (outono)', '12–20°C', 'Alta', 'Excelente — etérea'],
+            ['Jul–Ago (inverno seco)', '5–15°C', 'Média', 'Excepcional — céu azul'],
+            ['Set–Nov (primavera)', '14–22°C', 'Baixa a média', 'Muito boa'],
+          ],
+        },
+      },
+      {
+        h2: 'Logística desde São Paulo: distância e planejamento',
+        content: '<p>A Serra da Mantiqueira fica a 160–200 km de São Paulo, dependendo do destino específico. Campos do Jordão é o mais próximo (160 km pela Rodovia D. Pedro I + SP-50); Monte Verde e Gonçalves ficam a 180–200 km. O trajeto leva de 2h30 a 3h em condições normais — e pode estender para 3h30 a 4h nos fins de semana de alta temporada (julho, outubro, dezembro).</p><p>Para eventos na Mantiqueira, Ivan Dias inclui hospedagem no pacote — é inviável fazer o trajeto de retorno à noite depois de um casamento que termina à meia-noite. Esse custo é detalhado no orçamento com transparência total antes da assinatura do contrato.</p>',
+      },
+      {
+        h2: 'Quanto custa fotografar um casamento na Mantiqueira',
+        content: '<p>Casamentos na Serra da Mantiqueira exigem planejamento de hospedagem e deslocamento que são incluídos no orçamento. O valor abaixo é referência para 2025–2026 — sempre solicite cotação específica para a data e o espaço.</p>',
+        table: {
+          caption: 'Faixas de mercado — Serra da Mantiqueira (2025–2026)',
+          headers: ['Formato', 'Horas de cobertura', 'Faixa do pacote', 'Observação'],
+          rows: [
+            ['Mini wedding íntimo', '4–6h', 'R$ 5.500–R$ 9.000', '+ hospedagem incluída'],
+            ['Casamento Welucci Canto Verde', '8–10h', 'R$ 7.000–R$ 13.000', '+ hospedagem incluída'],
+            ['Casamento em pousada/fazenda', '8–10h', 'R$ 6.500–R$ 12.000', '+ hospedagem incluída'],
+            ['Casamento grande (150+ pax)', '10–12h', 'R$ 9.000–R$ 15.000', '+ hospedagem incluída'],
+          ],
+        },
+      },
+    ],
+    faq: [
+      {
+        question: 'Ivan Dias atende casamentos no Welucci Canto Verde?',
+        answer:
+          'Sim — Ivan Dias atende casamentos no Welucci Canto Verde e na Serra da Mantiqueira. Para eventos na serra, o fotógrafo viaja no dia anterior e a hospedagem está incluída no pacote. Entre em contato para verificar disponibilidade.',
+      },
+      {
+        question: 'Qual a melhor época para casar na Serra da Mantiqueira?',
+        answer:
+          'Julho a agosto para quem quer frio intenso e céu azul de altitude — as fotos externas ficam excepcionais. Abril a junho para quem quer neblina e uma atmosfera etérea e romântica. Setembro a novembro para clima mais ameno e flores de primavera.',
+      },
+      {
+        question: 'Drone funciona bem na Serra da Mantiqueira?',
+        answer:
+          'Sim — a altitude e a paisagem de vale tornam as imagens aéreas da Mantiqueira entre as mais impactantes que Ivan Dias produz. A maioria dos espaços na serra permite drone sem restrições aeronáuticas. Confirme com o espaço específico.',
+      },
+      {
+        question: 'Como funciona a logística do fotógrafo para casamentos na Mantiqueira?',
+        answer:
+          'Ivan Dias viaja no dia anterior ao casamento e a hospedagem é incluída no orçamento. Para casamentos que terminam após meia-noite, é inviável o retorno na mesma noite — esse custo é detalhado no contrato antes da assinatura.',
+      },
+      {
+        question: 'Quanto custa um fotógrafo de casamento na Serra da Mantiqueira?',
+        answer:
+          'Para casamentos de 8 a 10 horas, o pacote fica entre R$ 6.500 e R$ 13.000, com hospedagem incluída. Solicite orçamento personalizado pelo WhatsApp para a data e o espaço específico.',
+      },
+    ],
+  },
+  // ─── Quintal — artigos individuais por espaço ────────────────────────────────
+  {
+    slug: 'fotografo-casamento-espaco-quintal',
+    bairro: 'Espaço Quintal',
+    title: 'Fotógrafo de Casamento no Espaço Quintal: Rustic Wedding em Patrimônio Tombado',
+    description: 'Tudo sobre fotografia de casamento no Espaço Quintal: pontos fortes do conceito Rustic Wedding, iluminação em patrimônio tombado, planejamento e quanto custa contratar o fotógrafo.',
+    excerpt: 'O Espaço Quintal é um patrimônio tombado em meio à selva de pedra — com textura histórica, luz natural irregular e uma atmosfera que nenhuma decoração consegue replicar. Entenda como Ivan Dias planeja a cobertura fotográfica para extrair o máximo desse cenário único.',
+    date: '2026-06-28',
+    updatedDate: '2026-06-28',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-01.jpg',
+    sections: [
+      { h2: 'O Espaço Quintal e o conceito Rustic Wedding', content: '<p>O Espaço Quintal é um dos casamentos de conceito mais originais de São Paulo: um patrimônio tombado que sobreviveu ao crescimento urbano e hoje serve de cenário para casamentos com identidade histórica real — não simulada. O conceito Rustic Wedding aqui não é decoração temática, é a própria estrutura do espaço: pedra, madeira, vegetação crescida junto com a construção e uma imperfeição arquitetônica que é, na verdade, o maior ativo fotográfico do lugar.</p><p>Ivan Dias atende casamentos no Espaço Quintal e destaca esse ponto como diferencial: a "imperfeição" do espaço — superfícies irregulares, ângulos assimétricos, luz que entra de formas não planejadas — é exatamente o que cria fotos com caráter e textura que espaços modernos não conseguem reproduzir. <a href="/servicos/cobertura-completa/">Consulte a cobertura completa para o Espaço Quintal.</a></p>' },
+      { h2: 'Pontos fortes fotográficos', h3s: [
+        { title: 'Texturas históricas como fundo natural', content: '<p>Pedra exposta, madeira envelhecida e reboco com patina criam fundos com profundidade visual que nenhum cenário construído reproduz. Para retratos dos noivos, esses fundos adicionam uma camada de história e significado sem precisar de nenhum elemento de decoração adicional.</p>' },
+        { title: 'Luz natural com caráter', content: '<p>Em patrimônios tombados, as aberturas para luz foram feitas com intenção arquitetônica, não com iluminação de evento em mente. O resultado são feixes, sombras e contraluz com uma qualidade pictórica que Ivan Dias preserva intencionalmente — trabalhando com luz disponível e evitando flash que destruiria essa atmosfera.</p>' },
+        { title: 'Contraste urbano como narrativa', content: '<p>A tensão entre o espaço histórico e o contexto urbano ao redor cria oportunidades narrativas únicas — especialmente em fotos externas onde a selva de pedra aparece ao fundo. É um cenário que conta a história de São Paulo em um único enquadramento.</p>' },
+      ]},
+      { h2: 'Planejamento fotográfico no Espaço Quintal', content: '<p>Ivan Dias realiza visita técnica no Espaço Quintal antes de cada casamento — mapeando os pontos de entrada de luz natural no horário exato do evento, os ângulos mais favoráveis para a cerimônia e os espaços disponíveis para o ensaio do casal. Em patrimônios tombados, o posicionamento preciso faz toda a diferença: a mesma cena fotografada de ângulos diferentes pode parecer dois espaços completamente distintos. <a href="/contato/">Agende uma conversa para planejar o casamento no Espaço Quintal.</a></p>' },
+      { h2: 'Quanto custa', content: '<p>Para o Espaço Quintal, os pacotes fotográficos partem de R$ 6.500 para coberturas de 8 a 10 horas. Para análise completa, consulte o guia de <a href="/blog/quanto-custa-fotografo-casamento-sao-paulo/">quanto custa um fotógrafo de casamento em São Paulo</a>.</p>' },
+    ],
+    faq: [
+      { question: 'Flash é recomendado no Espaço Quintal?', answer: 'Não como fonte principal. A atmosfera do patrimônio tombado é construída por luz natural com caráter próprio — o flash destrói essa ambiência. Ivan Dias trabalha com ISO alto e lentes abertas para preservar a estética Rustic Wedding do espaço.' },
+      { question: 'Ivan Dias atende casamentos no Espaço Quintal?', answer: 'Sim — Ivan Dias atende casamentos em todos os espaços do Grupo Quintal, incluindo o Espaço Quintal. Entre em contato para verificar disponibilidade de data.' },
+      { question: 'O que é o conceito Rustic Wedding do Espaço Quintal?', answer: 'É um casamento que usa a própria história e textura do espaço como cenário — pedra, madeira e vegetação nativa como elementos principais. Diferente de uma decoração temática, aqui o rústico é real e foi construído ao longo de décadas.' },
+      { question: 'Qual o diferencial fotográfico do Espaço Quintal em relação aos outros espaços do Grupo?', answer: 'O patrimônio tombado cria texturas e uma qualidade de luz impossíveis de replicar em espaços modernos. Para casais que querem fotos com caráter histórico e profundidade visual, o Espaço Quintal é o mais fotogenicamente único do grupo.' },
+      { question: 'Quanto custa fotografar no Espaço Quintal?', answer: 'Os pacotes partem de R$ 6.500 para 8 a 10 horas de cobertura. Solicite orçamento personalizado pelo WhatsApp — resposta em até 24 horas.' },
+      { question: 'Como reservar Ivan Dias para o Espaço Quintal?', answer: 'Entre em contato pelo WhatsApp ou formulário de contato com a data e o nome do espaço. Ivan Dias verifica disponibilidade e envia proposta personalizada em até 24 horas.' },
+    ],
+  },
+  {
+    slug: 'fotografo-casamento-casa-quintal',
+    bairro: 'Casa Quintal',
+    title: 'Fotógrafo de Casamento na Casa Quintal: Comfort Wedding com Alma de Lar',
+    description: 'Fotografia de casamento na Casa Quintal: pontos fortes do conceito Comfort Wedding, ambiente residencial, luz natural e como Ivan Dias planeja a cobertura para este espaço único.',
+    excerpt: 'A Casa Quintal transforma o casamento em algo que parece uma reunião de família numa casa linda — com conforto real, escala humana e uma autenticidade que espaços de buffet raramente conseguem. Entenda como isso se traduz em fotografia.',
+    date: '2026-06-28',
+    updatedDate: '2026-06-28',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-02.jpg',
+    sections: [
+      { h2: 'O conceito Comfort Wedding da Casa Quintal', content: '<p>A Casa Quintal foi desenhada para parecer uma residência — não um salão de eventos. O conceito Comfort Wedding parte de uma premissa simples: quando as pessoas se sentem em casa, elas são mais naturais. E pessoas naturais são mais fotografáveis. Convidados relaxados, risos espontâneos, abraços que acontecem sem que ninguém peça — é exatamente o material que transforma um álbum de casamento em algo que emociona mesmo quem não esteve presente.</p><p>Ivan Dias destaca esse espaço como um dos mais favoráveis para a sua abordagem fotográfica documental: sem a formalidade dos salões de buffet, o fotógrafo consegue circular de forma mais natural e capturar momentos que em outros espaços simplesmente não acontecem. <a href="/servicos/cobertura-completa/">Saiba mais sobre a cobertura documental de Ivan Dias.</a></p>' },
+      { h2: 'Pontos fortes fotográficos', h3s: [
+        { title: 'Escala humana que favorece o documental', content: '<p>Ambientes menores e proporcionados criam uma intimidade que os grandes salões não têm. O fotógrafo fica sempre perto das pessoas — e essa proximidade é o que captura expressões, sussurros e toques que definem os melhores momentos do álbum.</p>' },
+        { title: 'Luz natural dominante', content: '<p>A arquitetura residencial da Casa Quintal favorece janelas amplas e luz natural suave — muito diferente da iluminação técnica de buffets. Essa luz cria uma paleta mais quente e aconchegante que combina perfeitamente com o conceito Comfort.</p>' },
+        { title: 'Comportamento espontâneo dos convidados', content: '<p>Em ambientes que parecem casas, as pessoas se comportam de forma diferente — mais desinibidas, mais presentes, mais elas mesmas. Para o fotógrafo, isso significa uma densidade maior de momentos genuínos ao longo de todo o evento.</p>' },
+      ]},
+      { h2: 'Como Ivan Dias planeja a cobertura na Casa Quintal', content: '<p>Para casamentos na Casa Quintal, Ivan Dias adota uma abordagem mais discreta e próxima — câmera sempre pronta, movimentação silenciosa, sem direcionamentos frequentes. O objetivo é ser invisível o suficiente para que os momentos aconteçam de forma natural, e presente o suficiente para não perder nenhum. <a href="/contato/">Agende uma conversa para planejar a cobertura.</a></p>' },
+      { h2: 'Quanto custa', content: '<p>Para a Casa Quintal, os pacotes partem de R$ 5.000 para coberturas de 6 a 8 horas. Para referência completa, consulte o guia de <a href="/blog/quanto-custa-fotografo-casamento-sao-paulo/">preços de fotografia de casamento em São Paulo</a>.</p>' },
+    ],
+    faq: [
+      { question: 'O que é o conceito Comfort Wedding da Casa Quintal?', answer: 'É um casamento com cara de casa — ambiente residencial, escala humana e uma atmosfera que coloca os convidados à vontade. O resultado fotográfico são registros mais espontâneos e emotivos do que em salões tradicionais.' },
+      { question: 'Ivan Dias atende casamentos na Casa Quintal?', answer: 'Sim — Ivan Dias atende casamentos em todos os espaços do Grupo Quintal, incluindo a Casa Quintal. Entre em contato para verificar disponibilidade.' },
+      { question: 'Qual a capacidade da Casa Quintal?', answer: 'A Casa Quintal é indicada para casamentos de até aproximadamente 100 convidados — consulte o espaço para confirmar capacidade atual.' },
+      { question: 'A abordagem fotográfica muda na Casa Quintal?', answer: 'Sim — Ivan Dias adota uma postura mais documental e discreta neste espaço, aproveitando a espontaneidade que o ambiente residencial proporciona. Menos posado, mais real.' },
+      { question: 'Quanto custa fotografar na Casa Quintal?', answer: 'Os pacotes partem de R$ 5.000 para 6 a 8 horas. Solicite orçamento personalizado pelo WhatsApp.' },
+      { question: 'Como reservar Ivan Dias para a Casa Quintal?', answer: 'Entre em contato pelo WhatsApp com a data e o espaço. Ivan Dias envia proposta em até 24 horas.' },
+    ],
+  },
+  {
+    slug: 'fotografo-casamento-casinha-quintal',
+    bairro: 'Casinha Quintal',
+    title: 'Fotógrafo de Casamento na Casinha Quintal: Mini Wedding com Jeitinho Francês',
+    description: 'Fotografia de casamento na Casinha Quintal: o conceito Mini Wedding com estética francesa, escala intimista, detalhes e como fotografar este espaço para extrair o máximo do seu charme.',
+    excerpt: 'A Casinha Quintal foi feita para quem quer celebrar com poucos, mas com tudo. O conceito francês — delicado, refinado, com atenção obsessiva aos detalhes — cria um cenário onde cada elemento do espaço contribui para o resultado fotográfico final.',
+    date: '2026-06-28',
+    updatedDate: '2026-06-28',
+    image: '/images/galeria/detalhes/casamento-sao-paulo-detalhes-03.jpg',
+    sections: [
+      { h2: 'Mini Wedding com estética francesa na Casinha Quintal', content: '<p>A Casinha Quintal não é apenas um espaço menor — é um conceito diferente de celebração. Inspirada na estética francesa de casamentos íntimos, a Casinha foi projetada para reunir apenas os mais próximos em torno de um ambiente cuidadosamente decorado onde cada detalhe tem um significado. Para fotografia, essa concentração de cuidado no detalhe é um presente: mesa posta, flores, texturas e elementos decorativos que transformam cada close em uma imagem de editorial. <a href="/blog/mini-wedding-sao-paulo-fotografia-cobertura/">Saiba mais sobre fotografia de mini wedding em São Paulo.</a></p>' },
+      { h2: 'Pontos fortes fotográficos', h3s: [
+        { title: 'Detalhes que merecem close', content: '<p>A estética francesa da Casinha Quintal é construída nos detalhes — louças delicadas, flores específicas, tecidos cuidadosamente escolhidos. Para o fotógrafo, isso significa uma coleção de closes com identidade própria que complementam perfeitamente os registros do casal e dos convidados.</p>' },
+        { title: 'Emoção concentrada em escala humana', content: '<p>Com até 50 convidados, cada momento tem peso. Não há "fundo de sala" onde as emoções se perdem — o fotógrafo acompanha todos de perto e captura expressões que em festas maiores ficam nas bordas do quadro, fora de foco.</p>' },
+        { title: 'Paleta visual coesa para o álbum', content: '<p>A curadoria estética da Casinha cria uma coerência de cores e texturas que facilita a edição fotográfica e resulta em um álbum visualmente unificado — sem as inconsistências visuais que espaços com decoração variável produzem.</p>' },
+      ]},
+      { h2: 'Cobertura fotográfica em mini weddings', content: '<p>Ivan Dias planeja coberturas de mini wedding com a mesma seriedade de casamentos grandes — a diferença está no ritmo, não na qualidade. Com menos convidados e eventos mais curtos, cada minuto é aproveitado com mais intensidade. O briefing pré-evento é ainda mais importante: definir os momentos prioritários e as pessoas que precisam aparecer nas fotos garante que nada importante seja perdido numa cobertura compacta. <a href="/contato/">Agende a conversa para planejar o mini wedding na Casinha Quintal.</a></p>' },
+      { h2: 'Quanto custa', content: '<p>Para a Casinha Quintal (mini wedding), os pacotes partem de R$ 4.500 para 4 a 6 horas de cobertura. Consulte o guia de <a href="/blog/quanto-custa-fotografo-casamento-sao-paulo/">preços de fotografia de casamento</a> para mais referências.</p>' },
+    ],
+    faq: [
+      { question: 'A Casinha Quintal é só para mini weddings?', answer: 'Sim — a Casinha Quintal foi projetada para celebrações intimistas com poucos convidados. É o espaço ideal para quem quer qualidade e atenção ao detalhe em uma celebração concentrada.' },
+      { question: 'Preciso de segundo fotógrafo na Casinha Quintal?', answer: 'Não necessariamente — com até 50 convidados, um fotógrafo experiente cobre todos os momentos com atenção individual. Ivan Dias recomenda avaliar conforme o cronograma do evento.' },
+      { question: 'Ivan Dias atende mini weddings na Casinha Quintal?', answer: 'Sim — Ivan Dias tem pacotes específicos para mini weddings de 4 a 6 horas, com a mesma qualidade fotográfica de coberturas completas.' },
+      { question: 'O que é o estilo francês da Casinha Quintal?', answer: 'Uma estética refinada e delicada — flores bem escolhidas, mesa posta com atenção, decoração coesa e uma atmosfera que remete a celebrações europeias íntimas. Para fotografia, isso cria detalhes editoriais em todo o espaço.' },
+      { question: 'Quanto custa fotografar na Casinha Quintal?', answer: 'Os pacotes de mini wedding partem de R$ 4.500 para 4 a 6 horas. Solicite orçamento personalizado pelo WhatsApp.' },
+      { question: 'Como reservar Ivan Dias para a Casinha Quintal?', answer: 'Entre em contato pelo WhatsApp com a data. Ivan Dias verifica disponibilidade e envia proposta em até 24 horas.' },
+    ],
+  },
+  {
+    slug: 'fotografo-casamento-celeiro-quintal',
+    bairro: 'Celeiro Quintal',
+    title: 'Fotógrafo de Casamento no Celeiro Quintal: Farm Wedding em São Paulo',
+    description: 'Fotografia de casamento no Celeiro Quintal: conceito Farm Wedding, madeira, luz lateral de celeiro, paleta cinematográfica e como Ivan Dias planeja a cobertura neste espaço.',
+    excerpt: 'O Celeiro Quintal traz o cenário de campo para dentro da cidade — com madeira envelhecida, feno, estrutura rústica e uma luz lateral que entra pelas frestas criando uma paleta cinematográfica natural. Entenda por que este é um dos espaços mais fotogênicos do Grupo Quintal.',
+    date: '2026-06-28',
+    updatedDate: '2026-06-28',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-03.jpg',
+    sections: [
+      { h2: 'Farm Wedding no coração da cidade', content: '<p>O Celeiro Quintal resolve um pedido muito comum entre casais paulistanos: cenário de campo sem precisar sair da cidade. O conceito Farm Wedding aqui não é apenas decoração com fardos de feno — é uma arquitetura pensada para reproduzir a atmosfera de um celeiro real: vigas de madeira, estrutura elevada, piso de madeira e elementos rústicos que criam um ambiente completamente distinto de qualquer buffet urbano.</p><p>Ivan Dias destaca o Celeiro Quintal como um dos espaços com maior versatilidade fotográfica do grupo: a luz durante o dia, a transição para iluminação artificial à noite e os elementos rústicos ao fundo criam possibilidades de enquadramento que mudam completamente ao longo do evento. <a href="/servicos/cobertura-completa/">Consulte a cobertura completa para o Celeiro Quintal.</a></p>' },
+      { h2: 'Pontos fortes fotográficos', h3s: [
+        { title: 'Luz lateral com feixes cinematográficos', content: '<p>Em estruturas de celeiro, a luz entra pelas frestas laterais criando feixes horizontais que atravessam o espaço. Posicionados estrategicamente, os noivos ficam dentro dessas linhas de luz — criando o tipo de imagem que parece editada mas é completamente natural.</p>' },
+        { title: 'Madeira e textura em todo enquadramento', content: '<p>Independente do ângulo escolhido pelo fotógrafo, o fundo terá madeira, estrutura rústica ou elemento natural. Não há parede lisa ou elemento genérico competindo com os sujeitos — o cenário sempre contribui para a foto.</p>' },
+        { title: 'Transição dia/noite com duas atmosferas distintas', content: '<p>Durante o dia, a luz natural cria uma paleta quente e dourada. À noite, a iluminação cálida planejada para o espaço cria um calor visual diferente mas igualmente bonito. O álbum final tem duas identidades visuais complementares dentro do mesmo espaço.</p>' },
+      ]},
+      { h2: 'Ensaio do casal no Celeiro Quintal', content: '<p>Ivan Dias reserva sempre 20 a 30 minutos para o ensaio do casal na estrutura do celeiro — especificamente no ângulo onde a luz lateral é mais intensa. Esse momento, geralmente posicionado 1 hora antes do início da festa, produz as imagens de maior impacto visual do álbum. O planejamento desse horário no cronograma do dia é parte do briefing que Ivan Dias faz com cada casal. <a href="/servicos/pre-wedding/">Veja também como funciona o pré-wedding com Ivan Dias.</a></p>' },
+      { h2: 'Quanto custa', content: '<p>Para o Celeiro Quintal, os pacotes partem de R$ 6.000 para 8 a 10 horas de cobertura. Para referência completa, consulte o guia de <a href="/blog/quanto-custa-fotografo-casamento-sao-paulo/">preços de fotografia de casamento</a>.</p>' },
+    ],
+    faq: [
+      { question: 'O Celeiro Quintal tem iluminação boa para fotografia noturna?', answer: 'Sim — a iluminação cálida planejada para o conceito Farm Wedding cria uma atmosfera noturna com tonalidades quentes que funcionam muito bem fotograficamente. Ivan Dias complementa com flash difuso nas áreas de menor iluminação.' },
+      { question: 'Ivan Dias atende casamentos no Celeiro Quintal?', answer: 'Sim — Ivan Dias atende casamentos em todos os espaços do Grupo Quintal. Entre em contato para verificar disponibilidade.' },
+      { question: 'Qual a melhor hora para o ensaio do casal no Celeiro Quintal?', answer: 'A hora antes do início da festa, quando a luz lateral ainda entra com intensidade mas a iluminação interna começa a ganhar peso. Ivan Dias planeja esse momento no cronograma do dia.' },
+      { question: 'O conceito Farm Wedding combina com qual estilo fotográfico?', answer: 'Com abordagens que valorizam luz natural e textura — fotografia documental ou editorial com viés artesanal. Ivan Dias adapta a abordagem ao conceito do espaço.' },
+      { question: 'Quanto custa fotografar no Celeiro Quintal?', answer: 'Os pacotes partem de R$ 6.000 para 8 a 10 horas. Solicite orçamento pelo WhatsApp.' },
+      { question: 'Como reservar Ivan Dias para o Celeiro Quintal?', answer: 'Entre em contato pelo WhatsApp com a data. Ivan Dias verifica disponibilidade e envia proposta em até 24 horas.' },
+    ],
+  },
+  {
+    slug: 'fotografo-casamento-chale-quintal',
+    bairro: 'Chalé Quintal',
+    title: 'Fotógrafo de Casamento no Chalé Quintal: Romantic Wedding para o Conto de Fadas Moderno',
+    description: 'Fotografia de casamento no Chalé Quintal: conceito Romantic Wedding, paleta pastel, tecidos delicados, iluminação suave e como Ivan Dias planeja a cobertura para este espaço.',
+    excerpt: 'O Chalé Quintal foi criado para noivos que sonham com um conto de fadas moderno — delicado, romântico e visualmente coerente do primeiro ao último frame. Entenda como o conceito Romantic Wedding se traduz em fotografia.',
+    date: '2026-06-28',
+    updatedDate: '2026-06-28',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-04.jpg',
+    sections: [
+      { h2: 'Romantic Wedding: quando o espaço já é a paleta', content: '<p>O Chalé Quintal tem uma vantagem rara para fotografia: o conceito visual está embutido na arquitetura e decoração do próprio espaço. Cortinas, tecidos delicados, paleta cromática em tons suaves e uma iluminação pensada para criar o clima de conto de fadas moderno — tudo isso já está lá antes de qualquer decoração adicional.</p><p>Para Ivan Dias, isso simplifica a pós-produção e eleva o resultado: quando o espaço já fala a mesma língua visual do conceito do casamento, as fotos têm uma coerência de paleta que exigiria muito trabalho para replicar em espaços neutros. <a href="/servicos/cobertura-completa/">Consulte a cobertura completa para o Chalé Quintal.</a></p>' },
+      { h2: 'Pontos fortes fotográficos', h3s: [
+        { title: 'Paleta cromática consistente do início ao fim', content: '<p>A decoração do Chalé Quintal cria uma harmonia de cores que se mantém ao longo de todo o evento — do making of à pista de dança. O álbum final tem uma identidade visual coesa que poucos espaços conseguem proporcionar naturalmente.</p>' },
+        { title: 'Tecidos e texturas que respondem à luz', content: '<p>Tecidos delicados, veludo, tule e rendas criam reflexos e texturas que adicionam dimensão às fotos. Especialmente em registros de detalhes — vestido, mesa, decoração — esses materiais elevam o nível visual de cada close.</p>' },
+        { title: 'Iluminação suave que favorece a pele', content: '<p>A iluminação do conceito Romantic foi pensada para criar uma luz envolvente e suave — exatamente a que fotógrafos buscam para retratos de noivos. Menos contraste, mais meios-tons, e uma qualidade de luz que a maioria dos salões não consegue replicar.</p>' },
+      ]},
+      { h2: 'Pós-produção alinhada ao conceito Romantic', content: '<p>Ivan Dias adapta a edição fotográfica ao conceito de cada espaço Quintal. Para o Chalé Quintal, a paleta de edição é mais suave, com contraste reduzido e tons ligeiramente desaturados — alinhada com a estética romántica do espaço. Isso garante que as fotos entregues dialoguem com o conceito escolhido pelo casal e com a experiência visual do dia. <a href="/contato/">Agende uma conversa para planejar a cobertura no Chalé Quintal.</a></p>' },
+      { h2: 'Quanto custa', content: '<p>Para o Chalé Quintal, os pacotes partem de R$ 5.000 para 6 a 8 horas. Para referência completa, consulte o guia de <a href="/blog/quanto-custa-fotografo-casamento-sao-paulo/">preços de fotografia de casamento</a>.</p>' },
+    ],
+    faq: [
+      { question: 'O conceito Romantic Wedding do Chalé Quintal influencia a edição das fotos?', answer: 'Sim — Ivan Dias adapta a paleta de edição ao conceito do espaço. Para o Chalé Quintal, a edição é mais suave e com tons ligeiramente pastel, alinhada com o conceito Romantic Wedding.' },
+      { question: 'Ivan Dias atende casamentos no Chalé Quintal?', answer: 'Sim — Ivan Dias atende casamentos em todos os espaços do Grupo Quintal. Entre em contato para verificar disponibilidade.' },
+      { question: 'Qual a capacidade do Chalé Quintal?', answer: 'O Chalé Quintal é indicado para até aproximadamente 100 convidados — confirme com o espaço para capacidade atual.' },
+      { question: 'A iluminação do Chalé Quintal é boa para fotografia noturna?', answer: 'Sim — a iluminação suave do conceito Romantic cria uma atmosfera noturna favorável para fotografia, com uma qualidade de luz que Ivan Dias complementa com flash difuso nas áreas de menor intensidade.' },
+      { question: 'Quanto custa fotografar no Chalé Quintal?', answer: 'Os pacotes partem de R$ 5.000 para 6 a 8 horas. Solicite orçamento pelo WhatsApp.' },
+      { question: 'Como reservar Ivan Dias para o Chalé Quintal?', answer: 'Entre em contato pelo WhatsApp com a data. Ivan Dias verifica disponibilidade e envia proposta em até 24 horas.' },
+    ],
+  },
+  {
+    slug: 'fotografo-casamento-botanico-quintal',
+    bairro: 'Botânico Quintal',
+    title: 'Fotógrafo de Casamento no Botânico Quintal: Fresh Wedding — Primavera o Ano Todo',
+    description: 'Fotografia de casamento no Botânico Quintal: conceito Fresh Wedding, vegetação viva, flores, luz filtrada pelas folhas e como Ivan Dias planeja a cobertura para o espaço mais luminoso do Grupo Quintal.',
+    excerpt: 'O Botânico Quintal é o espaço mais luminoso e natural do Grupo Quintal — com vegetação viva, flores e uma luz filtrada pelas folhas que cria uma paleta dourada-verde impossível de replicar artificialmente. Para fotografia, é o espaço mais generoso do grupo.',
+    date: '2026-06-28',
+    updatedDate: '2026-06-28',
+    image: '/images/galeria/pre-wedding/casamento-sao-paulo-pre-wedding-03.jpg',
+    sections: [
+      { h2: 'Fresh Wedding: o espaço mais fotogênico do Grupo Quintal', content: '<p>O conceito Fresh Wedding do Botânico Quintal parte de uma premissa ambiciosa: primavera o ano todo. Vegetação viva, flores aromáticas e uma integração com o exterior que cria um espaço onde a natureza é parte ativa da decoração — não apenas elemento de apoio. Para fotografia, esse espaço tem um diferencial que Ivan Dias destaca consistentemente: a luz filtrada pela vegetação viva cria reflexos verdes suaves nas superfícies brancas e na pele dos noivos — uma qualidade de luz que parece editada mas é completamente natural.</p><p>Ivan Dias planeja o ensaio do casal no Botânico Quintal sempre no golden hour — o momento em que a luz dourada entra em ângulo baixo entre a vegetação e cria uma paleta que eleva qualquer retrato. <a href="/servicos/cobertura-completa/">Consulte a cobertura completa para o Botânico Quintal.</a></p>' },
+      { h2: 'Pontos fortes fotográficos', h3s: [
+        { title: 'Luz verde-dourada única', content: '<p>A vegetação viva filtra a luz solar criando reflexos esverdeados suaves que amolecem sombras e criam uma paleta natural impossível de replicar em estúdio. É a luz que fotógrafos buscam em florestas — disponível em São Paulo, num espaço de eventos.</p>' },
+        { title: 'Flores como elemento compositivo', content: '<p>No Botânico Quintal, as flores não são apenas decoração — são elementos compositivos que o fotógrafo incorpora ativamente nos enquadramentos. Close de mão da noiva com flor ao fundo desfocado, perspectiva entre arbustos floridos, retrato emoldurado pela vegetação — possibilidades que outros espaços simplesmente não têm.</p>' },
+        { title: 'Coerência visual do ambiente externo ao interno', content: '<p>A integração entre área externa e interna cria uma continuidade visual ao longo de todo o evento: as fotos da cerimônia, do ensaio e da festa têm a mesma paleta natural como fio condutor do álbum.</p>' },
+      ]},
+      { h2: 'Golden hour no Botânico Quintal', content: '<p>Para Ivan Dias, o golden hour no Botânico Quintal é um dos momentos mais preciosos do seu calendário de casamentos. Com 20 a 30 minutos reservados no cronograma do evento para o ensaio externo do casal, esse momento produz as imagens de maior impacto visual do álbum — luz dourada, vegetação viva e a emoção do dia no auge. Planejar esse horário no roteiro do casamento é parte do briefing que Ivan faz com cada casal. <a href="/contato/">Agende uma conversa para planejar o casamento no Botânico Quintal.</a></p>' },
+      { h2: 'Quanto custa', content: '<p>Para o Botânico Quintal, os pacotes partem de R$ 6.000 para 8 a 10 horas. Para referência completa, consulte o guia de <a href="/blog/quanto-custa-fotografo-casamento-sao-paulo/">preços de fotografia de casamento</a>.</p>' },
+    ],
+    faq: [
+      { question: 'O Botânico Quintal tem área externa para fotos ao ar livre?', answer: 'Sim — o conceito Fresh Wedding integra áreas externas com vegetação viva ao espaço do evento. Ivan Dias planeja o ensaio do casal na área externa no golden hour para aproveitar ao máximo esse diferencial.' },
+      { question: 'Ivan Dias atende casamentos no Botânico Quintal?', answer: 'Sim — Ivan Dias atende casamentos em todos os espaços do Grupo Quintal. Entre em contato para verificar disponibilidade.' },
+      { question: 'Qual é o diferencial fotográfico do Botânico em relação aos outros espaços Quintal?', answer: 'É o espaço com mais luz natural e vegetação viva — o que cria uma qualidade de luz verde-dourada que apenas ambientes com muitas plantas conseguem produzir. Para álbuns com identidade natural e fresca, é o mais indicado do grupo.' },
+      { question: 'A vegetação do Botânico Quintal aparece nas fotos de forma natural?', answer: 'Sim — Ivan Dias incorpora ativamente a vegetação nos enquadramentos: flores em close, perspectivas entre arbustos e retratos emoldurados pela vegetação fazem parte do planejamento fotográfico para este espaço.' },
+      { question: 'Quanto custa fotografar no Botânico Quintal?', answer: 'Os pacotes partem de R$ 6.000 para 8 a 10 horas. Solicite orçamento pelo WhatsApp.' },
+      { question: 'Como reservar Ivan Dias para o Botânico Quintal?', answer: 'Entre em contato pelo WhatsApp com a data. Ivan Dias verifica disponibilidade e envia proposta em até 24 horas.' },
+    ],
+  },
+  // ─── Grupo Quintal — artigo hub ───────────────────────────────────────────────
+  {
+    slug: 'fotografo-casamento-grupo-quintal',
+    bairro: 'Grupo Quintal',
+    title: 'Fotógrafo de Casamento no Grupo Quintal: Rustic, Farm, Mini Wedding e Mais',
+    description:
+      'Guia completo de fotografia de casamento nos espaços do Grupo Quintal: Espaço Quintal, Casa Quintal, Casinha Quintal, Celeiro Quintal, Chalé Quintal e Botânico Quintal — cada conceito com seus pontos fortes fotográficos.',
+    excerpt:
+      'O Grupo Quintal tem seis espaços com conceitos completamente distintos — do Rustic Wedding ao Fresh Wedding, do Farm ao Romantic. Cada unidade tem uma identidade visual própria que define o resultado fotográfico do álbum. Este guia cobre os pontos fortes de cada espaço e como Ivan Dias planeja a cobertura para maximizar o potencial de cada conceito.',
+    date: '2026-06-28',
+    updatedDate: '2026-06-28',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    sections: [
+      {
+        h2: 'O Grupo Quintal e a diversidade de conceitos',
+        content: '<p>O Grupo Quintal é uma das propostas mais completas e originais do mercado de casamentos de São Paulo: seis espaços, cada um com um conceito estético próprio e uma identidade visual que determina diretamente o resultado fotográfico. Enquanto a maioria dos grupos de buffet padroniza a experiência, o Quintal faz o oposto — cada unidade foi projetada para ser completamente diferente da anterior.</p><p>Para Ivan Dias, isso representa um desafio criativo constante: o kit de equipamentos, o planejamento de luz e a abordagem fotográfica mudam radicalmente entre o Espaço Quintal e o Botânico Quintal, por exemplo. O fotógrafo que conhece cada unidade do grupo chega ao evento já com o plano visual do álbum definido — em vez de descobrir o espaço no dia. <a href="/servicos/cobertura-completa/">Consulte a cobertura completa para casamentos no Grupo Quintal.</a></p>',
+      },
+      {
+        h2: 'Os seis espaços e seus diferenciais fotográficos',
+        h3s: [
+          {
+            title: 'Espaço Quintal — Rustic Wedding',
+            content: '<p>O conceito Rustic Wedding do <strong>Espaço Quintal</strong> tem como ponto forte a tensão entre o rústico e o histórico — um patrimônio tombado em meio ao ambiente urbano. Para fotografia, isso se traduz em texturas que poucos espaços têm: pedra exposta, madeira envelhecida, vegetação que cresceu junto com a arquitetura. A luz que entra pelas aberturas irregulares cria feixes e sombras com caráter que nenhuma iluminação planejada consegue replicar. Ivan Dias trabalha esse espaço priorizando luz natural disponível e lentes de grande abertura — o flash destrói a atmosfera que o espaço levou décadas para construir.</p>',
+          },
+          {
+            title: 'Casa Quintal — Comfort Wedding',
+            content: '<p>O conceito Comfort Wedding da <strong>Casa Quintal</strong> tem seu maior ponto fotográfico na autenticidade: um espaço que parece uma residência de verdade, não um salão de festas. Para o fotógrafo, isso significa luz mais difusa, ambientes menores que favorecem registros íntimos e um comportamento dos convidados diferente — mais relaxado, mais natural, mais fotogênicos. Os retratos de família e os momentos espontâneos têm uma qualidade emocional diferente quando as pessoas estão confortáveis como se estivessem em casa. Ivan Dias trabalha o Comfort Wedding com uma abordagem mais documental — câmera sempre pronta, sem direcionamentos excessivos.</p>',
+          },
+          {
+            title: 'Casinha Quintal — Mini Wedding',
+            content: '<p>A <strong>Casinha Quintal</strong> traz o conceito francês ao Mini Wedding — e para fotografia, o miniaturismo do espaço é um presente: cada detalhe fica próximo, cada expressão fica evidente, e a conexão entre os poucos convidados gera momentos emocionais em alta densidade ao longo de toda a cerimônia. Com menos convidados, o fotógrafo consegue acompanhar cada pessoa individualmente — algo impossível em festas de 200 convidados. O resultado é um álbum com profundidade emocional que casamentos maiores raramente alcançam. <a href="/blog/mini-wedding-sao-paulo-fotografia-cobertura/">Saiba como Ivan Dias fotografa mini weddings.</a></p>',
+          },
+          {
+            title: 'Celeiro Quintal — Farm Wedding',
+            content: '<p>O conceito Farm Wedding do <strong>Celeiro Quintal</strong> resolve um dos pedidos mais frequentes dos casais: cenário de campo sem sair da cidade. Para fotografia, o celeiro entrega um dos materiais mais versáteis que existem — madeira envelhecida, luz que entra pelas frestas das tábuas, feno e elementos rústicos que criam profundidade em qualquer enquadramento. A iluminação natural dentro de um celeiro cria uma paleta quente e cinematográfica sem necessidade de filtro. Ivan Dias planeja o ensaio do casal para aproveitar a entrada lateral de luz — o ângulo que transforma uma foto comum em imagem de editorial.</p>',
+          },
+          {
+            title: 'Chalé Quintal — Romantic Wedding',
+            content: '<p>O Romantic Wedding do <strong>Chalé Quintal</strong> é desenhado para quem quer o conto de fadas moderno — e para fotografia, esse conceito entrega elementos que o fotógrafo raramente encontra em outros espaços: cortinas, molas, tecidos delicados e uma paleta cromática que já está toda planejada. O desafio fotográfico aqui é a coerência: manter o tom romântico do início ao fim do evento, inclusive nas fotos de festa e pista de dança. Ivan Dias planeja a pós-produção desse espaço com uma paleta mais pastel e suave — alinhada com o conceito visual que o espaço propõe.</p>',
+          },
+          {
+            title: 'Botânico Quintal — Fresh Wedding',
+            content: '<p>O conceito Fresh Wedding do <strong>Botânico Quintal</strong> é o mais vivo e sensorial do grupo — primavera o ano inteiro, flores, plantas aromáticas e uma paleta de verde e branco que é o sonho de qualquer fotógrafo de casamentos. Para fotografia, o Botânico tem o melhor ponto de luz do grupo: a integração com vegetação viva cria reflexos verdes suaves que amolecem a pele e eliminam sombras duras. O golden hour nesse espaço, com a luz filtrada pelas folhas e flores ao redor, produz imagens com uma luminosidade que parece editada — mas é completamente natural. <a href="/servicos/pre-wedding/">Planeje também o ensaio pré-wedding em harmonia com o conceito Fresh.</a></p>',
+          },
+        ],
+      },
+      {
+        h2: 'Como planejar a cobertura fotográfica para cada conceito',
+        content: '<p>O maior erro em casamentos no Grupo Quintal é contratar um fotógrafo que trate todos os espaços da mesma forma. Cada unidade tem uma linguagem visual que precisa ser respeitada — e fotografar o Celeiro Quintal com flash de rooftop corporativo ou o Botânico com o estilo seco e técnico de um buffet urbano resulta em fotos que parecem tiradas do lugar errado.</p><p>Ivan Dias realiza visita técnica específica em cada unidade do Quintal antes do evento — mapeando a luz, os ângulos e o equipamento ideal para cada conceito. Esse protocolo garante que as fotos entregues sejam coerentes com a proposta do espaço escolhido pelo casal — e não genéricas o suficiente para servir em qualquer espaço. <a href="/contato/">Agende uma conversa para planejar a cobertura no espaço Quintal que você escolheu.</a></p>',
+      },
+      {
+        h2: 'Quanto custa fotografar um casamento no Grupo Quintal',
+        content: '<p>Os valores variam conforme o formato de casamento — mini wedding na Casinha Quintal tem uma cobertura naturalmente mais compacta do que uma festa completa no Espaço Quintal ou no Celeiro. Para referência de preços por formato, consulte o guia de <a href="/blog/quanto-custa-fotografo-casamento-sao-paulo/">quanto custa um fotógrafo de casamento em São Paulo</a>.</p>',
+        table: {
+          caption: 'Faixas de mercado — Grupo Quintal (2025–2026)',
+          headers: ['Unidade / conceito', 'Formato típico', 'Horas de cobertura', 'Faixa do pacote'],
+          rows: [
+            ['Casinha Quintal (Mini Wedding)', 'Até 50 convidados', '4–6h', 'R$ 4.500–R$ 8.000'],
+            ['Casa Quintal (Comfort)', 'Até 100 convidados', '6–8h', 'R$ 5.000–R$ 9.500'],
+            ['Chalé Quintal (Romantic)', 'Até 100 convidados', '6–8h', 'R$ 5.000–R$ 9.500'],
+            ['Botânico Quintal (Fresh)', 'Até 120 convidados', '8–10h', 'R$ 6.000–R$ 11.000'],
+            ['Celeiro Quintal (Farm)', 'Até 150 convidados', '8–10h', 'R$ 6.000–R$ 11.000'],
+            ['Espaço Quintal (Rustic)', 'Até 200 convidados', '8–12h', 'R$ 6.500–R$ 13.000'],
+          ],
+        },
+      },
+    ],
+    faq: [
+      {
+        question: 'Qual espaço do Grupo Quintal tem o resultado fotográfico mais impactante?',
+        answer:
+          'Depende do estilo do casal. O Espaço Quintal (Rustic) produz os registros com mais textura e caráter histórico. O Botânico (Fresh) entrega a luz mais bonita e natural. O Celeiro (Farm) tem a paleta mais cinematográfica. Cada unidade tem uma linguagem visual distinta — não há uma melhor, há a certa para cada casal.',
+      },
+      {
+        question: 'Ivan Dias atende todos os espaços do Grupo Quintal?',
+        answer:
+          'Sim — Ivan Dias atende casamentos em todas as seis unidades do Grupo Quintal. Realiza visita técnica específica em cada espaço antes do evento para adaptar o equipamento e o planejamento fotográfico ao conceito de cada unidade.',
+      },
+      {
+        question: 'O flash é recomendado no Espaço Quintal rústico?',
+        answer:
+          'Não como fonte principal. O patrimônio tombado do Espaço Quintal tem uma atmosfera construída ao longo de décadas que o flash destrói. Ivan Dias trabalha o espaço com luz natural e ISO alto — preservando a ambiência e entregando fotos que respeitam o conceito Rustic Wedding.',
+      },
+      {
+        question: 'Mini wedding na Casinha Quintal precisa de segundo fotógrafo?',
+        answer:
+          'Em eventos com até 50 convidados, um fotógrafo experiente consegue cobrir todos os momentos importantes sem segundo assistente. A escala reduzida permite atenção individualizada a cada detalhe e cada pessoa — o que é exatamente o que o conceito da Casinha propõe.',
+      },
+      {
+        question: 'O Botânico Quintal permite pré-wedding no espaço?',
+        answer:
+          'Confirme diretamente com o espaço — algumas unidades do Grupo Quintal oferecem sessão prévia de casal. Para o Botânico, especificamente, a vegetação viva e as flores criam um cenário excepcionalmente bonito para ensaio. Ivan Dias recomenda fortemente aproveitar essa opção quando disponível.',
+      },
+      {
+        question: 'Quanto custa fotografar um casamento no Grupo Quintal?',
+        answer:
+          'Os pacotes partem de R$ 4.500 para mini weddings na Casinha Quintal. Para eventos completos nas unidades de maior capacidade, a faixa fica entre R$ 6.000 e R$ 13.000. Solicite orçamento personalizado pelo WhatsApp — resposta em até 24 horas.',
+      },
+    ],
+  },
+
+  // ─── Welucci — artigos individuais por unidade ───────────────────────────────
+
+  {
+    slug: 'fotografo-casamento-welucci-estaiada',
+    bairro: 'Welucci Estaiada',
+    title: 'Fotógrafo de Casamento no Welucci Estaiada: Beleza Arquitetônica em Cada Frame',
+    description: 'Fotografia de casamento no Welucci Estaiada: pontos fortes visuais, dinâmica de luz, como Ivan Dias planeja a cobertura neste espaço de arquitetura marcante e como contratar.',
+    excerpt: 'O Welucci Estaiada é um dos espaços mais fotograficamente generosos da cidade — com volumes arquitetônicos que criam profundidade, pontes estaiadas que oferecem perspectivas únicas e uma iluminação que combina artificial controlada com reflexos de água. Para o fotógrafo, é um cenário de alto nível.',
+    date: '2026-06-28',
+    updatedDate: '2026-06-28',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    sections: [
+      {
+        h2: 'Por que o Welucci Estaiada é fotogenicamente excepcional',
+        content: '<p>A identidade visual do Welucci Estaiada é construída em torno de estruturas que criam linhas de fuga naturais para as câmeras. As pontes e cabos estaiados formam molduras espontâneas para fotos do casal, enquanto os reflexos nos espelhos d\'água multiplicam a beleza da cena sem esforço adicional.</p><p>Para Ivan Dias, espaços com essa riqueza arquitetônica permitem construir imagens com múltiplos planos — casal em foco, estrutura ao fundo, reflexo abaixo. É o tipo de composição que transforma uma foto bonita em uma foto inesquecível.</p>',
+        h3s: [
+          { title: 'Iluminação técnica de alto padrão', content: '<p>O Welucci Estaiada combina iluminação técnica interna de alto padrão com a luz natural que entra pelas aberturas da estrutura. Esse equilíbrio permite fotografar sem flash dominante — o que preserva a atmosfera do espaço e gera imagens com cor e contraste naturais.</p>' },
+          { title: 'Cerimônia ao ar livre: a golden hour como aliada', content: '<p>Quando a cerimônia acontece no deck externo durante o fim de tarde, a golden hour pinta o cenário de laranja e dourado. Ivan Dias antecipa essa janela de luz e reserva os primeiros ângulos externos para capturar o casal nesse momento — geralmente os frames mais impactantes de toda a cobertura.</p>' },
+        ],
+      },
+      { h2: 'Como Ivan Dias planeja a cobertura no Welucci Estaiada', content: '<p>Antes do dia, Ivan Dias faz o mapeamento dos pontos fotográficos do espaço para definir onde posicionar câmera em cada momento-chave. Para o Welucci Estaiada, os principais são: entrada dos noivos, troca de alianças no altar, primeira dança e o deck externo durante o pôr do sol. <a href="/contato/">Agende uma conversa para planejar a sua cobertura.</a></p>' },
+      { h2: 'Serviços disponíveis para casamentos no Welucci Estaiada', content: '<p>Ivan Dias oferece pacotes completos para casamentos no Welucci Estaiada. Conheça os <a href="/servicos/cobertura-completa/">pacotes de cobertura completa</a>, o <a href="/servicos/pre-wedding/">ensaio pré-wedding</a> e o <a href="/servicos/drone/">registro com drone</a>.</p>' },
+      { h2: 'Quanto custa', content: '<p>Para o Welucci Estaiada, os pacotes partem de R$ 7.500 para coberturas completas. Consulte o guia de <a href="/blog/quanto-custa-fotografo-casamento-sao-paulo/">preços de fotografia de casamento em São Paulo</a> para referências completas.</p>' },
+    ],
+    faq: [
+      { question: 'Ivan Dias atende casamentos no Welucci Estaiada?', answer: 'Sim — Ivan Dias atende casamentos em todas as unidades do Grupo Welucci, incluindo o Welucci Estaiada. Entre em contato para verificar disponibilidade de data.' },
+      { question: 'O reflexo da água no Welucci Estaiada aparece nas fotos?', answer: 'Sim — com a posição correta da câmera, o espelho d\'água cria reflexos que dobram visualmente a beleza da cena. Ivan Dias mapeia esses ângulos antes do evento para não perder nenhuma oportunidade.' },
+      { question: 'É possível fazer fotos externas no Welucci Estaiada?', answer: 'Sim — a área externa com as estruturas estaiadas e o deck são alguns dos pontos fotográficos mais fortes do espaço. Ivan Dias reserva tempo específico no cronograma para esses registros.' },
+      { question: 'Quanto custa fotografar no Welucci Estaiada?', answer: 'Os pacotes partem de R$ 7.500 para cobertura completa. Solicite orçamento personalizado pelo WhatsApp — resposta em até 24 horas.' },
+    ],
+  },
+
+  {
+    slug: 'fotografo-casamento-welucci-single',
+    bairro: 'Welucci Single',
+    title: 'Fotógrafo de Casamento no Welucci Single: Sofisticação em Escala Intimista',
+    description: 'Fotografia de casamento no Welucci Single: ambiente de alto padrão, escala intimista, como a luz e a arquitetura se traduzem em imagens e como Ivan Dias planeja a cobertura.',
+    excerpt: 'O Welucci Single combina o padrão de acabamento do Grupo Welucci com uma escala que favorece casamentos mais exclusivos — onde cada detalhe recebe atenção e o fotógrafo consegue estar próximo de todos os momentos importantes sem perder nenhum.',
+    date: '2026-06-28',
+    updatedDate: '2026-06-28',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    sections: [
+      {
+        h2: 'Pontos fotográficos fortes do Welucci Single',
+        content: '<p>A escala reduzida do Welucci Single é, paradoxalmente, um dos seus maiores trunfos fotográficos. Com menos convidados e espaços mais compactos, o fotógrafo consegue criar imagens com densidade emocional real — rostos próximos, gestos capturados, lágrimas que não escapam. É o tipo de registro que casamentos grandes raramente permitem com a mesma consistência.</p>',
+        h3s: [
+          { title: 'Acabamento premium como pano de fundo', content: '<p>O padrão de acabamento do Grupo Welucci garante que cada superfície — paredes, pisos, mobiliário — contribui positivamente para as fotos. Não é necessário encontrar ângulos que "escondam" elementos feios: todo o espaço é fotografável.</p>' },
+          { title: 'Luz controlada com resultado previsível', content: '<p>A iluminação interna do Welucci Single foi projetada para criar ambiente, não apenas visibilidade. Isso permite que Ivan Dias trabalhe com configurações de câmera mais criativas — profundidade de campo rasa, tonalidades quentes, retratos com bokeh marcante.</p>' },
+        ],
+      },
+      { h2: 'Para quem o Welucci Single é ideal', content: '<p>O Welucci Single é a escolha certa para casais que querem o padrão Welucci em uma celebração mais concentrada — convidados selecionados, cerimônia e festa no mesmo espaço, cobertura fotográfica intensa e personalizada. Ivan Dias adapta o planejamento da cobertura para aproveitar ao máximo cada característica do espaço. <a href="/contato/">Fale para planejar juntos.</a></p>' },
+      { h2: 'Serviços para casamentos no Welucci Single', content: '<p>Conheça as opções de cobertura: <a href="/servicos/cobertura-completa/">cobertura completa</a>, <a href="/servicos/mini-wedding/">pacote mini wedding</a> e <a href="/servicos/pre-wedding/">ensaio pré-wedding</a>. Para casamentos intimistas, o ensaio prévio no próprio espaço é especialmente recomendado.</p>' },
+      { h2: 'Quanto custa', content: '<p>Para o Welucci Single, os pacotes partem de R$ 6.000. Para contexto completo de preços, veja o guia de <a href="/blog/quanto-custa-fotografo-casamento-sao-paulo/">quanto custa fotógrafo de casamento em São Paulo</a>.</p>' },
+    ],
+    faq: [
+      { question: 'Ivan Dias atende casamentos no Welucci Single?', answer: 'Sim — Ivan Dias atende todas as unidades do Grupo Welucci, incluindo o Welucci Single. Entre em contato para verificar disponibilidade.' },
+      { question: 'O Welucci Single é indicado para mini wedding?', answer: 'Sim — a escala do espaço o torna ideal para celebrações intimistas com foco em qualidade. A fotografia fica especialmente beneficiada pela proximidade entre o fotógrafo e os convidados.' },
+      { question: 'Quanto custa fotografar no Welucci Single?', answer: 'Os pacotes partem de R$ 6.000. Solicite orçamento personalizado pelo WhatsApp — resposta em até 24 horas.' },
+    ],
+  },
+
+  {
+    slug: 'fotografo-casamento-welucci-sansu',
+    bairro: 'Welucci Sansu',
+    title: 'Fotógrafo de Casamento no Welucci Sansu: Estética Japonesa e Luz de Outro Mundo',
+    description: 'Fotografia de casamento no Welucci Sansu: o conceito zen japonês, jardins como cenário fotográfico, como a luz interage com a arquitetura e como Ivan Dias planeja a cobertura.',
+    excerpt: 'O Welucci Sansu é um capítulo à parte na fotografia de casamento — o conceito zen japonês cria silêncio visual, linhas limpas e uma conexão com a natureza que raramente aparece em espaços de eventos. Para o fotógrafo, é uma oportunidade de criar imagens com uma serenidade e beleza que casamentos em salões convencionais dificilmente atingem.',
+    date: '2026-06-28',
+    updatedDate: '2026-06-28',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    sections: [
+      {
+        h2: 'O que torna o Welucci Sansu único para fotografia',
+        content: '<p>A filosofia zen japonesa do Sansu se traduz em fotografia de uma forma muito específica: menos elementos em cena, mais impacto em cada um. O jardim japonês, as pedras, a água e a vegetação cuidadosamente posicionada criam composições naturais que o fotógrafo apenas precisa encontrar — não construir.</p>',
+        h3s: [
+          { title: 'Jardins como protagonistas', content: '<p>Os jardins do Welucci Sansu são pontos fotográficos independentes — antes mesmo de incluir o casal, eles já formam imagens com forte identidade visual. Com o casal posicionado dentro desses cenários, o resultado são fotos com profundidade, contexto e beleza que vão muito além do registro convencional.</p>' },
+          { title: 'Luz natural filtrada pela vegetação', content: '<p>A vegetação do Sansu filtra a luz solar de maneira orgânica — criando padrões de luz e sombra no solo e nas pessoas. Ivan Dias aproveita esses padrões para criar retratos com textura e charme que não existem em espaços internos.</p>' },
+          { title: 'Interior zen: minimalismo que favorece o casal', content: '<p>A decoração interna minimalista do Sansu garante que o casal seja sempre o elemento principal do frame. Sem excessos visuais competindo pela atenção, as fotos ganham clareza e elegância naturalmente.</p>' },
+        ],
+      },
+      { h2: 'Como Ivan Dias trabalha no Welucci Sansu', content: '<p>Para casamentos no Welucci Sansu, Ivan Dias adota uma abordagem contemplativa — observação antes de intervenção, respeito ao ritmo natural do evento, câmera discreta. O estilo documental com olhar artístico é o que mais combina com a filosofia do espaço. <a href="/contato/">Converse sobre a sua data.</a></p>' },
+      { h2: 'Serviços para casamentos no Welucci Sansu', content: '<p>Conheça os pacotes disponíveis: <a href="/servicos/cobertura-completa/">cobertura fotográfica completa</a> e <a href="/servicos/pre-wedding/">ensaio pré-wedding</a> — especialmente recomendado para explorar os jardins com tranquilidade antes do dia do casamento.</p>' },
+      { h2: 'Quanto custa', content: '<p>Os pacotes para o Welucci Sansu partem de R$ 7.000 para coberturas completas. Veja o guia completo de <a href="/blog/quanto-custa-fotografo-casamento-sao-paulo/">preços de fotógrafo de casamento</a>.</p>' },
+    ],
+    faq: [
+      { question: 'Ivan Dias fotografa casamentos no Welucci Sansu?', answer: 'Sim — Ivan Dias atende casamentos em todas as unidades do Grupo Welucci, incluindo o Welucci Sansu. Entre em contato para verificar disponibilidade de data.' },
+      { question: 'O jardim japonês do Sansu aparece nas fotos do casamento?', answer: 'Com certeza — o jardim é um dos pontos fotográficos mais fortes do espaço. Ivan Dias reserva tempo específico no cronograma para fotos do casal nesse cenário.' },
+      { question: 'O estilo zen combina com casamentos mais festivos?', answer: 'Sim — o espaço acolhe diferentes estilos de celebração. O que muda é a estética fotográfica: o Sansu convida a fotos mais contemplativas e elegantes, que podem coexistir perfeitamente com os momentos de festa.' },
+      { question: 'Quanto custa fotografar no Welucci Sansu?', answer: 'Os pacotes partem de R$ 7.000. Solicite orçamento pelo WhatsApp — resposta em até 24 horas.' },
+    ],
+  },
+
+  {
+    slug: 'fotografo-casamento-welucci-fontana',
+    bairro: 'Welucci Fontana',
+    title: 'Fotógrafo de Casamento no Welucci Fontana: Águas, Fontes e Romantismo Visual',
+    description: 'Fotografia de casamento no Welucci Fontana: fontes como elemento visual, reflexos, iluminação noturna e como Ivan Dias planeja a cobertura fotográfica neste espaço romântico.',
+    excerpt: 'O Welucci Fontana usa a água como elemento central de design — fontes, espelhos d\'água e reflexos que transformam cada ângulo em uma composição naturalmente romântica. Para a fotografia de casamento, é um cenário que entrega resultado com consistência e beleza.',
+    date: '2026-06-28',
+    updatedDate: '2026-06-28',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    sections: [
+      {
+        h2: 'Água como elemento fotográfico no Welucci Fontana',
+        content: '<p>As fontes e espelhos d\'água do Welucci Fontana criam um elemento fotográfico que poucos espaços têm: movimento. A água em movimento suaviza a cena, cria som ambiente que descontrai os fotografados e gera reflexos que dobram a beleza de cada composição.</p>',
+        h3s: [
+          { title: 'Reflexos noturnos: o casamento ganha uma segunda dimensão', content: '<p>À noite, com a iluminação do espaço incidindo sobre a água, os reflexos ganham profundidade e intensidade. Ivan Dias trabalha com exposições mais longas nesses momentos para capturar tanto o casal quanto o reflexo com nitidez — o resultado é uma imagem que parece saída de um editorial de moda.</p>' },
+          { title: 'Fontes como moldura natural', content: '<p>Posicionadas estrategicamente, as fontes do Fontana funcionam como elementos de moldura natural em certas composições. O fotógrafo que conhece o espaço sabe exatamente onde posicionar o casal para usar esses elementos a favor da imagem.</p>' },
+        ],
+      },
+      { h2: 'Como Ivan Dias planeja a cobertura no Welucci Fontana', content: '<p>Ivan Dias mapeia os pontos de água do Fontana antes do evento para definir os ângulos ideais em cada horário do dia. A variação de luz entre cerimônia (tarde) e festa (noite) exige ajustes técnicos específicos que garantem qualidade consistente em toda a cobertura. <a href="/contato/">Agende uma conversa para planejar.</a></p>' },
+      { h2: 'Serviços disponíveis', content: '<p>Para casamentos no Welucci Fontana: <a href="/servicos/cobertura-completa/">cobertura fotográfica completa</a>, <a href="/servicos/pre-wedding/">ensaio pré-wedding</a> e <a href="/servicos/drone/">fotografia com drone</a> — o drone captura os reflexos de água de uma perspectiva aérea única.</p>' },
+      { h2: 'Quanto custa', content: '<p>Os pacotes para o Welucci Fontana partem de R$ 7.000. Veja mais referências no guia de <a href="/blog/quanto-custa-fotografo-casamento-sao-paulo/">preços de fotógrafo de casamento em São Paulo</a>.</p>' },
+    ],
+    faq: [
+      { question: 'Ivan Dias fotografa casamentos no Welucci Fontana?', answer: 'Sim — Ivan Dias atende casamentos em todas as unidades do Grupo Welucci, incluindo o Welucci Fontana. Entre em contato para verificar disponibilidade.' },
+      { question: 'As fontes aparecem bem nas fotos noturnas?', answer: 'Sim — com a iluminação correta, as fontes e reflexos noturnos ficam especialmente bonitos nas fotos. Ivan Dias reserva tempo específico para esses registros.' },
+      { question: 'Quanto custa fotografar no Welucci Fontana?', answer: 'Os pacotes partem de R$ 7.000. Solicite orçamento personalizado pelo WhatsApp — resposta em até 24 horas.' },
+    ],
+  },
+
+  {
+    slug: 'fotografo-casamento-welucci-kratos',
+    bairro: 'Welucci Kratos',
+    title: 'Fotógrafo de Casamento no Welucci Kratos: Grandiosidade Arquitetônica e Luz Dramática',
+    description: 'Fotografia de casamento no Welucci Kratos: pé-direito alto, arquitetura marcante, como a escala do espaço se traduz em fotos impactantes e como Ivan Dias planeja a cobertura.',
+    excerpt: 'O Welucci Kratos é um espaço projetado para impressionar — com volumes que criam senso de grandiosidade e uma arquitetura que faz o casal parecer protagonista de algo maior. Para o fotógrafo, a escala do Kratos é uma ferramenta poderosa de composição.',
+    date: '2026-06-28',
+    updatedDate: '2026-06-28',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    sections: [
+      {
+        h2: 'Escala como recurso fotográfico no Welucci Kratos',
+        content: '<p>O pé-direito alto e os volumes generosos do Welucci Kratos permitem composições que espaços menores simplesmente não comportam — planos abertos que mostram a grandiosidade do local com o casal em destaque no centro, ângulos superiores que revelam a simetria do salão, fotos de detalhe arquitetônico que contextualizam o ambiente.</p>',
+        h3s: [
+          { title: 'Luz dramática nos planos abertos', content: '<p>Os grandes volumes do Kratos criam zonas de luz e sombra que Ivan Dias usa para construir imagens com drama visual. Um casal posicionado no feixe de luz certo, com o salão mergulhado em sombra ao redor, gera um dos tipos de foto mais impactantes da fotografia de casamento.</p>' },
+          { title: 'Área externa: perspectivas que ampliam o cenário', content: '<p>A área externa do Welucci Kratos adiciona cenários naturais à cobertura — vegetação, céu aberto e estruturas do espaço que criam quadros completamente diferentes do interior. Ivan Dias planeja pelo menos uma sessão externa no cronograma do casamento.</p>' },
+        ],
+      },
+      { h2: 'Como Ivan Dias trabalha no Welucci Kratos', content: '<p>Para o Welucci Kratos, Ivan Dias combina fotografia documental com composições mais elaboradas nos pontos de destaque arquitetônico. A grandiosidade do espaço pede imagens à altura — e o planejamento prévio garante que nenhuma oportunidade seja perdida. <a href="/contato/">Converse para planejar a cobertura.</a></p>' },
+      { h2: 'Serviços para casamentos no Welucci Kratos', content: '<p>Conheça os pacotes disponíveis: <a href="/servicos/cobertura-completa/">cobertura fotográfica completa</a>, <a href="/servicos/drone/">fotografia com drone</a> — especialmente indicado para capturar a escala do espaço de cima — e <a href="/servicos/pre-wedding/">ensaio pré-wedding</a>.</p>' },
+      { h2: 'Quanto custa', content: '<p>Os pacotes para o Welucci Kratos partem de R$ 7.500 para coberturas completas. Veja o guia de <a href="/blog/quanto-custa-fotografo-casamento-sao-paulo/">preços de fotografia de casamento</a>.</p>' },
+    ],
+    faq: [
+      { question: 'Ivan Dias fotografa casamentos no Welucci Kratos?', answer: 'Sim — Ivan Dias atende casamentos em todas as unidades do Grupo Welucci, incluindo o Welucci Kratos. Entre em contato para verificar disponibilidade.' },
+      { question: 'Drone é recomendado para o Welucci Kratos?', answer: 'Sim — a escala do espaço e a área externa são ideais para o drone. A perspectiva aérea revela dimensões do espaço que nenhum ângulo no solo captura.' },
+      { question: 'Quanto custa fotografar no Welucci Kratos?', answer: 'Os pacotes partem de R$ 7.500. Solicite orçamento personalizado pelo WhatsApp — resposta em até 24 horas.' },
+    ],
+  },
+
+  {
+    slug: 'fotografo-casamento-casa-welucci',
+    bairro: 'Casa Welucci',
+    title: 'Fotógrafo de Casamento na Casa Welucci: O Melhor dos Dois Mundos',
+    description: 'Fotografia de casamento na Casa Welucci: como o conceito casa com padrão Welucci cria cenários fotográficos únicos, espaços externos, luz natural e como Ivan Dias planeja a cobertura.',
+    excerpt: 'A Casa Welucci traz algo raro no universo dos espaços de evento: a sensação autêntica de uma casa bem cuidada com o acabamento e a infraestrutura de um espaço de alto padrão. Para o fotógrafo, isso significa liberdade criativa — espaços internos aconchegantes, jardins com personalidade e ausência das paredes de salão que matam a ambiência das fotos.',
+    date: '2026-06-28',
+    updatedDate: '2026-06-28',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    sections: [
+      {
+        h2: 'Por que a Casa Welucci favorece a fotografia documental',
+        content: '<p>O ambiente residencial da Casa Welucci é o principal aliado da fotografia documental — o estilo que Ivan Dias adota em casamentos. Quando os convidados estão confortáveis e o espaço tem a escala de uma casa, os momentos espontâneos acontecem com muito mais frequência. E é exatamente nesses momentos que as melhores fotos surgem.</p>',
+        h3s: [
+          { title: 'Jardins com identidade própria', content: '<p>Os jardins da Casa Welucci têm personalidade — não são apenas "área verde genérica". Essa identidade visual específica cria cenários para fotos do casal que têm contexto e memória. Daqui a vinte anos, ao ver a foto, o casal sabe exatamente onde estava.</p>' },
+          { title: 'Luz natural como parceira', content: '<p>A arquitetura de casa favorece janelas amplas e iluminação natural generosa. Ivan Dias trabalha com essa luz como recurso principal sempre que possível — o resultado são cores mais verdadeiras, rostos mais naturais e uma paleta fotográfica que nunca envelhece.</p>' },
+        ],
+      },
+      { h2: 'Como Ivan Dias planeja a cobertura na Casa Welucci', content: '<p>Na Casa Welucci, Ivan Dias adota uma postura mais discreta e próxima — câmera sempre pronta, movimentação silenciosa pelos espaços, antecipação dos momentos sem interferência. O objetivo é documentar o casamento como ele realmente foi. <a href="/contato/">Converse sobre a sua data.</a></p>' },
+      { h2: 'Serviços disponíveis para a Casa Welucci', content: '<p>Para casamentos na Casa Welucci: <a href="/servicos/cobertura-completa/">cobertura fotográfica completa</a> e <a href="/servicos/pre-wedding/">ensaio pré-wedding</a> nos jardins — especialmente recomendado para criar familiaridade com o espaço antes do dia do evento.</p>' },
+      { h2: 'Quanto custa', content: '<p>Os pacotes para a Casa Welucci partem de R$ 7.000. Para contexto completo de preços, consulte o guia de <a href="/blog/quanto-custa-fotografo-casamento-sao-paulo/">fotógrafo de casamento em São Paulo</a>.</p>' },
+    ],
+    faq: [
+      { question: 'Ivan Dias fotografa casamentos na Casa Welucci?', answer: 'Sim — Ivan Dias atende casamentos em todas as unidades do Grupo Welucci, incluindo a Casa Welucci. Entre em contato para verificar disponibilidade.' },
+      { question: 'O jardim da Casa Welucci aparece na cobertura fotográfica?', answer: 'Sim — os jardins são um dos pontos fotográficos mais fortes do espaço. Ivan Dias planeja uma sessão específica no jardim no cronograma de cobertura.' },
+      { question: 'Quanto custa fotografar na Casa Welucci?', answer: 'Os pacotes partem de R$ 7.000. Solicite orçamento personalizado pelo WhatsApp — resposta em até 24 horas.' },
+    ],
+  },
+
+  {
+    slug: 'fotografo-casamento-welucci-gardens',
+    bairro: 'Welucci Gardens',
+    title: 'Fotógrafo de Casamento no Welucci Gardens: Verde, Luz e Elegância Natural',
+    description: 'Fotografia de casamento no Welucci Gardens: jardins exuberantes, luz filtrada pela vegetação, como o verde transforma a paleta fotográfica e como Ivan Dias planeja a cobertura.',
+    excerpt: 'O Welucci Gardens é, literalmente, um casamento no jardim — mas com toda a infraestrutura e sofisticação do Grupo Welucci. Para a fotografia, a combinação de verde exuberante, luz natural filtrada e acabamento premium cria uma paleta única: cores vibrantes, fundo desfocado em verde e um romantismo que espaços fechados raramente entregam.',
+    date: '2026-06-28',
+    updatedDate: '2026-06-28',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    sections: [
+      {
+        h2: 'Vegetação como recurso fotográfico no Welucci Gardens',
+        content: '<p>No Welucci Gardens, a vegetação não é decoração — é parte estrutural do espaço. Para o fotógrafo, isso significa fundos naturais com profundidade, bokeh verde que cria sensação de profundidade e uma paleta de cores que varia com a estação e a hora do dia.</p>',
+        h3s: [
+          { title: 'Luz filtrada que cria textura', content: '<p>Quando a luz solar atravessa a cobertura vegetal do Gardens, cria padrões de luz e sombra nos fotografados — um efeito que nenhum estúdio consegue replicar artificialmente com a mesma naturalidade. Ivan Dias posiciona o casal nesses feixes de luz para criar retratos com textura e alma.</p>' },
+          { title: 'Cerimônia ao ar livre: o verde como altar', content: '<p>A cerimônia no Welucci Gardens com a vegetação como pano de fundo é um dos cenários mais bonitos para fotografia de casamento. O fotógrafo tem ângulos em múltiplas direções — pelo altar olhando os convidados, pelos convidados olhando o altar, laterais que mostram o espaço em perspectiva.</p>' },
+        ],
+      },
+      { h2: 'Planejamento fotográfico para o Welucci Gardens', content: '<p>Para casamentos no Welucci Gardens, Ivan Dias antecipa a luz natural para posicionar cerimônia e ensaios nos horários mais favoráveis. O fim de tarde, quando a luz dourada atravessa a vegetação, é a janela mais valiosa — e não pode ser desperdiçada. <a href="/contato/">Converse para definir o cronograma ideal.</a></p>' },
+      { h2: 'Serviços para casamentos no Welucci Gardens', content: '<p>Para o Welucci Gardens: <a href="/servicos/cobertura-completa/">cobertura fotográfica completa</a>, <a href="/servicos/drone/">fotografia com drone</a> — que revela a extensão dos jardins de cima — e <a href="/servicos/pre-wedding/">ensaio pré-wedding</a> na vegetação.</p>' },
+      { h2: 'Quanto custa', content: '<p>Os pacotes para o Welucci Gardens partem de R$ 7.500. Para mais referências de preço, veja o guia de <a href="/blog/quanto-custa-fotografo-casamento-sao-paulo/">fotógrafo de casamento em São Paulo</a>.</p>' },
+    ],
+    faq: [
+      { question: 'Ivan Dias fotografa casamentos no Welucci Gardens?', answer: 'Sim — Ivan Dias atende casamentos em todas as unidades do Grupo Welucci, incluindo o Welucci Gardens. Entre em contato para verificar disponibilidade.' },
+      { question: 'O que torna o Welucci Gardens especial para fotografia?', answer: 'A combinação de vegetação exuberante com o padrão de acabamento Welucci cria um cenário que entrega qualidade visual em todos os ângulos — ao contrário de espaços que têm apenas um ou outro elemento.' },
+      { question: 'Drone é recomendado para o Welucci Gardens?', answer: 'Sim — a perspectiva aérea revela a extensão dos jardins de uma forma que nenhum ângulo no solo alcança. Muito recomendado para coberturas que queiram mostrar o espaço em toda a sua beleza.' },
+      { question: 'Quanto custa fotografar no Welucci Gardens?', answer: 'Os pacotes partem de R$ 7.500. Solicite orçamento pelo WhatsApp — resposta em até 24 horas.' },
+    ],
+  },
+
+  {
+    slug: 'fotografo-casamento-welucci-village',
+    bairro: 'Welucci Village',
+    title: 'Fotógrafo de Casamento no Welucci Village: Casamento em Vilarejo de Alto Padrão',
+    description: 'Fotografia de casamento no Welucci Village: o conceito de vilarejo, múltiplos cenários em um só espaço, diversidade fotográfica e como Ivan Dias planeja a cobertura completa.',
+    excerpt: 'O Welucci Village é um conceito único — um vilarejo de alto padrão onde cada "rua" e cada "praça" são cenários completamente diferentes. Para o fotógrafo, isso é ouro: um único evento gera fotos com diversidade de cenários que normalmente exigiria múltiplos locais.',
+    date: '2026-06-28',
+    updatedDate: '2026-06-28',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    sections: [
+      {
+        h2: 'Múltiplos cenários em um único espaço',
+        content: '<p>A maior vantagem fotográfica do Welucci Village é a diversidade de cenários dentro do mesmo evento — fachadas com personalidade, áreas abertas, espaços internos, elementos decorativos fixos. Para o álbum do casamento, isso significa uma narrativa visual variada que mantém o interesse do início ao fim.</p>',
+        h3s: [
+          { title: 'Fachadas como pano de fundo', content: '<p>As fachadas do Village têm identidade visual forte — parecem saídas de um cenário cinematográfico. Ivan Dias usa essas fachadas como pano de fundo para fotos do casal que têm profundidade e charme sem precisar de nenhuma produção adicional.</p>' },
+          { title: 'Circulação do casal como roteiro fotográfico', content: '<p>O conceito de vilarejo convida o casal a "circular" pelo espaço ao longo do evento — e essa movimentação cria oportunidades fotográficas em múltiplos pontos. Ivan Dias acompanha esse percurso com câmera sempre pronta, documentando cada descoberta do espaço pelo casal e convidados.</p>' },
+        ],
+      },
+      { h2: 'Como Ivan Dias planeja a cobertura no Welucci Village', content: '<p>No Village, Ivan Dias mapeia todos os pontos fotográficos antes do evento para criar um roteiro visual — quais cenários usar em cada momento do dia, que luz esperar em cada área, onde posicionar câmeras de cobertura. <a href="/contato/">Converse para planejar.</a></p>' },
+      { h2: 'Serviços disponíveis', content: '<p>Para casamentos no Welucci Village: <a href="/servicos/cobertura-completa/">cobertura fotográfica completa</a>, <a href="/servicos/drone/">fotografia com drone</a> e <a href="/servicos/pre-wedding/">ensaio pré-wedding</a> para explorar os cenários com antecedência.</p>' },
+      { h2: 'Quanto custa', content: '<p>Os pacotes para o Welucci Village partem de R$ 8.000 para coberturas completas. Veja mais em <a href="/blog/quanto-custa-fotografo-casamento-sao-paulo/">quanto custa fotógrafo de casamento em São Paulo</a>.</p>' },
+    ],
+    faq: [
+      { question: 'Ivan Dias fotografa casamentos no Welucci Village?', answer: 'Sim — Ivan Dias atende casamentos em todas as unidades do Grupo Welucci, incluindo o Welucci Village. Entre em contato para verificar disponibilidade.' },
+      { question: 'O conceito de vilarejo gera fotos variadas?', answer: 'Sim — essa é a maior vantagem fotográfica do Village. Um único evento produz imagens com diversidade de cenários que normalmente exigiria múltiplos locais.' },
+      { question: 'Quanto custa fotografar no Welucci Village?', answer: 'Os pacotes partem de R$ 8.000. Solicite orçamento personalizado pelo WhatsApp — resposta em até 24 horas.' },
+    ],
+  },
+
+  {
+    slug: 'fotografo-casamento-welucci-the-one',
+    bairro: 'Welucci The One',
+    title: 'Fotógrafo de Casamento no Welucci The One: Topo do Padrão Welucci',
+    description: 'Fotografia de casamento no Welucci The One: o que torna este espaço o topo da linha Welucci, como o acabamento e a escala se traduzem em fotos e como Ivan Dias planeja a cobertura.',
+    excerpt: 'O Welucci The One carrega no nome o que entrega na prática: é a experiência topo de linha do Grupo Welucci. Para a fotografia de casamento, isso significa o melhor cenário disponível — acabamento impecável em cada detalhe, escala que impressiona e uma iluminação projetada para eventos de alto padrão.',
+    date: '2026-06-28',
+    updatedDate: '2026-06-28',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    sections: [
+      {
+        h2: 'O que torna o Welucci The One único para fotografia',
+        content: '<p>O The One é projetado para impressionar desde o primeiro ângulo — e isso se traduz diretamente em fotografia. Cada detalhe do espaço foi pensado com nível de refinamento que garante que qualquer ângulo que o fotógrafo escolha é um ângulo válido. Não há "ângulo feio" no The One — apenas escolhas criativas.</p>',
+        h3s: [
+          { title: 'Escala e grandiosidade como ferramenta', content: '<p>A escala do The One permite composições que espaços menores não comportam — planos gerais que mostram o evento em toda a sua magnitude, ângulos superiores que revelam a simetria e o design do salão, fotos de detalhe arquitetônico que contextualizam o padrão da celebração.</p>' },
+          { title: 'Iluminação de evento de alto padrão', content: '<p>A iluminação do Welucci The One é projetada para eventos de gala — com temperatura de cor controlada, distribuição uniforme e pontos de destaque que criam drama visual sem sacrificar a qualidade das fotos. Ivan Dias adapta as configurações de câmera para tirar o máximo dessa iluminação.</p>' },
+        ],
+      },
+      { h2: 'Como Ivan Dias trabalha no Welucci The One', content: '<p>Para coberturas no Welucci The One, Ivan Dias eleva o planejamento ao nível do espaço — mais tempo de reconhecimento prévio, cronograma detalhado, posicionamento calculado para cada momento-chave. O The One pede uma cobertura à altura. <a href="/contato/">Agende uma conversa para planejar.</a></p>' },
+      { h2: 'Serviços disponíveis', content: '<p>Para casamentos no Welucci The One: <a href="/servicos/cobertura-completa/">cobertura fotográfica completa</a>, <a href="/servicos/drone/">fotografia com drone</a> e <a href="/servicos/pre-wedding/">ensaio pré-wedding</a>. Para este espaço, Ivan Dias recomenda especialmente a cobertura com segunda câmera.</p>' },
+      { h2: 'Quanto custa', content: '<p>Para o Welucci The One, os pacotes partem de R$ 9.000 para coberturas completas. Veja o guia de <a href="/blog/quanto-custa-fotografo-casamento-sao-paulo/">preços de fotógrafo de casamento</a> para referências completas.</p>' },
+    ],
+    faq: [
+      { question: 'Ivan Dias fotografa casamentos no Welucci The One?', answer: 'Sim — Ivan Dias atende casamentos em todas as unidades do Grupo Welucci, incluindo o Welucci The One. Entre em contato para verificar disponibilidade.' },
+      { question: 'Por que o Welucci The One é considerado o topo da linha?', answer: 'Pelo conjunto: escala, acabamento, iluminação e infraestrutura. É o espaço onde cada detalhe foi executado no nível mais alto — o que garante que a fotografia reflita essa qualidade em cada frame.' },
+      { question: 'Segunda câmera é recomendada para o The One?', answer: 'Sim — a escala do evento e a quantidade de momentos simultâneos tornam a segunda câmera especialmente valiosa. Ivan Dias recomenda esta opção para coberturas no Welucci The One.' },
+      { question: 'Quanto custa fotografar no Welucci The One?', answer: 'Os pacotes partem de R$ 9.000. Solicite orçamento personalizado pelo WhatsApp — resposta em até 24 horas.' },
+    ],
+  },
+
+  {
+    slug: 'fotografo-casamento-welucci-vila-real',
+    bairro: 'Welucci Vila Real',
+    title: 'Fotógrafo de Casamento no Welucci Vila Real: Arquitetura Clássica e Charme Ibérico',
+    description: 'Fotografia de casamento no Welucci Vila Real: arquitetura de inspiração portuguesa, detalhes clássicos, como a estética ibérica se traduz em imagens e como Ivan Dias planeja a cobertura.',
+    excerpt: 'O Welucci Vila Real traz a estética clássica portuguesa para o cenário de casamentos — azulejos, arcos, pedra e madeira que criam uma atmosfera completamente diferente dos espaços modernos. Para o fotógrafo, é um convite para composições com textura, história e elegância que resistem ao tempo.',
+    date: '2026-06-28',
+    updatedDate: '2026-06-28',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    sections: [
+      {
+        h2: 'A estética clássica do Welucci Vila Real como recurso fotográfico',
+        content: '<p>Azulejos, arcos e pedra criam texturas que a câmera captura com riqueza de detalhe. O Welucci Vila Real é um dos poucos espaços onde o próprio pano de fundo das fotos conta uma história — e isso eleva o resultado fotográfico a um patamar que espaços neutros ou modernos raramente atingem.</p>',
+        h3s: [
+          { title: 'Azulejos como elemento de composição', content: '<p>Os azulejos do Vila Real funcionam como elemento ativo de composição nas fotos — não apenas como fundo. Ivan Dias os usa como moldura, como padrão que complementa a roupa do casal ou como elemento geométrico que dá profundidade à imagem.</p>' },
+          { title: 'Luz natural em arquitetura clássica', content: '<p>A arquitetura de estilo português é generosa com a luz natural — janelas altas, arcos que criam chiaroscuro e pátios internos que direcionam o sol de forma previsível. Ivan Dias antecipa esses padrões de luz para posicionar o casal nos momentos mais favoráveis.</p>' },
+        ],
+      },
+      { h2: 'Como Ivan Dias trabalha no Welucci Vila Real', content: '<p>No Vila Real, Ivan Dias equilibra documentação e arte — aproveitando a riqueza cenográfica do espaço para criar imagens com estética própria, sem perder os momentos emocionais espontâneos que são a essência do casamento. <a href="/contato/">Converse para planejar a cobertura.</a></p>' },
+      { h2: 'Serviços disponíveis', content: '<p>Para casamentos no Welucci Vila Real: <a href="/servicos/cobertura-completa/">cobertura fotográfica completa</a> e <a href="/servicos/pre-wedding/">ensaio pré-wedding</a> — especialmente recomendado para explorar os ângulos com azulejos e arcos com tranquilidade antes do dia.</p>' },
+      { h2: 'Quanto custa', content: '<p>Os pacotes para o Welucci Vila Real partem de R$ 7.500. Para referências completas, consulte o guia de <a href="/blog/quanto-custa-fotografo-casamento-sao-paulo/">preços de fotografia de casamento em São Paulo</a>.</p>' },
+    ],
+    faq: [
+      { question: 'Ivan Dias fotografa casamentos no Welucci Vila Real?', answer: 'Sim — Ivan Dias atende casamentos em todas as unidades do Grupo Welucci, incluindo o Welucci Vila Real. Entre em contato para verificar disponibilidade.' },
+      { question: 'Os azulejos aparecem nas fotos?', answer: 'Sim — e ficam lindos. Ivan Dias usa os azulejos como elemento de composição ativo, não apenas como fundo. O resultado são imagens com identidade visual forte e inconfundível.' },
+      { question: 'Quanto custa fotografar no Welucci Vila Real?', answer: 'Os pacotes partem de R$ 7.500. Solicite orçamento personalizado pelo WhatsApp — resposta em até 24 horas.' },
+    ],
+  },
+
+  {
+    slug: 'fotografo-casamento-welucci-fagundes',
+    bairro: 'Welucci Fagundes',
+    title: 'Fotógrafo de Casamento no Welucci Fagundes: Casarão Colonial com Alma de Evento',
+    description: 'Fotografia de casamento no Welucci Fagundes: o charme do casarão colonial, materiais históricos, como a textura do tempo se traduz em imagens e como Ivan Dias planeja a cobertura.',
+    excerpt: 'O Welucci Fagundes é um casarão colonial que preserva a memória das paredes e do tempo — com madeira, pedra e uma arquitetura que nenhuma reforma consegue fabricar do zero. Para a fotografia de casamento, esse patrimônio cria um pano de fundo com profundidade histórica e visual que transforma cada foto em algo especial.',
+    date: '2026-06-28',
+    updatedDate: '2026-06-28',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    sections: [
+      {
+        h2: 'A textura histórica do Welucci Fagundes como diferencial fotográfico',
+        content: '<p>Madeira envelhecida, pedra aparente, telhas coloniais — o Welucci Fagundes é feito de materiais que o tempo transformou em arte. Para o fotógrafo, cada uma dessas superfícies é uma textura que a câmera captura com riqueza e que enriquece o contexto visual do casal na imagem.</p>',
+        h3s: [
+          { title: 'Luz natural em estrutura colonial', content: '<p>A estrutura colonial do Fagundes tem aberturas que direcionam a luz natural de forma dramática — raios de sol que atravessam janelas antigas, sombras que criam contraste nas paredes de pedra, luz suave que entra pelos arcos. Ivan Dias usa essa luz como elemento principal, recorrendo ao flash apenas quando necessário.</p>' },
+          { title: 'Jardim e entorno como extensão do cenário', content: '<p>O entorno do casarão — jardins, vegetação e espaços externos — são extensões naturais do cenário fotográfico. Ivan Dias planeja uma sessão do casal nesses espaços, aproveitando a ambiência histórica do conjunto arquitetônico.</p>' },
+        ],
+      },
+      { h2: 'Como Ivan Dias trabalha no Welucci Fagundes', content: '<p>Para coberturas no Welucci Fagundes, Ivan Dias valoriza a autenticidade histórica do espaço — buscando ângulos que mostrem a textura e o caráter do casarão como contexto da celebração. É o tipo de cobertura que, daqui a vinte anos, vai parecer ainda mais bonita do que no dia. <a href="/contato/">Converse para planejar.</a></p>' },
+      { h2: 'Serviços disponíveis', content: '<p>Para casamentos no Welucci Fagundes: <a href="/servicos/cobertura-completa/">cobertura fotográfica completa</a> e <a href="/servicos/pre-wedding/">ensaio pré-wedding</a> no casarão — uma experiência única para o casal antes do dia.</p>' },
+      { h2: 'Quanto custa', content: '<p>Os pacotes para o Welucci Fagundes partem de R$ 7.500. Consulte o guia de <a href="/blog/quanto-custa-fotografo-casamento-sao-paulo/">preços de fotógrafo de casamento</a> para mais referências.</p>' },
+    ],
+    faq: [
+      { question: 'Ivan Dias fotografa casamentos no Welucci Fagundes?', answer: 'Sim — Ivan Dias atende casamentos em todas as unidades do Grupo Welucci, incluindo o Welucci Fagundes. Entre em contato para verificar disponibilidade.' },
+      { question: 'O casarão colonial aparece nas fotos?', answer: 'Sim — a arquitetura histórica é um dos elementos centrais da cobertura fotográfica no Fagundes. Ivan Dias usa a textura e o charme do casarão como componente ativo das composições.' },
+      { question: 'Quanto custa fotografar no Welucci Fagundes?', answer: 'Os pacotes partem de R$ 7.500. Solicite orçamento pelo WhatsApp — resposta em até 24 horas.' },
+    ],
+  },
+
+  {
+    slug: 'fotografo-casamento-welucci-ocean',
+    bairro: 'Welucci Ocean',
+    title: 'Fotógrafo de Casamento no Welucci Ocean: Quando o Mar Entra na Festa',
+    description: 'Fotografia de casamento no Welucci Ocean: temática náutica, como elementos do mar se traduzem em imagens, iluminação, perspectivas únicas e como Ivan Dias planeja a cobertura.',
+    excerpt: 'O Welucci Ocean traz a essência do mar para o cenário da festa — e para a fotografia, isso significa uma paleta de cores, elementos visuais e uma atmosfera completamente diferente dos espaços convencionais. Azul, branco, madeira e luz que parece refletida pela água: um set fotográfico com identidade inconfundível.',
+    date: '2026-06-28',
+    updatedDate: '2026-06-28',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    sections: [
+      {
+        h2: 'A identidade visual náutica do Welucci Ocean em fotografia',
+        content: '<p>O conceito oceânico do Welucci Ocean se traduz em fotografia através de uma paleta específica — azuis, brancos e madeira que criam composições com consistência visual muito forte. Para o álbum do casamento, isso significa fotos que formam um conjunto coeso com estética própria.</p>',
+        h3s: [
+          { title: 'Paleta azul e branco: elegância natural', content: '<p>A combinação de azul e branco do Ocean cria um contraste naturalmente elegante com qualquer cor de roupa do casal. Ivan Dias considera essa paleta ao orientar o ensaio externo no espaço.</p>' },
+          { title: 'Elementos náuticos como props fotográficos', content: '<p>Os elementos decorativos náuticos do Ocean funcionam como props naturais que contextualizam as fotos sem precisar de nenhuma produção adicional. Ivan Dias aproveita esses elementos para criar fotos de detalhe com identidade visual forte.</p>' },
+          { title: 'Iluminação que imita o reflexo do mar', content: '<p>A iluminação do Welucci Ocean foi planejada para reforçar o conceito náutico — com tons frios e reflexos que remetem à luz sobre a água. Fotograficamente, isso cria uma temperatura de cor diferente da maioria dos espaços de evento, com resultados únicos.</p>' },
+        ],
+      },
+      { h2: 'Como Ivan Dias trabalha no Welucci Ocean', content: '<p>Para coberturas no Welucci Ocean, Ivan Dias adapta a edição final das fotos para valorizar a paleta náutica do espaço — realçando os azuis, o branco e os tons de madeira. O resultado são fotos com uma coerência visual que conta a história do casamento com estilo. <a href="/contato/">Agende uma conversa para planejar.</a></p>' },
+      { h2: 'Serviços disponíveis', content: '<p>Para casamentos no Welucci Ocean: <a href="/servicos/cobertura-completa/">cobertura fotográfica completa</a>, <a href="/servicos/pre-wedding/">ensaio pré-wedding</a> e <a href="/servicos/drone/">fotografia com drone</a> — que captura o conceito náutico de uma perspectiva aérea única.</p>' },
+      { h2: 'Quanto custa', content: '<p>Os pacotes para o Welucci Ocean partem de R$ 7.500. Consulte o guia de <a href="/blog/quanto-custa-fotografo-casamento-sao-paulo/">preços de fotógrafo de casamento em São Paulo</a>.</p>' },
+    ],
+    faq: [
+      { question: 'Ivan Dias fotografa casamentos no Welucci Ocean?', answer: 'Sim — Ivan Dias atende casamentos em todas as unidades do Grupo Welucci, incluindo o Welucci Ocean. Entre em contato para verificar disponibilidade.' },
+      { question: 'O conceito náutico do Ocean fica evidente nas fotos?', answer: 'Sim — a paleta, os elementos decorativos e a iluminação do espaço criam uma identidade visual muito forte que aparece naturalmente nas fotos, sem precisar de nenhuma produção adicional.' },
+      { question: 'Drone é recomendado para o Welucci Ocean?', answer: 'Sim — a perspectiva aérea reforça o conceito náutico e revela dimensões do espaço que os ângulos no chão não capturam.' },
+      { question: 'Quanto custa fotografar no Welucci Ocean?', answer: 'Os pacotes partem de R$ 7.500. Solicite orçamento personalizado pelo WhatsApp — resposta em até 24 horas.' },
+    ],
+  },
+
+  {
+    slug: 'fotografo-casamento-welucci-canto-verde',
+    bairro: 'Welucci Canto Verde',
+    title: 'Fotógrafo de Casamento no Welucci Canto Verde: Natureza da Serra na Fotografia',
+    description: 'Fotografia de casamento no Welucci Canto Verde: cenário de serra, vegetação densa, luz de altitude, como a natureza eleva a qualidade das fotos e como Ivan Dias planeja a cobertura.',
+    excerpt: 'O Welucci Canto Verde é um casamento em harmonia com a natureza da serra — vegetação densa, ar limpo, silêncio e uma luz de altitude que não existe na cidade. Para o fotógrafo, esse ambiente cria imagens com uma qualidade de cor e profundidade que só a natureza em estado puro consegue oferecer.',
+    date: '2026-06-28',
+    updatedDate: '2026-06-28',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    sections: [
+      {
+        h2: 'A luz de serra como diferencial fotográfico no Welucci Canto Verde',
+        content: '<p>A luz em altitude tem uma qualidade diferente da cidade — mais azul ao meio-dia, mais dourada ao fim de tarde, com menos poluição luminosa que interfere nas cores. No Welucci Canto Verde, essa luz natural de serra é o principal recurso fotográfico: cria cores verdadeiras, profundidade visual e uma ambiência que nenhuma iluminação artificial consegue replicar.</p>',
+        h3s: [
+          { title: 'Vegetação densa: fundo vivo para as fotos', content: '<p>A vegetação da serra ao redor do Canto Verde cria fundos fotográficos com uma riqueza de verde que espaços urbanos simplesmente não têm. Com uma lente mais aberta, o fundo vira uma nuvem de verde desfocada que emoldura o casal com elegância natural.</p>' },
+          { title: 'Névoa e nuvens: elemento extra de cena', content: '<p>A altitude do Canto Verde pode trazer névoa ou nuvens rasas que passam pelo cenário — um elemento fotográfico imprevisível mas, quando acontece, absolutamente único. Ivan Dias fica sempre atento a essas janelas de atmosfera para capturar imagens genuinamente irreproduzíveis.</p>' },
+          { title: 'Golden hour de serra: a hora mágica amplificada', content: '<p>O pôr do sol em altitude pinta o céu com uma intensidade que as cidades raramente oferecem — laranja profundo, lilás e rosa que refletem na vegetação e nos rostos. Ivan Dias reserva o cronograma para estar nos melhores pontos externos nesse momento.</p>' },
+        ],
+      },
+      { h2: 'Como Ivan Dias planeja coberturas no Welucci Canto Verde', content: '<p>Para casamentos no Canto Verde, Ivan Dias aumenta o peso da fotografia externa e dos retratos do casal na natureza — aproveitando o que esse espaço tem de único. O interior do espaço também tem seu valor, mas é no ambiente da serra que as imagens mais memoráveis surgem. <a href="/contato/">Converse para definir o cronograma ideal.</a></p>' },
+      { h2: 'Serviços disponíveis para o Welucci Canto Verde', content: '<p>Para casamentos no Welucci Canto Verde: <a href="/servicos/cobertura-completa/">cobertura fotográfica completa</a>, <a href="/servicos/drone/">fotografia com drone</a> — que revela a paisagem da serra de forma espetacular — e <a href="/servicos/pre-wedding/">ensaio pré-wedding</a> na natureza da serra.</p>' },
+      { h2: 'Quanto custa', content: '<p>Para o Welucci Canto Verde, os pacotes partem de R$ 8.000 considerando o deslocamento para a região serrana. Veja o guia de <a href="/blog/quanto-custa-fotografo-casamento-sao-paulo/">preços de fotógrafo de casamento</a> para mais informações.</p>' },
+    ],
+    faq: [
+      { question: 'Ivan Dias fotografa casamentos no Welucci Canto Verde?', answer: 'Sim — Ivan Dias atende casamentos em todas as unidades do Grupo Welucci, incluindo o Welucci Canto Verde na serra. Entre em contato para verificar disponibilidade de data.' },
+      { question: 'A névoa da serra aparece nas fotos?', answer: 'Quando acontece, sim — e fica absolutamente bonita. A névoa cria uma atmosfera única nas fotos que é impossível de produzir artificialmente. Ivan Dias fica atento a esses momentos durante todo o evento.' },
+      { question: 'Drone é recomendado para o Welucci Canto Verde?', answer: 'Sim — é um dos espaços onde o drone entrega o resultado mais impactante. A paisagem serrana de cima é uma das imagens mais marcantes de uma cobertura no Canto Verde.' },
+      { question: 'Quanto custa fotografar no Welucci Canto Verde?', answer: 'Os pacotes partem de R$ 8.000. Solicite orçamento personalizado pelo WhatsApp — resposta em até 24 horas.' },
     ],
   },
 ];
