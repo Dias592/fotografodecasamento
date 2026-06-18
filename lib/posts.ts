@@ -1,4 +1,4 @@
-export type FAQ = {
+﻿export type FAQ = {
   question: string;
   answer: string;
 };
@@ -120,7 +120,7 @@ export const posts: Post[] = [
     excerpt:
       'Moema combina a sofisticação residencial com a natureza única do entorno do Ibirapuera — um dos cenários mais completos para casamentos em São Paulo. Este guia cobre os principais espaços do bairro, a melhor janela de luz para fotos, logística e como planejar a cobertura fotográfica para cada formato de celebração.',
     date: '2026-02-02',
-    updatedDate: '2026-06-28',
+    updatedDate: '2025-04-05',
     image: '/images/blog/fotografo-casamento-moema-festa.jpg',
     sections: [
       {
@@ -2215,7 +2215,7 @@ export const posts: Post[] = [
     excerpt:
       'Sorocaba cresceu muito como polo de casamentos no interior paulista — com espaços premium do Grupo Welucci (Sansu e Fontana), fazendas com paisagem aberta e chácaras a 90 km de São Paulo. Este guia cobre os principais espaços, a logística da Raposo Tavares e como planejar uma cobertura fotográfica de qualidade para um casamento na região.',
     date: '2026-01-10',
-    updatedDate: '2026-06-28',
+    updatedDate: '2025-04-05',
     image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-05.jpg',
     sections: [
       {
@@ -2400,7 +2400,7 @@ export const posts: Post[] = [
     excerpt:
       'Guarulhos é a segunda maior cidade do estado e tem uma cena de eventos consolidada, com buffets de referência como o Europa, Evian e Bosque Maia Master. Este guia cobre os principais espaços onde Ivan Dias já fotografou casamentos na cidade, a logística desde São Paulo e as melhores opções de pré-wedding na região da Cantareira.',
     date: '2026-01-22',
-    updatedDate: '2026-06-28',
+    updatedDate: '2025-04-05',
     image: '/images/galeria/detalhes/casamento-sao-paulo-detalhes-08.jpg',
     sections: [
       {
@@ -2508,7 +2508,7 @@ export const posts: Post[] = [
     excerpt:
       'Santo André é o polo do ABCDM — com a maior oferta de espaços para eventos da região, igrejas tradicionais e buffets de referência como o Mezzatorre e o Cook Hall. Este guia cobre tudo que você precisa saber sobre fotografia de casamento em Santo André: onde casar, logística, pré-wedding e quanto custa.',
     date: '2026-01-26',
-    updatedDate: '2026-06-28',
+    updatedDate: '2025-04-05',
     image: '/images/galeria/festa/casamento-sao-paulo-festa-09.jpg',
     sections: [
       {
@@ -2784,7 +2784,7 @@ export const posts: Post[] = [
     excerpt:
       'Jundiaí e Vinhedo formam um dos destinos de casamento mais completos do interior paulista — com o Welucci Kratos em Vinhedo, vinhedos de influência italiana, a Serra do Japi e fazendas históricas a 60 km de São Paulo. Este guia cobre os principais espaços, a melhor época do ano e como planejar a cobertura fotográfica para cada tipo de espaço na região.',
     date: '2026-02-15',
-    updatedDate: '2026-06-28',
+    updatedDate: '2025-04-05',
     image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-03.jpg',
     sections: [
       {
@@ -3208,7 +3208,7 @@ export const posts: Post[] = [
     excerpt:
       'São Bernardo do Campo é a maior e mais sofisticada cidade do ABCDM — com buffets de referência como o Jardim Viena, chácaras à beira da Represa Billings em Riacho Grande e um mercado de casamentos exigente. Este guia cobre os espaços confirmados por Ivan Dias, a logística da região e os melhores cenários para pré-wedding.',
     date: '2026-03-23',
-    updatedDate: '2026-06-28',
+    updatedDate: '2025-04-05',
     image: '/images/galeria/festa/casamento-sao-paulo-festa-02.jpg',
     sections: [
       {
@@ -3431,7 +3431,7 @@ export const posts: Post[] = [
     excerpt:
       'Mairiporã é o destino preferido dos casamentos ao ar livre próximos a São Paulo — com a Serra da Cantareira ao fundo, microclima mais fresco e chácaras com mata atlântica real. Ivan Dias já fotografou no Buffet Callegari e em outros espaços da região serrana. Este guia cobre tudo: locais confirmados, logística, melhor época e pré-wedding na natureza.',
     date: '2026-04-08',
-    updatedDate: '2026-06-28',
+    updatedDate: '2025-04-05',
     image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-14.jpg',
     sections: [
       {
@@ -4029,7 +4029,7 @@ export const posts: Post[] = [
       'Drone na cobertura do casamento vale a pena? Veja regras da ANAC, custo médio em São Paulo e para quais tipos de evento a fotografia aérea faz mais diferença.',
     excerpt:
       'A fotografia aérea pode ser um diferencial e tanto — ou um gasto desnecessário, dependendo do local. Veja quando vale a pena incluir o drone na cobertura do seu casamento em SP.',
-    date: '2026-06-20',
+    date: '2025-04-13',
     image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-24.jpg',
     faq: [
       {
@@ -4062,7 +4062,7 @@ export const posts: Post[] = [
       'Por que ter dois fotógrafos no casamento faz diferença? Entenda como funciona a cobertura dupla, quando ela é essencial e o que perguntar ao estúdio em São Paulo.',
     excerpt:
       'Um ou dois fotógrafos? Entenda como a cobertura com dupla de profissionais funciona na prática e em quais casamentos ela faz mais diferença em São Paulo.',
-    date: '2026-06-22',
+    date: '2025-04-11',
     image: '/images/galeria/detalhes/casamento-sao-paulo-detalhes-13.jpg',
     faq: [
       {
@@ -4095,7 +4095,7 @@ export const posts: Post[] = [
       'Fotografia e filmagem de casamento: contratar com o mesmo estúdio ou separado? Veja vantagens, riscos e diferenças de preço em São Paulo para decidir com segurança.',
     excerpt:
       'Foto e vídeo do mesmo estúdio ou de fornecedores diferentes? Veja as vantagens e os riscos de cada opção para o seu casamento em São Paulo.',
-    date: '2026-06-24',
+    date: '2025-04-09',
     image: '/images/galeria/festa/casamento-sao-paulo-festa-05.jpg',
     faq: [
       {
@@ -4128,7 +4128,7 @@ export const posts: Post[] = [
       'Fotógrafo de casamento no Itaim Bibi, em São Paulo: conheça os melhores espaços, dicas de horário para fotos externas e o que perguntar antes de contratar.',
     excerpt:
       'O Itaim Bibi reúne alguns dos espaços de casamento mais sofisticados de São Paulo. Veja dicas de locação, drone e horários ideais para fotos no bairro.',
-    date: '2026-06-26',
+    date: '2025-04-07',
     image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-26.jpg',
     faq: [
       {
@@ -4161,7 +4161,7 @@ export const posts: Post[] = [
       'Fotógrafo de casamento nos Jardins, São Paulo: descubra os salões mais procurados da região e como escolher o profissional ideal para registrar o seu dia.',
     excerpt:
       'Os Jardins reúnem alguns dos espaços de casamento mais exclusivos de São Paulo. Veja quais salões se destacam na região e como escolher o fotógrafo certo.',
-    date: '2026-06-28',
+    date: '2025-04-05',
     image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-29.jpg',
     faq: [
       {
@@ -4194,7 +4194,7 @@ export const posts: Post[] = [
       'Fotógrafo de casamento em Moema, São Paulo: veja as melhores locações da região, incluindo o Parque Ibirapuera, e o que esperar de uma boa cobertura fotográfica.',
     excerpt:
       'Moema é um dos bairros mais desejados para casamentos em São Paulo. Veja locações, o charme do Parque Ibirapuera e dicas para a cobertura fotográfica.',
-    date: '2026-06-30',
+    date: '2025-04-03',
     image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-30.jpg',
     faq: [
       {
@@ -4222,7 +4222,7 @@ export const posts: Post[] = [
       'Fotógrafo de casamento na Vila Madalena, São Paulo: conheça as locações mais autênticas do bairro e o estilo fotográfico que mais combina com a região.',
     excerpt:
       'Grafites, ruelas charmosas e atmosfera bohemia: veja por que a Vila Madalena é um cenário único para casamentos autorais em São Paulo.',
-    date: '2026-07-02',
+    date: '2025-04-01',
     image: '/images/galeria/detalhes/casamento-sao-paulo-detalhes-17.jpg',
     faq: [
       {
@@ -4250,7 +4250,7 @@ export const posts: Post[] = [
       'Fotógrafo de casamento em Pinheiros, São Paulo: descubra espaços charmosos para mini weddings, boas locações externas e dicas de planejamento na região.',
     excerpt:
       'Pinheiros tem opções charmosas para casamentos íntimos e mini weddings em São Paulo. Veja locações, arquitetura e dicas para a cobertura fotográfica.',
-    date: '2026-07-04',
+    date: '2025-03-30',
     image: '/images/galeria/detalhes/casamento-sao-paulo-detalhes-18.jpg',
     faq: [
       {
@@ -4278,7 +4278,7 @@ export const posts: Post[] = [
       'Fotógrafo de casamento na Vila Mariana, São Paulo: conheça as opções de salões da região e veja dicas para escolher um profissional que conheça o bairro.',
     excerpt:
       'A Vila Mariana é uma boa opção para casamentos religiosos e civis em São Paulo. Veja espaços da região e o que considerar ao escolher o fotógrafo.',
-    date: '2026-07-06',
+    date: '2025-03-28',
     image: '/images/galeria/detalhes/casamento-sao-paulo-detalhes-21.jpg',
     faq: [
       {
@@ -4301,7 +4301,7 @@ export const posts: Post[] = [
       'Fotógrafo de casamento no Alto de Pinheiros, São Paulo: conheça locações exclusivas ao ar livre e dicas para valorizar a atmosfera do bairro nas fotos.',
     excerpt:
       'O Alto de Pinheiros oferece casas com jardins espaçosos e chácaras urbanas, ideais para casamentos ao ar livre em São Paulo. Veja dicas de locação e estilo.',
-    date: '2026-07-08',
+    date: '2025-03-26',
     image: '/images/galeria/detalhes/casamento-sao-paulo-detalhes-23.jpg',
     faq: [
       {
@@ -4324,7 +4324,7 @@ export const posts: Post[] = [
       'Fotógrafo de casamento no ABCDM (Santo André, São Bernardo do Campo, São Caetano do Sul, Diadema e Mauá), atendendo toda a região com cobertura completa vinda de São Paulo.',
     excerpt:
       'O ABCDM concentra cinco cidades com forte demanda por fotografia de casamento na Grande São Paulo. Fotógrafos profissionais de SP atendem toda a região — veja o que considerar ao planejar a cobertura.',
-    date: '2026-07-10',
+    date: '2025-03-24',
     image: '/images/galeria/detalhes/casamento-sao-paulo-detalhes-27.jpg',
     faq: [
       {
@@ -4362,7 +4362,7 @@ export const posts: Post[] = [
       'Fotógrafo de casamento em Alphaville e Barueri, região metropolitana de São Paulo: espaços de luxo, taxas de deslocamento e dicas sobre o uso de drone.',
     excerpt:
       'Alphaville e Barueri reúnem espaços de casamento de alto padrão na Grande São Paulo. Veja dicas sobre deslocamento, drone e o que esperar da cobertura.',
-    date: '2026-07-12',
+    date: '2025-03-22',
     image: '/images/galeria/detalhes/casamento-sao-paulo-detalhes-28.jpg',
     faq: [
       {
@@ -4390,7 +4390,7 @@ export const posts: Post[] = [
       'Fotógrafo de casamento na Zona Sul de São Paulo: veja os bairros mais procurados para casar, incluindo Santo Amaro, Campo Belo e Interlagos, e dicas de cobertura.',
     excerpt:
       'Moema, Vila Mariana, Santo Amaro e Campo Belo estão entre os bairros mais procurados para casamentos na Zona Sul de SP. Veja dicas para escolher seu fotógrafo.',
-    date: '2026-07-14',
+    date: '2025-03-20',
     image: '/images/galeria/festa/casamento-sao-paulo-festa-07.jpg',
     faq: [
       {
@@ -4413,7 +4413,7 @@ export const posts: Post[] = [
       'Fotógrafo de mini wedding em São Paulo: entenda como funciona a cobertura fotográfica desse formato, preços médios e as melhores locações para casamentos intimistas.',
     excerpt:
       'Mini weddings pedem uma cobertura fotográfica mais próxima e personalizada. Veja como funciona, quanto custa e quais locações em São Paulo são mais fotogênicas.',
-    date: '2026-07-16',
+    date: '2025-03-18',
     image: '/images/galeria/festa/casamento-sao-paulo-festa-10.jpg',
     faq: [
       {
@@ -4451,7 +4451,7 @@ export const posts: Post[] = [
       'Fotógrafo para casamento civil em cartório em São Paulo: entenda se vale a pena contratar, regras dos cartórios, preços médios e dicas de ensaio.',
     excerpt:
       'Mesmo uma cerimônia civil rápida pode virar um registro emocional inesquecível. Veja se vale contratar fotógrafo para o cartório em São Paulo e o que considerar.',
-    date: '2026-07-18',
+    date: '2025-03-16',
     image: '/images/galeria/festa/casamento-sao-paulo-festa-11.jpg',
     faq: [
       {
@@ -4484,7 +4484,7 @@ export const posts: Post[] = [
       'Ensaio pré-wedding em São Paulo: veja preços médios, as melhores locações da cidade, a melhor época do ano e quanto tempo dura uma sessão completa.',
     excerpt:
       'O ensaio pré-wedding é uma das partes mais aguardadas da preparação do casamento. Veja preços, locações e dicas para aproveitar ao máximo a sessão em São Paulo.',
-    date: '2026-07-20',
+    date: '2025-03-14',
     image: '/images/galeria/pre-wedding/casamento-sao-paulo-pre-wedding-01.jpg',
     faq: [
       {
@@ -4522,7 +4522,7 @@ export const posts: Post[] = [
       'Pré-wedding na praia: veja quais praias do litoral de São Paulo são mais fotogênicas, o melhor horário para as fotos e como funciona o deslocamento do fotógrafo.',
     excerpt:
       'Guarujá, Ubatuba, Ilhabela e Maresias são alguns dos destinos preferidos para ensaios pré-wedding no litoral de SP. Veja dicas para organizar a sua sessão na praia.',
-    date: '2026-07-22',
+    date: '2025-03-12',
     image: '/images/galeria/pre-wedding/casamento-sao-paulo-pre-wedding-02.jpg',
     faq: [
       {
@@ -4550,7 +4550,7 @@ export const posts: Post[] = [
       'Como se preparar para o ensaio pré-wedding: dicas de looks, número de trocas de roupa, maquiagem e direção de poses para um ensaio em São Paulo.',
     excerpt:
       'O que vestir, quantas trocas de roupa fazer e como se sentir confiante na frente da câmera. Veja dicas para aproveitar bem o seu ensaio pré-wedding.',
-    date: '2026-07-24',
+    date: '2025-03-10',
     image: '/images/galeria/pre-wedding/casamento-sao-paulo-pre-wedding-03.jpg',
     faq: [
       {
@@ -4583,7 +4583,7 @@ export const posts: Post[] = [
       'Fotógrafo de bodas de ouro em São Paulo: veja como celebrar 50 anos de casamento com um ensaio fotográfico especial, preços médios e ideias de locação.',
     excerpt:
       'Comemorar 50 anos de casamento merece um registro à altura. Veja como funciona um ensaio de bodas de ouro em São Paulo e como envolver a família nas fotos.',
-    date: '2026-07-26',
+    date: '2025-03-08',
     image: '/images/galeria/festa/casamento-sao-paulo-festa-12.jpg',
     faq: [
       {
@@ -4616,7 +4616,7 @@ export const posts: Post[] = [
       'Bodas de ouro em São Paulo: quanto custa a cobertura fotográfica, quando contratar dois fotógrafos e qual formato de álbum é mais especial para o evento.',
     excerpt:
       'Festas de bodas de ouro têm necessidades próprias de cobertura fotográfica. Veja custos médios em SP e como escolher o álbum ideal para esse momento.',
-    date: '2026-07-28',
+    date: '2025-03-06',
     image: '/images/galeria/festa/casamento-sao-paulo-festa-15.jpg',
     faq: [
       {
@@ -4639,7 +4639,7 @@ export const posts: Post[] = [
       'Fotógrafo de bodas de prata em São Paulo: veja como celebrar 25 anos de casamento com um ensaio fotográfico especial em locais com significado para o casal.',
     excerpt:
       'Vinte e cinco anos de história merecem um registro especial. Veja como funciona um ensaio de bodas de prata em São Paulo e onde fazer as fotos.',
-    date: '2026-07-30',
+    date: '2025-03-04',
     image: '/images/galeria/pre-wedding/casamento-sao-paulo-pre-wedding-04.jpg',
     faq: [
       {
@@ -4657,7 +4657,7 @@ export const posts: Post[] = [
       'Fotógrafo de casamento rústico em São Paulo: conheça os melhores espaços nos arredores da cidade, fazendas e sítios, e veja como o drone valoriza esse estilo.',
     excerpt:
       'Fazendas, sítios e vinícolas perto de São Paulo são ótimos para casamentos rústicos. Veja espaços recomendados e como o drone potencializa as fotos nesse estilo.',
-    date: '2026-08-01',
+    date: '2025-03-02',
     image: '/images/galeria/pre-wedding/casamento-sao-paulo-pre-wedding-05.jpg',
     faq: [
       {
@@ -4680,7 +4680,7 @@ export const posts: Post[] = [
       'Destination wedding em São Paulo: entenda o conceito, por que SP pode ser destino de casamento para casais de outras cidades e como funciona o fotógrafo que viaja.',
     excerpt:
       'Destination wedding vai muito além do destino em si — envolve experiência, logística e um fotógrafo preparado para viajar. Veja como isso funciona em São Paulo.',
-    date: '2026-08-03',
+    date: '2025-02-28',
     image: '/images/galeria/pre-wedding/casamento-sao-paulo-pre-wedding-06.jpg',
     faq: [
       {
@@ -4708,7 +4708,7 @@ export const posts: Post[] = [
       'Fotografia documental de casamento: entenda o que é esse estilo, a diferença com o fotojornalismo e por que ele se tornou tão popular em São Paulo.',
     excerpt:
       'Risos, lágrimas e olhares genuínos: entenda o que é a fotografia documental de casamento e por que esse estilo conquistou tantos casais em São Paulo.',
-    date: '2026-08-05',
+    date: '2025-02-26',
     image: '/images/galeria/festa/casamento-sao-paulo-festa-18.jpg',
     faq: [
       {
@@ -4736,7 +4736,7 @@ export const posts: Post[] = [
       'Same Day Edit de casamento em São Paulo: entenda o que é, quanto custa esse serviço e se ele substitui o filme completo do casamento.',
     excerpt:
       'Um vídeo emocionante exibido ainda durante a festa: veja o que é o Same Day Edit, quanto custa em São Paulo e se vale a pena incluir no seu casamento.',
-    date: '2026-08-07',
+    date: '2025-02-24',
     image: '/images/galeria/festa/casamento-sao-paulo-festa-20.jpg',
     faq: [
       {
@@ -4764,7 +4764,7 @@ export const posts: Post[] = [
       'Drone em casamento em São Paulo: entenda as exigências da ANAC para pilotos, quais zonas da cidade têm restrição de voo e o que verificar antes de contratar.',
     excerpt:
       'Antes de incluir drone na cobertura do seu casamento em São Paulo, é importante entender as regras da ANAC e as zonas de restrição de voo na cidade.',
-    date: '2026-08-09',
+    date: '2025-02-22',
     image: '/images/galeria/festa/casamento-sao-paulo-festa-04.jpg',
     faq: [
       {
@@ -4787,7 +4787,7 @@ export const posts: Post[] = [
       'Quantas fotos um fotógrafo de casamento entrega em São Paulo? Veja números médios, prazos de entrega e o que esperar em termos de resolução e qualidade.',
     excerpt:
       'Quantidade de fotos, prazo de entrega e resolução: veja o que é considerado padrão por bons fotógrafos de casamento em São Paulo e o que pode ser sinal de alerta.',
-    date: '2026-08-11',
+    date: '2025-02-20',
     image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-01.jpg',
     faq: [
       {
@@ -4815,7 +4815,7 @@ export const posts: Post[] = [
       'Contrato com fotógrafo de casamento em São Paulo: veja as cláusulas essenciais que não podem faltar para garantir segurança jurídica no seu acordo.',
     excerpt:
       'Um bom contrato protege os dois lados. Veja quais cláusulas não podem faltar no contrato com o fotógrafo de casamento em São Paulo.',
-    date: '2026-08-13',
+    date: '2025-02-18',
     image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-02.jpg',
     faq: [
       {
@@ -4843,7 +4843,7 @@ export const posts: Post[] = [
       'Chuva no dia do casamento em São Paulo: veja como fotógrafos experientes lidam com esse imprevisto e como esse cenário pode gerar fotos ainda mais marcantes.',
     excerpt:
       'Chuva no casamento não precisa ser um problema. Veja como fotógrafos experientes em São Paulo transformam esse imprevisto em registros únicos e cinematográficos.',
-    date: '2026-08-15',
+    date: '2025-02-16',
     image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-03.jpg',
     faq: [
       {
@@ -4866,7 +4866,7 @@ export const posts: Post[] = [
       'Tendências de fotografia de casamento para 2026 em São Paulo: fotografia analógica, edição natural, casamentos noturnos e vídeos verticais para redes sociais.',
     excerpt:
       'De fotos em filme analógico a edições mais naturais: veja as principais tendências de fotografia de casamento para 2026 em São Paulo.',
-    date: '2026-08-17',
+    date: '2025-02-14',
     image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-04.jpg',
     faq: [
       {
@@ -4894,7 +4894,7 @@ export const posts: Post[] = [
       'Melhor época para casar em São Paulo pensando nas fotos: veja como cada estação do ano afeta a luz, o clima e o resultado das imagens do seu casamento.',
     excerpt:
       'A estação do ano influencia diretamente a luz e o clima do seu casamento. Veja qual é a melhor época para casar em São Paulo pensando nas fotos.',
-    date: '2026-08-19',
+    date: '2025-02-12',
     image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-05.jpg',
     faq: [
       {
@@ -4922,7 +4922,7 @@ export const posts: Post[] = [
       'Locações de casamento em alta em São Paulo para 2026: galerias de arte, espaços industriais requalificados, hotéis de design e rooftops com vista da cidade.',
     excerpt:
       'Galerias de arte, galpões requalificados e rooftops com vista da cidade: veja quais tipos de espaço estarão em alta para casamentos em São Paulo em 2026.',
-    date: '2026-08-21',
+    date: '2025-02-10',
     image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-06.jpg',
     faq: [
       {
@@ -4945,7 +4945,7 @@ export const posts: Post[] = [
       'Fotógrafo para mini wedding em São Paulo: veja como adaptar o pacote de cobertura fotográfica para casamentos íntimos sem perder qualidade.',
     excerpt:
       'Menos convidados, mesma qualidade: veja como adaptar o pacote de fotografia para um mini wedding íntimo em São Paulo.',
-    date: '2026-08-23',
+    date: '2025-02-08',
     image: '/images/galeria/festa/casamento-sao-paulo-festa-01.jpg',
     faq: [
       {
@@ -4978,7 +4978,7 @@ export const posts: Post[] = [
       'Mini wedding ou casamento completo: qual formato tem as melhores fotos em São Paulo? Veja a comparação honesta sobre estilo, volume e emoção das imagens.',
     excerpt:
       'Mini wedding ou casamento tradicional: qual entrega fotos mais marcantes? Veja a comparação honesta para casais em São Paulo.',
-    date: '2026-08-25',
+    date: '2025-02-06',
     image: '/images/galeria/festa/casamento-sao-paulo-festa-02.jpg',
     faq: [
       {
@@ -5011,7 +5011,7 @@ export const posts: Post[] = [
       'Mini wedding em casa em São Paulo: veja como o fotógrafo lida com iluminação e espaço para garantir fotos de alta qualidade em casamentos íntimos.',
     excerpt:
       'Casar em casa em SP? Veja como o fotógrafo se prepara para garantir fotos de alta qualidade em um mini wedding íntimo.',
-    date: '2026-08-27',
+    date: '2025-02-04',
     image: '/images/galeria/festa/casamento-sao-paulo-festa-03.jpg',
     faq: [
       {
@@ -5044,7 +5044,7 @@ export const posts: Post[] = [
       'Fotografia de casamento civil em São Paulo: dicas para tornar as fotos do cartório inesquecíveis, do visual ao melhor horário para a sessão.',
     excerpt:
       'Dicas para transformar as fotos do casamento civil em São Paulo em registros inesquecíveis, do look ao horário ideal.',
-    date: '2026-08-29',
+    date: '2025-02-02',
     image: '/images/galeria/festa/casamento-sao-paulo-festa-04.jpg',
     faq: [
       {
@@ -5077,7 +5077,7 @@ export const posts: Post[] = [
       'Quanto custa um ensaio pré-wedding em São Paulo em 2026? Veja preços reais, o que está incluso e como conseguir descontos.',
     excerpt:
       'Preços reais de pré-wedding em São Paulo em 2026: o que está incluso, quando vale pagar mais e como conseguir desconto.',
-    date: '2026-08-31',
+    date: '2025-01-31',
     image: '/images/galeria/pre-wedding/casamento-sao-paulo-pre-wedding-01.jpg',
     faq: [
       {
@@ -5110,7 +5110,7 @@ export const posts: Post[] = [
       'Os melhores lugares para ensaio pré-wedding em São Paulo: parques, bairros históricos e locações urbanas que valorizam as fotos do casal.',
     excerpt:
       'Parques, museus e bairros históricos: descubra os melhores lugares de São Paulo para um ensaio de pré-wedding marcante.',
-    date: '2026-09-02',
+    date: '2025-01-29',
     image: '/images/galeria/pre-wedding/casamento-sao-paulo-pre-wedding-02.jpg',
     faq: [
       {
@@ -5143,7 +5143,7 @@ export const posts: Post[] = [
       'Pré-wedding no Guarujá e litoral de SP: dicas de locação, melhor época para o ensaio e o que levar em conta para fotos na praia.',
     excerpt:
       'Guarujá, Maresias, Ubatuba ou Ilhabela? Veja dicas para escolher a praia ideal para o seu pré-wedding no litoral de SP.',
-    date: '2026-09-04',
+    date: '2025-01-27',
     image: '/images/galeria/pre-wedding/casamento-sao-paulo-pre-wedding-03.jpg',
     faq: [
       {
@@ -5176,7 +5176,7 @@ export const posts: Post[] = [
       'Pré-wedding urbano em São Paulo: conheça as locações nas ruas da cidade que mais impressionam, do dia à noite.',
     excerpt:
       'Grafites, viadutos e luzes da cidade: veja as melhores locações urbanas de São Paulo para um pré-wedding cheio de personalidade.',
-    date: '2026-09-06',
+    date: '2025-01-25',
     image: '/images/galeria/pre-wedding/casamento-sao-paulo-pre-wedding-04.jpg',
     faq: [
       {
@@ -5209,7 +5209,7 @@ export const posts: Post[] = [
       'Pré-wedding ou ensaio pós-casamento em São Paulo: entenda as diferenças, vantagens de cada formato e quanto custa o after session.',
     excerpt:
       'Pré-wedding ou after session? Veja as diferenças entre os dois formatos de ensaio de casal e qual escolher em São Paulo.',
-    date: '2026-09-08',
+    date: '2025-01-23',
     image: '/images/galeria/pre-wedding/casamento-sao-paulo-pre-wedding-05.jpg',
     faq: [
       {
@@ -5242,7 +5242,7 @@ export const posts: Post[] = [
       'Pré-wedding no Jardim Botânico de São Paulo: regras de acesso, melhor estação para fotos e outras opções de jardins na cidade.',
     excerpt:
       'Tudo sobre fazer um ensaio de pré-wedding no Jardim Botânico de São Paulo, da autorização à melhor estação do ano.',
-    date: '2026-09-10',
+    date: '2025-01-21',
     image: '/images/galeria/pre-wedding/casamento-sao-paulo-pre-wedding-06.jpg',
     faq: [
       {
@@ -5275,7 +5275,7 @@ export const posts: Post[] = [
       'Ensaio de casal após o casamento em São Paulo: entenda por que o after session está em alta e qual o prazo ideal para fazer.',
     excerpt:
       'Sem pressa e sem nervosismo: veja por que cada vez mais casais em São Paulo estão fazendo ensaios após o casamento.',
-    date: '2026-09-12',
+    date: '2025-01-19',
     image: '/images/galeria/pre-wedding/casamento-sao-paulo-pre-wedding-07.jpg',
     faq: [
       {
@@ -5308,7 +5308,7 @@ export const posts: Post[] = [
       'Ensaio gestante em São Paulo: melhor momento da gravidez para fotografar, preços e como integrar com o pré-wedding e o casamento.',
     excerpt:
       'Do pré-wedding ao ensaio gestante: veja como continuar a história do casal em fotos durante a gravidez em São Paulo.',
-    date: '2026-09-14',
+    date: '2025-01-17',
     image: '/images/galeria/pre-wedding/casamento-sao-paulo-pre-wedding-08.jpg',
     faq: [
       {
@@ -5341,7 +5341,7 @@ export const posts: Post[] = [
       'Álbum fotográfico de casamento em São Paulo: tipos disponíveis, preços médios e como escolher entre álbum FineArt, flush mount e fotolivro.',
     excerpt:
       'FineArt, flush mount ou fotolivro? Veja os formatos de álbum de casamento disponíveis em São Paulo e quanto custa cada um.',
-    date: '2026-09-16',
+    date: '2025-01-15',
     image: '/images/galeria/detalhes/casamento-sao-paulo-detalhes-01.jpg',
     faq: [
       {
@@ -5374,7 +5374,7 @@ export const posts: Post[] = [
       'Direção de casais na fotografia de casamento: veja como o fotógrafo coloca noivos tímidos à vontade para fotos naturais e emocionantes.',
     excerpt:
       'Noivos tímidos também ficam bem nas fotos: entenda como funciona a direção de casais na fotografia de casamento em SP.',
-    date: '2026-09-18',
+    date: '2025-01-13',
     image: '/images/galeria/detalhes/casamento-sao-paulo-detalhes-02.jpg',
     faq: [
       {
@@ -5407,7 +5407,7 @@ export const posts: Post[] = [
       'Making of do casamento em São Paulo: por que registrar a preparação da noiva e do noivo é parte essencial da cobertura fotográfica.',
     excerpt:
       'A preparação da noiva guarda alguns dos momentos mais emocionantes do casamento. Veja por que o making of vale cada clique.',
-    date: '2026-09-20',
+    date: '2025-01-11',
     image: '/images/galeria/detalhes/casamento-sao-paulo-detalhes-03.jpg',
     faq: [
       {
@@ -5440,7 +5440,7 @@ export const posts: Post[] = [
       'Entrega das fotos de casamento em São Paulo: prazos médios, formato de entrega via galeria online e o que esperar do fotógrafo.',
     excerpt:
       'Quanto tempo até receber as fotos do casamento e em qual formato? Veja como funciona a entrega em São Paulo.',
-    date: '2026-09-22',
+    date: '2025-01-09',
     image: '/images/galeria/detalhes/casamento-sao-paulo-detalhes-04.jpg',
     faq: [
       {
@@ -5473,7 +5473,7 @@ export const posts: Post[] = [
       'Casamento ao ar livre em São Paulo: principais riscos (chuva, vento, calor) e como o fotógrafo se prepara para garantir boas fotos.',
     excerpt:
       'Chuva, vento e calor: veja os riscos de casar ao ar livre em São Paulo e como um fotógrafo experiente se prepara para eles.',
-    date: '2026-09-24',
+    date: '2025-01-07',
     image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-07.jpg',
     faq: [
       {
@@ -5506,7 +5506,7 @@ export const posts: Post[] = [
       'Paletas de cores e decoração de casamento em alta para 2026 em São Paulo, e como cada combinação influencia o resultado das fotos.',
     excerpt:
       'Verde-sálvia, terracota ou azul-marinho? Veja as paletas de decoração em alta para casamentos em 2026 e como elas valorizam as fotos.',
-    date: '2026-09-26',
+    date: '2025-01-05',
     image: '/images/galeria/detalhes/casamento-sao-paulo-detalhes-05.jpg',
     faq: [
       {
@@ -5540,8 +5540,8 @@ export const posts: Post[] = [
       'Guia completo sobre fotografia de casamento na Vila Olímpia: rooftops, salões corporativos, logística entre bairros, melhor horário de luz e como escolher o fotógrafo certo para um espaço urbano de alto padrão.',
     excerpt:
       'A Vila Olímpia concentra rooftops com vista para o skyline de São Paulo, salões corporativos de alto padrão e uma energia urbana que exige um olhar fotográfico diferenciado. Este guia cobre tudo: tipos de espaço, logística com Itaim Bibi e Moema, melhor horário de luz, pré-wedding no Parque do Povo e quanto custa fotografar na região.',
-    date: '2026-06-20',
-    updatedDate: '2026-06-20',
+    date: '2025-04-13',
+    updatedDate: '2025-04-13',
     image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-01.jpg',
     sections: [
       {
@@ -5670,8 +5670,8 @@ export const posts: Post[] = [
       'Guia completo de fotografia de casamento no Brooklin Paulista: perfil do bairro, casamento civil, buffets de porte médio, logística com Berrini e Santo Amaro, pré-wedding urbano e quanto custa contratar o fotógrafo certo.',
     excerpt:
       'O Brooklin Paulista tem um perfil executivo consolidado — entre Vila Olímpia, Itaim Bibi e Campo Belo — com grande demanda por casamentos civis, eventos intimistas e pré-wedding urbano. Este guia cobre tudo que você precisa saber sobre fotografia de casamento no bairro: tipos de espaço, logística, horários e o que diferencia bons resultados nesse ambiente.',
-    date: '2026-06-22',
-    updatedDate: '2026-06-22',
+    date: '2025-04-11',
+    updatedDate: '2025-04-11',
     image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-02.jpg',
     sections: [
       {
@@ -5787,8 +5787,8 @@ export const posts: Post[] = [
       'Guia completo de fotografia de casamento em Diadema: contexto no ABCDM, logística desde SP, cartórios, igrejas, salões de festa, pré-wedding na Represa Billings e quanto custa contratar um fotógrafo de qualidade.',
     excerpt:
       'Diadema integra o ABCDM — a região de cinco cidades (Santo André, São Bernardo, São Caetano, Diadema e Mauá) com uma das maiores demandas por fotografia de casamento fora da capital paulista. Este guia cobre tudo: logística desde SP, tipos de espaço, cerimônias civis e religiosas, pré-wedding na Represa Billings e o que considerar ao contratar o fotógrafo.',
-    date: '2026-06-24',
-    updatedDate: '2026-06-24',
+    date: '2025-04-09',
+    updatedDate: '2025-04-09',
     image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-05.jpg',
     sections: [
       {
@@ -5894,8 +5894,8 @@ export const posts: Post[] = [
       'Guia completo de fotografia de casamento em Mauá: contexto no ABCDM, chácaras e espaços ao ar livre, salões fechados, Represa Billings, cobertura combinada entre cidades do ABC e quanto custa contratar o fotógrafo.',
     excerpt:
       'Mauá faz parte do ABCDM e tem uma cena de casamentos consolidada, especialmente em chácaras e espaços ao ar livre próximos à divisa com Ribeirão Pires. Este guia cobre os tipos de espaço, logística desde São Paulo, pré-wedding na Represa Billings e como planejar a cobertura fotográfica para um casamento na região.',
-    date: '2026-06-26',
-    updatedDate: '2026-06-26',
+    date: '2025-04-07',
+    updatedDate: '2025-04-07',
     image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-06.jpg',
     sections: [
       {
@@ -6013,7 +6013,7 @@ export const posts: Post[] = [
       'Fotógrafo de casamento na Zona Oeste da Grande São Paulo: cobertura completa em Taboão da Serra, Carapicuíba, Itapevi e Jandira, com deslocamento desde a capital.',
     excerpt:
       'A Zona Oeste da Grande São Paulo reúne cidades com boa oferta de espaços para casamentos e fácil acesso à capital. Taboão da Serra, Carapicuíba, Itapevi e Jandira têm uma cena de eventos crescente e são plenamente atendidas por fotógrafos de SP.',
-    date: '2026-06-28',
+    date: '2025-04-05',
     image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-08.jpg',
     faq: [
       {
@@ -6051,7 +6051,7 @@ export const posts: Post[] = [
       'Fotógrafo de casamento no Alto Tietê, Grande São Paulo: cobertura completa em Itaquaquecetuba, Poá, Ferraz de Vasconcelos e Arujá, com acesso pela Rodovia Mogi-Bertioga.',
     excerpt:
       'O Alto Tietê reúne cidades com demanda crescente para casamentos na Grande SP Leste. Itaquaquecetuba, Poá, Ferraz de Vasconcelos e Arujá têm espaços de eventos acessíveis e fácil conexão com Mogi das Cruzes e Suzano.',
-    date: '2026-06-30',
+    date: '2025-04-03',
     image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
     faq: [
       {
@@ -6089,7 +6089,7 @@ export const posts: Post[] = [
       'Fotógrafo de casamento na região de Mairiporã: cobertura em Caieiras, Franco da Rocha e Francisco Morato, com acesso pela Rodovia Fernão Dias e deslocamento desde SP.',
     excerpt:
       'A região serrana ao norte de São Paulo, que inclui Mairiporã, Caieiras, Franco da Rocha e Francisco Morato, tem uma oferta crescente de chácaras e espaços para casamentos em meio à natureza, a menos de 50 km da capital.',
-    date: '2026-07-02',
+    date: '2025-04-01',
     image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-11.jpg',
     faq: [
       {
@@ -6128,8 +6128,8 @@ export const posts: Post[] = [
       'Guia completo de fotografia de casamento no Morumbi e Zona Oeste de São Paulo: Casa Welucci, Welucci Gardens, Village e The One, logística com Itaim Bibi e Butantã, e como planejar a cobertura fotográfica.',
     excerpt:
       'O Morumbi concentra alguns dos espaços de casamento mais exclusivos de São Paulo — com residências de alto padrão, chácaras dentro da cidade e o portfólio premium do Grupo Welucci com a Casa Welucci, Gardens, Village e The One. Este guia cobre os espaços da região, a logística e como contratar o fotógrafo certo para um casamento no Morumbi.',
-    date: '2026-06-28',
-    updatedDate: '2026-06-28',
+    date: '2025-04-05',
+    updatedDate: '2025-04-05',
     image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-07.jpg',
     sections: [
       {
@@ -6236,8 +6236,8 @@ export const posts: Post[] = [
       'Guia completo de fotografia de casamento na Serra da Mantiqueira: Welucci Canto Verde, chácaras e pousadas de altitude, logística desde SP, melhor época e como contratar o fotógrafo certo para um casamento na montanha.',
     excerpt:
       'A Serra da Mantiqueira é um dos destinos de casamento mais especiais do Brasil — com altitude, frio, paisagens de vale e uma luz que transforma qualquer cerimônia ao ar livre em algo inesquecível. O Welucci Canto Verde é um dos espaços de referência da região. Este guia cobre tudo: logística, clima, melhores espaços e como planejar a cobertura fotográfica para um casamento na serra.',
-    date: '2026-06-28',
-    updatedDate: '2026-06-28',
+    date: '2025-04-05',
+    updatedDate: '2025-04-05',
     image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-09.jpg',
     sections: [
       {
@@ -6320,8 +6320,8 @@ export const posts: Post[] = [
     title: 'Fotógrafo de Casamento no Espaço Quintal: Rustic Wedding em Patrimônio Tombado',
     description: 'Tudo sobre fotografia de casamento no Espaço Quintal: pontos fortes do conceito Rustic Wedding, iluminação em patrimônio tombado, planejamento e quanto custa contratar o fotógrafo.',
     excerpt: 'O Espaço Quintal é um patrimônio tombado em meio à selva de pedra — com textura histórica, luz natural irregular e uma atmosfera que nenhuma decoração consegue replicar. Entenda como Ivan Dias planeja a cobertura fotográfica para extrair o máximo desse cenário único.',
-    date: '2026-06-28',
-    updatedDate: '2026-06-28',
+    date: '2025-04-05',
+    updatedDate: '2025-04-05',
     image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-01.jpg',
     sections: [
       { h2: 'O Espaço Quintal e o conceito Rustic Wedding', content: '<p>O Espaço Quintal é um dos casamentos de conceito mais originais de São Paulo: um patrimônio tombado que sobreviveu ao crescimento urbano e hoje serve de cenário para casamentos com identidade histórica real — não simulada. O conceito Rustic Wedding aqui não é decoração temática, é a própria estrutura do espaço: pedra, madeira, vegetação crescida junto com a construção e uma imperfeição arquitetônica que é, na verdade, o maior ativo fotográfico do lugar.</p><p>Ivan Dias atende casamentos no Espaço Quintal e destaca esse ponto como diferencial: a "imperfeição" do espaço — superfícies irregulares, ângulos assimétricos, luz que entra de formas não planejadas — é exatamente o que cria fotos com caráter e textura que espaços modernos não conseguem reproduzir. <a href="/servicos/cobertura-completa/">Consulte a cobertura completa para o Espaço Quintal.</a></p>' },
@@ -6348,8 +6348,8 @@ export const posts: Post[] = [
     title: 'Fotógrafo de Casamento na Casa Quintal: Comfort Wedding com Alma de Lar',
     description: 'Fotografia de casamento na Casa Quintal: pontos fortes do conceito Comfort Wedding, ambiente residencial, luz natural e como Ivan Dias planeja a cobertura para este espaço único.',
     excerpt: 'A Casa Quintal transforma o casamento em algo que parece uma reunião de família numa casa linda — com conforto real, escala humana e uma autenticidade que espaços de buffet raramente conseguem. Entenda como isso se traduz em fotografia.',
-    date: '2026-06-28',
-    updatedDate: '2026-06-28',
+    date: '2025-04-05',
+    updatedDate: '2025-04-05',
     image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-02.jpg',
     sections: [
       { h2: 'O conceito Comfort Wedding da Casa Quintal', content: '<p>A Casa Quintal foi desenhada para parecer uma residência — não um salão de eventos. O conceito Comfort Wedding parte de uma premissa simples: quando as pessoas se sentem em casa, elas são mais naturais. E pessoas naturais são mais fotografáveis. Convidados relaxados, risos espontâneos, abraços que acontecem sem que ninguém peça — é exatamente o material que transforma um álbum de casamento em algo que emociona mesmo quem não esteve presente.</p><p>Ivan Dias destaca esse espaço como um dos mais favoráveis para a sua abordagem fotográfica documental: sem a formalidade dos salões de buffet, o fotógrafo consegue circular de forma mais natural e capturar momentos que em outros espaços simplesmente não acontecem. <a href="/servicos/cobertura-completa/">Saiba mais sobre a cobertura documental de Ivan Dias.</a></p>' },
@@ -6376,8 +6376,8 @@ export const posts: Post[] = [
     title: 'Fotógrafo de Casamento na Casinha Quintal: Mini Wedding com Jeitinho Francês',
     description: 'Fotografia de casamento na Casinha Quintal: o conceito Mini Wedding com estética francesa, escala intimista, detalhes e como fotografar este espaço para extrair o máximo do seu charme.',
     excerpt: 'A Casinha Quintal foi feita para quem quer celebrar com poucos, mas com tudo. O conceito francês — delicado, refinado, com atenção obsessiva aos detalhes — cria um cenário onde cada elemento do espaço contribui para o resultado fotográfico final.',
-    date: '2026-06-28',
-    updatedDate: '2026-06-28',
+    date: '2025-04-05',
+    updatedDate: '2025-04-05',
     image: '/images/galeria/detalhes/casamento-sao-paulo-detalhes-03.jpg',
     sections: [
       { h2: 'Mini Wedding com estética francesa na Casinha Quintal', content: '<p>A Casinha Quintal não é apenas um espaço menor — é um conceito diferente de celebração. Inspirada na estética francesa de casamentos íntimos, a Casinha foi projetada para reunir apenas os mais próximos em torno de um ambiente cuidadosamente decorado onde cada detalhe tem um significado. Para fotografia, essa concentração de cuidado no detalhe é um presente: mesa posta, flores, texturas e elementos decorativos que transformam cada close em uma imagem de editorial. <a href="/blog/mini-wedding-sao-paulo-fotografia-cobertura/">Saiba mais sobre fotografia de mini wedding em São Paulo.</a></p>' },
@@ -6404,8 +6404,8 @@ export const posts: Post[] = [
     title: 'Fotógrafo de Casamento no Celeiro Quintal: Farm Wedding em São Paulo',
     description: 'Fotografia de casamento no Celeiro Quintal: conceito Farm Wedding, madeira, luz lateral de celeiro, paleta cinematográfica e como Ivan Dias planeja a cobertura neste espaço.',
     excerpt: 'O Celeiro Quintal traz o cenário de campo para dentro da cidade — com madeira envelhecida, feno, estrutura rústica e uma luz lateral que entra pelas frestas criando uma paleta cinematográfica natural. Entenda por que este é um dos espaços mais fotogênicos do Grupo Quintal.',
-    date: '2026-06-28',
-    updatedDate: '2026-06-28',
+    date: '2025-04-05',
+    updatedDate: '2025-04-05',
     image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-03.jpg',
     sections: [
       { h2: 'Farm Wedding no coração da cidade', content: '<p>O Celeiro Quintal resolve um pedido muito comum entre casais paulistanos: cenário de campo sem precisar sair da cidade. O conceito Farm Wedding aqui não é apenas decoração com fardos de feno — é uma arquitetura pensada para reproduzir a atmosfera de um celeiro real: vigas de madeira, estrutura elevada, piso de madeira e elementos rústicos que criam um ambiente completamente distinto de qualquer buffet urbano.</p><p>Ivan Dias destaca o Celeiro Quintal como um dos espaços com maior versatilidade fotográfica do grupo: a luz durante o dia, a transição para iluminação artificial à noite e os elementos rústicos ao fundo criam possibilidades de enquadramento que mudam completamente ao longo do evento. <a href="/servicos/cobertura-completa/">Consulte a cobertura completa para o Celeiro Quintal.</a></p>' },
@@ -6432,8 +6432,8 @@ export const posts: Post[] = [
     title: 'Fotógrafo de Casamento no Chalé Quintal: Romantic Wedding para o Conto de Fadas Moderno',
     description: 'Fotografia de casamento no Chalé Quintal: conceito Romantic Wedding, paleta pastel, tecidos delicados, iluminação suave e como Ivan Dias planeja a cobertura para este espaço.',
     excerpt: 'O Chalé Quintal foi criado para noivos que sonham com um conto de fadas moderno — delicado, romântico e visualmente coerente do primeiro ao último frame. Entenda como o conceito Romantic Wedding se traduz em fotografia.',
-    date: '2026-06-28',
-    updatedDate: '2026-06-28',
+    date: '2025-04-05',
+    updatedDate: '2025-04-05',
     image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-04.jpg',
     sections: [
       { h2: 'Romantic Wedding: quando o espaço já é a paleta', content: '<p>O Chalé Quintal tem uma vantagem rara para fotografia: o conceito visual está embutido na arquitetura e decoração do próprio espaço. Cortinas, tecidos delicados, paleta cromática em tons suaves e uma iluminação pensada para criar o clima de conto de fadas moderno — tudo isso já está lá antes de qualquer decoração adicional.</p><p>Para Ivan Dias, isso simplifica a pós-produção e eleva o resultado: quando o espaço já fala a mesma língua visual do conceito do casamento, as fotos têm uma coerência de paleta que exigiria muito trabalho para replicar em espaços neutros. <a href="/servicos/cobertura-completa/">Consulte a cobertura completa para o Chalé Quintal.</a></p>' },
@@ -6460,8 +6460,8 @@ export const posts: Post[] = [
     title: 'Fotógrafo de Casamento no Botânico Quintal: Fresh Wedding — Primavera o Ano Todo',
     description: 'Fotografia de casamento no Botânico Quintal: conceito Fresh Wedding, vegetação viva, flores, luz filtrada pelas folhas e como Ivan Dias planeja a cobertura para o espaço mais luminoso do Grupo Quintal.',
     excerpt: 'O Botânico Quintal é o espaço mais luminoso e natural do Grupo Quintal — com vegetação viva, flores e uma luz filtrada pelas folhas que cria uma paleta dourada-verde impossível de replicar artificialmente. Para fotografia, é o espaço mais generoso do grupo.',
-    date: '2026-06-28',
-    updatedDate: '2026-06-28',
+    date: '2025-04-05',
+    updatedDate: '2025-04-05',
     image: '/images/galeria/pre-wedding/casamento-sao-paulo-pre-wedding-03.jpg',
     sections: [
       { h2: 'Fresh Wedding: o espaço mais fotogênico do Grupo Quintal', content: '<p>O conceito Fresh Wedding do Botânico Quintal parte de uma premissa ambiciosa: primavera o ano todo. Vegetação viva, flores aromáticas e uma integração com o exterior que cria um espaço onde a natureza é parte ativa da decoração — não apenas elemento de apoio. Para fotografia, esse espaço tem um diferencial que Ivan Dias destaca consistentemente: a luz filtrada pela vegetação viva cria reflexos verdes suaves nas superfícies brancas e na pele dos noivos — uma qualidade de luz que parece editada mas é completamente natural.</p><p>Ivan Dias planeja o ensaio do casal no Botânico Quintal sempre no golden hour — o momento em que a luz dourada entra em ângulo baixo entre a vegetação e cria uma paleta que eleva qualquer retrato. <a href="/servicos/cobertura-completa/">Consulte a cobertura completa para o Botânico Quintal.</a></p>' },
@@ -6491,8 +6491,8 @@ export const posts: Post[] = [
       'Guia completo de fotografia de casamento nos espaços do Grupo Quintal: Espaço Quintal, Casa Quintal, Casinha Quintal, Celeiro Quintal, Chalé Quintal e Botânico Quintal — cada conceito com seus pontos fortes fotográficos.',
     excerpt:
       'O Grupo Quintal tem seis espaços com conceitos completamente distintos — do Rustic Wedding ao Fresh Wedding, do Farm ao Romantic. Cada unidade tem uma identidade visual própria que define o resultado fotográfico do álbum. Este guia cobre os pontos fortes de cada espaço e como Ivan Dias planeja a cobertura para maximizar o potencial de cada conceito.',
-    date: '2026-06-28',
-    updatedDate: '2026-06-28',
+    date: '2025-04-05',
+    updatedDate: '2025-04-05',
     image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
     sections: [
       {
@@ -6591,8 +6591,8 @@ export const posts: Post[] = [
     title: 'Fotógrafo de Casamento no Welucci Estaiada: Beleza Arquitetônica em Cada Frame',
     description: 'Fotografia de casamento no Welucci Estaiada: pontos fortes visuais, dinâmica de luz, como Ivan Dias planeja a cobertura neste espaço de arquitetura marcante e como contratar.',
     excerpt: 'O Welucci Estaiada é um dos espaços mais fotograficamente generosos da cidade — com volumes arquitetônicos que criam profundidade, pontes estaiadas que oferecem perspectivas únicas e uma iluminação que combina artificial controlada com reflexos de água. Para o fotógrafo, é um cenário de alto nível.',
-    date: '2026-06-28',
-    updatedDate: '2026-06-28',
+    date: '2025-04-05',
+    updatedDate: '2025-04-05',
     image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
     sections: [
       {
@@ -6621,8 +6621,8 @@ export const posts: Post[] = [
     title: 'Fotógrafo de Casamento no Welucci Single: Sofisticação em Escala Intimista',
     description: 'Fotografia de casamento no Welucci Single: ambiente de alto padrão, escala intimista, como a luz e a arquitetura se traduzem em imagens e como Ivan Dias planeja a cobertura.',
     excerpt: 'O Welucci Single combina o padrão de acabamento do Grupo Welucci com uma escala que favorece casamentos mais exclusivos — onde cada detalhe recebe atenção e o fotógrafo consegue estar próximo de todos os momentos importantes sem perder nenhum.',
-    date: '2026-06-28',
-    updatedDate: '2026-06-28',
+    date: '2025-04-05',
+    updatedDate: '2025-04-05',
     image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
     sections: [
       {
@@ -6650,8 +6650,8 @@ export const posts: Post[] = [
     title: 'Fotógrafo de Casamento no Welucci Sansu: Estética Japonesa e Luz de Outro Mundo',
     description: 'Fotografia de casamento no Welucci Sansu: o conceito zen japonês, jardins como cenário fotográfico, como a luz interage com a arquitetura e como Ivan Dias planeja a cobertura.',
     excerpt: 'O Welucci Sansu é um capítulo à parte na fotografia de casamento — o conceito zen japonês cria silêncio visual, linhas limpas e uma conexão com a natureza que raramente aparece em espaços de eventos. Para o fotógrafo, é uma oportunidade de criar imagens com uma serenidade e beleza que casamentos em salões convencionais dificilmente atingem.',
-    date: '2026-06-28',
-    updatedDate: '2026-06-28',
+    date: '2025-04-05',
+    updatedDate: '2025-04-05',
     image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
     sections: [
       {
@@ -6681,8 +6681,8 @@ export const posts: Post[] = [
     title: 'Fotógrafo de Casamento no Welucci Fontana: Águas, Fontes e Romantismo Visual',
     description: 'Fotografia de casamento no Welucci Fontana: fontes como elemento visual, reflexos, iluminação noturna e como Ivan Dias planeja a cobertura fotográfica neste espaço romântico.',
     excerpt: 'O Welucci Fontana usa a água como elemento central de design — fontes, espelhos d\'água e reflexos que transformam cada ângulo em uma composição naturalmente romântica. Para a fotografia de casamento, é um cenário que entrega resultado com consistência e beleza.',
-    date: '2026-06-28',
-    updatedDate: '2026-06-28',
+    date: '2025-04-05',
+    updatedDate: '2025-04-05',
     image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
     sections: [
       {
@@ -6710,8 +6710,8 @@ export const posts: Post[] = [
     title: 'Fotógrafo de Casamento no Welucci Kratos: Grandiosidade Arquitetônica e Luz Dramática',
     description: 'Fotografia de casamento no Welucci Kratos: pé-direito alto, arquitetura marcante, como a escala do espaço se traduz em fotos impactantes e como Ivan Dias planeja a cobertura.',
     excerpt: 'O Welucci Kratos é um espaço projetado para impressionar — com volumes que criam senso de grandiosidade e uma arquitetura que faz o casal parecer protagonista de algo maior. Para o fotógrafo, a escala do Kratos é uma ferramenta poderosa de composição.',
-    date: '2026-06-28',
-    updatedDate: '2026-06-28',
+    date: '2025-04-05',
+    updatedDate: '2025-04-05',
     image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
     sections: [
       {
@@ -6739,8 +6739,8 @@ export const posts: Post[] = [
     title: 'Fotógrafo de Casamento na Casa Welucci: O Melhor dos Dois Mundos',
     description: 'Fotografia de casamento na Casa Welucci: como o conceito casa com padrão Welucci cria cenários fotográficos únicos, espaços externos, luz natural e como Ivan Dias planeja a cobertura.',
     excerpt: 'A Casa Welucci traz algo raro no universo dos espaços de evento: a sensação autêntica de uma casa bem cuidada com o acabamento e a infraestrutura de um espaço de alto padrão. Para o fotógrafo, isso significa liberdade criativa — espaços internos aconchegantes, jardins com personalidade e ausência das paredes de salão que matam a ambiência das fotos.',
-    date: '2026-06-28',
-    updatedDate: '2026-06-28',
+    date: '2025-04-05',
+    updatedDate: '2025-04-05',
     image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
     sections: [
       {
@@ -6768,8 +6768,8 @@ export const posts: Post[] = [
     title: 'Fotógrafo de Casamento no Welucci Gardens: Verde, Luz e Elegância Natural',
     description: 'Fotografia de casamento no Welucci Gardens: jardins exuberantes, luz filtrada pela vegetação, como o verde transforma a paleta fotográfica e como Ivan Dias planeja a cobertura.',
     excerpt: 'O Welucci Gardens é, literalmente, um casamento no jardim — mas com toda a infraestrutura e sofisticação do Grupo Welucci. Para a fotografia, a combinação de verde exuberante, luz natural filtrada e acabamento premium cria uma paleta única: cores vibrantes, fundo desfocado em verde e um romantismo que espaços fechados raramente entregam.',
-    date: '2026-06-28',
-    updatedDate: '2026-06-28',
+    date: '2025-04-05',
+    updatedDate: '2025-04-05',
     image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
     sections: [
       {
@@ -6798,8 +6798,8 @@ export const posts: Post[] = [
     title: 'Fotógrafo de Casamento no Welucci Village: Casamento em Vilarejo de Alto Padrão',
     description: 'Fotografia de casamento no Welucci Village: o conceito de vilarejo, múltiplos cenários em um só espaço, diversidade fotográfica e como Ivan Dias planeja a cobertura completa.',
     excerpt: 'O Welucci Village é um conceito único — um vilarejo de alto padrão onde cada "rua" e cada "praça" são cenários completamente diferentes. Para o fotógrafo, isso é ouro: um único evento gera fotos com diversidade de cenários que normalmente exigiria múltiplos locais.',
-    date: '2026-06-28',
-    updatedDate: '2026-06-28',
+    date: '2025-04-05',
+    updatedDate: '2025-04-05',
     image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
     sections: [
       {
@@ -6827,8 +6827,8 @@ export const posts: Post[] = [
     title: 'Fotógrafo de Casamento no Welucci The One: Topo do Padrão Welucci',
     description: 'Fotografia de casamento no Welucci The One: o que torna este espaço o topo da linha Welucci, como o acabamento e a escala se traduzem em fotos e como Ivan Dias planeja a cobertura.',
     excerpt: 'O Welucci The One carrega no nome o que entrega na prática: é a experiência topo de linha do Grupo Welucci. Para a fotografia de casamento, isso significa o melhor cenário disponível — acabamento impecável em cada detalhe, escala que impressiona e uma iluminação projetada para eventos de alto padrão.',
-    date: '2026-06-28',
-    updatedDate: '2026-06-28',
+    date: '2025-04-05',
+    updatedDate: '2025-04-05',
     image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
     sections: [
       {
@@ -6857,8 +6857,8 @@ export const posts: Post[] = [
     title: 'Fotógrafo de Casamento no Welucci Vila Real: Arquitetura Clássica e Charme Ibérico',
     description: 'Fotografia de casamento no Welucci Vila Real: arquitetura de inspiração portuguesa, detalhes clássicos, como a estética ibérica se traduz em imagens e como Ivan Dias planeja a cobertura.',
     excerpt: 'O Welucci Vila Real traz a estética clássica portuguesa para o cenário de casamentos — azulejos, arcos, pedra e madeira que criam uma atmosfera completamente diferente dos espaços modernos. Para o fotógrafo, é um convite para composições com textura, história e elegância que resistem ao tempo.',
-    date: '2026-06-28',
-    updatedDate: '2026-06-28',
+    date: '2025-04-05',
+    updatedDate: '2025-04-05',
     image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
     sections: [
       {
@@ -6886,8 +6886,8 @@ export const posts: Post[] = [
     title: 'Fotógrafo de Casamento no Welucci Fagundes: Casarão Colonial com Alma de Evento',
     description: 'Fotografia de casamento no Welucci Fagundes: o charme do casarão colonial, materiais históricos, como a textura do tempo se traduz em imagens e como Ivan Dias planeja a cobertura.',
     excerpt: 'O Welucci Fagundes é um casarão colonial que preserva a memória das paredes e do tempo — com madeira, pedra e uma arquitetura que nenhuma reforma consegue fabricar do zero. Para a fotografia de casamento, esse patrimônio cria um pano de fundo com profundidade histórica e visual que transforma cada foto em algo especial.',
-    date: '2026-06-28',
-    updatedDate: '2026-06-28',
+    date: '2025-04-05',
+    updatedDate: '2025-04-05',
     image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
     sections: [
       {
@@ -6915,8 +6915,8 @@ export const posts: Post[] = [
     title: 'Fotógrafo de Casamento no Welucci Ocean: Quando o Mar Entra na Festa',
     description: 'Fotografia de casamento no Welucci Ocean: temática náutica, como elementos do mar se traduzem em imagens, iluminação, perspectivas únicas e como Ivan Dias planeja a cobertura.',
     excerpt: 'O Welucci Ocean traz a essência do mar para o cenário da festa — e para a fotografia, isso significa uma paleta de cores, elementos visuais e uma atmosfera completamente diferente dos espaços convencionais. Azul, branco, madeira e luz que parece refletida pela água: um set fotográfico com identidade inconfundível.',
-    date: '2026-06-28',
-    updatedDate: '2026-06-28',
+    date: '2025-04-05',
+    updatedDate: '2025-04-05',
     image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
     sections: [
       {
@@ -6946,8 +6946,8 @@ export const posts: Post[] = [
     title: 'Fotógrafo de Casamento no Welucci Canto Verde: Natureza da Serra na Fotografia',
     description: 'Fotografia de casamento no Welucci Canto Verde: cenário de serra, vegetação densa, luz de altitude, como a natureza eleva a qualidade das fotos e como Ivan Dias planeja a cobertura.',
     excerpt: 'O Welucci Canto Verde é um casamento em harmonia com a natureza da serra — vegetação densa, ar limpo, silêncio e uma luz de altitude que não existe na cidade. Para o fotógrafo, esse ambiente cria imagens com uma qualidade de cor e profundidade que só a natureza em estado puro consegue oferecer.',
-    date: '2026-06-28',
-    updatedDate: '2026-06-28',
+    date: '2025-04-05',
+    updatedDate: '2025-04-05',
     image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
     sections: [
       {
