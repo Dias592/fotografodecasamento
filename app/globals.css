@@ -71,3 +71,29 @@ body {
   background-clip: text;
   color: transparent;
 }
+
+/* Article section HTML content (authored in posts.ts — never user input) */
+.prose-section p {
+  font-family: var(--font-poppins), sans-serif;
+  font-size: 1rem;
+  line-height: 1.75;
+  color: color-mix(in srgb, var(--blue-deep) 70%, transparent);
+  margin-top: 1rem;
+}
+.prose-section p:first-child {
+  margin-top: 0;
+}
+.prose-section strong {
+  font-weight: 600;
+  color: var(--blue-deep);
+}
+.prose-section em {
+  font-style: italic;
+}
+.prose-section a {
+  color: var(--blue-accent);
+  text-underline-offset: 4px;
+}
+.prose-section a:hover {
+  text-decoration: underline;
+}

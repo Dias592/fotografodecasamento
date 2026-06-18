@@ -1,9 +1,74 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { Post, posts } from '@/lib/posts';
+import { Post, PostSection, posts } from '@/lib/posts';
 import { SHIMMER_BLUR_DATA_URL } from '@/lib/utils';
 import SchemaOrg from './SchemaOrg';
 import { getArticleSchema, getBreadcrumbListSchema, getFAQPageSchema } from '@/lib/schema';
+
+function SectionTable({ table }: { table: NonNullable<PostSection['table']> }) {
+  return (
+    <div className="my-6 overflow-x-auto rounded-2xl border border-blue-deep/10">
+      {table.caption && (
+        <p className="border-b border-blue-deep/10 bg-blue-deep/5 px-4 py-2 font-body text-xs font-semibold uppercase tracking-wide text-blue-deep/60">
+          {table.caption}
+        </p>
+      )}
+      <table className="w-full text-left font-body text-sm">
+        <thead className="bg-blue-deep/5">
+          <tr>
+            {table.headers.map((h) => (
+              <th key={h} className="px-4 py-3 font-semibold text-blue-deep">
+                {h}
+              </th>
+            ))}
+          </tr>
+        </thead>
+        <tbody>
+          {table.rows.map((row, i) => (
+            <tr key={i} className="border-t border-blue-deep/10 even:bg-blue-deep/[0.02]">
+              {row.map((cell, j) => (
+                <td key={j} className="px-4 py-3 text-blue-deep/75">
+                  {cell}
+                </td>
+              ))}
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  );
+}
+
+function ArticleSections({ sections }: { sections: PostSection[] }) {
+  return (
+    <div className="mt-12 flex flex-col gap-10">
+      {sections.map((section, i) => (
+        <section key={i}>
+          <h2 className="font-heading text-2xl font-bold tracking-tightest text-blue-deep md:text-3xl">
+            {section.h2}
+          </h2>
+          {section.content && (
+            // Content is authored in posts.ts — never user input. Safe for dangerouslySetInnerHTML.
+            <div
+              className="prose-section mt-4"
+              dangerouslySetInnerHTML={{ __html: section.content }}
+            />
+          )}
+          {section.h3s && section.h3s.map((h3, j) => (
+            <div key={j} className="mt-6">
+              <h3 className="font-heading text-lg font-semibold text-blue-deep">{h3.title}</h3>
+              <div
+                className="prose-section mt-2"
+                dangerouslySetInnerHTML={{ __html: h3.content }}
+              />
+            </div>
+          ))}
+          {section.table && <SectionTable table={section.table} />}
+        </section>
+      ))}
+    </div>
+  );
+}
 
 function getRelatedPosts(current: Post, count = 4): Post[] {
   const others = posts.filter((p) => p.slug !== current.slug);
@@ -61,8 +126,19 @@ export default function SatellitePost({ post }: { post: Post }) {
         </h1>
 
         <p className="mt-4 font-body text-sm text-blue-deep/70">
-          Publicado em{' '}
-          {new Date(post.date).toLocaleDateString('pt-BR', { day: '2-digit', month: 'long', year: 'numeric' })}
+          <time dateTime={post.date}>
+            Publicado em{' '}
+            {new Date(post.date).toLocaleDateString('pt-BR', { day: '2-digit', month: 'long', year: 'numeric' })}
+          </time>
+          {post.updatedDate && (
+            <>
+              {' · '}
+              <time dateTime={post.updatedDate}>
+                Atualizado em{' '}
+                {new Date(post.updatedDate).toLocaleDateString('pt-BR', { day: '2-digit', month: 'long', year: 'numeric' })}
+              </time>
+            </>
+          )}
         </p>
 
         <div className="mt-10 overflow-hidden rounded-3xl">
@@ -82,11 +158,16 @@ export default function SatellitePost({ post }: { post: Post }) {
 
         <p className="mt-10 font-body text-lg leading-relaxed text-blue-deep/75">{post.excerpt}</p>
         <p className="mt-6 font-body text-base leading-relaxed text-blue-deep/70">{post.description}</p>
-        <p className="mt-6 font-body text-base leading-relaxed text-blue-deep/70">
-          Se você está planejando o seu casamento em São Paulo e busca um fotógrafo que
-          una sensibilidade, técnica e um olhar autoral, será um prazer conversar sobre a sua
-          história e como podemos eternizá-la com imagens que você vai guardar para sempre.
-        </p>
+
+        {post.sections && <ArticleSections sections={post.sections} />}
+
+        {!post.sections && (
+          <p className="mt-6 font-body text-base leading-relaxed text-blue-deep/70">
+            Se você está planejando o seu casamento em São Paulo e busca um fotógrafo que
+            una sensibilidade, técnica e um olhar autoral, será um prazer conversar sobre a sua
+            história e como podemos eternizá-la com imagens que você vai guardar para sempre.
+          </p>
+        )}
 
         <div className="mt-8 flex flex-wrap items-center gap-4">
           <a

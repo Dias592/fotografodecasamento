@@ -3,6 +3,24 @@ export type FAQ = {
   answer: string;
 };
 
+export type PostH3 = {
+  title: string;
+  content: string; // trusted HTML — never user input
+};
+
+export type PostTable = {
+  caption?: string;
+  headers: string[];
+  rows: string[][];
+};
+
+export type PostSection = {
+  h2: string;
+  content?: string; // trusted HTML — never user input
+  h3s?: PostH3[];
+  table?: PostTable;
+};
+
 export type Post = {
   slug: string;
   bairro: string;
@@ -10,8 +28,10 @@ export type Post = {
   description: string;
   excerpt: string;
   date: string;
+  updatedDate?: string;
   image: string;
   faq: FAQ[];
+  sections?: PostSection[];
 };
 
 export const posts: Post[] = [
@@ -5124,152 +5144,468 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-de-casamento-vila-olimpia',
     bairro: 'Vila Olímpia',
-    title: 'Fotógrafo de Casamento na Vila Olímpia: Rooftops e Salões Corporativos em São Paulo',
+    title: 'Fotógrafo de Casamento na Vila Olímpia: Guia Completo de Locações, Logística e Estilo',
     description:
-      'Fotógrafo de casamento na Vila Olímpia, bairro premium de SP. Veja como aproveitar rooftops, salões de alto padrão e a iluminação noturna urbana para fotos inesquecíveis.',
+      'Guia completo sobre fotografia de casamento na Vila Olímpia: rooftops, salões corporativos, logística entre bairros, melhor horário de luz e como escolher o fotógrafo certo para um espaço urbano de alto padrão.',
     excerpt:
-      'A Vila Olímpia reúne alguns dos espaços mais sofisticados de São Paulo: rooftops com vista panorâmica, salões de alto padrão e uma energia urbana que potencializa cada foto. Saiba como escolher o fotógrafo certo para este cenário.',
+      'A Vila Olímpia concentra rooftops com vista para o skyline de São Paulo, salões corporativos de alto padrão e uma energia urbana que exige um olhar fotográfico diferenciado. Este guia cobre tudo: tipos de espaço, logística com Itaim Bibi e Moema, melhor horário de luz, pré-wedding no Parque do Povo e quanto custa fotografar na região.',
     date: '2026-06-20',
+    updatedDate: '2026-06-20',
     image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-01.jpg',
+    sections: [
+      {
+        h2: 'Por que a Vila Olímpia é estratégica para casamentos em São Paulo',
+        content: '<p>A Vila Olímpia concentra uma das maiores densidades de executivos e profissionais de São Paulo — rodeada pela Faria Lima, pelo complexo JK e pelo corredor da Bridge. Para casais que moram ou trabalham na região, casar no próprio bairro tem uma lógica prática: convidados chegam em minutos, traslados são curtos e o controle de cronograma é maior. Para o fotógrafo, isso significa menos variáveis logísticas no dia e mais foco nas imagens.</p><p>Os espaços da Vila Olímpia têm perfil predominantemente moderno: vidro, concreto aparente, iluminação técnica e vista para o skyline paulistano. Ivan Dias, com mais de 20 anos e 700+ casamentos fotografados em São Paulo, descreve a região como um bairro onde o fundo urbano precisa ser aproveitado ativamente — não ignorado. Saber posicionar os noivos para que os prédios e a luz da cidade trabalhem a favor da foto é o que diferencia o resultado final.</p>',
+      },
+      {
+        h2: 'Tipos de espaço para casamentos na Vila Olímpia',
+        content: '<p>A Vila Olímpia tem três tipologias principais de espaço para casamentos, cada uma com perfil de iluminação e capacidade distintos. Conhecer essas diferenças antes de contratar ajuda a alinhar expectativas com o fotógrafo.</p>',
+        h3s: [
+          {
+            title: 'Rooftops corporativos',
+            content: '<p>São a tipologia mais procurada do bairro. Com vista para os prédios da Berrini, Faria Lima e JK, funcionam muito bem ao entardecer — o golden hour entre 17h e 18h30 cria reflexos e contraluz de grande impacto visual. O desafio técnico está na transição para a noite: quando a iluminação artificial assume, a luz fria e mista do espaço exige flash de apoio já configurado. Fotógrafos sem experiência nesse ambiente entregam fotos com qualidade muito desigual entre o início da noite e o fim da festa.</p>',
+          },
+          {
+            title: 'Salões e hotéis de grande porte',
+            content: '<p>Hotéis boutique e espaços multifuncionais da região comportam de 80 a 300 convidados, com iluminação padronizada e pés-direitos altos. São ideais para recepções formais com muitos convidados — a iluminação homogênea facilita fotos de grupo, mas pode criar uma atmosfera fria para os registros íntimos da cerimônia. Flash difuso bem posicionado é indispensável nesses ambientes.</p>',
+          },
+          {
+            title: 'Restaurantes e espaços exclusivos',
+            content: '<p>Uma categoria crescente na Vila Olímpia são os restaurantes de alto padrão que alugam o espaço integralmente para casamentos com até 60 pessoas. A iluminação quente e a decoração já instalada criam um ambiente de fácil aproveitamento fotográfico. São a escolha ideal para casais que querem um <a href="/blog/mini-wedding-sao-paulo-fotografia-cobertura/">mini wedding em São Paulo</a> sem abrir mão do padrão estético.</p>',
+          },
+        ],
+      },
+      {
+        h2: 'Quanto custa um casamento na Vila Olímpia',
+        content: '<p>Os valores abaixo refletem o mercado atual da região para espaços e fotografia de casamento. Para entender o que cada faixa fotográfica inclui em termos de horas, número de fotos e entregáveis, consulte o guia completo de <a href="/blog/quanto-custa-fotografo-casamento-sao-paulo/">quanto custa um fotógrafo de casamento em São Paulo</a>. Para cerimônias civis rápidas, o guia sobre <a href="/blog/quanto-custa-fotografo-casamento-2-horas/">cobertura fotográfica por 2 horas</a> também é relevante para o perfil do bairro.</p>',
+        table: {
+          caption: 'Faixas de mercado — Vila Olímpia e região (2025–2026)',
+          headers: ['Tipo de espaço', 'Capacidade', 'Custo do espaço/buffet', 'Pacote fotográfico'],
+          rows: [
+            ['Rooftop corporativo', 'até 80 pax', 'R$ 12.000–R$ 25.000', 'R$ 5.500–R$ 12.000'],
+            ['Salão/hotel grande porte', '80–300 pax', 'R$ 20.000–R$ 50.000', 'R$ 6.500–R$ 15.000'],
+            ['Restaurante exclusivo', 'até 60 pax', 'R$ 8.000–R$ 18.000', 'R$ 4.500–R$ 9.000'],
+            ['Civil + jantar intimista', 'até 40 pax', 'R$ 3.000–R$ 8.000', 'R$ 3.200–R$ 6.000'],
+          ],
+        },
+      },
+      {
+        h2: 'Logística entre Vila Olímpia, Itaim Bibi e Moema',
+        content: '<p>Um cenário muito comum na região é a cerimônia em uma igreja do <a href="/blog/fotografo-de-casamento-itaim-bibi/">Itaim Bibi</a> ou <a href="/blog/fotografo-casamento-moema-sp/">Moema</a> com recepção em rooftop ou salão na Vila Olímpia — ou o inverso. Esse trajeto tem 5 a 15 minutos em tráfego normal, mas pode dobrar em sábados entre 17h e 19h, quando o corredor da Faria Lima fica congestionado.</p><p>Ivan Dias destaca como ponto crítico: o fotógrafo precisa chegar ao local da festa <em>antes</em> dos noivos para preparar a entrada. Isso exige sair da cerimônia com antecedência — detalhe que precisa estar no roteiro, não ser improviso. A regra prática: adicione 20 minutos extras ao tempo do GPS para qualquer deslocamento entre bairros em dia de casamento.</p>',
+        table: {
+          caption: 'Tempo estimado entre bairros — sábado, fora do horário de pico',
+          headers: ['Origem', 'Destino', 'Tempo normal', 'Com trânsito intenso'],
+          rows: [
+            ['Vila Olímpia', 'Itaim Bibi', '5–8 min', '12–22 min'],
+            ['Vila Olímpia', 'Moema', '8–12 min', '15–28 min'],
+            ['Vila Olímpia', 'Parque do Povo', '3–5 min', '5–10 min'],
+            ['Moema (igreja)', 'Vila Olímpia (festa)', '10–14 min', '20–30 min'],
+          ],
+        },
+      },
+      {
+        h2: 'Melhor horário e estação do ano para fotos na Vila Olímpia',
+        content: '<p>A Vila Olímpia tem uma janela de luz que poucos bairros de SP oferecem: entre março e setembro, o sol se põe em ângulo favorável em relação à orientação das ruas, criando feixes de luz entre os prédios que iluminam os noivos lateralmente. O golden hour cai entre 17h e 18h30 nesse período — o horário mais valorizado por Ivan Dias para fotos externas na região.</p><p>Em dezembro e janeiro, as chuvas de fim de tarde são frequentes. Se o casamento tiver área externa, planeje as fotos ao ar livre para antes das 16h ou tenha plano B definido com o fotógrafo. Ter uma locação interna de backup para o ensaio do casal é recomendação padrão para qualquer casamento na região nesse período.</p>',
+      },
+      {
+        h2: 'Pré-wedding na Vila Olímpia e Parque do Povo',
+        content: '<p>O Parque do Povo, na divisa entre Vila Olímpia e Moema, é um dos locais mais subutilizados para pré-wedding em São Paulo. Com acesso fácil, espelhos d\'água, áreas gramadas e enquadramentos com o skyline ao fundo, o parque combina elementos naturais e urbanos em uma única sessão. A melhor janela de luz fica entre 16h e 18h de março a setembro.</p><p>Para casais que preferem um cenário mais urbano, as ruas arborizadas próximas à Av. Hélio Pellegrino e à Rua Vieira de Morais oferecem enquadramentos limpos com pouco movimento de pedestres nos fins de semana. Hotéis e restaurantes da região costumam disponibilizar espaço para trocas de roupa entre locações durante ensaios.</p>',
+      },
+      {
+        h2: 'Drone na Vila Olímpia: restrições e alternativas',
+        content: '<p>A Vila Olímpia fica dentro do espaço aéreo controlado do Aeroporto de Congonhas (CGH), a aproximadamente 4 km de distância. Pela regulamentação ANAC, voos de drone na região exigem autorização prévia junto à aviação civil e ao controle de tráfego aéreo local — mesmo para uso fotográfico em eventos privados. Além disso, a maioria dos rooftops corporativos não autoriza drone por restrições de seguro e espaço físico.</p><p>Se o drone for prioridade, a alternativa mais viável é utilizá-lo durante o pré-wedding no Parque do Povo — com verificação da autorização específica do parque — ou em espaços de casamento nas cidades vizinhas com maior área aberta, como Cotia ou Mairiporã. Converse com o fotógrafo sobre isso antes de fechar o espaço.</p>',
+      },
+      {
+        h2: 'Como escolher o fotógrafo certo para um casamento urbano',
+        content: '<p>Casamentos em rooftops e espaços corporativos têm exigências técnicas distintas de festas em jardins ou chácaras. Ao avaliar fotógrafos para um casamento na Vila Olímpia, priorize portfólios com casamentos em ambientes com iluminação mista e fotos noturnas em espaços com vista urbana — não apenas fotos ao ar livre com luz natural favorável.</p><p>Perguntas diretas para fazer: como você trabalha em espaços com iluminação fria e mista? Tem experiência com rooftop noturno? Como planeja os ângulos quando o skyline iluminado está ao fundo? Ivan Dias reforça: o fotógrafo que nunca fotografou esse tipo de espaço vai aprender no seu casamento — e você paga por essa curva de aprendizado. Consulte o guia completo sobre <a href="/blog/como-escolher-fotografo-casamento-sao-paulo/">como escolher o fotógrafo de casamento certo</a>.</p>',
+      },
+      {
+        h2: 'Erros frequentes de casais que casam na Vila Olímpia',
+        content: '<p><strong>Subestimar o deslocamento entre locações</strong> é o erro mais citado. Mesmo 6 minutos de GPS podem virar 25 minutos num sábado à tarde no corredor da Faria Lima. O fotógrafo precisa sair da cerimônia antes do cortejo para chegar ao local da festa antes dos noivos — esse tempo precisa estar no cronograma, não ser improviso de última hora.</p><p><strong>Não testar a luz do espaço no horário exato do evento</strong> é o segundo ponto crítico. A luz de um rooftop às 15h (hora da visita técnica) é completamente diferente da luz às 20h durante a festa. Ivan Dias realiza visita técnica no horário real do evento em todo espaço novo onde irá fotografar — esse procedimento evita surpresas no dia e permite ajustar o kit de equipamentos com antecedência.</p>',
+      },
+    ],
     faq: [
       {
-        question: 'A Vila Olímpia tem bons espaços para casamentos?',
+        question: 'Qual o melhor mês para casar na Vila Olímpia?',
         answer:
-          'Sim. A Vila Olímpia concentra rooftops corporativos convertidos para eventos, salões exclusivos em hotéis boutique e espaços de alto padrão que combinam arquitetura moderna com sofisticação. São ideais para casamentos com até 200 convidados e estética urbana contemporânea.',
+          'De abril a outubro, quando a umidade é menor e o risco de chuva no fim da tarde é reduzido. Para rooftops ao entardecer, maio, junho e julho oferecem o sol em ângulo mais baixo no horizonte, criando reflexos e luz lateral de grande qualidade fotográfica.',
       },
       {
-        question: 'Como o fotógrafo lida com a iluminação noturna na Vila Olímpia?',
+        question: 'Rooftop ou salão fechado: qual dá melhores fotos?',
         answer:
-          'Espaços com iluminação artificial exigem equipamentos com excelente desempenho em baixa luz. Na Vila Olímpia, os rooftops noturnos oferecem o skyline de São Paulo ao fundo — um cenário que o fotógrafo pode usar estrategicamente para criar imagens dramáticas e exclusivas sem edição exagerada.',
+          'Depende do estilo do casal. Rooftops ao entardecer produzem imagens com o skyline de SP ao fundo e luz natural dramática — icônicas e com forte apelo emocional. Salões fechados permitem mais controle de iluminação ao longo de toda a noite, com resultados mais homogêneos do início ao fim da festa.',
       },
       {
-        question: 'Vila Olímpia é próxima de Itaim Bibi e Moema?',
+        question: 'Drone é permitido para casamentos na Vila Olímpia?',
         answer:
-          'Sim, os três bairros formam um corredor premium na Zona Sul de SP. Cerimônias em igrejas de Moema ou Itaim Bibi com recepção na Vila Olímpia são combinações comuns, e um fotógrafo experiente na região conhece as melhores rotas e lida com os deslocamentos sem perder momentos importantes.',
+          'Em geral não, sem autorização específica. A Vila Olímpia está na área de controle do Aeroporto de Congonhas, e a maioria dos rooftops corporativos não libera o uso de drone por seguro. Para fotos aéreas, a alternativa é utilizar o Parque do Povo durante o pré-wedding, com autorização prévia.',
+      },
+      {
+        question: 'Quanto tempo leva para ir da Vila Olímpia ao Itaim Bibi?',
+        answer:
+          'Em tráfego normal, 5 a 8 minutos. Em sábados entre 17h e 19h, pode chegar a 20–25 minutos pelo corredor da Faria Lima. Sempre adicione margem de 15 a 20 minutos no cronograma do dia para esse tipo de deslocamento.',
       },
       {
         question: 'Quanto custa um fotógrafo de casamento na Vila Olímpia?',
         answer:
-          'Os pacotes para casamentos na Vila Olímpia partem de R$ 3.200, com cobertura completa do making of à festa, incluindo edição profissional e entrega em galeria digital de alta resolução. Solicite um orçamento personalizado pelo WhatsApp.',
+          'Os pacotes para casamentos na Vila Olímpia partem de R$ 3.200. Para eventos em rooftops ou salões corporativos de maior porte, o pacote costuma incluir segundo fotógrafo, elevando a faixa para R$ 7.000 a R$ 12.000. Solicite orçamento personalizado pelo WhatsApp.',
       },
       {
-        question: 'Você atende pré-wedding urbano na Vila Olímpia?',
+        question: 'O Parque do Povo é bom para pré-wedding?',
         answer:
-          'Sim, a região oferece cenários urbanos únicos para ensaios de pré-wedding ao entardecer: ruas arborizadas, fachadas de vidro e recantos com personalidade. O horário golden hour nessa região é especialmente valorizado por criar reflexos e contraluz de grande impacto visual.',
+          'Sim. O Parque do Povo tem espelhos d\'água, áreas gramadas e enquadramentos com o skyline ao fundo — combinação urbana e natural que poucas áreas de SP oferecem em um único local. A melhor luz cai entre 16h e 18h de março a setembro.',
+      },
+      {
+        question: 'Posso fazer cerimônia em Moema e festa na Vila Olímpia?',
+        answer:
+          'Sim, é um dos roteiros mais comuns da região. O trajeto de 10 a 14 minutos em condições normais é totalmente viável. O fotógrafo precisa chegar ao local da festa antes do cortejo — esse detalhe deve constar no cronograma acordado no briefing.',
+      },
+      {
+        question: 'A Vila Olímpia tem igrejas para cerimônia religiosa?',
+        answer:
+          'A Vila Olímpia não tem igrejas de grande porte dentro de suas fronteiras imediatas. As opções mais comuns são igrejas no Itaim Bibi e Moema, todas a menos de 15 minutos de carro — combinação que muitos casais da região fazem sem dificuldade.',
       },
     ],
   },
   {
     slug: 'fotografo-de-casamento-brooklin',
     bairro: 'Brooklin',
-    title: 'Fotógrafo de Casamento no Brooklin: Elegância e Praticidade na Zona Sul de SP',
+    title: 'Fotógrafo de Casamento no Brooklin: Guia Completo para Casamento Civil, Buffets e Pré-Wedding Urbano',
     description:
-      'Fotógrafo de casamento no Brooklin Paulista. Saiba como registrar casamentos elegantes e cerimônias civis neste bairro executivo vizinho de Itaim Bibi e Vila Olímpia.',
+      'Guia completo de fotografia de casamento no Brooklin Paulista: perfil do bairro, casamento civil, buffets de porte médio, logística com Berrini e Santo Amaro, pré-wedding urbano e quanto custa contratar o fotógrafo certo.',
     excerpt:
-      'O Brooklin Paulista tem um perfil executivo e sofisticado, com espaços fechados de alto padrão, casamentos civis rápidos pós-expediente e fácil integração com pré-wedding urbano. Um bairro que cresce em demanda para casamentos.',
+      'O Brooklin Paulista tem um perfil executivo consolidado — entre Vila Olímpia, Itaim Bibi e Campo Belo — com grande demanda por casamentos civis, eventos intimistas e pré-wedding urbano. Este guia cobre tudo que você precisa saber sobre fotografia de casamento no bairro: tipos de espaço, logística, horários e o que diferencia bons resultados nesse ambiente.',
     date: '2026-06-22',
+    updatedDate: '2026-06-22',
     image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-02.jpg',
+    sections: [
+      {
+        h2: 'O Brooklin entre Vila Olímpia, Itaim Bibi e Campo Belo',
+        content: '<p>O Brooklin Paulista ocupa uma posição estratégica na Zona Sul de São Paulo: faz divisa com Vila Olímpia a norte, Itaim Bibi a leste, Campo Belo a sul e Santo Amaro a oeste. É um bairro de perfil predominantemente executivo, com alta concentração de profissionais que moram perto do trabalho — e que frequentemente escolhem casar na própria região por praticidade.</p><p>Diferente do Itaim Bibi, que tem uma cena noturna e gastronômica mais vibrante, o Brooklin tem um ritmo mais residencial e discreto. Os casamentos na região tendem a ser mais intimistas — casamentos civis, mini weddings e festas em espaços fechados de porte médio são o formato dominante. Ivan Dias, que atende toda a <a href="/blog/fotografo-casamento-zona-sul-sp/">Zona Sul de São Paulo</a>, conhece bem os espaços e a logística específica do bairro.</p>',
+      },
+      {
+        h2: 'Casamento civil no Brooklin: o formato mais comum da região',
+        content: '<p>Pela concentração de profissionais e pelo ritmo de vida do bairro, o casamento civil — com cerimônia em cartório, escritório de advocacia ou espaço privado seguida de jantar intimista — é o formato mais comum entre casais do Brooklin. Cerimônias no fim do dia útil ou em sábados de manhã com jantar noturno são combinações frequentes.</p><p>Para o fotógrafo, o casamento civil traz um desafio específico: em 2 a 4 horas de cobertura, cada minuto conta. A cobertura precisa começar já no making of ou na chegada ao local, e o fotógrafo tem pouco espaço para recuperar momentos perdidos. Planejamento do roteiro com o casal na semana anterior ao evento é essencial. Consulte o guia sobre <a href="/blog/quanto-custa-fotografo-casamento-2-horas/">fotografia de casamento por 2 horas</a> para entender o que é possível registrar nesse formato.</p>',
+      },
+      {
+        h2: 'Buffets e salões fechados de porte médio',
+        content: '<p>O Brooklin não tem a densidade de rooftops da Vila Olímpia ou os grandes salões do Itaim Bibi — e esse é exatamente o seu perfil. Os espaços disponíveis são, em sua maioria, de porte médio (até 120 pessoas), com ambiente mais clean e contemporâneo. São adequados para casamentos que priorizam qualidade sobre quantidade de convidados.</p>',
+        table: {
+          caption: 'Perfil dos espaços de casamento no Brooklin',
+          headers: ['Porte', 'Capacidade', 'Perfil do espaço', 'Adequado para'],
+          rows: [
+            ['Intimista', 'até 30 pax', 'Restaurante exclusivo, bistro', 'Civil + jantar, elopement'],
+            ['Médio', '30–80 pax', 'Salão boutique, casa de eventos', 'Mini wedding, casamento intimista'],
+            ['Grande', '80–120 pax', 'Espaço corporativo adaptado', 'Casamento tradicional compacto'],
+          ],
+        },
+      },
+      {
+        h2: 'Quanto custa fotografar um casamento no Brooklin',
+        content: '<p>Os valores abaixo são referência para o mercado atual do Brooklin e adjacências. Para casamentos civis ou mini weddings com menos horas de cobertura, consulte também o guia de <a href="/blog/quanto-custa-fotografo-casamento-sao-paulo/">preços de fotografia de casamento em São Paulo</a>.</p>',
+        table: {
+          caption: 'Faixas de mercado — Brooklin e região (2025–2026)',
+          headers: ['Formato do casamento', 'Horas de cobertura', 'Faixa do pacote fotográfico'],
+          rows: [
+            ['Civil + jantar intimista', '2–4h', 'R$ 3.200–R$ 5.500'],
+            ['Mini wedding (até 50 pax)', '4–6h', 'R$ 4.500–R$ 8.000'],
+            ['Casamento médio (até 120 pax)', '8–10h', 'R$ 6.000–R$ 12.000'],
+            ['Casamento com segundo fotógrafo', '8–10h', 'R$ 8.000–R$ 15.000'],
+          ],
+        },
+      },
+      {
+        h2: 'Pré-wedding urbano no Brooklin e arredores',
+        content: '<p>O Brooklin não tem um parque de grande porte dentro de suas fronteiras, mas está a poucos minutos do Parque do Povo (Vila Olímpia/Moema) e do Parque Ibirapuera — os dois melhores locais para pré-wedding com elementos naturais combinados com o skyline de SP. Para casais que preferem cenários estritamente urbanos, as ruas arborizadas do próprio bairro e as fachadas da Marginal Pinheiros ao entardecer oferecem enquadramentos contemporâneos.</p><p>O horário ideal para pré-wedding na região é entre 16h30 e 18h30 de abril a setembro, quando a luz cai em ângulo favorável entre os prédios e os tons quentes do final do dia dominam a paleta. Ivan Dias recomenda sempre fazer um reconhecimento do local no mesmo horário da sessão, pelo menos uma semana antes.</p>',
+      },
+      {
+        h2: 'Logística com bairros vizinhos e trânsito Berrini–Santo Amaro',
+        content: '<p>O Brooklin fica entre dois dos principais corredores de trânsito de São Paulo: a Av. Berrini a norte e a Av. Santo Amaro a sul. Em dias úteis e em sábados entre 16h e 19h, esses corredores podem dobrar o tempo de deslocamento em relação ao GPS. Para casamentos com cerimônia e festa em locais diferentes, o planejamento de rotas deve considerar as alternativas pela Rua Funchal e pelas ruas internas do bairro.</p>',
+        table: {
+          caption: 'Tempo estimado de deslocamento a partir do Brooklin — sábado',
+          headers: ['Destino', 'Tempo normal', 'Com trânsito intenso'],
+          rows: [
+            ['Vila Olímpia', '5–8 min', '10–20 min'],
+            ['Itaim Bibi', '8–12 min', '15–25 min'],
+            ['Campo Belo', '5–8 min', '8–15 min'],
+            ['Parque do Povo', '8–12 min', '15–22 min'],
+          ],
+        },
+      },
+      {
+        h2: 'Como adaptar a cobertura fotográfica para eventos intimistas e rápidos',
+        content: '<p>Casamentos no Brooklin com 2 a 4 horas de cobertura exigem uma postura diferente do fotógrafo. Sem tempo para recuperar momentos perdidos, o profissional precisa estar presente em todos os pontos críticos: chegada, cerimônia, cumprimentos e ensaio do casal. Qualquer atraso no cronograma impacta diretamente a quantidade de registros entregues.</p><p>Segundo Ivan Dias, o segredo nesses eventos está no briefing detalhado feito 3 a 5 dias antes: entender o cronograma exato, os momentos que o casal prioriza e os familiares que precisam aparecer nas fotos. Com esse mapa em mãos, o fotógrafo consegue antecipar posicionamentos e garantir todos os registros — mesmo em eventos curtos. Veja o guia completo sobre <a href="/blog/mini-wedding-sao-paulo-fotografia-cobertura/">fotografia de mini wedding em São Paulo</a>.</p>',
+      },
+      {
+        h2: 'Erros comuns em coberturas de casamento civil no Brooklin',
+        content: '<p><strong>Subestimar a duração da cerimônia civil</strong> é o erro mais frequente. Uma cerimônia no cartório pode durar de 15 a 45 minutos dependendo do juiz de paz ou notário, e atrasos de 20 a 30 minutos são comuns. Se a cobertura fotográfica começa já na chegada ao cartório, o fotógrafo precisa estar lá com margem — não na mesma hora marcada para a cerimônia.</p><p><strong>Não prever tempo para o ensaio do casal</strong> após a cerimônia é o segundo erro. Mesmo em coberturas de 2 horas, 15 a 20 minutos de fotos a sós com os noivos em uma locação próxima fazem diferença enorme no resultado final. Planejar esse momento no roteiro — em vez de deixar para "sobrar tempo" — é responsabilidade do fotógrafo e do casal em conjunto.</p>',
+      },
+    ],
     faq: [
       {
-        question: 'O Brooklin tem espaços para casamentos e eventos?',
+        question: 'O Brooklin tem espaços para casamentos?',
         answer:
-          'Sim. O Brooklin conta com hotéis com salão de eventos, espaços corporativos adaptados para recepções e casas de festa de médio porte. Por ser um bairro com alta concentração de executivos e profissionais, os espaços seguem um padrão mais clean e moderno, ideal para casamentos contemporâneos.',
+          'Sim. O Brooklin tem salões boutique, restaurantes exclusivos e espaços corporativos adaptados para eventos de até 120 pessoas. O perfil é mais clean e contemporâneo do que nos bairros vizinhos, adequado para casamentos intimistas e mini weddings.',
       },
       {
-        question: 'Fotógrafo atende casamentos civis no Brooklin?',
+        question: 'Casamento civil no Brooklin precisa de fotógrafo?',
         answer:
-          'Sim, especialmente casamentos civis em cartório ou em espaços intimistas do bairro. A cobertura pode ser compacta (2 a 4 horas) ou completa, dependendo do formato da celebração. Cerimônias no fim do dia com recepção noturna são muito comuns no perfil Brooklin.',
+          'Sim, e mais do que em casamentos tradicionais. Em cerimônias civis, o tempo de cobertura é curto e não há ensaio geral — o fotógrafo precisa estar preparado para registrar todos os momentos importantes sem segunda chance. Um profissional com experiência em eventos compactos faz diferença enorme no resultado.',
       },
       {
-        question: 'O Brooklin fica perto de Itaim Bibi e Vila Olímpia?',
+        question: 'Quanto custa um fotógrafo de casamento civil no Brooklin?',
         answer:
-          'Sim, os bairros são vizinhos e formam um corredor de alto padrão na Zona Sul de SP. Casais do Brooklin frequentemente escolhem espaços em Itaim Bibi ou Vila Olímpia para festas maiores, e o fotógrafo cobre o deslocamento entre os locais sem custo adicional.',
+          'Para coberturas de 2 a 4 horas, os pacotes partem de R$ 3.200. Para mini weddings com até 6 horas de cobertura, a faixa fica entre R$ 4.500 e R$ 8.000. Solicite orçamento personalizado pelo WhatsApp.',
       },
       {
-        question: 'Quanto custa um fotógrafo de casamento no Brooklin?',
+        question: 'O Brooklin é perto de Itaim Bibi e Vila Olímpia?',
         answer:
-          'Os pacotes para casamentos no Brooklin partem de R$ 3.200, com cobertura completa do making of à festa, incluindo edição profissional e entrega em galeria digital de alta resolução. Solicite um orçamento personalizado pelo WhatsApp.',
+          'Sim, os três bairros formam um corredor premium na Zona Sul de SP. O trajeto entre Brooklin e Itaim Bibi ou Vila Olímpia leva de 8 a 12 minutos em trânsito normal, e até 25 minutos em horário de pico de sábado.',
       },
       {
-        question: 'Você atende mini weddings no Brooklin?',
+        question: 'Drone é permitido em casamentos no Brooklin?',
         answer:
-          'Sim, atendo mini weddings com até 80 convidados no Brooklin e região. Temos pacotes específicos para cerimônias intimistas com o mesmo cuidado fotográfico de uma grande celebração.',
+          'O Brooklin também fica próximo ao aeroporto de Congonhas, o que impõe restrições ao uso de drone. Para fotos aéreas, a alternativa mais viável é o pré-wedding no Parque do Povo ou em chácaras nas cidades vizinhas, mediante autorização específica.',
+      },
+      {
+        question: 'Onde fazer pré-wedding perto do Brooklin?',
+        answer:
+          'O Parque do Povo (Vila Olímpia/Moema) fica a menos de 15 minutos e oferece espelhos d\'água e skyline ao fundo. O Parque Ibirapuera é outra opção clássica a 20 minutos. Para cenários estritamente urbanos, as ruas arborizadas do próprio bairro funcionam bem ao entardecer.',
+      },
+      {
+        question: 'Quanto tempo dura um pré-wedding no Brooklin?',
+        answer:
+          'Uma sessão de pré-wedding na região dura em média 2 a 3 horas, com uma ou duas locações diferentes. O ideal é incluir pelo menos um local com luz natural (parque ou rua arborizada) e um com cenário mais urbano, para variedade de enquadramentos.',
+      },
+      {
+        question: 'Você cobre cerimônia no Brooklin e festa em outro bairro?',
+        answer:
+          'Sim. O deslocamento entre Brooklin e os bairros vizinhos (Itaim Bibi, Vila Olímpia, Campo Belo) está dentro da cobertura padrão, sem custo adicional de deslocamento. O cronograma do dia é planejado com margem suficiente para cobrir os dois locais sem perder momentos importantes.',
       },
     ],
   },
   {
     slug: 'fotografo-de-casamento-diadema',
     bairro: 'Diadema',
-    title: 'Fotógrafo de Casamento em Diadema: Cobertura Completa no Grande ABC',
+    title: 'Fotógrafo de Casamento em Diadema: Guia Completo do ABCDM',
     description:
-      'Fotógrafo de casamento em Diadema, integrante do ABCDM. Cobertura completa partindo de São Paulo, espaços da região e dicas para planejar o dia.',
+      'Guia completo de fotografia de casamento em Diadema: contexto no ABCDM, logística desde SP, cartórios, igrejas, salões de festa, pré-wedding na Represa Billings e quanto custa contratar um fotógrafo de qualidade.',
     excerpt:
-      'Diadema faz parte do Grande ABC e tem uma cena de casamentos ativa, com salões, buffets e espaços de evento bem estruturados. Fotógrafos de SP atendem a cidade sem dificuldade e com a mesma qualidade da capital.',
+      'Diadema integra o ABCDM — a região de cinco cidades (Santo André, São Bernardo, São Caetano, Diadema e Mauá) com uma das maiores demandas por fotografia de casamento fora da capital paulista. Este guia cobre tudo: logística desde SP, tipos de espaço, cerimônias civis e religiosas, pré-wedding na Represa Billings e o que considerar ao contratar o fotógrafo.',
     date: '2026-06-24',
+    updatedDate: '2026-06-24',
     image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-05.jpg',
+    sections: [
+      {
+        h2: 'Diadema no contexto do ABCDM',
+        content: '<p>O ABCDM é a sigla usada pelo mercado de eventos para designar as cinco cidades do Grande ABC Paulista: <a href="/blog/fotografo-de-casamento-santo-andre/">Santo André</a>, <a href="/blog/fotografo-de-casamento-sao-bernardo-do-campo/">São Bernardo do Campo</a>, São Caetano do Sul, Diadema e <a href="/blog/fotografo-de-casamento-maua/">Mauá</a>. Juntas, essas cidades formam um dos maiores mercados de casamentos da Grande São Paulo, com forte tradição de festas longas, muitos convidados e alta valorização dos registros fotográficos.</p><p>Diadema fica na porção sudoeste do ABCDM, fazendo divisa com São Bernardo do Campo, São Paulo (bairros do Socorro e Pedreira) e Ribeirão Pires. Para casais que moram em Diadema ou têm família na região, contratar um fotógrafo profissional de São Paulo capital é a escolha mais comum — o acesso é fácil e a diferença de qualidade em relação a fotógrafos estritamente locais costuma ser significativa. Veja o hub completo do <a href="/blog/fotografo-casamento-abc-paulista-santo-andre-sao-bernardo/">ABCDM</a>.</p>',
+      },
+      {
+        h2: 'Distância e logística desde São Paulo capital',
+        content: '<p>Diadema fica a aproximadamente 18 km do centro de São Paulo pela Rodovia dos Imigrantes ou pela Via Anchieta. Em tráfego normal, o trajeto leva de 30 a 40 minutos. Em sábados à tarde, especialmente no sentido litoral/interior, o tempo pode dobrar — o que exige planejamento antecipado do horário de saída do fotógrafo.</p>',
+        table: {
+          caption: 'Rotas e tempos de deslocamento São Paulo → Diadema',
+          headers: ['Rota', 'Distância', 'Tempo sem trânsito', 'Tempo com trânsito (sáb.)'],
+          rows: [
+            ['Via Anchieta (SP-150)', '18 km', '30–35 min', '45–70 min'],
+            ['Rodovia dos Imigrantes (SP-160)', '22 km', '35–40 min', '50–80 min'],
+            ['Rodoanel Sul + acesso local', '26 km', '35–45 min', '45–65 min'],
+          ],
+        },
+      },
+      {
+        h2: 'Cartórios e cerimônias civis em Diadema',
+        content: '<p>Diadema tem vários cartórios de registro civil e ofícios de notas que realizam casamentos civis. O formato mais comum é a cerimônia no próprio cartório ou em espaço privado, seguida de recepção em salão de festa ou chácara da região. A cobertura fotográfica para esse formato pode ser compacta (2 a 4 horas) ou completa, dependendo do cronograma do dia.</p><p>Um ponto que Ivan Dias destaca para casamentos civis no ABCDM: a cultura da região valoriza muito a participação da família extensa. Mesmo em cerimônias civis "simples", é comum ter 30 a 50 convidados no cartório — o que exige do fotógrafo agilidade para registrar cumprimentos e retratos de família em tempo limitado.</p>',
+      },
+      {
+        h2: 'Igrejas e cerimônias religiosas na região',
+        content: '<p>Diadema tem igrejas católicas, evangélicas e de outras denominações com boa infraestrutura para cerimônias religiosas. As igrejas mais tradicionais da cidade têm nave ampla e boa iluminação natural — condições favoráveis para fotografia. O desafio está nas cerimônias em igrejas menores ou com iluminação artificial intensa (holofotes coloridos), que exigem ajuste fino do fotógrafo.</p><p>Para casamentos religiosos, a visita técnica prévia à igreja — feita no mesmo horário do evento — é fundamental para entender a luz disponível e o posicionamento permitido pelo pároco ou pastor. Fotógrafos sem essa experiência de planejamento entregam resultados inconsistentes em cerimônias religiosas.</p>',
+      },
+      {
+        h2: 'Espaços de festa em Diadema: salões e buffets',
+        content: '<p>Diadema tem uma oferta crescente de salões de festa e buffets, especialmente em bairros como Conceição, Casa Grande e Serraria. Os espaços têm, em sua maioria, capacidade entre 80 e 200 convidados e um perfil de decoração mais tradicional — adequado para casamentos com muita família e festa longa.</p><p>Para casamentos ao ar livre, as chácaras na região de divisa com Ribeirão Pires e São Bernardo (Riacho Grande) são as opções mais procuradas pelos casais de Diadema. Esses espaços combinam área verde com infraestrutura para eventos e ficam a 20 a 30 minutos do centro da cidade.</p>',
+      },
+      {
+        h2: 'Pré-wedding na Represa Billings',
+        content: '<p>A Represa Billings, que faz divisa com São Bernardo do Campo e Diadema, é um dos cenários de pré-wedding mais subestimados da Grande São Paulo. Com extensão de água, vegetação nativa e poucas construções à beira da represa, o local oferece um contraste visual marcante em relação ao ambiente urbano — e resultados que surpreendem casais que nunca consideraram a região como destino de ensaio.</p><p>A melhor janela de luz na represa é ao entardecer (17h–18h30) nos meses de maio a agosto, quando a nebulosidade é menor e a luz dourada se reflete na superfície da água. O acesso pela região de Riacho Grande (São Bernardo) é o mais indicado por Ivan Dias para chegar às margens com menor movimento.</p>',
+      },
+      {
+        h2: 'Por que contratar um fotógrafo de São Paulo capital para um casamento em Diadema',
+        content: '<p>A principal vantagem de contratar um fotógrafo de SP para um casamento em Diadema é o portfólio amplo: profissionais baseados na capital fotografam casamentos em dezenas de tipos de espaço, com grande variedade de condições de luz, e trazem essa bagagem para cada novo evento. Fotógrafos estritamente locais podem ter menos experiência com certos cenários e formatos.</p><p>O custo de deslocamento raramente é um obstáculo. A maioria dos fotógrafos profissionais de São Paulo atende o ABCDM sem taxa adicional ou com um valor pequeno (R$ 80 a R$ 150). Esse valor é irrelevante frente à diferença de resultado que um portfólio mais amplo e técnica mais desenvolvida entregam.</p>',
+      },
+      {
+        h2: 'Quanto custa fotografar um casamento em Diadema',
+        content: '<p>Os valores abaixo são referência para o mercado atual de Diadema e região do ABCDM. Para uma análise completa do que cada faixa inclui, consulte o guia de <a href="/blog/quanto-custa-fotografo-casamento-sao-paulo/">quanto custa um fotógrafo de casamento em São Paulo</a>.</p>',
+        table: {
+          caption: 'Faixas de mercado — Diadema e ABCDM (2025–2026)',
+          headers: ['Formato', 'Horas de cobertura', 'Faixa do pacote fotográfico', 'Observação'],
+          rows: [
+            ['Civil + recepção', '4–6h', 'R$ 3.200–R$ 6.000', 'Sem segundo fotógrafo'],
+            ['Casamento médio', '8–10h', 'R$ 5.500–R$ 10.000', 'Com segundo fotógrafo opcional'],
+            ['Casamento grande (150+ pax)', '10–12h', 'R$ 8.000–R$ 14.000', 'Com segundo fotógrafo'],
+            ['Chácara/casamento ao ar livre', '8–10h', 'R$ 5.500–R$ 11.000', 'Com drone opcional'],
+          ],
+        },
+      },
+    ],
     faq: [
       {
-        question: 'Fotógrafo de São Paulo atende casamentos em Diadema?',
+        question: 'O que significa ABCDM?',
         answer:
-          'Sim. Diadema fica a cerca de 20 km do centro de São Paulo e é plenamente atendida por fotógrafos profissionais da capital. A maioria não cobra taxa de deslocamento para o ABCDM ou cobra um valor mínimo. Verifique isso antes de fechar contrato.',
+          'ABCDM é a sigla para as cinco cidades do Grande ABC Paulista: Santo André, São Bernardo do Campo, São Caetano do Sul, Diadema e Mauá. O mercado de eventos usa essa sigla para designar toda a região, que tem uma cena de casamentos muito ativa e distinta da capital.',
       },
       {
-        question: 'Diadema tem bons espaços para casamentos?',
+        question: 'Fotógrafo de SP cobra taxa de deslocamento para Diadema?',
         answer:
-          'Sim. Diadema conta com salões de festa, buffets e espaços de eventos de diferentes portes, bem como igrejas com boa infraestrutura para cerimônias. Chácaras e sítios próximos à divisa com São Bernardo e Ribeirão Pires também são opções para casamentos ao ar livre.',
+          'Depende do profissional. A maioria dos fotógrafos de SP atende o ABCDM sem taxa adicional ou com um valor entre R$ 80 e R$ 150. Confirme isso no orçamento e inclua em contrato para evitar surpresas.',
       },
       {
-        question: 'Qual a diferença entre casar em Diadema ou em Santo André?',
+        question: 'Diadema tem chácaras para casamento ao ar livre?',
         answer:
-          'Ambas fazem parte do ABCDM e têm oferta de espaços similar. Santo André tem uma cena de eventos ligeiramente mais desenvolvida, mas Diadema vem crescendo em oferta de buffets modernos. A escolha geralmente depende da localização dos familiares dos noivos e da disponibilidade do espaço preferido.',
+          'Sim, especialmente próximo à divisa com São Bernardo e Ribeirão Pires. Chácaras e sítios da região oferecem espaço para cerimônias ao ar livre, área verde e estrutura para recepções com até 200 convidados — a preços mais acessíveis que os espaços equivalentes na capital.',
       },
       {
-        question: 'Quanto custa um fotógrafo de casamento em Diadema?',
+        question: 'Represa Billings é boa para pré-wedding?',
         answer:
-          'Os pacotes para casamentos em Diadema partem de R$ 3.200, com cobertura completa do making of à festa, incluindo edição profissional e entrega em galeria digital de alta resolução. Solicite um orçamento personalizado pelo WhatsApp.',
+          'Sim, e é muito subutilizada. Com extensão de água, vegetação nativa e luz dourada ao entardecer, a represa oferece cenários de alta qualidade fotográfica. O acesso mais indicado é pela região de Riacho Grande, em São Bernardo, com a melhor luz entre 17h e 18h30 de maio a agosto.',
+      },
+      {
+        question: 'Quanto tempo leva para um fotógrafo de SP chegar em Diadema?',
+        answer:
+          'Entre 30 e 70 minutos, dependendo do horário e da rota. Fotógrafos experientes no ABCDM calculam 1h de margem para chegar no local do evento, especialmente em sábados à tarde quando as rodovias de acesso têm tráfego intenso.',
+      },
+      {
+        question: 'Qual a diferença entre casar em Diadema, Santo André ou São Bernardo?',
+        answer:
+          'Santo André tem a maior oferta de espaços e uma cena de eventos mais consolidada. São Bernardo tem o perfil mais sofisticado, com chácaras à beira da Represa Billings. Diadema tem preços de espaços mais acessíveis e cresce em oferta de buffets modernos. A escolha ideal depende da localização dos familiares e do estilo de celebração desejado.',
+      },
+      {
+        question: 'Casamento civil em Diadema precisa de fotógrafo profissional?',
+        answer:
+          'Sim, e é ainda mais importante do que em casamentos tradicionais. Em cerimônias civis, o tempo de cobertura é curto e não há espaço para retratos forçados ou retomadas. Um fotógrafo experiente em eventos compactos garante que todos os momentos essenciais sejam registrados — mesmo em 2 horas.',
       },
       {
         question: 'Você atende mini weddings em Diadema?',
         answer:
-          'Sim, atendo mini weddings com até 80 convidados em Diadema e região. Temos pacotes específicos para cerimônias intimistas com o mesmo cuidado fotográfico de uma grande celebração.',
+          'Sim, atendo mini weddings com até 80 convidados em Diadema e em toda a região do ABCDM. Temos pacotes específicos para cerimônias intimistas com o mesmo cuidado fotográfico de uma grande celebração.',
       },
     ],
   },
   {
     slug: 'fotografo-de-casamento-maua',
     bairro: 'Mauá',
-    title: 'Fotógrafo de Casamento em Mauá: Cobertura no Grande ABC',
+    title: 'Fotógrafo de Casamento em Mauá: Guia Completo do Grande ABC',
     description:
-      'Fotógrafo de casamento em Mauá, integrante do ABCDM. Saiba como planejar a cobertura fotográfica, os espaços da região e a logística com São Paulo.',
+      'Guia completo de fotografia de casamento em Mauá: contexto no ABCDM, chácaras e espaços ao ar livre, salões fechados, Represa Billings, cobertura combinada entre cidades do ABC e quanto custa contratar o fotógrafo.',
     excerpt:
-      'Mauá integra o Grande ABC e tem uma cena de casamentos consolidada, com chácaras, salões e buffets que atendem diferentes perfis de celebração. Profissionais de SP cobrem a cidade com facilidade.',
+      'Mauá faz parte do ABCDM e tem uma cena de casamentos consolidada, especialmente em chácaras e espaços ao ar livre próximos à divisa com Ribeirão Pires. Este guia cobre os tipos de espaço, logística desde São Paulo, pré-wedding na Represa Billings e como planejar a cobertura fotográfica para um casamento na região.',
     date: '2026-06-26',
+    updatedDate: '2026-06-26',
     image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-06.jpg',
+    sections: [
+      {
+        h2: 'Mauá no ABCDM e na Grande São Paulo',
+        content: '<p>Mauá é a quinta cidade do ABCDM — sigla para Santo André, São Bernardo do Campo, São Caetano do Sul, <a href="/blog/fotografo-de-casamento-diadema/">Diadema</a> e Mauá. Localizada ao sudeste do complexo, faz divisa com São Bernardo do Campo, <a href="/blog/fotografo-de-casamento-sao-bernardo-do-campo/">Ribeirão Pires</a> e Diadema. Com cerca de 470 mil habitantes, tem uma tradição forte de festas e celebrações, com casamentos que costumam reunir muita família e durar até o amanhecer.</p><p>O perfil dos casamentos em Mauá tem uma identidade própria dentro do ABCDM: mais festivos, com grande participação de família extensa e forte apego à celebração. Chácaras e sítios na divisa com Ribeirão Pires são a escolha mais comum para quem quer combinar espaço ao ar livre com uma estrutura completa para festa. Veja o panorama completo do <a href="/blog/fotografo-casamento-abc-paulista-santo-andre-sao-bernardo/">ABCDM</a>.</p>',
+      },
+      {
+        h2: 'Distância e logística desde São Paulo e cidades vizinhas',
+        content: '<p>Mauá fica a cerca de 25 km do centro de São Paulo. O acesso principal é pelo Rodoanel Sul + Via Anchieta ou pelo eixo Av. dos Estados → Estrada do Alvarenga. Em sábados à tarde, esse percurso pode levar de 40 a 80 minutos dependendo do horário e do sentido do tráfego de fim de semana.</p>',
+        table: {
+          caption: 'Rotas e tempos de deslocamento SP → Mauá',
+          headers: ['Origem', 'Rota', 'Tempo sem trânsito', 'Tempo sábado à tarde'],
+          rows: [
+            ['SP (centro)', 'Rodoanel Sul + acesso local', '35–45 min', '55–80 min'],
+            ['SP (ABC)', 'Via Anchieta direta', '30–40 min', '45–70 min'],
+            ['São Bernardo do Campo', 'Acesso direto SP-040', '15–20 min', '20–35 min'],
+            ['Ribeirão Pires', 'Estrada do Alvarenga', '10–15 min', '15–25 min'],
+          ],
+        },
+      },
+      {
+        h2: 'Chácaras e espaços ao ar livre: o formato mais procurado em Mauá',
+        content: '<p>Chácaras e sítios na região de Mauá, especialmente na divisa com Ribeirão Pires, são os espaços mais procurados para casamentos na cidade. Com jardins amplos, áreas de cerimônia ao ar livre, lago ou piscina e capacidade para 100 a 300 convidados, esses espaços permitem casamentos com muito verde e luz natural — cenário que Ivan Dias considera entre os mais fotogênicos da Grande São Paulo.</p><p>O desafio nesses espaços é a luz ao longo do dia. Cerimônias no meio da tarde (14h–16h) têm luz dura e contrastada — desfavorável para fotos. Ivan Dias recomenda sempre posicionar a cerimônia de costas para o sol ou com sombra de árvore difusando a luz, e programar o ensaio do casal para o golden hour (17h–18h30), quando a luz natural suaviza e cria o clima ideal para fotos românticas.</p>',
+      },
+      {
+        h2: 'Salões fechados de porte médio',
+        content: '<p>Além das chácaras, Mauá tem uma oferta de salões de festa e buffets fechados nos bairros centrais e nas imediações da Av. João Ramalho. Esses espaços têm perfil mais tradicional — adequados para festas com muitos convidados, iluminação controlada e cardápio de buffet completo.</p>',
+        table: {
+          caption: 'Comparação de espaços em Mauá',
+          headers: ['Tipo de espaço', 'Capacidade típica', 'Ponto forte', 'Desafio fotográfico'],
+          rows: [
+            ['Chácara / sítio', '100–300 pax', 'Luz natural, cenário verde', 'Luz dura ao meio-dia'],
+            ['Salão fechado', '80–200 pax', 'Iluminação controlada', 'Luz artificial fria'],
+            ['Buffet completo', '100–250 pax', 'Estrutura completa', 'Espaços apertados para fotos'],
+            ['Espaço à beira da represa', '50–120 pax', 'Vista de água, exclusividade', 'Acesso limitado, logística'],
+          ],
+        },
+      },
+      {
+        h2: 'Cartórios e cerimônias civis em Mauá',
+        content: '<p>Mauá tem cartórios de registro civil em diferentes bairros da cidade. As cerimônias civis na região seguem o mesmo padrão do ABCDM: muitos convidados mesmo para um "casamento simples", com família numerosa e alta expectativa emocional do evento. Para o fotógrafo, isso significa que mesmo uma cobertura de 3 horas pode ter a mesma complexidade logística de um casamento maior na capital — com muitos retratos de família e momentos de cumprimentos para registrar em tempo limitado.</p>',
+      },
+      {
+        h2: 'Pré-wedding na Represa Billings',
+        content: '<p>A Represa Billings — que faz divisa com São Bernardo, Diadema e Mauá — é o maior espelho d\'água artificial de São Paulo e um dos locais de pré-wedding mais subestimados da Grande SP. Com extensão de 127 km² e margens pouco urbanizadas, oferece vistas de água aberta, vegetação ribeirinha e um silêncio que contrasta completamente com a cidade.</p><p>Ivan Dias indica o acesso pela área de Ribeirão Pires como o ponto de melhor fotogenia: margens limpas, menos estrutura industrial ao fundo e uma janela de luz ao entardecer que cria reflexos dourados na superfície da água. A melhor época é de maio a agosto, com luz de qualidade entre 17h e 18h30. Para casais que planejam ensaio e casamento na mesma região, combinar o pré-wedding na represa com o casamento em chácara de Mauá é uma sequência natural e coerente de locações.</p>',
+      },
+      {
+        h2: 'Cobertura combinada: cerimônia em uma cidade do ABC e festa em outra',
+        content: '<p>No ABCDM, é muito comum a cerimônia religiosa acontecer em uma cidade (por exemplo, numa paróquia em Santo André) e a festa em outra (chácara em Mauá ou São Bernardo). Essa combinação exige que o fotógrafo conheça bem os trajetos da região e planeje o cronograma de forma realista.</p><p>Ivan Dias, que cobre toda a região do ABCDM, destaca o ponto mais crítico nesse formato: o deslocamento entre cerimônia e festa precisa incluir o tempo do fotógrafo para <em>chegar antes dos noivos</em> à chácara. Em práticas, isso significa sair da cerimônia imediatamente após os cumprimentos, enquanto o casal ainda está recebendo os convidados, para preparar a entrada. Esse protocolo, quando não está no roteiro acordado, é a principal causa de fotos de entrada perdidas.</p>',
+      },
+      {
+        h2: 'Quanto custa fotografar um casamento em Mauá',
+        content: '<p>Os valores abaixo refletem o mercado atual de Mauá e região do ABCDM. Para casamentos em chácaras com uso de drone, confirme com o fotógrafo a habilitação ANAC e se o valor está incluso no pacote ou é cobrado à parte.</p>',
+        table: {
+          caption: 'Faixas de mercado — Mauá e ABCDM (2025–2026)',
+          headers: ['Formato', 'Horas de cobertura', 'Faixa do pacote fotográfico', 'Observação'],
+          rows: [
+            ['Civil + recepção', '4–6h', 'R$ 3.200–R$ 6.000', 'Sem segundo fotógrafo'],
+            ['Casamento em salão', '8–10h', 'R$ 5.500–R$ 10.000', 'Segundo fotógrafo opcional'],
+            ['Casamento em chácara', '8–10h', 'R$ 5.500–R$ 11.000', 'Drone à parte (R$ 800–R$ 1.500)'],
+            ['Casamento grande (200+ pax)', '10–12h', 'R$ 8.500–R$ 15.000', 'Com segundo fotógrafo'],
+          ],
+        },
+      },
+    ],
     faq: [
       {
-        question: 'Mauá está incluída na cobertura de fotógrafos de São Paulo?',
+        question: 'Fotógrafo de São Paulo atende casamentos em Mauá?',
         answer:
-          'Sim. Mauá fica a aproximadamente 25 km do centro de SP e é atendida pela maioria dos fotógrafos profissionais da capital, geralmente sem taxa de deslocamento ou com cobrança mínima. Confirme isso no orçamento e inclua em contrato.',
+          'Sim. Mauá fica a 25 km do centro de SP e é plenamente atendida por fotógrafos profissionais da capital. A maioria não cobra taxa adicional de deslocamento para o ABCDM ou cobra um valor entre R$ 80 e R$ 150. Verifique isso no orçamento.',
       },
       {
         question: 'Mauá tem chácaras para casamentos ao ar livre?',
         answer:
-          'Sim. A região de Mauá e limítrofes com Ribeirão Pires tem chácaras e sítios com espaço para cerimônias ao ar livre, jardins e recepções com decoração natural. São ideais para casamentos com até 150 convidados que preferem um clima menos urbano, a 30 minutos de SP.',
+          'Sim, especialmente na região de divisa com Ribeirão Pires. Chácaras e sítios com jardins, áreas de cerimônia ao ar livre e capacidade para 100 a 300 convidados são a tipologia de espaço mais procurada por casais de Mauá.',
       },
       {
-        question: 'Como é o trânsito entre São Paulo e Mauá para o fotógrafo?',
+        question: 'Represa Billings é boa opção para pré-wedding em Mauá?',
         answer:
-          'O acesso pelo trecho sul do Rodoanel e pela Via Anchieta costuma ser fluido fora do horário de pico. Fotógrafos experientes no ABCDM planejam a saída com 1h de margem para qualquer eventualidade, especialmente em casamentos de sábado à tarde.',
+          'Sim. A Represa Billings tem margens com pouca urbanização e luz de qualidade ao entardecer de maio a agosto. Ivan Dias indica o acesso pela área de Ribeirão Pires como o ponto de melhor fotogenia, com reflexos dourados na água entre 17h e 18h30.',
+      },
+      {
+        question: 'Como funciona a cobertura quando a cerimônia e a festa são em cidades diferentes do ABC?',
+        answer:
+          'O fotógrafo cobre os dois locais dentro do mesmo pacote, planejando o deslocamento entre cerimônia e festa no cronograma. O ponto crítico é o fotógrafo sair antes do cortejo para chegar à chácara antes dos noivos — detalhe que precisa estar explícito no roteiro do dia.',
+      },
+      {
+        question: 'Qual a melhor época para casar em chácara em Mauá?',
+        answer:
+          'De abril a outubro, quando o risco de chuva no fim da tarde é menor. O inverno paulista (junho–agosto) tem dias secos e luz de qualidade — ideal para cerimônias ao ar livre no final da tarde.',
+      },
+      {
+        question: 'Drone funciona bem em chácaras de Mauá?',
+        answer:
+          'Sim. Chácaras da região de Mauá e Ribeirão Pires geralmente têm espaço aéreo livre de restrições aeronáuticas — diferente da capital e do ABC mais urbanizado. Confirme a habilitação ANAC do operador e inclua no contrato se o drone está no pacote ou é cobrado à parte.',
       },
       {
         question: 'Quanto custa um fotógrafo de casamento em Mauá?',
         answer:
-          'Os pacotes para casamentos em Mauá partem de R$ 3.200, com cobertura completa do making of à festa, incluindo edição profissional e entrega em galeria digital de alta resolução. Solicite um orçamento personalizado pelo WhatsApp.',
+          'Os pacotes para casamentos em Mauá partem de R$ 3.200 para coberturas de 4 a 6 horas. Para casamentos em chácara com 8 a 10 horas, a faixa fica entre R$ 5.500 e R$ 11.000, dependendo de segundo fotógrafo e drone. Solicite orçamento personalizado pelo WhatsApp.',
       },
       {
-        question: 'Você atende mini weddings em Mauá?',
+        question: 'Você atende casamentos na divisa de Mauá com Ribeirão Pires?',
         answer:
-          'Sim, atendo mini weddings com até 80 convidados em Mauá e região. Temos pacotes específicos para cerimônias intimistas com o mesmo cuidado fotográfico de uma grande celebração.',
+          'Sim. Chácaras e sítios nessa divisa estão incluídos na cobertura do ABCDM. A distância de São Paulo é similar à de Mauá centro — entre 35 e 60 minutos dependendo do horário.',
       },
     ],
   },
