@@ -3907,29 +3907,39 @@ export const posts: Post[] = [
   },
   {
     slug: 'fotografo-casamento-abc-paulista-santo-andre-sao-bernardo',
-    bairro: 'ABC Paulista',
-    title: 'Fotógrafo de Casamento no ABC Paulista: Cobertura Completa em Santo André, São Bernardo e São Caetano',
+    bairro: 'ABCDM',
+    title: 'Fotógrafo de Casamento no ABCDM: Cobertura Completa em Santo André, São Bernardo, São Caetano, Diadema e Mauá',
     description:
-      'Fotógrafo de casamento no ABC Paulista (Santo André, São Bernardo e São Caetano do Sul), atendendo toda a região com cobertura completa vinda de São Paulo.',
+      'Fotógrafo de casamento no ABCDM (Santo André, São Bernardo do Campo, São Caetano do Sul, Diadema e Mauá), atendendo toda a região com cobertura completa vinda de São Paulo.',
     excerpt:
-      'Fotógrafos de São Paulo atendem todo o ABC Paulista. Veja como funciona o deslocamento, os espaços da região e o que considerar ao planejar a cobertura.',
+      'O ABCDM concentra cinco cidades com forte demanda por fotografia de casamento na Grande São Paulo. Fotógrafos profissionais de SP atendem toda a região — veja o que considerar ao planejar a cobertura.',
     date: '2026-07-10',
     image: '/images/galeria/detalhes/casamento-sao-paulo-detalhes-27.jpg',
     faq: [
       {
-        question: 'Fotógrafo de casamento de São Paulo atende o ABC Paulista?',
+        question: 'Fotógrafo de casamento de São Paulo atende o ABCDM?',
         answer:
-          'Sim. A maioria dos fotógrafos profissionais de SP atende toda a Grande São Paulo, incluindo Santo André, São Bernardo do Campo e São Caetano do Sul. Verifique se há taxa de deslocamento — alguns profissionais incluem o ABC na cobertura padrão, outros cobram deslocamento a partir de certa distância.',
+          'Sim. A maioria dos fotógrafos profissionais de SP atende toda a Grande São Paulo, incluindo as cinco cidades do ABCDM: Santo André, São Bernardo do Campo, São Caetano do Sul, Diadema e Mauá. Verifique se há taxa de deslocamento — alguns profissionais incluem o ABCDM na cobertura padrão, outros cobram deslocamento a partir de certa distância.',
       },
       {
-        question: 'O ABC tem bons espaços para casamentos?',
+        question: 'O ABCDM tem bons espaços para casamentos?',
         answer:
-          'Sim. O ABC Paulista tem uma boa infraestrutura de espaços para eventos, com salões de diferentes portes, haras, sítios e chácaras na região de São Bernardo e Ribeirão Pires. Os preços dos espaços costumam ser mais acessíveis que na capital, permitindo casamentos mais elaborados com o mesmo orçamento.',
+          'Sim. O ABCDM tem uma boa infraestrutura de espaços para eventos, com salões de diferentes portes, haras, sítios e chácaras na região de São Bernardo, Ribeirão Pires e Mauá. Os preços dos espaços costumam ser mais acessíveis que na capital, permitindo casamentos mais elaborados com o mesmo orçamento.',
       },
       {
-        question: 'Quanto tempo o fotógrafo de SP leva para chegar no ABC para o casamento?',
+        question: 'Quanto tempo o fotógrafo de SP leva para chegar no ABCDM para o casamento?',
         answer:
-          'Dependendo do horário, o trajeto SP-ABC pode levar de 40 minutos a mais de 1h30 no trânsito. Profissionais experientes levam isso em conta no planejamento, chegando com antecedência. Combine sempre o horário de chegada e o local de início da cobertura no contrato.',
+          'Dependendo do horário, o trajeto SP-ABCDM pode levar de 40 minutos a mais de 1h30 no trânsito. Profissionais experientes chegam com antecedência. Combine sempre o horário de chegada e o local de início da cobertura no contrato.',
+      },
+      {
+        question: 'Qual a diferença entre as cidades do ABCDM para casamentos?',
+        answer:
+          'Santo André e São Bernardo têm a maior oferta de espaços e uma cena de eventos consolidada. São Caetano tem um perfil mais sofisticado e compacto. Diadema e Mauá crescem em oferta de buffets modernos e chácaras, especialmente na divisa com Ribeirão Pires. A escolha depende da localização da família e do estilo de celebração desejado.',
+      },
+      {
+        question: 'Fotógrafo atende chácaras e sítios no ABCDM?',
+        answer:
+          'Sim. A região de Mauá, Ribeirão Pires e São Bernardo (Riacho Grande) tem chácaras e sítios à beira de represa ideais para casamentos ao ar livre. São cenários únicos a menos de 40 km da capital, com mais área verde e privacidade que a maioria dos espaços urbanos.',
       },
     ],
   },
@@ -5107,6 +5117,274 @@ export const posts: Post[] = [
         question: 'Iluminação do espaço afeta as fotos de casamento?',
         answer:
           'Sim, muito. Iluminação quente (amarela) cria atmosfera romântica e favorece tons de pele nas fotos. Iluminação fria (branca ou azulada) pode deixar as imagens mais frias e menos acolhedoras. Velas e candelabros são aliados do fotógrafo para criar profundidade e romantismo nas imagens da mesa dos noivos e recepção.',
+      },
+    ],
+  },
+  // ─── TIER 1 — Gaps de alta prioridade ──────────────────────────────────────
+  {
+    slug: 'fotografo-de-casamento-vila-olimpia',
+    bairro: 'Vila Olímpia',
+    title: 'Fotógrafo de Casamento na Vila Olímpia: Rooftops e Salões Corporativos em São Paulo',
+    description:
+      'Fotógrafo de casamento na Vila Olímpia, bairro premium de SP. Veja como aproveitar rooftops, salões de alto padrão e a iluminação noturna urbana para fotos inesquecíveis.',
+    excerpt:
+      'A Vila Olímpia reúne alguns dos espaços mais sofisticados de São Paulo: rooftops com vista panorâmica, salões de alto padrão e uma energia urbana que potencializa cada foto. Saiba como escolher o fotógrafo certo para este cenário.',
+    date: '2026-06-20',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-01.jpg',
+    faq: [
+      {
+        question: 'A Vila Olímpia tem bons espaços para casamentos?',
+        answer:
+          'Sim. A Vila Olímpia concentra rooftops corporativos convertidos para eventos, salões exclusivos em hotéis boutique e espaços de alto padrão que combinam arquitetura moderna com sofisticação. São ideais para casamentos com até 200 convidados e estética urbana contemporânea.',
+      },
+      {
+        question: 'Como o fotógrafo lida com a iluminação noturna na Vila Olímpia?',
+        answer:
+          'Espaços com iluminação artificial exigem equipamentos com excelente desempenho em baixa luz. Na Vila Olímpia, os rooftops noturnos oferecem o skyline de São Paulo ao fundo — um cenário que o fotógrafo pode usar estrategicamente para criar imagens dramáticas e exclusivas sem edição exagerada.',
+      },
+      {
+        question: 'Vila Olímpia é próxima de Itaim Bibi e Moema?',
+        answer:
+          'Sim, os três bairros formam um corredor premium na Zona Sul de SP. Cerimônias em igrejas de Moema ou Itaim Bibi com recepção na Vila Olímpia são combinações comuns, e um fotógrafo experiente na região conhece as melhores rotas e lida com os deslocamentos sem perder momentos importantes.',
+      },
+      {
+        question: 'Quanto custa um fotógrafo de casamento na Vila Olímpia?',
+        answer:
+          'Os pacotes para casamentos na Vila Olímpia partem de R$ 3.200, com cobertura completa do making of à festa, incluindo edição profissional e entrega em galeria digital de alta resolução. Solicite um orçamento personalizado pelo WhatsApp.',
+      },
+      {
+        question: 'Você atende pré-wedding urbano na Vila Olímpia?',
+        answer:
+          'Sim, a região oferece cenários urbanos únicos para ensaios de pré-wedding ao entardecer: ruas arborizadas, fachadas de vidro e recantos com personalidade. O horário golden hour nessa região é especialmente valorizado por criar reflexos e contraluz de grande impacto visual.',
+      },
+    ],
+  },
+  {
+    slug: 'fotografo-de-casamento-brooklin',
+    bairro: 'Brooklin',
+    title: 'Fotógrafo de Casamento no Brooklin: Elegância e Praticidade na Zona Sul de SP',
+    description:
+      'Fotógrafo de casamento no Brooklin Paulista. Saiba como registrar casamentos elegantes e cerimônias civis neste bairro executivo vizinho de Itaim Bibi e Vila Olímpia.',
+    excerpt:
+      'O Brooklin Paulista tem um perfil executivo e sofisticado, com espaços fechados de alto padrão, casamentos civis rápidos pós-expediente e fácil integração com pré-wedding urbano. Um bairro que cresce em demanda para casamentos.',
+    date: '2026-06-22',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-02.jpg',
+    faq: [
+      {
+        question: 'O Brooklin tem espaços para casamentos e eventos?',
+        answer:
+          'Sim. O Brooklin conta com hotéis com salão de eventos, espaços corporativos adaptados para recepções e casas de festa de médio porte. Por ser um bairro com alta concentração de executivos e profissionais, os espaços seguem um padrão mais clean e moderno, ideal para casamentos contemporâneos.',
+      },
+      {
+        question: 'Fotógrafo atende casamentos civis no Brooklin?',
+        answer:
+          'Sim, especialmente casamentos civis em cartório ou em espaços intimistas do bairro. A cobertura pode ser compacta (2 a 4 horas) ou completa, dependendo do formato da celebração. Cerimônias no fim do dia com recepção noturna são muito comuns no perfil Brooklin.',
+      },
+      {
+        question: 'O Brooklin fica perto de Itaim Bibi e Vila Olímpia?',
+        answer:
+          'Sim, os bairros são vizinhos e formam um corredor de alto padrão na Zona Sul de SP. Casais do Brooklin frequentemente escolhem espaços em Itaim Bibi ou Vila Olímpia para festas maiores, e o fotógrafo cobre o deslocamento entre os locais sem custo adicional.',
+      },
+      {
+        question: 'Quanto custa um fotógrafo de casamento no Brooklin?',
+        answer:
+          'Os pacotes para casamentos no Brooklin partem de R$ 3.200, com cobertura completa do making of à festa, incluindo edição profissional e entrega em galeria digital de alta resolução. Solicite um orçamento personalizado pelo WhatsApp.',
+      },
+      {
+        question: 'Você atende mini weddings no Brooklin?',
+        answer:
+          'Sim, atendo mini weddings com até 80 convidados no Brooklin e região. Temos pacotes específicos para cerimônias intimistas com o mesmo cuidado fotográfico de uma grande celebração.',
+      },
+    ],
+  },
+  {
+    slug: 'fotografo-de-casamento-diadema',
+    bairro: 'Diadema',
+    title: 'Fotógrafo de Casamento em Diadema: Cobertura Completa no Grande ABC',
+    description:
+      'Fotógrafo de casamento em Diadema, integrante do ABCDM. Cobertura completa partindo de São Paulo, espaços da região e dicas para planejar o dia.',
+    excerpt:
+      'Diadema faz parte do Grande ABC e tem uma cena de casamentos ativa, com salões, buffets e espaços de evento bem estruturados. Fotógrafos de SP atendem a cidade sem dificuldade e com a mesma qualidade da capital.',
+    date: '2026-06-24',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-05.jpg',
+    faq: [
+      {
+        question: 'Fotógrafo de São Paulo atende casamentos em Diadema?',
+        answer:
+          'Sim. Diadema fica a cerca de 20 km do centro de São Paulo e é plenamente atendida por fotógrafos profissionais da capital. A maioria não cobra taxa de deslocamento para o ABCDM ou cobra um valor mínimo. Verifique isso antes de fechar contrato.',
+      },
+      {
+        question: 'Diadema tem bons espaços para casamentos?',
+        answer:
+          'Sim. Diadema conta com salões de festa, buffets e espaços de eventos de diferentes portes, bem como igrejas com boa infraestrutura para cerimônias. Chácaras e sítios próximos à divisa com São Bernardo e Ribeirão Pires também são opções para casamentos ao ar livre.',
+      },
+      {
+        question: 'Qual a diferença entre casar em Diadema ou em Santo André?',
+        answer:
+          'Ambas fazem parte do ABCDM e têm oferta de espaços similar. Santo André tem uma cena de eventos ligeiramente mais desenvolvida, mas Diadema vem crescendo em oferta de buffets modernos. A escolha geralmente depende da localização dos familiares dos noivos e da disponibilidade do espaço preferido.',
+      },
+      {
+        question: 'Quanto custa um fotógrafo de casamento em Diadema?',
+        answer:
+          'Os pacotes para casamentos em Diadema partem de R$ 3.200, com cobertura completa do making of à festa, incluindo edição profissional e entrega em galeria digital de alta resolução. Solicite um orçamento personalizado pelo WhatsApp.',
+      },
+      {
+        question: 'Você atende mini weddings em Diadema?',
+        answer:
+          'Sim, atendo mini weddings com até 80 convidados em Diadema e região. Temos pacotes específicos para cerimônias intimistas com o mesmo cuidado fotográfico de uma grande celebração.',
+      },
+    ],
+  },
+  {
+    slug: 'fotografo-de-casamento-maua',
+    bairro: 'Mauá',
+    title: 'Fotógrafo de Casamento em Mauá: Cobertura no Grande ABC',
+    description:
+      'Fotógrafo de casamento em Mauá, integrante do ABCDM. Saiba como planejar a cobertura fotográfica, os espaços da região e a logística com São Paulo.',
+    excerpt:
+      'Mauá integra o Grande ABC e tem uma cena de casamentos consolidada, com chácaras, salões e buffets que atendem diferentes perfis de celebração. Profissionais de SP cobrem a cidade com facilidade.',
+    date: '2026-06-26',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-06.jpg',
+    faq: [
+      {
+        question: 'Mauá está incluída na cobertura de fotógrafos de São Paulo?',
+        answer:
+          'Sim. Mauá fica a aproximadamente 25 km do centro de SP e é atendida pela maioria dos fotógrafos profissionais da capital, geralmente sem taxa de deslocamento ou com cobrança mínima. Confirme isso no orçamento e inclua em contrato.',
+      },
+      {
+        question: 'Mauá tem chácaras para casamentos ao ar livre?',
+        answer:
+          'Sim. A região de Mauá e limítrofes com Ribeirão Pires tem chácaras e sítios com espaço para cerimônias ao ar livre, jardins e recepções com decoração natural. São ideais para casamentos com até 150 convidados que preferem um clima menos urbano, a 30 minutos de SP.',
+      },
+      {
+        question: 'Como é o trânsito entre São Paulo e Mauá para o fotógrafo?',
+        answer:
+          'O acesso pelo trecho sul do Rodoanel e pela Via Anchieta costuma ser fluido fora do horário de pico. Fotógrafos experientes no ABCDM planejam a saída com 1h de margem para qualquer eventualidade, especialmente em casamentos de sábado à tarde.',
+      },
+      {
+        question: 'Quanto custa um fotógrafo de casamento em Mauá?',
+        answer:
+          'Os pacotes para casamentos em Mauá partem de R$ 3.200, com cobertura completa do making of à festa, incluindo edição profissional e entrega em galeria digital de alta resolução. Solicite um orçamento personalizado pelo WhatsApp.',
+      },
+      {
+        question: 'Você atende mini weddings em Mauá?',
+        answer:
+          'Sim, atendo mini weddings com até 80 convidados em Mauá e região. Temos pacotes específicos para cerimônias intimistas com o mesmo cuidado fotográfico de uma grande celebração.',
+      },
+    ],
+  },
+  // ─── TIER 2 — Clusters regionais ───────────────────────────────────────────
+  {
+    slug: 'fotografo-casamento-zona-oeste-grande-sao-paulo',
+    bairro: 'Zona Oeste Grande SP',
+    title: 'Fotógrafo de Casamento na Zona Oeste da Grande São Paulo: Taboão da Serra, Carapicuíba, Itapevi e Jandira',
+    description:
+      'Fotógrafo de casamento na Zona Oeste da Grande São Paulo: cobertura completa em Taboão da Serra, Carapicuíba, Itapevi e Jandira, com deslocamento desde a capital.',
+    excerpt:
+      'A Zona Oeste da Grande São Paulo reúne cidades com boa oferta de espaços para casamentos e fácil acesso à capital. Taboão da Serra, Carapicuíba, Itapevi e Jandira têm uma cena de eventos crescente e são plenamente atendidas por fotógrafos de SP.',
+    date: '2026-06-28',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-08.jpg',
+    faq: [
+      {
+        question: 'Fotógrafo de São Paulo atende casamentos em Taboão da Serra?',
+        answer:
+          'Sim. Taboão da Serra faz divisa com SP (bairro do Capão Redondo) e é atendida sem dificuldade por fotógrafos da capital. O deslocamento costuma levar de 30 a 50 minutos dependendo do horário, e a maioria dos profissionais não cobra taxa adicional.',
+      },
+      {
+        question: 'Carapicuíba tem espaços para casamentos ao ar livre?',
+        answer:
+          'Sim. Carapicuíba conta com chácaras, sítios e salões de médio porte na região de Aldeia de Carapicuíba e arredores, além de espaços rurais próximos a Cotia e Barueri que podem ser opções para casamentos ao ar livre com boa luz natural.',
+      },
+      {
+        question: 'Casamentos em Itapevi e Jandira: qual o perfil dos espaços?',
+        answer:
+          'Itapevi e Jandira têm um perfil mais interiorano, com chácaras rurais, haras e salões menores ideais para casamentos intimistas. São ótimas opções para casais que preferem um clima de campo sem sair da Grande São Paulo, com custo de espaço abaixo da capital.',
+      },
+      {
+        question: 'Quanto custa um fotógrafo de casamento na Zona Oeste da Grande SP?',
+        answer:
+          'Os pacotes para casamentos na Zona Oeste da Grande SP partem de R$ 3.200, com cobertura completa do making of à festa, incluindo edição profissional e entrega em galeria digital de alta resolução. Solicite um orçamento personalizado pelo WhatsApp.',
+      },
+      {
+        question: 'Drone funciona bem em casamentos na Zona Oeste da Grande SP?',
+        answer:
+          'Sim, especialmente em chácaras e haras de Itapevi, Jandira e áreas rurais de Carapicuíba, onde há menos restrição de espaço aéreo. Verifique sempre as regulamentações locais e a habilitação ANAC do operador antes de incluir drone no planejamento.',
+      },
+    ],
+  },
+  {
+    slug: 'fotografo-casamento-alto-tiete-grande-sao-paulo',
+    bairro: 'Alto Tietê',
+    title: 'Fotógrafo de Casamento no Alto Tietê: Itaquaquecetuba, Poá, Ferraz de Vasconcelos e Arujá',
+    description:
+      'Fotógrafo de casamento no Alto Tietê, Grande São Paulo: cobertura completa em Itaquaquecetuba, Poá, Ferraz de Vasconcelos e Arujá, com acesso pela Rodovia Mogi-Bertioga.',
+    excerpt:
+      'O Alto Tietê reúne cidades com demanda crescente para casamentos na Grande SP Leste. Itaquaquecetuba, Poá, Ferraz de Vasconcelos e Arujá têm espaços de eventos acessíveis e fácil conexão com Mogi das Cruzes e Suzano.',
+    date: '2026-06-30',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    faq: [
+      {
+        question: 'Fotógrafo de SP atende casamentos em Itaquaquecetuba?',
+        answer:
+          'Sim. Itaquaquecetuba fica a cerca de 40 km de SP pelo anel viário. A maioria dos fotógrafos profissionais cobre a região do Alto Tietê, geralmente com uma taxa mínima de deslocamento. Verifique isso no orçamento e alinhe o horário de chegada com bastante antecedência.',
+      },
+      {
+        question: 'Poá e Ferraz de Vasconcelos têm espaços para casamentos?',
+        answer:
+          'Sim. As duas cidades têm salões de festas, buffets e chácaras de pequeno e médio porte. São opções atrativas para famílias que buscam espaços com preços mais acessíveis que a capital, sem abrir mão de boa infraestrutura para cerimônia e recepção.',
+      },
+      {
+        question: 'Arujá é indicada para casamentos ao ar livre?',
+        answer:
+          'Sim. Arujá tem uma vocação mais rural, com sítios e chácaras próximas à represa e áreas verdes. É uma das cidades do Alto Tietê com maior concentração de espaços ao ar livre ideais para casamentos com clima de campo, muito próximos do aeroporto de Guarulhos.',
+      },
+      {
+        question: 'Quanto custa um fotógrafo de casamento no Alto Tietê?',
+        answer:
+          'Os pacotes para casamentos no Alto Tietê partem de R$ 3.200, com cobertura completa do making of à festa, incluindo edição profissional e entrega em galeria digital de alta resolução. Pode haver taxa de deslocamento dependendo da cidade — solicite um orçamento personalizado pelo WhatsApp.',
+      },
+      {
+        question: 'Você atende mini weddings no Alto Tietê?',
+        answer:
+          'Sim, atendo mini weddings com até 80 convidados no Alto Tietê e região. Temos pacotes específicos para cerimônias intimistas com o mesmo cuidado fotográfico de uma grande celebração.',
+      },
+    ],
+  },
+  {
+    slug: 'fotografo-casamento-regiao-mairipora-caieiras',
+    bairro: 'Região de Mairiporã',
+    title: 'Fotógrafo de Casamento na Região de Mairiporã: Caieiras, Franco da Rocha e Francisco Morato',
+    description:
+      'Fotógrafo de casamento na região de Mairiporã: cobertura em Caieiras, Franco da Rocha e Francisco Morato, com acesso pela Rodovia Fernão Dias e deslocamento desde SP.',
+    excerpt:
+      'A região serrana ao norte de São Paulo, que inclui Mairiporã, Caieiras, Franco da Rocha e Francisco Morato, tem uma oferta crescente de chácaras e espaços para casamentos em meio à natureza, a menos de 50 km da capital.',
+    date: '2026-07-02',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-11.jpg',
+    faq: [
+      {
+        question: 'Caieiras tem espaços para casamentos ao ar livre?',
+        answer:
+          'Sim. Caieiras fica às margens da Represa Paiva Castro e tem chácaras e sítios com área verde e lago — cenários ideais para cerimônias ao ar livre e ensaios com muita luz natural. A região é menos conhecida que Mairiporã mas oferece espaços com preços mais acessíveis e paisagem igualmente bonita.',
+      },
+      {
+        question: 'Franco da Rocha é uma boa opção para casamentos na zona rural?',
+        answer:
+          'Sim, especialmente para casamentos em chácaras e sítios com distância segura do centro urbano. Franco da Rocha tem espaços rurais com boa estrutura, acesso pela Rodovia Júlio César de Mesquita e é vizinha de Mairiporã — o que permite incluir cenários da Serra da Cantareira no pré-wedding.',
+      },
+      {
+        question: 'Fotógrafo de SP tem taxa de deslocamento para essa região?',
+        answer:
+          'Depende do profissional e da cidade. Mairiporã normalmente não tem taxa adicional para fotógrafos que atuam na Grande SP. Para Caieiras, Franco da Rocha e Francisco Morato, a taxa varia de R$ 0 a R$ 150 — pergunte sempre antes de fechar o contrato.',
+      },
+      {
+        question: 'Quanto custa um fotógrafo de casamento na região de Mairiporã?',
+        answer:
+          'Os pacotes para casamentos na região de Mairiporã, Caieiras e Francisco Morato partem de R$ 3.200, com cobertura completa do making of à festa, incluindo edição profissional e entrega em galeria digital de alta resolução. Solicite um orçamento personalizado pelo WhatsApp.',
+      },
+      {
+        question: 'Drone funciona bem nessa região serrana?',
+        answer:
+          'Sim, é uma das regiões da Grande SP com melhor potencial para drone em casamentos ao ar livre. Sem o adensamento urbano da capital, os espaços rurais de Mairiporã, Caieiras e Franco da Rocha permitem voos com vista das serras e reservatórios — resultado visualmente impactante. Confirme a regulamentação ANAC com o operador.',
       },
     ],
   },
