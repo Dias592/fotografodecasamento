@@ -6815,6 +6815,7 @@ export const posts: Post[] = [
       { h2: 'Quanto custa', content: '<p>Os pacotes para o Welucci Fontana partem de R$ 7.000. Veja mais referências no guia de <a href="/blog/quanto-custa-fotografo-casamento-sao-paulo/">preços de fotógrafo de casamento em São Paulo</a>.</p>' },
     ],
     faq: [
+      { question: 'Qual a categoria do Welucci Fontana?', answer: 'O Welucci Fontana fica na região de Sorocaba e faz parte da categoria Interior. Veja o guia completo de casamento no interior de SP.' },
       { question: 'Ivan Dias fotografa casamentos no Welucci Fontana?', answer: 'Sim — Ivan Dias atende casamentos em todas as unidades do Grupo Welucci, incluindo o Welucci Fontana. Entre em contato para verificar disponibilidade.' },
       { question: 'As fontes aparecem bem nas fotos noturnas?', answer: 'Sim — com a iluminação correta, as fontes e reflexos noturnos ficam especialmente bonitos nas fotos. Ivan Dias reserva tempo específico para esses registros.' },
       { question: 'Quanto custa fotografar no Welucci Fontana?', answer: 'Os pacotes partem de R$ 7.000. Solicite orçamento personalizado pelo WhatsApp — resposta em até 24 horas.' },
@@ -6823,8 +6824,8 @@ export const posts: Post[] = [
 
   {
     slug: 'fotografo-casamento-welucci-kratos',
-    bairro: 'Welucci Kratos',
-    title: 'Fotógrafo de Casamento no Welucci Kratos: Grandiosidade Arquitetônica e Luz Dramática',
+    bairro: 'Welucci Kratos — Vinhedo',
+    title: 'Casamento no Welucci Kratos: Guia Completo de Fotografia em Vinhedo',
     description: 'Fotografia de casamento no Welucci Kratos: pé-direito alto, arquitetura marcante, como a escala do espaço se traduz em fotos impactantes e como Ivan Dias planeja a cobertura.',
     excerpt: 'O Welucci Kratos é um espaço projetado para impressionar — com volumes que criam senso de grandiosidade e uma arquitetura que faz o casal parecer protagonista de algo maior. Para o fotógrafo, a escala do Kratos é uma ferramenta poderosa de composição.',
     date: '2025-04-05',
@@ -6846,6 +6847,7 @@ export const posts: Post[] = [
     faq: [
       { question: 'Ivan Dias fotografa casamentos no Welucci Kratos?', answer: 'Sim — Ivan Dias atende casamentos em todas as unidades do Grupo Welucci, incluindo o Welucci Kratos. Entre em contato para verificar disponibilidade.' },
       { question: 'Drone é recomendado para o Welucci Kratos?', answer: 'Sim — a escala do espaço e a área externa são ideais para o drone. A perspectiva aérea revela dimensões do espaço que nenhum ângulo no solo captura.' },
+      { question: 'O Welucci Kratos fica em qual cidade?', answer: 'O Welucci Kratos fica em Vinhedo, a cerca de 30 minutos de Campinas e Jundiaí. Ivan Dias atende casamentos em toda a região. Veja o guia de casamento no interior de SP.' },
       { question: 'Quanto custa fotografar no Welucci Kratos?', answer: 'Os pacotes partem de R$ 7.500. Solicite orçamento personalizado pelo WhatsApp — resposta em até 24 horas.' },
     ],
   },
@@ -6993,6 +6995,7 @@ export const posts: Post[] = [
     faq: [
       { question: 'Ivan Dias fotografa casamentos no Welucci Vila Real?', answer: 'Sim — Ivan Dias atende casamentos em todas as unidades do Grupo Welucci, incluindo o Welucci Vila Real. Entre em contato para verificar disponibilidade.' },
       { question: 'Os azulejos aparecem nas fotos?', answer: 'Sim — e ficam lindos. Ivan Dias usa os azulejos como elemento de composição ativo, não apenas como fundo. O resultado são imagens com identidade visual forte e inconfundível.' },
+      { question: 'O Welucci Vila Real é categorizado como campo?', answer: 'Sim — o Vila Real fica em área rural próxima a SP e se enquadra na categoria casamento no campo. Veja o guia de casamento no campo perto de SP.' },
       { question: 'Quanto custa fotografar no Welucci Vila Real?', answer: 'Os pacotes partem de R$ 7.500. Solicite orçamento personalizado pelo WhatsApp — resposta em até 24 horas.' },
     ],
   },
@@ -7022,6 +7025,7 @@ export const posts: Post[] = [
     faq: [
       { question: 'Ivan Dias fotografa casamentos no Welucci Fagundes?', answer: 'Sim — Ivan Dias atende casamentos em todas as unidades do Grupo Welucci, incluindo o Welucci Fagundes. Entre em contato para verificar disponibilidade.' },
       { question: 'O casarão colonial aparece nas fotos?', answer: 'Sim — a arquitetura histórica é um dos elementos centrais da cobertura fotográfica no Fagundes. Ivan Dias usa a textura e o charme do casarão como componente ativo das composições.' },
+      { question: 'O casarão colonial do Fagundes tem lago?', answer: 'Sim — o Welucci Fagundes combina casarão colonial com lago, criando cenários com reflexos aquáticos em ambiente de campo. Um dos espaços mais fotogênicos do grupo para registros ao ar livre.' },
       { question: 'Quanto custa fotografar no Welucci Fagundes?', answer: 'Os pacotes partem de R$ 7.500. Solicite orçamento pelo WhatsApp — resposta em até 24 horas.' },
     ],
   },
@@ -7053,14 +7057,15 @@ export const posts: Post[] = [
       { question: 'Ivan Dias fotografa casamentos no Welucci Ocean?', answer: 'Sim — Ivan Dias atende casamentos em todas as unidades do Grupo Welucci, incluindo o Welucci Ocean. Entre em contato para verificar disponibilidade.' },
       { question: 'O conceito náutico do Ocean fica evidente nas fotos?', answer: 'Sim — a paleta, os elementos decorativos e a iluminação do espaço criam uma identidade visual muito forte que aparece naturalmente nas fotos, sem precisar de nenhuma produção adicional.' },
       { question: 'Drone é recomendado para o Welucci Ocean?', answer: 'Sim — a perspectiva aérea reforça o conceito náutico e revela dimensões do espaço que os ângulos no chão não capturam.' },
+      { question: 'O Welucci Ocean é na praia?', answer: 'Sim — o Welucci Ocean é o único espaço litorâneo do Grupo Welucci. Veja o guia de casamento no litoral de SP para mais opções costeiras.' },
       { question: 'Quanto custa fotografar no Welucci Ocean?', answer: 'Os pacotes partem de R$ 7.500. Solicite orçamento personalizado pelo WhatsApp — resposta em até 24 horas.' },
     ],
   },
 
   {
     slug: 'fotografo-casamento-welucci-canto-verde',
-    bairro: 'Welucci Canto Verde',
-    title: 'Fotógrafo de Casamento no Welucci Canto Verde: Natureza da Serra na Fotografia',
+    bairro: 'Welucci Canto Verde — Serra da Mantiqueira',
+    title: 'Casamento no Welucci Canto Verde: Guia Completo de Fotografia na Serra',
     description: 'Fotografia de casamento no Welucci Canto Verde: cenário de serra, vegetação densa, luz de altitude, como a natureza eleva a qualidade das fotos e como Ivan Dias planeja a cobertura.',
     excerpt: 'O Welucci Canto Verde é um casamento em harmonia com a natureza da serra — vegetação densa, ar limpo, silêncio e uma luz de altitude que não existe na cidade. Para o fotógrafo, esse ambiente cria imagens com uma qualidade de cor e profundidade que só a natureza em estado puro consegue oferecer.',
     date: '2025-04-05',
@@ -7084,6 +7089,7 @@ export const posts: Post[] = [
       { question: 'Ivan Dias fotografa casamentos no Welucci Canto Verde?', answer: 'Sim — Ivan Dias atende casamentos em todas as unidades do Grupo Welucci, incluindo o Welucci Canto Verde na serra. Entre em contato para verificar disponibilidade de data.' },
       { question: 'A névoa da serra aparece nas fotos?', answer: 'Quando acontece, sim — e fica absolutamente bonita. A névoa cria uma atmosfera única nas fotos que é impossível de produzir artificialmente. Ivan Dias fica atento a esses momentos durante todo o evento.' },
       { question: 'Drone é recomendado para o Welucci Canto Verde?', answer: 'Sim — é um dos espaços onde o drone entrega o resultado mais impactante. A paisagem serrana de cima é uma das imagens mais marcantes de uma cobertura no Canto Verde.' },
+      { question: 'O Canto Verde fica na Serra da Mantiqueira?', answer: 'Sim — o Welucci Canto Verde é o espaço mais verde e serrano do grupo, na Serra da Mantiqueira. Veja o guia de casamento no campo perto de SP.' },
       { question: 'Quanto custa fotografar no Welucci Canto Verde?', answer: 'Os pacotes partem de R$ 8.000. Solicite orçamento personalizado pelo WhatsApp — resposta em até 24 horas.' },
     ],
   },
