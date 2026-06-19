@@ -4,10 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next-sitemap",
+    "build": "next build && next-sitemap && node -e \"require('fs').copyFileSync('public/sitemap.xml','out/sitemap.xml');require('fs').copyFileSync('public/robots.txt','out/robots.txt')\"",
     "start": "next start",
-    "lint": "next lint",
-    "postbuild": "next-sitemap"
+    "lint": "next lint"
   },
   "dependencies": {
     "next": "14.2.35",
