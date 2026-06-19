@@ -25,8 +25,8 @@ export default function BlogGrid({ posts, limit }: { posts: Post[]; limit?: numb
                 src={post.image}
                 alt={`${post.title} | Ivan Dias Fotógrafo`}
                 role="img"
-                width={0}
-                height={0}
+                width={800}
+                height={533}
                 loading="lazy"
                 placeholder="blur"
                 blurDataURL={SHIMMER_BLUR_DATA_URL}

@@ -70,8 +70,8 @@ export default function Gallery() {
                 src={item.src}
                 alt={item.alt}
                 role="img"
-                width={0}
-                height={0}
+                width={800}
+                height={533}
                 loading="lazy"
                 placeholder="blur"
                 blurDataURL={SHIMMER_BLUR_DATA_URL}

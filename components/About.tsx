@@ -28,8 +28,8 @@ export default function About() {
             src="/images/about/ivan-dias-fotografo-retrato.jpg"
             alt="Retrato do fotógrafo Ivan Dias segurando câmera profissional em estúdio"
             role="img"
-            width={0}
-            height={0}
+            width={900}
+            height={600}
             loading="lazy"
             placeholder="blur"
             blurDataURL={SHIMMER_BLUR_DATA_URL}

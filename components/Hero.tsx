@@ -142,8 +142,8 @@ export default function Hero() {
           <Image
             src="/images/hero/fotografo-casamento-sao-paulo-noivos-igreja-flores.jpg"
             alt="Noivos se abraçando em frente à igreja decorada com flores durante casamento em São Paulo"
-            width={0}
-            height={0}
+            width={1400}
+            height={2100}
             priority
             placeholder="blur"
             blurDataURL={SHIMMER_BLUR_DATA_URL}

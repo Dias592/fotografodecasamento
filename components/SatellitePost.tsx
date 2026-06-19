@@ -148,8 +148,8 @@ export default function SatellitePost({ post }: { post: Post }) {
             src={post.image}
             alt={`${post.title} | Ivan Dias Fotógrafo`}
             role="img"
-            width={0}
-            height={0}
+            width={800}
+            height={533}
             sizes="(min-width: 768px) 768px, 100vw"
             priority
             placeholder="blur"
