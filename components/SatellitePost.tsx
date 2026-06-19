@@ -95,7 +95,9 @@ export default function SatellitePost({ post }: { post: Post }) {
             description: post.description,
             slug: post.slug,
             datePublished: post.date,
+            dateModified: post.updatedDate,
             bairro: post.bairro,
+            image: post.image,
           }),
           getBreadcrumbListSchema([
             { name: 'Início', url: '/' },

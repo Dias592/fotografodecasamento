@@ -254,22 +254,40 @@ export function getArticleSchema(options: {
   description: string;
   slug: string;
   datePublished: string;
+  dateModified?: string;
   bairro: string;
+  image: string;
 }) {
+  const published = options.datePublished.includes('T')
+    ? options.datePublished
+    : `${options.datePublished}T00:00:00-03:00`;
+  const modified = options.dateModified
+    ? options.dateModified.includes('T')
+      ? options.dateModified
+      : `${options.dateModified}T00:00:00-03:00`
+    : published;
+
   return {
     '@context': 'https://schema.org',
-    '@type': 'Article',
-    headline: options.title,
+    '@type': 'BlogPosting',
+    headline: options.title.slice(0, 110),
     description: options.description,
-    datePublished: options.datePublished,
-    dateModified: options.datePublished,
+    datePublished: published,
+    dateModified: modified,
     author: {
-      '@id': `${SITE_URL}/#person`,
+      '@type': 'Person',
+      name: 'Ivan Dias',
+      url: `${SITE_URL}/sobre/`,
     },
     publisher: {
-      '@id': `${SITE_URL}/#person`,
+      '@type': 'Organization',
+      name: 'Ivan Dias Fotógrafo',
+      logo: {
+        '@type': 'ImageObject',
+        url: `${SITE_URL}/images/logo/ivan-dias-logo-preto.png`,
+      },
     },
-    image: `${SITE_URL}/images/hero/fotografo-casamento-sao-paulo-noivos-abraco.jpg`,
+    image: [`${SITE_URL}${options.image}`],
     url: `${SITE_URL}/blog/${options.slug}/`,
     about: {
       '@type': 'Place',
