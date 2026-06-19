@@ -39,7 +39,7 @@ export default function SobrePage() {
         <div className="mx-auto grid max-w-7xl grid-cols-1 items-center gap-16 px-6 md:grid-cols-2 md:px-12">
           <div className="relative aspect-[4/5] w-full max-w-md overflow-hidden rounded-3xl">
             <Image
-              src="/images/sobre/ivan-dias-fotografo-casamento-trajetoria.jpg"
+              src="/images/sobre/ivan-dias-fotografo-casamento-trajetoria.webp"
               alt="Mosaico de retratos em preto e branco de Ivan Dias, fotógrafo de casamento, com a identidade visual da marca"
               role="img"
               fill

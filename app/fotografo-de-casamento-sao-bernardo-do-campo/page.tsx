@@ -85,19 +85,19 @@ const WHATSAPP_URL =
 
 const GALLERY = [
   {
-    src: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    src: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.webp',
     alt: 'Cerimônia de casamento registrada',
   },
   {
-    src: '/images/galeria/festa/casamento-sao-paulo-festa-12.jpg',
+    src: '/images/galeria/festa/casamento-sao-paulo-festa-12.webp',
     alt: 'Momento de festa e alegria no casamento',
   },
   {
-    src: '/images/galeria/pre-wedding/casamento-sao-paulo-pre-wedding-10.jpg',
+    src: '/images/galeria/pre-wedding/casamento-sao-paulo-pre-wedding-10.webp',
     alt: 'Ensaio pré-wedding de casal',
   },
   {
-    src: '/images/galeria/detalhes/casamento-sao-paulo-detalhes-08.jpg',
+    src: '/images/galeria/detalhes/casamento-sao-paulo-detalhes-08.webp',
     alt: 'Detalhes de decoração em casamento',
   },
 ];
@@ -156,7 +156,7 @@ export default function SaoBernardoPage() {
         {/* Imagem hero */}
         <div className="relative">
           <Image
-            src="/images/portfolio/casamento-sao-paulo-noiva-altar-cerimonia.jpg"
+            src="/images/portfolio/casamento-sao-paulo-noiva-altar-cerimonia.webp"
             alt="Noiva no altar durante cerimônia de casamento — Ivan Dias Fotógrafo"
             width={800}
             height={1200}

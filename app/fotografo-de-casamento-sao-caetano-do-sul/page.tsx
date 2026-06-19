@@ -85,19 +85,19 @@ const WHATSAPP_URL =
 
 const GALLERY = [
   {
-    src: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-16.jpg',
+    src: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-16.webp',
     alt: 'Cerimônia de casamento elegante',
   },
   {
-    src: '/images/galeria/festa/casamento-sao-paulo-festa-18.jpg',
+    src: '/images/galeria/festa/casamento-sao-paulo-festa-18.webp',
     alt: 'Festa de casamento intimista',
   },
   {
-    src: '/images/galeria/pre-wedding/casamento-sao-paulo-pre-wedding-15.jpg',
+    src: '/images/galeria/pre-wedding/casamento-sao-paulo-pre-wedding-15.webp',
     alt: 'Ensaio pré-wedding romântico de casal',
   },
   {
-    src: '/images/galeria/detalhes/casamento-sao-paulo-detalhes-14.jpg',
+    src: '/images/galeria/detalhes/casamento-sao-paulo-detalhes-14.webp',
     alt: 'Detalhes e alianças em casamento sofisticado',
   },
 ];
@@ -156,7 +156,7 @@ export default function SaoCaetanoPage() {
         {/* Imagem hero */}
         <div className="relative">
           <Image
-            src="/images/hero/fotografo-casamento-sao-paulo-noivos-igreja-flores.jpg"
+            src="/images/hero/fotografo-casamento-sao-paulo-noivos-igreja-flores.webp"
             alt="Noiva com buquê de flores na entrada da igreja — Ivan Dias Fotógrafo"
             width={1400}
             height={2100}

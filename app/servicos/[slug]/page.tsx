@@ -100,10 +100,10 @@ const AREA_LINKS = [
 ];
 
 const SERVICE_IMAGES: Record<string, string> = {
-  'cobertura-completa': '/images/servicos/fotografo-casamento-sao-paulo-cobertura-completa.jpg',
-  'pre-wedding': '/images/servicos/fotografo-casamento-sao-paulo-pre-wedding.jpg',
-  'mini-wedding': '/images/servicos/fotografo-casamento-sao-paulo-mini-wedding.jpg',
-  drone: '/images/servicos/fotografo-casamento-sao-paulo-drone-imagens-aereas.jpg',
+  'cobertura-completa': '/images/servicos/fotografo-casamento-sao-paulo-cobertura-completa.webp',
+  'pre-wedding': '/images/servicos/fotografo-casamento-sao-paulo-pre-wedding.webp',
+  'mini-wedding': '/images/servicos/fotografo-casamento-sao-paulo-mini-wedding.webp',
+  drone: '/images/servicos/fotografo-casamento-sao-paulo-drone-imagens-aereas.webp',
 };
 
 const WHATSAPP_URL =
@@ -191,7 +191,7 @@ export default function ServicoPage({ params }: Props) {
 
           <div className="relative aspect-[4/5] w-full overflow-hidden rounded-3xl">
             <Image
-              src={SERVICE_IMAGES[service.slug] ?? '/images/servicos/fotografo-casamento-sao-paulo-cobertura-completa.jpg'}
+              src={SERVICE_IMAGES[service.slug] ?? '/images/servicos/fotografo-casamento-sao-paulo-cobertura-completa.webp'}
               alt={`Fotografia ilustrativa do serviço ${service.title} oferecido por Ivan Dias`}
               role="img"
               fill

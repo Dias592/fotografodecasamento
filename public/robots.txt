@@ -47,7 +47,7 @@ User-agent: WhatsApp
 Allow: /
 
 # Host
-Host: https://www.ivandiasfotografo.com.br
+Host: https://ivandiasfotografo.com.br
 
 # Sitemaps
-Sitemap: https://www.ivandiasfotografo.com.br/sitemap.xml
+Sitemap: https://ivandiasfotografo.com.br/sitemap.xml

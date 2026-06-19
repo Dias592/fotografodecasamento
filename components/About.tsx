@@ -25,7 +25,7 @@ export default function About() {
           className="w-full max-w-md overflow-hidden rounded-3xl md:justify-self-start"
         >
           <Image
-            src="/images/about/ivan-dias-fotografo-retrato.jpg"
+            src="/images/about/ivan-dias-fotografo-retrato.webp"
             alt="Retrato do fotógrafo Ivan Dias segurando câmera profissional em estúdio"
             role="img"
             width={900}

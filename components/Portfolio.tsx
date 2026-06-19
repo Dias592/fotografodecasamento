@@ -15,12 +15,12 @@ type PortfolioItem = {
 };
 
 const ITEMS: PortfolioItem[] = [
-  { id: '1', src: '/images/portfolio/casamento-sao-paulo-cerimonia-beijo-altar.jpg', alt: 'Noivos se beijando no altar durante cerimônia de casamento em São Paulo', category: 'Cerimônia', height: 'tall' },
-  { id: '2', src: '/images/portfolio/casamento-sao-paulo-festa-casal-luzes.jpg', alt: 'Casal de noivos em momento romântico iluminado pelas luzes da festa', category: 'Festa', height: 'medium' },
-  { id: '3', src: '/images/portfolio/casamento-sao-paulo-detalhe-noiva-veu-pretoebranco.jpg', alt: 'Retrato artístico em preto e branco da noiva com véu ao vento', category: 'Detalhes', height: 'short' },
-  { id: '4', src: '/images/portfolio/ensaio-pre-wedding-casal-guarda-chuva-jardim.jpg', alt: 'Casal em ensaio pré-wedding com guarda-chuva em jardim com piscina', category: 'Pré-Wedding', height: 'medium' },
-  { id: '5', src: '/images/portfolio/casamento-sao-paulo-cerimonia-noivos-corredor.jpg', alt: 'Noivos caminhando juntos pelo corredor durante cerimônia ao ar livre', category: 'Cerimônia', height: 'short' },
-  { id: '6', src: '/images/portfolio/casamento-sao-paulo-festa-noiva-entardecer.jpg', alt: 'Noiva sorridente com buquê de flores no entardecer durante a festa', category: 'Festa', height: 'tall' },
+  { id: '1', src: '/images/portfolio/casamento-sao-paulo-cerimonia-beijo-altar.webp', alt: 'Noivos se beijando no altar durante cerimônia de casamento em São Paulo', category: 'Cerimônia', height: 'tall' },
+  { id: '2', src: '/images/portfolio/casamento-sao-paulo-festa-casal-luzes.webp', alt: 'Casal de noivos em momento romântico iluminado pelas luzes da festa', category: 'Festa', height: 'medium' },
+  { id: '3', src: '/images/portfolio/casamento-sao-paulo-detalhe-noiva-veu-pretoebranco.webp', alt: 'Retrato artístico em preto e branco da noiva com véu ao vento', category: 'Detalhes', height: 'short' },
+  { id: '4', src: '/images/portfolio/ensaio-pre-wedding-casal-guarda-chuva-jardim.webp', alt: 'Casal em ensaio pré-wedding com guarda-chuva em jardim com piscina', category: 'Pré-Wedding', height: 'medium' },
+  { id: '5', src: '/images/portfolio/casamento-sao-paulo-cerimonia-noivos-corredor.webp', alt: 'Noivos caminhando juntos pelo corredor durante cerimônia ao ar livre', category: 'Cerimônia', height: 'short' },
+  { id: '6', src: '/images/portfolio/casamento-sao-paulo-festa-noiva-entardecer.webp', alt: 'Noiva sorridente com buquê de flores no entardecer durante a festa', category: 'Festa', height: 'tall' },
 ];
 
 const CATEGORIES = ['Todos', 'Cerimônia', 'Festa', 'Pré-Wedding', 'Detalhes'] as const;

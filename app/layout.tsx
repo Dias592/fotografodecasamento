@@ -77,7 +77,7 @@ export const metadata: Metadata = {
       'Fotografia de casamento autoral e cheia de emoção. Mais de 700 casamentos registrados em São Paulo e região.',
     images: [
       {
-        url: `${SITE_URL}/images/hero/fotografo-casamento-sao-paulo-noivos-abraco.jpg`,
+        url: `${SITE_URL}/images/hero/fotografo-casamento-sao-paulo-noivos-abraco.webp`,
         width: 1200,
         height: 630,
         alt: 'Ivan Dias - Fotógrafo de Casamento em São Paulo',
@@ -89,7 +89,7 @@ export const metadata: Metadata = {
     title: 'Ivan Dias | Fotógrafo de Casamento em São Paulo',
     description:
       'Fotografia de casamento autoral e cheia de emoção em São Paulo. Conheça o trabalho de Ivan Dias.',
-    images: [`${SITE_URL}/images/hero/fotografo-casamento-sao-paulo-noivos-abraco.jpg`],
+    images: [`${SITE_URL}/images/hero/fotografo-casamento-sao-paulo-noivos-abraco.webp`],
   },
   robots: {
     index: true,
@@ -105,7 +105,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <link
           rel="preload"
           as="image"
-          href="/images/hero/fotografo-casamento-sao-paulo-noivos-igreja-flores.jpg"
+          href="/images/hero/fotografo-casamento-sao-paulo-noivos-igreja-flores.webp"
           fetchPriority="high"
         />
       </head>

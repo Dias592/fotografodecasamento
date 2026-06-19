@@ -140,7 +140,7 @@ export default function Hero() {
           className="mt-10 overflow-hidden rounded-2xl md:hidden"
         >
           <Image
-            src="/images/hero/fotografo-casamento-sao-paulo-noivos-igreja-flores.jpg"
+            src="/images/hero/fotografo-casamento-sao-paulo-noivos-igreja-flores.webp"
             alt="Noivos se abraçando em frente à igreja decorada com flores durante casamento em São Paulo"
             width={1400}
             height={2100}
@@ -173,7 +173,7 @@ export default function Hero() {
       >
         <motion.div style={{ y: imageY }} className="absolute inset-0 -top-[10%] h-[120%] w-full">
           <Image
-            src="/images/hero/fotografo-casamento-sao-paulo-noivos-igreja-flores.jpg"
+            src="/images/hero/fotografo-casamento-sao-paulo-noivos-igreja-flores.webp"
             alt="Noivos se abraçando em frente à igreja decorada com flores durante casamento em São Paulo"
             role="img"
             fill
@@ -193,7 +193,7 @@ export default function Hero() {
           className="absolute bottom-20 left-10 right-10 z-20 overflow-hidden rounded-2xl border border-cream/20 bg-blue-deep/60 p-6 backdrop-blur-md"
         >
           <Image
-            src="/images/hero/fotografo-casamento-sao-paulo-detalhe-aliancas.jpg"
+            src="/images/hero/fotografo-casamento-sao-paulo-detalhe-aliancas.webp"
             alt="Detalhe das alianças e buquê de flores em mesa decorada de casamento"
             role="img"
             width={64}

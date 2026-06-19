@@ -85,19 +85,19 @@ const WHATSAPP_URL =
 
 const GALLERY = [
   {
-    src: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-02.jpg',
+    src: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-02.webp',
     alt: 'Noivos durante cerimônia de casamento',
   },
   {
-    src: '/images/galeria/festa/casamento-sao-paulo-festa-06.jpg',
+    src: '/images/galeria/festa/casamento-sao-paulo-festa-06.webp',
     alt: 'Momento de festa e alegria no casamento',
   },
   {
-    src: '/images/galeria/pre-wedding/casamento-sao-paulo-pre-wedding-05.jpg',
+    src: '/images/galeria/pre-wedding/casamento-sao-paulo-pre-wedding-05.webp',
     alt: 'Ensaio pré-wedding de casal',
   },
   {
-    src: '/images/galeria/detalhes/casamento-sao-paulo-detalhes-04.jpg',
+    src: '/images/galeria/detalhes/casamento-sao-paulo-detalhes-04.webp',
     alt: 'Detalhes da decoração e alianças em casamento',
   },
 ];
@@ -156,7 +156,7 @@ export default function SantoAndrePage() {
         {/* Imagem hero */}
         <div className="relative">
           <Image
-            src="/images/hero/fotografo-casamento-sao-paulo-noivos-abraco.jpg"
+            src="/images/hero/fotografo-casamento-sao-paulo-noivos-abraco.webp"
             alt="Noivos se abraçando em casamento — Ivan Dias Fotógrafo"
             width={1400}
             height={2172}
