@@ -8724,6 +8724,219 @@ export const posts: Post[] = [
       { question: 'Quais cuidados o fotógrafo deve ter em patrimônios tombados?', answer: 'Sem flash direto em peças sensíveis, sem posicionamento de equipamentos em áreas restritas e sem movimentos que criem risco para elementos históricos. Ivan Dias adapta o setup fotográfico ao protocolo de preservação de cada espaço tombado — o reconhecimento prévio do espaço com a paróquia é parte obrigatória do planejamento.' },
     ],
   },
+
+  // ── HUBS POR TIPO DE CASAMENTO ───────────────────────────────────
+
+  {
+    slug: 'casamento-no-campo-perto-de-sao-paulo',
+    bairro: 'Casamento no Campo',
+    title: 'Casamento no Campo Perto de SP: Melhores Espaços, Fotografia e Planejamento Completo',
+    description: 'Guia completo de casamento no campo perto de São Paulo: os melhores espaços em Mairiporã, Ribeirão Pires e Mogi das Cruzes, como a luz natural muda a fotografia, o que levar em conta no planejamento e quanto custa.',
+    excerpt: 'Casamento no campo é o formato que mais cresce em São Paulo — e a Serra da Cantareira, o Alto Tietê e as chácaras do ABC concentram os melhores espaços a menos de 1 hora da capital. Este guia reúne os espaços com melhor potencial fotográfico, o que muda na cobertura ao ar livre e como planejar sem surpresas.',
+    date: '2024-12-23',
+    updatedDate: '2024-12-23',
+    image: '/images/galeria/pre-wedding/casamento-sao-paulo-pre-wedding-01.jpg',
+    sections: [
+      {
+        h2: 'Por que casamento no campo produz as melhores fotos',
+        content: '<p>Casamentos ao ar livre em meio à natureza oferecem ao fotógrafo o que nenhum salão de eventos replica: luz natural filtrada pela vegetação, horizontes abertos para composições com profundidade, paletas de cor orgânicas que mudam com o horário do dia e uma atmosfera que relaxa os convidados — tornando os registros mais espontâneos e emocionais.</p><p>Ivan Dias fotografa casamentos no campo há 15 anos. Com mais de 700 casamentos no portfólio, domina as particularidades de cada região: a neblina matinal da Serra da Cantareira, o golden hour nos campos de Mogi, a luz difusa das chácaras de Ribeirão Pires. Cada cenário exige uma abordagem diferente — e esse conhecimento acumulado é o que separa um álbum genérico de um álbum memorável.</p>',
+      },
+      {
+        h2: 'Os melhores espaços para casamento no campo perto de SP',
+        content: '<p>São Paulo tem uma concentração de espaços rurais e semi-rurais a menos de 1 hora do centro que poucos casais conhecem. As três regiões principais:</p>',
+        h3s: [
+          { title: 'Mairiporã e Serra da Cantareira', content: '<p>A região com a maior oferta de chácaras e sítios para casamento perto de SP. Microclima 5-8°C mais fresco, vegetação de mata atlântica e luz filtrada pelas árvores. Espaços com guia fotográfico individual: <a href="/blog/fotografo-casamento-ravena-garden/">Ravena Garden</a>, <a href="/blog/fotografo-casamento-sitio-florentino-mairipora/">Sítio Florentino</a>, <a href="/blog/fotografo-casamento-quinta-da-cantareira/">Quinta da Cantareira</a>, <a href="/blog/fotografo-casamento-villa-vezzane-mairipora/">Villa Vezzane</a>, <a href="/blog/fotografo-casamento-mon-chale-mairipora/">Mon Chalé</a> e <a href="/blog/fotografo-casamento-casa-por-do-sol-cantareira/">Casa Pôr do Sol</a>. Veja o <a href="/blog/fotografo-de-casamento-mairipora/">guia completo de Mairiporã</a>.</p>' },
+          { title: 'Ribeirão Pires', content: '<p>A "Cidade da Diversão" tem chácaras com vegetação nativa e propriedades rurais com excelente potencial para drone. Espaços: <a href="/blog/fotografo-casamento-estancia-silvestre-ribeirao-pires/">Estância Silvestre</a>, <a href="/blog/fotografo-casamento-chacara-flores-ribeirao-pires/">Chácara Flores</a> e <a href="/blog/fotografo-casamento-espaco-vista-verde-ribeirao-pires/">Espaço Vista Verde</a>. Veja o <a href="/blog/fotografo-de-casamento-ribeirao-pires/">guia de Ribeirão Pires</a>.</p>' },
+          { title: 'Mogi das Cruzes e Alto Tietê', content: '<p>Fazendas históricas e propriedades com campos abertos na região mais rural da Grande SP. Destaques: <a href="/blog/fotografo-casamento-villa-castanieri-mogi/">Villa Castanieri</a> (estilo italiano) e <a href="/blog/fotografo-casamento-casarao-la-villa-mogi/">Casarão La Villa</a> (fazenda histórica com Fusca vintage). Veja o <a href="/blog/fotografo-de-casamento-mogi-das-cruzes/">guia de Mogi das Cruzes</a>.</p>' },
+          { title: 'Grupo Quintal — conceitos rurais', content: '<p>O <a href="/blog/fotografo-casamento-grupo-quintal/">Grupo Quintal</a> tem duas unidades com perfil rural dentro de São Paulo: o <a href="/blog/fotografo-casamento-celeiro-quintal/">Celeiro Quintal</a> (Farm Wedding) e o <a href="/blog/fotografo-casamento-botanico-quintal/">Botânico Quintal</a> (Fresh Wedding) — cenário de campo sem sair da cidade.</p>' },
+        ],
+      },
+      {
+        h2: 'O que muda na fotografia de casamento ao ar livre',
+        content: '<p>A cobertura fotográfica de casamento no campo exige planejamento diferente de casamentos em salão: plano B para chuva, controle de luz natural que muda ao longo do dia, equipamento protegido contra poeira e umidade, e logística de deslocamento que preveja trânsito em estradas rurais. Ivan Dias inclui visita técnica ao espaço como parte do processo — mapeando a melhor janela de luz, os ângulos de drone autorizados e os pontos de ensaio do casal.</p>',
+        table: {
+          caption: 'Casamento no campo — comparativo por região (2025-2026)',
+          headers: ['Região', 'Distância de SP', 'Perfil', 'Faixa de preço fotografia'],
+          rows: [
+            ['Mairiporã / Cantareira', '30-40 km', 'Mata atlântica, chácaras', 'R$ 5.500-R$ 11.000'],
+            ['Ribeirão Pires', '40 km', 'Rural, vegetação nativa', 'R$ 5.500-R$ 10.000'],
+            ['Mogi das Cruzes', '50-60 km', 'Fazendas históricas, campos', 'R$ 6.000-R$ 11.000'],
+            ['Grupo Quintal (rural)', 'Dentro de SP', 'Farm/Fresh Wedding', 'R$ 6.000-R$ 13.000'],
+          ],
+        },
+      },
+      {
+        h2: 'Drone em casamentos no campo: quando vale a pena',
+        content: '<p>Espaços rurais com áreas abertas são onde o <a href="/servicos/drone/">drone</a> entrega o maior impacto visual — capturas aéreas de propriedades amplas, campos e paisagens que nenhum ângulo de chão replica. Ivan Dias opera drone com habilitação ANAC e verifica a regulamentação local antes de cada evento. <a href="/contato/">Solicite orçamento para casamento no campo.</a></p>',
+      },
+    ],
+    faq: [
+      { question: 'Quais são os melhores espaços para casamento no campo perto de SP?', answer: 'Mairiporã (Ravena Garden, Sítio Florentino, Quinta da Cantareira, Villa Vezzane, Mon Chalé, Casa Pôr do Sol), Ribeirão Pires (Estância Silvestre, Chácara Flores, Espaço Vista Verde) e Mogi das Cruzes (Villa Castanieri, Casarão La Villa) concentram os melhores espaços a menos de 1 hora de SP.' },
+      { question: 'Quanto custa um fotógrafo para casamento no campo?', answer: 'Os pacotes variam de R$ 5.500 a R$ 13.000 dependendo da região, duração da cobertura e inclusão de drone. Solicite orçamento personalizado pelo WhatsApp.' },
+      { question: 'Casamento ao ar livre precisa de plano B para chuva?', answer: 'Sim — todo casamento ao ar livre precisa de plano B definido com o espaço e comunicado ao fotógrafo. Ivan Dias planeja o roteiro fotográfico com alternativas para chuva, garantindo que o álbum não seja prejudicado independentemente do clima.' },
+      { question: 'O drone funciona em todos os espaços rurais?', answer: 'Na maioria sim — espaços rurais fora das zonas de restrição aérea dos aeroportos de SP são excelentes para drone. Ivan Dias verifica a regulamentação local antes de cada evento e opera com habilitação ANAC.' },
+      { question: 'Qual a melhor época para casamento no campo em SP?', answer: 'Março a maio e setembro a novembro oferecem a melhor combinação de clima, luz e baixo risco de chuva. O inverno tem dias secos mas pode ter neblina matinal. O verão tem risco de chuva no fim de tarde.' },
+      { question: 'Ivan Dias atende casamentos no campo?', answer: 'Sim — Ivan Dias fotografa casamentos no campo em Mairiporã, Ribeirão Pires, Mogi das Cruzes e outras regiões rurais de SP há 15 anos. Entre em contato para verificar disponibilidade.' },
+    ],
+  },
+
+  {
+    slug: 'casamento-no-litoral-perto-de-sao-paulo',
+    bairro: 'Casamento no Litoral',
+    title: 'Casamento no Litoral de SP: Guarujá, Ubatuba, Ilhabela e Santos — Guia de Fotografia',
+    description: 'Guia completo de casamento no litoral de São Paulo: Guarujá, Ubatuba, Ilhabela, Santos e Trancoso. Como a luz da praia muda a fotografia, logística de deslocamento e planejamento de cobertura com mar e natureza.',
+    excerpt: 'Casamento na praia ou no litoral paulista é o sonho de muitos casais — e as opções vão do sofisticado Guarujá e Santos à natureza selvagem de Ubatuba e Ilhabela. Este guia cobre como a luz costeira muda a fotografia, o que considerar na logística e quais destinos oferecem o melhor resultado visual.',
+    date: '2024-12-22',
+    updatedDate: '2024-12-22',
+    image: '/images/galeria/pre-wedding/casamento-sao-paulo-pre-wedding-05.jpg',
+    sections: [
+      {
+        h2: 'Por que casamento no litoral cria álbuns inesquecíveis',
+        content: '<p>A combinação de mar, luz natural intensa e natureza exuberante faz do litoral paulista um dos destinos mais fotogênicos para casamentos no Brasil. A luz costeira — refletida pelo mar e pela areia — cria uma luminosidade única que suaviza as sombras e valoriza os tons de pele. O pôr do sol sobre o mar é um recurso fotográfico que nenhum salão de eventos consegue replicar.</p><p>Ivan Dias fotografa casamentos no litoral de São Paulo e em destinos como Trancoso. Com 15 anos de experiência e mais de 700 casamentos, conhece as particularidades de cada praia: a intensidade da luz, os ventos, a maré e os melhores horários para cada cenário costeiro.</p>',
+      },
+      {
+        h2: 'Destinos para casamento no litoral de SP',
+        h3s: [
+          { title: 'Guarujá', content: '<p>O destino litorâneo mais acessível a partir de SP (85 km via Anchieta). Resorts, praias amplas e infraestrutura completa de eventos. <a href="/blog/fotografo-de-casamento-guaruja/">Guia completo de fotografia no Guarujá.</a></p>' },
+          { title: 'Santos', content: '<p>A maior cidade do litoral paulista. Orla urbana com pôr do sol frontal, jardins da praia e centro histórico como cenários complementares. <a href="/blog/fotografo-de-casamento-santos/">Guia completo de Santos.</a></p>' },
+          { title: 'Ubatuba', content: '<p>Natureza preservada com mais de 100 praias — das selvagens às acessíveis. Ideal para casamentos intimistas em pousadas pé na areia. <a href="/blog/fotografo-de-casamento-ubatuba/">Guia completo de Ubatuba.</a></p>' },
+          { title: 'Ilhabela', content: '<p>Ilha com cachoeiras, trilhas e praias paradisíacas. O destino mais exclusivo do litoral norte paulista para casamentos. <a href="/blog/fotografo-de-casamento-ilhabela/">Guia completo de Ilhabela.</a></p>' },
+          { title: 'Trancoso (BA)', content: '<p>Para casais que querem o destination wedding no Brasil — Trancoso combina rústico e sofisticado com uma luz que é referência mundial em fotografia. <a href="/blog/fotografo-de-casamento-trancoso/">Guia de Trancoso.</a></p>' },
+        ],
+      },
+      {
+        h2: 'O que muda na fotografia de casamento na praia',
+        content: '<p>A fotografia em ambiente costeiro traz desafios específicos: luz intensa que exige controle de exposição preciso, vento que move cabelos e véus (pode ser recurso ou problema), areia e maresia que exigem proteção extra do equipamento, e uma janela de golden hour que na praia é mais curta e mais intensa do que no interior.</p><p>Ivan Dias planeja a cobertura costeira com atenção especial ao horário da cerimônia em relação ao pôr do sol — os 30 minutos antes e depois do sol tocar o horizonte são o período mais fotogênico de qualquer casamento na praia. <a href="/contato/">Solicite orçamento para casamento no litoral.</a></p>',
+        table: {
+          caption: 'Casamento no litoral — comparativo por destino',
+          headers: ['Destino', 'Distância de SP', 'Perfil', 'Melhor período'],
+          rows: [
+            ['Guarujá', '85 km', 'Resorts, praias amplas', 'Abril a novembro'],
+            ['Santos', '75 km', 'Urbano litorâneo', 'O ano todo'],
+            ['Ubatuba', '230 km', 'Natureza preservada, intimista', 'Abril a outubro'],
+            ['Ilhabela', '210 km (+ balsa)', 'Ilha exclusiva', 'Abril a outubro'],
+            ['Trancoso', 'Voo + transfer', 'Destination wedding', 'Março a novembro'],
+          ],
+        },
+      },
+    ],
+    faq: [
+      { question: 'Qual o melhor destino no litoral de SP para casamento?', answer: 'Depende do perfil: Guarujá para acessibilidade e infraestrutura, Santos para casamento urbano com praia, Ubatuba para intimismo e natureza, Ilhabela para exclusividade. Cada destino produz um resultado fotográfico diferente.' },
+      { question: 'Ivan Dias fotografa casamentos no litoral?', answer: 'Sim — Ivan Dias atende casamentos no litoral de São Paulo (Guarujá, Santos, Ubatuba, Ilhabela) e em destinos como Trancoso. Entre em contato para verificar disponibilidade.' },
+      { question: 'Quanto custa levar fotógrafo de SP para casamento no litoral?', answer: 'O pacote inclui deslocamento, hospedagem (quando necessário) e a cobertura fotográfica. Valores variam conforme o destino e a duração. Solicite orçamento personalizado.' },
+      { question: 'O vento na praia atrapalha as fotos?', answer: 'O vento pode ser recurso ou desafio. Cabelos e véu em movimento criam imagens com dinamismo e vida — mas exigem que o fotógrafo saiba trabalhar com velocidades de obturador mais altas. Ivan Dias planeja o ensaio do casal considerando a direção e intensidade do vento.' },
+      { question: 'Casamento na praia precisa ser ao pôr do sol?', answer: 'Não obrigatoriamente, mas o pôr do sol na praia é o momento mais fotogênico. Os 30 minutos antes e depois do sol tocar o horizonte criam a melhor luz. Cerimônias matinais também funcionam bem com luz suave.' },
+      { question: 'Drone funciona em praias?', answer: 'Na maioria das praias sim, desde que fora de zonas de restrição aérea (portos, aeroportos, áreas militares). Ivan Dias verifica a regulamentação específica de cada praia antes do evento.' },
+    ],
+  },
+
+  {
+    slug: 'casamento-na-cidade-sao-paulo',
+    bairro: 'Casamento na Cidade',
+    title: 'Casamento na Cidade em São Paulo: Buffets, Espaços Urbanos e Fotografia de Alto Padrão',
+    description: 'Guia completo de casamento na cidade de São Paulo e ABC: os melhores buffets e espaços urbanos em Santo André, São Bernardo, São Caetano, Osasco e capital. Como a arquitetura urbana cria cenários fotográficos únicos.',
+    excerpt: 'São Paulo e o ABC concentram os melhores espaços urbanos para casamentos do Brasil — de buffets tradicionais a espaços contemporâneos com vista para a Ponte Estaiada. Este guia mapeia os principais espaços por região, o que a fotografia urbana oferece de diferente e como planejar a cobertura em ambiente de cidade.',
+    date: '2024-12-21',
+    updatedDate: '2024-12-21',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-03.jpg',
+    sections: [
+      {
+        h2: 'Por que casamento na cidade tem identidade fotográfica própria',
+        content: '<p>Casamentos urbanos oferecem ao fotógrafo recursos que o campo e o litoral não têm: arquitetura como cenário, iluminação planejada, logística previsível e uma energia de celebração que só a cidade produz. A skyline de São Paulo ao fundo, um rooftop com vista noturna ou a fachada de um espaço histórico criam composições com personalidade e contexto que identificam o álbum como paulistano.</p><p>Ivan Dias fotografa casamentos em São Paulo e no ABC há 15 anos. Com mais de 700 casamentos em espaços urbanos, domina os desafios específicos: iluminação artificial mista, espaços com pé-direito variado, transições entre cerimônia e festa em ambientes interconectados.</p>',
+      },
+      {
+        h2: 'Espaços urbanos por região',
+        h3s: [
+          { title: 'Grupo Welucci — São Paulo', content: '<p>O maior grupo de espaços para eventos de SP, com 13 unidades. Do sofisticado <a href="/blog/fotografo-casamento-welucci-estaiada/">Welucci Estaiada</a> (vista Ponte Estaiada) à intimidade do <a href="/blog/fotografo-casamento-welucci-canto-verde/">Canto Verde</a>. <a href="/blog/fotografo-casamento-grupo-welucci/">Guia completo do Grupo Welucci.</a></p>' },
+          { title: 'Santo André — 12 espaços', content: '<p>O polo de eventos do ABC. Destaques: <a href="/blog/fotografo-casamento-espaco-win-santo-andre/">Espaço Win</a>, <a href="/blog/fotografo-casamento-mezzatorre-eventos/">Mezzatorre</a>, <a href="/blog/fotografo-casamento-esplannada-santo-andre/">Esplannada</a>, <a href="/blog/fotografo-casamento-grande-ville/">Grande Ville</a>. <a href="/fotografo-de-casamento-santo-andre/">Guia completo de Santo André.</a></p>' },
+          { title: 'São Bernardo do Campo — 7 espaços', content: '<p>Buffets tradicionais e espaços modernos. Destaques: <a href="/blog/fotografo-casamento-espaco-favoritto/">Espaço Favoritto</a>, <a href="/blog/fotografo-casamento-lago-park-sao-bernardo/">Lago Park</a>, <a href="/blog/fotografo-casamento-pbsom-eventos/">PBsom Eventos</a>. <a href="/fotografo-de-casamento-sao-bernardo-do-campo/">Guia de São Bernardo.</a></p>' },
+          { title: 'São Caetano do Sul — 5 espaços', content: '<p>Espaços compactos e sofisticados. Destaques: <a href="/blog/fotografo-casamento-buffet-7-mares/">Buffet 7 Mares</a>, <a href="/blog/fotografo-casamento-cook-hall-buffet/">Cook Hall</a>, <a href="/blog/fotografo-casamento-alameda-7-sao-caetano/">Alameda 7</a>. <a href="/fotografo-de-casamento-sao-caetano-do-sul/">Guia de São Caetano.</a></p>' },
+          { title: 'Osasco e Alphaville — 5 espaços', content: '<p>Região Oeste com público de alto padrão. Destaques: <a href="/blog/fotografo-casamento-estacao-840/">Estação 840</a>, <a href="/blog/fotografo-casamento-maison-bella-vista-osasco/">Maison Bella Vista</a>, <a href="/blog/fotografo-casamento-buffet-madeira-alphaville/">Buffet Madeira</a>. <a href="/blog/fotografo-de-casamento-osasco/">Guia de Osasco.</a></p>' },
+          { title: 'Grupo Quintal — conceitos urbanos', content: '<p>Três unidades com perfil urbano/intimista: <a href="/blog/fotografo-casamento-espaco-quintal/">Espaço Quintal</a> (Rustic), <a href="/blog/fotografo-casamento-casa-quintal/">Casa Quintal</a> (Comfort) e <a href="/blog/fotografo-casamento-casinha-quintal/">Casinha Quintal</a> (Mini Wedding). <a href="/blog/fotografo-casamento-grupo-quintal/">Guia do Grupo Quintal.</a></p>' },
+        ],
+      },
+      {
+        h2: 'Fotografia urbana: o que faz diferença',
+        content: '<p>Em espaços urbanos, o fotógrafo trabalha principalmente com iluminação artificial — o que exige domínio técnico de flash, balanço de branco e configurações de câmera para cada ambiente. A vantagem é a previsibilidade: a luz não muda com o clima, o cronograma não depende do pôr do sol e a logística de deslocamento entre cerimônia e festa é mínima. <a href="/contato/">Solicite orçamento para casamento na cidade.</a></p>',
+        table: {
+          caption: 'Casamento na cidade — comparativo por região',
+          headers: ['Região', 'Espaços mapeados', 'Perfil', 'Faixa fotografia'],
+          rows: [
+            ['Grupo Welucci (SP)', '13 unidades', 'Urbano sofisticado', 'R$ 6.000-R$ 14.000'],
+            ['Santo André', '12 espaços', 'Buffets tradicionais e modernos', 'R$ 5.500-R$ 14.000'],
+            ['São Bernardo', '7 espaços', 'Tradicionais e contemporâneos', 'R$ 5.500-R$ 10.000'],
+            ['São Caetano', '5 espaços', 'Compactos e sofisticados', 'R$ 5.500-R$ 10.000'],
+            ['Osasco / Alphaville', '5 espaços', 'Alto padrão', 'R$ 6.000-R$ 12.000'],
+          ],
+        },
+      },
+    ],
+    faq: [
+      { question: 'Quais são os melhores espaços para casamento na cidade em SP?', answer: 'O Grupo Welucci (13 unidades) é o maior grupo de São Paulo. No ABC, Santo André concentra 12 espaços mapeados, seguido de São Bernardo (7), São Caetano (5) e Osasco/Alphaville (5). Cada região tem um perfil diferente.' },
+      { question: 'Casamento na cidade é mais barato que no campo?', answer: 'Não necessariamente — os valores dependem do espaço e do formato do evento, não da localização. Espaços urbanos de alto padrão podem custar mais que chácaras. A vantagem urbana é na logística: sem deslocamento longo e sem dependência de clima.' },
+      { question: 'Ivan Dias fotografa casamentos em buffets e espaços de eventos?', answer: 'Sim — com 15 anos de experiência e 700+ casamentos, a maioria em espaços urbanos de SP e ABC. Ivan Dias conhece os principais espaços e seus desafios de iluminação.' },
+      { question: 'A iluminação do salão afeta as fotos?', answer: 'Sim — iluminação artificial é o principal desafio técnico de casamentos urbanos. LED colorido, spots direcionais e iluminação mista exigem configurações específicas de câmera. Ivan Dias mapeia a iluminação de cada espaço durante a visita técnica prévia.' },
+      { question: 'Quanto custa fotógrafo para casamento na cidade?', answer: 'Os pacotes variam de R$ 5.500 a R$ 14.000 dependendo da duração da cobertura e dos serviços incluídos. Solicite orçamento personalizado pelo WhatsApp.' },
+      { question: 'Vale fazer ensaio externo se o casamento é em buffet?', answer: 'Muito — o ensaio do casal em ambiente externo (parque, rua, cenário urbano) complementa as fotos do espaço fechado e garante variedade visual no álbum. Ivan Dias planeja esse momento no roteiro do dia.' },
+    ],
+  },
+
+  {
+    slug: 'casamento-no-interior-de-sao-paulo',
+    bairro: 'Casamento no Interior',
+    title: 'Casamento no Interior de São Paulo: Campinas, Sorocaba, Jundiaí e Mais — Guia de Fotografia',
+    description: 'Guia completo de casamento no interior de São Paulo: Campinas, Sorocaba, Jundiaí, Atibaia, Itu e outras cidades. Espaços, logística, fotografia e por que o interior produz álbuns com personalidade única.',
+    excerpt: 'O interior de São Paulo tem uma cena de casamentos cada vez mais sofisticada — de Campinas e Sorocaba a Jundiaí e Atibaia. Este guia reúne os destinos, o que cada região oferece de diferente para a fotografia e como planejar a cobertura com um fotógrafo que conhece as estradas e os espaços.',
+    date: '2024-12-20',
+    updatedDate: '2024-12-20',
+    image: '/images/galeria/pre-wedding/casamento-sao-paulo-pre-wedding-10.jpg',
+    sections: [
+      {
+        h2: 'O interior de São Paulo como destino de casamento',
+        content: '<p>O interior paulista concentra cidades com excelente infraestrutura de eventos, espaços com cenários naturais e urbanos diversificados, e uma relação custo-benefício que atrai casais da capital. De Campinas (a segunda maior cidade do estado) a Atibaia (refúgio serrano a 65 km de SP), cada destino tem personalidade fotográfica própria.</p><p>Ivan Dias atende casamentos no interior de São Paulo regularmente. Com 15 anos de experiência e mais de 700 casamentos, conhece as estradas, os tempos de deslocamento e os espaços de cada região — o que garante planejamento logístico sem surpresas no dia.</p>',
+      },
+      {
+        h2: 'Principais destinos no interior paulista',
+        h3s: [
+          { title: 'Campinas', content: '<p>A segunda maior cidade de SP tem uma cena de eventos consolidada — buffets de alto padrão, fazendas históricas nos arredores e infraestrutura completa. A 100 km de SP pela Bandeirantes. <a href="/blog/fotografo-de-casamento-campinas/">Guia completo de Campinas.</a></p>' },
+          { title: 'Sorocaba', content: '<p>Cidade em crescimento com espaços modernos e bom custo-benefício. A 100 km de SP pela Castelo Branco. <a href="/blog/fotografo-de-casamento-sorocaba/">Guia completo de Sorocaba.</a></p>' },
+          { title: 'Jundiaí', content: '<p>Vinícolas e propriedades rurais premium entre SP e Campinas. Cenário que combina sofisticação e natureza. <a href="/blog/fotografo-de-casamento-jundiai/">Guia completo de Jundiaí.</a></p>' },
+          { title: 'Atibaia', content: '<p>Refúgio serrano a 65 km de SP com chácaras, hotéis-fazenda e temperatura amena. Ideal para casamentos ao ar livre. <a href="/blog/fotografo-de-casamento-atibaia/">Guia completo de Atibaia.</a></p>' },
+          { title: 'Itu e Indaiatuba', content: '<p>Fazendas históricas e espaços com arquitetura colonial no coração do interior paulista. <a href="/blog/fotografo-de-casamento-itu/">Guia de Itu</a> e <a href="/blog/fotografo-de-casamento-indaiatuba/">guia de Indaiatuba</a>.</p>' },
+          { title: 'Outros destinos', content: '<p>São José dos Campos (<a href="/blog/fotografo-de-casamento-sao-jose-dos-campos/">guia</a>), Piracicaba (<a href="/blog/fotografo-de-casamento-piracicaba/">guia</a>), Cotia (<a href="/blog/fotografo-de-casamento-cotia/">guia</a>) e Tatuí (<a href="/blog/fotografo-de-casamento-tatui/">guia</a>) também têm espaços com bom potencial fotográfico.</p>' },
+        ],
+      },
+      {
+        h2: 'Logística e deslocamento para casamentos no interior',
+        content: '<p>A logística de deslocamento é o ponto de atenção principal para casamentos no interior. Ivan Dias prevê margem de segurança para cada rodovia e sai de SP com antecedência calibrada para cada destino — considerando dia da semana, horário e condições de tráfego típicas.</p>',
+        table: {
+          caption: 'Interior SP — distância e tempo desde São Paulo',
+          headers: ['Destino', 'Distância', 'Rodovia principal', 'Tempo normal'],
+          rows: [
+            ['Atibaia', '65 km', 'Fernão Dias (BR-381)', '1h-1h15'],
+            ['Jundiaí', '60 km', 'Bandeirantes / Anhanguera', '50 min-1h10'],
+            ['Campinas', '100 km', 'Bandeirantes / Anhanguera', '1h-1h30'],
+            ['Sorocaba', '100 km', 'Castelo Branco (SP-280)', '1h15-1h40'],
+            ['Itu', '100 km', 'Castelo Branco', '1h15-1h40'],
+            ['Piracicaba', '160 km', 'Bandeirantes + SP-308', '1h40-2h10'],
+            ['São José dos Campos', '90 km', 'Dutra (BR-116)', '1h10-1h40'],
+          ],
+        },
+      },
+      {
+        h2: 'Por que contratar fotógrafo de SP para casamento no interior',
+        content: '<p>Casais do interior que contratam fotógrafo de São Paulo ganham acesso a profissionais com portfólio extenso e experiência em formatos diversos de casamento. Ivan Dias atende o interior sem taxa extra de deslocamento para destinos até 100 km de SP. Para destinos mais distantes, a taxa é combinada previamente e incluída no orçamento. <a href="/contato/">Solicite orçamento para casamento no interior de SP.</a></p>',
+      },
+    ],
+    faq: [
+      { question: 'Ivan Dias atende casamentos no interior de São Paulo?', answer: 'Sim — Ivan Dias atende casamentos em Campinas, Sorocaba, Jundiaí, Atibaia, Itu, Indaiatuba, São José dos Campos, Piracicaba, Cotia e outros destinos do interior paulista.' },
+      { question: 'Tem taxa de deslocamento para o interior?', answer: 'Para destinos até 100 km de SP, geralmente não há taxa adicional. Para destinos mais distantes, a taxa é combinada e incluída no orçamento previamente.' },
+      { question: 'Qual a melhor cidade do interior para casamento?', answer: 'Depende do perfil: Campinas para infraestrutura completa, Jundiaí para vinícolas e sofisticação, Atibaia para clima serrano e natureza, Itu para fazendas históricas. Cada destino tem personalidade fotográfica própria.' },
+      { question: 'Vale a pena casar no interior em vez de SP?', answer: 'Para casais que querem cenário natural, custo-benefício e ambiente mais tranquilo, sim. Para quem prioriza acessibilidade e variedade de fornecedores, a capital pode ser mais prática. O resultado fotográfico depende mais do espaço e do fotógrafo do que da localização.' },
+      { question: 'O fotógrafo faz visita técnica no interior?', answer: 'Ivan Dias realiza visita técnica em todos os espaços — inclusive no interior. Para destinos mais distantes, a visita pode ser agendada em uma data específica antes do evento.' },
+      { question: 'Quanto custa fotógrafo para casamento no interior de SP?', answer: 'Os pacotes têm a mesma faixa de valores de SP — R$ 5.500 a R$ 14.000 dependendo da duração e dos serviços. A eventual taxa de deslocamento é incluída no orçamento.' },
+    ],
+  },
 ];
 
 export function getPostBySlug(slug: string): Post | undefined {
