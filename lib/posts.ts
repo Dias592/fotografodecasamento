@@ -2569,6 +2569,10 @@ export const posts: Post[] = [
         h2: 'Cultura dos casamentos no ABC: o que esperar',
         content: '<p>Os casamentos em Santo André têm uma identidade própria dentro da Grande São Paulo: festas mais longas (frequentemente até 2h da manhã), participação de família extensa, alta energia na pista de dança e forte valorização do registro fotográfico completo. É comum encontrar 150 a 300 convidados em casamentos que seriam considerados "médios" na capital.</p><p>Para o fotógrafo, isso significa planejamento de cobertura longa — coberturas de 10 a 12 horas são frequentes. Ivan Dias destaca o momento dos cumprimentos pós-cerimônia como o mais intenso logisticamente: em festas com 200+ convidados, o fotógrafo precisa se mover entre grupos rapidamente para registrar todos os encontros importantes sem criar filas ou constrangimento.</p>',
       },
+      {
+        h2: 'Guias de fotografia por espaço e buffet em Santo André',
+        content: '<p>Ivan Dias atende casamentos nos principais espaços e buffets de Santo André. Cada guia abaixo detalha os pontos fortes fotográficos do espaço, os melhores ângulos e como planejar a cobertura:</p><ul><li><a href="/blog/fotografo-casamento-espaco-win-santo-andre/">Espaço Win Santo André</a></li><li><a href="/blog/fotografo-casamento-mezzatorre-eventos/">Mezzatorre Eventos</a></li><li><a href="/blog/fotografo-casamento-espaco-figueiras/">Espaço Figueiras</a></li><li><a href="/blog/fotografo-casamento-casa-laranjeira-maztiga/">Casa Laranjeira / Maztiga</a></li><li><a href="/blog/fotografo-casamento-espaco-alfarre/">Espaço Alfarre</a></li><li><a href="/blog/fotografo-casamento-buffet-status/">Buffet Status</a></li><li><a href="/blog/fotografo-casamento-esplannada-santo-andre/">Esplannada Santo André</a></li><li><a href="/blog/fotografo-casamento-grande-ville/">Grande Ville</a></li><li><a href="/blog/fotografo-casamento-espaco-monaco/">Espaço Mônaco</a></li><li><a href="/blog/fotografo-casamento-buffet-dmatos/">Buffet D\'Matos</a></li><li><a href="/blog/fotografo-casamento-espaco-pallazium/">Espaço Pallazium</a></li><li><a href="/blog/fotografo-casamento-hotel-plaza-mayor/">Hotel Plaza Mayor</a></li></ul>',
+      },
     ],
     faq: [
       {
@@ -2656,6 +2660,16 @@ export const posts: Post[] = [
       'Mogi das Cruzes, com sua tradição japonesa, festivais florais e natureza exuberante do Alto Tietê, oferece cenários únicos para casamentos. Um fotógrafo atento transforma esse contexto em imagens com alma.',
     date: '2026-02-03',
     image: '/images/galeria/pre-wedding/casamento-sao-paulo-pre-wedding-08.jpg',
+    sections: [
+      {
+        h2: 'Espaços para casamentos em Mogi das Cruzes',
+        content: '<p>Mogi das Cruzes tem espaços que combinam tradição e natureza — desde fazendas históricas até propriedades rurais com campos abertos. Ivan Dias atende casamentos na região e conhece os diferenciais fotográficos de cada espaço.</p>',
+        h3s: [
+          { title: 'Villa Castanieri', content: '<p>Espaço com estilo italiano clássico, jardins ornamentados e ambientes internos sofisticados. <a href="/blog/fotografo-casamento-villa-castanieri-mogi/">Guia completo da Villa Castanieri.</a></p>' },
+          { title: 'Casarão La Villa', content: '<p>Fazenda histórica com Fusca vintage — um dos espaços mais únicos e fotogênicos da região. <a href="/blog/fotografo-casamento-casarao-la-villa-mogi/">Guia completo do Casarão La Villa.</a></p>' },
+        ],
+      },
+    ],
     faq: [
       {
         question: 'Quais são os melhores espaços para casamentos em Mogi das Cruzes?',
@@ -2699,6 +2713,19 @@ export const posts: Post[] = [
       'Osasco é a terceira maior cidade do estado e tem um mercado de eventos vibrante. Com apenas 20 km da capital, tem fácil acesso aos melhores fotógrafos de casamento de São Paulo.',
     date: '2026-02-07',
     image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-02.jpg',
+    sections: [
+      {
+        h2: 'Espaços para casamentos em Osasco e Alphaville',
+        content: '<p>Osasco e o entorno de Alphaville (Barueri) oferecem uma variedade de espaços modernos e tradicionais. Ivan Dias atende casamentos em toda a região Oeste da Grande São Paulo e conhece as características fotográficas de cada espaço.</p>',
+        h3s: [
+          { title: 'Estação 840', content: '<p>Espaço urbano moderno com estrutura completa para casamentos de médio e grande porte. <a href="/blog/fotografo-casamento-estacao-840/">Guia completo da Estação 840.</a></p>' },
+          { title: 'Maison Bella Vista', content: '<p>Espaço com arquitetura sofisticada e opções versáteis de cerimônia e recepção. <a href="/blog/fotografo-casamento-maison-bella-vista-osasco/">Guia completo do Maison Bella Vista.</a></p>' },
+          { title: 'Spazio Valentina', content: '<p>Espaço elegante com acabamentos de alto padrão e boa iluminação para fotografia. <a href="/blog/fotografo-casamento-spazio-valentina-osasco/">Guia completo do Spazio Valentina.</a></p>' },
+          { title: 'Espaço Catedral', content: '<p>Estrutura imponente com elementos arquitetônicos marcantes — ideal para casamentos de grande porte. <a href="/blog/fotografo-casamento-espaco-catedral-osasco/">Guia completo do Espaço Catedral.</a></p>' },
+          { title: 'Buffet Madeira (Alphaville)', content: '<p>Localizado em Alphaville, com estética sofisticada e público de alto padrão. <a href="/blog/fotografo-casamento-buffet-madeira-alphaville/">Guia completo do Buffet Madeira.</a></p>' },
+        ],
+      },
+    ],
     faq: [
       {
         question: 'Osasco tem bons espaços para casamentos?',
@@ -3495,6 +3522,10 @@ export const posts: Post[] = [
             ['Casamento grande (150+ pax)', '10–12h', 'R$ 8.000–R$ 14.000', 'Com segundo fotógrafo'],
           ],
         },
+      },
+      {
+        h2: 'Guias de fotografia por espaço em Mairiporã',
+        content: '<p>Ivan Dias atende casamentos nos principais espaços de Mairiporã e da Serra da Cantareira. Guias individuais com diferenciais fotográficos de cada espaço:</p><ul><li><a href="/blog/fotografo-casamento-ravena-garden/">Ravena Garden</a></li><li><a href="/blog/fotografo-casamento-sitio-florentino-mairipora/">Sítio Florentino</a></li><li><a href="/blog/fotografo-casamento-quinta-da-cantareira/">Quinta da Cantareira</a></li><li><a href="/blog/fotografo-casamento-villa-vezzane-mairipora/">Villa Vezzane</a></li><li><a href="/blog/fotografo-casamento-mon-chale-mairipora/">Mon Chalé</a></li><li><a href="/blog/fotografo-casamento-casa-por-do-sol-cantareira/">Casa Pôr do Sol</a></li></ul>',
       },
     ],
     faq: [
@@ -6548,6 +6579,10 @@ export const posts: Post[] = [
           ],
         },
       },
+      {
+        h2: 'Guias individuais por unidade do Grupo Quintal',
+        content: '<p>Cada unidade do Grupo Quintal tem um guia exclusivo com os diferenciais fotográficos, melhores ângulos e como planejar a cobertura para aquele conceito específico:</p><ul><li><a href="/blog/fotografo-casamento-espaco-quintal/">Espaço Quintal — Rustic Wedding</a></li><li><a href="/blog/fotografo-casamento-casa-quintal/">Casa Quintal — Comfort Wedding</a></li><li><a href="/blog/fotografo-casamento-casinha-quintal/">Casinha Quintal — Mini Wedding</a></li><li><a href="/blog/fotografo-casamento-celeiro-quintal/">Celeiro Quintal — Farm Wedding</a></li><li><a href="/blog/fotografo-casamento-chale-quintal/">Chalé Quintal — Romantic Wedding</a></li><li><a href="/blog/fotografo-casamento-botanico-quintal/">Botânico Quintal — Fresh Wedding</a></li></ul>',
+      },
     ],
     faq: [
       {
@@ -8057,6 +8092,118 @@ export const posts: Post[] = [
       { question: 'Qual salão da Villa Castanieri é mais fotogênico?', answer: 'Cada salão tem pontos fortes diferentes — o Bellagio tem maior capacidade e impacto; o Castanheira e o Paganotti têm atmosfera mais íntima. A escolha ideal depende do porte e do estilo do casamento. Ivan Dias conversa sobre isso no planejamento prévio.' },
       { question: 'Drone é recomendado na Villa Castanieri?', answer: 'Sim — a represa e a propriedade de múltiplos salões vistos de cima criam imagens aéreas muito impactantes.' },
       { question: 'Quanto custa fotografar na Villa Castanieri?', answer: 'Os pacotes partem de R$ 7.000 para eventos em Mogi das Cruzes. Solicite orçamento pelo WhatsApp — resposta em até 24 horas.' },
+    ],
+  },
+
+  // ── HUB: Grupo Welucci ──────────────────────────────────────────
+  {
+    slug: 'fotografo-casamento-grupo-welucci',
+    bairro: 'Grupo Welucci',
+    title: 'Fotógrafo de Casamento no Grupo Welucci: Guia Completo das 13 Unidades',
+    description: 'Guia completo de fotografia de casamento nas 13 unidades do Grupo Welucci em São Paulo: Estaiada, Single, Sansu, Fontana, Kratos, Casa Welucci, Gardens, Village, The One, Vila Real, Fagundes, Ocean e Canto Verde.',
+    excerpt: 'O Grupo Welucci tem 13 unidades em São Paulo — cada uma com conceito, capacidade e atmosfera distintos. Do sofisticado Welucci Estaiada à intimidade do Canto Verde, cada espaço exige uma abordagem fotográfica própria. Este guia reúne os pontos fortes fotográficos de cada unidade e como Ivan Dias planeja a cobertura para aproveitar ao máximo cada conceito.',
+    date: '2025-01-03',
+    updatedDate: '2025-01-03',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    sections: [
+      {
+        h2: 'O Grupo Welucci e a fotografia de casamento em São Paulo',
+        content: '<p>O Grupo Welucci é um dos maiores grupos de espaços para eventos de São Paulo, com 13 unidades distribuídas pela cidade — cada uma com uma identidade visual e uma proposta de cerimônia distintas. Para o fotógrafo de casamento, isso significa que conhecer o grupo não é suficiente: é preciso conhecer cada unidade individualmente.</p><p>Ivan Dias atende casamentos em toda a rede Welucci e realiza visita técnica específica em cada espaço antes do evento. O objetivo é chegar com o plano fotográfico já definido — equipamento certo, ângulos mapeados e os momentos de melhor luz identificados. <a href="/contato/">Agende uma conversa sobre o seu casamento no Grupo Welucci.</a></p>',
+      },
+      {
+        h2: 'As 13 unidades Welucci e seus diferenciais fotográficos',
+        h3s: [
+          { title: 'Welucci Estaiada', content: '<p>A unidade mais sofisticada do grupo, com vista para a Ponte Estaiada — um dos cenários mais icônicos da fotografia de casamento em São Paulo. <a href="/blog/fotografo-casamento-welucci-estaiada/">Veja o guia completo do Welucci Estaiada.</a></p>' },
+          { title: 'Welucci Single', content: '<p>Conceito singular com ambientes versáteis que permitem diferentes configurações de cerimônia e recepção. <a href="/blog/fotografo-casamento-welucci-single/">Guia do Welucci Single.</a></p>' },
+          { title: 'Welucci Sansu', content: '<p>Espaço com atmosfera oriental sofisticada — iluminação especial e acabamentos que criam uma paleta fotográfica única dentro do grupo. <a href="/blog/fotografo-casamento-welucci-sansu/">Guia do Welucci Sansu.</a></p>' },
+          { title: 'Welucci Fontana', content: '<p>Fontes e elementos aquáticos como cenário — reflexos e texturas que o fotógrafo explora nas composições do casal. <a href="/blog/fotografo-casamento-welucci-fontana/">Guia do Welucci Fontana.</a></p>' },
+          { title: 'Welucci Kratos', content: '<p>Estrutura imponente com pé-direito alto e linhas arquitetônicas marcantes — ideal para fotos de perspectiva e grandiosidade. <a href="/blog/fotografo-casamento-welucci-kratos/">Guia do Welucci Kratos.</a></p>' },
+          { title: 'Casa Welucci', content: '<p>O conceito residencial do grupo — ambientes mais intimistas com atmosfera de casa, favorecendo registros naturais e espontâneos. <a href="/blog/fotografo-casamento-casa-welucci/">Guia da Casa Welucci.</a></p>' },
+          { title: 'Welucci Gardens', content: '<p>Jardins como elemento central — integração com natureza que cria um contraste marcante com os ambientes internos do espaço. <a href="/blog/fotografo-casamento-welucci-gardens/">Guia do Welucci Gardens.</a></p>' },
+          { title: 'Welucci Village', content: '<p>Conceito de vila com múltiplos ambientes interconectados — variedade de cenários dentro de um mesmo evento. <a href="/blog/fotografo-casamento-welucci-village/">Guia do Welucci Village.</a></p>' },
+          { title: 'Welucci The One', content: '<p>Exclusividade máxima — espaço projetado para casamentos de alto padrão com acabamentos premium. <a href="/blog/fotografo-casamento-welucci-the-one/">Guia do Welucci The One.</a></p>' },
+          { title: 'Welucci Vila Real', content: '<p>Atmosfera europeia com traços arquitetônicos clássicos — molduras, detalhes ornamentais e iluminação quente que criam uma paleta cinematográfica. <a href="/blog/fotografo-casamento-welucci-vila-real/">Guia do Welucci Vila Real.</a></p>' },
+          { title: 'Welucci Fagundes', content: '<p>Localizado no coração de São Paulo, com estrutura urbana sofisticada e boa acessibilidade. <a href="/blog/fotografo-casamento-welucci-fagundes/">Guia do Welucci Fagundes.</a></p>' },
+          { title: 'Welucci Ocean', content: '<p>Espaço com temática náutica e tons azulados — atmosfera diferenciada dentro do grupo que se traduz em uma paleta fotográfica exclusiva. <a href="/blog/fotografo-casamento-welucci-ocean/">Guia do Welucci Ocean.</a></p>' },
+          { title: 'Welucci Canto Verde', content: '<p>A unidade mais verde e tranquila do grupo — vegetação e integração com natureza que criam uma atmosfera de refúgio urbano. <a href="/blog/fotografo-casamento-welucci-canto-verde/">Guia do Welucci Canto Verde.</a></p>' },
+        ],
+      },
+      {
+        h2: 'Como escolher a unidade Welucci certa para o seu casamento',
+        content: '<p>A escolha da unidade Welucci define diretamente o resultado fotográfico. Casais que priorizam vista e cenário urbano tendem ao Estaiada. Quem quer intimidade e naturalidade vai para a Casa Welucci ou o Canto Verde. Quem busca grandiosidade e imponência, o Kratos ou o The One. Ivan Dias pode ajudar nessa decisão — conhecer o espaço antes de contratar é parte do planejamento fotográfico.</p>',
+        table: {
+          caption: 'Grupo Welucci — resumo por unidade (2025–2026)',
+          headers: ['Unidade', 'Conceito', 'Diferencial fotográfico'],
+          rows: [
+            ['Estaiada', 'Sofisticação urbana', 'Vista para a Ponte Estaiada'],
+            ['Single', 'Versátil', 'Ambientes configuráveis'],
+            ['Sansu', 'Oriental', 'Paleta e iluminação únicas'],
+            ['Fontana', 'Aquático', 'Reflexos e fontes'],
+            ['Kratos', 'Imponente', 'Pé-direito e perspectiva'],
+            ['Casa Welucci', 'Residencial', 'Intimidade e naturalidade'],
+            ['Gardens', 'Natural', 'Jardins e luz filtrada'],
+            ['Village', 'Vila', 'Múltiplos ambientes'],
+            ['The One', 'Exclusivo', 'Premium acabamento'],
+            ['Vila Real', 'Europeu', 'Paleta cinematográfica'],
+            ['Fagundes', 'Urbano central', 'Acessibilidade e estrutura'],
+            ['Ocean', 'Náutico', 'Tons azulados exclusivos'],
+            ['Canto Verde', 'Verde', 'Natureza e tranquilidade'],
+          ],
+        },
+      },
+    ],
+    faq: [
+      { question: 'Ivan Dias atende todas as unidades do Grupo Welucci?', answer: 'Sim — Ivan Dias atende casamentos em todas as 13 unidades do Grupo Welucci em São Paulo. Realiza visita técnica específica em cada unidade antes do evento para adaptar equipamento e planejamento fotográfico ao conceito de cada espaço.' },
+      { question: 'Qual unidade Welucci tem o melhor cenário para fotografia?', answer: 'Depende do estilo do casal. Para cenário urbano icônico, o Estaiada com vista para a Ponte. Para naturalidade e intimidade, a Casa Welucci ou o Canto Verde. Para grandiosidade, o Kratos ou The One. Cada unidade tem uma identidade visual própria.' },
+      { question: 'O Welucci Estaiada tem mesmo a vista para a ponte nas fotos?', answer: 'Sim — a Ponte Estaiada é um dos cenários fotográficos mais reconhecíveis de São Paulo e aparece nas fotos do casal quando planejado no roteiro. Ivan Dias identifica os melhores ângulos e o horário certo de luz para esse registro.' },
+      { question: 'Qual a diferença entre fotografar no Welucci Gardens e no Canto Verde?', answer: 'O Gardens tem jardins formais com integração natural mais estruturada. O Canto Verde tem uma atmosfera de refúgio com vegetação mais orgânica e tranquila. Ambos oferecem luz filtrada e paleta verde — mas com personalidades visuais distintas.' },
+      { question: 'Como funciona a visita técnica de Ivan Dias no Grupo Welucci?', answer: 'Ivan Dias realiza visita técnica no espaço específico escolhido pelo casal — não no grupo em geral. A visita acontece algumas semanas antes do evento, no mesmo período do dia da cerimônia, para mapear com precisão a luz, os ângulos e o equipamento ideal.' },
+      { question: 'Quanto custa fotografar um casamento no Grupo Welucci?', answer: 'Os pacotes variam conforme a unidade, o formato do evento e as horas de cobertura. Para referência de valores em São Paulo, consulte o guia de quanto custa um fotógrafo de casamento. Para orçamento personalizado, entre em contato pelo WhatsApp.' },
+    ],
+  },
+
+  // ── HUB: Ribeirão Pires ──────────────────────────────────────────
+  {
+    slug: 'fotografo-de-casamento-ribeirao-pires',
+    bairro: 'Ribeirão Pires',
+    title: 'Fotógrafo de Casamento em Ribeirão Pires: Guia de Espaços e Fotografia',
+    description: 'Fotógrafo de casamento em Ribeirão Pires: guia de espaços para casar na Cidade da Diversão — Estância Silvestre, Chácara Flores, Espaço Vista Verde e como planejar a fotografia na região.',
+    excerpt: 'Ribeirão Pires, a "Cidade da Diversão", tem uma cena de casamentos marcada por espaços em meio à natureza e propriedades com áreas verdes amplas. Este guia cobre os principais espaços para casar em Ribeirão Pires e como Ivan Dias planeja a fotografia na região.',
+    date: '2025-01-02',
+    updatedDate: '2025-01-02',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    sections: [
+      {
+        h2: 'Casamentos em Ribeirão Pires: natureza como cenário',
+        content: '<p>Ribeirão Pires tem uma geografia privilegiada para casamentos ao ar livre: a cidade fica encravada na Serra do Mar, com vegetação nativa, chácaras e espaços rurais que criaram uma tradição de festas em meio à natureza. Para o fotógrafo, isso representa um recurso constante: luz filtrada pela vegetação, horizontes verdes e a paleta quente do interior paulista.</p><p>Ivan Dias atende casamentos em Ribeirão Pires e na região do Alto Tietê regularmente. O deslocamento desde São Paulo pela via Anchieta leva em torno de 40 minutos. <a href="/blog/fotografo-casamento-abc-paulista-santo-andre-sao-bernardo/">Veja o panorama completo do ABC Paulista.</a></p>',
+      },
+      {
+        h2: 'Principais espaços para casar em Ribeirão Pires',
+        h3s: [
+          { title: 'Estância Silvestre', content: '<p>Espaço rural com estrutura completa para casamentos em meio à natureza. Trilhas, vegetação nativa e luz natural em abundância. <a href="/blog/fotografo-casamento-estancia-silvestre-ribeirao-pires/">Guia completo da Estância Silvestre.</a></p>' },
+          { title: 'Chácara Flores', content: '<p>Propriedade com jardins floridos — um dos espaços mais fotogênicos da região para casamentos com muito verde e cor. <a href="/blog/fotografo-casamento-chacara-flores-ribeirao-pires/">Guia completo da Chácara Flores.</a></p>' },
+          { title: 'Espaço Vista Verde', content: '<p>Espaço com vista para a Serra — panoramas abertos e vegetação que criam cenários aéreos únicos para drone. <a href="/blog/fotografo-casamento-espaco-vista-verde-ribeirao-pires/">Guia completo do Espaço Vista Verde.</a></p>' },
+        ],
+      },
+      {
+        h2: 'Logística e acesso desde São Paulo',
+        content: '<p>Ribeirão Pires fica a cerca de 40 km do centro de São Paulo pela Via Anchieta (SP-150). Em sábados à tarde, preveja 50–70 minutos de deslocamento. Ivan Dias sai com margem de 1 hora para todos os casamentos na região do Alto Tietê.</p>',
+        table: {
+          caption: 'Acesso SP → Ribeirão Pires',
+          headers: ['Origem', 'Rota', 'Tempo normal', 'Sábado tarde'],
+          rows: [
+            ['Centro SP', 'Via Anchieta (SP-150)', '38–45 min', '55–70 min'],
+            ['Santo André', 'SP-150 Sul', '15–20 min', '20–30 min'],
+            ['Mauá / Ribeirão Pires', 'Acesso local', '5–10 min', '10–15 min'],
+          ],
+        },
+      },
+    ],
+    faq: [
+      { question: 'Ivan Dias fotografa casamentos em Ribeirão Pires?', answer: 'Sim — Ivan Dias atende casamentos em Ribeirão Pires e em toda a região do Alto Tietê e ABC Paulista. Entre em contato para verificar disponibilidade para a sua data.' },
+      { question: 'Quais são os melhores espaços para casar em Ribeirão Pires?', answer: 'A região tem boas opções com apelo natural: Estância Silvestre, Chácara Flores e Espaço Vista Verde são espaços com características distintas e bom potencial fotográfico. Cada um tem uma identidade visual própria.' },
+      { question: 'O drone funciona bem em Ribeirão Pires?', answer: 'Muito bem — a topografia da região, com áreas verdes e propriedades rurais, é excelente para imagens aéreas. O Espaço Vista Verde especialmente tem panoramas abertos que o drone valoriza. Ivan Dias sempre verifica a regulamentação local antes do evento.' },
+      { question: 'Quanto custa um fotógrafo de casamento em Ribeirão Pires?', answer: 'Os valores são equivalentes ao mercado do ABC Paulista — pacotes a partir de R$ 5.500 para cobertura completa. A taxa de deslocamento pode aplicar-se dependendo do horário e duração do evento.' },
     ],
   },
 

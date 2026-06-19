@@ -9,7 +9,7 @@ const SOCIALS = [
 export default function Footer() {
   return (
     <footer className="bg-blue-deep py-16 text-cream">
-      <div className="mx-auto grid max-w-7xl grid-cols-1 gap-12 px-6 md:grid-cols-5 md:px-12">
+      <div className="mx-auto grid max-w-7xl grid-cols-1 gap-12 px-6 md:grid-cols-4 lg:grid-cols-7 md:px-12">
         <div>
           <Link href="/" className="font-heading text-2xl font-extrabold italic tracking-tightest">
             Ivan Dias
@@ -89,6 +89,57 @@ export default function Footer() {
             <li>
               <Link href="/fotografo-de-casamento-sao-caetano-do-sul/" className="font-body text-sm text-cream/60 transition-colors hover:text-cream focus-visible-ring">
                 São Caetano
+              </Link>
+            </li>
+            <li>
+              <Link href="/blog/fotografo-de-casamento-ribeirao-pires/" className="font-body text-sm text-cream/60 transition-colors hover:text-cream focus-visible-ring">
+                Ribeirão Pires
+              </Link>
+            </li>
+          </ul>
+        </nav>
+
+        <nav aria-label="Grupos de espaços">
+          <h2 className="font-heading text-sm font-semibold uppercase tracking-wide text-brown-light">
+            Grupos
+          </h2>
+          <ul className="mt-5 flex flex-col gap-3">
+            <li>
+              <Link href="/blog/fotografo-casamento-grupo-quintal/" className="font-body text-sm text-cream/60 transition-colors hover:text-cream focus-visible-ring">
+                Grupo Quintal
+              </Link>
+            </li>
+            <li>
+              <Link href="/blog/fotografo-casamento-grupo-welucci/" className="font-body text-sm text-cream/60 transition-colors hover:text-cream focus-visible-ring">
+                Grupo Welucci
+              </Link>
+            </li>
+          </ul>
+        </nav>
+
+        <nav aria-label="Outros destinos">
+          <h2 className="font-heading text-sm font-semibold uppercase tracking-wide text-brown-light">
+            Destinos
+          </h2>
+          <ul className="mt-5 flex flex-col gap-3">
+            <li>
+              <Link href="/blog/fotografo-de-casamento-osasco/" className="font-body text-sm text-cream/60 transition-colors hover:text-cream focus-visible-ring">
+                Osasco
+              </Link>
+            </li>
+            <li>
+              <Link href="/blog/fotografo-de-casamento-mairipora/" className="font-body text-sm text-cream/60 transition-colors hover:text-cream focus-visible-ring">
+                Mairiporã
+              </Link>
+            </li>
+            <li>
+              <Link href="/blog/fotografo-de-casamento-mogi-das-cruzes/" className="font-body text-sm text-cream/60 transition-colors hover:text-cream focus-visible-ring">
+                Mogi das Cruzes
+              </Link>
+            </li>
+            <li>
+              <Link href="/blog/fotografo-casamento-abc-paulista-santo-andre-sao-bernardo/" className="font-body text-sm text-cream/60 transition-colors hover:text-cream focus-visible-ring">
+                ABC Paulista
               </Link>
             </li>
           </ul>
