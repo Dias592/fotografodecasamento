@@ -9,7 +9,7 @@ const SOCIALS = [
 export default function Footer() {
   return (
     <footer className="bg-blue-deep py-16 text-cream">
-      <div className="mx-auto grid max-w-7xl grid-cols-1 gap-12 px-6 md:grid-cols-4 lg:grid-cols-7 md:px-12">
+      <div className="mx-auto grid max-w-7xl grid-cols-1 gap-10 px-6 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-8 md:px-12">
         <div>
           <Link href="/" className="font-heading text-2xl font-extrabold italic tracking-tightest">
             Ivan Dias
@@ -140,6 +140,39 @@ export default function Footer() {
             <li>
               <Link href="/blog/fotografo-casamento-abc-paulista-santo-andre-sao-bernardo/" className="font-body text-sm text-cream/60 transition-colors hover:text-cream focus-visible-ring">
                 ABC Paulista
+              </Link>
+            </li>
+          </ul>
+        </nav>
+
+        <nav aria-label="Igrejas e templos">
+          <h2 className="font-heading text-sm font-semibold uppercase tracking-wide text-brown-light">
+            Igrejas
+          </h2>
+          <ul className="mt-5 flex flex-col gap-3">
+            <li>
+              <Link href="/blog/fotografo-casamento-igreja-nossa-senhora-do-brasil/" className="font-body text-sm text-cream/60 transition-colors hover:text-cream focus-visible-ring">
+                N. Sra. do Brasil
+              </Link>
+            </li>
+            <li>
+              <Link href="/blog/fotografo-casamento-catedral-do-carmo-santo-andre/" className="font-body text-sm text-cream/60 transition-colors hover:text-cream focus-visible-ring">
+                Catedral do Carmo
+              </Link>
+            </li>
+            <li>
+              <Link href="/blog/fotografo-casamento-matriz-sagrada-familia-sao-caetano/" className="font-body text-sm text-cream/60 transition-colors hover:text-cream focus-visible-ring">
+                Matriz São Caetano
+              </Link>
+            </li>
+            <li>
+              <Link href="/blog/fotografo-casamento-matriz-sao-bernardo/" className="font-body text-sm text-cream/60 transition-colors hover:text-cream focus-visible-ring">
+                Matriz São Bernardo
+              </Link>
+            </li>
+            <li>
+              <Link href="/blog/fotografo-casamento-igreja-sao-benedito-mogi/" className="font-body text-sm text-cream/60 transition-colors hover:text-cream focus-visible-ring">
+                São Benedito (Mogi)
               </Link>
             </li>
           </ul>

@@ -45,6 +45,9 @@ export const posts: Post[] = [
       'O Itaim Bibi reúne alguns dos espaços mais sofisticados de São Paulo para celebrações. Conheça as melhores locações da região e como aproveitar a luz natural dos rooftops e salões.',
     date: '2026-01-12',
     image: '/images/blog/fotografo-casamento-itaim-bibi-cerimonia.jpg',
+    sections: [
+      { h2: 'Igrejas para casamento próximas ao Itaim Bibi', content: '<p>A região do Itaim Bibi e da Zona Sul conta com templos de alto padrão para cerimônias religiosas. Guias específicos de fotografia por igreja:</p><ul><li><a href="/blog/fotografo-casamento-catedral-anglicana-sao-paulo/">Catedral Anglicana de São Paulo — cerimônias ecumênicas e diversas</a></li></ul>' },
+    ],
     faq: [
       {
         question: 'Quais são os melhores locais para casamento no Itaim Bibi?',
@@ -83,6 +86,9 @@ export const posts: Post[] = [
       'Conhecidos pela arquitetura refinada e pelos espaços de buffet renomados, os Jardins pedem um olhar fotográfico atento aos detalhes de decoração e luz.',
     date: '2026-01-20',
     image: '/images/blog/fotografo-casamento-jardins-cerimonia.jpg',
+    sections: [
+      { h2: 'Igrejas para casamento nos Jardins e arredores', content: '<p>Os Jardins concentram algumas das igrejas mais disputadas de São Paulo para casamentos de alto padrão. Guias específicos de fotografia por templo:</p><ul><li><a href="/blog/fotografo-casamento-igreja-nossa-senhora-do-brasil/">Paróquia Nossa Senhora do Brasil (Jardim América) — lista de espera de 2 anos, teto Sistina</a></li><li><a href="/blog/fotografo-casamento-igreja-sao-jose-jardim-europa/">Paróquia São José do Jardim Europa — nave estreita, escadarias para ensaio</a></li></ul>' },
+    ],
     faq: [
       {
         question: 'Os Jardins são uma boa opção para casamentos diurnos?',
@@ -2571,7 +2577,7 @@ export const posts: Post[] = [
       },
       {
         h2: 'Guias de fotografia por espaço e buffet em Santo André',
-        content: '<p>Ivan Dias atende casamentos nos principais espaços e buffets de Santo André. Cada guia abaixo detalha os pontos fortes fotográficos do espaço, os melhores ângulos e como planejar a cobertura:</p><ul><li><a href="/blog/fotografo-casamento-espaco-win-santo-andre/">Espaço Win Santo André</a></li><li><a href="/blog/fotografo-casamento-mezzatorre-eventos/">Mezzatorre Eventos</a></li><li><a href="/blog/fotografo-casamento-espaco-figueiras/">Espaço Figueiras</a></li><li><a href="/blog/fotografo-casamento-casa-laranjeira-maztiga/">Casa Laranjeira / Maztiga</a></li><li><a href="/blog/fotografo-casamento-espaco-alfarre/">Espaço Alfarre</a></li><li><a href="/blog/fotografo-casamento-buffet-status/">Buffet Status</a></li><li><a href="/blog/fotografo-casamento-esplannada-santo-andre/">Esplannada Santo André</a></li><li><a href="/blog/fotografo-casamento-grande-ville/">Grande Ville</a></li><li><a href="/blog/fotografo-casamento-espaco-monaco/">Espaço Mônaco</a></li><li><a href="/blog/fotografo-casamento-buffet-dmatos/">Buffet D\'Matos</a></li><li><a href="/blog/fotografo-casamento-espaco-pallazium/">Espaço Pallazium</a></li><li><a href="/blog/fotografo-casamento-hotel-plaza-mayor/">Hotel Plaza Mayor</a></li></ul>',
+        content: '<p>Ivan Dias atende casamentos nos principais espaços e buffets de Santo André. Cada guia abaixo detalha os pontos fortes fotográficos do espaço, os melhores ângulos e como planejar a cobertura:</p><ul><li><a href="/blog/fotografo-casamento-espaco-win-santo-andre/">Espaço Win Santo André</a></li><li><a href="/blog/fotografo-casamento-mezzatorre-eventos/">Mezzatorre Eventos</a></li><li><a href="/blog/fotografo-casamento-espaco-figueiras/">Espaço Figueiras</a></li><li><a href="/blog/fotografo-casamento-casa-laranjeira-maztiga/">Casa Laranjeira / Maztiga</a></li><li><a href="/blog/fotografo-casamento-espaco-alfarre/">Espaço Alfarre</a></li><li><a href="/blog/fotografo-casamento-buffet-status/">Buffet Status</a></li><li><a href="/blog/fotografo-casamento-esplannada-santo-andre/">Esplannada Santo André</a></li><li><a href="/blog/fotografo-casamento-grande-ville/">Grande Ville</a></li><li><a href="/blog/fotografo-casamento-espaco-monaco/">Espaço Mônaco</a></li><li><a href="/blog/fotografo-casamento-buffet-dmatos/">Buffet D\'Matos</a></li><li><a href="/blog/fotografo-casamento-espaco-pallazium/">Espaço Pallazium</a></li><li><a href="/blog/fotografo-casamento-hotel-plaza-mayor/">Hotel Plaza Mayor</a></li></ul><p>Igreja principal da cidade: <a href="/blog/fotografo-casamento-catedral-do-carmo-santo-andre/">Catedral Nossa Senhora do Carmo — desafio de luz LED e taxas paroquiais</a>.</p>',
       },
     ],
     faq: [
@@ -2662,11 +2668,12 @@ export const posts: Post[] = [
     image: '/images/galeria/pre-wedding/casamento-sao-paulo-pre-wedding-08.jpg',
     sections: [
       {
-        h2: 'Espaços para casamentos em Mogi das Cruzes',
+        h2: 'Espaços e igrejas para casamentos em Mogi das Cruzes',
         content: '<p>Mogi das Cruzes tem espaços que combinam tradição e natureza — desde fazendas históricas até propriedades rurais com campos abertos. Ivan Dias atende casamentos na região e conhece os diferenciais fotográficos de cada espaço.</p>',
         h3s: [
           { title: 'Villa Castanieri', content: '<p>Espaço com estilo italiano clássico, jardins ornamentados e ambientes internos sofisticados. <a href="/blog/fotografo-casamento-villa-castanieri-mogi/">Guia completo da Villa Castanieri.</a></p>' },
           { title: 'Casarão La Villa', content: '<p>Fazenda histórica com Fusca vintage — um dos espaços mais únicos e fotogênicos da região. <a href="/blog/fotografo-casamento-casarao-la-villa-mogi/">Guia completo do Casarão La Villa.</a></p>' },
+          { title: 'Igreja de São Benedito (patrimônio tombado)', content: '<p>Principal referência para cerimônias religiosas em Mogi — altares coloniais esculpidos em madeira e restrições de tombamento. <a href="/blog/fotografo-casamento-igreja-sao-benedito-mogi/">Guia de fotografia na Igreja São Benedito.</a></p>' },
         ],
       },
     ],
@@ -8234,6 +8241,487 @@ export const posts: Post[] = [
       { question: 'O Fusca vintage aparece nas fotos?', answer: 'Sim — o Fusca é um dos elementos mais icônicos do espaço e Ivan Dias inclui composições com o carro no roteiro fotográfico do casamento. É garantia de fotos únicas que identificam o espaço instantaneamente.' },
       { question: 'Drone é recomendado para a fazenda?', answer: 'Muito — os campos abertos da fazenda histórica vistos de cima criam imagens aéreas que ficam entre as mais marcantes de qualquer cobertura no Casarão La Villa.' },
       { question: 'Quanto custa fotografar no Casarão La Villa?', answer: 'Os pacotes partem de R$ 7.000 para eventos em Mogi das Cruzes. Solicite orçamento pelo WhatsApp — resposta em até 24 horas.' },
+    ],
+  },
+
+  // ── IGREJAS E TEMPLOS ────────────────────────────────────────────
+
+  // SP Capital
+  {
+    slug: 'fotografo-casamento-igreja-nossa-senhora-do-brasil',
+    bairro: 'Paróquia Nossa Senhora do Brasil — Jardim América',
+    title: 'Casar na Nossa Senhora do Brasil: Regras, Taxa e Como Planejar a Fotografia',
+    description: 'Guia completo para casamentos na Paróquia Nossa Senhora do Brasil (Jardim América): lista de espera de 1,5 a 2 anos, pontualidade obrigatória, fornecedores credenciados, teto estilo Sistina e como fotografar o mezanino sem cortar o véu.',
+    excerpt: 'A Nossa Senhora do Brasil é uma das igrejas mais disputadas de São Paulo — lista de espera de até 2 anos, regras rígidas de pontualidade e fornecedores credenciados. Se você já reservou a data ou está no processo, este guia responde as dúvidas mais buscadas e mostra como o planejamento fotográfico precisa se adaptar ao teto único desse templo.',
+    date: '2025-01-01',
+    updatedDate: '2025-01-01',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    sections: [
+      {
+        h2: 'O que você precisa saber antes de marcar data na Nossa Senhora do Brasil',
+        content: '<p>A Paróquia Nossa Senhora do Brasil, no Jardim América, é uma das igrejas mais procuradas de São Paulo para casamentos de alto padrão. A lista de espera varia entre 1,5 e 2 anos — casais que ainda não reservaram devem entrar em contato com a secretaria paroquial imediatamente. Fornecedores (música, decoração, fotografia) devem ser credenciados junto à paróquia. Músicas seculares são proibidas durante a cerimônia religiosa.</p>',
+      },
+      {
+        h2: 'Por que a pontualidade é não-negociável na Nossa Senhora do Brasil',
+        content: '<p>A paróquia aplica multa e pode cortar ritos em caso de atraso — uma regra que surpreende casais acostumados à flexibilidade de outros templos. Para o fotógrafo, isso muda o planejamento do dia: não há margem para ensaio externo demorado ou retoques de maquiagem atrasados. Ivan Dias organiza o roteiro fotográfico com blocos de tempo fechados, garantindo que todos os registros antes da cerimônia estejam concluídos dentro do cronograma da paróquia.</p>',
+        h3s: [
+          { title: 'Consequências práticas do atraso', content: '<p>Atraso significa mais do que estresse: pode resultar em perda de ritos importantes da cerimônia — e, consequentemente, de momentos fotográficos que não se repetem. O fotógrafo experiente em igrejas com essa regra já chega ao espaço com antecedência e tem um protocolo de comunicação com o casal para garantir que o cronograma seja cumprido.</p>' },
+        ],
+      },
+      {
+        h2: 'O desafio técnico de fotografar na Nossa Senhora do Brasil: o teto estilo Sistina',
+        content: '<p>O teto pintado da Nossa Senhora do Brasil é um dos elementos mais marcantes do templo — e um dos maiores desafios fotográficos para fotógrafos que chegam sem reconhecimento prévio. A riqueza visual do teto compete com o enquadramento principal da cerimônia: incluir os noivos, o altar e o teto pintado em um único frame exige controle preciso de perspectiva e distância focal.</p>',
+        h3s: [
+          { title: 'Como fotografar o teto sem cortar o véu no enquadramento principal', content: '<p>O ponto crítico é o ângulo de câmera: inclinado demais para cima, o teto aparece mas os noivos perdem posição no frame. Inclinado para baixo, o teto some. Ivan Dias resolve isso com duas abordagens simultâneas: uma câmera no ângulo central da cerimônia (noivos em destaque) e uma segunda posição que captura o contexto arquitetônico completo — incluindo o teto e a profundidade da nave. Isso exige que o fotógrafo tenha acesso ao mezanino ou a ângulos elevados, algo que precisa ser negociado com a paróquia previamente.</p>' },
+          { title: 'Mezanino: o ângulo que a maioria dos fotógrafos não consegue', content: '<p>O mezanino da Nossa Senhora do Brasil oferece uma perspectiva superior que combina a riqueza do teto pintado com a cerimônia abaixo — criando imagens com profundidade e grandiosidade que nenhum ângulo do piso da nave consegue replicar. O acesso ao mezanino precisa ser solicitado e autorizado pela paróquia antes do evento.</p>' },
+        ],
+      },
+      {
+        h2: 'Como um fotógrafo experiente se planeja para a Nossa Senhora do Brasil',
+        content: '<p>Fotografar a Nossa Senhora do Brasil sem visita técnica prévia é um risco significativo. O reconhecimento do espaço — no mesmo horário do evento, para mapear a luz natural — é o que diferencia um resultado fotográfico consistente de um conjunto de imagens tecnicamente comprometidas. Ivan Dias realiza visita técnica em todas as igrejas de alto padrão antes do dia do casamento, mapeando: ângulos possíveis, comportamento da luz, pontos de acesso autorizados e restrições de movimento durante a cerimônia.</p>',
+      },
+      {
+        h2: 'Experiência em cerimônias religiosas tradicionais: por que isso importa aqui',
+        content: '<p>A Nossa Senhora do Brasil tem um protocolo de cerimônia rigoroso que exige do fotógrafo tanto discrição quanto agilidade. Com 15 anos de experiência e mais de 700 casamentos fotografados, Ivan Dias domina o equilíbrio entre presença e invisibilidade que cerimônias católicas tradicionais exigem — sem interromper o rito, sem usar flash em momentos inadequados, sem se posicionar onde a paróquia não autoriza. Essa experiência acumulada é o que garante fotos completas de uma cerimônia com protocolo exigente. <a href="/contato/">Agende uma conversa sobre o seu casamento na Nossa Senhora do Brasil.</a></p>',
+        table: {
+          caption: 'Paróquia Nossa Senhora do Brasil — referência rápida',
+          headers: ['Item', 'Referência'],
+          rows: [
+            ['Lista de espera', '1,5 a 2 anos'],
+            ['Fornecedores', 'Credenciados obrigatórios'],
+            ['Músicas seculares', 'Não permitidas'],
+            ['Pontualidade', 'Multa e corte de ritos em caso de atraso'],
+            ['Destaque arquitetônico', 'Teto pintado estilo Sistina'],
+            ['Acesso fotógrafo', 'Negociar mezanino com a paróquia'],
+          ],
+        },
+      },
+    ],
+    faq: [
+      { question: 'Quanto tempo de antecedência preciso para marcar casamento na Nossa Senhora do Brasil?', answer: 'A lista de espera varia entre 1,5 e 2 anos. Casais que já têm data aproximada em mente devem entrar em contato com a secretaria paroquial o quanto antes — as datas mais disputadas (sábados de abril a outubro) são as primeiras a esgotar.' },
+      { question: 'Posso levar o fotógrafo da minha preferência para a Nossa Senhora do Brasil?', answer: 'A paróquia exige que os fornecedores sejam credenciados junto à secretaria. Verifique diretamente com a paróquia os procedimentos de credenciamento antes de confirmar qualquer profissional.' },
+      { question: 'O que acontece se o casal se atrasar para a cerimônia?', answer: 'A Nossa Senhora do Brasil aplica multa e pode cortar ritos da cerimônia em caso de atraso. É uma das regras mais rígidas entre as igrejas de alto padrão de São Paulo — o cronograma do dia precisa ser planejado com margem extra.' },
+      { question: 'É possível tocar músicas não religiosas na cerimônia?', answer: 'Não — músicas seculares são proibidas durante a cerimônia na Nossa Senhora do Brasil. Toda a trilha sonora deve seguir o repertório litúrgico aprovado pela paróquia. Confirme com a secretaria a lista de músicas permitidas.' },
+      { question: 'O fotógrafo pode subir no mezanino durante a cerimônia?', answer: 'O acesso ao mezanino precisa ser negociado e autorizado pela paróquia antes do evento. Ivan Dias realiza essa solicitação durante a visita técnica prévia — com antecedência suficiente para receber a autorização formal.' },
+      { question: 'O teto pintado aparece nas fotos da cerimônia?', answer: 'Com planejamento certo, sim. O teto da Nossa Senhora do Brasil é um dos elementos visuais mais marcantes do templo. Ivan Dias mapeia os ângulos específicos que incluem o teto sem comprometer o enquadramento dos noivos — o que exige reconhecimento prévio do espaço.' },
+      { question: 'Ivan Dias fotografa casamentos na Nossa Senhora do Brasil?', answer: 'Ivan Dias atende casamentos em igrejas de alto padrão em São Paulo, incluindo a região do Jardim América. Para verificar disponibilidade para a sua data e discutir o credenciamento, entre em contato diretamente.' },
+    ],
+  },
+
+  {
+    slug: 'fotografo-casamento-igreja-sao-jose-jardim-europa',
+    bairro: 'Paróquia São José — Jardim Europa',
+    title: 'Casar na São José do Jardim Europa: Nave Estreita, Escadarias e Como Fotografar Certo',
+    description: 'Guia completo para casamentos na Paróquia São José do Jardim Europa: capacidade de até 200 pessoas, como enquadrar o altar sem parecer apertado, ensaio externo nas escadarias e planejamento fotográfico completo.',
+    excerpt: 'A Paróquia São José do Jardim Europa tem capacidade para até 200 convidados e uma nave que preocupa casais na hora de compor o altar com muitos padrinhos. Este guia mostra como o enquadramento certo transforma a nave estreita em cenário elegante — e por que as escadarias externas são um dos melhores pontos de ensaio do Jardim Europa.',
+    date: '2024-12-31',
+    updatedDate: '2024-12-31',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    sections: [
+      {
+        h2: 'O que você precisa saber antes de marcar data na São José do Jardim Europa',
+        content: '<p>A Paróquia São José do Jardim Europa atende casamentos com capacidade para até 200 pessoas. O principal ponto de atenção para casais com família grande é a composição do altar: com muitos padrinhos, a nave mais estreita pode parecer apertada nas fotos se o fotógrafo não souber enquadrar com precisão. Consulte a secretaria paroquial para informações atualizadas sobre disponibilidade, taxas e exigências específicas.</p>',
+      },
+      {
+        h2: 'Nave estreita não significa fotos apertadas: como enquadrar certo',
+        content: '<p>A preocupação mais comum de casais que escolhem a São José do Jardim Europa é exatamente esta: "o altar vai parecer apertado na foto com todos os padrinhos?" A resposta depende inteiramente do enquadramento escolhido pelo fotógrafo — e de ter experiência em igrejas com proporções similares.</p>',
+        h3s: [
+          { title: 'A lógica do enquadramento em naves proporcionalmente estreitas', content: '<p>A solução para naves mais estreitas é contra-intuitiva: em vez de tentar incluir todo o altar em um único enquadramento horizontal amplo, o fotógrafo experiente divide o registro. Uma sequência de fotos — central, lateral, detalhe e perspectiva do corredor — conta a história do altar de forma mais rica do que um único frame forçado a incluir tudo. Ivan Dias planeja essa sequência antes do dia, mapeando os pontos de câmera autorizados pela paróquia durante a visita técnica prévia.</p>' },
+          { title: 'Lentes e distância focal: a escolha que define o resultado', content: '<p>Em igrejas com naves mais estreitas, a escolha entre teleobjetiva e grande-angular define completamente a percepção de espaço nas fotos. Uma grande-angular usada sem critério distorce as extremidades do frame e amplifica a sensação de estreiteza. Uma teleobjetiva comprime o espaço e cria profundidade — fazendo o altar parecer mais imponente do que a nave sugere. Ivan Dias utiliza a combinação certa de lentes para cada momento da cerimônia.</p>' },
+        ],
+      },
+      {
+        h2: 'Aproveitando as escadarias externas para o ensaio do casal',
+        content: '<p>As escadarias externas da São José do Jardim Europa são um dos pontos fotográficos mais subutilizados pelos casais que escolhem esse templo. O cenário arquitetônico externo, com a fachada da igreja como fundo, cria registros com profundidade e contexto que nenhum ambiente interno da nave consegue replicar — e resolve a questão do espaço de forma elegante.</p><p>O golden hour na fachada oeste, quando disponível no cronograma, produz luz lateral quente que valoriza texturas e cria volume nos retratos. Ivan Dias planeja o ensaio externo como parte do roteiro fotográfico do dia — não como alternativa ao interno, mas como complemento que garante variedade e riqueza no álbum. <a href="/blog/fotografo-de-casamento-jardins/">Veja mais sobre fotografia de casamento nos Jardins.</a></p>',
+      },
+      {
+        h2: 'Experiência em igrejas do Jardim Europa: o que faz diferença',
+        content: '<p>Com 15 anos de experiência e mais de 700 casamentos fotografados em São Paulo, Ivan Dias domina o protocolo de cerimônias católicas em igrejas de bairros nobres — discrição, agilidade e a capacidade de transformar limitações arquitetônicas em vantagens fotográficas. O resultado é um álbum que honra a escolha do espaço, não que revela suas limitações. <a href="/contato/">Agende uma conversa sobre o seu casamento na São José do Jardim Europa.</a></p>',
+        table: {
+          caption: 'Paróquia São José — Jardim Europa: referência rápida',
+          headers: ['Item', 'Referência'],
+          rows: [
+            ['Capacidade', 'Até 200 pessoas'],
+            ['Ponto fotográfico interno', 'Perspectiva do corredor central'],
+            ['Ponto fotográfico externo', 'Escadarias e fachada'],
+            ['Desafio principal', 'Enquadramento do altar com muitos padrinhos'],
+            ['Solução fotográfica', 'Sequência de frames + lentes certas'],
+          ],
+        },
+      },
+    ],
+    faq: [
+      { question: 'A São José do Jardim Europa comporta casamentos grandes?', answer: 'A capacidade é de até 200 pessoas. Para famílias com listas maiores, vale considerar o impacto no número de padrinhos e na composição do altar — um fotógrafo experiente compensa com enquadramento inteligente.' },
+      { question: 'Com muitos padrinhos, o altar fica apertado nas fotos?', answer: 'Depende do enquadramento. Em vez de um único frame tentando incluir todos, o fotógrafo experiente cria uma sequência de registros — perspectiva do corredor, close nos noivos, plano geral lateral — que conta a história do altar de forma rica sem revelar limitações de espaço.' },
+      { question: 'As escadarias externas aparecem no ensaio do casal?', answer: 'Sim — Ivan Dias inclui o ensaio externo nas escadarias como parte do roteiro fotográfico quando o cronograma permite. A fachada da São José com a luz do entardecer produz imagens com profundidade e contexto que complementam os registros internos da cerimônia.' },
+      { question: 'Qual é o melhor horário para casar na São José do Jardim Europa em termos de luz?', answer: 'O fim de tarde — entre 16h e 18h — oferece luz lateral na fachada oeste que valoriza os registros externos. Para cerimônias de manhã, a luz difusa é mais suave internamente. Ivan Dias mapeia o comportamento da luz durante a visita técnica prévia.' },
+      { question: 'Ivan Dias fotografa casamentos na São José do Jardim Europa?', answer: 'Ivan Dias atende casamentos em igrejas de São Paulo, incluindo a região dos Jardins. Entre em contato para verificar disponibilidade para a sua data.' },
+      { question: 'Quanto tempo antes devo marcar a data?', answer: 'Consulte a secretaria paroquial diretamente — cada paróquia tem seu próprio calendário e antecedência mínima exigida. Datas em sábados de março a novembro costumam ter demanda alta na região dos Jardins.' },
+    ],
+  },
+
+  {
+    slug: 'fotografo-casamento-catedral-anglicana-sao-paulo',
+    bairro: 'Catedral Anglicana de São Paulo — Santo Amaro',
+    title: 'Casamento na Catedral Anglicana de São Paulo: Guia de Fotografia para Cerimônias Ecumênicas',
+    description: 'Fotografia de casamento na Catedral Anglicana de São Paulo: cerimônias ecumênicas e diversas, o desafio de cobrir dois ritos em uma cobertura fotográfica coesa, e o que muda quando o templo acolhe tradições diferentes.',
+    excerpt: 'A Catedral Anglicana de São Paulo é uma das opções mais procuradas por casais de religiões diferentes que buscam um templo monumental e acolhedor. Este guia aborda o que muda na cobertura fotográfica de um casamento ecumênico — e como planejar registros que honrem os dois lados da cerimônia com igual atenção.',
+    date: '2024-12-30',
+    updatedDate: '2024-12-30',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    sections: [
+      {
+        h2: 'A Catedral Anglicana como escolha para casamentos ecumênicos e diversos',
+        content: '<p>A Catedral Anglicana de São Paulo é reconhecida por acolher cerimônias de casais com origens religiosas diferentes — e por oferecer um templo de alto padrão arquitetônico para esse tipo de celebração. Casais que buscam validação religiosa em um espaço monumental, com abertura a diferentes tradições, encontram na Catedral Anglicana uma alternativa consolidada. Para informações sobre disponibilidade, taxas e procedimentos, consulte diretamente a secretaria da catedral.</p>',
+      },
+      {
+        h2: 'O que muda na cobertura fotográfica de um casamento ecumênico',
+        content: '<p>Uma cerimônia com dois ritos combinados apresenta ao fotógrafo um desafio que vai além da logística: cada tradição tem seus momentos simbólicos próprios — gestos, leituras, bênçãos — e todos precisam ser registrados com igual atenção e cuidado. Uma cerimônia católica-evangélica, por exemplo, tem a troca de alianças, a imposição de mãos e possivelmente ritos de cada tradição que ocorrem em sequências diferentes das cerimônias de rito único.</p>',
+        h3s: [
+          { title: 'Mapeando os momentos simbólicos de cada tradição', content: '<p>Ivan Dias faz uma conversa prévia com o casal para entender quais momentos de cada tradição são mais significativos para eles — e para a família. Esse mapeamento define o plano de câmera da cerimônia: quem cobrir em cada momento, de qual ângulo, e com qual prioridade quando dois momentos ocorrem simultaneamente. Em cerimônias ecumênicas, a preparação é ainda mais importante do que em cerimônias de rito único.</p>' },
+          { title: 'Tom respeitoso em imagens de celebrações religiosas diversas', content: '<p>A abordagem fotográfica em cerimônias ecumênicas requer sensibilidade adicional: imagens que honrem ambas as tradições sem hierarquizar, que capturem a emoção de casais e famílias com histórias religiosas distintas. A experiência com diferentes formatos de cerimônia é o que garante naturalidade nesses registros.</p>' },
+        ],
+      },
+      {
+        h2: 'O espaço monumental da Catedral Anglicana como recurso fotográfico',
+        content: '<p>A arquitetura da Catedral Anglicana de São Paulo é em si um recurso fotográfico de primeira linha — o espaço monumental, a nave com pé-direito alto e os elementos arquitetônicos tradicionais criam perspectivas que casamentos em salões de eventos nunca oferecem. Ivan Dias mapeia os ângulos de perspectiva durante a visita técnica prévia, identificando os pontos que capturam a grandiosidade do templo sem comprometer o registro dos momentos da cerimônia. <a href="/blog/fotografo-de-casamento-itaim-bibi/">Veja mais sobre fotografia de casamento na Zona Sul de São Paulo.</a></p>',
+      },
+      {
+        h2: 'Experiência em cerimônias diversas: o que 15 anos de atuação ensinam',
+        content: '<p>Com mais de 700 casamentos fotografados em 15 anos de atuação, Ivan Dias tem experiência com diferentes formatos de cerimônia religiosa — do rito católico tradicional a celebrações ecumênicas e laicas. Essa variedade de experiências é o que garante preparação real para cobrir os momentos específicos de cada tradição, sem surpresas no dia. <a href="/contato/">Agende uma conversa sobre o seu casamento na Catedral Anglicana.</a></p>',
+        table: {
+          caption: 'Catedral Anglicana de São Paulo — referência rápida',
+          headers: ['Item', 'Referência'],
+          rows: [
+            ['Tipo de cerimônia', 'Ecumênica, diversas tradições'],
+            ['Perfil do casal', 'Religiões diferentes, casais diversos'],
+            ['Destaque arquitetônico', 'Nave monumental, pé-direito alto'],
+            ['Desafio fotográfico', 'Cobrir dois ritos com igual atenção'],
+            ['Preparação necessária', 'Mapeamento prévio dos ritos com o casal'],
+          ],
+        },
+      },
+    ],
+    faq: [
+      { question: 'A Catedral Anglicana aceita casamentos ecumênicos?', answer: 'A Catedral Anglicana de São Paulo é reconhecida por acolher cerimônias com diferentes tradições religiosas. Para informações sobre disponibilidade, formatos de cerimônia aceitos e taxas, consulte diretamente a secretaria da catedral.' },
+      { question: 'O que muda na fotografia de um casamento com dois ritos?', answer: 'O fotógrafo precisa mapear previamente os momentos simbólicos de cada tradição — quais são os ritos de cada lado, em que sequência ocorrem e quais têm maior carga emocional para o casal e as famílias. Esse mapeamento define o plano de câmera da cerimônia, garantindo que nenhum momento importante fique sem registro.' },
+      { question: 'Ivan Dias tem experiência com cerimônias ecumênicas?', answer: 'Com mais de 700 casamentos fotografados ao longo de 15 anos, Ivan Dias tem experiência com diferentes formatos de cerimônia religiosa. A conversa prévia com o casal sobre os ritos previstos é parte do planejamento padrão para qualquer cerimônia.' },
+      { question: 'Casamentos homoafetivos são realizados na Catedral Anglicana?', answer: 'Para informações sobre os formatos de cerimônia realizados e as condições específicas, consulte diretamente a secretaria da Catedral Anglicana de São Paulo. Ivan Dias atende todos os casais sem distinção.' },
+      { question: 'Quanto custa casar na Catedral Anglicana?', answer: 'Consulte a secretaria paroquial diretamente para valores atualizados. As taxas variam conforme o formato da cerimônia e a data escolhida.' },
+      { question: 'Ivan Dias fotografa casamentos na Catedral Anglicana?', answer: 'Ivan Dias atende casamentos em igrejas e templos de São Paulo e região. Entre em contato para verificar disponibilidade para a sua data.' },
+    ],
+  },
+
+  // Grande ABC
+  {
+    slug: 'fotografo-casamento-catedral-do-carmo-santo-andre',
+    bairro: 'Catedral Nossa Senhora do Carmo — Santo André',
+    title: 'Casar na Catedral do Carmo (Santo André): Taxas, Iluminação de LED e o Desafio Fotográfico que Pega de Surpresa',
+    description: 'Guia completo para casamentos na Catedral Nossa Senhora do Carmo em Santo André: taxas paroquiais (música, foto, decoração), iluminação de LED que deixa padrinhos na penumbra, e como equilibrar exposição entre noivos e o resto do altar.',
+    excerpt: 'A Catedral Nossa Senhora do Carmo é a principal igreja de Santo André para casamentos de grande porte — mas tem um detalhe fotográfico que pega fotógrafos despreparados de surpresa: o LED do altar ilumina os noivos perfeitamente e deixa os padrinhos na penumbra. Este guia explica como resolver esse problema e o que esperar do processo de reserva na catedral.',
+    date: '2024-12-29',
+    updatedDate: '2024-12-29',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    sections: [
+      {
+        h2: 'O que você precisa saber antes de marcar casamento na Catedral do Carmo',
+        content: '<p>A Catedral Nossa Senhora do Carmo é a principal referência para casamentos católicos de Santo André e do ABCDM. O processo de reserva inclui o pagamento de taxas paroquiais que somam ao orçamento total — músicos, fotógrafo e decoração podem exigir taxas específicas além do valor base da cerimônia. Consulte a secretaria paroquial para os valores atualizados, pois variam conforme o formato da cerimônia e o período do ano.</p>',
+      },
+      {
+        h2: 'O desafio de luz que pega fotógrafos despreparados de surpresa na Catedral do Carmo',
+        content: '<p>A Catedral do Carmo tem iluminação de LED pontual focada nos noivos — tecnicamente bem planejada para a cerimônia, mas fotograficamente traiçoeira. O LED ilumina os noivos com exposição perfeita e deixa os padrinhos nas extremidades do altar em penumbra relativa. Para o fotógrafo que chega sem reconhecimento prévio do espaço, isso resulta em fotos com os noivos bem expostos e padrinhos visualmente "apagados" — especialmente em grupos maiores onde os padrinhos das extremidades ficam fora do cone de luz do LED.</p>',
+        h3s: [
+          { title: 'Como equilibrar a exposição entre noivos e padrinhos', content: '<p>A solução técnica passa por três frentes: (1) flash externo controlado com difusor, posicionado para complementar a luz do LED e jogar iluminação suave nas extremidades do altar; (2) lentes rápidas com grande abertura que permitem trabalhar com ISO mais alto sem perder nitidez nos padrinhos; (3) pós-processamento com máscaras de luz nas zonas do altar — recuperando detalhes nas áreas de sombra sem queimar as áreas iluminadas pelo LED. Cada catedral reage diferente ao mesmo setup de flash — o reconhecimento prévio é o que permite calibrar a potência certa no dia.</p>' },
+          { title: 'Por que o reconhecimento prévio é mais importante aqui do que em outras igrejas', content: '<p>Ivan Dias realiza visita técnica em todas as igrejas de grande porte antes do evento — mas na Catedral do Carmo esse reconhecimento é especialmente crítico pela natureza da iluminação de LED. Na visita, o fotógrafo testa diferentes configurações de flash no mesmo ambiente, mapeia os limites do cone de luz do LED e define o ponto exato de câmera que maximiza a visibilidade de todos no altar.</p>' },
+        ],
+      },
+      {
+        h2: 'Taxas paroquiais da Catedral do Carmo: o que esperar',
+        content: '<p>A Catedral do Carmo cobra taxas separadas para os diferentes elementos da cerimônia — músicos externos, decoradores e, em alguns casos, fotógrafos e cinegrafistas. Esses valores somam ao orçamento total do casamento e variam conforme o período e a disponibilidade. Para valores exatos e atualizados, consulte a secretaria paroquial diretamente — os números mudam com frequência e qualquer valor publicado online pode estar desatualizado.</p><p>Para o orçamento completo de fotografia de casamento no ABC, veja também: <a href="/blog/fotografo-de-casamento-santo-andre/">guia de fotografia em Santo André</a>.</p>',
+        table: {
+          caption: 'Catedral do Carmo — referência rápida',
+          headers: ['Item', 'Referência'],
+          rows: [
+            ['Taxas paroquiais', 'Múltiplas (música, foto, decoração) — consultar secretaria'],
+            ['Iluminação do altar', 'LED pontual nos noivos'],
+            ['Desafio fotográfico', 'Padrinhos nas extremidades em penumbra relativa'],
+            ['Solução', 'Flash externo controlado + reconhecimento prévio'],
+            ['Capacidade', 'Grande porte — consultar secretaria'],
+          ],
+        },
+      },
+      {
+        h2: 'Experiência no ABC Paulista: por que importa na Catedral do Carmo',
+        content: '<p>Os casamentos no ABC têm características específicas — festas longas, muitos convidados, família extensa — que exigem cobertura fotográfica de longa duração com qualidade constante. Ivan Dias atende o ABCDM regularmente e conhece as particularidades da Catedral do Carmo, incluindo os desafios de iluminação do altar e o protocolo de cerimônia da paróquia. Com 15 anos de experiência e mais de 700 casamentos fotografados, esse conhecimento acumulado se traduz diretamente em qualidade nas fotos do dia. <a href="/contato/">Agende uma conversa sobre o seu casamento na Catedral do Carmo.</a></p>',
+      },
+    ],
+    faq: [
+      { question: 'A Catedral do Carmo cobra taxa para o fotógrafo?', answer: 'A catedral cobra taxas paroquiais que podem incluir fotógrafo e cinegrafista externos. Os valores variam e precisam ser confirmados diretamente com a secretaria paroquial — qualquer referência publicada online pode estar desatualizada.' },
+      { question: 'Por que os padrinhos ficam escuros nas fotos do altar?', answer: 'A iluminação de LED pontual da Catedral do Carmo é focada nos noivos — tecnicamente correta para o ritual, mas cria sombra relativa nas extremidades do altar onde ficam os padrinhos. O flash externo controlado resolve esse problema, mas precisa ser calibrado com reconhecimento prévio do espaço.' },
+      { question: 'Ivan Dias fotografa na Catedral do Carmo em Santo André?', answer: 'Ivan Dias atende casamentos em Santo André e no ABCDM regularmente. Entre em contato para verificar disponibilidade para a sua data.' },
+      { question: 'Qual a capacidade da Catedral do Carmo?', answer: 'A Catedral do Carmo é uma das maiores igrejas de Santo André, adequada para casamentos de grande porte. Para capacidade exata e disponibilidade de datas, consulte a secretaria paroquial.' },
+      { question: 'Fotógrafos externos precisam de credenciamento na Catedral do Carmo?', answer: 'Consulte a secretaria paroquial para saber as exigências atuais para fotógrafos externos — as regras variam e podem ter mudado desde qualquer informação publicada anteriormente.' },
+      { question: 'Como planejar a iluminação para um casamento grande na catedral?', answer: 'O planejamento começa com a visita técnica ao espaço — testando diferentes configurações de flash no altar real, mapeando o comportamento do LED e definindo o setup final que equilibra a exposição de noivos e padrinhos. Ivan Dias realiza essa visita em todas as igrejas de grande porte antes do evento.' },
+    ],
+  },
+
+  {
+    slug: 'fotografo-casamento-matriz-sagrada-familia-sao-caetano',
+    bairro: 'Igreja Matriz Sagrada Família — São Caetano do Sul',
+    title: 'Casar na Matriz Sagrada Família (São Caetano): 1 Ano de Antecedência e Liberdade Total de Fornecedores',
+    description: 'Guia para casamentos na Matriz Sagrada Família de São Caetano do Sul: antecedência mínima de 1 ano, liberdade para escolher fotógrafo e todos os fornecedores, arquitetura histórica de 1943 e como planejar a cobertura fotográfica.',
+    excerpt: 'A Matriz Sagrada Família de São Caetano do Sul tem dois diferenciais que separam quem conhece de quem não conhece: exige 1 ano de antecedência para reservar, mas não impõe fornecedores exclusivos — você leva o fotógrafo, o músico e o decorador da sua escolha. Este guia explica o processo e mostra como aproveitar a arquitetura histórica de 1943 na fotografia.',
+    date: '2024-12-28',
+    updatedDate: '2024-12-28',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    sections: [
+      {
+        h2: 'O que você precisa saber antes de marcar data na Matriz de São Caetano',
+        content: '<p>A Igreja Matriz Sagrada Família de São Caetano do Sul exige antecedência mínima de 1 ano para reservar a data do casamento — um dos prazos mais longos entre as matrizes da região do ABC. Datas em sábados de março a novembro têm demanda especialmente alta. Procure a secretaria paroquial logo que a data aproximada estiver definida.</p>',
+      },
+      {
+        h2: 'Por que a Matriz de São Caetano não trava a escolha do seu fotógrafo (e por que isso importa)',
+        content: '<p>Um diferencial importante da Matriz Sagrada Família: a paróquia NÃO exige fornecedores exclusivos. Fotógrafo, músico e decorador podem ser contratados livremente pelo casal — sem taxas adicionais de credenciamento e sem restrição de lista aprovada. Esse detalhe faz uma diferença significativa no orçamento e na qualidade dos profissionais disponíveis.</p><p>Em muitas igrejas de alto padrão, a lista de fotógrafos credenciados é curta e os preços inflacionados pela exclusividade. Na Matriz de São Caetano, o casal mantém a autonomia de escolha — contratando o profissional que realmente quer, não apenas o que a paróquia aprova.</p>',
+      },
+      {
+        h2: 'A arquitetura histórica de 1943 como recurso fotográfico',
+        content: '<p>A Matriz Sagrada Família data de 1943 — com décadas de história acumuladas em cada detalhe arquitetônico. As pinturas internas, o altar original e os elementos decorativos históricos criam uma riqueza visual que igrejas modernas simplesmente não têm. Para o fotógrafo, isso representa um recurso constante: texturas reais, profundidade histórica e elementos de enquadramento que enriquecem qualquer composição.</p>',
+        h3s: [
+          { title: 'Pinturas internas: contexto que os álbuns não esquecem', content: '<p>As pinturas da Matriz de São Caetano criam um contexto visual que aparece nas fotos como elemento de enquadramento — mesmo quando não são o foco principal da imagem. Um retrato dos noivos com a pintura ao fundo tem uma profundidade histórica que um salão de eventos nunca oferece. Ivan Dias mapeia os pontos de câmera que aproveitam melhor esse contexto durante a visita técnica prévia.</p>' },
+          { title: 'Iluminação em arquitetura histórica: o equilíbrio entre atmosfera e qualidade técnica', content: '<p>Igrejas históricas geralmente têm iluminação mais suave e difusa do que templos modernos — o que cria uma atmosfera bonita mas exige configurações específicas de câmera para garantir nitidez. Ivan Dias trabalha com lentes de grande abertura e ISO calibrado para preservar a atmosfera da matriz sem sacrificar a qualidade técnica das imagens.</p>' },
+        ],
+      },
+      {
+        h2: 'Por que a liberdade de fornecedor é uma vantagem real para a fotografia',
+        content: '<p>Com a liberdade de contratar o fotógrafo da preferência, o casal da Matriz de São Caetano pode priorizar qualidade e conexão pessoal — não apenas conformidade com uma lista credenciada. Ivan Dias atende casamentos em São Caetano do Sul e na região do ABC com 15 anos de experiência e mais de 700 casamentos fotografados. <a href="/fotografo-de-casamento-sao-caetano-do-sul/">Veja mais sobre fotografia de casamento em São Caetano do Sul.</a> <a href="/contato/">Agende uma conversa sobre o seu casamento na Matriz.</a></p>',
+        table: {
+          caption: 'Matriz Sagrada Família — São Caetano do Sul: referência rápida',
+          headers: ['Item', 'Referência'],
+          rows: [
+            ['Antecedência mínima', '1 ano'],
+            ['Fornecedores exclusivos', 'NÃO — casal escolhe livremente'],
+            ['Ano de construção', '1943'],
+            ['Destaque arquitetônico', 'Pinturas históricas internas'],
+            ['Melhor antecedência para reserva', 'Datas de alta demanda: 12-18 meses'],
+          ],
+        },
+      },
+    ],
+    faq: [
+      { question: 'Quanto tempo de antecedência preciso para casar na Matriz de São Caetano?', answer: 'A Matriz Sagrada Família exige antecedência mínima de 1 ano. Para datas em sábados de março a novembro, recomenda-se entrar em contato com 12 a 18 meses de antecedência.' },
+      { question: 'Posso levar o fotógrafo da minha preferência para a Matriz de São Caetano?', answer: 'Sim — a Matriz Sagrada Família NÃO exige fornecedores exclusivos. Fotógrafo, músico e decorador podem ser contratados livremente pelo casal, sem restrição de lista credenciada.' },
+      { question: 'A arquitetura histórica aparece nas fotos?', answer: 'Sim — as pinturas internas de 1943 e os elementos arquitetônicos históricos da Matriz são recursos fotográficos que aparecem como elementos de enquadramento e contexto nas fotos. Ivan Dias mapeia os melhores ângulos para aproveitar essa riqueza durante a visita técnica prévia.' },
+      { question: 'Ivan Dias fotografa casamentos na Matriz de São Caetano?', answer: 'Ivan Dias atende casamentos em São Caetano do Sul e na região do ABC. Como a Matriz não exige credenciamento de fornecedores, o casal pode contratá-lo diretamente. Entre em contato para verificar disponibilidade.' },
+      { question: 'Qual é a capacidade da Matriz Sagrada Família de São Caetano?', answer: 'Consulte a secretaria paroquial para capacidade exata e configurações disponíveis para a cerimônia.' },
+      { question: 'Quanto custa fotografar um casamento na Matriz de São Caetano?', answer: 'Os pacotes de Ivan Dias para casamentos no ABC partem de R$ 5.500 para coberturas completas. Solicite orçamento personalizado pelo WhatsApp.' },
+    ],
+  },
+
+  {
+    slug: 'fotografo-casamento-matriz-sao-bernardo',
+    bairro: 'Paróquia Nossa Senhora da Boa Viagem — São Bernardo do Campo',
+    title: 'Casar na Matriz de São Bernardo: Entrevista com o Padre, Pauta e Como Planejar a Fotografia',
+    description: 'Guia para casamentos na Paróquia Nossa Senhora da Boa Viagem (Matriz de São Bernardo do Campo): entrevista obrigatória com o padre, pauta acima da média da região, acústica excepcional para coral e cobertura fotográfica da grandiosidade do templo.',
+    excerpt: 'A Matriz de São Bernardo exige entrevista com o padre antes de marcar a data — um passo que muitos casais não esperam. Este guia explica o processo completo, o que esperar da entrevista, o que a pauta inclui e como aproveitar a acústica do templo para uma cobertura fotográfica que faz jus à grandiosidade da cerimônia.',
+    date: '2024-12-27',
+    updatedDate: '2024-12-27',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    sections: [
+      {
+        h2: 'O que você precisa saber antes de marcar data na Matriz de São Bernardo',
+        content: '<p>A Paróquia Nossa Senhora da Boa Viagem — a Matriz de São Bernardo do Campo — é a principal referência para casamentos católicos na cidade. O processo de reserva inclui uma etapa que poucos casais esperam: entrevista obrigatória com o padre antes de confirmar a data. Além disso, os valores de pauta tendem a estar acima da média da região. Consulte a secretaria paroquial para valores exatos e atualizados, pois variam com frequência.</p>',
+      },
+      {
+        h2: 'O que esperar da entrevista com o padre antes de marcar a data',
+        content: '<p>A entrevista prévia com o padre é uma etapa comum em paróquias que levam a sério o preparo do casal para o matrimônio católico — e a Matriz de São Bernardo mantém esse protocolo. O objetivo não é uma avaliação de elegibilidade, mas uma conversa sobre o significado religioso do sacramento e sobre a preparação do casal.</p>',
+        h3s: [
+          { title: 'Como se preparar para a entrevista', content: '<p>A entrevista é parte natural do processo de casamento religioso — não um obstáculo. Casais que chegam com documentação organizada (certidões, batismo, crisma) e clareza sobre as datas desejadas têm uma conversa mais produtiva. Para detalhes específicos sobre o que é discutido e quais documentos são necessários, consulte a secretaria paroquial com antecedência.</p>' },
+          { title: 'Impacto no cronograma de planejamento', content: '<p>A entrevista adiciona uma etapa ao processo — o que significa que o casal precisa contatar a paróquia mais cedo do que em igrejas sem esse requisito. Recomenda-se iniciar o contato com a secretaria com pelo menos 12 a 18 meses de antecedência para datas em alta temporada.</p>' },
+        ],
+      },
+      {
+        h2: 'A acústica do templo: vantagem fotográfica para cerimônias com coral ou orquestra',
+        content: '<p>A Matriz de São Bernardo tem uma acústica que valoriza cerimônias com coral ou orquestra — e para o fotógrafo, isso cria oportunidades de registro que vão além da cerimônia em si. A grandiosidade sonora de uma cerimônia com música ao vivo é visível nas expressões dos convidados, na postura dos noivos e na emoção que permeia todo o espaço. Ivan Dias antecipa esses momentos durante o planejamento — identificando as fases da cerimônia onde a música cria os picos emocionais mais fotogênicos.</p><p>Para o planejamento fotográfico de um casamento no ABC, veja também: <a href="/fotografo-de-casamento-sao-bernardo-do-campo/">guia de fotografia em São Bernardo do Campo</a>.</p>',
+      },
+      {
+        h2: 'Fotografando a grandiosidade da Matriz de São Bernardo',
+        content: '<p>Templos de grande porte como a Matriz de São Bernardo exigem do fotógrafo tanto lentes de perspectiva ampla quanto a habilidade de escalar — do plano geral que captura a nave inteira até o close que captura a lágrima do pai da noiva. Com 15 anos de experiência e mais de 700 casamentos fotografados, Ivan Dias domina essa transição entre o grandioso e o íntimo que grandes cerimônias religiosas exigem. <a href="/contato/">Agende uma conversa sobre o seu casamento na Matriz de São Bernardo.</a></p>',
+        table: {
+          caption: 'Matriz de São Bernardo — referência rápida',
+          headers: ['Item', 'Referência'],
+          rows: [
+            ['Entrevista com padre', 'Obrigatória antes da reserva'],
+            ['Pauta', 'Acima da média regional — consultar secretaria'],
+            ['Acústica', 'Excelente para coral e orquestra'],
+            ['Perfil da cerimônia', 'Grande porte, tradicional'],
+            ['Antecedência recomendada', '12 a 18 meses para alta temporada'],
+          ],
+        },
+      },
+    ],
+    faq: [
+      { question: 'A entrevista com o padre é obrigatória na Matriz de São Bernardo?', answer: 'Sim — a Paróquia Nossa Senhora da Boa Viagem exige entrevista com o padre como parte do processo de reserva para o casamento religioso. Entre em contato com a secretaria paroquial para agendar e saber quais documentos levar.' },
+      { question: 'Quanto custa casar na Matriz de São Bernardo?', answer: 'Os valores de pauta da Matriz de São Bernardo tendem a estar acima da média da região. Os valores variam e mudam com frequência — consulte a secretaria paroquial diretamente para valores atualizados.' },
+      { question: 'Ivan Dias fotografa casamentos na Matriz de São Bernardo?', answer: 'Ivan Dias atende casamentos em São Bernardo do Campo e na região do ABC. Entre em contato para verificar disponibilidade para a sua data.' },
+      { question: 'Cerimônia com coral ou orquestra muda a cobertura fotográfica?', answer: 'Positivamente — música ao vivo cria picos emocionais visíveis no casal, nos convidados e no ambiente. Ivan Dias mapeia previamente os momentos musicais da cerimônia para antecipar essas expressões e garantir que os melhores momentos estejam cobertos.' },
+      { question: 'Quanto tempo de antecedência preciso para marcar a data?', answer: 'Recomenda-se iniciar o contato com a paróquia com pelo menos 12 a 18 meses de antecedência, especialmente para datas em alta temporada (março a novembro). A entrevista com o padre deve estar concluída antes da confirmação da data.' },
+      { question: 'Fotógrafos externos podem atuar na Matriz de São Bernardo?', answer: 'Consulte a secretaria paroquial sobre exigências específicas para fotógrafos externos — incluindo credenciamento, taxas e restrições de movimento durante a cerimônia.' },
+    ],
+  },
+
+  // Osasco, Barueri, Alphaville, Mogi
+  {
+    slug: 'fotografo-casamento-nossa-senhora-de-lourdes-alphaville',
+    bairro: 'Paróquia Nossa Senhora de Lourdes — Barueri/Alphaville',
+    title: 'Casar em Nossa Senhora de Lourdes (Alphaville): Limite de Padrinhos e Composição de Cortejo',
+    description: 'Guia para casamentos na Paróquia Nossa Senhora de Lourdes em Barueri/Alphaville: regra de limite de 6 casais de padrinhos por lado, como organizar o cortejo fotografado com grupo menor e planejamento completo da cobertura.',
+    excerpt: 'A Nossa Senhora de Lourdes em Alphaville tem uma regra que pega famílias grandes de surpresa: limite de 6 casais de padrinhos por lado. Para casais com redes de amizade e família extensas, isso significa decisões difíceis — e um cortejo com composição diferente do planejado. Este guia explica a regra e como o fotógrafo adapta a composição para que o grupo menor produza fotos tão marcantes quanto qualquer cortejo de 20 casais.',
+    date: '2024-12-26',
+    updatedDate: '2024-12-26',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    sections: [
+      {
+        h2: 'O que você precisa saber antes de marcar data na Nossa Senhora de Lourdes',
+        content: '<p>A Paróquia Nossa Senhora de Lourdes, em Barueri próxima a Alphaville, tem uma regra específica que diferencia o processo de casamento nesse templo: limite de 6 casais de padrinhos por lado — 12 casais no total. Para famílias grandes ou círculos de amizade extensos, isso exige um processo de seleção que pode gerar desconforto. Consulte a secretaria paroquial para confirmação desta e de outras regras vigentes.</p>',
+      },
+      {
+        h2: 'O limite de padrinhos na N. Sra. de Lourdes e como isso afeta a composição das fotos de cortejo',
+        content: '<p>O cortejo é um dos momentos fotográficos mais importantes da cerimônia — e a composição com até 12 casais (limite da N. Sra. de Lourdes) é diferente da composição com 20 ou 25 casais que algumas famílias planejam. A pergunta que os casais fazem é: &ldquo;as fotos vão parecer menores com menos padrinhos?&rdquo;</p>',
+        h3s: [
+          { title: 'Como um grupo menor pode produzir fotos mais impactantes', content: '<p>Contra-intuitivamente, cortejos com menos padrinhos permitem ao fotógrafo criar composições mais cuidadosas — com espaçamento adequado entre os casais, expressões mais visíveis e uma dinâmica de caminhada mais natural. Cortejos muito numerosos criam filas compridas onde os padrinhos das extremidades ficam fora do enquadramento principal em qualquer ângulo. Com até 12 casais, o fotógrafo tem controle real sobre a composição do grupo inteiro.</p>' },
+          { title: 'Ângulos que valorizam o cortejo compacto', content: '<p>Ivan Dias planeja o cortejo com 3 ângulos distintos: (1) perspectiva lateral da nave — que mostra a profundidade e a organização do grupo; (2) plano geral frontal — que captura todos os padrinhos de uma vez dentro do enquadramento; (3) detalhe em movimento — que registra a expressão e o passo de cada casal individualmente. Essa sequência produz um registro completo do cortejo independentemente do número de padrinhos.</p>' },
+        ],
+      },
+      {
+        h2: 'Como comunicar o limite de padrinhos para a família sem conflito',
+        content: '<p>A tarefa mais delicada não é fotográfica — é comunicar a família sobre o limite. O fotógrafo não resolve esse problema, mas pode ajudar indiretamente: ao mostrar ao casal como fotos excelentes de cortejo compacto parecem (sem revelar as limitações do espaço), a conversa com a família sobre a lista de padrinhos fica mais fácil. A regra é da paróquia — o argumento é objetivo e desvinculado do desejo pessoal do casal. <a href="/blog/fotografo-de-casamento-osasco/">Veja mais sobre fotografia de casamento em Osasco e Região Oeste.</a></p>',
+      },
+      {
+        h2: 'Experiência em Alphaville e Barueri: o que Ivan Dias conhece da região',
+        content: '<p>Ivan Dias atende casamentos em Barueri, Alphaville e na região Oeste da Grande São Paulo. A dinâmica dos casamentos nessa região — público de alto padrão, expectativas elevadas de qualidade — é familiar depois de 15 anos e mais de 700 casamentos fotografados. <a href="/contato/">Agende uma conversa sobre o seu casamento na Nossa Senhora de Lourdes.</a></p>',
+        table: {
+          caption: 'N. Sra. de Lourdes — Alphaville: referência rápida',
+          headers: ['Item', 'Referência'],
+          rows: [
+            ['Limite de padrinhos', '6 casais por lado (12 casais total)'],
+            ['Região', 'Barueri / Alphaville'],
+            ['Desafio fotográfico', 'Compor cortejo com grupo limitado'],
+            ['Vantagem', 'Composição mais controlada e fotos mais cuidadosas'],
+          ],
+        },
+      },
+    ],
+    faq: [
+      { question: 'Qual é o limite de padrinhos na Nossa Senhora de Lourdes?', answer: 'A regra é de 6 casais de padrinhos por lado — 12 casais no total. Confirme a regra vigente diretamente com a secretaria paroquial, pois pode ter mudado.' },
+      { question: 'As fotos de cortejo ficam prejudicadas com menos padrinhos?', answer: 'Não — cortejos menores permitem composições mais cuidadosas, com espaçamento adequado e expressões mais visíveis de cada casal. Ivan Dias planeja o cortejo com múltiplos ângulos que garantem um registro completo independentemente do número de padrinhos.' },
+      { question: 'Ivan Dias fotografa casamentos na Nossa Senhora de Lourdes?', answer: 'Ivan Dias atende casamentos em Barueri, Alphaville e na região Oeste da Grande São Paulo. Entre em contato para verificar disponibilidade.' },
+      { question: 'Quanto custa casar na N. Sra. de Lourdes?', answer: 'Consulte a secretaria paroquial para valores atualizados. As taxas variam conforme o período do ano e o formato da cerimônia.' },
+      { question: 'O que fazer se tenho mais de 12 casais de padrinhos para convidar?', answer: 'A regra da paróquia é objetiva e não pode ser negociada — o limite é da paróquia, não do casal. A saída mais comum é separar "padrinhos de cartório/religioso" dos "padrinhos simbólicos" que participam das fotos mas não entram no cortejo.' },
+      { question: 'O fotógrafo pode ajudar a organizar o cortejo no dia?', answer: 'Sim — Ivan Dias chega antes do início do cortejo para organizar o posicionamento dos casais, orientar o espaçamento e garantir que a sequência seja a definida previamente. A organização prévia do cortejo é parte do protocolo padrão.' },
+    ],
+  },
+
+  {
+    slug: 'fotografo-casamento-capela-sao-francisco-de-assis',
+    bairro: 'Capela de São Francisco de Assis — Vila São Francisco (SP/Osasco)',
+    title: 'Casamento na Capela São Francisco de Assis: Mini-Wedding Rústico com Fotografia de Luz Natural',
+    description: 'Guia de fotografia para casamentos na Capela de São Francisco de Assis (Vila São Francisco, divisa SP/Osasco): capacidade reduzida, estilo rústico-chic integrado à natureza, luz natural predominante e o que muda na cobertura de um mini-wedding.',
+    excerpt: 'A Capela de São Francisco de Assis, na divisa entre São Paulo e Osasco, atrai casais que querem o rústico-chic integrado à natureza com até 80 convidados. A capacidade reduzida e o ambiente natural criam condições fotográficas únicas — luz natural predominante, intimidade entre os convidados e um ritmo de cerimônia diferente dos grandes salões.',
+    date: '2024-12-25',
+    updatedDate: '2024-12-25',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    sections: [
+      {
+        h2: 'O que você precisa saber antes de marcar data na Capela São Francisco de Assis',
+        content: '<p>A Capela de São Francisco de Assis, localizada na Vila São Francisco na divisa entre São Paulo e Osasco, é um espaço com capacidade reduzida — ideal para mini-weddings de até aproximadamente 80 convidados. O apelo principal é a integração com natureza em estilo rústico-chic. Casais que buscam o ambiente com conforto para convidados mais velhos devem verificar com a secretaria as condições de climatização e acessibilidade disponíveis.</p>',
+      },
+      {
+        h2: 'Mini-wedding rústico até 80 pessoas: o que muda na cobertura fotográfica',
+        content: '<p>Um mini-wedding muda a fotografia de forma fundamental — não apenas em escala, mas em abordagem. Com menos convidados, o fotógrafo tem acesso a cada pessoa ao longo do evento inteiro. Expressões, conversas, abraços e momentos espontâneos que se perdem na multidão de festas grandes ficam todos dentro do alcance da câmera num evento com 80 convidados.</p>',
+        h3s: [
+          { title: 'Luz natural como linguagem fotográfica principal', content: '<p>A integração com área verde da Capela São Francisco cria condições de luz natural que ambientes fechados não têm — luz filtrada pela vegetação, sombras suaves e uma paleta de verdes que aparece nas fotos como elemento visual constante. Ivan Dias trabalha essas condições com lentes de grande abertura que aproveitam ao máximo a luminosidade natural, sem interferir na atmosfera rústica com flash desnecessário.</p>' },
+          { title: 'Intimidade que produz imagens mais profundas', content: '<p>Em casamentos com até 80 convidados, o fotógrafo está sempre a poucos metros de qualquer pessoa importante. Isso se traduz em fotos com uma qualidade emocional que eventos grandes raramente produzem — rostos expressivos visíveis, conexões entre as pessoas registradas com proximidade, e momentos que em festas maiores seriam impossíveis de capturar do outro lado do salão.</p>' },
+        ],
+      },
+      {
+        h2: 'Estilo rústico-chic: como o ambiente determina a identidade visual do álbum',
+        content: '<p>A linguagem visual rústica da Cape São Francisco de Assis — madeira, vegetação, luz natural — cria uma identidade visual de álbum coesa que exige consistência do fotógrafo: as fotos de cerimônia, de festa e de detalhe precisam compartilhar a mesma paleta e o mesmo tom para que o álbum tenha unidade. Ivan Dias planeja a pós-produção alinhada ao conceito do espaço — paletas mais quentes, texturas preservadas, sem filtros que entrem em conflito com a estética rústica. <a href="/blog/fotografo-de-casamento-osasco/">Veja mais sobre fotografia de casamento em Osasco e arredores.</a></p>',
+      },
+      {
+        h2: 'Experiência com mini-weddings: por que o tamanho do evento importa',
+        content: '<p>Com 15 anos de experiência e mais de 700 casamentos fotografados, Ivan Dias tem cobertura de todos os formatos — de festas com 300 convidados a mini-weddings de 30 pessoas. O mini-wedding exige uma abordagem diferente: mais documental, mais próxima, mais atenta aos momentos individuais. Essa versatilidade de abordagem é o que garante que o álbum de um mini-wedding tenha a mesma riqueza emocional de um casamento de grande porte. <a href="/contato/">Agende uma conversa sobre o seu mini-wedding na Capela São Francisco.</a></p>',
+        table: {
+          caption: 'Capela São Francisco de Assis — referência rápida',
+          headers: ['Item', 'Referência'],
+          rows: [
+            ['Capacidade', 'Até aprox. 80 convidados'],
+            ['Estilo', 'Rústico-chic com integração à natureza'],
+            ['Luz predominante', 'Natural — vegetação filtrada'],
+            ['Formato ideal', 'Mini-wedding, cerimônia íntima'],
+            ['Acessibilidade', 'Confirmar com o espaço'],
+          ],
+        },
+      },
+    ],
+    faq: [
+      { question: 'Quantas pessoas cabem na Capela São Francisco de Assis?', answer: 'A capacidade é reduzida — adequada para mini-weddings de até aproximadamente 80 convidados. Confirme a capacidade exata diretamente com a secretaria.' },
+      { question: 'O ambiente é confortável para convidados mais velhos?', answer: 'Verifique diretamente com a secretaria as condições de climatização e acessibilidade disponíveis. A integração com área verde é bonita mas pode levantar dúvidas sobre conforto térmico em dias mais quentes.' },
+      { question: 'A fotografia de mini-wedding é diferente da fotografia de casamento grande?', answer: 'Sim — fundamentalmente. Com menos convidados, o fotógrafo tem acesso a cada pessoa durante todo o evento. Isso produz fotos com mais profundidade emocional, rostos expressivos próximos e momentos espontâneos que eventos grandes tornam impossíveis de capturar.' },
+      { question: 'Flash é usado na cobertura da célula?', answer: 'Com luz natural disponível e espaço de integração com vegetação, Ivan Dias prioriza a luz natural na cobertura — usando flash apenas quando tecnicamente necessário. A atmosfera rústica do espaço é preservada com essa abordagem.' },
+      { question: 'Ivan Dias fotografa casamentos na Capela São Francisco de Assis?', answer: 'Ivan Dias atende casamentos na Vila São Francisco e na região de Osasco. Entre em contato para verificar disponibilidade para a sua data.' },
+      { question: 'Quanto custa a fotografia de um mini-wedding?', answer: 'Mini-weddings têm cobertura naturalmente mais compacta — geralmente de 4 a 6 horas. Os pacotes partem de R$ 4.500. Solicite orçamento personalizado pelo WhatsApp.' },
+    ],
+  },
+
+  {
+    slug: 'fotografo-casamento-igreja-sao-benedito-mogi',
+    bairro: 'Igreja de São Benedito — Mogi das Cruzes',
+    title: 'Casar na Igreja de São Benedito (Mogi): Patrimônio Histórico, Altares Coloniais e Fotografia com Responsabilidade',
+    description: 'Guia para casamentos na Igreja de São Benedito em Mogi das Cruzes: restrições de tombamento, altares esculpidos em madeira, proibições de decoração e como fotografar o patrimônio histórico colonial com responsabilidade técnica.',
+    excerpt: 'A Igreja de São Benedito de Mogi das Cruzes é patrimônio histórico colonial tombado — o que significa regras específicas para decoração, restrições que preservam a integridade dos altares esculpidos em madeira e um cuidado fotográfico especial. Este guia explica o que o tombamento permite e não permite, e como planejar a cobertura fotográfica de um casamento nesse templo único.',
+    date: '2024-12-24',
+    updatedDate: '2024-12-24',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    sections: [
+      {
+        h2: 'O que você precisa saber antes de marcar casamento na Igreja de São Benedito',
+        content: '<p>A Igreja de São Benedito de Mogi das Cruzes é um patrimônio histórico colonial tombado — o que impõe restrições específicas à decoração e a qualquer alteração do espaço. As regras de preservação proíbem modificações que afetem a integridade do imóvel tombado. Para detalhes sobre o que é e não é permitido em termos de decoração e equipamentos durante a cerimônia, consulte diretamente a secretaria paroquial e o processo de tombamento vigente.</p>',
+      },
+      {
+        h2: 'Casamento em patrimônio histórico: o que o tombamento permite e não permite',
+        content: '<p>O tombamento de uma igreja como patrimônio histórico cria um conjunto de restrições que afetam diretamente a cerimônia de casamento. Na prática, para o casal e seus fornecedores:</p>',
+        h3s: [
+          { title: 'Restrições de decoração', content: '<p>Decorações que envolvam fixação em paredes, altares ou pisos históricos geralmente não são permitidas em espaços tombados. Arranjos florais que não exijam ancoragem na estrutura histórica tendem a ser aceitos. Confetti, pétalas em quantidade excessiva e outros elementos que possam danificar superfícies antigas exigem autorização prévia ou são proibidos. Confirme todas as restrições específicas da São Benedito com a secretaria e com os órgãos de preservação responsáveis pelo tombamento.</p>' },
+          { title: 'Flash e iluminação: cuidado com peças sensíveis', content: '<p>Em igrejas com peças históricas de madeira esculpida — como os altares da São Benedito — o flash direto pode ser restrito pela paróquia e pelos critérios de preservação. Altares esculpidos em madeira antiga são sensíveis à vibração sonora e ao calor de equipamentos de iluminação. Ivan Dias trabalha em patrimônios históricos com luz natural e flash indireto (bounce) quando necessário — uma abordagem que preserva as peças e produz imagens com iluminação mais natural e respeitosa do ambiente.</p>' },
+        ],
+      },
+      {
+        h2: 'Os altares coloniais como recurso fotográfico único',
+        content: '<p>Os altares esculpidos em madeira da Igreja de São Benedito são elementos visuais que nenhuma decoração de evento consegue replicar — detalhe histórico, profundidade artística e textura genuína acumulada ao longo de séculos. Para o fotógrafo, isso representa um cenário único que enriquece qualquer composição: os noivos em frente ao altar colonial têm um contexto visual que simplesmente não existe em espaços modernos.</p><p>Ivan Dias fotografa os detalhes dos altares como parte da cobertura — não apenas como fundo, mas como documentação do espaço histórico onde o casamento aconteceu. Esse registro arquitetônico é parte do álbum que o casal vai querer guardar para sempre. <a href="/blog/fotografo-casamento-villa-castanieri-mogi/">Veja também fotografia de casamento na Villa Castanieri em Mogi.</a></p>',
+      },
+      {
+        h2: 'Experiência com patrimônios históricos: o que faz diferença na fotografia',
+        content: '<p>Fotografar em patrimônios tombados exige mais do que habilidade técnica — exige consciência de responsabilidade com o espaço. Ivan Dias adapta o equipamento e a abordagem para garantir que a cobertura fotográfica não interfira com a integridade do patrimônio: sem flash direto em peças sensíveis, sem posicionamento de equipamentos em áreas restritas, sem movimentos que criem risco para elementos históricos. Com 15 anos de experiência e mais de 700 casamentos fotografados, esse protocolo de cuidado com espaços especiais já está integrado ao processo de trabalho. <a href="/contato/">Agende uma conversa sobre o seu casamento na Igreja São Benedito.</a></p>',
+        table: {
+          caption: 'Igreja de São Benedito — Mogi das Cruzes: referência rápida',
+          headers: ['Item', 'Referência'],
+          rows: [
+            ['Status', 'Patrimônio histórico tombado'],
+            ['Destaque arquitetônico', 'Altares coloniais esculpidos em madeira'],
+            ['Restrições de decoração', 'Sim — confirmar com secretaria/tombamento'],
+            ['Flash direto em peças', 'Possivelmente restrito — confirmar com paróquia'],
+            ['Abordagem fotográfica', 'Luz natural + flash indireto'],
+          ],
+        },
+      },
+    ],
+    faq: [
+      { question: 'O tombamento da São Benedito impede quais tipos de decoração?', answer: 'O tombamento restringe qualquer modificação que afete a integridade do imóvel. Na prática, decorações com fixação em estruturas históricas, elementos que gerem risco de dano e alterações permanentes são proibidos. Confetti e outros elementos que possam danificar superfícies antigas exigem autorização prévia. Consulte a secretaria paroquial e os órgãos de preservação para as restrições específicas atuais.' },
+      { question: 'Flash pode ser usado na Igreja de São Benedito?', answer: 'Flash direto em peças históricas de madeira pode ser restrito pela paróquia e pelos critérios de preservação do tombamento. Ivan Dias trabalha com flash indireto (bounce) e luz natural em espaços com peças sensíveis — preservando os altares e produzindo iluminação mais natural nas fotos.' },
+      { question: 'Os altares coloniais aparecem nas fotos da cerimônia?', answer: 'Sim — os altares esculpidos em madeira são um dos elementos visuais mais marcantes da São Benedito e aparecem nas composições como contexto histórico. Ivan Dias também fotografa os detalhes dos altares como documentação do espaço.' },
+      { question: 'Ivan Dias fotografa casamentos na Igreja São Benedito de Mogi?', answer: 'Ivan Dias atende casamentos em Mogi das Cruzes e na região do Alto Tietê. Entre em contato para verificar disponibilidade para a sua data.' },
+      { question: 'Quanto tempo de antecedência devo reservar a data?', answer: 'Consulte a secretaria paroquial para antecedência mínima e disponibilidade de datas. Igrejas históricas com alta demanda para casamentos geralmente têm calendário restrito.' },
+      { question: 'Quais cuidados o fotógrafo deve ter em patrimônios tombados?', answer: 'Sem flash direto em peças sensíveis, sem posicionamento de equipamentos em áreas restritas e sem movimentos que criem risco para elementos históricos. Ivan Dias adapta o setup fotográfico ao protocolo de preservação de cada espaço tombado — o reconhecimento prévio do espaço com a paróquia é parte obrigatória do planejamento.' },
     ],
   },
 ];
