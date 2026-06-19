@@ -1,4 +1,4 @@
-import Link from 'next/link';
+﻿import Link from 'next/link';
 import { services } from '@/lib/services';
 import { posts } from '@/lib/posts';
 
@@ -15,8 +15,8 @@ export default function Footer() {
             Ivan Dias
           </Link>
           <p className="mt-4 max-w-xs font-body text-sm text-cream/60">
-            Fotografia de casamento autoral em São Paulo. Histórias eternizadas com
-            sensibilidade, técnica e emoção.
+            Fotografia de casamento autoral em SÃ£o Paulo. HistÃ³rias eternizadas com
+            sensibilidade, tÃ©cnica e emoÃ§Ã£o.
           </p>
           <div className="mt-6 flex gap-4">
             {SOCIALS.map((social) => (
@@ -35,16 +35,16 @@ export default function Footer() {
           </div>
         </div>
 
-        <nav aria-label="Serviços">
+        <nav aria-label="ServiÃ§os">
           <h2 className="font-heading text-sm font-semibold uppercase tracking-wide text-brown-light">
-            Serviços
+            ServiÃ§os
           </h2>
           <ul className="mt-5 flex flex-col gap-3">
             {services.map((service) => (
               <li key={service.id}>
                 <Link
                   href={`/servicos/${service.slug}/`}
-                  className="font-body text-sm text-cream/60 transition-colors hover:text-cream focus-visible-ring"
+                  className="font-body text-sm text-cream/85 transition-colors hover:text-cream focus-visible-ring"
                 >
                   {service.title}
                 </Link>
@@ -62,7 +62,7 @@ export default function Footer() {
               <li key={post.slug}>
                 <Link
                   href={`/blog/${post.slug}/`}
-                  className="font-body text-sm text-cream/60 transition-colors hover:text-cream focus-visible-ring"
+                  className="font-body text-sm text-cream/85 transition-colors hover:text-cream focus-visible-ring"
                 >
                   {post.bairro}
                 </Link>
@@ -77,40 +77,40 @@ export default function Footer() {
           </h2>
           <ul className="mt-5 flex flex-col gap-3">
             <li>
-              <Link href="/fotografo-de-casamento-santo-andre/" className="font-body text-sm text-cream/60 transition-colors hover:text-cream focus-visible-ring">
-                Santo André
+              <Link href="/fotografo-de-casamento-santo-andre/" className="font-body text-sm text-cream/85 transition-colors hover:text-cream focus-visible-ring">
+                Santo AndrÃ©
               </Link>
             </li>
             <li>
-              <Link href="/fotografo-de-casamento-sao-bernardo-do-campo/" className="font-body text-sm text-cream/60 transition-colors hover:text-cream focus-visible-ring">
-                São Bernardo
+              <Link href="/fotografo-de-casamento-sao-bernardo-do-campo/" className="font-body text-sm text-cream/85 transition-colors hover:text-cream focus-visible-ring">
+                SÃ£o Bernardo
               </Link>
             </li>
             <li>
-              <Link href="/fotografo-de-casamento-sao-caetano-do-sul/" className="font-body text-sm text-cream/60 transition-colors hover:text-cream focus-visible-ring">
-                São Caetano
+              <Link href="/fotografo-de-casamento-sao-caetano-do-sul/" className="font-body text-sm text-cream/85 transition-colors hover:text-cream focus-visible-ring">
+                SÃ£o Caetano
               </Link>
             </li>
             <li>
-              <Link href="/blog/fotografo-de-casamento-ribeirao-pires/" className="font-body text-sm text-cream/60 transition-colors hover:text-cream focus-visible-ring">
-                Ribeirão Pires
+              <Link href="/blog/fotografo-de-casamento-ribeirao-pires/" className="font-body text-sm text-cream/85 transition-colors hover:text-cream focus-visible-ring">
+                RibeirÃ£o Pires
               </Link>
             </li>
           </ul>
         </nav>
 
-        <nav aria-label="Grupos de espaços">
+        <nav aria-label="Grupos de espaÃ§os">
           <h2 className="font-heading text-sm font-semibold uppercase tracking-wide text-brown-light">
             Grupos
           </h2>
           <ul className="mt-5 flex flex-col gap-3">
             <li>
-              <Link href="/blog/fotografo-casamento-grupo-quintal/" className="font-body text-sm text-cream/60 transition-colors hover:text-cream focus-visible-ring">
+              <Link href="/blog/fotografo-casamento-grupo-quintal/" className="font-body text-sm text-cream/85 transition-colors hover:text-cream focus-visible-ring">
                 Grupo Quintal
               </Link>
             </li>
             <li>
-              <Link href="/blog/fotografo-casamento-grupo-welucci/" className="font-body text-sm text-cream/60 transition-colors hover:text-cream focus-visible-ring">
+              <Link href="/blog/fotografo-casamento-grupo-welucci/" className="font-body text-sm text-cream/85 transition-colors hover:text-cream focus-visible-ring">
                 Grupo Welucci
               </Link>
             </li>
@@ -123,22 +123,22 @@ export default function Footer() {
           </h2>
           <ul className="mt-5 flex flex-col gap-3">
             <li>
-              <Link href="/blog/fotografo-de-casamento-osasco/" className="font-body text-sm text-cream/60 transition-colors hover:text-cream focus-visible-ring">
+              <Link href="/blog/fotografo-de-casamento-osasco/" className="font-body text-sm text-cream/85 transition-colors hover:text-cream focus-visible-ring">
                 Osasco
               </Link>
             </li>
             <li>
-              <Link href="/blog/fotografo-de-casamento-mairipora/" className="font-body text-sm text-cream/60 transition-colors hover:text-cream focus-visible-ring">
-                Mairiporã
+              <Link href="/blog/fotografo-de-casamento-mairipora/" className="font-body text-sm text-cream/85 transition-colors hover:text-cream focus-visible-ring">
+                MairiporÃ£
               </Link>
             </li>
             <li>
-              <Link href="/blog/fotografo-de-casamento-mogi-das-cruzes/" className="font-body text-sm text-cream/60 transition-colors hover:text-cream focus-visible-ring">
+              <Link href="/blog/fotografo-de-casamento-mogi-das-cruzes/" className="font-body text-sm text-cream/85 transition-colors hover:text-cream focus-visible-ring">
                 Mogi das Cruzes
               </Link>
             </li>
             <li>
-              <Link href="/blog/fotografo-casamento-abc-paulista-santo-andre-sao-bernardo/" className="font-body text-sm text-cream/60 transition-colors hover:text-cream focus-visible-ring">
+              <Link href="/blog/fotografo-casamento-abc-paulista-santo-andre-sao-bernardo/" className="font-body text-sm text-cream/85 transition-colors hover:text-cream focus-visible-ring">
                 ABC Paulista
               </Link>
             </li>
@@ -151,28 +151,28 @@ export default function Footer() {
           </h2>
           <ul className="mt-5 flex flex-col gap-3">
             <li>
-              <Link href="/blog/fotografo-casamento-igreja-nossa-senhora-do-brasil/" className="font-body text-sm text-cream/60 transition-colors hover:text-cream focus-visible-ring">
+              <Link href="/blog/fotografo-casamento-igreja-nossa-senhora-do-brasil/" className="font-body text-sm text-cream/85 transition-colors hover:text-cream focus-visible-ring">
                 N. Sra. do Brasil
               </Link>
             </li>
             <li>
-              <Link href="/blog/fotografo-casamento-catedral-do-carmo-santo-andre/" className="font-body text-sm text-cream/60 transition-colors hover:text-cream focus-visible-ring">
+              <Link href="/blog/fotografo-casamento-catedral-do-carmo-santo-andre/" className="font-body text-sm text-cream/85 transition-colors hover:text-cream focus-visible-ring">
                 Catedral do Carmo
               </Link>
             </li>
             <li>
-              <Link href="/blog/fotografo-casamento-matriz-sagrada-familia-sao-caetano/" className="font-body text-sm text-cream/60 transition-colors hover:text-cream focus-visible-ring">
-                Matriz São Caetano
+              <Link href="/blog/fotografo-casamento-matriz-sagrada-familia-sao-caetano/" className="font-body text-sm text-cream/85 transition-colors hover:text-cream focus-visible-ring">
+                Matriz SÃ£o Caetano
               </Link>
             </li>
             <li>
-              <Link href="/blog/fotografo-casamento-matriz-sao-bernardo/" className="font-body text-sm text-cream/60 transition-colors hover:text-cream focus-visible-ring">
-                Matriz São Bernardo
+              <Link href="/blog/fotografo-casamento-matriz-sao-bernardo/" className="font-body text-sm text-cream/85 transition-colors hover:text-cream focus-visible-ring">
+                Matriz SÃ£o Bernardo
               </Link>
             </li>
             <li>
-              <Link href="/blog/fotografo-casamento-igreja-sao-benedito-mogi/" className="font-body text-sm text-cream/60 transition-colors hover:text-cream focus-visible-ring">
-                São Benedito (Mogi)
+              <Link href="/blog/fotografo-casamento-igreja-sao-benedito-mogi/" className="font-body text-sm text-cream/85 transition-colors hover:text-cream focus-visible-ring">
+                SÃ£o Benedito (Mogi)
               </Link>
             </li>
           </ul>
@@ -193,10 +193,10 @@ export default function Footer() {
                 contato@ivandiasfotografo.com.br
               </a>
             </li>
-            <li>São Paulo · SP · Brasil</li>
+            <li>SÃ£o Paulo Â· SP Â· Brasil</li>
             <li>
               <Link href="/contato/" className="font-semibold text-brown-light transition-colors hover:text-cream focus-visible-ring">
-                Fale comigo →
+                Fale comigo â†’
               </Link>
             </li>
           </ul>
@@ -205,13 +205,13 @@ export default function Footer() {
 
       <div className="mx-auto mt-14 max-w-7xl border-t border-cream/10 px-6 pt-8 md:px-12">
         <p className="font-body text-xs text-cream/60">
-          © {new Date().getFullYear()} Ivan Dias Fotografia. Todos os direitos reservados.
+          Â© {new Date().getFullYear()} Ivan Dias Fotografia. Todos os direitos reservados.
         </p>
         <div className="mt-4 border-t border-cream/10 pt-4 text-center">
-          <span className="font-body text-xs text-cream/40">Outros serviços: </span>
-          <a href="https://pixiformaturas.com.br" target="_blank" rel="noopener noreferrer" className="font-body text-xs text-cream/60 transition-colors hover:text-cream">Pixi Formaturas</a>
-          <span className="font-body text-xs text-cream/40"> · </span>
-          <a href="https://ivandiasfoto.com.br" target="_blank" rel="noopener noreferrer" className="font-body text-xs text-cream/60 transition-colors hover:text-cream">Ivan Dias Corporativo</a>
+          <span className="font-body text-xs text-cream/40">Outros serviÃ§os: </span>
+          <a href="https://pixiformaturas.com.br" target="_blank" rel="noopener noreferrer" className="font-body text-xs text-cream/85 transition-colors hover:text-cream">Pixi Formaturas</a>
+          <span className="font-body text-xs text-cream/40"> Â· </span>
+          <a href="https://ivandiasfoto.com.br" target="_blank" rel="noopener noreferrer" className="font-body text-xs text-cream/85 transition-colors hover:text-cream">Ivan Dias Corporativo</a>
         </div>
       </div>
     </footer>
