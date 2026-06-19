@@ -6970,6 +6970,1125 @@ export const posts: Post[] = [
       { question: 'Quanto custa fotografar no Welucci Canto Verde?', answer: 'Os pacotes partem de R$ 8.000. Solicite orçamento personalizado pelo WhatsApp — resposta em até 24 horas.' },
     ],
   },
+
+  // ─── Santo André — artigos por espaço ────────────────────────────────────────
+
+  {
+    slug: 'fotografo-casamento-espaco-win-santo-andre',
+    bairro: 'Espaço Win — Santo André',
+    title: 'Casamento no Espaço Win: Guia Completo de Fotografia em Santo André',
+    description: 'Fotógrafo de casamento no Espaço Win (Baby Beef Jardim) em Santo André: como fotografar o maior salão do ABC, luz, logística e como contratar Ivan Dias para o seu evento.',
+    excerpt: 'O Espaço Win é o maior salão de eventos do ABC Paulista — com capacidade para até 2.000 pessoas em coquetel. Para a fotografia de casamento, essa escala cria desafios e oportunidades únicas: grandes planos que mostram a magnitude do evento, iluminação técnica de alto volume e a arte de manter o casal em destaque mesmo em um ambiente grandioso.',
+    date: '2024-07-01',
+    updatedDate: '2024-07-01',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    sections: [
+      {
+        h2: 'Características do Espaço Win que impactam a fotografia',
+        content: '<p>Com capacidade para até 2.000 pessoas em formato coquetel, o Espaço Win Opera volumes arquitetônicos que poucos salões da região oferecem. O pé-direito elevado cria oportunidades para planos gerais impactantes — mas também exige do fotógrafo domínio de luz artificial em grandes volumes, onde a iluminação técnica varia significativamente entre a pista de dança, as mesas e o altar.</p>',
+        h3s: [
+          { title: 'Grandiosidade como recurso visual', content: '<p>A escala do Espaço Win permite composições que mostram o evento em toda a sua magnitude — filas de mesas que se perdem no horizonte, planos aéreos que revelam a organização do salão, grandes angulares que incluem o casal e o ambiente ao mesmo tempo. Ivan Dias planeja esses ângulos com antecedência para garantir que a grandiosidade do espaço apareça no álbum final.</p>' },
+          { title: 'Luz técnica em volume: o desafio principal', content: '<p>Em salões de grande porte como o Win, a iluminação técnica cobre o espaço de forma não uniforme — pontos mais iluminados na pista e zonas mais escuras nas laterais. O fotógrafo que não conhece essa dinâmica entrega fotos com exposição inconsistente ao longo da noite. Ivan Dias adapta as configurações de câmera em tempo real para manter qualidade em toda a cobertura.</p>' },
+        ],
+      },
+      { h2: 'Logística fotográfica no Espaço Win', content: '<p>Para eventos de grande porte no Espaço Win, Ivan Dias recomenda cobertura a partir de 10 horas — considerando making of, cerimônia, recepção e festa completa. A transição entre os diferentes momentos de um evento grande exige planejamento de deslocamento dentro do próprio espaço para não perder nenhum frame importante. <a href="/contato/">Fale para montar o cronograma ideal.</a></p>' },
+      { h2: 'Por que Ivan Dias é a escolha certa para o Espaço Win', content: '<p>Com mais de 700 casamentos fotografados em São Paulo e região — incluindo eventos de grande porte em ambientes com o mesmo perfil do Espaço Win —, Ivan Dias tem o repertório técnico para entregar imagens à altura da grandiosidade do espaço. Ivan Dias atende casamentos no Espaço Win e em toda a região de Santo André. Conheça os <a href="/servicos/cobertura-completa/">pacotes de cobertura completa</a> e o <a href="/blog/fotografo-de-casamento-santo-andre/">guia de fotografia de casamento em Santo André</a>.</p>',
+        table: { caption: 'Espaço Win — referência rápida', headers: ['Item', 'Referência'], rows: [['Capacidade', 'Até 2.000 (coquetel)'], ['Estilo', 'Salão contemporâneo de grande porte'], ['Cobertura recomendada', '10–12 horas'], ['Drone', 'Consultar espaço'], ['Segundo fotógrafo', 'Recomendado para eventos acima de 300 convidados']] },
+      },
+    ],
+    faq: [
+      { question: 'Ivan Dias fotografa casamentos no Espaço Win em Santo André?', answer: 'Sim — Ivan Dias atende casamentos no Espaço Win e em toda a região de Santo André e ABC Paulista. Entre em contato para verificar disponibilidade de data.' },
+      { question: 'Quanto tempo de cobertura preciso para um casamento no Espaço Win?', answer: 'Para eventos de grande porte, recomenda-se no mínimo 10 horas de cobertura — garantindo making of completo, cerimônia, recepção e festa sem cortes no registro.' },
+      { question: 'Segundo fotógrafo é necessário no Espaço Win?', answer: 'Para eventos acima de 300 convidados, um segundo fotógrafo garante cobertura simultânea de momentos que acontecem em pontos diferentes do salão. Ivan Dias oferece essa opção nos pacotes premium.' },
+      { question: 'Quanto custa fotografar um casamento no Espaço Win?', answer: 'Os pacotes para eventos de grande porte partem de R$ 8.500. Solicite orçamento personalizado pelo WhatsApp — resposta em até 24 horas.' },
+      { question: 'Drone é permitido no Espaço Win?', answer: 'É necessário confirmar com o espaço a permissão para voo. Em eventos de grande porte, o drone gera imagens aéreas muito impactantes — Ivan Dias verifica essa possibilidade no planejamento prévio.' },
+    ],
+  },
+
+  {
+    slug: 'fotografo-casamento-mezzatorre-eventos',
+    bairro: 'Mezzatorre Eventos — Santo André',
+    title: 'Casamento no Mezzatorre Eventos: Guia Completo de Fotografia em Santo André',
+    description: 'Fotógrafo de casamento no Mezzatorre Eventos em Santo André: jardim para cerimônia externa, luz natural, pontos fotográficos e como Ivan Dias planeja a cobertura neste espaço.',
+    excerpt: 'O Mezzatorre Eventos combina salão interno de alto padrão com jardim para cerimônia ao ar livre — uma combinação que cria dois universos fotográficos completamente diferentes no mesmo evento. Saber transitar entre esses ambientes, aproveitando a luz natural externa e a iluminação técnica interna, é o que define a qualidade do álbum final.',
+    date: '2024-07-06',
+    updatedDate: '2024-07-06',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    sections: [
+      {
+        h2: 'O jardim como diferencial fotográfico do Mezzatorre',
+        content: '<p>A possibilidade de cerimônia externa no jardim do Mezzatorre é o elemento fotográfico mais valioso do espaço. A luz natural ao ar livre — especialmente no fim de tarde — cria imagens com uma profundidade e riqueza de cor que nenhuma iluminação técnica de salão consegue replicar. Ivan Dias planeja o horário da cerimônia em conjunto com o casal para aproveitar ao máximo essa janela de luz.</p>',
+        h3s: [
+          { title: 'Cerimônia externa: a golden hour como aliada', content: '<p>Quando a cerimônia no jardim do Mezzatorre coincide com o fim de tarde, a luz dourada pinta o espaço com tons quentes e cinematográficos. Ivan Dias reserva os primeiros ângulos externos para capturar o casal nesse momento — geralmente os frames mais emotivos e visualmente impactantes de toda a cobertura.</p>' },
+          { title: 'Transição jardim → salão: o desafio técnico', content: '<p>A maior exigência técnica do Mezzatorre é a transição entre o jardim e o salão interno — dois ambientes com características de luz completamente opostas. O fotógrafo que não adapta câmera rapidamente entrega fotos subexpostas na entrada do salão ou superexpostas nas últimas fotos externas. Ivan Dias domina essa transição sem perder nenhum frame crítico.</p>' },
+        ],
+      },
+      { h2: 'Logística de cobertura no Mezzatorre Eventos', content: '<p>Para casamentos no Mezzatorre com cerimônia no jardim, Ivan Dias recomenda 8 a 10 horas de cobertura. O cronograma inclui making of, chegada ao jardim, cerimônia externa, cocktail e festa no salão. <a href="/contato/">Converse para definir o cronograma ideal para a sua data.</a></p>' },
+      { h2: 'Ivan Dias e o Mezzatorre Eventos', content: '<p>Ivan Dias atende casamentos no Mezzatorre Eventos e em toda a região de Santo André. Com mais de 700 casamentos fotografados em São Paulo e região — incluindo espaços com jardim para cerimônia externa —, Ivan Dias tem o repertório visual e técnico para entregar imagens que fazem jus à beleza do espaço. Veja o <a href="/blog/fotografo-de-casamento-santo-andre/">guia completo de fotografia em Santo André</a> e os <a href="/servicos/cobertura-completa/">pacotes de cobertura</a>.</p>',
+        table: { caption: 'Mezzatorre — referência rápida', headers: ['Item', 'Referência'], rows: [['Capacidade', '240 pessoas'], ['Destaque', 'Jardim para cerimônia externa'], ['Cobertura recomendada', '8–10 horas'], ['Drone', 'Recomendado para cerimônia externa'], ['Melhor horário externo', 'Final de tarde (golden hour)']] },
+      },
+    ],
+    faq: [
+      { question: 'Ivan Dias fotografa casamentos no Mezzatorre Eventos?', answer: 'Sim — Ivan Dias atende casamentos no Mezzatorre e em toda a região de Santo André. Entre em contato para verificar disponibilidade.' },
+      { question: 'Drone é recomendado para o Mezzatorre?', answer: 'Sim — especialmente para a cerimônia no jardim. O drone captura a composição do espaço externo de uma perspectiva aérea que nenhum ângulo no chão alcança.' },
+      { question: 'Qual o melhor horário para a cerimônia no jardim do Mezzatorre?', answer: 'O fim de tarde, entre 17h e 18h30, proporciona luz dourada e suave que resulta nas fotos mais bonitas da cerimônia externa.' },
+      { question: 'Quanto custa fotografar no Mezzatorre Eventos?', answer: 'Os pacotes partem de R$ 7.000 para coberturas completas. Solicite orçamento pelo WhatsApp — resposta em até 24 horas.' },
+    ],
+  },
+
+  {
+    slug: 'fotografo-casamento-espaco-figueiras',
+    bairro: 'Espaço Figueiras — Santo André',
+    title: 'Casamento no Espaço Figueiras: Guia Completo de Fotografia em Santo André',
+    description: 'Fotógrafo de casamento no Espaço Figueiras em Santo André: como a capela integrada transforma a cerimônia e a fotografia, pontos fortes do espaço e como contratar Ivan Dias.',
+    excerpt: 'O Espaço Figueiras oferece uma raridade no ABC Paulista: uma capela de cerimônia integrada ao próprio espaço de festa. Esse formato elimina a logística de deslocamento entre locais e cria uma narrativa fotográfica contínua — do sagrado ao festivo — dentro do mesmo cenário.',
+    date: '2024-07-11',
+    updatedDate: '2024-07-11',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    sections: [
+      {
+        h2: 'A capela integrada como diferencial fotográfico',
+        content: '<p>Ter a cerimônia e a festa no mesmo espaço é, do ponto de vista fotográfico, uma vantagem enorme. Não há deslocamento entre locais, não há perda de tempo de cobertura e o fotógrafo consegue documentar o evento como uma narrativa contínua e coesa — da chegada dos noivos à última música da noite.</p>',
+        h3s: [
+          { title: 'Luz da capela: desafio e oportunidade', content: '<p>Capelas integradas em espaços de festa geralmente têm luz técnica controlada que cria uma atmosfera sagrada. Ivan Dias trabalha com essa luz para preservar a ambiência da cerimônia — priorizando lentes luminosas e ISO alto sobre o uso de flash, que destrói o caráter do ambiente.</p>' },
+          { title: 'Transição cerimônia → festa no mesmo espaço', content: '<p>Com espaço único, o fotógrafo documenta a transformação do ambiente entre cerimônia e festa — as cadeiras sendo retiradas, a iluminação mudando, os convidados circulando. São frames de bastidores que enriquecem o álbum com uma dimensão que casamentos em locais separados raramente têm.</p>' },
+        ],
+      },
+      { h2: 'Cobertura fotográfica no Espaço Figueiras', content: '<p>Ivan Dias atende casamentos no Espaço Figueiras e em toda a região de Santo André. Para espaços com cerimônia integrada, a cobertura de 8 a 10 horas garante registro completo desde a preparação até o encerramento da festa. <a href="/contato/">Agende uma conversa para planejar os detalhes.</a> Veja também o <a href="/blog/fotografo-de-casamento-santo-andre/">guia de fotografia em Santo André</a>.</p>',
+        table: { caption: 'Espaço Figueiras — referência rápida', headers: ['Item', 'Referência'], rows: [['Destaque', 'Capela de cerimônia integrada'], ['Cobertura recomendada', '8–10 horas'], ['Estilo fotográfico', 'Documental contínuo'], ['Serviços', 'Cobertura completa + pré-wedding']] },
+      },
+    ],
+    faq: [
+      { question: 'Ivan Dias fotografa casamentos no Espaço Figueiras?', answer: 'Sim — Ivan Dias atende casamentos no Espaço Figueiras e em toda a região de Santo André. Entre em contato para verificar disponibilidade de data.' },
+      { question: 'A cerimônia na capela integrada é fotografada de forma diferente?', answer: 'Sim — a abordagem é mais contemplativa e discreta, respeitando a sacralidade do momento. Ivan Dias usa lentes luminosas e evita flash para preservar a atmosfera da cerimônia.' },
+      { question: 'Quanto custa fotografar no Espaço Figueiras?', answer: 'Os pacotes partem de R$ 6.500. Solicite orçamento personalizado pelo WhatsApp — resposta em até 24 horas.' },
+    ],
+  },
+
+  {
+    slug: 'fotografo-casamento-casa-laranjeira-maztiga',
+    bairro: 'Casa Laranjeira by Maztiga — Santo André',
+    title: 'Casamento na Casa Laranjeira by Maztiga: Guia de Fotografia em Santo André',
+    description: 'Fotógrafo de casamento na Casa Laranjeira by Maztiga em Santo André: como o casarão de 1940 na Vila Assunção cria cenários históricos únicos e como Ivan Dias planeja a cobertura.',
+    excerpt: 'A Casa Laranjeira by Maztiga é um casarão construído em 1940 na Vila Assunção — um dos bairros mais nobres de Santo André. A arquitetura histórica, com seus detalhes originais preservados, cria um cenário fotográfico com textura e charme que nenhum espaço moderno consegue replicar artificialmente.',
+    date: '2024-07-16',
+    updatedDate: '2024-07-16',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    sections: [
+      {
+        h2: 'A arquitetura histórica da Casa Laranjeira como cenário fotográfico',
+        content: '<p>Um casarão de 1940 preservado oferece ao fotógrafo algo impossível de contratar separadamente: autenticidade histórica. Pisos originais, molduras, detalhes arquitetônicos e a própria pátina do tempo criam uma profundidade visual que transforma cada foto em um registro com caráter e identidade. Para casais que querem um álbum com personalidade, a Casa Laranjeira entrega esse resultado naturalmente.</p>',
+        h3s: [
+          { title: 'Luz natural em arquitetura dos anos 1940', content: '<p>Casarões da época têm janelas generosas projetadas para captar luz natural antes do ar-condicionado. Essa característica cria uma qualidade de iluminação suave e direcional que favorece muito a fotografia — especialmente durante o making of e as fotos dos detalhes.</p>' },
+          { title: 'Jardim histórico: extensão natural do cenário', content: '<p>Os jardins de casas históricas carregam décadas de crescimento e personalidade. O jardim da Casa Laranjeira cria fondos orgânicos para fotos do casal que têm profundidade e memória — bem diferente de jardins padronizados de salões contemporâneos.</p>' },
+        ],
+      },
+      { h2: 'Ivan Dias e a Casa Laranjeira by Maztiga', content: '<p>Ivan Dias atende casamentos na Casa Laranjeira by Maztiga e em toda a região de Santo André. Com mais de 700 casamentos fotografados — incluindo casarões históricos e espaços de arquitetura com personalidade —, Ivan Dias sabe como valorizar cada detalhe único de um espaço como este. Veja o <a href="/blog/fotografo-de-casamento-santo-andre/">guia de fotografia em Santo André</a> e os <a href="/servicos/pre-wedding/">pacotes de pré-wedding</a> no casarão.</p>',
+        table: { caption: 'Casa Laranjeira — referência rápida', headers: ['Item', 'Referência'], rows: [['Capacidade', 'Até 250 pessoas'], ['Estilo', 'Casarão histórico 1940'], ['Cobertura recomendada', '8–10 horas'], ['Pré-wedding no local', 'Altamente recomendado']] },
+      },
+    ],
+    faq: [
+      { question: 'Ivan Dias fotografa casamentos na Casa Laranjeira by Maztiga?', answer: 'Sim — Ivan Dias atende casamentos na Casa Laranjeira e em toda a região de Santo André. Entre em contato para verificar disponibilidade.' },
+      { question: 'O casarão histórico aparece nas fotos?', answer: 'Com certeza — a arquitetura histórica é um dos elementos mais valiosos da cobertura. Ivan Dias usa os detalhes originais do casarão como componentes ativos das composições.' },
+      { question: 'Pré-wedding na Casa Laranjeira vale a pena?', answer: 'Muito — o ensaio prévio no casarão permite explorar com calma os melhores ângulos e a luz de cada ambiente, criando fotos com uma intimidade que o dia do casamento, com toda a logística, raramente permite.' },
+      { question: 'Quanto custa fotografar na Casa Laranjeira?', answer: 'Os pacotes partem de R$ 6.500. Solicite orçamento personalizado pelo WhatsApp — resposta em até 24 horas.' },
+    ],
+  },
+
+  {
+    slug: 'fotografo-casamento-espaco-alfarre',
+    bairro: 'Espaço Alfarre — Santo André',
+    title: 'Casamento no Espaço Alfarre: Guia Completo de Fotografia em Santo André',
+    description: 'Fotógrafo de casamento no Espaço Alfarre em Santo André: arquitetura contemporânea, capacidade para 300 pessoas, como a iluminação e o design impactam a fotografia.',
+    excerpt: 'O Espaço Alfarre é um dos espaços contemporâneos de referência em Santo André — com design limpo, iluminação técnica de alto padrão e capacidade para até 300 convidados. Para a fotografia, o ambiente contemporâneo permite trabalhar com uma paleta neutra que valoriza as cores da decoração e do casal.',
+    date: '2024-07-21',
+    updatedDate: '2024-07-21',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    sections: [
+      {
+        h2: 'Design contemporâneo do Alfarre e fotografia',
+        content: '<p>Espaços contemporâneos com design limpo favorecem a fotografia de uma forma muito específica: sem elementos visuais excessivos competindo com o casal e a decoração, o resultado são fotos com foco claro e elegância natural. O Espaço Alfarre entrega exatamente isso — uma tela neutra onde cada elemento decorativo escolhido pelo casal ganha protagonismo.</p>',
+        h3s: [
+          { title: 'Iluminação técnica controlada', content: '<p>A iluminação de alto padrão do Alfarre cria um ambiente fotograficamente previsível — o que permite planejamento preciso de câmera e entrega consistente ao longo de toda a cobertura. Ivan Dias aproveita essa previsibilidade para garantir qualidade técnica desde o primeiro ao último frame.</p>' },
+          { title: 'Capacidade média: cobertura sem furos', content: '<p>Com 300 convidados, o Espaço Alfarre tem uma escala que permite ao fotógrafo cobrir todos os momentos importantes sem precisar de segundo fotógrafo — mas com esse recurso disponível para quem quer cobertura ainda mais completa.</p>' },
+        ],
+      },
+      { h2: 'Ivan Dias no Espaço Alfarre', content: '<p>Ivan Dias atende casamentos no Espaço Alfarre e em toda a região de Santo André. Veja o <a href="/blog/fotografo-de-casamento-santo-andre/">guia de casamentos em Santo André</a> e conheça os <a href="/servicos/cobertura-completa/">pacotes de cobertura completa</a>. <a href="/contato/">Solicite orçamento com data disponível.</a></p>',
+        table: { caption: 'Espaço Alfarre — referência rápida', headers: ['Item', 'Referência'], rows: [['Capacidade', 'Até 300 pessoas'], ['Estilo', 'Contemporâneo'], ['Cobertura recomendada', '8–10 horas'], ['Segundo fotógrafo', 'Opcional']] },
+      },
+    ],
+    faq: [
+      { question: 'Ivan Dias fotografa casamentos no Espaço Alfarre?', answer: 'Sim — Ivan Dias atende casamentos no Espaço Alfarre e em toda a região de Santo André. Entre em contato para verificar disponibilidade.' },
+      { question: 'Quanto custa fotografar no Espaço Alfarre?', answer: 'Os pacotes partem de R$ 6.500. Solicite orçamento personalizado pelo WhatsApp — resposta em até 24 horas.' },
+      { question: 'Segundo fotógrafo é necessário no Alfarre?', answer: 'Para eventos até 300 convidados em espaço único, um fotógrafo geralmente cobre tudo. O segundo fotógrafo é recomendado quando há cerimônia e festa em ambientes separados simultaneamente.' },
+    ],
+  },
+
+  {
+    slug: 'fotografo-casamento-buffet-status',
+    bairro: 'Buffet Status — Santo André',
+    title: 'Casamento no Buffet Status: Guia Completo de Fotografia em Santo André',
+    description: 'Fotógrafo de casamento no Buffet Status em Santo André: tradição com capacidade para 650 pessoas, como escala e iluminação impactam a fotografia e como contratar Ivan Dias.',
+    excerpt: 'O Buffet Status é uma referência tradicional em Santo André para casamentos de grande porte — com capacidade para até 650 pessoas. Sua trajetória consolidada no mercado significa infraestrutura testada e iluminação projetada para eventos de gala, o que cria um ambiente fotograficamente favorável mesmo na grande escala.',
+    date: '2024-07-26',
+    updatedDate: '2024-07-26',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    sections: [
+      {
+        h2: 'Fotografia em grande escala no Buffet Status',
+        content: '<p>Com 650 convidados, o Buffet Status coloca o fotógrafo diante de um desafio claro: documentar um evento grande sem perder os momentos íntimos. A estratégia de Ivan Dias para espaços de grande capacidade combina planos gerais que mostram a magnitude do evento com closes emotivos que preservam a humanidade de cada momento.</p>',
+        h3s: [
+          { title: 'Iluminação de buffet tradicional', content: '<p>Buffets com longa tradição geralmente têm sistemas de iluminação maduros e bem calibrados — desenvolvidos ao longo de anos de eventos. Isso se traduz em luz consistente e previsível, que facilita o trabalho fotográfico e garante qualidade técnica estável ao longo da cobertura.</p>' },
+          { title: 'Escala como narrativa visual', content: '<p>Fotografar 650 pessoas reunidas para celebrar um único casal cria uma oportunidade narrativa única — imagens de perspectiva que mostram a extensão do salão cheio, as filas de mesas decoradas, a multidão aplaudindo na entrada dos noivos. São frames que contam a grandiosidade da celebração de uma forma que salões menores não permitem.</p>' },
+        ],
+      },
+      { h2: 'Ivan Dias e o Buffet Status', content: '<p>Ivan Dias atende casamentos no Buffet Status e em toda a região de Santo André. Para eventos acima de 400 convidados, Ivan Dias recomenda cobertura com segundo fotógrafo para garantir registro completo de todos os ângulos. Veja o <a href="/blog/fotografo-de-casamento-santo-andre/">guia de fotografia em Santo André</a> e os <a href="/servicos/cobertura-completa/">pacotes disponíveis</a>. <a href="/contato/">Solicite orçamento.</a></p>',
+        table: { caption: 'Buffet Status — referência rápida', headers: ['Item', 'Referência'], rows: [['Capacidade', 'Até 650 pessoas'], ['Estilo', 'Buffet tradicional consolidado'], ['Cobertura recomendada', '10–12 horas'], ['Segundo fotógrafo', 'Recomendado']] },
+      },
+    ],
+    faq: [
+      { question: 'Ivan Dias fotografa casamentos no Buffet Status?', answer: 'Sim — Ivan Dias atende casamentos no Buffet Status e em toda a região de Santo André. Entre em contato para verificar disponibilidade.' },
+      { question: 'Segundo fotógrafo é necessário para 650 convidados?', answer: 'Para eventos dessa escala, o segundo fotógrafo é altamente recomendado — garante cobertura simultânea de momentos que acontecem em pontos diferentes do salão, sem furos no registro.' },
+      { question: 'Quanto custa fotografar no Buffet Status?', answer: 'Para eventos de grande porte, os pacotes partem de R$ 8.000. Solicite orçamento personalizado pelo WhatsApp — resposta em até 24 horas.' },
+    ],
+  },
+
+  {
+    slug: 'fotografo-casamento-esplannada-santo-andre',
+    bairro: 'Esplannada — Santo André',
+    title: 'Casamento no Esplannada: Guia Completo de Fotografia em Santo André',
+    description: 'Fotógrafo de casamento no Esplannada em Santo André: lustre de cristal, capela própria, 350 pessoas e como esses elementos criam oportunidades fotográficas únicas.',
+    excerpt: 'O Esplannada combina dois diferenciais visuais raros num mesmo espaço: um lustre de cristal de destaque e uma capela própria para cerimônias. Para o fotógrafo, esses elementos criam composições com refinamento e sacralidade que elevam o padrão visual do álbum final.',
+    date: '2024-07-31',
+    updatedDate: '2024-07-31',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    sections: [
+      {
+        h2: 'Lustre de cristal e capela: os dois ícones fotográficos do Esplannada',
+        content: '<p>O lustre de cristal do Esplannada é um elemento fotográfico de grande impacto — especialmente em planos gerais do salão que mostram o casal com o lustre brilhante ao fundo. Ivan Dias posiciona câmera estrategicamente para incluir esse elemento nas fotos do primeiro dance e da entrada dos noivos.</p>',
+        h3s: [
+          { title: 'A cerimônia na capela própria', content: '<p>Uma cerimônia numa capela integrada ao espaço tem uma sacralidade diferente de uma cerimônia montada num salão adaptado. A arquitetura específica da capela cria enquadramentos naturais — corredores, altar, luz filtrada — que Ivan Dias aproveita para documentar o momento com a emoção que ele merece.</p>' },
+          { title: 'Luz de cristal: reflexos que enriquecem a cena', content: '<p>O lustre de cristal cria micro-reflexos que dançam pelo salão quando a luz incide sobre ele. Ivan Dias antecipa esses reflexos para usá-los como elemento extra nas fotos — não são interferências indesejadas, mas oportunidades visuais que poucos fotógrafos exploram conscientemente.</p>' },
+        ],
+      },
+      { h2: 'Ivan Dias no Esplannada', content: '<p>Ivan Dias atende casamentos no Esplannada e em toda a região de Santo André. Consulte o <a href="/blog/fotografo-de-casamento-santo-andre/">guia de fotografia em Santo André</a> e os <a href="/servicos/cobertura-completa/">pacotes de cobertura</a>. <a href="/contato/">Fale para planejar sua cobertura.</a></p>',
+        table: { caption: 'Esplannada — referência rápida', headers: ['Item', 'Referência'], rows: [['Capacidade', 'Até 350 pessoas'], ['Diferenciais', 'Lustre de cristal + capela própria'], ['Cobertura recomendada', '8–10 horas']] },
+      },
+    ],
+    faq: [
+      { question: 'Ivan Dias fotografa casamentos no Esplannada em Santo André?', answer: 'Sim — Ivan Dias atende casamentos no Esplannada e em toda a região de Santo André. Entre em contato para verificar disponibilidade.' },
+      { question: 'O lustre de cristal aparece nas fotos?', answer: 'Sim — Ivan Dias planeja posicionamentos específicos para incluir o lustre nos frames mais importantes do salão, como entrada dos noivos e primeiro dance.' },
+      { question: 'Quanto custa fotografar no Esplannada?', answer: 'Os pacotes partem de R$ 7.000. Solicite orçamento pelo WhatsApp — resposta em até 24 horas.' },
+    ],
+  },
+
+  {
+    slug: 'fotografo-casamento-grande-ville',
+    bairro: 'Grande Ville — Santo André',
+    title: 'Casamento no Grande Ville: Guia Completo de Fotografia em Santo André',
+    description: 'Fotógrafo de casamento no Grande Ville em Santo André: estilo chalé, 300 pessoas, como a arquitetura diferenciada cria cenários únicos e como Ivan Dias planeja a cobertura.',
+    excerpt: 'O Grande Ville traz para Santo André uma proposta visual diferente dos buffets convencionais: a estética de chalé europeu cria uma atmosfera acolhedora e fotogenicamente rica, com madeira, texturas naturais e um romantismo que espaços modernos raramente conseguem transmitir.',
+    date: '2024-08-05',
+    updatedDate: '2024-08-05',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    sections: [
+      {
+        h2: 'A estética chalé do Grande Ville e a fotografia',
+        content: '<p>A madeira, as texturas naturais e a escala mais íntima de um chalé criam um ambiente onde a câmera encontra profundidade visual em cada ângulo. Diferente de salões com acabamento neutro, o Grande Ville tem personalidade visual própria que aparece nas fotos sem esforço adicional do fotógrafo.</p>',
+        h3s: [
+          { title: 'Madeira como elemento de composição', content: '<p>As estruturas em madeira do Grande Ville funcionam como enquadramentos naturais nas fotos — vigas, portas, painéis. Ivan Dias usa esses elementos para criar composições com profundidade e caráter que identificam o espaço instantaneamente em qualquer foto do álbum.</p>' },
+          { title: 'Atmosfera aconchegante: fotos mais espontâneas', content: '<p>Ambientes com estética de chalé tendem a relaxar os convidados — e convidados relaxados resultam em fotos muito mais espontâneas e emotivas. Ivan Dias aproveita essa atmosfera para documentar momentos genuínos que espaços mais formais raramente proporcionam.</p>' },
+        ],
+      },
+      { h2: 'Ivan Dias no Grande Ville', content: '<p>Ivan Dias atende casamentos no Grande Ville e em toda a região de Santo André. Veja o <a href="/blog/fotografo-de-casamento-santo-andre/">guia de fotografia em Santo André</a> e conheça os <a href="/servicos/cobertura-completa/">pacotes de cobertura</a>. <a href="/contato/">Solicite orçamento.</a></p>',
+        table: { caption: 'Grande Ville — referência rápida', headers: ['Item', 'Referência'], rows: [['Capacidade', 'Até 300 pessoas'], ['Estilo', 'Chalé europeu'], ['Cobertura recomendada', '8–10 horas']] },
+      },
+    ],
+    faq: [
+      { question: 'Ivan Dias fotografa casamentos no Grande Ville?', answer: 'Sim — Ivan Dias atende casamentos no Grande Ville e em toda a região de Santo André. Entre em contato para verificar disponibilidade.' },
+      { question: 'O estilo chalé aparece nas fotos?', answer: 'Sim — a madeira e as texturas naturais do Grande Ville aparecem naturalmente nas composições. Ivan Dias usa esses elementos para criar fotos com identidade visual forte.' },
+      { question: 'Quanto custa fotografar no Grande Ville?', answer: 'Os pacotes partem de R$ 6.500. Solicite orçamento pelo WhatsApp — resposta em até 24 horas.' },
+    ],
+  },
+
+  {
+    slug: 'fotografo-casamento-espaco-monaco',
+    bairro: 'Espaço Mônaco — Santo André',
+    title: 'Casamento no Espaço Mônaco: Guia de Fotografia para Mini Wedding em Santo André',
+    description: 'Fotógrafo de casamento no Espaço Mônaco em Santo André: mini wedding até 80 pessoas, estilo bistrô, como a escala intimista favorece a fotografia e como contratar Ivan Dias.',
+    excerpt: 'O Espaço Mônaco é a escolha de Santo André para quem quer um casamento pequeno com muito estilo — com capacidade para até 80 convidados e uma atmosfera de bistrô parisiense que transforma cada foto em algo elegante e descontraído ao mesmo tempo.',
+    date: '2024-08-10',
+    updatedDate: '2024-08-10',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    sections: [
+      {
+        h2: 'Mini wedding no Mônaco: o que a escala intimista proporciona na fotografia',
+        content: '<p>Com até 80 convidados, o Espaço Mônaco cria uma densidade emocional nas fotos que eventos maiores raramente alcançam. Com menos pessoas e espaço mais compacto, o fotógrafo está sempre próximo dos momentos mais importantes — lágrimas, abraços, risos que num salão de 500 pessoas passariam despercebidos.</p>',
+        h3s: [
+          { title: 'Estética bistrô: detalhe e refinamento', content: '<p>A decoração estilo bistrô do Mônaco é construída nos detalhes — e detalhes são os melhores amigos do fotógrafo de casamento. Ivan Dias dedica tempo específico a closes de mesa, arranjos, cardápios e elementos decorativos que compõem a narrativa visual do álbum.</p>' },
+        ],
+      },
+      { h2: 'Ivan Dias no Espaço Mônaco', content: '<p>Ivan Dias atende casamentos no Espaço Mônaco e em toda a região de Santo André. Para mini weddings, o <a href="/servicos/mini-wedding/">pacote de mini wedding</a> é especialmente adequado. Veja o <a href="/blog/fotografo-de-casamento-santo-andre/">guia de fotografia em Santo André</a>. <a href="/contato/">Solicite orçamento.</a></p>',
+        table: { caption: 'Espaço Mônaco — referência rápida', headers: ['Item', 'Referência'], rows: [['Capacidade', 'Até 80 pessoas'], ['Estilo', 'Bistrô / mini wedding'], ['Cobertura recomendada', '5–7 horas']] },
+      },
+    ],
+    faq: [
+      { question: 'Ivan Dias fotografa mini weddings no Espaço Mônaco?', answer: 'Sim — Ivan Dias atende casamentos no Espaço Mônaco e em toda a região de Santo André. O espaço é ideal para mini weddings com foco em qualidade e intimidade.' },
+      { question: 'Quanto tempo de cobertura para um mini wedding no Mônaco?', answer: 'Para eventos intimistas, 5 a 7 horas de cobertura geralmente são suficientes para capturar todos os momentos desde a preparação até o encerramento.' },
+      { question: 'Quanto custa fotografar no Espaço Mônaco?', answer: 'Para mini weddings, os pacotes partem de R$ 4.500. Solicite orçamento personalizado pelo WhatsApp.' },
+    ],
+  },
+
+  {
+    slug: 'fotografo-casamento-buffet-dmatos',
+    bairro: 'Buffet D\'Matos — Santo André',
+    title: 'Casamento no Buffet D\'Matos: Guia Completo de Fotografia em Santo André',
+    description: 'Fotógrafo de casamento no Buffet D\'Matos em Santo André: como Ivan Dias planeja a cobertura fotográfica neste buffet e como contratar para o seu casamento.',
+    excerpt: 'O Buffet D\'Matos é uma referência em Santo André para casamentos de médio porte — com estrutura consolidada e ambiente voltado para celebrações com atenção aos detalhes. Para a fotografia, espaços com essa maturidade de serviço geralmente significam iluminação bem calibrada e logística previsível.',
+    date: '2024-08-15',
+    updatedDate: '2024-08-15',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    sections: [
+      {
+        h2: 'Cobertura fotográfica no Buffet D\'Matos',
+        content: '<p>Buffets com trajetória consolidada no mercado tendem a ter ambientes bem pensados para eventos — iluminação adequada, circulação organizada e pontos de destaque bem definidos. Isso facilita o trabalho do fotógrafo e resulta em coberturas mais consistentes e completas.</p>',
+      },
+      { h2: 'Ivan Dias no Buffet D\'Matos', content: '<p>Ivan Dias atende casamentos no Buffet D\'Matos e em toda a região de Santo André. Com mais de 700 casamentos fotografados em São Paulo e região, Ivan Dias tem experiência em buffets de diferentes perfis e tamanhos. Veja o <a href="/blog/fotografo-de-casamento-santo-andre/">guia de fotografia em Santo André</a> e os <a href="/servicos/cobertura-completa/">pacotes disponíveis</a>. <a href="/contato/">Solicite orçamento com disponibilidade de data.</a></p>',
+        table: { caption: 'Buffet D\'Matos — referência rápida', headers: ['Item', 'Referência'], rows: [['Capacidade', 'Até 150 pessoas'], ['Cobertura recomendada', '7–9 horas'], ['Serviços', 'Cobertura completa + pré-wedding']] },
+      },
+    ],
+    faq: [
+      { question: 'Ivan Dias fotografa casamentos no Buffet D\'Matos?', answer: 'Sim — Ivan Dias atende casamentos no Buffet D\'Matos e em toda a região de Santo André. Entre em contato para verificar disponibilidade de data.' },
+      { question: 'Quanto custa fotografar no Buffet D\'Matos?', answer: 'Os pacotes partem de R$ 6.000. Solicite orçamento personalizado pelo WhatsApp — resposta em até 24 horas.' },
+    ],
+  },
+
+  {
+    slug: 'fotografo-casamento-espaco-pallazium',
+    bairro: 'Espaço Pallazium — Santo André',
+    title: 'Casamento no Espaço Pallazium: Guia Completo de Fotografia em Santo André',
+    description: 'Fotógrafo de casamento no Espaço Pallazium em Santo André: como Ivan Dias planeja a cobertura para até 300 convidados e os pontos fotográficos do espaço.',
+    excerpt: 'O Espaço Pallazium oferece estrutura para até 300 convidados em Santo André — com ambientes projetados para casamentos e eventos de celebração. Para a fotografia, a capacidade média é um ponto ideal: grande o suficiente para criar imagens com grandiosidade, mas compacto o suficiente para que o fotógrafo esteja sempre próximo dos momentos importantes.',
+    date: '2024-08-20',
+    updatedDate: '2024-08-20',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    sections: [
+      {
+        h2: 'Pontos fotográficos do Espaço Pallazium',
+        content: '<p>Espaços com capacidade entre 200 e 350 pessoas são os mais equilibrados para a fotografia de casamento — permitem planos gerais com impacto sem sacrificar a proximidade necessária para capturar emoções reais. O Espaço Pallazium opera nessa faixa ideal, e Ivan Dias planeja a cobertura para aproveitar ao máximo esse equilíbrio.</p>',
+      },
+      { h2: 'Ivan Dias no Espaço Pallazium', content: '<p>Ivan Dias atende casamentos no Espaço Pallazium e em toda a região de Santo André. Veja o <a href="/blog/fotografo-de-casamento-santo-andre/">guia de fotografia em Santo André</a> e os <a href="/servicos/cobertura-completa/">pacotes de cobertura completa</a>. <a href="/contato/">Solicite orçamento.</a></p>',
+        table: { caption: 'Espaço Pallazium — referência rápida', headers: ['Item', 'Referência'], rows: [['Capacidade', 'Até 300 pessoas'], ['Cobertura recomendada', '8–10 horas'], ['Segundo fotógrafo', 'Opcional']] },
+      },
+    ],
+    faq: [
+      { question: 'Ivan Dias fotografa casamentos no Espaço Pallazium?', answer: 'Sim — Ivan Dias atende casamentos no Espaço Pallazium e em toda a região de Santo André. Entre em contato para verificar disponibilidade.' },
+      { question: 'Quanto custa fotografar no Espaço Pallazium?', answer: 'Os pacotes partem de R$ 6.500. Solicite orçamento pelo WhatsApp — resposta em até 24 horas.' },
+    ],
+  },
+
+  {
+    slug: 'fotografo-casamento-hotel-plaza-mayor',
+    bairro: 'Hotel Plaza Mayor — Santo André',
+    title: 'Casamento no Hotel Plaza Mayor: Guia Completo de Fotografia em Santo André',
+    description: 'Fotógrafo de casamento no Hotel Plaza Mayor (Salão Real) em Santo André: estrutura hoteleira, 300 pessoas, como o ambiente diferenciado impacta a fotografia e como contratar Ivan Dias.',
+    excerpt: 'Casar num hotel tem uma dimensão fotográfica que espaços de festa independentes raramente oferecem: corredores, lobby, quartos do casal, escadarias e uma infraestrutura visual que vai muito além do salão. O Hotel Plaza Mayor com seu Salão Real oferece tudo isso em Santo André.',
+    date: '2024-08-25',
+    updatedDate: '2024-08-25',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    sections: [
+      {
+        h2: 'A estrutura hoteleira como extensão do cenário fotográfico',
+        content: '<p>Um casamento em hotel oferece ao fotógrafo múltiplos cenários além do salão: o quarto onde a noiva se prepara, o lobby pela chegada dos convidados, os corredores e escadarias do hotel. Essas áreas criam uma narrativa visual completa que enriquece muito o álbum final — muito além do que espaços de festa independentes permitem.</p>',
+        h3s: [
+          { title: 'Salão Real: luxo como pano de fundo', content: '<p>O Salão Real do Hotel Plaza Mayor traz o padrão de acabamento hoteleiro para o salão de festas — lustres, carpetes, detalhes arquitetônicos que elevam o visual de qualquer evento. Ivan Dias usa esses elementos para criar imagens com luxo e refinamento naturais.</p>' },
+        ],
+      },
+      { h2: 'Ivan Dias no Hotel Plaza Mayor', content: '<p>Ivan Dias atende casamentos no Hotel Plaza Mayor e em toda a região de Santo André. Veja o <a href="/blog/fotografo-de-casamento-santo-andre/">guia de fotografia em Santo André</a> e os <a href="/servicos/cobertura-completa/">pacotes disponíveis</a>. <a href="/contato/">Solicite orçamento.</a></p>',
+        table: { caption: 'Hotel Plaza Mayor — referência rápida', headers: ['Item', 'Referência'], rows: [['Salão', 'Salão Real'], ['Capacidade', 'Até 300 pessoas'], ['Diferenciais', 'Estrutura hoteleira completa'], ['Cobertura recomendada', '8–10 horas']] },
+      },
+    ],
+    faq: [
+      { question: 'Ivan Dias fotografa casamentos no Hotel Plaza Mayor?', answer: 'Sim — Ivan Dias atende casamentos no Hotel Plaza Mayor e em toda a região de Santo André. Entre em contato para verificar disponibilidade.' },
+      { question: 'O making of no quarto do hotel é incluído?', answer: 'Sim — o making of da noiva no quarto do hotel faz parte da cobertura. A estrutura hoteleira cria um cenário privilegiado para o registro da preparação.' },
+      { question: 'Quanto custa fotografar no Hotel Plaza Mayor?', answer: 'Os pacotes partem de R$ 7.000. Solicite orçamento personalizado pelo WhatsApp — resposta em até 24 horas.' },
+    ],
+  },
+
+  // ─── São Bernardo do Campo — artigos por espaço ──────────────────────────────
+
+  {
+    slug: 'fotografo-casamento-espaco-favoritto',
+    bairro: 'Espaço Favoritto — São Bernardo do Campo',
+    title: 'Casamento no Espaço Favoritto: Guia Completo de Fotografia em São Bernardo do Campo',
+    description: 'Fotógrafo de casamento no Espaço Favoritto em São Bernardo do Campo: 4 ambientes integrados, exclusividade por evento, como a cobertura contínua entre espaços define o álbum.',
+    excerpt: 'O Espaço Favoritto é o maior destaque de São Bernardo do Campo para casamentos — com quatro ambientes integrados (salão social, discoteca, bar gourmet e jardim de preservação) e política de exclusividade de um evento por dia. Para o fotógrafo, isso significa liberdade total para cobrir cada espaço sem interferência de outros eventos.',
+    date: '2024-08-30',
+    updatedDate: '2024-08-30',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    sections: [
+      {
+        h2: 'Quatro ambientes, uma cobertura contínua',
+        content: '<p>O maior desafio fotográfico do Espaço Favoritto é também o seu maior presente: quatro ambientes completamente diferentes acontecendo no mesmo evento. A discoteca tem luz de show; o bar gourmet tem luz quente e íntima; o jardim tem luz natural; o salão social tem iluminação técnica de alta voltagem. Cobrir todos com qualidade consistente exige um fotógrafo que adapta câmera e posicionamento em tempo real, sem pausa.</p>',
+        h3s: [
+          { title: 'Jardim de preservação: o diferencial externo', content: '<p>O jardim de preservação do Favoritto é um dos pontos fotográficos mais fortes do espaço — vegetação nativa, som de natureza e uma luz filtrada pelas árvores que cria ambientes para fotos do casal completamente diferentes do interior. Ivan Dias reserva tempo específico no cronograma para explorar o jardim durante a golden hour.</p>' },
+          { title: 'Exclusividade: um evento, atenção total', content: '<p>Com apenas um evento por dia, o Favoritto garante que todos os recursos do espaço — incluindo iluminação, acústica e equipe — estão dedicados exclusivamente ao casamento. Para o fotógrafo, isso significa sem interferências externas, sem pressa para liberar o espaço e liberdade para criar sem pressão de horário.</p>' },
+        ],
+      },
+      { h2: 'Por que Ivan Dias para o seu casamento no Favoritto', content: '<p>Ivan Dias atende casamentos no Espaço Favoritto e em toda a região de São Bernardo do Campo. Com mais de 700 casamentos fotografados em São Paulo e região — incluindo espaços com múltiplos ambientes —, Ivan Dias tem o planejamento e a experiência para cobrir cada ambiente do Favoritto sem perder nenhum momento. Conheça o <a href="/fotografo-de-casamento-sao-bernardo-do-campo/">guia de fotografia em São Bernardo</a> e os <a href="/servicos/cobertura-completa/">pacotes de cobertura completa</a>. <a href="/contato/">Solicite orçamento.</a></p>',
+        table: { caption: 'Espaço Favoritto — referência rápida', headers: ['Item', 'Referência'], rows: [['Capacidade', 'Até 210 pessoas'], ['Ambientes', 'Salão + discoteca + bar gourmet + jardim'], ['Exclusividade', '1 evento por dia'], ['Cobertura recomendada', '9–11 horas'], ['Drone', 'Recomendado para o jardim']] },
+      },
+    ],
+    faq: [
+      { question: 'Ivan Dias fotografa casamentos no Espaço Favoritto?', answer: 'Sim — Ivan Dias atende casamentos no Espaço Favoritto e em toda a região de São Bernardo do Campo. Entre em contato para verificar disponibilidade de data.' },
+      { question: 'Quanto tempo de cobertura para um casamento no Favoritto?', answer: 'Com quatro ambientes integrados, recomenda-se no mínimo 9 horas — para cobrir making of, cerimônia, cocktail no jardim, jantar e festa em todos os espaços sem furos no registro.' },
+      { question: 'Drone é permitido no jardim do Favoritto?', answer: 'Confirme com o espaço a permissão de voo — o jardim de preservação é um dos cenários mais impactantes para imagens aéreas e vale verificar essa possibilidade no planejamento.' },
+      { question: 'Quanto custa fotografar no Espaço Favoritto?', answer: 'Os pacotes partem de R$ 7.500 para cobertura completa dos quatro ambientes. Solicite orçamento pelo WhatsApp — resposta em até 24 horas.' },
+      { question: 'Segundo fotógrafo é recomendado no Favoritto?', answer: 'Para eventos com muitos momentos simultâneos nos diferentes ambientes, o segundo fotógrafo garante cobertura sem furos. Ivan Dias oferece essa opção nos pacotes premium.' },
+    ],
+  },
+
+  {
+    slug: 'fotografo-casamento-sitio-sao-jorge-sbc',
+    bairro: 'Sítio São Jorge — São Bernardo do Campo',
+    title: 'Casamento no Sítio São Jorge: Guia Completo de Fotografia em São Bernardo do Campo',
+    description: 'Fotógrafo de casamento no Sítio São Jorge em São Bernardo do Campo: complexo com 4 espaços (Vdara, Demarchi, Jardim Secreto, Pergolado), múltiplos cenários e cobertura completa.',
+    excerpt: 'O Sítio São Jorge é um complexo de eventos com quatro espaços distintos em São Bernardo do Campo — Vdara, Demarchi, Jardim Secreto e Pergolado — com capacidade que vai de 250 a 800 pessoas. Para a fotografia, cada espaço tem uma personalidade visual própria, criando um repertório de cenários que poucos locais da região oferecem.',
+    date: '2024-09-04',
+    updatedDate: '2024-09-04',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    sections: [
+      {
+        h2: 'Quatro espaços, quatro identidades fotográficas',
+        content: '<p>O Sítio São Jorge oferece algo raro: a possibilidade de escolher o espaço que mais combina com o estilo visual do casal. O Jardim Secreto tem vocação para fotos com natureza e luz filtrada; o Pergolado cria composições geométricas com as estruturas; o Vdara tem elegância contemporânea; e o Demarchi combina capacidade e sofisticação.</p>',
+        h3s: [
+          { title: 'Jardim Secreto: o espaço mais fotogênico do complexo', content: '<p>Com vegetação cuidadosamente planejada e uma atmosfera de descoberta, o Jardim Secreto é o ponto de maior potencial fotográfico do Sítio São Jorge. A cerimônia ao ar livre neste espaço, com as plantas e a luz natural como cenário, produz imagens com uma beleza que espaços internos raramente atingem.</p>' },
+          { title: 'Pergolado: geometria como recurso', content: '<p>As estruturas do Pergolado criam enquadramentos geométricos naturais — o fotógrafo posiciona o casal dentro das aberturas e a própria estrutura compõe a imagem. Ivan Dias usa esse recurso para criar retratos com profundidade e elegância arquitetônica.</p>' },
+        ],
+      },
+      { h2: 'Ivan Dias no Sítio São Jorge', content: '<p>Ivan Dias atende casamentos no Sítio São Jorge e em toda a região de São Bernardo do Campo. Antes de confirmar qual dos quatro espaços usar, vale conversar sobre qual se alinha melhor com o estilo visual desejado para o álbum. Veja o <a href="/fotografo-de-casamento-sao-bernardo-do-campo/">guia de fotografia em São Bernardo</a> e <a href="/contato/">solicite orçamento.</a></p>',
+        table: { caption: 'Sítio São Jorge — referência rápida', headers: ['Espaço', 'Capacidade'], rows: [['Vdara', 'Até 250 pessoas'], ['Demarchi', 'Até 400 pessoas'], ['Jardim Secreto', 'Cerimônia externa'], ['Pergolado', 'Até 800 pessoas']] },
+      },
+    ],
+    faq: [
+      { question: 'Ivan Dias fotografa casamentos no Sítio São Jorge?', answer: 'Sim — Ivan Dias atende casamentos em todos os espaços do Sítio São Jorge e em toda a região de São Bernardo do Campo. Entre em contato para verificar disponibilidade.' },
+      { question: 'Qual espaço do Sítio São Jorge é mais fotogênico?', answer: 'O Jardim Secreto é o ponto de maior potencial fotográfico — com cerimônia ao ar livre e vegetação planejada. Mas cada espaço tem identidade visual própria; a escolha ideal depende do estilo de casamento que o casal quer.' },
+      { question: 'Drone é recomendado no Sítio São Jorge?', answer: 'Sim — o complexo de quatro espaços em área aberta é ideal para registros aéreos que mostram toda a extensão do local. Ivan Dias verifica permissão de voo no planejamento.' },
+      { question: 'Quanto custa fotografar no Sítio São Jorge?', answer: 'Os pacotes partem de R$ 7.000, variando conforme o espaço e o porte do evento. Solicite orçamento pelo WhatsApp.' },
+    ],
+  },
+
+  {
+    slug: 'fotografo-casamento-recanto-dos-sonhos-sbc',
+    bairro: 'Recanto dos Sonhos — São Bernardo do Campo',
+    title: 'Casamento no Recanto dos Sonhos: Guia de Fotografia em São Bernardo do Campo',
+    description: 'Fotógrafo de casamento no Chácara e Buffet Recanto dos Sonhos em São Bernardo do Campo: espaço premiado, 350 pessoas, como a chácara cria cenários naturais para fotografia.',
+    excerpt: 'O Chácara e Buffet Recanto dos Sonhos é um dos espaços premiados de São Bernardo do Campo para casamentos — com capacidade para até 350 convidados e a atmosfera de chácara que combina natureza com infraestrutura de buffet de alto padrão.',
+    date: '2024-09-09',
+    updatedDate: '2024-09-09',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    sections: [
+      {
+        h2: 'Chácara como cenário fotográfico: o que o Recanto dos Sonhos oferece',
+        content: '<p>A proposta de chácara do Recanto dos Sonhos entrega ao fotógrafo aquilo que espaços puramente internos não têm: natureza real como pano de fundo. Árvores maduras, gramado, céu aberto e ar limpo criam uma qualidade de imagem que nenhuma decoração de salão consegue simular.</p>',
+        h3s: [
+          { title: 'Cerimônia ao ar livre: aproveitando o espaço natural', content: '<p>Com uma chácara como estrutura, a cerimônia ao ar livre é uma opção natural — e fotograficamente, uma das mais ricas. Ivan Dias planeja o horário ideal para a cerimônia externa no Recanto dos Sonhos considerando a posição do sol e a golden hour disponível na data.</p>' },
+        ],
+      },
+      { h2: 'Ivan Dias no Recanto dos Sonhos', content: '<p>Ivan Dias atende casamentos no Recanto dos Sonhos e em toda a região de São Bernardo do Campo. Veja o <a href="/fotografo-de-casamento-sao-bernardo-do-campo/">guia de fotografia em São Bernardo</a> e os <a href="/servicos/cobertura-completa/">pacotes disponíveis</a>. <a href="/contato/">Solicite orçamento.</a></p>',
+        table: { caption: 'Recanto dos Sonhos — referência rápida', headers: ['Item', 'Referência'], rows: [['Capacidade', 'Até 350 pessoas'], ['Estilo', 'Chácara premiada'], ['Cobertura recomendada', '8–10 horas'], ['Drone', 'Recomendado']] },
+      },
+    ],
+    faq: [
+      { question: 'Ivan Dias fotografa casamentos no Recanto dos Sonhos?', answer: 'Sim — Ivan Dias atende casamentos no Recanto dos Sonhos e em toda a região de São Bernardo do Campo. Entre em contato para verificar disponibilidade.' },
+      { question: 'Quanto custa fotografar no Recanto dos Sonhos?', answer: 'Os pacotes partem de R$ 7.000. Solicite orçamento personalizado pelo WhatsApp — resposta em até 24 horas.' },
+    ],
+  },
+
+  {
+    slug: 'fotografo-casamento-lago-park-sao-bernardo',
+    bairro: 'Lago Park — São Bernardo do Campo',
+    title: 'Casamento no Lago Park: Guia Completo de Fotografia em São Bernardo do Campo',
+    description: 'Fotógrafo de casamento no Lago Park em São Bernardo do Campo: beira de lago, reflexos na água, luz natural e como Ivan Dias planeja a cobertura neste cenário único.',
+    excerpt: 'O Lago Park oferece algo que muito poucos espaços de casamento têm: um lago real como elemento central do cenário. Para a fotografia, a presença da água multiplica as possibilidades — reflexos, perspectivas, a linha do horizonte sobre o lago e uma qualidade de luz que só ambientes aquáticos proporcionam.',
+    date: '2024-09-14',
+    updatedDate: '2024-09-14',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    sections: [
+      {
+        h2: 'O lago como protagonista fotográfico',
+        content: '<p>Água em movimento ou parada é um dos elementos mais poderosos da fotografia — cria reflexos, suaviza o ambiente sonoro (relaxando os fotografados) e oferece perspectivas únicas de composição. No Lago Park, o lago não é decoração: é parte estrutural do cenário e aparece naturalmente em dezenas de enquadramentos ao longo do evento.</p>',
+        h3s: [
+          { title: 'Reflexos ao entardecer: a janela mágica', content: '<p>Quando o sol começa a baixar, o reflexo do céu colorido no lago cria um espelho natural que dobra a beleza da cena. Ivan Dias planeja a sessão do casal à beira do lago para coincidir com esse momento — geralmente os frames mais impactantes de toda a cobertura no Lago Park.</p>' },
+          { title: 'Drone sobre a água: perspectiva única', content: '<p>O lago do Lago Park é um dos cenários mais fotogênicos para imagens aéreas de toda a região do ABC. O drone captura o espelho d\'água com o espaço ao redor de uma perspectiva que nenhum ângulo no chão alcança.</p>' },
+        ],
+      },
+      { h2: 'Ivan Dias no Lago Park', content: '<p>Ivan Dias atende casamentos no Lago Park e em toda a região de São Bernardo do Campo. Para aproveitar ao máximo o cenário aquático, o <a href="/servicos/drone/">pacote com drone</a> é especialmente recomendado. Veja o <a href="/fotografo-de-casamento-sao-bernardo-do-campo/">guia de fotografia em São Bernardo</a>. <a href="/contato/">Solicite orçamento.</a></p>',
+        table: { caption: 'Lago Park — referência rápida', headers: ['Item', 'Referência'], rows: [['Capacidade', 'Até 400 pessoas'], ['Destaque', 'Beira de lago'], ['Drone', 'Altamente recomendado'], ['Cobertura recomendada', '9–11 horas']] },
+      },
+    ],
+    faq: [
+      { question: 'Ivan Dias fotografa casamentos no Lago Park?', answer: 'Sim — Ivan Dias atende casamentos no Lago Park e em toda a região de São Bernardo do Campo. Entre em contato para verificar disponibilidade.' },
+      { question: 'Drone é permitido no Lago Park?', answer: 'Confirme com o espaço — o lago é um dos cenários mais impactantes para imagens aéreas da região e vale verificar essa permissão no planejamento.' },
+      { question: 'Qual o melhor horário para fotos à beira do lago?', answer: 'O entardecer, quando o reflexo do céu no lago cria espelhos de cor, é a janela mais valiosa. Ivan Dias planeja o cronograma para estar à beira do lago nesse momento.' },
+      { question: 'Quanto custa fotografar no Lago Park?', answer: 'Os pacotes partem de R$ 7.500. Solicite orçamento pelo WhatsApp — resposta em até 24 horas.' },
+    ],
+  },
+
+  {
+    slug: 'fotografo-casamento-espelho-dagua-sbc',
+    bairro: 'Espelho D\'Água — São Bernardo do Campo',
+    title: 'Casamento no Espelho D\'Água: Guia de Fotografia em São Bernardo do Campo',
+    description: 'Fotógrafo de casamento no Espelho D\'Água em São Bernardo do Campo: Represa Billings como cenário, reflexos, natureza e como Ivan Dias planeja a cobertura neste espaço único.',
+    excerpt: 'O Espelho D\'Água fica às margens da Represa Billings — um dos cenários naturais mais bonitos da Grande São Paulo. Para o fotógrafo, a represa como pano de fundo é um recurso visual que eleva imediatamente a qualidade e a memória de cada imagem registrada.',
+    date: '2024-09-19',
+    updatedDate: '2024-09-19',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    sections: [
+      {
+        h2: 'Represa Billings como cenário: o que isso significa para a fotografia',
+        content: '<p>Poucos espaços de casamento na Grande São Paulo têm uma represa como cenário imediato. A extensão da Represa Billings cria uma linha de horizonte sobre a água, reflexos que variam com o horário e uma escala de natureza que contextualiza o evento de forma única. Para o álbum, fotos com a represa ao fundo têm uma identidade visual inconfundível.</p>',
+        h3s: [
+          { title: 'Luz sobre a água: manhã e entardecer', content: '<p>A luz refletida pela represa cria uma qualidade suave e difusa que favorece muito a fotografia de retrato — especialmente nas primeiras horas da manhã e no final do dia. Ivan Dias aproveita essas janelas de luz para as fotos do casal com o espelho d\'água ao fundo.</p>' },
+        ],
+      },
+      { h2: 'Ivan Dias no Espelho D\'Água', content: '<p>Ivan Dias atende casamentos no Espelho D\'Água e em toda a região de São Bernardo do Campo. O <a href="/servicos/drone/">pacote com drone</a> é especialmente recomendado para capturar a extensão da represa. Veja o <a href="/fotografo-de-casamento-sao-bernardo-do-campo/">guia de fotografia em São Bernardo</a>. <a href="/contato/">Solicite orçamento.</a></p>',
+        table: { caption: 'Espelho D\'Água — referência rápida', headers: ['Item', 'Referência'], rows: [['Capacidade', 'Até 300 pessoas'], ['Destaque', 'Represa Billings como cenário'], ['Drone', 'Muito recomendado'], ['Cobertura recomendada', '8–10 horas']] },
+      },
+    ],
+    faq: [
+      { question: 'Ivan Dias fotografa casamentos no Espelho D\'Água?', answer: 'Sim — Ivan Dias atende casamentos no Espelho D\'Água e em toda a região de São Bernardo do Campo. Entre em contato para verificar disponibilidade.' },
+      { question: 'A represa aparece nas fotos?', answer: 'Sim — e é um dos elementos mais impactantes do álbum. Ivan Dias planeja composições que incluem a represa como elemento central ou fundo das fotos do casal.' },
+      { question: 'Quanto custa fotografar no Espelho D\'Água?', answer: 'Os pacotes partem de R$ 7.000. Solicite orçamento pelo WhatsApp — resposta em até 24 horas.' },
+    ],
+  },
+
+  {
+    slug: 'fotografo-casamento-allegro-buffet-sbc',
+    bairro: 'Allegro Buffet — São Bernardo do Campo',
+    title: 'Casamento no Allegro Buffet: Guia de Fotografia em São Bernardo do Campo',
+    description: 'Fotógrafo de casamento no Allegro Buffet (Espaço Venêto e Villa Maranello) em São Bernardo do Campo: estilo toscano, dois espaços e como a estética italiana favorece a fotografia.',
+    excerpt: 'O Allegro Buffet opera dois espaços com estética italiana em São Bernardo do Campo — o Espaço Venêto e a Villa Maranello. A arquitetura inspirada na Toscana cria um cenário visualmente rico com arcos, pedra, jardins mediterrâneos e uma iluminação que remete às vilas italianas.',
+    date: '2024-09-24',
+    updatedDate: '2024-09-24',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    sections: [
+      {
+        h2: 'Estética toscana como recurso fotográfico',
+        content: '<p>A arquitetura mediterrânea tem elementos que a câmera captura com riqueza excepcional: pedra aparente, arcos, telhas italianas, jardins com ciprestes. No Allegro Buffet, esses elementos criam composições com uma elegância européia que espaços de arquitetura neutra não oferecem.</p>',
+        h3s: [
+          { title: 'Venêto vs Maranello: duas identidades visuais', content: '<p>O Espaço Venêto e a Villa Maranello têm características distintas — diferentes capacidades e personalidades visuais dentro da mesma proposta italiana. Ivan Dias conversa com o casal sobre qual espaço se alinha melhor com o estilo de álbum desejado antes de definir a estratégia de cobertura.</p>' },
+        ],
+      },
+      { h2: 'Ivan Dias no Allegro Buffet', content: '<p>Ivan Dias atende casamentos no Allegro Buffet e em toda a região de São Bernardo do Campo. Veja o <a href="/fotografo-de-casamento-sao-bernardo-do-campo/">guia de fotografia em São Bernardo</a> e os <a href="/servicos/cobertura-completa/">pacotes de cobertura</a>. <a href="/contato/">Solicite orçamento.</a></p>',
+        table: { caption: 'Allegro Buffet — referência rápida', headers: ['Espaço', 'Capacidade'], rows: [['Venêto', 'Até 300 pessoas'], ['Villa Maranello', 'Até 400 pessoas'], ['Estilo', 'Toscano / mediterrâneo']] },
+      },
+    ],
+    faq: [
+      { question: 'Ivan Dias fotografa casamentos no Allegro Buffet?', answer: 'Sim — Ivan Dias atende casamentos nos dois espaços do Allegro Buffet (Venêto e Maranello) e em toda a região de São Bernardo. Entre em contato para verificar disponibilidade.' },
+      { question: 'A estética italiana aparece nas fotos?', answer: 'Sim — os arcos, pedras e jardins mediterrâneos são usados por Ivan Dias como elementos ativos de composição, não apenas como fundo. O resultado são imagens com elegância e identidade visual fortes.' },
+      { question: 'Quanto custa fotografar no Allegro Buffet?', answer: 'Os pacotes partem de R$ 7.000. Solicite orçamento pelo WhatsApp — resposta em até 24 horas.' },
+    ],
+  },
+
+  {
+    slug: 'fotografo-casamento-pbsom-eventos',
+    bairro: 'PBsom Eventos — São Bernardo do Campo',
+    title: 'Casamento no PBsom Eventos: Guia de Fotografia em São Bernardo do Campo',
+    description: 'Fotógrafo de casamento no PBsom Eventos em São Bernardo do Campo: tecnologia acústica, 300 pessoas, como o ambiente bem projetado beneficia a fotografia e como contratar Ivan Dias.',
+    excerpt: 'O PBsom Eventos é um espaço de São Bernardo do Campo conhecido pela tecnologia acústica de alto padrão — o que se traduz em eventos com iluminação de show e uma infraestrutura técnica que beneficia diretamente a qualidade das fotos da festa.',
+    date: '2024-09-29',
+    updatedDate: '2024-09-29',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    sections: [
+      {
+        h2: 'Tecnologia de evento e fotografia: como se relacionam',
+        content: '<p>Espaços com alta tecnologia de som e luz geralmente investem também em iluminação de show de qualidade — e isso é ótimo para a fotografia. Luzes de cor, spots direcionados e efeitos controlados criam imagens da festa com dinâmica visual que ambientes com iluminação estática nunca alcançam.</p>',
+      },
+      { h2: 'Ivan Dias no PBsom Eventos', content: '<p>Ivan Dias atende casamentos no PBsom Eventos e em toda a região de São Bernardo do Campo. Veja o <a href="/fotografo-de-casamento-sao-bernardo-do-campo/">guia de fotografia em São Bernardo</a> e os <a href="/servicos/cobertura-completa/">pacotes disponíveis</a>. <a href="/contato/">Solicite orçamento.</a></p>',
+        table: { caption: 'PBsom Eventos — referência rápida', headers: ['Item', 'Referência'], rows: [['Capacidade', 'Até 300 pessoas'], ['Destaque', 'Tecnologia acústica e de luz'], ['Cobertura recomendada', '8–10 horas']] },
+      },
+    ],
+    faq: [
+      { question: 'Ivan Dias fotografa casamentos no PBsom Eventos?', answer: 'Sim — Ivan Dias atende casamentos no PBsom Eventos e em toda a região de São Bernardo do Campo. Entre em contato para verificar disponibilidade.' },
+      { question: 'Quanto custa fotografar no PBsom Eventos?', answer: 'Os pacotes partem de R$ 6.500. Solicite orçamento pelo WhatsApp — resposta em até 24 horas.' },
+    ],
+  },
+
+  // ─── São Caetano do Sul — artigos por espaço ─────────────────────────────────
+
+  {
+    slug: 'fotografo-casamento-buffet-7-mares',
+    bairro: 'Buffet 7 Mares — São Caetano do Sul',
+    title: 'Casamento no Buffet 7 Mares: Guia Completo de Fotografia em São Caetano do Sul',
+    description: 'Fotógrafo de casamento no Buffet 7 Mares em São Caetano do Sul: espaço para 550 pessoas, especializado em frutos do mar, como o ambiente impacta a fotografia e como contratar Ivan Dias.',
+    excerpt: 'O Buffet 7 Mares é uma referência em São Caetano do Sul com capacidade para até 550 convidados. A especialidade em frutos do mar cria uma identidade gastronômica marcante que se reflete na decoração e na atmosfera do evento — elementos que enriquecem a narrativa visual do álbum de casamento.',
+    date: '2024-10-04',
+    updatedDate: '2024-10-04',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    sections: [
+      {
+        h2: 'Fotografia em buffet de grande capacidade: desafios e oportunidades',
+        content: '<p>Com 550 convidados, o Buffet 7 Mares coloca o fotógrafo num ambiente de alta energia e escala. A estratégia de Ivan Dias para eventos desta magnitude combina planos gerais que documentam a grandiosidade da celebração com aproximações que preservam os momentos íntimos — garantindo que o álbum conte tanto a história da festa quanto a história do casal.</p>',
+        h3s: [
+          { title: 'Identidade gastronômica como elemento visual', content: '<p>A temática de frutos do mar se reflete na decoração e nos elementos visuais do 7 Mares — e esses elementos são parte da narrativa do álbum. Ivan Dias inclui closes de decoração e da mesa que contextualizam o ambiente e enriquecem a história visual do casamento.</p>' },
+        ],
+      },
+      { h2: 'Ivan Dias no Buffet 7 Mares', content: '<p>Ivan Dias atende casamentos no Buffet 7 Mares e em toda a região de São Caetano do Sul. Veja o <a href="/fotografo-de-casamento-sao-caetano-do-sul/">guia de fotografia em São Caetano</a> e os <a href="/servicos/cobertura-completa/">pacotes disponíveis</a>. <a href="/contato/">Solicite orçamento.</a></p>',
+        table: { caption: 'Buffet 7 Mares — referência rápida', headers: ['Item', 'Referência'], rows: [['Capacidade', 'Até 550 pessoas'], ['Especialidade', 'Frutos do mar'], ['Cobertura recomendada', '10–12 horas'], ['Segundo fotógrafo', 'Recomendado']] },
+      },
+    ],
+    faq: [
+      { question: 'Ivan Dias fotografa casamentos no Buffet 7 Mares?', answer: 'Sim — Ivan Dias atende casamentos no Buffet 7 Mares e em toda a região de São Caetano do Sul. Entre em contato para verificar disponibilidade.' },
+      { question: 'Segundo fotógrafo é necessário para 550 convidados?', answer: 'Para eventos dessa escala, o segundo fotógrafo é altamente recomendado — garante cobertura simultânea em diferentes pontos do salão sem furos no registro.' },
+      { question: 'Quanto custa fotografar no Buffet 7 Mares?', answer: 'Para eventos de grande porte, os pacotes partem de R$ 8.000. Solicite orçamento pelo WhatsApp — resposta em até 24 horas.' },
+    ],
+  },
+
+  {
+    slug: 'fotografo-casamento-cook-hall-buffet',
+    bairro: 'Cook Hall Buffet — São Caetano do Sul',
+    title: 'Casamento no Cook Hall Buffet: Guia de Fotografia em São Caetano do Sul',
+    description: 'Fotógrafo de casamento no Cook Hall Buffet em São Caetano do Sul: 300 pessoas, ambiente diferenciado e como Ivan Dias planeja a cobertura fotográfica neste espaço.',
+    excerpt: 'O Cook Hall Buffet em São Caetano do Sul combina gastronomia de alto padrão com um espaço de eventos bem estruturado para até 300 convidados. Para a fotografia, a atenção ao detalhe que define a proposta gastronômica do Cook Hall se traduz em elementos visuais que enriquecem o álbum final.',
+    date: '2024-10-09',
+    updatedDate: '2024-10-09',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    sections: [
+      {
+        h2: 'Gastronomia e fotografia: o detalhe como narrativa',
+        content: '<p>Buffets com proposta gastronômica marcante criam mesas e apresentações que são parte da identidade visual do casamento. Ivan Dias documenta esses elementos com a mesma atenção que dá às emoções do casal — porque daqui a vinte anos, ver a mesa montada com cuidado vai trazer de volta toda a memória da festa.</p>',
+      },
+      { h2: 'Ivan Dias no Cook Hall Buffet', content: '<p>Ivan Dias atende casamentos no Cook Hall Buffet e em toda a região de São Caetano do Sul. Veja o <a href="/fotografo-de-casamento-sao-caetano-do-sul/">guia de fotografia em São Caetano</a>. <a href="/contato/">Solicite orçamento.</a></p>',
+        table: { caption: 'Cook Hall Buffet — referência rápida', headers: ['Item', 'Referência'], rows: [['Capacidade', 'Até 300 pessoas'], ['Destaque', 'Gastronomia de alto padrão'], ['Cobertura recomendada', '8–10 horas']] },
+      },
+    ],
+    faq: [
+      { question: 'Ivan Dias fotografa casamentos no Cook Hall Buffet?', answer: 'Sim — Ivan Dias atende casamentos no Cook Hall Buffet e em toda a região de São Caetano do Sul. Entre em contato para verificar disponibilidade.' },
+      { question: 'Quanto custa fotografar no Cook Hall Buffet?', answer: 'Os pacotes partem de R$ 6.500. Solicite orçamento pelo WhatsApp — resposta em até 24 horas.' },
+    ],
+  },
+
+  {
+    slug: 'fotografo-casamento-alameda-7-sao-caetano',
+    bairro: 'Alameda 7 — São Caetano do Sul',
+    title: 'Casamento no Alameda 7: Guia de Fotografia para Mini Wedding em São Caetano do Sul',
+    description: 'Fotógrafo de casamento no Alameda 7 em São Caetano do Sul: espaço intimista para 150 pessoas, como a escala favorece a fotografia documental e como contratar Ivan Dias.',
+    excerpt: 'O Alameda 7 em São Caetano do Sul é a escolha para casamentos mais íntimos — com capacidade para até 150 convidados. A escala reduzida cria um ambiente onde o fotógrafo consegue estar próximo de todos os momentos importantes, resultando em um álbum com densidade emocional real.',
+    date: '2024-10-14',
+    updatedDate: '2024-10-14',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    sections: [
+      {
+        h2: 'Escala intimista do Alameda 7 e fotografia documental',
+        content: '<p>Com até 150 convidados, o Alameda 7 cria exatamente o ambiente que a fotografia documental mais favorece — escala humana, proximidade real entre as pessoas e uma atmosfera onde os momentos genuínos acontecem com mais frequência. Ivan Dias adota uma abordagem mais discreta e próxima neste tipo de espaço, priorizando a captura de emoções espontâneas.</p>',
+      },
+      { h2: 'Ivan Dias no Alameda 7', content: '<p>Ivan Dias atende casamentos no Alameda 7 e em toda a região de São Caetano do Sul. Para eventos intimistas, o <a href="/servicos/mini-wedding/">pacote de mini wedding</a> é a opção ideal. <a href="/contato/">Solicite orçamento.</a></p>',
+        table: { caption: 'Alameda 7 — referência rápida', headers: ['Item', 'Referência'], rows: [['Capacidade', 'Até 150 pessoas'], ['Estilo', 'Intimista'], ['Cobertura recomendada', '6–8 horas']] },
+      },
+    ],
+    faq: [
+      { question: 'Ivan Dias fotografa casamentos no Alameda 7?', answer: 'Sim — Ivan Dias atende casamentos no Alameda 7 e em toda a região de São Caetano do Sul. Entre em contato para verificar disponibilidade.' },
+      { question: 'Quanto custa fotografar no Alameda 7?', answer: 'Para eventos intimistas, os pacotes partem de R$ 5.000. Solicite orçamento pelo WhatsApp.' },
+    ],
+  },
+
+  {
+    slug: 'fotografo-casamento-casa-flora-eventos',
+    bairro: 'Casa Flora Eventos — São Caetano do Sul',
+    title: 'Casamento na Casa Flora Eventos: Guia de Fotografia em São Caetano do Sul',
+    description: 'Fotógrafo de casamento na Casa Flora Eventos em São Caetano do Sul: cenografia floral, 300 pessoas, como as flores transformam o cenário fotográfico e como contratar Ivan Dias.',
+    excerpt: 'A Casa Flora Eventos tem no próprio nome a sua proposta visual mais forte: cenografia floral como elemento central da experiência. Para o fotógrafo de casamento, isso significa um ambiente onde cada detalhe foi pensado esteticamente — flores, cores e texturas que criam composições visuais naturalmente bonitas em todos os ângulos.',
+    date: '2024-10-19',
+    updatedDate: '2024-10-19',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    sections: [
+      {
+        h2: 'Cenografia floral como diferencial fotográfico',
+        content: '<p>Flores são um dos elementos mais fotogênicos que existem — cor, textura, profundidade e uma dimensão orgânica que nenhuma decoração artificial replica. Na Casa Flora Eventos, a cenografia floral é parte estrutural do espaço, não apenas decoração adicionada. Para o fotógrafo, isso significa composições ricas e naturalmente belas em praticamente qualquer ângulo.</p>',
+        h3s: [
+          { title: 'Detalhes florais: uma coleção paralela dentro do álbum', content: '<p>Ivan Dias dedica atenção específica aos closes florais na Casa Flora — arranjos de mesa, arco floral da cerimônia, boutonnière do noivo, buquê da noiva. Essas fotos formam uma coleção de detalhes que complementa os registros das pessoas e conta a história estética do casamento.</p>' },
+        ],
+      },
+      { h2: 'Ivan Dias na Casa Flora Eventos', content: '<p>Ivan Dias atende casamentos na Casa Flora Eventos e em toda a região de São Caetano do Sul. Veja o <a href="/fotografo-de-casamento-sao-caetano-do-sul/">guia de fotografia em São Caetano</a>. <a href="/contato/">Solicite orçamento.</a></p>',
+        table: { caption: 'Casa Flora Eventos — referência rápida', headers: ['Item', 'Referência'], rows: [['Capacidade', 'Até 300 pessoas'], ['Destaque', 'Cenografia floral'], ['Cobertura recomendada', '8–10 horas']] },
+      },
+    ],
+    faq: [
+      { question: 'Ivan Dias fotografa casamentos na Casa Flora Eventos?', answer: 'Sim — Ivan Dias atende casamentos na Casa Flora Eventos e em toda a região de São Caetano do Sul. Entre em contato para verificar disponibilidade.' },
+      { question: 'A cenografia floral aparece nas fotos?', answer: 'Sim — e é um dos elementos mais ricos do álbum. Ivan Dias dedica tempo específico a closes florais que capturam a identidade estética do espaço.' },
+      { question: 'Quanto custa fotografar na Casa Flora Eventos?', answer: 'Os pacotes partem de R$ 6.500. Solicite orçamento pelo WhatsApp — resposta em até 24 horas.' },
+    ],
+  },
+
+  {
+    slug: 'fotografo-casamento-eco-buffet-social',
+    bairro: 'Eco Buffet Social — São Caetano do Sul',
+    title: 'Casamento no Eco Buffet Social: Guia de Fotografia em São Caetano do Sul',
+    description: 'Fotógrafo de casamento no Eco Buffet Social em São Caetano do Sul: espaço para 250 pessoas e como Ivan Dias planeja a cobertura fotográfica completa neste buffet.',
+    excerpt: 'O Eco Buffet Social em São Caetano do Sul oferece estrutura para até 250 convidados num ambiente que equilibra sofisticação e acolhimento. A capacidade média é ideal para casamentos onde o casal quer presença real de todos os convidados — e onde o fotógrafo consegue cobrir cada momento importante sem se perder na escala.',
+    date: '2024-10-24',
+    updatedDate: '2024-10-24',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    sections: [
+      {
+        h2: 'Cobertura fotográfica no Eco Buffet Social',
+        content: '<p>Ivan Dias atende casamentos no Eco Buffet Social e em toda a região de São Caetano do Sul. Com mais de 700 casamentos fotografados em São Paulo e região — em buffets de diferentes perfis e capacidades —, Ivan Dias tem a experiência técnica para entregar cobertura completa e de qualidade neste espaço.</p>',
+      },
+      { h2: 'Serviços e contato', content: '<p>Veja o <a href="/fotografo-de-casamento-sao-caetano-do-sul/">guia de fotografia em São Caetano do Sul</a> e os <a href="/servicos/cobertura-completa/">pacotes de cobertura completa</a>. <a href="/contato/">Solicite orçamento com disponibilidade de data.</a></p>',
+        table: { caption: 'Eco Buffet Social — referência rápida', headers: ['Item', 'Referência'], rows: [['Capacidade', 'Até 250 pessoas'], ['Cobertura recomendada', '8–9 horas']] },
+      },
+    ],
+    faq: [
+      { question: 'Ivan Dias fotografa casamentos no Eco Buffet Social?', answer: 'Sim — Ivan Dias atende casamentos no Eco Buffet Social e em toda a região de São Caetano do Sul. Entre em contato para verificar disponibilidade.' },
+      { question: 'Quanto custa fotografar no Eco Buffet Social?', answer: 'Os pacotes partem de R$ 6.000. Solicite orçamento pelo WhatsApp — resposta em até 24 horas.' },
+    ],
+  },
+
+  // ─── Osasco — artigos por espaço ─────────────────────────────────────────────
+
+  {
+    slug: 'fotografo-casamento-estacao-840',
+    bairro: 'Estação 840 — Osasco',
+    title: 'Casamento na Estação 840: Guia Completo de Fotografia Industrial Chic em Osasco',
+    description: 'Fotógrafo de casamento na Estação 840 em Osasco: estilo industrial chic, vagão de trem restaurado, Grand Central e Galpão Brooklin — como fotografar este espaço único.',
+    excerpt: 'A Estação 840 é um dos espaços mais visualmente únicos de Osasco — com estética industrial chic, um vagão de trem restaurado como lounge VIP e divisão entre o salão Grand Central e o Galpão Brooklin. Para o fotógrafo, o contraste entre metal, concreto e decoração refinada cria imagens com uma energia urbana que espaços convencionais simplesmente não têm.',
+    date: '2024-10-29',
+    updatedDate: '2024-10-29',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    sections: [
+      {
+        h2: 'O que torna a Estação 840 única para fotografia',
+        content: '<p>Industrial chic não é só um estilo decorativo — é uma filosofia visual que usa materiais brutos (metal, concreto, madeira rústica) em contraste com acabamentos sofisticados. Na Estação 840, esse contraste é autêntico e permanente, o que significa que qualquer ângulo que o fotógrafo escolha dentro do espaço já tem profundidade e identidade visual própria.</p>',
+        h3s: [
+          { title: 'Vagão de trem: o set fotográfico mais original', content: '<p>O vagão de trem restaurado que serve como lounge VIP é o elemento mais original da Estação 840 — e um dos mais fotogênicos. Ivan Dias inclui o vagão no roteiro fotográfico do casamento, criando imagens que só existem aqui: o casal no interior do vagão, perspectivas ao longo dos trilhos, detalhes do vintage industrial.</p>' },
+          { title: 'Grand Central vs Galpão Brooklin: duas personalidades', content: '<p>O salão Grand Central e o Galpão Brooklin têm características visuais distintas — diferentes alturas, texturas e iluminação. Ivan Dias planeja a cobertura considerando as especificidades de cada ambiente, garantindo que o álbum mostre os dois espaços com qualidade consistente.</p>' },
+          { title: 'Luz mista em ambiente industrial: o desafio técnico', content: '<p>Metal e concreto refletem a luz de forma diferente de superfícies convencionais — e a mistura de luz natural (pelas aberturas industriais) com luz artificial cria uma equação técnica complexa. Ivan Dias domina esse tipo de ambiente e entrega fotos com exposição correta e paleta consistente ao longo de toda a cobertura.</p>' },
+        ],
+      },
+      { h2: 'Por que Ivan Dias é a escolha certa para a Estação 840', content: '<p>Ivan Dias atende casamentos na Estação 840 e em toda a região de Osasco. Com mais de 700 casamentos fotografados em São Paulo e região — incluindo espaços com estética industrial e ambientes não convencionais —, Ivan Dias tem o repertório técnico e visual para entregar imagens à altura da singularidade da Estação 840. Veja o <a href="/blog/fotografo-de-casamento-osasco/">guia de fotografia em Osasco</a> e os <a href="/servicos/cobertura-completa/">pacotes disponíveis</a>. <a href="/contato/">Solicite orçamento.</a></p>',
+        table: { caption: 'Estação 840 — referência rápida', headers: ['Item', 'Referência'], rows: [['Capacidade', '500–720 pessoas'], ['Ambientes', 'Grand Central + Galpão Brooklin + Vagão VIP'], ['Estilo', 'Industrial chic'], ['Cobertura recomendada', '10–12 horas'], ['Segundo fotógrafo', 'Recomendado']] },
+      },
+    ],
+    faq: [
+      { question: 'Ivan Dias fotografa casamentos na Estação 840 em Osasco?', answer: 'Sim — Ivan Dias atende casamentos na Estação 840 e em toda a região de Osasco. Entre em contato para verificar disponibilidade de data.' },
+      { question: 'O vagão de trem aparece nas fotos?', answer: 'Sim — o vagão é um dos elementos mais originais do espaço e Ivan Dias inclui fotos do casal no vagão no roteiro fotográfico do casamento.' },
+      { question: 'A luz industrial é difícil de fotografar?', answer: 'Exige experiência — luz mista (natural + artificial) em metal e concreto cria desafios técnicos que fotógrafos sem repertório em espaços industriais costumam subestimar. Ivan Dias domina esse tipo de ambiente.' },
+      { question: 'Quanto tempo de cobertura preciso na Estação 840?', answer: 'Com dois salões e o vagão VIP, recomenda-se no mínimo 10 horas. Para eventos acima de 500 convidados, o segundo fotógrafo é altamente recomendado.' },
+      { question: 'Quanto custa fotografar na Estação 840?', answer: 'Os pacotes para eventos de grande porte partem de R$ 8.500. Solicite orçamento pelo WhatsApp — resposta em até 24 horas.' },
+    ],
+  },
+
+  {
+    slug: 'fotografo-casamento-maison-bella-vista-osasco',
+    bairro: 'Maison Bella Vista — Osasco',
+    title: 'Casamento no Maison Bella Vista: Guia Completo de Fotografia em Osasco',
+    description: 'Fotógrafo de casamento no Maison Bella Vista em Osasco: até 400 convidados, como o espaço se traduz em fotografia e como Ivan Dias planeja a cobertura.',
+    excerpt: 'O Maison Bella Vista é um dos espaços de referência em Osasco para casamentos de médio a grande porte — com capacidade para até 400 convidados e estrutura projetada para eventos de alto padrão. Para o fotógrafo, a combinação de escala e infraestrutura consolidada cria um ambiente previsível e favorável à cobertura completa.',
+    date: '2024-11-03',
+    updatedDate: '2024-11-03',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    sections: [
+      {
+        h2: 'Fotografia no Maison Bella Vista',
+        content: '<p>Espaços com nomenclatura "maison" geralmente trazem uma proposta visual de refinamento e elegância — e o Bella Vista segue essa linha com estrutura adequada para eventos de alto padrão. Para o fotógrafo, isso significa ambientes com iluminação bem projetada e uma estética que se traduz naturalmente em imagens com qualidade.</p>',
+      },
+      { h2: 'Ivan Dias no Maison Bella Vista', content: '<p>Ivan Dias atende casamentos no Maison Bella Vista e em toda a região de Osasco. Veja o <a href="/blog/fotografo-de-casamento-osasco/">guia de fotografia em Osasco</a> e os <a href="/servicos/cobertura-completa/">pacotes de cobertura</a>. <a href="/contato/">Solicite orçamento.</a></p>',
+        table: { caption: 'Maison Bella Vista — referência rápida', headers: ['Item', 'Referência'], rows: [['Capacidade', 'Até 400 pessoas'], ['Cobertura recomendada', '9–11 horas'], ['Segundo fotógrafo', 'Opcional']] },
+      },
+    ],
+    faq: [
+      { question: 'Ivan Dias fotografa casamentos no Maison Bella Vista?', answer: 'Sim — Ivan Dias atende casamentos no Maison Bella Vista e em toda a região de Osasco. Entre em contato para verificar disponibilidade.' },
+      { question: 'Quanto custa fotografar no Maison Bella Vista?', answer: 'Os pacotes partem de R$ 7.000. Solicite orçamento pelo WhatsApp — resposta em até 24 horas.' },
+    ],
+  },
+
+  {
+    slug: 'fotografo-casamento-spazio-valentina-osasco',
+    bairro: 'Spazio Valentina — Osasco',
+    title: 'Casamento no Spazio Valentina: Guia de Fotografia em Osasco',
+    description: 'Fotógrafo de casamento no Spazio Valentina em Osasco: três pisos, 250 pessoas, como a verticalidade do espaço cria perspectivas fotográficas únicas e como contratar Ivan Dias.',
+    excerpt: 'O Spazio Valentina tem uma característica arquitetônica rara entre espaços de eventos em Osasco: três pisos. Essa verticalidade cria perspectivas fotográficas que espaços horizontais não permitem — escadas como cenário, ângulos de cima para baixo, visões do mezanino que mostram o evento de uma perspectiva completamente diferente.',
+    date: '2024-11-08',
+    updatedDate: '2024-11-08',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    sections: [
+      {
+        h2: 'Três pisos: perspectivas que a maioria dos espaços não tem',
+        content: '<p>A verticalidade do Spazio Valentina é um recurso fotográfico que Ivan Dias explora ativamente. Do mezanino, é possível capturar planos abertos de cima que mostram a festa em perspectiva; as escadas entre pisos criam composições elegantes para fotos do casal; e a transição entre andares documenta a circulação natural dos convidados.</p>',
+      },
+      { h2: 'Ivan Dias no Spazio Valentina', content: '<p>Ivan Dias atende casamentos no Spazio Valentina e em toda a região de Osasco. Veja o <a href="/blog/fotografo-de-casamento-osasco/">guia de fotografia em Osasco</a>. <a href="/contato/">Solicite orçamento.</a></p>',
+        table: { caption: 'Spazio Valentina — referência rápida', headers: ['Item', 'Referência'], rows: [['Capacidade', 'Até 250 pessoas'], ['Diferencial', '3 pisos'], ['Cobertura recomendada', '8–10 horas']] },
+      },
+    ],
+    faq: [
+      { question: 'Ivan Dias fotografa casamentos no Spazio Valentina?', answer: 'Sim — Ivan Dias atende casamentos no Spazio Valentina e em toda a região de Osasco. Entre em contato para verificar disponibilidade.' },
+      { question: 'A estrutura de três pisos aparece nas fotos?', answer: 'Sim — Ivan Dias usa a verticalidade do espaço para criar ângulos e perspectivas que enriquecem muito o álbum, incluindo o mezanino e as escadarias.' },
+      { question: 'Quanto custa fotografar no Spazio Valentina?', answer: 'Os pacotes partem de R$ 6.500. Solicite orçamento pelo WhatsApp — resposta em até 24 horas.' },
+    ],
+  },
+
+  {
+    slug: 'fotografo-casamento-espaco-catedral-osasco',
+    bairro: 'Espaço Catedral — Osasco',
+    title: 'Casamento no Espaço Catedral: Guia Completo de Fotografia em Osasco',
+    description: 'Fotógrafo de casamento no Espaço Catedral em Osasco: localização central, 350 pessoas e como Ivan Dias planeja a cobertura fotográfica para este espaço.',
+    excerpt: 'O Espaço Catedral é uma referência central em Osasco para casamentos de médio porte — com capacidade para até 350 convidados e posicionamento que facilita o acesso para familiares e amigos de toda a região. Para a fotografia, a escala média do espaço é ideal para uma cobertura completa e intimista ao mesmo tempo.',
+    date: '2024-11-13',
+    updatedDate: '2024-11-13',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    sections: [
+      {
+        h2: 'Cobertura fotográfica no Espaço Catedral',
+        content: '<p>Com 350 convidados em espaço único, o Espaço Catedral permite ao fotógrafo cobrir todos os momentos importantes sem perder nenhum ângulo crítico. Ivan Dias planeja o posicionamento em cada momento-chave — chegada dos noivos, cerimônia, jantar e festa — para garantir cobertura sem furos.</p>',
+      },
+      { h2: 'Ivan Dias no Espaço Catedral', content: '<p>Ivan Dias atende casamentos no Espaço Catedral e em toda a região de Osasco. Veja o <a href="/blog/fotografo-de-casamento-osasco/">guia de fotografia em Osasco</a> e os <a href="/servicos/cobertura-completa/">pacotes disponíveis</a>. <a href="/contato/">Solicite orçamento.</a></p>',
+        table: { caption: 'Espaço Catedral — referência rápida', headers: ['Item', 'Referência'], rows: [['Capacidade', 'Até 350 pessoas'], ['Cobertura recomendada', '8–10 horas']] },
+      },
+    ],
+    faq: [
+      { question: 'Ivan Dias fotografa casamentos no Espaço Catedral em Osasco?', answer: 'Sim — Ivan Dias atende casamentos no Espaço Catedral e em toda a região de Osasco. Entre em contato para verificar disponibilidade.' },
+      { question: 'Quanto custa fotografar no Espaço Catedral?', answer: 'Os pacotes partem de R$ 6.500. Solicite orçamento pelo WhatsApp — resposta em até 24 horas.' },
+    ],
+  },
+
+  {
+    slug: 'fotografo-casamento-buffet-madeira-alphaville',
+    bairro: 'Buffet Madeira — Alphaville/Osasco',
+    title: 'Casamento no Buffet Madeira: Guia de Fotografia em Alphaville e Osasco',
+    description: 'Fotógrafo de casamento no Buffet Madeira em Alphaville: 38 anos de tradição, como a experiência consolidada do buffet beneficia a fotografia e como contratar Ivan Dias.',
+    excerpt: 'O Buffet Madeira, com 38 anos de trajetória em Alphaville, é um dos banqueteiros mais experientes da região de Osasco e Barueri. Essa longevidade no mercado se traduz em infraestrutura testada, logística azeitada e um ambiente cuidado ao longo de décadas — tudo isso beneficia diretamente a experiência fotográfica no dia do casamento.',
+    date: '2024-11-18',
+    updatedDate: '2024-11-18',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    sections: [
+      {
+        h2: '38 anos de tradição: o que isso significa para a fotografia',
+        content: '<p>Um buffet com quase quatro décadas de operação tem algo que buffets novos ainda não construíram: uma sabedoria acumulada sobre como um evento deve funcionar. Iluminação bem calibrada, logística previsível, equipe experiente — tudo isso cria um ambiente onde o fotógrafo pode focar no que importa, sem surpresas operacionais no meio da cobertura.</p>',
+      },
+      { h2: 'Ivan Dias no Buffet Madeira', content: '<p>Ivan Dias atende casamentos no Buffet Madeira e em toda a região de Alphaville e Osasco. Veja o <a href="/blog/fotografo-de-casamento-osasco/">guia de fotografia na região de Osasco</a>. <a href="/contato/">Solicite orçamento.</a></p>',
+        table: { caption: 'Buffet Madeira — referência rápida', headers: ['Item', 'Referência'], rows: [['Tradição', '38 anos de mercado'], ['Localização', 'Alphaville'], ['Cobertura recomendada', '8–10 horas']] },
+      },
+    ],
+    faq: [
+      { question: 'Ivan Dias fotografa casamentos no Buffet Madeira em Alphaville?', answer: 'Sim — Ivan Dias atende casamentos no Buffet Madeira e em toda a região de Alphaville e Osasco. Entre em contato para verificar disponibilidade.' },
+      { question: 'Quanto custa fotografar no Buffet Madeira?', answer: 'Os pacotes partem de R$ 6.500. Solicite orçamento personalizado pelo WhatsApp — resposta em até 24 horas.' },
+    ],
+  },
+
+  // ─── Mairiporã — artigos por espaço ──────────────────────────────────────────
+
+  {
+    slug: 'fotografo-casamento-ravena-garden',
+    bairro: 'Ravena Garden Buffet — Mairiporã',
+    title: 'Casamento no Ravena Garden: Guia Completo de Fotografia em Mairiporã',
+    description: 'Fotógrafo de casamento no Ravena Garden Buffet em Mairiporã: 360.000m² de área de conservação, salão em madeira com painéis de vidro, bosque para cerimônia e como fotografar.',
+    excerpt: 'O Ravena Garden Buffet é o maior destaque de Mairiporã para casamentos — com 360.000m² de área de conservação, salão em madeira nobre com painéis de vidro de pé-direito de 6 metros e um bosque nativo para cerimônias ao ar livre. Para o fotógrafo, são três cenários de luz completamente diferentes dentro do mesmo evento: o bosque natural, o salão de madeira e vidro, e as áreas externas da propriedade.',
+    date: '2024-11-23',
+    updatedDate: '2024-11-23',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    sections: [
+      {
+        h2: 'Três cenários de luz, um único casamento',
+        content: '<p>O maior desafio fotográfico do Ravena Garden é também o que o torna único: o fotógrafo precisa dominar três ambientes de luz completamente diferentes no mesmo evento — a luz filtrada e orgânica do bosque, a luz que atravessa os painéis de vidro de 6 metros criando padrões no salão, e a luz natural aberta das áreas externas da propriedade. Cada um exige configurações técnicas específicas e antecipação de como a luz vai se comportar em diferentes horários do dia.</p>',
+        h3s: [
+          { title: 'O bosque: cerimônia na natureza real', content: '<p>A cerimônia no bosque nativo do Ravena Garden é um dos cenários mais bonitos para fotografia de casamento em toda a Serra da Cantareira. Árvores nativas como dossel, luz filtrada pelo verde, sons da mata — o fotógrafo tem um ambiente que nenhuma decoração de salão replica. Ivan Dias planeja o horário da cerimônia para aproveitar a melhor janela de luz natural no bosque.</p>' },
+          { title: 'Salão de madeira e vidro: pé-direito de 6 metros', content: '<p>O pé-direito de 6 metros com painéis de vidro cria um ambiente interior onde a fronteira entre dentro e fora quase desaparece. Durante o dia, a vegetação do entorno aparece nas fotos através dos painéis; à noite, o reflexo do salão nos vidros cria uma segunda dimensão visual. Ivan Dias usa ambos os efeitos intencionalmente nas composições.</p>' },
+          { title: 'Drone em Mata Atlântica: perspectiva singular', content: '<p>360.000m² de área de conservação vista de cima são imagens que ficam na memória. O drone no Ravena Garden captura a extensão da propriedade, o contraste entre a floresta e o salão e a paisagem da Serra da Cantareira de uma perspectiva impossível de obter no chão.</p>' },
+        ],
+      },
+      { h2: 'Por que Ivan Dias para o seu casamento no Ravena Garden', content: '<p>Ivan Dias atende casamentos no Ravena Garden Buffet e em toda a região de Mairiporã. Com mais de 700 casamentos fotografados em São Paulo e região — incluindo espaços com múltiplos ambientes de luz e cerimônias na natureza —, Ivan Dias tem o planejamento técnico para cobrir o Ravena Garden com qualidade consistente do bosque ao salão. O <a href="/servicos/drone/">pacote com drone</a> é especialmente recomendado. Veja o <a href="/blog/fotografo-de-casamento-mairipora/">guia de fotografia em Mairiporã</a>. <a href="/contato/">Solicite orçamento.</a></p>',
+        table: { caption: 'Ravena Garden — referência rápida', headers: ['Item', 'Referência'], rows: [['Área de conservação', '360.000m²'], ['Salão', 'Madeira nobre + painéis de vidro, pé-direito 6m'], ['Cerimônia', 'Bosque nativo ao ar livre'], ['Capacidade', 'Até 600 pessoas'], ['Drone', 'Altamente recomendado'], ['Cobertura recomendada', '10–12 horas']] },
+      },
+    ],
+    faq: [
+      { question: 'Ivan Dias fotografa casamentos no Ravena Garden em Mairiporã?', answer: 'Sim — Ivan Dias atende casamentos no Ravena Garden e em toda a região de Mairiporã e Serra da Cantareira. Entre em contato para verificar disponibilidade de data.' },
+      { question: 'Drone é recomendado no Ravena Garden?', answer: 'É um dos espaços onde o drone entrega o resultado mais impactante da região — 360.000m² de Mata Atlântica vistos de cima são imagens que ficam na memória para sempre.' },
+      { question: 'Qual a melhor hora para a cerimônia no bosque?', answer: 'O fim de tarde, quando a luz dourada atravessa a copa das árvores, é a janela mais rica fotograficamente. Ivan Dias planeja o cronograma considerando a posição do sol no bosque na data do casamento.' },
+      { question: 'Quanto tempo de cobertura preciso no Ravena Garden?', answer: 'Com bosque, salão e áreas externas, recomenda-se no mínimo 10 horas — para cobrir todos os ambientes sem cortes no registro.' },
+      { question: 'Quanto custa fotografar no Ravena Garden?', answer: 'Para eventos em Mairiporã, os pacotes partem de R$ 8.000 considerando o deslocamento. Solicite orçamento pelo WhatsApp — resposta em até 24 horas.' },
+    ],
+  },
+
+  {
+    slug: 'fotografo-casamento-sitio-florentino-mairipora',
+    bairro: 'Sítio Florentino — Mairiporã',
+    title: 'Casamento no Sítio Florentino: Guia de Destination Wedding em Mairiporã',
+    description: 'Fotógrafo de casamento no Sítio Florentino em Mairiporã: destination wedding com hospedagem, natureza da Serra da Cantareira e como Ivan Dias planeja a cobertura completa.',
+    excerpt: 'O Sítio Florentino é o destination wedding da Serra da Cantareira — com estrutura de hospedagem integrada ao espaço de eventos, o casal e os convidados ficam imersos na natureza por um fim de semana inteiro. Para o fotógrafo, isso significa uma narrativa visual que vai muito além do dia do casamento.',
+    date: '2024-11-28',
+    updatedDate: '2024-11-28',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    sections: [
+      {
+        h2: 'Destination wedding: a cobertura que não começa nem termina na cerimônia',
+        content: '<p>Quando o casamento tem hospedagem integrada, a cobertura fotográfica ganha uma dimensão que eventos de um dia não têm. O café da manhã do dia seguinte, os convidados caminhando pela propriedade, os momentos informais à beira da fogueira — todas essas cenas fazem parte da memória do destination wedding e Ivan Dias planeja cobri-las com a mesma atenção que a cerimônia principal.</p>',
+        h3s: [
+          { title: 'Natureza da Serra como cenário permanente', content: '<p>No Sítio Florentino, a Serra da Cantareira não é pano de fundo ocasional — é presença constante em todo o fim de semana. Ivan Dias usa esse cenário natural ao longo de toda a cobertura: das fotos do casal no sábado à tarde ao café da manhã do domingo de manhã.</p>' },
+        ],
+      },
+      { h2: 'Ivan Dias no Sítio Florentino', content: '<p>Ivan Dias atende casamentos no Sítio Florentino e em toda a região de Mairiporã. Para destination weddings com hospedagem, Ivan Dias oferece cobertura estendida de fim de semana. Veja o <a href="/blog/fotografo-de-casamento-mairipora/">guia de fotografia em Mairiporã</a> e o <a href="/servicos/drone/">pacote com drone</a>. <a href="/contato/">Solicite orçamento.</a></p>',
+        table: { caption: 'Sítio Florentino — referência rápida', headers: ['Item', 'Referência'], rows: [['Capacidade', 'Até 350 pessoas'], ['Formato', 'Destination wedding com hospedagem'], ['Cobertura', 'Fim de semana completo disponível'], ['Drone', 'Recomendado']] },
+      },
+    ],
+    faq: [
+      { question: 'Ivan Dias fotografa destination weddings no Sítio Florentino?', answer: 'Sim — Ivan Dias atende casamentos no Sítio Florentino e em toda a região de Mairiporã, incluindo destination weddings de fim de semana. Entre em contato para verificar disponibilidade.' },
+      { question: 'Cobertura de fim de semana está disponível?', answer: 'Sim — para destination weddings com hospedagem, Ivan Dias oferece cobertura estendida que vai do ensaio no sábado ao café da manhã do domingo. Consulte os detalhes pelo WhatsApp.' },
+      { question: 'Quanto custa fotografar no Sítio Florentino?', answer: 'Para destination weddings, os pacotes partem de R$ 9.000. Solicite orçamento personalizado pelo WhatsApp.' },
+    ],
+  },
+
+  {
+    slug: 'fotografo-casamento-quinta-da-cantareira',
+    bairro: 'Quinta da Cantareira — Mairiporã',
+    title: 'Casamento na Quinta da Cantareira: Guia Completo de Fotografia em Mairiporã',
+    description: 'Fotógrafo de casamento na Quinta da Cantareira em Mairiporã: Capela de Cristal, 400 pessoas, como o vidro e a natureza criam cenários únicos e como Ivan Dias planeja a cobertura.',
+    excerpt: 'A Quinta da Cantareira tem um elemento arquitetônico que pouquíssimos espaços do Brasil possuem: uma Capela de Cristal. A estrutura inteiramente em vidro com a natureza da Serra da Cantareira como pano de fundo cria um cenário para a cerimônia que é simultaneamente sagrado, moderno e absolutamente fotogênico.',
+    date: '2024-12-03',
+    updatedDate: '2024-12-03',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    sections: [
+      {
+        h2: 'A Capela de Cristal: o cenário mais fotogênico de Mairiporã',
+        content: '<p>Uma estrutura inteiramente em vidro com a floresta ao redor cria uma experiência visual única — a cerimônia acontece dentro e fora ao mesmo tempo. Para o fotógrafo, isso significa transparência total: a natureza penetra em cada ângulo, o céu aparece pelo teto, os reflexos multiplicam a beleza da cena. Não existe "ângulo feio" na Capela de Cristal.</p>',
+        h3s: [
+          { title: 'Reflexos e transparência: fotografar vidro com maestria', content: '<p>O maior desafio técnico da Capela de Cristal é o vidro em si — reflete, cria halos e, sem controle técnico adequado, pode criar artefatos visuais indesejados. Ivan Dias domina a fotografia em estruturas envidraçadas, usando filtros e ângulos específicos para eliminar reflexos indesejados e manter os desejados como elementos de composição.</p>' },
+          { title: 'A natureza como altar', content: '<p>Com a floresta visível através de todas as paredes da capela, o casal tem a Serra da Cantareira como altar natural. Ivan Dias planeja os ângulos externos — fotografando pelo vidro de fora para dentro e de dentro para fora — para criar imagens que mostram essa integração única entre sagrado e natureza.</p>' },
+        ],
+      },
+      { h2: 'Ivan Dias na Quinta da Cantareira', content: '<p>Ivan Dias atende casamentos na Quinta da Cantareira e em toda a região de Mairiporã. Para a Chapel de Cristal, o ensaio pré-wedding no local é especialmente recomendado — para mapear os reflexos e ângulos com antecedência. Veja o <a href="/blog/fotografo-de-casamento-mairipora/">guia de fotografia em Mairiporã</a>, o <a href="/servicos/pre-wedding/">ensaio pré-wedding</a> e o <a href="/servicos/drone/">drone</a>. <a href="/contato/">Solicite orçamento.</a></p>',
+        table: { caption: 'Quinta da Cantareira — referência rápida', headers: ['Item', 'Referência'], rows: [['Capacidade', 'Até 400 pessoas'], ['Destaque', 'Capela de Cristal (vidro + natureza)'], ['Drone', 'Altamente recomendado'], ['Pré-wedding no local', 'Recomendado'], ['Cobertura recomendada', '9–11 horas']] },
+      },
+    ],
+    faq: [
+      { question: 'Ivan Dias fotografa casamentos na Quinta da Cantareira?', answer: 'Sim — Ivan Dias atende casamentos na Quinta da Cantareira e em toda a região de Mairiporã. Entre em contato para verificar disponibilidade de data.' },
+      { question: 'Fotografar dentro de uma estrutura de vidro é difícil?', answer: 'Exige experiência — reflexos, halos e transparência criam desafios que fotógrafos sem repertório em ambientes envidraçados costumam subestimar. Ivan Dias tem técnica específica para esse tipo de estrutura.' },
+      { question: 'Drone é permitido na Quinta da Cantareira?', answer: 'Confirme com o espaço — a propriedade e a Chapel de Cristal vista de cima são cenários aéreos excepcionais. Ivan Dias verifica essa permissão no planejamento prévio.' },
+      { question: 'Quanto custa fotografar na Quinta da Cantareira?', answer: 'Os pacotes partem de R$ 8.000 para eventos em Mairiporã. Solicite orçamento pelo WhatsApp — resposta em até 24 horas.' },
+    ],
+  },
+
+  {
+    slug: 'fotografo-casamento-villa-vezzane-mairipora',
+    bairro: 'Villa Vezzane — Mairiporã',
+    title: 'Casamento na Villa Vezzane: Guia de Fotografia em Mairiporã',
+    description: 'Fotógrafo de casamento na Villa Vezzane em Mairiporã: espaço com hospedagem em parceria, 300 pessoas, natureza da Serra da Cantareira e como Ivan Dias planeja a cobertura.',
+    excerpt: 'A Villa Vezzane em Mairiporã combina o cenário natural da Serra da Cantareira com a possibilidade de hospedagem para o casal e convidados — criando uma experiência de casamento que vai além de uma festa e se torna um fim de semana especial. Para a fotografia, essa imersão na natureza resulta em imagens com uma qualidade e autenticidade únicas.',
+    date: '2024-12-08',
+    updatedDate: '2024-12-08',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    sections: [
+      {
+        h2: 'Natureza e hospedagem: a fórmula fotográfica da Villa Vezzane',
+        content: '<p>Quando os convidados ficam hospedados no espaço, o casamento se expande — o fotógrafo tem a oportunidade de documentar momentos que eventos de um dia não permitem: o despertar na manhã do casamento, os grupos de amigos caminhando pela propriedade, os momentos informais que revelam as relações e o afeto entre as pessoas. Ivan Dias oferece cobertura estendida para capturar essa dimensão adicional.</p>',
+      },
+      { h2: 'Ivan Dias na Villa Vezzane', content: '<p>Ivan Dias atende casamentos na Villa Vezzane e em toda a região de Mairiporã. Veja o <a href="/blog/fotografo-de-casamento-mairipora/">guia de fotografia em Mairiporã</a>. <a href="/contato/">Solicite orçamento.</a></p>',
+        table: { caption: 'Villa Vezzane — referência rápida', headers: ['Item', 'Referência'], rows: [['Capacidade', 'Até 300 pessoas'], ['Diferencial', 'Hospedagem em parceria'], ['Cobertura recomendada', '9–11 horas (ou fim de semana)']] },
+      },
+    ],
+    faq: [
+      { question: 'Ivan Dias fotografa casamentos na Villa Vezzane?', answer: 'Sim — Ivan Dias atende casamentos na Villa Vezzane e em toda a região de Mairiporã. Entre em contato para verificar disponibilidade.' },
+      { question: 'Quanto custa fotografar na Villa Vezzane?', answer: 'Os pacotes partem de R$ 7.500 para eventos em Mairiporã. Solicite orçamento pelo WhatsApp.' },
+    ],
+  },
+
+  {
+    slug: 'fotografo-casamento-mon-chale-mairipora',
+    bairro: 'Mon Chalé — Mairiporã',
+    title: 'Casamento no Mon Chalé: Guia de Fotografia em Mairiporã',
+    description: 'Fotógrafo de casamento no Mon Chalé em Mairiporã: 300 pessoas, capela de vidro, estética de chalé europeu na Serra da Cantareira e como Ivan Dias planeja a cobertura.',
+    excerpt: 'O Mon Chalé combina dois elementos visuais fortes: a estética acolhedora do chalé europeu e uma capela de vidro integrada ao espaço. Na Serra da Cantareira, esse conjunto cria uma ambiência única — o charme da madeira e do aconchego europeu com a natureza da serra como cenário permanente.',
+    date: '2024-12-13',
+    updatedDate: '2024-12-13',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    sections: [
+      {
+        h2: 'Chalé + chapel de vidro: dois mundos fotográficos',
+        content: '<p>A coexistência do interior aconchegante do chalé com a transparência da chapel de vidro cria dois universos visuais completamente diferentes dentro do mesmo espaço. Ivan Dias planeja a cobertura para documentar ambos com a mesma qualidade — aproveitando a madeira e as texturas do chalé num momento e a transparência e a natureza da chapel no outro.</p>',
+        h3s: [
+          { title: 'Estética de chalé: madeira, textura e aconchego', content: '<p>A madeira do chalé cria uma paleta de tons quentes nas fotos — especialmente com iluminação artificial suave. Ivan Dias usa essa temperatura de cor para criar retratos com atmosfera cinematográfica, muito diferente da frieza de espaços com acabamento neutro.</p>' },
+        ],
+      },
+      { h2: 'Ivan Dias no Mon Chalé', content: '<p>Ivan Dias atende casamentos no Mon Chalé e em toda a região de Mairiporã. Veja o <a href="/blog/fotografo-de-casamento-mairipora/">guia de fotografia em Mairiporã</a> e o <a href="/servicos/pre-wedding/">ensaio pré-wedding</a> no espaço. <a href="/contato/">Solicite orçamento.</a></p>',
+        table: { caption: 'Mon Chalé — referência rápida', headers: ['Item', 'Referência'], rows: [['Capacidade', 'Até 300 pessoas'], ['Diferenciais', 'Chalé europeu + chapel de vidro'], ['Cobertura recomendada', '8–10 horas']] },
+      },
+    ],
+    faq: [
+      { question: 'Ivan Dias fotografa casamentos no Mon Chalé?', answer: 'Sim — Ivan Dias atende casamentos no Mon Chalé e em toda a região de Mairiporã. Entre em contato para verificar disponibilidade.' },
+      { question: 'Quanto custa fotografar no Mon Chalé?', answer: 'Os pacotes partem de R$ 7.500 para eventos em Mairiporã. Solicite orçamento pelo WhatsApp — resposta em até 24 horas.' },
+    ],
+  },
+
+  {
+    slug: 'fotografo-casamento-casa-por-do-sol-cantareira',
+    bairro: 'Casa Pôr do Sol Cantareira — Mairiporã',
+    title: 'Casamento na Casa Pôr do Sol: Guia de Mini Wedding em Mairiporã',
+    description: 'Fotógrafo de casamento na Casa Pôr do Sol Cantareira em Mairiporã: mini wedding e brunch até 150 pessoas, luz dourada da serra e como Ivan Dias planeja a cobertura intimista.',
+    excerpt: 'A Casa Pôr do Sol Cantareira foi feita para quem quer celebrar com poucos, mas com o cenário mais bonito de Mairiporã. Com capacidade para até 150 convidados e proposta de mini wedding ou brunch, o espaço tem no próprio nome a sua hora mais mágica — o pôr do sol sobre a Serra da Cantareira.',
+    date: '2024-12-18',
+    updatedDate: '2024-12-18',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    sections: [
+      {
+        h2: 'O pôr do sol como protagonista fotográfico',
+        content: '<p>Poucos espaços têm a ousadia de colocar o pôr do sol no próprio nome — e a Casa Pôr do Sol Cantareira cumpre a promessa. A orientação do espaço e a altitude da Serra da Cantareira criam um espetáculo de cores no céu que dura entre 20 e 40 minutos e transforma qualquer foto tirada nesse momento em algo absolutamente único.</p>',
+        h3s: [
+          { title: 'Mini wedding ao entardecer: a fórmula perfeita', content: '<p>Para mini weddings, o entardecer na Casa Pôr do Sol é o momento mais rico de toda a cobertura. Ivan Dias planeja o roteiro fotográfico para estar no melhor ponto externo do espaço durante o pôr do sol — garantindo que o casal tenha as fotos mais bonitas possíveis nesse cenário único.</p>' },
+        ],
+      },
+      { h2: 'Ivan Dias na Casa Pôr do Sol Cantareira', content: '<p>Ivan Dias atende casamentos na Casa Pôr do Sol Cantareira e em toda a região de Mairiporã. Para mini weddings e brunchs, o <a href="/servicos/mini-wedding/">pacote de mini wedding</a> é especialmente adequado. Veja o <a href="/blog/fotografo-de-casamento-mairipora/">guia de fotografia em Mairiporã</a>. <a href="/contato/">Solicite orçamento.</a></p>',
+        table: { caption: 'Casa Pôr do Sol — referência rápida', headers: ['Item', 'Referência'], rows: [['Capacidade', 'Até 150 pessoas'], ['Formato', 'Mini wedding / brunch'], ['Momento mais fotogênico', 'Pôr do sol sobre a Serra'], ['Cobertura recomendada', '5–7 horas']] },
+      },
+    ],
+    faq: [
+      { question: 'Ivan Dias fotografa mini weddings na Casa Pôr do Sol Cantareira?', answer: 'Sim — Ivan Dias atende casamentos e mini weddings na Casa Pôr do Sol e em toda a região de Mairiporã. Entre em contato para verificar disponibilidade.' },
+      { question: 'O pôr do sol sobre a serra aparece nas fotos?', answer: 'Sim — e é o elemento mais marcante do espaço. Ivan Dias planeja o cronograma para estar nos melhores ângulos externos durante o pôr do sol, garantindo as fotos mais impactantes da cobertura.' },
+      { question: 'Quanto custa fotografar na Casa Pôr do Sol?', answer: 'Para mini weddings, os pacotes partem de R$ 6.000. Solicite orçamento pelo WhatsApp — resposta em até 24 horas.' },
+    ],
+  },
+
+  // ─── Ribeirão Pires — artigos por espaço ─────────────────────────────────────
+
+  {
+    slug: 'fotografo-casamento-estancia-silvestre-ribeirao-pires',
+    bairro: 'Estância Silvestre — Ribeirão Pires',
+    title: 'Casamento na Estância Silvestre: Guia de Fotografia Náutica em Ribeirão Pires',
+    description: 'Fotógrafo de casamento na Estância Silvestre em Ribeirão Pires: casamento náutico à beira da represa, até 150 pessoas, como a água transforma a fotografia e como contratar Ivan Dias.',
+    excerpt: 'A Estância Silvestre é um espaço único em Ribeirão Pires — um casamento náutico à beira de represa, com toda a poética visual que a água oferece: reflexos, horizontes, a luz dourada do entardecer sobre a superfície e um silêncio de natureza que relaxa os fotografados e produz imagens com autenticidade rara.',
+    date: '2024-12-23',
+    updatedDate: '2024-12-23',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    sections: [
+      {
+        h2: 'Casamento náutico: o que a presença da represa significa para a fotografia',
+        content: '<p>Água como elemento central de um espaço de eventos cria oportunidades fotográficas que terra firme não oferece: reflexos que dobram a beleza de qualquer cena, uma linha de horizonte sobre a superfície, a possibilidade de fotos do casal com a represa em perspectiva. Na Estância Silvestre, a represa não é apenas visual — é parte da experiência do casamento.</p>',
+        h3s: [
+          { title: 'Entardecer sobre a represa: luz de película', content: '<p>A luz do entardecer sobre a água tem uma qualidade diferente da luz sobre terra — ela reflete e amplifica as cores do céu, criando um espelho que multiplica o espetáculo visual. Ivan Dias planeja a sessão do casal à beira da represa para coincidir com esse momento.</p>' },
+        ],
+      },
+      { h2: 'Ivan Dias na Estância Silvestre', content: '<p>Ivan Dias atende casamentos na Estância Silvestre e em toda a região de Ribeirão Pires e Grande ABC. Veja o <a href="/blog/fotografo-casamento-abc-paulista-santo-andre-sao-bernardo/">guia de fotografia no ABC Paulista</a> e o <a href="/servicos/drone/">pacote com drone</a>. <a href="/contato/">Solicite orçamento.</a></p>',
+        table: { caption: 'Estância Silvestre — referência rápida', headers: ['Item', 'Referência'], rows: [['Capacidade', 'Até 150 pessoas'], ['Estilo', 'Casamento náutico / beira de represa'], ['Drone', 'Recomendado'], ['Cobertura recomendada', '7–9 horas']] },
+      },
+    ],
+    faq: [
+      { question: 'Ivan Dias fotografa casamentos na Estância Silvestre?', answer: 'Sim — Ivan Dias atende casamentos na Estância Silvestre e em toda a região de Ribeirão Pires e ABC Paulista. Entre em contato para verificar disponibilidade.' },
+      { question: 'Drone é recomendado para casamentos náuticos?', answer: 'Sim — o drone captura a represa e o espaço de uma perspectiva aérea que nenhum ângulo no chão alcança. Para espaços à beira d\'água, o drone entrega imagens excepcionais.' },
+      { question: 'Quanto custa fotografar na Estância Silvestre?', answer: 'Os pacotes partem de R$ 6.500. Solicite orçamento pelo WhatsApp — resposta em até 24 horas.' },
+    ],
+  },
+
+  {
+    slug: 'fotografo-casamento-chacara-flores-ribeirao-pires',
+    bairro: 'Chácara Flores — Ribeirão Pires',
+    title: 'Casamento na Chácara Flores: Guia de Fotografia em Ribeirão Pires',
+    description: 'Fotógrafo de casamento na Chácara Flores em Ribeirão Pires: 12.000m² de Mata Atlântica, 300 pessoas, como a floresta cria cenários únicos e como Ivan Dias planeja a cobertura.',
+    excerpt: 'A Chácara Flores em Ribeirão Pires oferece 12.000m² de área com Mata Atlântica preservada — um pano de fundo natural que transforma qualquer casamento em uma experiência visual completamente diferente dos buffets convencionais. Para o fotógrafo, a mata é um cenário vivo que muda com a luz, a estação e a hora do dia.',
+    date: '2024-12-28',
+    updatedDate: '2024-12-28',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    sections: [
+      {
+        h2: '12.000m² de Mata Atlântica: o cenário mais verde do ABC',
+        content: '<p>Para a fotografia de casamento, Mata Atlântica preservada é ouro — vegetação nativa densa, luz filtrada por copas de árvores centenárias, sons da natureza que relaxam os fotografados e um visual que não existe em nenhum estúdio ou cenário montado. A Chácara Flores entrega esse ambiente real e autêntico a menos de uma hora de São Paulo.</p>',
+        h3s: [
+          { title: 'Cerimônia na mata: o altar que a natureza constrói', content: '<p>Uma cerimônia realizada dentro ou na borda da Mata Atlântica tem uma sacralidade que emerge naturalmente do ambiente — sem precisar de decoração elaborada, a própria natureza cria a atmosfera. Ivan Dias documenta esse tipo de cerimônia com câmera discreta e abordagem contemplativa.</p>' },
+        ],
+      },
+      { h2: 'Ivan Dias na Chácara Flores', content: '<p>Ivan Dias atende casamentos na Chácara Flores e em toda a região de Ribeirão Pires e ABC Paulista. O <a href="/servicos/drone/">pacote com drone</a> é especialmente recomendado. Veja o <a href="/blog/fotografo-casamento-abc-paulista-santo-andre-sao-bernardo/">guia do ABC Paulista</a>. <a href="/contato/">Solicite orçamento.</a></p>',
+        table: { caption: 'Chácara Flores — referência rápida', headers: ['Item', 'Referência'], rows: [['Área', '12.000m² de Mata Atlântica'], ['Capacidade', 'Até 300 pessoas'], ['Drone', 'Recomendado'], ['Cobertura recomendada', '8–10 horas']] },
+      },
+    ],
+    faq: [
+      { question: 'Ivan Dias fotografa casamentos na Chácara Flores em Ribeirão Pires?', answer: 'Sim — Ivan Dias atende casamentos na Chácara Flores e em toda a região de Ribeirão Pires e ABC Paulista. Entre em contato para verificar disponibilidade.' },
+      { question: 'Quanto custa fotografar na Chácara Flores?', answer: 'Os pacotes partem de R$ 7.000. Solicite orçamento pelo WhatsApp — resposta em até 24 horas.' },
+    ],
+  },
+
+  {
+    slug: 'fotografo-casamento-espaco-vista-verde-ribeirao-pires',
+    bairro: 'Espaço Vista Verde — Ribeirão Pires',
+    title: 'Casamento no Espaço Vista Verde: Guia de Fotografia em Ribeirão Pires',
+    description: 'Fotógrafo de casamento no Espaço Vista Verde em Ribeirão Pires: até 250 pessoas, como Ivan Dias planeja a cobertura fotográfica e como contratar para o seu casamento.',
+    excerpt: 'O Espaço Vista Verde em Ribeirão Pires oferece estrutura para até 250 convidados num ambiente que integra a natureza da região ao espaço de eventos. Para a fotografia, a proposta verde do espaço garante composições com vegetação como elemento de fundo e uma atmosfera que espaços puramente internos não têm.',
+    date: '2025-01-02',
+    updatedDate: '2025-01-02',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    sections: [
+      {
+        h2: 'Cobertura fotográfica no Espaço Vista Verde',
+        content: '<p>Ivan Dias atende casamentos no Espaço Vista Verde e em toda a região de Ribeirão Pires. Com mais de 700 casamentos fotografados em São Paulo e região — incluindo espaços que integram natureza e estrutura de eventos —, Ivan Dias tem o repertório para cobrir o Vista Verde com qualidade e criatividade.</p>',
+      },
+      { h2: 'Serviços e contato', content: '<p>Veja o <a href="/blog/fotografo-casamento-abc-paulista-santo-andre-sao-bernardo/">guia de fotografia no ABC Paulista</a> e os <a href="/servicos/cobertura-completa/">pacotes de cobertura completa</a>. <a href="/contato/">Solicite orçamento com disponibilidade de data.</a></p>',
+        table: { caption: 'Espaço Vista Verde — referência rápida', headers: ['Item', 'Referência'], rows: [['Capacidade', 'Até 250 pessoas'], ['Cobertura recomendada', '8–9 horas']] },
+      },
+    ],
+    faq: [
+      { question: 'Ivan Dias fotografa casamentos no Espaço Vista Verde?', answer: 'Sim — Ivan Dias atende casamentos no Espaço Vista Verde e em toda a região de Ribeirão Pires e ABC Paulista. Entre em contato para verificar disponibilidade.' },
+      { question: 'Quanto custa fotografar no Espaço Vista Verde?', answer: 'Os pacotes partem de R$ 6.500. Solicite orçamento pelo WhatsApp — resposta em até 24 horas.' },
+    ],
+  },
+
+  // ─── Mogi das Cruzes — artigos por espaço ────────────────────────────────────
+
+  {
+    slug: 'fotografo-casamento-villa-castanieri-mogi',
+    bairro: 'Villa Castanieri — Mogi das Cruzes',
+    title: 'Casamento na Villa Castanieri: Guia Completo de Fotografia em Mogi das Cruzes',
+    description: 'Fotógrafo de casamento na Villa Castanieri em Mogi das Cruzes: represa, três salões (Castanheira, Paganotti, Bellagio) e como cada ambiente se traduz em fotografia.',
+    excerpt: 'A Villa Castanieri em Mogi das Cruzes é um complexo à beira de represa com três salões distintos — Castanheira, Paganotti e Bellagio — com capacidade total para até 300 pessoas. A combinação de água, múltiplos ambientes e a natureza do Alto Tietê cria um conjunto visual excepcionalmente rico para a fotografia de casamento.',
+    date: '2025-01-03',
+    updatedDate: '2025-01-03',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    sections: [
+      {
+        h2: 'Três salões, represa e natureza: a riqueza visual da Villa Castanieri',
+        content: '<p>Com três salões de personalidades distintas e a represa como elemento externo, a Villa Castanieri entrega ao fotógrafo uma variedade de cenários que espaços de salão único simplesmente não têm. Ivan Dias planeja a cobertura para documentar cada ambiente com identidade própria, criando um álbum com narrativa visual variada e rica.</p>',
+        h3s: [
+          { title: 'Represa: o elemento externo mais impactante', content: '<p>A represa da Villa Castanieri é o cenário externo que mais beneficia a fotografia — especialmente ao entardecer, quando o reflexo do céu na água cria imagens com beleza cinematográfica. Ivan Dias inclui a represa no roteiro fotográfico do casamento como um dos pontos prioritários da cobertura externa.</p>' },
+          { title: 'Três salões: Castanheira, Paganotti e Bellagio', content: '<p>Cada salão da Villa Castanieri tem uma identidade visual própria. Antes do casamento, Ivan Dias faz o reconhecimento dos três espaços para mapear os melhores ângulos, a qualidade de luz de cada um e o posicionamento ideal nos momentos-chave de cada ambiente.</p>' },
+        ],
+      },
+      { h2: 'Ivan Dias na Villa Castanieri', content: '<p>Ivan Dias atende casamentos na Villa Castanieri e na região de Mogi das Cruzes e Alto Tietê. O <a href="/servicos/drone/">pacote com drone</a> é especialmente recomendado para capturar a represa. Para orçamento e disponibilidade, entre em <a href="/contato/">contato</a>. Veja também os <a href="/servicos/cobertura-completa/">pacotes de cobertura completa</a>.</p>',
+        table: { caption: 'Villa Castanieri — referência rápida', headers: ['Salão', 'Capacidade'], rows: [['Castanheira', 'Médio porte'], ['Paganotti', 'Médio porte'], ['Bellagio', 'Até 300 pessoas (soma)'], ['Destaque externo', 'Represa + natureza do Alto Tietê']] },
+      },
+    ],
+    faq: [
+      { question: 'Ivan Dias fotografa casamentos na Villa Castanieri em Mogi das Cruzes?', answer: 'Sim — Ivan Dias atende casamentos na Villa Castanieri e na região de Mogi das Cruzes. Entre em contato para verificar disponibilidade de data.' },
+      { question: 'Qual salão da Villa Castanieri é mais fotogênico?', answer: 'Cada salão tem pontos fortes diferentes — o Bellagio tem maior capacidade e impacto; o Castanheira e o Paganotti têm atmosfera mais íntima. A escolha ideal depende do porte e do estilo do casamento. Ivan Dias conversa sobre isso no planejamento prévio.' },
+      { question: 'Drone é recomendado na Villa Castanieri?', answer: 'Sim — a represa e a propriedade de múltiplos salões vistos de cima criam imagens aéreas muito impactantes.' },
+      { question: 'Quanto custa fotografar na Villa Castanieri?', answer: 'Os pacotes partem de R$ 7.000 para eventos em Mogi das Cruzes. Solicite orçamento pelo WhatsApp — resposta em até 24 horas.' },
+    ],
+  },
+
+  {
+    slug: 'fotografo-casamento-casarao-la-villa-mogi',
+    bairro: 'Casarão La Villa — Mogi das Cruzes',
+    title: 'Casamento no Casarão La Villa: Guia de Fotografia em Mogi das Cruzes',
+    description: 'Fotógrafo de casamento no Casarão La Villa em Mogi das Cruzes: fazenda histórica, Fusca vintage, 200 pessoas e como a atmosfera rural cria cenários únicos para fotografia.',
+    excerpt: 'O Casarão La Villa em Mogi das Cruzes é uma fazenda histórica que mantém elementos que o tempo geralmente elimina — incluindo um Fusca vintage que se tornou um dos props fotográficos mais icônicos de casamentos rurais da região. A arquitetura histórica, os campos da fazenda e esse detalhe vintage criam um conjunto visual que nenhum espaço moderno replica.',
+    date: '2025-01-04',
+    updatedDate: '2025-01-04',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    sections: [
+      {
+        h2: 'Fazenda histórica: textura do tempo como recurso fotográfico',
+        content: '<p>Uma fazenda histórica tem o que o dinheiro não compra: autenticidade acumulada ao longo de décadas. Telhas antigas, pisos de madeira, paredes com memória, jardins que cresceram por conta própria — cada elemento tem uma textura que a câmera captura com riqueza e que cria imagens com profundidade e caráter únicos.</p>',
+        h3s: [
+          { title: 'O Fusca vintage: o prop mais fotogênico do espaço', content: '<p>Um Fusca bem preservado num cenário de fazenda histórica é, para o fotógrafo, um presente. Ivan Dias inclui o Fusca como elemento ativo nas fotos do casal — não apenas como fundo, mas como cenário para composições criativas que têm identidade visual inconfundível e ficam na memória do álbum para sempre.</p>' },
+          { title: 'Campos da fazenda: horizonte aberto', content: '<p>Os campos abertos de uma fazenda permitem composições com horizonte que espaços urbanos raramente oferecem — o casal pequeno num campo grande, a perspectiva que mostra a extensão da propriedade, a luz dourada rasando o solo ao entardecer. Ivan Dias planeja os registros externos nos momentos de melhor luz.</p>' },
+        ],
+      },
+      { h2: 'Ivan Dias no Casarão La Villa', content: '<p>Ivan Dias atende casamentos no Casarão La Villa e na região de Mogi das Cruzes. O <a href="/servicos/drone/">drone</a> é especialmente impactante em fazendas com campos abertos — captura a extensão da propriedade de uma perspectiva única. Para orçamento, entre em <a href="/contato/">contato</a>.</p>',
+        table: { caption: 'Casarão La Villa — referência rápida', headers: ['Item', 'Referência'], rows: [['Capacidade', 'Até 200 pessoas'], ['Estilo', 'Fazenda histórica rural'], ['Prop icônico', 'Fusca vintage'], ['Drone', 'Altamente recomendado'], ['Cobertura recomendada', '8–10 horas']] },
+      },
+    ],
+    faq: [
+      { question: 'Ivan Dias fotografa casamentos no Casarão La Villa?', answer: 'Sim — Ivan Dias atende casamentos no Casarão La Villa e na região de Mogi das Cruzes. Entre em contato para verificar disponibilidade.' },
+      { question: 'O Fusca vintage aparece nas fotos?', answer: 'Sim — o Fusca é um dos elementos mais icônicos do espaço e Ivan Dias inclui composições com o carro no roteiro fotográfico do casamento. É garantia de fotos únicas que identificam o espaço instantaneamente.' },
+      { question: 'Drone é recomendado para a fazenda?', answer: 'Muito — os campos abertos da fazenda histórica vistos de cima criam imagens aéreas que ficam entre as mais marcantes de qualquer cobertura no Casarão La Villa.' },
+      { question: 'Quanto custa fotografar no Casarão La Villa?', answer: 'Os pacotes partem de R$ 7.000 para eventos em Mogi das Cruzes. Solicite orçamento pelo WhatsApp — resposta em até 24 horas.' },
+    ],
+  },
 ];
 
 export function getPostBySlug(slug: string): Post | undefined {
