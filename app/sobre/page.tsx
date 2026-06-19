@@ -8,7 +8,7 @@ import { SHIMMER_BLUR_DATA_URL } from '@/lib/utils';
 export const metadata: Metadata = {
   title: 'Sobre Ivan Dias | Fotógrafo de Casamento São Paulo',
   description: 'Conheça Ivan Dias, fotógrafo de casamento em São Paulo com mais de 15 anos de experiência e 700 casamentos registrados. Uma história de paixão pela fotografia.',
-  alternates: { canonical: 'https://www.ivandiasfotografo.com.br/sobre/' },
+  alternates: { canonical: 'https://ivandiasfotografo.com.br/sobre/' },
 };
 
 const TIMELINE = [

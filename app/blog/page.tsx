@@ -8,7 +8,7 @@ import { posts } from '@/lib/posts';
 export const metadata: Metadata = {
   title: 'Blog | Dicas de Fotografia de Casamento | Ivan Dias',
   description: 'Dicas, inspirações e guias sobre fotografia de casamento em São Paulo. Tudo que você precisa saber para escolher o fotógrafo ideal para o seu grande dia.',
-  alternates: { canonical: 'https://www.ivandiasfotografo.com.br/blog/' },
+  alternates: { canonical: 'https://ivandiasfotografo.com.br/blog/' },
 };
 
 export default function BlogPage() {

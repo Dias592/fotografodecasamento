@@ -1,6 +1,6 @@
 import { FAQ } from './posts';
 
-const SITE_URL = 'https://www.ivandiasfotografo.com.br';
+const SITE_URL = 'https://ivandiasfotografo.com.br';
 const PHONE = '+55-11-95302-5177';
 
 export const BAIRROS_ATENDIDOS = [

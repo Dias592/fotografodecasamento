@@ -11,7 +11,7 @@ import { SHIMMER_BLUR_DATA_URL } from '@/lib/utils';
 
 const CITY = 'São Caetano do Sul';
 const SLUG = 'fotografo-de-casamento-sao-caetano-do-sul';
-const CANONICAL = `https://www.ivandiasfotografo.com.br/${SLUG}/`;
+const CANONICAL = `https://ivandiasfotografo.com.br/${SLUG}/`;
 
 export const metadata: Metadata = {
   title: 'Fotógrafo de Casamento em São Caetano do Sul | Ivan Dias',

@@ -7,7 +7,7 @@ import Gallery from '@/components/Gallery';
 export const metadata: Metadata = {
   title: 'Portfólio de Casamentos | Ivan Dias Fotógrafo SP',
   description: 'Veja os registros de casamentos, pré-weddings e mini weddings fotografados por Ivan Dias em São Paulo. Mais de 700 casamentos com estilo autoral e emotivo.',
-  alternates: { canonical: 'https://www.ivandiasfotografo.com.br/portfolio/' },
+  alternates: { canonical: 'https://ivandiasfotografo.com.br/portfolio/' },
 };
 
 export default function PortfolioPage() {

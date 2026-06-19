@@ -27,7 +27,7 @@ const poppins = Poppins({
   variable: '--font-poppins',
 });
 
-const SITE_URL = 'https://www.ivandiasfotografo.com.br';
+const SITE_URL = 'https://ivandiasfotografo.com.br';
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),

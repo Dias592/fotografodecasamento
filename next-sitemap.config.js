@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: 'https://www.ivandiasfotografo.com.br',
+  siteUrl: 'https://ivandiasfotografo.com.br',
   generateRobotsTxt: true,
   generateIndexSitemap: false,
   exclude: ['/api/*'],

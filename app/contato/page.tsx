@@ -7,7 +7,7 @@ import ContactForm from '@/components/ContactForm';
 export const metadata: Metadata = {
   title: 'Contato | Ivan Dias Fotógrafo de Casamento SP',
   description: 'Fale com Ivan Dias para orçamento de fotografia de casamento em São Paulo. WhatsApp (11) 95302-5177. Atendimento personalizado para cada casal.',
-  alternates: { canonical: 'https://www.ivandiasfotografo.com.br/contato/' },
+  alternates: { canonical: 'https://ivandiasfotografo.com.br/contato/' },
 };
 
 const WHATSAPP_URL =
