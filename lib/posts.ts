@@ -182,7 +182,7 @@ export const posts: Post[] = [
       {
         question: 'O Welucci Single fica em Moema?',
         answer:
-          'Sim — o Welucci Single está na Rua Tuim, 1041, em Moema. É um dos espaços do Grupo Welucci na capital, com design contemporâneo e estrutura para eventos intimistas e de médio porte. Ivan Dias atende casamentos em todos os espaços do grupo.',
+          'Sim — o Welucci Single está em Moema. É um dos espaços do Grupo Welucci na capital, com design contemporâneo e estrutura para eventos intimistas e de médio porte. Ivan Dias atende casamentos em todos os espaços do grupo.',
       },
       {
         question: 'Parque Ibirapuera é liberado para pré-wedding?',
@@ -6688,15 +6688,15 @@ export const posts: Post[] = [
     slug: 'fotografo-casamento-welucci-single',
     bairro: 'Welucci Single — Moema',
     title: 'Casamento no Welucci Single: Guia Completo de Fotografia em Moema',
-    description: 'Guia de fotografia no Welucci Single em Moema (R. Tuim 1041): espaço urbano sofisticado para casamentos intimistas. Como o acabamento premium e a escala controlada criam álbuns com profundidade emocional.',
-    excerpt: 'O Welucci Single, na Rua Tuim em Moema, é a unidade do Grupo Welucci desenhada para casamentos que priorizam qualidade sobre quantidade. A escala intimista combinada com o acabamento premium do grupo cria condições fotográficas ideais: proximidade com os convidados, controle total de iluminação e a garantia de que cada detalhe recebe atenção no álbum.',
+    description: 'Guia de fotografia no Welucci Single em Moema: espaço urbano sofisticado para casamentos intimistas. Como o acabamento premium e a escala controlada criam álbuns com profundidade emocional.',
+    excerpt: 'O Welucci Single, em Moema, é a unidade do Grupo Welucci desenhada para casamentos que priorizam qualidade sobre quantidade. A escala intimista combinada com o acabamento premium do grupo cria condições fotográficas ideais: proximidade com os convidados, controle total de iluminação e a garantia de que cada detalhe recebe atenção no álbum.',
     date: '2025-04-05',
     updatedDate: '2025-04-05',
     image: '/images/galeria/festa/casamento-sao-paulo-festa-09.jpg',
     sections: [
       {
         h2: 'Características do Welucci Single que toda noiva deve conhecer',
-        content: '<p>Localizado na Rua Tuim 1041, em Moema, o Welucci Single ocupa uma das regiões mais valorizadas de São Paulo para eventos. O conceito "single" reflete a proposta: um espaço coeso, sem subdivisões excessivas, onde cerimônia e recepção acontecem em um fluxo contínuo — e o fotógrafo consegue acompanhar tudo sem se deslocar entre ambientes distantes.</p><p>O acabamento premium do Grupo Welucci garante que cada superfície — paredes, pisos, mobiliário — funciona como fundo fotográfico. Não há ângulos mortos ou áreas que o fotógrafo precise evitar. Todo o espaço é fotografável, o que dá liberdade criativa total ao profissional.</p>',
+        content: '<p>Localizado em Moema, o Welucci Single ocupa uma das regiões mais valorizadas de São Paulo para eventos. O conceito "single" reflete a proposta: um espaço coeso, sem subdivisões excessivas, onde cerimônia e recepção acontecem em um fluxo contínuo — e o fotógrafo consegue acompanhar tudo sem se deslocar entre ambientes distantes.</p><p>O acabamento premium do Grupo Welucci garante que cada superfície — paredes, pisos, mobiliário — funciona como fundo fotográfico. Não há ângulos mortos ou áreas que o fotógrafo precise evitar. Todo o espaço é fotografável, o que dá liberdade criativa total ao profissional.</p>',
         h3s: [
           { title: 'Escala intimista como vantagem fotográfica', content: '<p>Em casamentos com grupo menor, o fotógrafo está sempre a poucos metros de qualquer momento importante. Expressões, gestos, conversas e abraços que em festas grandes se perdem na multidão ficam todos registrados com proximidade e nitidez. O resultado é um álbum com densidade emocional que casamentos de grande porte raramente alcançam.</p>' },
           { title: 'Iluminação projetada para atmosfera', content: '<p>A iluminação do Welucci Single foi planejada para criar ambiente, não apenas visibilidade. Spots direcionais, LED com temperatura de cor controlada e a ausência de iluminação fluorescente permitem que Ivan Dias trabalhe com configurações mais criativas — profundidade de campo rasa, tonalidades quentes e retratos com bokeh marcante que definem o caráter visual do álbum.</p>' },
@@ -6713,7 +6713,7 @@ export const posts: Post[] = [
           caption: 'Welucci Single — referência rápida',
           headers: ['Item', 'Referência'],
           rows: [
-            ['Localização', 'R. Tuim 1041, Moema — São Paulo'],
+            ['Localização', 'Moema — São Paulo'],
             ['Grupo', 'Welucci (parte das 13 unidades)'],
             ['Estilo', 'Urbano sofisticado, intimista'],
             ['Formato ideal', 'Casamentos até 150 convidados'],
