@@ -1,4 +1,4 @@
-﻿export type FAQ = {
+export type FAQ = {
   question: string;
   answer: string;
 };
@@ -3113,7 +3113,7 @@ export const posts: Post[] = [
     excerpt:
       'Itu é famosa pelas coisas grandes — e os casamentos na cidade têm essa mesma grandiosidade. Com fazendas históricas, casarões coloniais e uma cena de eventos consolidada, Itu oferece cenários únicos para registros fotográficos inesquecíveis.',
     date: '2026-03-11',
-    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    image: '/images/galeria/festa/casamento-sao-paulo-festa-13.jpg',
     faq: [
       {
         question: 'Quais são os melhores espaços para casamentos em Itu?',
@@ -6090,7 +6090,7 @@ export const posts: Post[] = [
     excerpt:
       'O Alto Tietê reúne cidades com demanda crescente para casamentos na Grande SP Leste. Itaquaquecetuba, Poá, Ferraz de Vasconcelos e Arujá têm espaços de eventos acessíveis e fácil conexão com Mogi das Cruzes e Suzano.',
     date: '2025-04-03',
-    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    image: '/images/galeria/festa/casamento-sao-paulo-festa-12.jpg',
     faq: [
       {
         question: 'Fotógrafo de SP atende casamentos em Itaquaquecetuba?',
@@ -6531,7 +6531,7 @@ export const posts: Post[] = [
       'O Grupo Quintal tem seis espaços com conceitos completamente distintos — do Rustic Wedding ao Fresh Wedding, do Farm ao Romantic. Cada unidade tem uma identidade visual própria que define o resultado fotográfico do álbum. Este guia cobre os pontos fortes de cada espaço e como Ivan Dias planeja a cobertura para maximizar o potencial de cada conceito.',
     date: '2025-04-05',
     updatedDate: '2025-04-05',
-    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    image: '/images/galeria/festa/casamento-sao-paulo-festa-11.jpg',
     sections: [
       {
         h2: 'O Grupo Quintal e a diversidade de conceitos',
@@ -6635,7 +6635,7 @@ export const posts: Post[] = [
     excerpt: 'O Welucci Estaiada é um dos espaços mais fotograficamente generosos da cidade — com volumes arquitetônicos que criam profundidade, pontes estaiadas que oferecem perspectivas únicas e uma iluminação que combina artificial controlada com reflexos de água. Para o fotógrafo, é um cenário de alto nível.',
     date: '2025-04-05',
     updatedDate: '2025-04-05',
-    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    image: '/images/galeria/festa/casamento-sao-paulo-festa-10.jpg',
     sections: [
       {
         h2: 'Por que o Welucci Estaiada é fotogenicamente excepcional',
@@ -6665,7 +6665,7 @@ export const posts: Post[] = [
     excerpt: 'O Welucci Single combina o padrão de acabamento do Grupo Welucci com uma escala que favorece casamentos mais exclusivos — onde cada detalhe recebe atenção e o fotógrafo consegue estar próximo de todos os momentos importantes sem perder nenhum.',
     date: '2025-04-05',
     updatedDate: '2025-04-05',
-    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    image: '/images/galeria/festa/casamento-sao-paulo-festa-09.jpg',
     sections: [
       {
         h2: 'Pontos fotográficos fortes do Welucci Single',
@@ -6694,7 +6694,7 @@ export const posts: Post[] = [
     excerpt: 'O Welucci Sansu é um capítulo à parte na fotografia de casamento — o conceito zen japonês cria silêncio visual, linhas limpas e uma conexão com a natureza que raramente aparece em espaços de eventos. Para o fotógrafo, é uma oportunidade de criar imagens com uma serenidade e beleza que casamentos em salões convencionais dificilmente atingem.',
     date: '2025-04-05',
     updatedDate: '2025-04-05',
-    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    image: '/images/galeria/festa/casamento-sao-paulo-festa-08.jpg',
     sections: [
       {
         h2: 'O que torna o Welucci Sansu único para fotografia',
@@ -6725,7 +6725,7 @@ export const posts: Post[] = [
     excerpt: 'O Welucci Fontana usa a água como elemento central de design — fontes, espelhos d\'água e reflexos que transformam cada ângulo em uma composição naturalmente romântica. Para a fotografia de casamento, é um cenário que entrega resultado com consistência e beleza.',
     date: '2025-04-05',
     updatedDate: '2025-04-05',
-    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    image: '/images/galeria/festa/casamento-sao-paulo-festa-07.jpg',
     sections: [
       {
         h2: 'Água como elemento fotográfico no Welucci Fontana',
@@ -6754,7 +6754,7 @@ export const posts: Post[] = [
     excerpt: 'O Welucci Kratos é um espaço projetado para impressionar — com volumes que criam senso de grandiosidade e uma arquitetura que faz o casal parecer protagonista de algo maior. Para o fotógrafo, a escala do Kratos é uma ferramenta poderosa de composição.',
     date: '2025-04-05',
     updatedDate: '2025-04-05',
-    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    image: '/images/galeria/festa/casamento-sao-paulo-festa-06.jpg',
     sections: [
       {
         h2: 'Escala como recurso fotográfico no Welucci Kratos',
@@ -6783,7 +6783,7 @@ export const posts: Post[] = [
     excerpt: 'A Casa Welucci traz algo raro no universo dos espaços de evento: a sensação autêntica de uma casa bem cuidada com o acabamento e a infraestrutura de um espaço de alto padrão. Para o fotógrafo, isso significa liberdade criativa — espaços internos aconchegantes, jardins com personalidade e ausência das paredes de salão que matam a ambiência das fotos.',
     date: '2025-04-05',
     updatedDate: '2025-04-05',
-    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    image: '/images/galeria/festa/casamento-sao-paulo-festa-05.jpg',
     sections: [
       {
         h2: 'Por que a Casa Welucci favorece a fotografia documental',
@@ -6812,7 +6812,7 @@ export const posts: Post[] = [
     excerpt: 'O Welucci Gardens é, literalmente, um casamento no jardim — mas com toda a infraestrutura e sofisticação do Grupo Welucci. Para a fotografia, a combinação de verde exuberante, luz natural filtrada e acabamento premium cria uma paleta única: cores vibrantes, fundo desfocado em verde e um romantismo que espaços fechados raramente entregam.',
     date: '2025-04-05',
     updatedDate: '2025-04-05',
-    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    image: '/images/galeria/festa/casamento-sao-paulo-festa-04.jpg',
     sections: [
       {
         h2: 'Vegetação como recurso fotográfico no Welucci Gardens',
@@ -6842,7 +6842,7 @@ export const posts: Post[] = [
     excerpt: 'O Welucci Village é um conceito único — um vilarejo de alto padrão onde cada "rua" e cada "praça" são cenários completamente diferentes. Para o fotógrafo, isso é ouro: um único evento gera fotos com diversidade de cenários que normalmente exigiria múltiplos locais.',
     date: '2025-04-05',
     updatedDate: '2025-04-05',
-    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    image: '/images/galeria/festa/casamento-sao-paulo-festa-03.jpg',
     sections: [
       {
         h2: 'Múltiplos cenários em um único espaço',
@@ -6871,7 +6871,7 @@ export const posts: Post[] = [
     excerpt: 'O Welucci The One carrega no nome o que entrega na prática: é a experiência topo de linha do Grupo Welucci. Para a fotografia de casamento, isso significa o melhor cenário disponível — acabamento impecável em cada detalhe, escala que impressiona e uma iluminação projetada para eventos de alto padrão.',
     date: '2025-04-05',
     updatedDate: '2025-04-05',
-    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    image: '/images/galeria/festa/casamento-sao-paulo-festa-02.jpg',
     sections: [
       {
         h2: 'O que torna o Welucci The One único para fotografia',
@@ -6901,7 +6901,7 @@ export const posts: Post[] = [
     excerpt: 'O Welucci Vila Real traz a estética clássica portuguesa para o cenário de casamentos — azulejos, arcos, pedra e madeira que criam uma atmosfera completamente diferente dos espaços modernos. Para o fotógrafo, é um convite para composições com textura, história e elegância que resistem ao tempo.',
     date: '2025-04-05',
     updatedDate: '2025-04-05',
-    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    image: '/images/galeria/festa/casamento-sao-paulo-festa-01.jpg',
     sections: [
       {
         h2: 'A estética clássica do Welucci Vila Real como recurso fotográfico',
@@ -6930,7 +6930,7 @@ export const posts: Post[] = [
     excerpt: 'O Welucci Fagundes é um casarão colonial que preserva a memória das paredes e do tempo — com madeira, pedra e uma arquitetura que nenhuma reforma consegue fabricar do zero. Para a fotografia de casamento, esse patrimônio cria um pano de fundo com profundidade histórica e visual que transforma cada foto em algo especial.',
     date: '2025-04-05',
     updatedDate: '2025-04-05',
-    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    image: '/images/galeria/pre-wedding/casamento-sao-paulo-pre-wedding-25.jpg',
     sections: [
       {
         h2: 'A textura histórica do Welucci Fagundes como diferencial fotográfico',
@@ -6959,7 +6959,7 @@ export const posts: Post[] = [
     excerpt: 'O Welucci Ocean traz a essência do mar para o cenário da festa — e para a fotografia, isso significa uma paleta de cores, elementos visuais e uma atmosfera completamente diferente dos espaços convencionais. Azul, branco, madeira e luz que parece refletida pela água: um set fotográfico com identidade inconfundível.',
     date: '2025-04-05',
     updatedDate: '2025-04-05',
-    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    image: '/images/galeria/pre-wedding/casamento-sao-paulo-pre-wedding-24.jpg',
     sections: [
       {
         h2: 'A identidade visual náutica do Welucci Ocean em fotografia',
@@ -6990,7 +6990,7 @@ export const posts: Post[] = [
     excerpt: 'O Welucci Canto Verde é um casamento em harmonia com a natureza da serra — vegetação densa, ar limpo, silêncio e uma luz de altitude que não existe na cidade. Para o fotógrafo, esse ambiente cria imagens com uma qualidade de cor e profundidade que só a natureza em estado puro consegue oferecer.',
     date: '2025-04-05',
     updatedDate: '2025-04-05',
-    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    image: '/images/galeria/pre-wedding/casamento-sao-paulo-pre-wedding-23.jpg',
     sections: [
       {
         h2: 'A luz de serra como diferencial fotográfico no Welucci Canto Verde',
@@ -7023,7 +7023,7 @@ export const posts: Post[] = [
     excerpt: 'O Espaço Win é o maior salão de eventos do ABC Paulista — com capacidade para até 2.000 pessoas em coquetel. Para a fotografia de casamento, essa escala cria desafios e oportunidades únicas: grandes planos que mostram a magnitude do evento, iluminação técnica de alto volume e a arte de manter o casal em destaque mesmo em um ambiente grandioso.',
     date: '2024-07-01',
     updatedDate: '2024-07-01',
-    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    image: '/images/galeria/pre-wedding/casamento-sao-paulo-pre-wedding-22.jpg',
     sections: [
       {
         h2: 'Características do Espaço Win que impactam a fotografia',
@@ -7055,7 +7055,7 @@ export const posts: Post[] = [
     excerpt: 'O Mezzatorre Eventos combina salão interno de alto padrão com jardim para cerimônia ao ar livre — uma combinação que cria dois universos fotográficos completamente diferentes no mesmo evento. Saber transitar entre esses ambientes, aproveitando a luz natural externa e a iluminação técnica interna, é o que define a qualidade do álbum final.',
     date: '2024-07-06',
     updatedDate: '2024-07-06',
-    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    image: '/images/galeria/pre-wedding/casamento-sao-paulo-pre-wedding-21.jpg',
     sections: [
       {
         h2: 'O jardim como diferencial fotográfico do Mezzatorre',
@@ -7086,7 +7086,7 @@ export const posts: Post[] = [
     excerpt: 'O Espaço Figueiras oferece uma raridade no ABC Paulista: uma capela de cerimônia integrada ao próprio espaço de festa. Esse formato elimina a logística de deslocamento entre locais e cria uma narrativa fotográfica contínua — do sagrado ao festivo — dentro do mesmo cenário.',
     date: '2024-07-11',
     updatedDate: '2024-07-11',
-    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    image: '/images/galeria/pre-wedding/casamento-sao-paulo-pre-wedding-20.jpg',
     sections: [
       {
         h2: 'A capela integrada como diferencial fotográfico',
@@ -7115,7 +7115,7 @@ export const posts: Post[] = [
     excerpt: 'A Casa Laranjeira by Maztiga é um casarão construído em 1940 na Vila Assunção — um dos bairros mais nobres de Santo André. A arquitetura histórica, com seus detalhes originais preservados, cria um cenário fotográfico com textura e charme que nenhum espaço moderno consegue replicar artificialmente.',
     date: '2024-07-16',
     updatedDate: '2024-07-16',
-    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    image: '/images/galeria/pre-wedding/casamento-sao-paulo-pre-wedding-19.jpg',
     sections: [
       {
         h2: 'A arquitetura histórica da Casa Laranjeira como cenário fotográfico',
@@ -7145,7 +7145,7 @@ export const posts: Post[] = [
     excerpt: 'O Espaço Alfarre é um dos espaços contemporâneos de referência em Santo André — com design limpo, iluminação técnica de alto padrão e capacidade para até 300 convidados. Para a fotografia, o ambiente contemporâneo permite trabalhar com uma paleta neutra que valoriza as cores da decoração e do casal.',
     date: '2024-07-21',
     updatedDate: '2024-07-21',
-    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    image: '/images/galeria/pre-wedding/casamento-sao-paulo-pre-wedding-18.jpg',
     sections: [
       {
         h2: 'Design contemporâneo do Alfarre e fotografia',
@@ -7174,7 +7174,7 @@ export const posts: Post[] = [
     excerpt: 'O Buffet Status é uma referência tradicional em Santo André para casamentos de grande porte — com capacidade para até 650 pessoas. Sua trajetória consolidada no mercado significa infraestrutura testada e iluminação projetada para eventos de gala, o que cria um ambiente fotograficamente favorável mesmo na grande escala.',
     date: '2024-07-26',
     updatedDate: '2024-07-26',
-    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    image: '/images/galeria/pre-wedding/casamento-sao-paulo-pre-wedding-17.jpg',
     sections: [
       {
         h2: 'Fotografia em grande escala no Buffet Status',
@@ -7203,7 +7203,7 @@ export const posts: Post[] = [
     excerpt: 'O Esplannada combina dois diferenciais visuais raros num mesmo espaço: um lustre de cristal de destaque e uma capela própria para cerimônias. Para o fotógrafo, esses elementos criam composições com refinamento e sacralidade que elevam o padrão visual do álbum final.',
     date: '2024-07-31',
     updatedDate: '2024-07-31',
-    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    image: '/images/galeria/pre-wedding/casamento-sao-paulo-pre-wedding-16.jpg',
     sections: [
       {
         h2: 'Lustre de cristal e capela: os dois ícones fotográficos do Esplannada',
@@ -7232,7 +7232,7 @@ export const posts: Post[] = [
     excerpt: 'O Grande Ville traz para Santo André uma proposta visual diferente dos buffets convencionais: a estética de chalé europeu cria uma atmosfera acolhedora e fotogenicamente rica, com madeira, texturas naturais e um romantismo que espaços modernos raramente conseguem transmitir.',
     date: '2024-08-05',
     updatedDate: '2024-08-05',
-    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    image: '/images/galeria/pre-wedding/casamento-sao-paulo-pre-wedding-15.jpg',
     sections: [
       {
         h2: 'A estética chalé do Grande Ville e a fotografia',
@@ -7261,7 +7261,7 @@ export const posts: Post[] = [
     excerpt: 'O Espaço Mônaco é a escolha de Santo André para quem quer um casamento pequeno com muito estilo — com capacidade para até 80 convidados e uma atmosfera de bistrô parisiense que transforma cada foto em algo elegante e descontraído ao mesmo tempo.',
     date: '2024-08-10',
     updatedDate: '2024-08-10',
-    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    image: '/images/galeria/pre-wedding/casamento-sao-paulo-pre-wedding-14.jpg',
     sections: [
       {
         h2: 'Mini wedding no Mônaco: o que a escala intimista proporciona na fotografia',
@@ -7289,7 +7289,7 @@ export const posts: Post[] = [
     excerpt: 'O Buffet D\'Matos é uma referência em Santo André para casamentos de médio porte — com estrutura consolidada e ambiente voltado para celebrações com atenção aos detalhes. Para a fotografia, espaços com essa maturidade de serviço geralmente significam iluminação bem calibrada e logística previsível.',
     date: '2024-08-15',
     updatedDate: '2024-08-15',
-    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    image: '/images/galeria/pre-wedding/casamento-sao-paulo-pre-wedding-13.jpg',
     sections: [
       {
         h2: 'Cobertura fotográfica no Buffet D\'Matos',
@@ -7313,7 +7313,7 @@ export const posts: Post[] = [
     excerpt: 'O Espaço Pallazium oferece estrutura para até 300 convidados em Santo André — com ambientes projetados para casamentos e eventos de celebração. Para a fotografia, a capacidade média é um ponto ideal: grande o suficiente para criar imagens com grandiosidade, mas compacto o suficiente para que o fotógrafo esteja sempre próximo dos momentos importantes.',
     date: '2024-08-20',
     updatedDate: '2024-08-20',
-    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    image: '/images/galeria/pre-wedding/casamento-sao-paulo-pre-wedding-12.jpg',
     sections: [
       {
         h2: 'Pontos fotográficos do Espaço Pallazium',
@@ -7337,7 +7337,7 @@ export const posts: Post[] = [
     excerpt: 'Casar num hotel tem uma dimensão fotográfica que espaços de festa independentes raramente oferecem: corredores, lobby, quartos do casal, escadarias e uma infraestrutura visual que vai muito além do salão. O Hotel Plaza Mayor com seu Salão Real oferece tudo isso em Santo André.',
     date: '2024-08-25',
     updatedDate: '2024-08-25',
-    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    image: '/images/galeria/pre-wedding/casamento-sao-paulo-pre-wedding-11.jpg',
     sections: [
       {
         h2: 'A estrutura hoteleira como extensão do cenário fotográfico',
@@ -7367,7 +7367,7 @@ export const posts: Post[] = [
     excerpt: 'O Espaço Favoritto é o maior destaque de São Bernardo do Campo para casamentos — com quatro ambientes integrados (salão social, discoteca, bar gourmet e jardim de preservação) e política de exclusividade de um evento por dia. Para o fotógrafo, isso significa liberdade total para cobrir cada espaço sem interferência de outros eventos.',
     date: '2024-08-30',
     updatedDate: '2024-08-30',
-    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    image: '/images/galeria/pre-wedding/casamento-sao-paulo-pre-wedding-10.jpg',
     sections: [
       {
         h2: 'Quatro ambientes, uma cobertura contínua',
@@ -7398,7 +7398,7 @@ export const posts: Post[] = [
     excerpt: 'O Sítio São Jorge é um complexo de eventos com quatro espaços distintos em São Bernardo do Campo — Vdara, Demarchi, Jardim Secreto e Pergolado — com capacidade que vai de 250 a 800 pessoas. Para a fotografia, cada espaço tem uma personalidade visual própria, criando um repertório de cenários que poucos locais da região oferecem.',
     date: '2024-09-04',
     updatedDate: '2024-09-04',
-    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    image: '/images/galeria/pre-wedding/casamento-sao-paulo-pre-wedding-09.jpg',
     sections: [
       {
         h2: 'Quatro espaços, quatro identidades fotográficas',
@@ -7428,7 +7428,7 @@ export const posts: Post[] = [
     excerpt: 'O Chácara e Buffet Recanto dos Sonhos é um dos espaços premiados de São Bernardo do Campo para casamentos — com capacidade para até 350 convidados e a atmosfera de chácara que combina natureza com infraestrutura de buffet de alto padrão.',
     date: '2024-09-09',
     updatedDate: '2024-09-09',
-    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    image: '/images/galeria/pre-wedding/casamento-sao-paulo-pre-wedding-08.jpg',
     sections: [
       {
         h2: 'Chácara como cenário fotográfico: o que o Recanto dos Sonhos oferece',
@@ -7455,7 +7455,7 @@ export const posts: Post[] = [
     excerpt: 'O Lago Park oferece algo que muito poucos espaços de casamento têm: um lago real como elemento central do cenário. Para a fotografia, a presença da água multiplica as possibilidades — reflexos, perspectivas, a linha do horizonte sobre o lago e uma qualidade de luz que só ambientes aquáticos proporcionam.',
     date: '2024-09-14',
     updatedDate: '2024-09-14',
-    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    image: '/images/galeria/pre-wedding/casamento-sao-paulo-pre-wedding-07.jpg',
     sections: [
       {
         h2: 'O lago como protagonista fotográfico',
@@ -7485,7 +7485,7 @@ export const posts: Post[] = [
     excerpt: 'O Espelho D\'Água fica às margens da Represa Billings — um dos cenários naturais mais bonitos da Grande São Paulo. Para o fotógrafo, a represa como pano de fundo é um recurso visual que eleva imediatamente a qualidade e a memória de cada imagem registrada.',
     date: '2024-09-19',
     updatedDate: '2024-09-19',
-    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    image: '/images/galeria/pre-wedding/casamento-sao-paulo-pre-wedding-06.jpg',
     sections: [
       {
         h2: 'Represa Billings como cenário: o que isso significa para a fotografia',
@@ -7513,7 +7513,7 @@ export const posts: Post[] = [
     excerpt: 'O Allegro Buffet opera dois espaços com estética italiana em São Bernardo do Campo — o Espaço Venêto e a Villa Maranello. A arquitetura inspirada na Toscana cria um cenário visualmente rico com arcos, pedra, jardins mediterrâneos e uma iluminação que remete às vilas italianas.',
     date: '2024-09-24',
     updatedDate: '2024-09-24',
-    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    image: '/images/galeria/pre-wedding/casamento-sao-paulo-pre-wedding-05.jpg',
     sections: [
       {
         h2: 'Estética toscana como recurso fotográfico',
@@ -7541,7 +7541,7 @@ export const posts: Post[] = [
     excerpt: 'O PBsom Eventos é um espaço de São Bernardo do Campo conhecido pela tecnologia acústica de alto padrão — o que se traduz em eventos com iluminação de show e uma infraestrutura técnica que beneficia diretamente a qualidade das fotos da festa.',
     date: '2024-09-29',
     updatedDate: '2024-09-29',
-    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    image: '/images/galeria/pre-wedding/casamento-sao-paulo-pre-wedding-04.jpg',
     sections: [
       {
         h2: 'Tecnologia de evento e fotografia: como se relacionam',
@@ -7567,7 +7567,7 @@ export const posts: Post[] = [
     excerpt: 'O Buffet 7 Mares é uma referência em São Caetano do Sul com capacidade para até 550 convidados. A especialidade em frutos do mar cria uma identidade gastronômica marcante que se reflete na decoração e na atmosfera do evento — elementos que enriquecem a narrativa visual do álbum de casamento.',
     date: '2024-10-04',
     updatedDate: '2024-10-04',
-    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    image: '/images/galeria/pre-wedding/casamento-sao-paulo-pre-wedding-03.jpg',
     sections: [
       {
         h2: 'Fotografia em buffet de grande capacidade: desafios e oportunidades',
@@ -7595,7 +7595,7 @@ export const posts: Post[] = [
     excerpt: 'O Cook Hall Buffet em São Caetano do Sul combina gastronomia de alto padrão com um espaço de eventos bem estruturado para até 300 convidados. Para a fotografia, a atenção ao detalhe que define a proposta gastronômica do Cook Hall se traduz em elementos visuais que enriquecem o álbum final.',
     date: '2024-10-09',
     updatedDate: '2024-10-09',
-    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    image: '/images/galeria/pre-wedding/casamento-sao-paulo-pre-wedding-02.jpg',
     sections: [
       {
         h2: 'Gastronomia e fotografia: o detalhe como narrativa',
@@ -7619,7 +7619,7 @@ export const posts: Post[] = [
     excerpt: 'O Alameda 7 em São Caetano do Sul é a escolha para casamentos mais íntimos — com capacidade para até 150 convidados. A escala reduzida cria um ambiente onde o fotógrafo consegue estar próximo de todos os momentos importantes, resultando em um álbum com densidade emocional real.',
     date: '2024-10-14',
     updatedDate: '2024-10-14',
-    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    image: '/images/galeria/pre-wedding/casamento-sao-paulo-pre-wedding-01.jpg',
     sections: [
       {
         h2: 'Escala intimista do Alameda 7 e fotografia documental',
@@ -7643,7 +7643,7 @@ export const posts: Post[] = [
     excerpt: 'A Casa Flora Eventos tem no próprio nome a sua proposta visual mais forte: cenografia floral como elemento central da experiência. Para o fotógrafo de casamento, isso significa um ambiente onde cada detalhe foi pensado esteticamente — flores, cores e texturas que criam composições visuais naturalmente bonitas em todos os ângulos.',
     date: '2024-10-19',
     updatedDate: '2024-10-19',
-    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-30.jpg',
     sections: [
       {
         h2: 'Cenografia floral como diferencial fotográfico',
@@ -7671,7 +7671,7 @@ export const posts: Post[] = [
     excerpt: 'O Eco Buffet Social em São Caetano do Sul oferece estrutura para até 250 convidados num ambiente que equilibra sofisticação e acolhimento. A capacidade média é ideal para casamentos onde o casal quer presença real de todos os convidados — e onde o fotógrafo consegue cobrir cada momento importante sem se perder na escala.',
     date: '2024-10-24',
     updatedDate: '2024-10-24',
-    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-29.jpg',
     sections: [
       {
         h2: 'Cobertura fotográfica no Eco Buffet Social',
@@ -7697,7 +7697,7 @@ export const posts: Post[] = [
     excerpt: 'A Estação 840 é um dos espaços mais visualmente únicos de Osasco — com estética industrial chic, um vagão de trem restaurado como lounge VIP e divisão entre o salão Grand Central e o Galpão Brooklin. Para o fotógrafo, o contraste entre metal, concreto e decoração refinada cria imagens com uma energia urbana que espaços convencionais simplesmente não têm.',
     date: '2024-10-29',
     updatedDate: '2024-10-29',
-    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-28.jpg',
     sections: [
       {
         h2: 'O que torna a Estação 840 única para fotografia',
@@ -7729,7 +7729,7 @@ export const posts: Post[] = [
     excerpt: 'O Maison Bella Vista é um dos espaços de referência em Osasco para casamentos de médio a grande porte — com capacidade para até 400 convidados e estrutura projetada para eventos de alto padrão. Para o fotógrafo, a combinação de escala e infraestrutura consolidada cria um ambiente previsível e favorável à cobertura completa.',
     date: '2024-11-03',
     updatedDate: '2024-11-03',
-    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-27.jpg',
     sections: [
       {
         h2: 'Fotografia no Maison Bella Vista',
@@ -7753,7 +7753,7 @@ export const posts: Post[] = [
     excerpt: 'O Spazio Valentina tem uma característica arquitetônica rara entre espaços de eventos em Osasco: três pisos. Essa verticalidade cria perspectivas fotográficas que espaços horizontais não permitem — escadas como cenário, ângulos de cima para baixo, visões do mezanino que mostram o evento de uma perspectiva completamente diferente.',
     date: '2024-11-08',
     updatedDate: '2024-11-08',
-    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-26.jpg',
     sections: [
       {
         h2: 'Três pisos: perspectivas que a maioria dos espaços não tem',
@@ -7778,7 +7778,7 @@ export const posts: Post[] = [
     excerpt: 'O Espaço Catedral é uma referência central em Osasco para casamentos de médio porte — com capacidade para até 350 convidados e posicionamento que facilita o acesso para familiares e amigos de toda a região. Para a fotografia, a escala média do espaço é ideal para uma cobertura completa e intimista ao mesmo tempo.',
     date: '2024-11-13',
     updatedDate: '2024-11-13',
-    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-25.jpg',
     sections: [
       {
         h2: 'Cobertura fotográfica no Espaço Catedral',
@@ -7802,7 +7802,7 @@ export const posts: Post[] = [
     excerpt: 'O Buffet Madeira, com 38 anos de trajetória em Alphaville, é um dos banqueteiros mais experientes da região de Osasco e Barueri. Essa longevidade no mercado se traduz em infraestrutura testada, logística azeitada e um ambiente cuidado ao longo de décadas — tudo isso beneficia diretamente a experiência fotográfica no dia do casamento.',
     date: '2024-11-18',
     updatedDate: '2024-11-18',
-    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-24.jpg',
     sections: [
       {
         h2: '38 anos de tradição: o que isso significa para a fotografia',
@@ -7828,7 +7828,7 @@ export const posts: Post[] = [
     excerpt: 'O Ravena Garden Buffet é o maior destaque de Mairiporã para casamentos — com 360.000m² de área de conservação, salão em madeira nobre com painéis de vidro de pé-direito de 6 metros e um bosque nativo para cerimônias ao ar livre. Para o fotógrafo, são três cenários de luz completamente diferentes dentro do mesmo evento: o bosque natural, o salão de madeira e vidro, e as áreas externas da propriedade.',
     date: '2024-11-23',
     updatedDate: '2024-11-23',
-    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-23.jpg',
     sections: [
       {
         h2: 'Três cenários de luz, um único casamento',
@@ -7860,7 +7860,7 @@ export const posts: Post[] = [
     excerpt: 'O Sítio Florentino é o destination wedding da Serra da Cantareira — com estrutura de hospedagem integrada ao espaço de eventos, o casal e os convidados ficam imersos na natureza por um fim de semana inteiro. Para o fotógrafo, isso significa uma narrativa visual que vai muito além do dia do casamento.',
     date: '2024-11-28',
     updatedDate: '2024-11-28',
-    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-22.jpg',
     sections: [
       {
         h2: 'Destination wedding: a cobertura que não começa nem termina na cerimônia',
@@ -7888,7 +7888,7 @@ export const posts: Post[] = [
     excerpt: 'A Quinta da Cantareira tem um elemento arquitetônico que pouquíssimos espaços do Brasil possuem: uma Capela de Cristal. A estrutura inteiramente em vidro com a natureza da Serra da Cantareira como pano de fundo cria um cenário para a cerimônia que é simultaneamente sagrado, moderno e absolutamente fotogênico.',
     date: '2024-12-03',
     updatedDate: '2024-12-03',
-    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-21.jpg',
     sections: [
       {
         h2: 'A Capela de Cristal: o cenário mais fotogênico de Mairiporã',
@@ -7918,7 +7918,7 @@ export const posts: Post[] = [
     excerpt: 'A Villa Vezzane em Mairiporã combina o cenário natural da Serra da Cantareira com a possibilidade de hospedagem para o casal e convidados — criando uma experiência de casamento que vai além de uma festa e se torna um fim de semana especial. Para a fotografia, essa imersão na natureza resulta em imagens com uma qualidade e autenticidade únicas.',
     date: '2024-12-08',
     updatedDate: '2024-12-08',
-    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-20.jpg',
     sections: [
       {
         h2: 'Natureza e hospedagem: a fórmula fotográfica da Villa Vezzane',
@@ -7942,7 +7942,7 @@ export const posts: Post[] = [
     excerpt: 'O Mon Chalé combina dois elementos visuais fortes: a estética acolhedora do chalé europeu e uma capela de vidro integrada ao espaço. Na Serra da Cantareira, esse conjunto cria uma ambiência única — o charme da madeira e do aconchego europeu com a natureza da serra como cenário permanente.',
     date: '2024-12-13',
     updatedDate: '2024-12-13',
-    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-19.jpg',
     sections: [
       {
         h2: 'Chalé + chapel de vidro: dois mundos fotográficos',
@@ -7969,7 +7969,7 @@ export const posts: Post[] = [
     excerpt: 'A Casa Pôr do Sol Cantareira foi feita para quem quer celebrar com poucos, mas com o cenário mais bonito de Mairiporã. Com capacidade para até 150 convidados e proposta de mini wedding ou brunch, o espaço tem no próprio nome a sua hora mais mágica — o pôr do sol sobre a Serra da Cantareira.',
     date: '2024-12-18',
     updatedDate: '2024-12-18',
-    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-18.jpg',
     sections: [
       {
         h2: 'O pôr do sol como protagonista fotográfico',
@@ -7999,7 +7999,7 @@ export const posts: Post[] = [
     excerpt: 'A Estância Silvestre é um espaço único em Ribeirão Pires — um casamento náutico à beira de represa, com toda a poética visual que a água oferece: reflexos, horizontes, a luz dourada do entardecer sobre a superfície e um silêncio de natureza que relaxa os fotografados e produz imagens com autenticidade rara.',
     date: '2024-12-23',
     updatedDate: '2024-12-23',
-    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-17.jpg',
     sections: [
       {
         h2: 'Casamento náutico: o que a presença da represa significa para a fotografia',
@@ -8027,7 +8027,7 @@ export const posts: Post[] = [
     excerpt: 'A Chácara Flores em Ribeirão Pires oferece 12.000m² de área com Mata Atlântica preservada — um pano de fundo natural que transforma qualquer casamento em uma experiência visual completamente diferente dos buffets convencionais. Para o fotógrafo, a mata é um cenário vivo que muda com a luz, a estação e a hora do dia.',
     date: '2024-12-28',
     updatedDate: '2024-12-28',
-    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-16.jpg',
     sections: [
       {
         h2: '12.000m² de Mata Atlântica: o cenário mais verde do ABC',
@@ -8054,7 +8054,7 @@ export const posts: Post[] = [
     excerpt: 'O Espaço Vista Verde em Ribeirão Pires oferece estrutura para até 250 convidados num ambiente que integra a natureza da região ao espaço de eventos. Para a fotografia, a proposta verde do espaço garante composições com vegetação como elemento de fundo e uma atmosfera que espaços puramente internos não têm.',
     date: '2025-01-02',
     updatedDate: '2025-01-02',
-    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-15.jpg',
     sections: [
       {
         h2: 'Cobertura fotográfica no Espaço Vista Verde',
@@ -8080,7 +8080,7 @@ export const posts: Post[] = [
     excerpt: 'A Villa Castanieri em Mogi das Cruzes é um complexo à beira de represa com três salões distintos — Castanheira, Paganotti e Bellagio — com capacidade total para até 300 pessoas. A combinação de água, múltiplos ambientes e a natureza do Alto Tietê cria um conjunto visual excepcionalmente rico para a fotografia de casamento.',
     date: '2025-01-03',
     updatedDate: '2025-01-03',
-    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-14.jpg',
     sections: [
       {
         h2: 'Três salões, represa e natureza: a riqueza visual da Villa Castanieri',
@@ -8111,7 +8111,7 @@ export const posts: Post[] = [
     excerpt: 'O Grupo Welucci tem 13 unidades em São Paulo — cada uma com conceito, capacidade e atmosfera distintos. Do sofisticado Welucci Estaiada à intimidade do Canto Verde, cada espaço exige uma abordagem fotográfica própria. Este guia reúne os pontos fortes fotográficos de cada unidade e como Ivan Dias planeja a cobertura para aproveitar ao máximo cada conceito.',
     date: '2025-01-03',
     updatedDate: '2025-01-03',
-    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-13.jpg',
     sections: [
       {
         h2: 'O Grupo Welucci e a fotografia de casamento em São Paulo',
@@ -8178,7 +8178,7 @@ export const posts: Post[] = [
     excerpt: 'Ribeirão Pires, a "Cidade da Diversão", tem uma cena de casamentos marcada por espaços em meio à natureza e propriedades com áreas verdes amplas. Este guia cobre os principais espaços para casar em Ribeirão Pires e como Ivan Dias planeja a fotografia na região.',
     date: '2025-01-02',
     updatedDate: '2025-01-02',
-    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-12.jpg',
     sections: [
       {
         h2: 'Casamentos em Ribeirão Pires: natureza como cenário',
@@ -8222,7 +8222,7 @@ export const posts: Post[] = [
     excerpt: 'O Casarão La Villa em Mogi das Cruzes é uma fazenda histórica que mantém elementos que o tempo geralmente elimina — incluindo um Fusca vintage que se tornou um dos props fotográficos mais icônicos de casamentos rurais da região. A arquitetura histórica, os campos da fazenda e esse detalhe vintage criam um conjunto visual que nenhum espaço moderno replica.',
     date: '2025-01-04',
     updatedDate: '2025-01-04',
-    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-11.jpg',
     sections: [
       {
         h2: 'Fazenda histórica: textura do tempo como recurso fotográfico',
@@ -8255,7 +8255,7 @@ export const posts: Post[] = [
     excerpt: 'A Nossa Senhora do Brasil é uma das igrejas mais disputadas de São Paulo — lista de espera de até 2 anos, regras rígidas de pontualidade e fornecedores credenciados. Se você já reservou a data ou está no processo, este guia responde as dúvidas mais buscadas e mostra como o planejamento fotográfico precisa se adaptar ao teto único desse templo.',
     date: '2025-01-01',
     updatedDate: '2025-01-01',
-    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-09.jpg',
     sections: [
       {
         h2: 'O que você precisa saber antes de marcar data na Nossa Senhora do Brasil',
@@ -8316,7 +8316,7 @@ export const posts: Post[] = [
     excerpt: 'A Paróquia São José do Jardim Europa tem capacidade para até 200 convidados e uma nave que preocupa casais na hora de compor o altar com muitos padrinhos. Este guia mostra como o enquadramento certo transforma a nave estreita em cenário elegante — e por que as escadarias externas são um dos melhores pontos de ensaio do Jardim Europa.',
     date: '2024-12-31',
     updatedDate: '2024-12-31',
-    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-08.jpg',
     sections: [
       {
         h2: 'O que você precisa saber antes de marcar data na São José do Jardim Europa',
@@ -8368,7 +8368,7 @@ export const posts: Post[] = [
     excerpt: 'A Catedral Anglicana de São Paulo é uma das opções mais procuradas por casais de religiões diferentes que buscam um templo monumental e acolhedor. Este guia aborda o que muda na cobertura fotográfica de um casamento ecumênico — e como planejar registros que honrem os dois lados da cerimônia com igual atenção.',
     date: '2024-12-30',
     updatedDate: '2024-12-30',
-    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-07.jpg',
     sections: [
       {
         h2: 'A Catedral Anglicana como escolha para casamentos ecumênicos e diversos',
@@ -8421,7 +8421,7 @@ export const posts: Post[] = [
     excerpt: 'A Catedral Nossa Senhora do Carmo é a principal igreja de Santo André para casamentos de grande porte — mas tem um detalhe fotográfico que pega fotógrafos despreparados de surpresa: o LED do altar ilumina os noivos perfeitamente e deixa os padrinhos na penumbra. Este guia explica como resolver esse problema e o que esperar do processo de reserva na catedral.',
     date: '2024-12-29',
     updatedDate: '2024-12-29',
-    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-06.jpg',
     sections: [
       {
         h2: 'O que você precisa saber antes de marcar casamento na Catedral do Carmo',
@@ -8473,7 +8473,7 @@ export const posts: Post[] = [
     excerpt: 'A Matriz Sagrada Família de São Caetano do Sul tem dois diferenciais que separam quem conhece de quem não conhece: exige 1 ano de antecedência para reservar, mas não impõe fornecedores exclusivos — você leva o fotógrafo, o músico e o decorador da sua escolha. Este guia explica o processo e mostra como aproveitar a arquitetura histórica de 1943 na fotografia.',
     date: '2024-12-28',
     updatedDate: '2024-12-28',
-    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-05.jpg',
     sections: [
       {
         h2: 'O que você precisa saber antes de marcar data na Matriz de São Caetano',
@@ -8525,7 +8525,7 @@ export const posts: Post[] = [
     excerpt: 'A Matriz de São Bernardo exige entrevista com o padre antes de marcar a data — um passo que muitos casais não esperam. Este guia explica o processo completo, o que esperar da entrevista, o que a pauta inclui e como aproveitar a acústica do templo para uma cobertura fotográfica que faz jus à grandiosidade da cerimônia.',
     date: '2024-12-27',
     updatedDate: '2024-12-27',
-    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-04.jpg',
     sections: [
       {
         h2: 'O que você precisa saber antes de marcar data na Matriz de São Bernardo',
@@ -8578,7 +8578,7 @@ export const posts: Post[] = [
     excerpt: 'A Nossa Senhora de Lourdes em Alphaville tem uma regra que pega famílias grandes de surpresa: limite de 6 casais de padrinhos por lado. Para casais com redes de amizade e família extensas, isso significa decisões difíceis — e um cortejo com composição diferente do planejado. Este guia explica a regra e como o fotógrafo adapta a composição para que o grupo menor produza fotos tão marcantes quanto qualquer cortejo de 20 casais.',
     date: '2024-12-26',
     updatedDate: '2024-12-26',
-    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-03.jpg',
     sections: [
       {
         h2: 'O que você precisa saber antes de marcar data na Nossa Senhora de Lourdes',
@@ -8629,7 +8629,7 @@ export const posts: Post[] = [
     excerpt: 'A Capela de São Francisco de Assis, na divisa entre São Paulo e Osasco, atrai casais que querem o rústico-chic integrado à natureza com até 80 convidados. A capacidade reduzida e o ambiente natural criam condições fotográficas únicas — luz natural predominante, intimidade entre os convidados e um ritmo de cerimônia diferente dos grandes salões.',
     date: '2024-12-25',
     updatedDate: '2024-12-25',
-    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-02.jpg',
     sections: [
       {
         h2: 'O que você precisa saber antes de marcar data na Capela São Francisco de Assis',
@@ -8681,7 +8681,7 @@ export const posts: Post[] = [
     excerpt: 'A Igreja de São Benedito de Mogi das Cruzes é patrimônio histórico colonial tombado — o que significa regras específicas para decoração, restrições que preservam a integridade dos altares esculpidos em madeira e um cuidado fotográfico especial. Este guia explica o que o tombamento permite e não permite, e como planejar a cobertura fotográfica de um casamento nesse templo único.',
     date: '2024-12-24',
     updatedDate: '2024-12-24',
-    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-10.jpg',
+    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-01.jpg',
     sections: [
       {
         h2: 'O que você precisa saber antes de marcar casamento na Igreja de São Benedito',
