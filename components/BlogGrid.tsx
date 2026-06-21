@@ -23,7 +23,7 @@ export default function BlogGrid({ posts, limit }: { posts: Post[]; limit?: numb
             <div className="relative overflow-hidden rounded-2xl">
               <Image
                 src={post.image}
-                alt={`${post.title} | Ivan Dias Fotógrafo`}
+                alt={`Fotografia de casamento em ${post.bairro}`}
                 role="img"
                 width={800}
                 height={533}

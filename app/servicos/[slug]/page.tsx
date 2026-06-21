@@ -106,6 +106,13 @@ const SERVICE_IMAGES: Record<string, string> = {
   drone: '/images/servicos/fotografo-casamento-sao-paulo-drone-imagens-aereas.webp',
 };
 
+const SERVICE_ALTS: Record<string, string> = {
+  'cobertura-completa': 'Casal de noivos durante cobertura fotográfica completa de casamento em São Paulo',
+  'pre-wedding': 'Casal em ensaio pré-wedding ao ar livre em São Paulo com luz natural do entardecer',
+  'mini-wedding': 'Cerimônia intimista de mini wedding com poucos convidados registrada por Ivan Dias',
+  drone: 'Vista aérea de casamento ao ar livre capturada por drone profissional em São Paulo',
+};
+
 const WHATSAPP_URL =
   'https://wa.me/5511953025177?text=Ol%C3%A1%20Ivan!%20Vi%20seu%20site%20e%20quero%20saber%20sobre%20fotografia%20de%20casamento.';
 
@@ -192,7 +199,7 @@ export default function ServicoPage({ params }: Props) {
           <div className="relative aspect-[4/5] w-full overflow-hidden rounded-3xl">
             <Image
               src={SERVICE_IMAGES[service.slug] ?? '/images/servicos/fotografo-casamento-sao-paulo-cobertura-completa.webp'}
-              alt={`Fotografia ilustrativa do serviço ${service.title} oferecido por Ivan Dias`}
+              alt={SERVICE_ALTS[service.slug] ?? `Fotografia de ${service.title} em São Paulo por Ivan Dias`}
               role="img"
               fill
               priority

@@ -146,7 +146,7 @@ export default function SatellitePost({ post }: { post: Post }) {
         <div className="mt-10 overflow-hidden rounded-3xl">
           <Image
             src={post.image}
-            alt={`${post.title} | Ivan Dias Fotógrafo`}
+            alt={`Fotografia de casamento em ${post.bairro} — ${post.title.slice(0, 80)}`}
             role="img"
             width={800}
             height={533}
