@@ -6757,9 +6757,9 @@ export const posts: Post[] = [
 
   {
     slug: 'fotografo-casamento-welucci-sansu',
-    bairro: 'Welucci Sansu — Região de Sorocaba',
+    bairro: 'Welucci Sansu — Araçoiaba da Serra',
     title: 'Casamento no Welucci Sansu: Guia Completo de Fotografia',
-    description: 'Guia de fotografia no Welucci Sansu próximo a Sorocaba: estética zen japonesa, jardins como cenário, luz natural filtrada pela vegetação. Como o minimalismo oriental cria álbuns únicos.',
+    description: 'Guia de fotografia no Welucci Sansu em Araçoiaba da Serra (região de Sorocaba): estética zen japonesa, jardins como cenário, luz natural filtrada pela vegetação. Como o minimalismo oriental cria álbuns únicos.',
     excerpt: 'O Welucci Sansu, próximo a Sorocaba, traduz a filosofia zen japonesa em espaço para casamentos — jardins cuidadosamente desenhados, linhas limpas e uma conexão com a natureza que raramente aparece em espaços de eventos. Para o fotógrafo, o minimalismo oriental é um presente: menos elementos em cena, mais impacto em cada um.',
     date: '2025-04-05',
     updatedDate: '2025-04-05',
@@ -6781,12 +6781,12 @@ export const posts: Post[] = [
       },
       {
         h2: 'Logística do dia no Welucci Sansu',
-        content: '<p>Localizado próximo a Sorocaba (100 km de SP pela Castelo Branco), o Sansu requer planejamento de deslocamento. Ivan Dias prevê margem de 1h30 para o trajeto em dias de sábado. Cobertura recomendada: 8-10 horas para aproveitar a luz natural dos jardins e a transição para a noite.</p>',
+        content: '<p>Localizado em Araçoiaba da Serra, região de Sorocaba (100 km de SP pela Castelo Branco), o Sansu requer planejamento de deslocamento. Ivan Dias prevê margem de 1h30 para o trajeto em dias de sábado. Cobertura recomendada: 8-10 horas para aproveitar a luz natural dos jardins e a transição para a noite.</p>',
         table: {
           caption: 'Welucci Sansu — referência rápida',
           headers: ['Item', 'Referência'],
           rows: [
-            ['Região', 'Próximo a Sorocaba (~100 km de SP)'],
+            ['Região', 'Araçoiaba da Serra (região de Sorocaba, ~100 km de SP)'],
             ['Grupo', 'Welucci (parte das 13 unidades)'],
             ['Conceito', 'Zen japonês, jardins contemplativos'],
             ['Estilo fotográfico', 'Contemplativo, documental'],
@@ -6801,7 +6801,7 @@ export const posts: Post[] = [
       },
     ],
     faq: [
-      { question: 'Ivan Dias fotografa casamentos no Welucci Sansu?', answer: 'Sim — Ivan Dias atende todas as unidades do Grupo Welucci, incluindo o Sansu próximo a Sorocaba. Entre em contato para verificar disponibilidade.' },
+      { question: 'Ivan Dias fotografa casamentos no Welucci Sansu?', answer: 'Sim — Ivan Dias atende todas as unidades do Grupo Welucci, incluindo o Sansu em Araçoiaba da Serra (região de Sorocaba). Entre em contato para verificar disponibilidade.' },
       { question: 'O jardim japonês aparece nas fotos?', answer: 'Sim — o jardim é o ponto fotográfico principal do espaço. Ivan Dias reserva tempo no cronograma para fotos do casal nesse cenário, aproveitando a melhor luz do dia.' },
       { question: 'O estilo zen combina com casamentos festivos?', answer: 'Sim — o espaço acolhe diferentes estilos de celebração. A fotografia se adapta: mais contemplativa nos jardins, mais dinâmica na festa. Ambos coexistem perfeitamente no álbum.' },
       { question: 'Quanto custa fotografar no Welucci Sansu?', answer: 'Os pacotes partem de R$ 7.000 para cobertura completa. Solicite orçamento personalizado pelo WhatsApp.' },
@@ -6812,9 +6812,9 @@ export const posts: Post[] = [
 
   {
     slug: 'fotografo-casamento-welucci-fontana',
-    bairro: 'Welucci Fontana — Região de Sorocaba',
+    bairro: 'Welucci Fontana — Votorantim',
     title: 'Casamento no Welucci Fontana: Guia Completo de Fotografia',
-    description: 'Fotografia de casamento no Welucci Fontana: fontes como elemento visual, reflexos, iluminação noturna e como Ivan Dias planeja a cobertura fotográfica neste espaço romântico.',
+    description: 'Fotografia de casamento no Welucci Fontana em Votorantim: fontes como elemento visual, reflexos, iluminação noturna e como Ivan Dias planeja a cobertura fotográfica neste espaço romântico.',
     excerpt: 'O Welucci Fontana usa a água como elemento central de design — fontes, espelhos d\'água e reflexos que transformam cada ângulo em uma composição naturalmente romântica. Para a fotografia de casamento, é um cenário que entrega resultado com consistência e beleza.',
     date: '2025-04-05',
     updatedDate: '2025-04-05',
