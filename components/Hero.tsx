@@ -18,10 +18,13 @@ const STATS = [
 function Counter({ value, suffix }: { value: number; suffix: string }) {
   const ref = useRef<HTMLSpanElement>(null);
   const inView = useInView(ref, { once: true, amount: 0.3 });
-  const [count, setCount] = useState(0);
+  const [count, setCount] = useState(value);
+  const [hasAnimated, setHasAnimated] = useState(false);
 
   useEffect(() => {
-    if (!inView) return;
+    if (!inView || hasAnimated) return;
+    setHasAnimated(true);
+    setCount(0);
     let raf: number;
     const duration = 1400;
     const start = performance.now();
@@ -35,7 +38,7 @@ function Counter({ value, suffix }: { value: number; suffix: string }) {
 
     raf = requestAnimationFrame(tick);
     return () => cancelAnimationFrame(raf);
-  }, [inView, value]);
+  }, [inView, value, hasAnimated]);
 
   return (
     <span ref={ref} className="font-heading text-4xl font-extrabold text-cream md:text-5xl">
