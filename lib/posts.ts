@@ -38,7 +38,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-de-casamento-itaim-bibi',
     bairro: 'Itaim Bibi',
-    title: 'Fotógrafo de Casamento no Itaim Bibi: guia completo para noivos',
+    title: 'Casamento no Itaim Bibi: Guia de Fotografia SP',
     description:
       'Tudo o que você precisa saber para escolher um fotógrafo de casamento no Itaim Bibi, incluindo as melhores locações e dicas para um ensaio perfeito.',
     excerpt:
@@ -79,7 +79,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-de-casamento-jardins',
     bairro: 'Jardins',
-    title: 'Fotógrafo de Casamento nos Jardins: elegância em cada detalhe',
+    title: 'Casamento nos Jardins: Fotografia Elegante SP',
     description:
       'Descubra por que os Jardins são um dos bairros preferidos para casamentos sofisticados em São Paulo e como um bom fotógrafo registra essa elegância.',
     excerpt:
@@ -120,7 +120,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-de-casamento-moema',
     bairro: 'Moema',
-    title: 'Fotógrafo de Casamento em Moema: Guia Completo de Espaços, Luz e Logística',
+    title: 'Casamento em Moema: Guia de Fotografia e Espaços',
     description:
       'Guia completo de fotografia de casamento em Moema: Welucci Single, Parque Ibirapuera para pré-wedding, igrejas, logística com Vila Olímpia e Itaim Bibi, e como escolher o fotógrafo certo para o bairro.',
     excerpt:
@@ -214,7 +214,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-de-casamento-pinheiros',
     bairro: 'Pinheiros',
-    title: 'Fotógrafo de Casamento em Pinheiros: clima descontraído e autêntico',
+    title: 'Casamento em Pinheiros: Fotografia Autêntica SP',
     description:
       'Veja como um fotógrafo experiente registra casamentos descontraídos em Pinheiros, aproveitando a energia única do bairro.',
     excerpt:
@@ -290,7 +290,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-de-casamento-perdizes',
     bairro: 'Perdizes',
-    title: 'Fotógrafo de Casamento em Perdizes: charme residencial e sofisticação',
+    title: 'Casamento em Perdizes: Fotógrafo e Guia SP',
     description:
       'Conheça as vantagens de contratar um fotógrafo de casamento em Perdizes e os espaços que tornam o bairro tão especial para celebrações.',
     excerpt:
@@ -328,7 +328,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-de-casamento-tatuape',
     bairro: 'Tatuapé',
-    title: 'Fotógrafo de Casamento no Tatuapé: celebrações cheias de vida',
+    title: 'Casamento no Tatuapé: Fotógrafo e Guia SP',
     description:
       'Descubra como capturar a energia vibrante dos casamentos no Tatuapé com um fotógrafo especializado em registros autênticos.',
     excerpt:
@@ -366,7 +366,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-de-casamento-santana',
     bairro: 'Santana',
-    title: 'Fotógrafo de Casamento em Santana: histórias para a vida toda',
+    title: 'Casamento em Santana: Fotógrafo e Guia SP',
     description:
       'Veja como um fotógrafo de casamento em Santana transforma cada cerimônia em uma narrativa visual emocionante e duradoura.',
     excerpt:
@@ -404,7 +404,7 @@ export const posts: Post[] = [
   {
     slug: 'quanto-custa-fotografo-casamento-sao-paulo',
     bairro: 'São Paulo',
-    title: 'Quanto Custa um Fotógrafo de Casamento em São Paulo em 2025? (Guia Completo de Preços)',
+    title: 'Quanto Custa Fotógrafo de Casamento em SP 2025?',
     description:
       'Quanto custa um fotógrafo de casamento em São Paulo em 2025? Tabela completa com faixas de preço, o que está incluso em cada pacote e como economizar sem abrir mão da qualidade.',
     excerpt:
@@ -457,7 +457,7 @@ export const posts: Post[] = [
   {
     slug: 'quanto-custa-fotografo-casamento-2-horas',
     bairro: 'São Paulo',
-    title: 'Quanto Custa um Fotógrafo de Casamento por 2 Horas em São Paulo?',
+    title: 'Fotógrafo de Casamento por 2 Horas: Quanto Custa?',
     description:
       'Quanto custa contratar um fotógrafo de casamento por apenas 2 horas em São Paulo? Veja faixas de preço, o que dá para registrar nesse tempo e quando essa opção faz sentido.',
     excerpt:
@@ -500,7 +500,7 @@ export const posts: Post[] = [
   {
     slug: 'quanto-custa-book-20-fotos-casamento',
     bairro: 'São Paulo',
-    title: 'Quanto Custa um Book de 20 Fotos de Casamento? Pacotes Menores Explicados',
+    title: 'Book de 20 Fotos de Casamento: Quanto Custa?',
     description:
       'Entenda quanto custa um book de 20 fotos de casamento em São Paulo, quando esse formato compacto faz sentido e o que considerar antes de escolher um pacote menor.',
     excerpt:
@@ -543,7 +543,7 @@ export const posts: Post[] = [
   {
     slug: 'como-negociar-preco-fotografo-casamento',
     bairro: 'São Paulo',
-    title: 'Como Negociar o Preço com seu Fotógrafo de Casamento (Sem Constranger Ninguém)',
+    title: 'Como Negociar Preço do Fotógrafo de Casamento',
     description:
       'Aprenda como negociar com respeito o orçamento do seu fotógrafo de casamento em São Paulo: o que pode ser negociado, como abordar o assunto e quais armadilhas evitar.',
     excerpt:
@@ -586,7 +586,7 @@ export const posts: Post[] = [
   {
     slug: 'preciso-fotografo-profissional-casamento',
     bairro: 'São Paulo',
-    title: 'Preciso Mesmo de um Fotógrafo Profissional para Meu Casamento?',
+    title: 'Preciso de Fotógrafo Profissional no Casamento?',
     description:
       'Vale a pena investir em um fotógrafo profissional de casamento ou um amigo com câmera boa resolve? Veja os pontos que pesam nessa decisão antes de definir seu orçamento.',
     excerpt:
@@ -629,7 +629,7 @@ export const posts: Post[] = [
   {
     slug: 'quantas-horas-fotografo-casamento',
     bairro: 'São Paulo',
-    title: '8 ou 10 Horas de Fotografia de Casamento: Quanto Tempo Você Realmente Precisa?',
+    title: 'Quantas Horas de Fotógrafo no Casamento?',
     description:
       '8 ou 10 horas de cobertura fotográfica: qual é a duração ideal para o seu casamento? Veja como decidir com base no roteiro do seu dia e no que cada opção cobre.',
     excerpt:
@@ -672,7 +672,7 @@ export const posts: Post[] = [
   {
     slug: 'como-escolher-fotografo-casamento-sao-paulo',
     bairro: 'São Paulo',
-    title: 'Fotógrafo de Casamento: Como Escolher o Melhor para o Seu Grande Dia?',
+    title: 'Como Escolher Fotógrafo de Casamento em SP',
     description:
       'Como escolher o melhor fotógrafo de casamento em São Paulo? Veja os critérios essenciais de avaliação, perguntas para fazer antes de contratar e sinais de alerta.',
     excerpt:
@@ -715,7 +715,7 @@ export const posts: Post[] = [
   {
     slug: 'convidados-com-cameras-atrapalhando-fotografo',
     bairro: 'São Paulo',
-    title: 'Convidados com Câmeras Atrapalhando o Fotógrafo: Como Evitar no Seu Casamento',
+    title: 'Convidados com Câmeras: Como Não Atrapalhar',
     description:
       'Convidados tirando fotos durante a cerimônia podem prejudicar o trabalho do fotógrafo profissional. Veja como evitar esse problema sem soar rígido com seus convidados.',
     excerpt:
@@ -796,7 +796,7 @@ export const posts: Post[] = [
   {
     slug: 'quando-contratar-fotografo-casamento',
     bairro: 'São Paulo',
-    title: 'Quando Devo Contratar o Fotógrafo de Casamento? Timeline Completa de Planejamento',
+    title: 'Quando Contratar o Fotógrafo de Casamento?',
     description:
       'Quando contratar o fotógrafo de casamento em São Paulo? Veja a timeline ideal de planejamento, os riscos de deixar para a última hora e como garantir a data certa.',
     excerpt:
@@ -882,7 +882,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-casamento-pouca-antecedencia',
     bairro: 'São Paulo',
-    title: 'Fotógrafo de Casamento Disponível com Pouca Antecedência: É Possível Encontrar?',
+    title: 'Fotógrafo de Casamento de Última Hora: É Possível?',
     description:
       'Precisa de um fotógrafo de casamento de última hora em São Paulo? Veja se é possível encontrar profissionais disponíveis com pouca antecedência e como aumentar suas chances.',
     excerpt:
@@ -925,7 +925,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-casamento-junior-vs-senior',
     bairro: 'São Paulo',
-    title: 'Fotógrafo Júnior ou Sênior? Entenda a Diferença de Experiência e Preço',
+    title: 'Fotógrafo Júnior vs Sênior: Diferença e Preço',
     description:
       'Qual a diferença entre contratar um fotógrafo de casamento júnior ou sênior em São Paulo? Veja como cada nível de experiência impacta o preço, o estilo e o resultado final.',
     excerpt:
@@ -968,7 +968,7 @@ export const posts: Post[] = [
   {
     slug: 'preciso-segundo-fotografo-casamento',
     bairro: 'São Paulo',
-    title: 'Preciso de Segundo Fotógrafo no Meu Casamento? Veja Quando Vale a Pena',
+    title: 'Segundo Fotógrafo no Casamento: Quando Vale?',
     description:
       'O segundo fotógrafo é realmente necessário no seu casamento? Entenda o que esse profissional acrescenta à cobertura e em quais situações ele faz toda a diferença.',
     excerpt:
@@ -1054,7 +1054,7 @@ export const posts: Post[] = [
   {
     slug: 'contrato-fotografo-casamento-o-que-incluir',
     bairro: 'São Paulo',
-    title: 'Contrato de Fotógrafo de Casamento: O Que Ele Deve Incluir Para Te Proteger',
+    title: 'Contrato de Fotógrafo de Casamento: O Que Ter',
     description:
       'Que cláusulas um contrato de fotógrafo de casamento deve ter? Veja os itens essenciais para garantir segurança jurídica e tranquilidade no maior dia da sua vida.',
     excerpt:
@@ -1269,7 +1269,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-casamento-alta-resolucao-entrega',
     bairro: 'São Paulo',
-    title: 'Fotógrafo de Casamento Entrega as Fotos em Alta ou Baixa Resolução? Entenda a Diferença',
+    title: 'Fotos de Casamento: Alta ou Baixa Resolução?',
     description:
       'Qual a resolução ideal para as fotos do seu casamento? Entenda a diferença entre alta e baixa resolução, e por que isso importa na hora de imprimir e compartilhar suas memórias.',
     excerpt:
@@ -1570,7 +1570,7 @@ export const posts: Post[] = [
   {
     slug: 'ensaio-pre-casamento-fotografo',
     bairro: 'São Paulo',
-    title: 'Fotógrafo de Casamento Precisa Fazer Ensaio Antes? O Que É o Pré-Wedding e Para Que Serve',
+    title: 'O Que É Pré-Wedding e Por Que Fazer?',
     description:
       'O ensaio pré-wedding é necessário antes do casamento? Entenda o que é esse tipo de sessão fotográfica, seus benefícios reais e quando vale investir nessa experiência.',
     excerpt:
@@ -1785,7 +1785,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-casamento-entrega-album-ou-pasta',
     bairro: 'São Paulo',
-    title: 'Fotógrafo de Casamento Entrega Álbum ou Pasta de Fotos? Formatos de Entrega Explicados',
+    title: 'Álbum ou Pasta Digital: O Que o Fotógrafo Entrega',
     description:
       'Como seu fotógrafo de casamento vai entregar as fotos — em álbum impresso, galeria online ou pasta digital? Entenda os formatos disponíveis e como escolher o melhor para você.',
     excerpt:
@@ -1957,7 +1957,7 @@ export const posts: Post[] = [
   {
     slug: 'por-que-fotografos-cobram-mais-sao-paulo',
     bairro: 'São Paulo',
-    title: 'Por Que Fotógrafos de Casamento Cobram Mais em São Paulo do que em Outras Cidades?',
+    title: 'Fotógrafo de Casamento SP: Por Que Custa Mais?',
     description:
       'Fotógrafos de casamento em São Paulo costumam cobrar mais do que em outras cidades brasileiras. Entenda os fatores que justificam essa diferença de preço no maior mercado do país.',
     excerpt:
@@ -2215,7 +2215,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-de-casamento-sorocaba',
     bairro: 'Sorocaba',
-    title: 'Fotógrafo de Casamento em Sorocaba: Guia Completo — Welucci, Fazendas e Logística',
+    title: 'Casamento em Sorocaba: — Welucci, Fazendas e Logística',
     description:
       'Guia completo de fotografia de casamento em Sorocaba: espaços Welucci Sansu e Fontana, fazendas e chácaras da região, logística desde SP, pré-wedding e quanto custa contratar o fotógrafo certo.',
     excerpt:
@@ -2314,7 +2314,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-de-casamento-campinas',
     bairro: 'Campinas',
-    title: 'Fotógrafo de Casamento em Campinas: Como Escolher e O Que Esperar',
+    title: 'Casamento em Campinas: Como Escolher e O Que Esperar',
     description:
       'Buscando fotógrafo de casamento em Campinas? Saiba como avaliar profissionais, quais espaços a cidade oferece e como planejar a cobertura fotográfica do seu grande dia.',
     excerpt:
@@ -2357,7 +2357,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-de-casamento-santos',
     bairro: 'Santos',
-    title: 'Fotógrafo de Casamento em Santos: Beleza Litorânea em Cada Registro',
+    title: 'Casamento em Santos: Beleza Litorânea em Cada Registro',
     description:
       'Casando em Santos ou no litoral paulista? Saiba como escolher um fotógrafo de casamento que capture a beleza única dos cenários à beira-mar com sensibilidade e técnica.',
     excerpt:
@@ -2400,7 +2400,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-de-casamento-guarulhos',
     bairro: 'Guarulhos',
-    title: 'Fotógrafo de Casamento em Guarulhos: Guia Completo de Buffets, Logística e Pré-Wedding',
+    title: 'Casamento em Guarulhos: Buffets, Logística e Pré-Wedding',
     description:
       'Guia completo de fotografia de casamento em Guarulhos: buffets confirmados (Europa, Evian, Bosque Maia), logística desde SP, Parque Estadual da Cantareira para pré-wedding e quanto custa contratar o fotógrafo certo.',
     excerpt:
@@ -2508,7 +2508,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-de-casamento-santo-andre',
     bairro: 'Santo André',
-    title: 'Fotógrafo de Casamento em Santo André: Guia Completo do ABC Paulista',
+    title: 'Casamento em Santo André: Guia de Fotografia',
     description:
       'Guia completo de fotografia de casamento em Santo André: espaços confirmados (Mezzatorre, Cook Hall), igrejas, logística do ABCDM, pré-wedding no Parque Celso Daniel e quanto custa contratar fotógrafo de qualidade.',
     excerpt:
@@ -2616,7 +2616,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-de-casamento-barueri',
     bairro: 'Barueri',
-    title: 'Fotógrafo de Casamento em Barueri: Alphaville e Tamboré em Cada Frame',
+    title: 'Casamento em Barueri: Alphaville e Tamboré em Cada Frame',
     description:
       'Casando em Barueri, Alphaville ou Tamboré? Saiba como escolher o fotógrafo ideal para capturar cada detalhe dos espaços sofisticados da região com qualidade e sensibilidade.',
     excerpt:
@@ -2659,7 +2659,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-de-casamento-mogi-das-cruzes',
     bairro: 'Mogi das Cruzes',
-    title: 'Fotógrafo de Casamento em Mogi das Cruzes: Interior com Alma e Natureza',
+    title: 'Casamento em Mogi das Cruzes: Fotógrafo',
     description:
       'Procura fotógrafo de casamento em Mogi das Cruzes? Conheça os espaços mais bonitos da região, as particularidades da fotografia no Alto Tietê e como garantir registros inesquecíveis.',
     excerpt:
@@ -2713,7 +2713,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-de-casamento-osasco',
     bairro: 'Osasco',
-    title: 'Fotógrafo de Casamento em Osasco: Grande São Paulo com Identidade Própria',
+    title: 'Casamento em Osasco: Fotógrafo e Guia SP',
     description:
       'Casando em Osasco? Saiba como encontrar o fotógrafo ideal, quais espaços a cidade oferece e por que a proximidade com São Paulo é uma vantagem na hora de contratar.',
     excerpt:
@@ -2769,7 +2769,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-de-casamento-guaruja',
     bairro: 'Guarujá',
-    title: 'Fotógrafo de Casamento no Guarujá: Mar, Luz e Emoção em Cada Quadro',
+    title: 'Casamento no Guarujá: Mar, Luz e Emoção em Cada Quadro',
     description:
       'Sonha com um casamento à beira-mar no Guarujá? Veja como escolher um fotógrafo que domine a luz litorânea, os cenários praiais e os desafios técnicos de fotografar à beira do mar.',
     excerpt:
@@ -2812,7 +2812,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-de-casamento-jundiai',
     bairro: 'Jundiaí',
-    title: 'Fotógrafo de Casamento em Jundiaí e Vinhedo: Vinhedos, Welucci Kratos e Serra do Japi',
+    title: 'Casamento em Jundiaí e Vinhedo: Vinhedos, Welucci Kratos e',
     description:
       'Guia completo de fotografia de casamento em Jundiaí e Vinhedo: Welucci Kratos, vinícolas, fazendas históricas, pré-wedding na Serra do Japi e quanto custa contratar o fotógrafo certo na região.',
     excerpt:
@@ -2892,7 +2892,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-de-casamento-suzano',
     bairro: 'Suzano',
-    title: 'Fotógrafo de Casamento em Suzano: Natureza e Emoção no Alto Tietê',
+    title: 'Casamento em Suzano: Natureza e Emoção no Alto Tietê',
     description:
       'Procura fotógrafo de casamento em Suzano? Conheça os espaços da região, as particularidades do Alto Tietê e como garantir registros fotográficos de alto nível para o seu grande dia.',
     excerpt:
@@ -2935,7 +2935,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-de-casamento-tatui',
     bairro: 'Tatuí',
-    title: 'Fotógrafo de Casamento em Tatuí: A Capital da Música e dos Casamentos Inesquecíveis',
+    title: 'Casamento em Tatuí: A Capital da Música e dos Casamentos',
     description:
       'Casando em Tatuí? Saiba como escolher o fotógrafo certo para capturar a atmosfera única desta cidade histórica do interior paulista com sensibilidade e qualidade.',
     excerpt:
@@ -2978,7 +2978,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-de-casamento-atibaia',
     bairro: 'Atibaia',
-    title: 'Fotógrafo de Casamento em Atibaia: Flores, Serra e Romantismo em Cada Frame',
+    title: 'Casamento em Atibaia: Flores, Serra e Romantismo em Cada',
     description:
       'Sonha com um casamento em Atibaia, rodeado de flores e natureza? Veja como escolher o fotógrafo ideal para capturar a magia desta cidade serrana a 60 km de São Paulo.',
     excerpt:
@@ -3021,7 +3021,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-de-casamento-cotia',
     bairro: 'Cotia',
-    title: 'Fotógrafo de Casamento em Cotia: Entre a Capital e a Natureza do Interior',
+    title: 'Casamento em Cotia: Entre a Capital e a Natureza do Interior',
     description:
       'Casando em Cotia? Saiba como escolher o fotógrafo ideal para capturar o charme dos espaços entre a metrópole e o interior, com a natureza do entorno como pano de fundo.',
     excerpt:
@@ -3064,7 +3064,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-de-casamento-indaiatuba',
     bairro: 'Indaiatuba',
-    title: 'Fotógrafo de Casamento em Indaiatuba: Elegância e Natureza no Interior Paulista',
+    title: 'Casamento em Indaiatuba: Elegância e Natureza no Interior',
     description:
       'Procura fotógrafo de casamento em Indaiatuba? Descubra os espaços mais bonitos desta cidade próxima a Campinas e como garantir registros fotográficos dignos da sua celebração.',
     excerpt:
@@ -3107,7 +3107,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-de-casamento-itu',
     bairro: 'Itu',
-    title: 'Fotógrafo de Casamento em Itu: A Cidade das Coisas Grandes e dos Casamentos Únicos',
+    title: 'Casamento em Itu: A Cidade das Coisas Grandes e dos',
     description:
       'Casando em Itu? Saiba como escolher o fotógrafo ideal para capturar a personalidade histórica desta cidade charmosa do interior paulista com qualidade e sensibilidade.',
     excerpt:
@@ -3150,7 +3150,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-de-casamento-ilhabela',
     bairro: 'Ilhabela',
-    title: 'Fotógrafo de Casamento em Ilhabela: O Paraíso do Litoral Norte Paulista',
+    title: 'Casamento em Ilhabela: O Paraíso do Litoral Norte',
     description:
       'Sonhando com um casamento em Ilhabela? Veja como escolher um fotógrafo que capture a beleza deslumbrante desta ilha paradisíaca com técnica, sensibilidade e amor pelo lugar.',
     excerpt:
@@ -3193,7 +3193,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-de-casamento-piracicaba',
     bairro: 'Piracicaba',
-    title: 'Fotógrafo de Casamento em Piracicaba: Charme do Interior com Qualidade da Capital',
+    title: 'Casamento em Piracicaba: Charme do Interior com Qualidade da',
     description:
       'Procura fotógrafo de casamento em Piracicaba? Saiba como garantir registros de alto nível para o seu grande dia nesta cidade charmosa às margens do Rio Piracicaba.',
     excerpt:
@@ -3236,7 +3236,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-de-casamento-sao-bernardo-do-campo',
     bairro: 'São Bernardo do Campo',
-    title: 'Fotógrafo de Casamento em São Bernardo do Campo: Guia Completo do ABC',
+    title: 'Casamento em São Bernardo do Campo: do ABC',
     description:
       'Guia completo de fotografia de casamento em São Bernardo do Campo: Buffet Jardim Viena, chácaras na Represa Billings, logística do ABCDM, pré-wedding em Riacho Grande e quanto custa contratar o fotógrafo certo.',
     excerpt:
@@ -3330,7 +3330,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-de-casamento-trancoso',
     bairro: 'Trancoso',
-    title: 'Fotógrafo de Casamento em Trancoso: Bohemian Luxury à Beira do Mar da Bahia',
+    title: 'Casamento em Trancoso: Bohemian Luxury à Beira do Mar da',
     description:
       'Casando em Trancoso? Saiba como escolher um fotógrafo que capture a atmosfera única deste destino paradisíaco — o charme rústico, a luz tropical e o romantismo do quadrado histórico.',
     excerpt:
@@ -3373,7 +3373,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-de-casamento-ubatuba',
     bairro: 'Ubatuba',
-    title: 'Fotógrafo de Casamento em Ubatuba: Mata Atlântica, Mar Verde e Emoção',
+    title: 'Casamento em Ubatuba: Mata Atlântica, Mar Verde e Emoção',
     description:
       'Sonha com um casamento em Ubatuba, rodeado pela Mata Atlântica e pelo mar verde do litoral norte? Veja como escolher o fotógrafo ideal para este destino paradisíaco.',
     excerpt:
@@ -3416,7 +3416,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-de-casamento-sao-jose-dos-campos',
     bairro: 'São José dos Campos',
-    title: 'Fotógrafo de Casamento em São José dos Campos: Tecnologia e Romantismo no Vale',
+    title: 'Casamento em São José dos Campos: Tecnologia e Romantismo no',
     description:
       'Procura fotógrafo de casamento em São José dos Campos? Saiba como escolher o profissional certo para capturar o seu grande dia nesta cidade moderna do Vale do Paraíba.',
     excerpt:
@@ -3459,7 +3459,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-de-casamento-mairipora',
     bairro: 'Mairiporã',
-    title: 'Fotógrafo de Casamento em Mairiporã: Guia Completo Serra da Cantareira',
+    title: 'Casamento em Mairiporã: Fotógrafo na Serra',
     description:
       'Guia completo de fotografia de casamento em Mairiporã: Buffet Callegari e espaços confirmados na Serra da Cantareira, chácaras, microclima serrano, logística desde SP e quanto custa contratar o fotógrafo certo.',
     excerpt:
@@ -3614,7 +3614,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-de-casamento-perto-de-mim',
     bairro: 'Fotógrafo Perto de Mim',
-    title: 'Fotógrafo de Casamento Perto de Mim: Como Encontrar o Profissional Certo na Sua Cidade',
+    title: 'Fotógrafo de Casamento Perto de Mim em SP',
     description:
       'Buscando "fotógrafo de casamento perto de mim"? Saiba como encontrar o profissional ideal, o que avaliar além da localização e por que o melhor fotógrafo pode não ser o mais próximo.',
     excerpt:
@@ -3657,7 +3657,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-bodas-de-ouro-50-anos-casamento',
     bairro: 'Bodas de Ouro',
-    title: 'Fotógrafo para Bodas de Ouro: Como Eternizar 50 Anos de Amor com Dignidade e Beleza',
+    title: 'Fotógrafo para Bodas de Ouro: 50 Anos de Amor',
     description:
       'Vai celebrar as bodas de ouro dos seus pais ou avós? Saiba como escolher o fotógrafo ideal para registrar 50 anos de casamento com sensibilidade, emoção e qualidade.',
     excerpt:
@@ -3700,7 +3700,7 @@ export const posts: Post[] = [
   {
     slug: 'melhor-fotografo-casamento-brasil',
     bairro: 'Melhor do Brasil',
-    title: 'Como Reconhecer o Melhor Fotógrafo de Casamento do Brasil: Critérios que Realmente Importam',
+    title: 'Melhor Fotógrafo de Casamento do Brasil',
     description:
       'O que define o melhor fotógrafo de casamento do Brasil? Entenda os critérios técnicos, artísticos e humanos que separam um profissional excepcional de um simplesmente bom.',
     excerpt:
@@ -3786,7 +3786,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-pedido-de-casamento',
     bairro: 'Pedido de Casamento',
-    title: 'Fotógrafo para Pedido de Casamento: Como Eternizar o Momento Mais Emocionante da Sua Vida',
+    title: 'Fotógrafo para Pedido de Casamento em SP',
     description:
       'Quer registrar o pedido de casamento com fotos profissionais sem que a pessoa amada saiba? Veja como planejar, contratar e executar esse momento único com segredo e qualidade.',
     excerpt:
@@ -3829,7 +3829,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-casamento-catolico',
     bairro: 'Casamento Católico',
-    title: 'Fotógrafo de Casamento Católico: Como Fotografar a Cerimônia Religiosa com Respeito e Arte',
+    title: 'Fotógrafo de Casamento Católico: Cerimônia SP',
     description:
       'Vai se casar numa cerimônia católica? Saiba o que esperar do fotógrafo, as regras das igrejas, os melhores momentos para registrar e como garantir imagens lindas sem desrespeitar o sagrado.',
     excerpt:
@@ -3872,7 +3872,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-casamento-sao-paulo-como-escolher',
     bairro: 'Como Escolher',
-    title: 'Fotógrafo de Casamento em São Paulo: Como Escolher o Profissional Certo em 2026',
+    title: 'Casamento em São Paulo: Como Escolher o Profissional Certo',
     description:
       'Guia completo para escolher o fotógrafo de casamento certo em São Paulo: o que avaliar no portfólio, quando contratar e quais perguntas fazer antes de fechar.',
     excerpt:
@@ -3910,7 +3910,7 @@ export const posts: Post[] = [
   {
     slug: 'quanto-custa-fotografo-casamento-sp-precos',
     bairro: 'Preços e Pacotes',
-    title: 'Quanto Custa um Fotógrafo de Casamento em SP? Guia Completo de Pacotes e Preços Reais',
+    title: 'Fotógrafo de Casamento SP: Preços e Pacotes',
     description:
       'Quanto custa um fotógrafo de casamento em São Paulo em 2026? Veja faixas de preço reais, o que está incluso nos pacotes e como negociar parcelamento.',
     excerpt:
@@ -3948,7 +3948,7 @@ export const posts: Post[] = [
   {
     slug: 'cobertura-completa-casamento-sao-paulo-o-que-incluso',
     bairro: 'Cobertura Completa',
-    title: 'Cobertura Completa de Casamento em São Paulo: O Que Está Incluso e O Que É Adicional',
+    title: 'Cobertura Completa de Casamento SP: O Que Inclui',
     description:
       'Entenda o que é uma cobertura completa de casamento em São Paulo, o que costuma estar incluso no pacote e o que é cobrado como adicional (drone, Same Day Edit, hora extra).',
     excerpt:
@@ -4024,7 +4024,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografia-casamento-autoral-sao-paulo',
     bairro: 'Estilo Autoral',
-    title: 'Fotografia de Casamento Autoral em São Paulo: O Que É e Por Que Muda Tudo nas Suas Fotos',
+    title: 'Fotografia Autoral de Casamento em SP',
     description:
       'Entenda o que é fotografia autoral de casamento, em que ela difere do estilo tradicional e por que esse olhar faz tanta diferença no resultado final em São Paulo.',
     excerpt:
@@ -4161,7 +4161,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-casamento-itaim-bibi-sp',
     bairro: 'Itaim Bibi',
-    title: 'Fotógrafo de Casamento no Itaim Bibi SP: Espaços, Dicas e Como Planejar Sua Cobertura',
+    title: 'Casamento no Itaim Bibi SP: Espaços, Dicas e Como Planejar',
     description:
       'Fotógrafo de casamento no Itaim Bibi, em São Paulo: conheça os melhores espaços, dicas de horário para fotos externas e o que perguntar antes de contratar.',
     excerpt:
@@ -4227,7 +4227,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-casamento-moema-sp',
     bairro: 'Moema',
-    title: 'Fotógrafo de Casamento em Moema SP: Locações, Estilo e O Que Esperar na Cobertura',
+    title: 'Casamento em Moema SP: Locações, Estilo e O Que Esperar na',
     description:
       'Fotógrafo de casamento em Moema, São Paulo: veja as melhores locações da região, incluindo o Parque Ibirapuera, e o que esperar de uma boa cobertura fotográfica.',
     excerpt:
@@ -4283,7 +4283,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-casamento-pinheiros-sp',
     bairro: 'Pinheiros',
-    title: 'Fotógrafo de Casamento em Pinheiros SP: Espaços Charmosos e Como Registrar Cada Detalhe',
+    title: 'Casamento em Pinheiros SP: Espaços Charmosos e Como',
     description:
       'Fotógrafo de casamento em Pinheiros, São Paulo: descubra espaços charmosos para mini weddings, boas locações externas e dicas de planejamento na região.',
     excerpt:
@@ -4311,7 +4311,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-casamento-vila-mariana-sp',
     bairro: 'Vila Mariana',
-    title: 'Fotógrafo de Casamento na Vila Mariana SP: Salões, Espaços e Inspirações Reais',
+    title: 'Casamento na Vila Mariana SP: Salões, Espaços e Inspirações',
     description:
       'Fotógrafo de casamento na Vila Mariana, São Paulo: conheça as opções de salões da região e veja dicas para escolher um profissional que conheça o bairro.',
     excerpt:
@@ -4334,7 +4334,7 @@ export const posts: Post[] = [
   {
     slug: 'casamento-alto-pinheiros-sp-fotografo',
     bairro: 'Alto de Pinheiros',
-    title: 'Casamento no Alto de Pinheiros SP: Locações Exclusivas e Como Fotografar com Beleza',
+    title: 'Casamento no Alto de Pinheiros: Guia SP',
     description:
       'Fotógrafo de casamento no Alto de Pinheiros, São Paulo: conheça locações exclusivas ao ar livre e dicas para valorizar a atmosfera do bairro nas fotos.',
     excerpt:
@@ -4357,7 +4357,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-casamento-abc-paulista-santo-andre-sao-bernardo',
     bairro: 'ABCDM',
-    title: 'Fotógrafo de Casamento no ABCDM: Cobertura Completa em Santo André, São Bernardo, São Caetano, Diadema e Mauá',
+    title: 'Casamento no ABCDM: Cobertura Completa em Santo André, São',
     description:
       'Fotógrafo de casamento no ABCDM (Santo André, São Bernardo do Campo, São Caetano do Sul, Diadema e Mauá), atendendo toda a região com cobertura completa vinda de São Paulo.',
     excerpt:
@@ -4395,7 +4395,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-casamento-alphaville-barueri-sp',
     bairro: 'Alphaville',
-    title: 'Fotógrafo de Casamento em Alphaville e Barueri SP: Cobertura em Espaços de Luxo',
+    title: 'Casamento em Alphaville e Barueri SP: Cobertura em Espaços',
     description:
       'Fotógrafo de casamento em Alphaville e Barueri, região metropolitana de São Paulo: espaços de luxo, taxas de deslocamento e dicas sobre o uso de drone.',
     excerpt:
@@ -4423,7 +4423,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-casamento-zona-sul-sp',
     bairro: 'Zona Sul',
-    title: 'Fotógrafo de Casamento na Zona Sul de SP: Melhores Bairros, Salões e Dicas de Cobertura',
+    title: 'Casamento na Zona Sul de SP: Melhores Bairros, Salões e',
     description:
       'Fotógrafo de casamento na Zona Sul de São Paulo: veja os bairros mais procurados para casar, incluindo Santo Amaro, Campo Belo e Interlagos, e dicas de cobertura.',
     excerpt:
@@ -4446,7 +4446,7 @@ export const posts: Post[] = [
   {
     slug: 'mini-wedding-sao-paulo-fotografia-cobertura',
     bairro: 'Mini Wedding',
-    title: 'Mini Wedding em São Paulo: Tudo Que Você Precisa Saber Sobre Fotografia e Cobertura',
+    title: 'Mini Wedding SP: Guia Completo de Fotografia',
     description:
       'Fotógrafo de mini wedding em São Paulo: entenda como funciona a cobertura fotográfica desse formato, preços médios e as melhores locações para casamentos intimistas.',
     excerpt:
@@ -4517,7 +4517,7 @@ export const posts: Post[] = [
   {
     slug: 'ensaio-pre-wedding-sao-paulo-guia-completo',
     bairro: 'Pré-Wedding',
-    title: 'Ensaio Pré-Wedding em São Paulo: Guia Completo com Dicas, Preços e Melhores Locações',
+    title: 'Pré-Wedding SP: Preços, Dicas e Locações',
     description:
       'Ensaio pré-wedding em São Paulo: veja preços médios, as melhores locações da cidade, a melhor época do ano e quanto tempo dura uma sessão completa.',
     excerpt:
@@ -4616,7 +4616,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-bodas-de-ouro-sao-paulo',
     bairro: 'Bodas de Ouro',
-    title: 'Fotógrafo de Bodas de Ouro em São Paulo: Como Celebrar 50 Anos de Casamento em Fotos',
+    title: 'Bodas de Ouro SP: Fotógrafo para 50 Anos',
     description:
       'Fotógrafo de bodas de ouro em São Paulo: veja como celebrar 50 anos de casamento com um ensaio fotográfico especial, preços médios e ideias de locação.',
     excerpt:
@@ -4672,7 +4672,7 @@ export const posts: Post[] = [
   {
     slug: 'fotos-bodas-de-prata-sao-paulo-ensaio',
     bairro: 'Bodas de Prata',
-    title: 'Fotos de Bodas de Prata em São Paulo: Celebre 25 Anos de União com Ensaio Especial',
+    title: 'Bodas de Prata SP: Ensaio de 25 Anos',
     description:
       'Fotógrafo de bodas de prata em São Paulo: veja como celebrar 25 anos de casamento com um ensaio fotográfico especial em locais com significado para o casal.',
     excerpt:
@@ -4690,7 +4690,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-casamento-rustico-sao-paulo',
     bairro: 'Casamento Rústico',
-    title: 'Fotógrafo para Casamento Rústico em São Paulo: Espaços, Estilo e Dicas de Cobertura',
+    title: 'Casamento Rústico em SP: Fotógrafo e Espaços',
     description:
       'Fotógrafo de casamento rústico em São Paulo: conheça os melhores espaços nos arredores da cidade, fazendas e sítios, e veja como o drone valoriza esse estilo.',
     excerpt:
@@ -4713,7 +4713,7 @@ export const posts: Post[] = [
   {
     slug: 'destination-wedding-sao-paulo-fotografo',
     bairro: 'Destination Wedding',
-    title: 'Destination Wedding em São Paulo: O Que É e Como Fotografar um Casamento de Destino',
+    title: 'Destination Wedding SP: Guia de Fotografia',
     description:
       'Destination wedding em São Paulo: entenda o conceito, por que SP pode ser destino de casamento para casais de outras cidades e como funciona o fotógrafo que viaja.',
     excerpt:
@@ -4741,7 +4741,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografia-documental-casamento-o-que-e',
     bairro: 'Fotografia Documental',
-    title: 'O Que É Fotografia Documental de Casamento? Diferenças, Vantagens e Para Quem Serve',
+    title: 'Fotografia Documental de Casamento: O Que É?',
     description:
       'Fotografia documental de casamento: entenda o que é esse estilo, a diferença com o fotojornalismo e por que ele se tornou tão popular em São Paulo.',
     excerpt:
@@ -4797,7 +4797,7 @@ export const posts: Post[] = [
   {
     slug: 'drone-casamento-sp-licenca-anac-fotografia-aerea',
     bairro: 'Drone e ANAC',
-    title: 'Drone em Casamento SP: É Obrigatório Ter Licença ANAC? Tudo Sobre Fotografia Aérea',
+    title: 'Drone no Casamento SP: Licença ANAC e Regras',
     description:
       'Drone em casamento em São Paulo: entenda as exigências da ANAC para pilotos, quais zonas da cidade têm restrição de voo e o que verificar antes de contratar.',
     excerpt:
@@ -4955,7 +4955,7 @@ export const posts: Post[] = [
   {
     slug: 'locacoes-casamento-sao-paulo-alta-2026',
     bairro: 'Locações em Alta',
-    title: 'Locações de Casamento em São Paulo que Vão Estar em Alta em 2026 Segundo Fotógrafos',
+    title: 'Locações de Casamento em Alta SP 2026',
     description:
       'Locações de casamento em alta em São Paulo para 2026: galerias de arte, espaços industriais requalificados, hotéis de design e rooftops com vista da cidade.',
     excerpt:
@@ -5044,7 +5044,7 @@ export const posts: Post[] = [
   {
     slug: 'mini-wedding-em-casa-sp-fotografia',
     bairro: 'Mini Wedding em Casa',
-    title: 'Mini Wedding em Casa em SP: Como Fotografar Casamentos Íntimos com Resultado de Alta Qualidade',
+    title: 'Mini Wedding em Casa SP: Fotografia Íntima',
     description:
       'Mini wedding em casa em São Paulo: veja como o fotógrafo lida com iluminação e espaço para garantir fotos de alta qualidade em casamentos íntimos.',
     excerpt:
@@ -5143,7 +5143,7 @@ export const posts: Post[] = [
   {
     slug: 'melhores-lugares-pre-wedding-sao-paulo',
     bairro: 'Locações Pré-Wedding',
-    title: 'Os Melhores Lugares Para Ensaio Pré-Wedding em São Paulo: Urbano, Verde e Histórico',
+    title: 'Melhores Lugares para Pré-Wedding em SP',
     description:
       'Os melhores lugares para ensaio pré-wedding em São Paulo: parques, bairros históricos e locações urbanas que valorizam as fotos do casal.',
     excerpt:
@@ -5176,7 +5176,7 @@ export const posts: Post[] = [
   {
     slug: 'pre-wedding-guaruja-litoral-sp',
     bairro: 'Pré-Wedding no Litoral',
-    title: 'Pré-Wedding no Guarujá e Litoral de SP: Dicas de Locação, Melhor Época e O Que Esperar',
+    title: 'Pré-Wedding no Guarujá: Dicas e Melhor Época',
     description:
       'Pré-wedding no Guarujá e litoral de SP: dicas de locação, melhor época para o ensaio e o que levar em conta para fotos na praia.',
     excerpt:
@@ -5308,7 +5308,7 @@ export const posts: Post[] = [
   {
     slug: 'ensaio-casal-pos-casamento-sp-tendencia',
     bairro: 'After Session',
-    title: 'Ensaio de Casal Após o Casamento em SP: Por Que Cada Vez Mais Casais Estão Fazendo',
+    title: 'Ensaio Pós-Casamento SP: Nova Tendência',
     description:
       'Ensaio de casal após o casamento em São Paulo: entenda por que o after session está em alta e qual o prazo ideal para fazer.',
     excerpt:
@@ -5440,7 +5440,7 @@ export const posts: Post[] = [
   {
     slug: 'making-of-casamento-fotografia-preparacao-noiva',
     bairro: 'Making Of',
-    title: 'Making Of do Casamento: Por Que Fotografar a Preparação da Noiva Vale Cada Clique',
+    title: 'Making Of do Casamento: Fotos da Preparação',
     description:
       'Making of do casamento em São Paulo: por que registrar a preparação da noiva e do noivo é parte essencial da cobertura fotográfica.',
     excerpt:
@@ -5539,7 +5539,7 @@ export const posts: Post[] = [
   {
     slug: 'paletas-cores-decoracao-casamento-2026-estilo-fotografico',
     bairro: 'Cores e Decoração 2026',
-    title: 'Paletas de Cores e Decoração de Casamento em Alta Para 2026: O Que Combina com Cada Estilo Fotográfico',
+    title: 'Paletas e Decoração de Casamento 2026',
     description:
       'Paletas de cores e decoração de casamento em alta para 2026 em São Paulo, e como cada combinação influencia o resultado das fotos.',
     excerpt:
@@ -5573,7 +5573,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-de-casamento-vila-olimpia',
     bairro: 'Vila Olímpia',
-    title: 'Fotógrafo de Casamento na Vila Olímpia: Guia Completo de Locações, Logística e Estilo',
+    title: 'Casamento na Vila Olímpia: Locações, Logística e Estilo',
     description:
       'Guia completo sobre fotografia de casamento na Vila Olímpia: rooftops, salões corporativos, logística entre bairros, melhor horário de luz e como escolher o fotógrafo certo para um espaço urbano de alto padrão.',
     excerpt:
@@ -5703,7 +5703,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-de-casamento-brooklin',
     bairro: 'Brooklin',
-    title: 'Fotógrafo de Casamento no Brooklin: Guia Completo para Casamento Civil, Buffets e Pré-Wedding Urbano',
+    title: 'Casamento no Brooklin: para Casamento Civil, Buffets e',
     description:
       'Guia completo de fotografia de casamento no Brooklin Paulista: perfil do bairro, casamento civil, buffets de porte médio, logística com Berrini e Santo Amaro, pré-wedding urbano e quanto custa contratar o fotógrafo certo.',
     excerpt:
@@ -6046,7 +6046,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-casamento-zona-oeste-grande-sao-paulo',
     bairro: 'Zona Oeste Grande SP',
-    title: 'Fotógrafo de Casamento na Zona Oeste da Grande São Paulo: Taboão da Serra, Carapicuíba, Itapevi e Jandira',
+    title: 'Casamento na Zona Oeste da Grande São Paulo: Taboão da Serra',
     description:
       'Fotógrafo de casamento na Zona Oeste da Grande São Paulo: cobertura completa em Taboão da Serra, Carapicuíba, Itapevi e Jandira, com deslocamento desde a capital.',
     excerpt:
@@ -6084,7 +6084,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-casamento-alto-tiete-grande-sao-paulo',
     bairro: 'Alto Tietê',
-    title: 'Fotógrafo de Casamento no Alto Tietê: Itaquaquecetuba, Poá, Ferraz de Vasconcelos e Arujá',
+    title: 'Casamento no Alto Tietê: Itaquaquecetuba, Poá, Ferraz de',
     description:
       'Fotógrafo de casamento no Alto Tietê, Grande São Paulo: cobertura completa em Itaquaquecetuba, Poá, Ferraz de Vasconcelos e Arujá, com acesso pela Rodovia Mogi-Bertioga.',
     excerpt:
@@ -6122,7 +6122,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-casamento-regiao-mairipora-caieiras',
     bairro: 'Região de Mairiporã',
-    title: 'Fotógrafo de Casamento na Região de Mairiporã: Caieiras, Franco da Rocha e Francisco Morato',
+    title: 'Casamento na Região de Mairiporã: Caieiras, Franco da Rocha',
     description:
       'Fotógrafo de casamento na região de Mairiporã: cobertura em Caieiras, Franco da Rocha e Francisco Morato, com acesso pela Rodovia Fernão Dias e deslocamento desde SP.',
     excerpt:
@@ -6161,7 +6161,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-de-casamento-morumbi',
     bairro: 'Morumbi',
-    title: 'Fotógrafo de Casamento no Morumbi: Casa Welucci, Grupo Welucci SP e Espaços Premium',
+    title: 'Casamento no Morumbi: Casa Welucci, Grupo Welucci SP e',
     description:
       'Guia completo de fotografia de casamento no Morumbi e Zona Oeste de São Paulo: Casa Welucci, Welucci Gardens, Village e The One, logística com Itaim Bibi e Butantã, e como planejar a cobertura fotográfica.',
     excerpt:
@@ -6269,7 +6269,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-casamento-serra-mantiqueira',
     bairro: 'Serra da Mantiqueira',
-    title: 'Fotógrafo de Casamento na Serra da Mantiqueira: Welucci Canto Verde e Casamentos na Montanha',
+    title: 'Casamento na Serra da Mantiqueira: Welucci Canto Verde e',
     description:
       'Guia completo de fotografia de casamento na Serra da Mantiqueira: Welucci Canto Verde, chácaras e pousadas de altitude, logística desde SP, melhor época e como contratar o fotógrafo certo para um casamento na montanha.',
     excerpt:
@@ -6355,7 +6355,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-casamento-espaco-quintal',
     bairro: 'Espaço Quintal — Rustic Wedding',
-    title: 'Casamento no Espaço Quintal: Guia Completo de Fotografia Rustic Wedding',
+    title: 'Casamento no Espaço Quintal: Guia de Fotografia Rustic Wedding',
     description: 'Tudo sobre fotografia de casamento no Espaço Quintal: pontos fortes do conceito Rustic Wedding, iluminação em patrimônio tombado, planejamento e quanto custa contratar o fotógrafo.',
     excerpt: 'O Espaço Quintal é um patrimônio tombado em meio à selva de pedra — com textura histórica, luz natural irregular e uma atmosfera que nenhuma decoração consegue replicar. Entenda como Ivan Dias planeja a cobertura fotográfica para extrair o máximo desse cenário único.',
     date: '2025-04-05',
@@ -6386,7 +6386,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-casamento-casa-quintal',
     bairro: 'Casa Quintal — Comfort Wedding',
-    title: 'Casamento na Casa Quintal: Guia Completo de Fotografia Comfort Wedding',
+    title: 'Casamento na Casa Quintal: Guia de Fotografia Comfort Wedding',
     description: 'Fotografia de casamento na Casa Quintal: pontos fortes do conceito Comfort Wedding, ambiente residencial, luz natural e como Ivan Dias planeja a cobertura para este espaço único.',
     excerpt: 'A Casa Quintal transforma o casamento em algo que parece uma reunião de família numa casa linda — com conforto real, escala humana e uma autenticidade que espaços de buffet raramente conseguem. Entenda como isso se traduz em fotografia.',
     date: '2025-04-05',
@@ -6417,7 +6417,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-casamento-casinha-quintal',
     bairro: 'Casinha Quintal — Mini Wedding',
-    title: 'Casamento na Casinha Quintal: Guia Completo de Mini Wedding',
+    title: 'Casamento na Casinha Quintal: Mini Wedding',
     description: 'Fotografia de casamento na Casinha Quintal: o conceito Mini Wedding com estética francesa, escala intimista, detalhes e como fotografar este espaço para extrair o máximo do seu charme.',
     excerpt: 'A Casinha Quintal foi feita para quem quer celebrar com poucos, mas com tudo. O conceito francês — delicado, refinado, com atenção obsessiva aos detalhes — cria um cenário onde cada elemento do espaço contribui para o resultado fotográfico final.',
     date: '2025-04-05',
@@ -6448,7 +6448,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-casamento-celeiro-quintal',
     bairro: 'Celeiro Quintal — Farm Wedding',
-    title: 'Casamento no Celeiro Quintal: Guia Completo de Fotografia Farm Wedding',
+    title: 'Casamento no Celeiro Quintal: Guia de Fotografia Farm Wedding',
     description: 'Fotografia de casamento no Celeiro Quintal: conceito Farm Wedding, madeira, luz lateral de celeiro, paleta cinematográfica e como Ivan Dias planeja a cobertura neste espaço.',
     excerpt: 'O Celeiro Quintal traz o cenário de campo para dentro da cidade — com madeira envelhecida, feno, estrutura rústica e uma luz lateral que entra pelas frestas criando uma paleta cinematográfica natural. Entenda por que este é um dos espaços mais fotogênicos do Grupo Quintal.',
     date: '2025-04-05',
@@ -6479,7 +6479,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-casamento-chale-quintal',
     bairro: 'Chalé Quintal — Romantic Wedding',
-    title: 'Casamento no Chalé Quintal: Guia Completo de Fotografia Romantic',
+    title: 'Casamento no Chalé Quintal: Guia de Fotografia Romantic',
     description: 'Fotografia de casamento no Chalé Quintal: conceito Romantic Wedding, paleta pastel, tecidos delicados, iluminação suave e como Ivan Dias planeja a cobertura para este espaço.',
     excerpt: 'O Chalé Quintal foi criado para noivos que sonham com um conto de fadas moderno — delicado, romântico e visualmente coerente do primeiro ao último frame. Entenda como o conceito Romantic Wedding se traduz em fotografia.',
     date: '2025-04-05',
@@ -6510,7 +6510,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-casamento-botanico-quintal',
     bairro: 'Botânico Quintal',
-    title: 'Fotógrafo de Casamento no Botânico Quintal: Fresh Wedding — Primavera o Ano Todo',
+    title: 'Casamento no Botânico Quintal: Fresh Wedding — Primavera o',
     description: 'Fotografia de casamento no Botânico Quintal: conceito Fresh Wedding, vegetação viva, flores, luz filtrada pelas folhas e como Ivan Dias planeja a cobertura para o espaço mais luminoso do Grupo Quintal.',
     excerpt: 'O Botânico Quintal é o espaço mais luminoso e natural do Grupo Quintal — com vegetação viva, flores e uma luz filtrada pelas folhas que cria uma paleta dourada-verde impossível de replicar artificialmente. Para fotografia, é o espaço mais generoso do grupo.',
     date: '2025-04-05',
@@ -6542,7 +6542,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-casamento-grupo-quintal',
     bairro: 'Grupo Quintal',
-    title: 'Fotógrafo de Casamento no Grupo Quintal: Rustic, Farm, Mini Wedding e Mais',
+    title: 'Casamento no Grupo Quintal: Rustic, Farm, Mini Wedding e',
     description:
       'Guia completo de fotografia de casamento nos espaços do Grupo Quintal: Espaço Quintal, Casa Quintal, Casinha Quintal, Celeiro Quintal, Chalé Quintal e Botânico Quintal — cada conceito com seus pontos fortes fotográficos.',
     excerpt:
@@ -6648,7 +6648,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-casamento-welucci-estaiada',
     bairro: 'Welucci Estaiada — Cidade Monções',
-    title: 'Casamento no Welucci Estaiada: Guia Completo de Fotografia',
+    title: 'Casamento no Welucci Estaiada: Fotografia',
     description: 'Guia de fotografia no Welucci Estaiada em São Paulo: vista para a Ponte Estaiada, espelhos d\'água, skyline noturna. Como o fotógrafo planeja a cobertura para aproveitar o cenário urbano mais icônico de SP.',
     excerpt: 'O Welucci Estaiada é a unidade mais sofisticada do Grupo Welucci — localizado na região da Cidade Monções com vista direta para a Ponte Estaiada, um dos marcos visuais mais reconhecíveis de São Paulo. Para o fotógrafo de casamento, o espaço entrega o que poucos locais urbanos conseguem: cenário arquitetônico icônico, espelhos d\'água que multiplicam a cena e uma skyline noturna que transforma qualquer festa em evento cinematográfico.',
     date: '2025-04-05',
@@ -6705,7 +6705,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-casamento-welucci-single',
     bairro: 'Welucci Single — Moema',
-    title: 'Casamento no Welucci Single: Guia Completo de Fotografia em Moema',
+    title: 'Casamento no Welucci Single: Fotografia Moema',
     description: 'Guia de fotografia no Welucci Single em Moema: espaço urbano sofisticado para casamentos intimistas. Como o acabamento premium e a escala controlada criam álbuns com profundidade emocional.',
     excerpt: 'O Welucci Single, em Moema, é a unidade do Grupo Welucci desenhada para casamentos que priorizam qualidade sobre quantidade. A escala intimista combinada com o acabamento premium do grupo cria condições fotográficas ideais: proximidade com os convidados, controle total de iluminação e a garantia de que cada detalhe recebe atenção no álbum.',
     date: '2025-04-05',
@@ -6758,7 +6758,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-casamento-welucci-sansu',
     bairro: 'Welucci Sansu — Araçoiaba da Serra',
-    title: 'Casamento no Welucci Sansu: Guia Completo de Fotografia',
+    title: 'Casamento no Welucci Sansu: Fotografia',
     description: 'Guia de fotografia no Welucci Sansu em Araçoiaba da Serra (região de Sorocaba): estética zen japonesa, jardins como cenário, luz natural filtrada pela vegetação. Como o minimalismo oriental cria álbuns únicos.',
     excerpt: 'O Welucci Sansu, próximo a Sorocaba, traduz a filosofia zen japonesa em espaço para casamentos — jardins cuidadosamente desenhados, linhas limpas e uma conexão com a natureza que raramente aparece em espaços de eventos. Para o fotógrafo, o minimalismo oriental é um presente: menos elementos em cena, mais impacto em cada um.',
     date: '2025-04-05',
@@ -6813,7 +6813,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-casamento-welucci-fontana',
     bairro: 'Welucci Fontana — Votorantim',
-    title: 'Casamento no Welucci Fontana: Guia Completo de Fotografia',
+    title: 'Casamento no Welucci Fontana: Fotografia',
     description: 'Fotografia de casamento no Welucci Fontana em Votorantim: fontes como elemento visual, reflexos, iluminação noturna e como Ivan Dias planeja a cobertura fotográfica neste espaço romântico.',
     excerpt: 'O Welucci Fontana usa a água como elemento central de design — fontes, espelhos d\'água e reflexos que transformam cada ângulo em uma composição naturalmente romântica. Para a fotografia de casamento, é um cenário que entrega resultado com consistência e beleza.',
     date: '2025-04-05',
@@ -6843,7 +6843,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-casamento-welucci-kratos',
     bairro: 'Welucci Kratos — Vinhedo',
-    title: 'Casamento no Welucci Kratos: Guia Completo de Fotografia em Vinhedo',
+    title: 'Casamento no Welucci Kratos: Fotografia Vinhedo',
     description: 'Fotografia de casamento no Welucci Kratos: pé-direito alto, arquitetura marcante, como a escala do espaço se traduz em fotos impactantes e como Ivan Dias planeja a cobertura.',
     excerpt: 'O Welucci Kratos é um espaço projetado para impressionar — com volumes que criam senso de grandiosidade e uma arquitetura que faz o casal parecer protagonista de algo maior. Para o fotógrafo, a escala do Kratos é uma ferramenta poderosa de composição.',
     date: '2025-04-05',
@@ -6873,7 +6873,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-casamento-casa-welucci',
     bairro: 'Casa Welucci',
-    title: 'Fotógrafo de Casamento na Casa Welucci: O Melhor dos Dois Mundos',
+    title: 'Casamento na Casa Welucci: O Melhor dos Dois Mundos',
     description: 'Fotografia de casamento na Casa Welucci: como o conceito casa com padrão Welucci cria cenários fotográficos únicos, espaços externos, luz natural e como Ivan Dias planeja a cobertura.',
     excerpt: 'A Casa Welucci traz algo raro no universo dos espaços de evento: a sensação autêntica de uma casa bem cuidada com o acabamento e a infraestrutura de um espaço de alto padrão. Para o fotógrafo, isso significa liberdade criativa — espaços internos aconchegantes, jardins com personalidade e ausência das paredes de salão que matam a ambiência das fotos.',
     date: '2025-04-05',
@@ -6902,7 +6902,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-casamento-welucci-gardens',
     bairro: 'Welucci Gardens',
-    title: 'Fotógrafo de Casamento no Welucci Gardens: Verde, Luz e Elegância Natural',
+    title: 'Casamento no Welucci Gardens: Verde, Luz e Elegância Natural',
     description: 'Fotografia de casamento no Welucci Gardens: jardins exuberantes, luz filtrada pela vegetação, como o verde transforma a paleta fotográfica e como Ivan Dias planeja a cobertura.',
     excerpt: 'O Welucci Gardens é, literalmente, um casamento no jardim — mas com toda a infraestrutura e sofisticação do Grupo Welucci. Para a fotografia, a combinação de verde exuberante, luz natural filtrada e acabamento premium cria uma paleta única: cores vibrantes, fundo desfocado em verde e um romantismo que espaços fechados raramente entregam.',
     date: '2025-04-05',
@@ -6932,7 +6932,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-casamento-welucci-village',
     bairro: 'Welucci Village',
-    title: 'Fotógrafo de Casamento no Welucci Village: Casamento em Vilarejo de Alto Padrão',
+    title: 'Casamento no Welucci Village: Casamento em Vilarejo de Alto',
     description: 'Fotografia de casamento no Welucci Village: o conceito de vilarejo, múltiplos cenários em um só espaço, diversidade fotográfica e como Ivan Dias planeja a cobertura completa.',
     excerpt: 'O Welucci Village é um conceito único — um vilarejo de alto padrão onde cada "rua" e cada "praça" são cenários completamente diferentes. Para o fotógrafo, isso é ouro: um único evento gera fotos com diversidade de cenários que normalmente exigiria múltiplos locais.',
     date: '2025-04-05',
@@ -6961,7 +6961,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-casamento-welucci-the-one',
     bairro: 'Welucci The One',
-    title: 'Fotógrafo de Casamento no Welucci The One: Topo do Padrão Welucci',
+    title: 'Casamento no Welucci The One: Topo do Padrão Welucci',
     description: 'Fotografia de casamento no Welucci The One: o que torna este espaço o topo da linha Welucci, como o acabamento e a escala se traduzem em fotos e como Ivan Dias planeja a cobertura.',
     excerpt: 'O Welucci The One carrega no nome o que entrega na prática: é a experiência topo de linha do Grupo Welucci. Para a fotografia de casamento, isso significa o melhor cenário disponível — acabamento impecável em cada detalhe, escala que impressiona e uma iluminação projetada para eventos de alto padrão.',
     date: '2025-04-05',
@@ -6991,7 +6991,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-casamento-welucci-vila-real',
     bairro: 'Welucci Vila Real',
-    title: 'Fotógrafo de Casamento no Welucci Vila Real: Arquitetura Clássica e Charme Ibérico',
+    title: 'Casamento no Welucci Vila Real: Arquitetura Clássica e',
     description: 'Fotografia de casamento no Welucci Vila Real: arquitetura de inspiração portuguesa, detalhes clássicos, como a estética ibérica se traduz em imagens e como Ivan Dias planeja a cobertura.',
     excerpt: 'O Welucci Vila Real traz a estética clássica portuguesa para o cenário de casamentos — azulejos, arcos, pedra e madeira que criam uma atmosfera completamente diferente dos espaços modernos. Para o fotógrafo, é um convite para composições com textura, história e elegância que resistem ao tempo.',
     date: '2025-04-05',
@@ -7021,7 +7021,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-casamento-welucci-fagundes',
     bairro: 'Welucci Fagundes',
-    title: 'Fotógrafo de Casamento no Welucci Fagundes: Casarão Colonial com Alma de Evento',
+    title: 'Casamento no Welucci Fagundes: Casarão Colonial com Alma de',
     description: 'Fotografia de casamento no Welucci Fagundes: o charme do casarão colonial, materiais históricos, como a textura do tempo se traduz em imagens e como Ivan Dias planeja a cobertura.',
     excerpt: 'O Welucci Fagundes é um casarão colonial que preserva a memória das paredes e do tempo — com madeira, pedra e uma arquitetura que nenhuma reforma consegue fabricar do zero. Para a fotografia de casamento, esse patrimônio cria um pano de fundo com profundidade histórica e visual que transforma cada foto em algo especial.',
     date: '2025-04-05',
@@ -7051,7 +7051,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-casamento-welucci-ocean',
     bairro: 'Welucci Ocean',
-    title: 'Fotógrafo de Casamento no Welucci Ocean: Quando o Mar Entra na Festa',
+    title: 'Casamento no Welucci Ocean: Quando o Mar Entra na Festa',
     description: 'Fotografia de casamento no Welucci Ocean: temática náutica, como elementos do mar se traduzem em imagens, iluminação, perspectivas únicas e como Ivan Dias planeja a cobertura.',
     excerpt: 'O Welucci Ocean traz a essência do mar para o cenário da festa — e para a fotografia, isso significa uma paleta de cores, elementos visuais e uma atmosfera completamente diferente dos espaços convencionais. Azul, branco, madeira e luz que parece refletida pela água: um set fotográfico com identidade inconfundível.',
     date: '2025-04-05',
@@ -7083,7 +7083,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-casamento-welucci-canto-verde',
     bairro: 'Welucci Canto Verde — Serra da Mantiqueira',
-    title: 'Casamento no Welucci Canto Verde: Guia Completo de Fotografia na Serra',
+    title: 'Casamento no Welucci Canto Verde: Guia de Fotografia na Serra',
     description: 'Fotografia de casamento no Welucci Canto Verde: cenário de serra, vegetação densa, luz de altitude, como a natureza eleva a qualidade das fotos e como Ivan Dias planeja a cobertura.',
     excerpt: 'O Welucci Canto Verde é um casamento em harmonia com a natureza da serra — vegetação densa, ar limpo, silêncio e uma luz de altitude que não existe na cidade. Para o fotógrafo, esse ambiente cria imagens com uma qualidade de cor e profundidade que só a natureza em estado puro consegue oferecer.',
     date: '2025-04-05',
@@ -7117,7 +7117,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-casamento-espaco-win-santo-andre',
     bairro: 'Espaço Win — Santo André',
-    title: 'Casamento no Espaço Win: Guia Completo de Fotografia em Santo André',
+    title: 'Casamento no Espaço Win: Fotografia Santo André',
     description: 'Fotógrafo de casamento no Espaço Win (Baby Beef Jardim) em Santo André: como fotografar o maior salão do ABC, luz, logística e como contratar Ivan Dias para o seu evento.',
     excerpt: 'O Espaço Win é o maior salão de eventos do ABC Paulista — com capacidade para até 2.000 pessoas em coquetel. Para a fotografia de casamento, essa escala cria desafios e oportunidades únicas: grandes planos que mostram a magnitude do evento, iluminação técnica de alto volume e a arte de manter o casal em destaque mesmo em um ambiente grandioso.',
     date: '2024-07-01',
@@ -7149,7 +7149,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-casamento-mezzatorre-eventos',
     bairro: 'Mezzatorre Eventos — Santo André',
-    title: 'Casamento no Mezzatorre Eventos: Guia Completo de Fotografia em Santo André',
+    title: 'Casamento no Mezzatorre Eventos: Fotografia Santo André',
     description: 'Fotógrafo de casamento no Mezzatorre Eventos em Santo André: jardim para cerimônia externa, luz natural, pontos fotográficos e como Ivan Dias planeja a cobertura neste espaço.',
     excerpt: 'O Mezzatorre Eventos combina salão interno de alto padrão com jardim para cerimônia ao ar livre — uma combinação que cria dois universos fotográficos completamente diferentes no mesmo evento. Saber transitar entre esses ambientes, aproveitando a luz natural externa e a iluminação técnica interna, é o que define a qualidade do álbum final.',
     date: '2024-07-06',
@@ -7180,7 +7180,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-casamento-espaco-figueiras',
     bairro: 'Espaço Figueiras — Santo André',
-    title: 'Casamento no Espaço Figueiras: Guia Completo de Fotografia em Santo André',
+    title: 'Casamento no Espaço Figueiras: Fotografia Santo André',
     description: 'Fotógrafo de casamento no Espaço Figueiras em Santo André: como a capela integrada transforma a cerimônia e a fotografia, pontos fortes do espaço e como contratar Ivan Dias.',
     excerpt: 'O Espaço Figueiras oferece uma raridade no ABC Paulista: uma capela de cerimônia integrada ao próprio espaço de festa. Esse formato elimina a logística de deslocamento entre locais e cria uma narrativa fotográfica contínua — do sagrado ao festivo — dentro do mesmo cenário.',
     date: '2024-07-11',
@@ -7239,7 +7239,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-casamento-espaco-alfarre',
     bairro: 'Espaço Alfarre — Santo André',
-    title: 'Casamento no Espaço Alfarre: Guia Completo de Fotografia em Santo André',
+    title: 'Casamento no Espaço Alfarre: Fotografia Santo André',
     description: 'Fotógrafo de casamento no Espaço Alfarre em Santo André: arquitetura contemporânea, capacidade para 300 pessoas, como a iluminação e o design impactam a fotografia.',
     excerpt: 'O Espaço Alfarre é um dos espaços contemporâneos de referência em Santo André — com design limpo, iluminação técnica de alto padrão e capacidade para até 300 convidados. Para a fotografia, o ambiente contemporâneo permite trabalhar com uma paleta neutra que valoriza as cores da decoração e do casal.',
     date: '2024-07-21',
@@ -7268,7 +7268,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-casamento-buffet-status',
     bairro: 'Buffet Status — Santo André',
-    title: 'Casamento no Buffet Status: Guia Completo de Fotografia em Santo André',
+    title: 'Casamento no Buffet Status: Fotografia Santo André',
     description: 'Fotógrafo de casamento no Buffet Status em Santo André: tradição com capacidade para 650 pessoas, como escala e iluminação impactam a fotografia e como contratar Ivan Dias.',
     excerpt: 'O Buffet Status é uma referência tradicional em Santo André para casamentos de grande porte — com capacidade para até 650 pessoas. Sua trajetória consolidada no mercado significa infraestrutura testada e iluminação projetada para eventos de gala, o que cria um ambiente fotograficamente favorável mesmo na grande escala.',
     date: '2024-07-26',
@@ -7297,7 +7297,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-casamento-esplannada-santo-andre',
     bairro: 'Esplannada — Santo André',
-    title: 'Casamento no Esplannada: Guia Completo de Fotografia em Santo André',
+    title: 'Casamento no Esplannada: Fotografia Santo André',
     description: 'Fotógrafo de casamento no Esplannada em Santo André: lustre de cristal, capela própria, 350 pessoas e como esses elementos criam oportunidades fotográficas únicas.',
     excerpt: 'O Esplannada combina dois diferenciais visuais raros num mesmo espaço: um lustre de cristal de destaque e uma capela própria para cerimônias. Para o fotógrafo, esses elementos criam composições com refinamento e sacralidade que elevam o padrão visual do álbum final.',
     date: '2024-07-31',
@@ -7326,7 +7326,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-casamento-grande-ville',
     bairro: 'Grande Ville — Santo André',
-    title: 'Casamento no Grande Ville: Guia Completo de Fotografia em Santo André',
+    title: 'Casamento no Grande Ville: Fotografia Santo André',
     description: 'Fotógrafo de casamento no Grande Ville em Santo André: estilo chalé, 300 pessoas, como a arquitetura diferenciada cria cenários únicos e como Ivan Dias planeja a cobertura.',
     excerpt: 'O Grande Ville traz para Santo André uma proposta visual diferente dos buffets convencionais: a estética de chalé europeu cria uma atmosfera acolhedora e fotogenicamente rica, com madeira, texturas naturais e um romantismo que espaços modernos raramente conseguem transmitir.',
     date: '2024-08-05',
@@ -7383,7 +7383,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-casamento-buffet-dmatos',
     bairro: 'Buffet D\'Matos — Santo André',
-    title: 'Casamento no Buffet D\'Matos: Guia Completo de Fotografia em Santo André',
+    title: 'Casamento no Buffet D\'Matos: Fotografia Santo André',
     description: 'Fotógrafo de casamento no Buffet D\'Matos em Santo André: como Ivan Dias planeja a cobertura fotográfica neste buffet e como contratar para o seu casamento.',
     excerpt: 'O Buffet D\'Matos é uma referência em Santo André para casamentos de médio porte — com estrutura consolidada e ambiente voltado para celebrações com atenção aos detalhes. Para a fotografia, espaços com essa maturidade de serviço geralmente significam iluminação bem calibrada e logística previsível.',
     date: '2024-08-15',
@@ -7407,7 +7407,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-casamento-espaco-pallazium',
     bairro: 'Espaço Pallazium — Santo André',
-    title: 'Casamento no Espaço Pallazium: Guia Completo de Fotografia em Santo André',
+    title: 'Casamento no Espaço Pallazium: Fotografia Santo André',
     description: 'Fotógrafo de casamento no Espaço Pallazium em Santo André: como Ivan Dias planeja a cobertura para até 300 convidados e os pontos fotográficos do espaço.',
     excerpt: 'O Espaço Pallazium oferece estrutura para até 300 convidados em Santo André — com ambientes projetados para casamentos e eventos de celebração. Para a fotografia, a capacidade média é um ponto ideal: grande o suficiente para criar imagens com grandiosidade, mas compacto o suficiente para que o fotógrafo esteja sempre próximo dos momentos importantes.',
     date: '2024-08-20',
@@ -7431,7 +7431,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-casamento-hotel-plaza-mayor',
     bairro: 'Hotel Plaza Mayor — Santo André',
-    title: 'Casamento no Hotel Plaza Mayor: Guia Completo de Fotografia em Santo André',
+    title: 'Casamento no Hotel Plaza Mayor: Fotografia Santo André',
     description: 'Fotógrafo de casamento no Hotel Plaza Mayor (Salão Real) em Santo André: estrutura hoteleira, 300 pessoas, como o ambiente diferenciado impacta a fotografia e como contratar Ivan Dias.',
     excerpt: 'Casar num hotel tem uma dimensão fotográfica que espaços de festa independentes raramente oferecem: corredores, lobby, quartos do casal, escadarias e uma infraestrutura visual que vai muito além do salão. O Hotel Plaza Mayor com seu Salão Real oferece tudo isso em Santo André.',
     date: '2024-08-25',
@@ -7461,7 +7461,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-casamento-espaco-favoritto',
     bairro: 'Espaço Favoritto — São Bernardo do Campo',
-    title: 'Casamento no Espaço Favoritto: Guia Completo de Fotografia em São Bernardo do Campo',
+    title: 'Casamento no Espaço Favoritto: Guia SBC',
     description: 'Fotógrafo de casamento no Espaço Favoritto em São Bernardo do Campo: 4 ambientes integrados, exclusividade por evento, como a cobertura contínua entre espaços define o álbum.',
     excerpt: 'O Espaço Favoritto é o maior destaque de São Bernardo do Campo para casamentos — com quatro ambientes integrados (salão social, discoteca, bar gourmet e jardim de preservação) e política de exclusividade de um evento por dia. Para o fotógrafo, isso significa liberdade total para cobrir cada espaço sem interferência de outros eventos.',
     date: '2024-08-30',
@@ -7492,7 +7492,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-casamento-sitio-sao-jorge-sbc',
     bairro: 'Sítio São Jorge — São Bernardo do Campo',
-    title: 'Casamento no Sítio São Jorge: Guia Completo de Fotografia em São Bernardo do Campo',
+    title: 'Casamento no Sítio São Jorge: Guia SBC',
     description: 'Fotógrafo de casamento no Sítio São Jorge em São Bernardo do Campo: complexo com 4 espaços (Vdara, Demarchi, Jardim Secreto, Pergolado), múltiplos cenários e cobertura completa.',
     excerpt: 'O Sítio São Jorge é um complexo de eventos com quatro espaços distintos em São Bernardo do Campo — Vdara, Demarchi, Jardim Secreto e Pergolado — com capacidade que vai de 250 a 800 pessoas. Para a fotografia, cada espaço tem uma personalidade visual própria, criando um repertório de cenários que poucos locais da região oferecem.',
     date: '2024-09-04',
@@ -7549,7 +7549,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-casamento-lago-park-sao-bernardo',
     bairro: 'Lago Park — São Bernardo do Campo',
-    title: 'Casamento no Lago Park: Guia Completo de Fotografia em São Bernardo do Campo',
+    title: 'Casamento no Lago Park: Fotografia São Bernardo do Campo',
     description: 'Fotógrafo de casamento no Lago Park em São Bernardo do Campo: beira de lago, reflexos na água, luz natural e como Ivan Dias planeja a cobertura neste cenário único.',
     excerpt: 'O Lago Park oferece algo que muito poucos espaços de casamento têm: um lago real como elemento central do cenário. Para a fotografia, a presença da água multiplica as possibilidades — reflexos, perspectivas, a linha do horizonte sobre o lago e uma qualidade de luz que só ambientes aquáticos proporcionam.',
     date: '2024-09-14',
@@ -7661,7 +7661,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-casamento-buffet-7-mares',
     bairro: 'Buffet 7 Mares — São Caetano do Sul',
-    title: 'Casamento no Buffet 7 Mares: Guia Completo de Fotografia em São Caetano do Sul',
+    title: 'Casamento no Buffet 7 Mares: Fotografia São Caetano do Sul',
     description: 'Fotógrafo de casamento no Buffet 7 Mares em São Caetano do Sul: espaço para 550 pessoas, especializado em frutos do mar, como o ambiente impacta a fotografia e como contratar Ivan Dias.',
     excerpt: 'O Buffet 7 Mares é uma referência em São Caetano do Sul com capacidade para até 550 convidados. A especialidade em frutos do mar cria uma identidade gastronômica marcante que se reflete na decoração e na atmosfera do evento — elementos que enriquecem a narrativa visual do álbum de casamento.',
     date: '2024-10-04',
@@ -7713,7 +7713,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-casamento-alameda-7-sao-caetano',
     bairro: 'Alameda 7 — São Caetano do Sul',
-    title: 'Casamento no Alameda 7: Guia de Fotografia para Mini Wedding em São Caetano do Sul',
+    title: 'Casamento no Alameda 7: Mini Wedding SCS',
     description: 'Fotógrafo de casamento no Alameda 7 em São Caetano do Sul: espaço intimista para 150 pessoas, como a escala favorece a fotografia documental e como contratar Ivan Dias.',
     excerpt: 'O Alameda 7 em São Caetano do Sul é a escolha para casamentos mais íntimos — com capacidade para até 150 convidados. A escala reduzida cria um ambiente onde o fotógrafo consegue estar próximo de todos os momentos importantes, resultando em um álbum com densidade emocional real.',
     date: '2024-10-14',
@@ -7791,7 +7791,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-casamento-estacao-840',
     bairro: 'Estação 840 — Osasco',
-    title: 'Casamento na Estação 840: Guia Completo de Fotografia Industrial Chic em Osasco',
+    title: 'Casamento na Estação 840: Guia de Fotografia Industrial Chic em Osasco',
     description: 'Fotógrafo de casamento na Estação 840 em Osasco: estilo industrial chic, vagão de trem restaurado, Grand Central e Galpão Brooklin — como fotografar este espaço único.',
     excerpt: 'A Estação 840 é um dos espaços mais visualmente únicos de Osasco — com estética industrial chic, um vagão de trem restaurado como lounge VIP e divisão entre o salão Grand Central e o Galpão Brooklin. Para o fotógrafo, o contraste entre metal, concreto e decoração refinada cria imagens com uma energia urbana que espaços convencionais simplesmente não têm.',
     date: '2024-10-29',
@@ -7823,7 +7823,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-casamento-maison-bella-vista-osasco',
     bairro: 'Maison Bella Vista — Osasco',
-    title: 'Casamento no Maison Bella Vista: Guia Completo de Fotografia em Osasco',
+    title: 'Casamento no Maison Bella Vista: Fotografia Osasco',
     description: 'Fotógrafo de casamento no Maison Bella Vista em Osasco: até 400 convidados, como o espaço se traduz em fotografia e como Ivan Dias planeja a cobertura.',
     excerpt: 'O Maison Bella Vista é um dos espaços de referência em Osasco para casamentos de médio a grande porte — com capacidade para até 400 convidados e estrutura projetada para eventos de alto padrão. Para o fotógrafo, a combinação de escala e infraestrutura consolidada cria um ambiente previsível e favorável à cobertura completa.',
     date: '2024-11-03',
@@ -7872,7 +7872,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-casamento-espaco-catedral-osasco',
     bairro: 'Espaço Catedral — Osasco',
-    title: 'Casamento no Espaço Catedral: Guia Completo de Fotografia em Osasco',
+    title: 'Casamento no Espaço Catedral: Fotografia Osasco',
     description: 'Fotógrafo de casamento no Espaço Catedral em Osasco: localização central, 350 pessoas e como Ivan Dias planeja a cobertura fotográfica para este espaço.',
     excerpt: 'O Espaço Catedral é uma referência central em Osasco para casamentos de médio porte — com capacidade para até 350 convidados e posicionamento que facilita o acesso para familiares e amigos de toda a região. Para a fotografia, a escala média do espaço é ideal para uma cobertura completa e intimista ao mesmo tempo.',
     date: '2024-11-13',
@@ -7922,7 +7922,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-casamento-ravena-garden',
     bairro: 'Ravena Garden Buffet — Mairiporã',
-    title: 'Casamento no Ravena Garden: Guia Completo de Fotografia em Mairiporã',
+    title: 'Casamento no Ravena Garden: Fotografia Mairiporã',
     description: 'Fotógrafo de casamento no Ravena Garden Buffet em Mairiporã: 360.000m² de área de conservação, salão em madeira com painéis de vidro, bosque para cerimônia e como fotografar.',
     excerpt: 'O Ravena Garden Buffet é o maior destaque de Mairiporã para casamentos — com 360.000m² de área de conservação, salão em madeira nobre com painéis de vidro de pé-direito de 6 metros e um bosque nativo para cerimônias ao ar livre. Para o fotógrafo, são três cenários de luz completamente diferentes dentro do mesmo evento: o bosque natural, o salão de madeira e vidro, e as áreas externas da propriedade.',
     date: '2024-11-23',
@@ -7982,7 +7982,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-casamento-quinta-da-cantareira',
     bairro: 'Quinta da Cantareira — Mairiporã',
-    title: 'Casamento na Quinta da Cantareira: Guia Completo de Fotografia em Mairiporã',
+    title: 'Casamento na Quinta da Cantareira: Fotografia Mairiporã',
     description: 'Fotógrafo de casamento na Quinta da Cantareira em Mairiporã: Capela de Cristal, 400 pessoas, como o vidro e a natureza criam cenários únicos e como Ivan Dias planeja a cobertura.',
     excerpt: 'A Quinta da Cantareira tem um elemento arquitetônico que pouquíssimos espaços do Brasil possuem: uma Capela de Cristal. A estrutura inteiramente em vidro com a natureza da Serra da Cantareira como pano de fundo cria um cenário para a cerimônia que é simultaneamente sagrado, moderno e absolutamente fotogênico.',
     date: '2024-12-03',
@@ -8174,7 +8174,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-casamento-villa-castanieri-mogi',
     bairro: 'Villa Castanieri — Mogi das Cruzes',
-    title: 'Casamento na Villa Castanieri: Guia Completo de Fotografia em Mogi das Cruzes',
+    title: 'Casamento na Villa Castanieri: Fotografia Mogi das Cruzes',
     description: 'Fotógrafo de casamento na Villa Castanieri em Mogi das Cruzes: represa, três salões (Castanheira, Paganotti, Bellagio) e como cada ambiente se traduz em fotografia.',
     excerpt: 'A Villa Castanieri em Mogi das Cruzes é um complexo à beira de represa com três salões distintos — Castanheira, Paganotti e Bellagio — com capacidade total para até 300 pessoas. A combinação de água, múltiplos ambientes e a natureza do Alto Tietê cria um conjunto visual excepcionalmente rico para a fotografia de casamento.',
     date: '2025-01-03',
@@ -8205,7 +8205,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-casamento-grupo-welucci',
     bairro: 'Grupo Welucci',
-    title: 'Fotógrafo de Casamento no Grupo Welucci: Guia Completo das 13 Unidades',
+    title: 'Casamento no Grupo Welucci: das 13 Unidades',
     description: 'Guia completo de fotografia de casamento nas 13 unidades do Grupo Welucci em São Paulo: Estaiada, Single, Sansu, Fontana, Kratos, Casa Welucci, Gardens, Village, The One, Vila Real, Fagundes, Ocean e Canto Verde.',
     excerpt: 'O Grupo Welucci tem 13 unidades em São Paulo — cada uma com conceito, capacidade e atmosfera distintos. Do sofisticado Welucci Estaiada à intimidade do Canto Verde, cada espaço exige uma abordagem fotográfica própria. Este guia reúne os pontos fortes fotográficos de cada unidade e como Ivan Dias planeja a cobertura para aproveitar ao máximo cada conceito.',
     date: '2025-01-03',
@@ -8272,7 +8272,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-de-casamento-ribeirao-pires',
     bairro: 'Ribeirão Pires',
-    title: 'Fotógrafo de Casamento em Ribeirão Pires: Guia de Espaços e Fotografia',
+    title: 'Casamento em Ribeirão Pires: Guia e Fotógrafo',
     description: 'Fotógrafo de casamento em Ribeirão Pires: guia de espaços para casar na Cidade da Diversão — Estância Silvestre, Chácara Flores, Espaço Vista Verde e como planejar a fotografia na região.',
     excerpt: 'Ribeirão Pires, a "Cidade da Diversão", tem uma cena de casamentos marcada por espaços em meio à natureza e propriedades com áreas verdes amplas. Este guia cobre os principais espaços para casar em Ribeirão Pires e como Ivan Dias planeja a fotografia na região.',
     date: '2025-01-02',
@@ -8410,7 +8410,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-casamento-igreja-sao-jose-jardim-europa',
     bairro: 'Paróquia São José — Jardim Europa',
-    title: 'Casar na São José do Jardim Europa: Nave Estreita, Escadarias e Como Fotografar Certo',
+    title: 'Casar na São José do Jardim Europa: Guia',
     description: 'Guia completo para casamentos na Paróquia São José do Jardim Europa: capacidade de até 200 pessoas, como enquadrar o altar sem parecer apertado, ensaio externo nas escadarias e planejamento fotográfico completo.',
     excerpt: 'A Paróquia São José do Jardim Europa tem capacidade para até 200 convidados e uma nave que preocupa casais na hora de compor o altar com muitos padrinhos. Este guia mostra como o enquadramento certo transforma a nave estreita em cenário elegante — e por que as escadarias externas são um dos melhores pontos de ensaio do Jardim Europa.',
     date: '2024-12-31',
@@ -8462,7 +8462,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-casamento-catedral-anglicana-sao-paulo',
     bairro: 'Catedral Anglicana de São Paulo — Santo Amaro',
-    title: 'Casamento na Catedral Anglicana de São Paulo: Guia de Fotografia para Cerimônias Ecumênicas',
+    title: 'Casamento na Catedral Anglicana SP: Ecumênico',
     description: 'Fotografia de casamento na Catedral Anglicana de São Paulo: cerimônias ecumênicas e diversas, o desafio de cobrir dois ritos em uma cobertura fotográfica coesa, e o que muda quando o templo acolhe tradições diferentes.',
     excerpt: 'A Catedral Anglicana de São Paulo é uma das opções mais procuradas por casais de religiões diferentes que buscam um templo monumental e acolhedor. Este guia aborda o que muda na cobertura fotográfica de um casamento ecumênico — e como planejar registros que honrem os dois lados da cerimônia com igual atenção.',
     date: '2024-12-30',
@@ -8515,7 +8515,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-casamento-catedral-do-carmo-santo-andre',
     bairro: 'Catedral Nossa Senhora do Carmo — Santo André',
-    title: 'Casar na Catedral do Carmo (Santo André): Taxas, Iluminação de LED e o Desafio Fotográfico que Pega de Surpresa',
+    title: 'Casar na Catedral do Carmo: Taxas e Luz LED',
     description: 'Guia completo para casamentos na Catedral Nossa Senhora do Carmo em Santo André: taxas paroquiais (música, foto, decoração), iluminação de LED que deixa padrinhos na penumbra, e como equilibrar exposição entre noivos e o resto do altar.',
     excerpt: 'A Catedral Nossa Senhora do Carmo é a principal igreja de Santo André para casamentos de grande porte — mas tem um detalhe fotográfico que pega fotógrafos despreparados de surpresa: o LED do altar ilumina os noivos perfeitamente e deixa os padrinhos na penumbra. Este guia explica como resolver esse problema e o que esperar do processo de reserva na catedral.',
     date: '2024-12-29',
@@ -8567,7 +8567,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-casamento-matriz-sagrada-familia-sao-caetano',
     bairro: 'Igreja Matriz Sagrada Família — São Caetano do Sul',
-    title: 'Casar na Matriz Sagrada Família (São Caetano): 1 Ano de Antecedência e Liberdade Total de Fornecedores',
+    title: 'Casar na Matriz Sagrada Família São Caetano',
     description: 'Guia para casamentos na Matriz Sagrada Família de São Caetano do Sul: antecedência mínima de 1 ano, liberdade para escolher fotógrafo e todos os fornecedores, arquitetura histórica de 1943 e como planejar a cobertura fotográfica.',
     excerpt: 'A Matriz Sagrada Família de São Caetano do Sul tem dois diferenciais que separam quem conhece de quem não conhece: exige 1 ano de antecedência para reservar, mas não impõe fornecedores exclusivos — você leva o fotógrafo, o músico e o decorador da sua escolha. Este guia explica o processo e mostra como aproveitar a arquitetura histórica de 1943 na fotografia.',
     date: '2024-12-28',
@@ -8619,7 +8619,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-casamento-matriz-sao-bernardo',
     bairro: 'Paróquia Nossa Senhora da Boa Viagem — São Bernardo do Campo',
-    title: 'Casar na Matriz de São Bernardo: Entrevista com o Padre, Pauta e Como Planejar a Fotografia',
+    title: 'Casar na Matriz de São Bernardo: Guia',
     description: 'Guia para casamentos na Paróquia Nossa Senhora da Boa Viagem (Matriz de São Bernardo do Campo): entrevista obrigatória com o padre, pauta acima da média da região, acústica excepcional para coral e cobertura fotográfica da grandiosidade do templo.',
     excerpt: 'A Matriz de São Bernardo exige entrevista com o padre antes de marcar a data — um passo que muitos casais não esperam. Este guia explica o processo completo, o que esperar da entrevista, o que a pauta inclui e como aproveitar a acústica do templo para uma cobertura fotográfica que faz jus à grandiosidade da cerimônia.',
     date: '2024-12-27',
@@ -8672,7 +8672,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-casamento-nossa-senhora-de-lourdes-alphaville',
     bairro: 'Paróquia Nossa Senhora de Lourdes — Barueri/Alphaville',
-    title: 'Casar em Nossa Senhora de Lourdes (Alphaville): Limite de Padrinhos e Composição de Cortejo',
+    title: 'Casar na N. Sra. de Lourdes Alphaville',
     description: 'Guia para casamentos na Paróquia Nossa Senhora de Lourdes em Barueri/Alphaville: regra de limite de 6 casais de padrinhos por lado, como organizar o cortejo fotografado com grupo menor e planejamento completo da cobertura.',
     excerpt: 'A Nossa Senhora de Lourdes em Alphaville tem uma regra que pega famílias grandes de surpresa: limite de 6 casais de padrinhos por lado. Para casais com redes de amizade e família extensas, isso significa decisões difíceis — e um cortejo com composição diferente do planejado. Este guia explica a regra e como o fotógrafo adapta a composição para que o grupo menor produza fotos tão marcantes quanto qualquer cortejo de 20 casais.',
     date: '2024-12-26',
@@ -8723,7 +8723,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-casamento-capela-sao-francisco-de-assis',
     bairro: 'Capela de São Francisco de Assis — Vila São Francisco (SP/Osasco)',
-    title: 'Casamento na Capela São Francisco de Assis: Mini-Wedding Rústico com Fotografia de Luz Natural',
+    title: 'Casamento na Capela São Francisco de Assis',
     description: 'Guia de fotografia para casamentos na Capela de São Francisco de Assis (Vila São Francisco, divisa SP/Osasco): capacidade reduzida, estilo rústico-chic integrado à natureza, luz natural predominante e o que muda na cobertura de um mini-wedding.',
     excerpt: 'A Capela de São Francisco de Assis, na divisa entre São Paulo e Osasco, atrai casais que querem o rústico-chic integrado à natureza com até 80 convidados. A capacidade reduzida e o ambiente natural criam condições fotográficas únicas — luz natural predominante, intimidade entre os convidados e um ritmo de cerimônia diferente dos grandes salões.',
     date: '2024-12-25',
@@ -8775,7 +8775,7 @@ export const posts: Post[] = [
   {
     slug: 'fotografo-casamento-igreja-sao-benedito-mogi',
     bairro: 'Igreja de São Benedito — Mogi das Cruzes',
-    title: 'Casar na Igreja de São Benedito (Mogi): Patrimônio Histórico, Altares Coloniais e Fotografia com Responsabilidade',
+    title: 'Casar na Igreja São Benedito (Mogi): Guia',
     description: 'Guia para casamentos na Igreja de São Benedito em Mogi das Cruzes: restrições de tombamento, altares esculpidos em madeira, proibições de decoração e como fotografar o patrimônio histórico colonial com responsabilidade técnica.',
     excerpt: 'A Igreja de São Benedito de Mogi das Cruzes é patrimônio histórico colonial tombado — o que significa regras específicas para decoração, restrições que preservam a integridade dos altares esculpidos em madeira e um cuidado fotográfico especial. Este guia explica o que o tombamento permite e não permite, e como planejar a cobertura fotográfica de um casamento nesse templo único.',
     date: '2024-12-24',
@@ -8829,7 +8829,7 @@ export const posts: Post[] = [
   {
     slug: 'casamento-no-campo-perto-de-sao-paulo',
     bairro: 'Casamento no Campo',
-    title: 'Casamento no Campo Perto de SP: Melhores Espaços, Fotografia e Planejamento Completo',
+    title: 'Casamento no Campo Perto de SP: Guia Completo',
     description: 'Guia completo de casamento no campo perto de São Paulo: os melhores espaços em Mairiporã, Ribeirão Pires e Mogi das Cruzes, como a luz natural muda a fotografia, o que levar em conta no planejamento e quanto custa.',
     excerpt: 'Casamento no campo é o formato que mais cresce em São Paulo — e a Serra da Cantareira, o Alto Tietê e as chácaras do ABC concentram os melhores espaços a menos de 1 hora da capital. Este guia reúne os espaços com melhor potencial fotográfico, o que muda na cobertura ao ar livre e como planejar sem surpresas.',
     date: '2024-12-23',
@@ -8882,7 +8882,7 @@ export const posts: Post[] = [
   {
     slug: 'casamento-no-litoral-perto-de-sao-paulo',
     bairro: 'Casamento no Litoral',
-    title: 'Casamento no Litoral de SP: Guarujá, Ubatuba, Ilhabela e Santos — Guia de Fotografia',
+    title: 'Casamento no Litoral SP: Guarujá a Ilhabela',
     description: 'Guia completo de casamento no litoral de São Paulo: Guarujá, Ubatuba, Ilhabela, Santos e Trancoso. Como a luz da praia muda a fotografia, logística de deslocamento e planejamento de cobertura com mar e natureza.',
     excerpt: 'Casamento na praia ou no litoral paulista é o sonho de muitos casais — e as opções vão do sofisticado Guarujá e Santos à natureza selvagem de Ubatuba e Ilhabela. Este guia cobre como a luz costeira muda a fotografia, o que considerar na logística e quais destinos oferecem o melhor resultado visual.',
     date: '2024-12-22',
@@ -8932,7 +8932,7 @@ export const posts: Post[] = [
   {
     slug: 'casamento-na-cidade-sao-paulo',
     bairro: 'Casamento na Cidade',
-    title: 'Casamento na Cidade em São Paulo: Buffets, Espaços Urbanos e Fotografia de Alto Padrão',
+    title: 'Casamento na Cidade SP: Buffets e Espaços',
     description: 'Guia completo de casamento na cidade de São Paulo e ABC: os melhores buffets e espaços urbanos em Santo André, São Bernardo, São Caetano, Osasco e capital. Como a arquitetura urbana cria cenários fotográficos únicos.',
     excerpt: 'São Paulo e o ABC concentram os melhores espaços urbanos para casamentos do Brasil — de buffets tradicionais a espaços contemporâneos com vista para a Ponte Estaiada. Este guia mapeia os principais espaços por região, o que a fotografia urbana oferece de diferente e como planejar a cobertura em ambiente de cidade.',
     date: '2024-12-21',
@@ -8983,7 +8983,7 @@ export const posts: Post[] = [
   {
     slug: 'casamento-no-interior-de-sao-paulo',
     bairro: 'Casamento no Interior',
-    title: 'Casamento no Interior de São Paulo: Campinas, Sorocaba, Jundiaí e Mais — Guia de Fotografia',
+    title: 'Casamento no Interior SP: Campinas e Região',
     description: 'Guia completo de casamento no interior de São Paulo: Campinas, Sorocaba, Jundiaí, Atibaia, Itu e outras cidades. Espaços, logística, fotografia e por que o interior produz álbuns com personalidade única.',
     excerpt: 'O interior de São Paulo tem uma cena de casamentos cada vez mais sofisticada — de Campinas e Sorocaba a Jundiaí e Atibaia. Este guia reúne os destinos, o que cada região oferece de diferente para a fotografia e como planejar a cobertura com um fotógrafo que conhece as estradas e os espaços.',
     date: '2024-12-20',
