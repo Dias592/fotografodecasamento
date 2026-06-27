@@ -1,7 +1,4 @@
-'use client';
-
 import Image from 'next/image';
-import { motion } from 'framer-motion';
 import { SHIMMER_BLUR_DATA_URL } from '@/lib/utils';
 
 const BADGES = ['Cobertura Completa', 'Pré-Wedding', 'Direção de Casal', 'Fotografia Aérea'];
@@ -17,13 +14,7 @@ export default function About() {
       </span>
 
       <div className="mx-auto grid max-w-7xl grid-cols-1 items-center gap-16 px-6 md:grid-cols-2 md:px-12">
-        <motion.div
-          initial={{ opacity: 0, x: -40 }}
-          whileInView={{ opacity: 1, x: 0 }}
-          viewport={{ once: true, margin: '-100px' }}
-          transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
-          className="w-full max-w-md overflow-hidden rounded-3xl md:justify-self-start"
-        >
+        <div className="w-full max-w-md overflow-hidden rounded-3xl md:justify-self-start">
           <Image
             src="/images/about/ivan-dias-fotografo-retrato.webp"
             alt="Retrato do fotógrafo Ivan Dias segurando câmera profissional em estúdio"
@@ -36,14 +27,9 @@ export default function About() {
             sizes="(min-width: 768px) 40vw, 90vw"
             style={{ width: '100%', height: 'auto' }}
           />
-        </motion.div>
+        </div>
 
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: '-100px' }}
-          transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
-        >
+        <div>
           <span className="font-body text-xs font-semibold uppercase tracking-[0.25em] text-blue-accent">
             Sobre Ivan Dias
           </span>
@@ -75,7 +61,7 @@ export default function About() {
               </span>
             ))}
           </div>
-        </motion.div>
+        </div>
       </div>
     </section>
   );

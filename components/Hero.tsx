@@ -3,7 +3,6 @@
 import { useEffect, useRef, useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { motion, useInView, useScroll, useTransform } from 'framer-motion';
 import { SHIMMER_BLUR_DATA_URL } from '@/lib/utils';
 
 const WHATSAPP_URL =
@@ -17,29 +16,39 @@ const STATS = [
 
 function Counter({ value, suffix }: { value: number; suffix: string }) {
   const ref = useRef<HTMLSpanElement>(null);
-  const inView = useInView(ref, { once: true, amount: 0.3 });
   const [count, setCount] = useState(value);
   const [hasAnimated, setHasAnimated] = useState(false);
 
   useEffect(() => {
-    if (!inView || hasAnimated) return;
-    setHasAnimated(true);
-    const from = Math.round(value * 0.7);
-    setCount(from);
-    let raf: number;
-    const duration = 800;
-    const start = performance.now();
+    if (hasAnimated) return;
+    const el = ref.current;
+    if (!el) return;
 
-    const tick = (now: number) => {
-      const progress = Math.min((now - start) / duration, 1);
-      const eased = 1 - Math.pow(1 - progress, 3);
-      setCount(Math.round(from + eased * (value - from)));
-      if (progress < 1) raf = requestAnimationFrame(tick);
-    };
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (!entry.isIntersecting) return;
+        observer.disconnect();
+        setHasAnimated(true);
+        const from = Math.round(value * 0.7);
+        setCount(from);
+        let raf: number;
+        const duration = 800;
+        const start = performance.now();
 
-    raf = requestAnimationFrame(tick);
-    return () => cancelAnimationFrame(raf);
-  }, [inView, value, hasAnimated]);
+        const tick = (now: number) => {
+          const progress = Math.min((now - start) / duration, 1);
+          const eased = 1 - Math.pow(1 - progress, 3);
+          setCount(Math.round(from + eased * (value - from)));
+          if (progress < 1) raf = requestAnimationFrame(tick);
+        };
+
+        raf = requestAnimationFrame(tick);
+      },
+      { threshold: 0.3 },
+    );
+    observer.observe(el);
+    return () => observer.disconnect();
+  }, [value, hasAnimated]);
 
   return (
     <span ref={ref} className="font-heading text-4xl font-extrabold text-cream md:text-5xl">
@@ -49,33 +58,11 @@ function Counter({ value, suffix }: { value: number; suffix: string }) {
   );
 }
 
-const containerVariants = {
-  hidden: {},
-  visible: {
-    transition: { staggerChildren: 0.15, delayChildren: 0.2 },
-  },
-};
-
-const itemVariants = {
-  hidden: { opacity: 0, y: 32 },
-  visible: { opacity: 1, y: 0, transition: { duration: 0.7, ease: [0.22, 1, 0.36, 1] } },
-};
-
 export default function Hero() {
-  const sectionRef = useRef<HTMLElement>(null);
-  const { scrollYProgress } = useScroll({
-    target: sectionRef,
-    offset: ['start start', 'end start'],
-  });
-  const imageY = useTransform(scrollYProgress, [0, 1], ['0%', '20%']);
-
   return (
     <section
-      ref={sectionRef}
       className="relative grid min-h-screen grid-cols-1 overflow-hidden bg-blue-deep pt-28 md:grid-cols-[1.1fr_1fr] md:pt-0"
-      style={{
-        gridTemplateAreas: "'content image'",
-      }}
+      style={{ gridTemplateAreas: "'content image'" }}
     >
       <span
         aria-hidden="true"
@@ -84,41 +71,29 @@ export default function Hero() {
         01
       </span>
 
-      <motion.div
-        variants={containerVariants}
-        initial="hidden"
-        animate="visible"
-        className="relative z-10 flex flex-col justify-center px-6 pb-36 pt-10 md:px-16 md:pb-44 md:pt-0"
+      <div
+        className="hero-stagger relative z-10 flex flex-col justify-center px-6 pb-36 pt-10 md:px-16 md:pb-44 md:pt-0"
         style={{ gridArea: 'content' }}
       >
-        <motion.span
-          variants={itemVariants}
-          className="mb-6 inline-block w-fit rounded-full border border-brown-light/40 px-4 py-1.5 font-body text-[10px] font-medium uppercase tracking-[0.15em] text-brown-light md:text-xs md:tracking-[0.2em]"
-        >
+        <span className="hero-item mb-6 inline-block w-fit rounded-full border border-brown-light/40 px-4 py-1.5 font-body text-[10px] font-medium uppercase tracking-[0.15em] text-brown-light md:text-xs md:tracking-[0.2em]">
           Fotógrafo de casamento · SP
-        </motion.span>
+        </span>
 
-        <motion.h1
-          variants={itemVariants}
-          className="font-heading text-[clamp(2.75rem,9vw,8rem)] font-black italic leading-[0.95] tracking-tightest text-cream"
-        >
+        <h1 className="hero-item font-heading text-[clamp(2.75rem,9vw,8rem)] font-black italic leading-[0.95] tracking-tightest text-cream">
           Fotografia
           <br />
           que conta a{' '}
           <span className="text-gradient-gold not-italic">sua</span>
           <br />
           história
-        </motion.h1>
+        </h1>
 
-        <motion.p
-          variants={itemVariants}
-          className="mt-8 max-w-md font-body text-base text-cream/70 md:text-lg"
-        >
+        <p className="hero-item mt-8 max-w-md font-body text-base text-cream/70 md:text-lg">
           Registros autorais e cheios de emoção, eternizando os instantes mais
           importantes do seu casamento em São Paulo e região.
-        </motion.p>
+        </p>
 
-        <motion.div variants={itemVariants} className="mt-10 flex flex-wrap items-center gap-4">
+        <div className="hero-item mt-10 flex flex-wrap items-center gap-4">
           <Link
             href="/portfolio/"
             data-cursor-hover
@@ -136,13 +111,9 @@ export default function Hero() {
           >
             WhatsApp
           </a>
-        </motion.div>
+        </div>
 
-        {/* Foto hero visível apenas no mobile */}
-        <motion.div
-          variants={itemVariants}
-          className="mt-10 overflow-hidden rounded-2xl md:hidden"
-        >
+        <div className="hero-item mt-10 overflow-hidden rounded-2xl md:hidden">
           <Image
             src="/images/hero/fotografo-casamento-sao-paulo-noivos-igreja-flores-mobile.webp"
             alt="Noivos se abraçando em frente à igreja decorada com flores durante casamento em São Paulo"
@@ -155,27 +126,24 @@ export default function Hero() {
             style={{ width: '100%', height: 'auto' }}
             className="rounded-2xl"
           />
-        </motion.div>
+        </div>
 
-        <motion.div
-          variants={itemVariants}
-          className="mt-16 grid grid-cols-3 gap-6 border-t border-cream/10 pt-8 md:max-w-lg"
-        >
+        <div className="hero-item mt-16 grid grid-cols-3 gap-6 border-t border-cream/10 pt-8 md:max-w-lg">
           {STATS.map((stat) => (
             <div key={stat.label}>
               <Counter value={stat.value} suffix={stat.suffix} />
               <p className="mt-1 font-body text-xs text-cream/70 md:text-sm">{stat.label}</p>
             </div>
           ))}
-        </motion.div>
-      </motion.div>
+        </div>
+      </div>
 
       <div
         className="relative hidden overflow-hidden md:block"
         style={{ gridArea: 'image' }}
         aria-hidden="false"
       >
-        <motion.div style={{ y: imageY }} className="absolute inset-0 -top-[10%] h-[120%] w-full">
+        <div className="absolute inset-0 -top-[10%] h-[120%] w-full">
           <Image
             src="/images/hero/fotografo-casamento-sao-paulo-noivos-igreja-flores.webp"
             alt="Noivos se abraçando em frente à igreja decorada com flores durante casamento em São Paulo"
@@ -187,15 +155,10 @@ export default function Hero() {
             sizes="(min-width: 768px) 50vw, 100vw"
             className="object-cover"
           />
-        </motion.div>
+        </div>
         <div className="absolute inset-0 bg-gradient-to-t from-blue-deep/60 via-transparent to-blue-deep/20" />
 
-        <motion.div
-          initial={{ opacity: 0, y: 24 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 1, ease: [0.22, 1, 0.36, 1] }}
-          className="absolute bottom-20 left-10 right-10 z-20 overflow-hidden rounded-2xl border border-cream/20 bg-blue-deep/60 p-6 backdrop-blur-md"
-        >
+        <div className="hero-card absolute bottom-20 left-10 right-10 z-20 overflow-hidden rounded-2xl border border-cream/20 bg-blue-deep/60 p-6 backdrop-blur-md">
           <Image
             src="/images/hero/fotografo-casamento-sao-paulo-detalhe-aliancas.webp"
             alt="Detalhe das alianças e buquê de flores em mesa decorada de casamento"
@@ -209,21 +172,18 @@ export default function Hero() {
           <p className="mt-4 font-heading text-sm font-semibold italic text-cream">
             &ldquo;Cada imagem carrega o sentimento exato daquele instante.&rdquo;
           </p>
-        </motion.div>
+        </div>
       </div>
 
       <svg
         aria-hidden="true"
         viewBox="0 0 1440 100"
-        className="absolute bottom-0 left-0 z-10 w-full text-cream"
+        className="hero-wave absolute bottom-0 left-0 z-10 w-full text-cream"
         preserveAspectRatio="none"
       >
-        <motion.path
+        <path
           d="M0,50 C360,100 1080,0 1440,50 L1440,100 L0,100 Z"
           fill="currentColor"
-          initial={{ pathLength: 0, opacity: 0 }}
-          animate={{ pathLength: 1, opacity: 1 }}
-          transition={{ duration: 1.6, delay: 0.5, ease: [0.22, 1, 0.36, 1] }}
         />
       </svg>
     </section>

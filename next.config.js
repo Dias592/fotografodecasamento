@@ -12,11 +12,7 @@ const nextConfig = {
       },
     ],
   },
-  experimental: {
-    optimizePackageImports: ['framer-motion'],
-  },
   webpack: (config, { dev }) => {
-    config.resolve.symlinks = false;
     if (!dev) {
       config.optimization.usedExports = true;
     }

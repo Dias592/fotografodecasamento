@@ -1,5 +1,3 @@
-'use client';
-
 const WHATSAPP_URL =
   'https://wa.me/5511953025177?text=Ol%C3%A1%20Ivan!%20Vi%20seu%20site%20e%20quero%20saber%20sobre%20fotografia%20de%20casamento.';
 
