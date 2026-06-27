@@ -113,12 +113,12 @@ export default function Hero() {
           </a>
         </div>
 
-        <div className="hero-item mt-10 overflow-hidden rounded-2xl md:hidden">
+        <div className="mt-10 overflow-hidden rounded-2xl md:hidden">
           <Image
             src="/images/hero/fotografo-casamento-sao-paulo-noivos-igreja-flores-mobile.webp"
             alt="Noivos se abraçando em frente à igreja decorada com flores durante casamento em São Paulo"
-            width={720}
-            height={1080}
+            width={420}
+            height={630}
             priority
             placeholder="blur"
             blurDataURL={SHIMMER_BLUR_DATA_URL}
