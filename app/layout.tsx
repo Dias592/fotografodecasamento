@@ -101,11 +101,19 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="pt-BR" className={poppins.variable}>
       <head>
-        {/* Preload da imagem LCP (hero) para mobile e desktop */}
+        {/* Preload da imagem LCP (hero) — mobile usa versão otimizada */}
+        <link
+          rel="preload"
+          as="image"
+          href="/images/hero/fotografo-casamento-sao-paulo-noivos-igreja-flores-mobile.webp"
+          media="(max-width: 767px)"
+          fetchPriority="high"
+        />
         <link
           rel="preload"
           as="image"
           href="/images/hero/fotografo-casamento-sao-paulo-noivos-igreja-flores.webp"
+          media="(min-width: 768px)"
           fetchPriority="high"
         />
       </head>

@@ -143,10 +143,10 @@ export default function Hero() {
           className="mt-10 overflow-hidden rounded-2xl md:hidden"
         >
           <Image
-            src="/images/hero/fotografo-casamento-sao-paulo-noivos-igreja-flores.webp"
+            src="/images/hero/fotografo-casamento-sao-paulo-noivos-igreja-flores-mobile.webp"
             alt="Noivos se abraçando em frente à igreja decorada com flores durante casamento em São Paulo"
-            width={1400}
-            height={2100}
+            width={720}
+            height={1080}
             priority
             placeholder="blur"
             blurDataURL={SHIMMER_BLUR_DATA_URL}
