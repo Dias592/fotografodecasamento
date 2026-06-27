@@ -5,7 +5,6 @@ import './globals.css';
 import Navbar from '@/components/Navbar';
 import WhatsAppFloat from '@/components/WhatsAppFloat';
 import CustomCursor from '@/components/CustomCursor';
-import LoadingScreen from '@/components/LoadingScreen';
 import PageTransition from '@/components/PageTransition';
 import SchemaOrg from '@/components/SchemaOrg';
 import {
@@ -129,7 +128,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <a href="#main-content" className="skip-link font-body text-sm font-semibold">
           Pular para o conteúdo principal
         </a>
-        <LoadingScreen />
         <CustomCursor />
         <Navbar />
         <main id="main-content">
