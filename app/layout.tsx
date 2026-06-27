@@ -55,7 +55,7 @@ export const metadata: Metadata = {
     'Ivan Dias fotógrafo',
   ],
   verification: {
-    google: '',
+    google: 'q93sQvSWc8TXmX8E3EuAwlyix2rOsV2Dw24C5GqD2SY',
   },
   category: 'photography',
   authors: [{ name: 'Ivan Dias' }],
