@@ -149,7 +149,7 @@ export default function Hero() {
             alt="Noivos se abraçando em frente à igreja decorada com flores durante casamento em São Paulo"
             role="img"
             fill
-            priority
+            loading="eager"
             placeholder="blur"
             blurDataURL={SHIMMER_BLUR_DATA_URL}
             sizes="(min-width: 768px) 50vw, 100vw"
@@ -165,6 +165,7 @@ export default function Hero() {
             role="img"
             width={64}
             height={64}
+            loading="lazy"
             placeholder="blur"
             blurDataURL={SHIMMER_BLUR_DATA_URL}
             className="rounded-full border-2 border-brown-light object-cover"
