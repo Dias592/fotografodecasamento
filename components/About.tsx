@@ -36,14 +36,14 @@ export default function About() {
           <h2 className="mt-4 font-heading text-4xl font-bold tracking-tightest text-blue-deep md:text-5xl">
             Quinze anos contando histórias de amor através das lentes
           </h2>
-          <p className="mt-6 font-body text-base leading-relaxed text-blue-deep/70 md:text-lg">
+          <p className="mt-6 font-body text-base leading-relaxed text-blue-deep/75 md:text-lg">
             Sou apaixonado por contar histórias através da fotografia. Trabalho com
             casamentos, pré-wedding, ensaios e muito mais, sempre com o compromisso
             de capturar a essência de cada momento especial — os olhares cheios de
             amor, os gestos sutis e os instantes que traduzem a suavidade e o requinte
             de uma ocasião única.
           </p>
-          <p className="mt-4 font-body text-base leading-relaxed text-blue-deep/70 md:text-lg">
+          <p className="mt-4 font-body text-base leading-relaxed text-blue-deep/75 md:text-lg">
             Cada clique é pensado para transformar emoções em memórias únicas,
             refletindo a beleza, o amor e a singularidade de cada etapa da vida do
             casal. Já registrei mais de 700 casamentos em diferentes bairros da

@@ -48,7 +48,7 @@ export default function ContactForm({ variant = 'light' }: Props) {
     ? 'font-body text-xs font-medium text-brown-light'
     : 'font-body text-xs font-medium text-red-600';
 
-  const OPTIONAL = isDark ? 'font-normal text-cream/60' : 'font-normal text-blue-deep/60';
+  const OPTIONAL = isDark ? 'font-normal text-cream/70' : 'font-normal text-blue-deep/60';
 
   const validate = (): boolean => {
     const nextErrors: FormErrors = {};

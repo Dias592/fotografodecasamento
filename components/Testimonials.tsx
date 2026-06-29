@@ -83,7 +83,7 @@ export default function Testimonials() {
             <p className="mt-6 max-w-2xl font-heading text-xl font-medium italic leading-relaxed text-blue-deep md:text-2xl">
               &ldquo;{current.text}&rdquo;
             </p>
-            <p className="mt-6 font-body text-sm font-semibold uppercase tracking-wide text-blue-deep/60">
+            <p className="mt-6 font-body text-sm font-semibold uppercase tracking-wide text-blue-deep/70">
               {current.names} <span className="text-blue-accent">· {current.bairro}</span>
             </p>
           </div>
@@ -112,7 +112,7 @@ export default function Testimonials() {
                 aria-label={`Ver depoimento de ${testimonial.names}`}
                 onClick={() => setIndex(i)}
                 data-cursor-hover
-                className={`h-2.5 rounded-full transition-all duration-300 focus-visible-ring ${
+                className={`relative h-2.5 rounded-full transition-all duration-300 focus-visible-ring before:absolute before:-inset-4 before:content-[''] ${
                   i === index ? 'w-8 bg-blue-accent' : 'w-2.5 bg-blue-deep/20'
                 }`}
               />

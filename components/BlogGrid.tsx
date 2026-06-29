@@ -32,7 +32,7 @@ export default function BlogGrid({ posts, limit }: { posts: Post[]; limit?: numb
             <h3 className="mt-5 font-heading text-xl font-bold tracking-tightest text-blue-deep transition-colors group-hover:text-blue-accent">
               {post.title}
             </h3>
-            <p className="mt-2 font-body text-sm text-blue-deep/60 line-clamp-2">{post.excerpt}</p>
+            <p className="mt-2 font-body text-sm text-blue-deep/70 line-clamp-2">{post.excerpt}</p>
             <span className="mt-4 inline-flex items-center gap-2 font-body text-sm font-semibold uppercase tracking-wide text-brown-warm">
               Ler artigo
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" aria-hidden="true">

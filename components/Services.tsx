@@ -70,7 +70,7 @@ export default function Services() {
                 <h3 className="mt-6 font-heading text-2xl font-bold tracking-tightest text-blue-deep">
                   {service.title}
                 </h3>
-                <p className="mt-3 font-body text-base text-blue-deep/65">{service.shortDescription}</p>
+                <p className="mt-3 font-body text-base text-blue-deep/70">{service.shortDescription}</p>
 
                 <Link
                   href={`/servicos/${service.slug}/`}
