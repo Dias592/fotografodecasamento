@@ -3,7 +3,6 @@
 import { useMemo, useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { motion } from 'framer-motion';
 import { SHIMMER_BLUR_DATA_URL } from '@/lib/utils';
 
 type PortfolioItem = {
@@ -25,12 +24,6 @@ const ITEMS: PortfolioItem[] = [
 
 const CATEGORIES = ['Todos', 'Cerimônia', 'Festa', 'Pré-Wedding', 'Detalhes'] as const;
 
-const heightClass: Record<PortfolioItem['height'], string> = {
-  tall: 'aspect-[3/4]',
-  medium: 'aspect-square',
-  short: 'aspect-[4/3]',
-};
-
 export default function Portfolio() {
   const [filter, setFilter] = useState<(typeof CATEGORIES)[number]>('Todos');
 
@@ -43,19 +36,14 @@ export default function Portfolio() {
     <section className="relative bg-blue-deep py-24 md:py-32" id="portfolio-preview">
       <div className="mx-auto max-w-7xl px-6 md:px-12">
         <div className="flex flex-col items-start justify-between gap-8 md:flex-row md:items-end">
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: '-100px' }}
-            transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
-          >
+          <div>
             <span className="font-body text-xs font-semibold uppercase tracking-[0.25em] text-brown-light">
               Galeria
             </span>
             <h2 className="mt-4 font-heading text-4xl font-bold tracking-tightest text-cream md:text-5xl">
               Momentos eternizados em cada detalhe
             </h2>
-          </motion.div>
+          </div>
 
           <div className="flex flex-wrap gap-2" role="tablist" aria-label="Filtrar portfólio por categoria">
             {CATEGORIES.map((category) => (
@@ -79,13 +67,9 @@ export default function Portfolio() {
         </div>
 
         <div className="mt-12 columns-1 gap-5 sm:columns-2 lg:columns-3 [&>*]:mb-5">
-          {filtered.map((item, index) => (
-            <motion.figure
+          {filtered.map((item) => (
+            <figure
               key={item.id}
-              initial={{ opacity: 0, y: 40 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: '-80px' }}
-              transition={{ duration: 0.6, delay: (index % 3) * 0.1, ease: [0.22, 1, 0.36, 1] }}
               data-cursor-hover
               className="group relative overflow-hidden rounded-2xl"
             >
@@ -93,8 +77,8 @@ export default function Portfolio() {
                 src={item.src}
                 alt={item.alt}
                 role="img"
-                width={800}
-                height={533}
+                width={400}
+                height={267}
                 loading="lazy"
                 placeholder="blur"
                 blurDataURL={SHIMMER_BLUR_DATA_URL}
@@ -107,7 +91,7 @@ export default function Portfolio() {
                   {item.category}
                 </figcaption>
               </div>
-            </motion.figure>
+            </figure>
           ))}
         </div>
 

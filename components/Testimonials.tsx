@@ -1,7 +1,6 @@
 'use client';
 
 import { useState } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
 
 type Testimonial = {
   id: string;
@@ -79,24 +78,15 @@ export default function Testimonials() {
         </h2>
 
         <div className="relative mt-14 min-h-[320px]">
-          <AnimatePresence mode="wait">
-            <motion.div
-              key={current.id}
-              initial={{ opacity: 0, x: 60 }}
-              animate={{ opacity: 1, x: 0 }}
-              exit={{ opacity: 0, x: -60 }}
-              transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
-              className="flex flex-col items-center"
-            >
-              <Stars rating={current.rating} />
-              <p className="mt-6 max-w-2xl font-heading text-xl font-medium italic leading-relaxed text-blue-deep md:text-2xl">
-                &ldquo;{current.text}&rdquo;
-              </p>
-              <p className="mt-6 font-body text-sm font-semibold uppercase tracking-wide text-blue-deep/60">
-                {current.names} <span className="text-blue-accent">· {current.bairro}</span>
-              </p>
-            </motion.div>
-          </AnimatePresence>
+          <div className="flex flex-col items-center transition-opacity duration-500">
+            <Stars rating={current.rating} />
+            <p className="mt-6 max-w-2xl font-heading text-xl font-medium italic leading-relaxed text-blue-deep md:text-2xl">
+              &ldquo;{current.text}&rdquo;
+            </p>
+            <p className="mt-6 font-body text-sm font-semibold uppercase tracking-wide text-blue-deep/60">
+              {current.names} <span className="text-blue-accent">· {current.bairro}</span>
+            </p>
+          </div>
         </div>
 
         <div className="mt-10 flex items-center justify-center gap-4">

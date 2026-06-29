@@ -1,8 +1,5 @@
-'use client';
-
 import Image from 'next/image';
 import Link from 'next/link';
-import { motion } from 'framer-motion';
 import { Post } from '@/lib/posts';
 import { SHIMMER_BLUR_DATA_URL } from '@/lib/utils';
 
@@ -11,22 +8,16 @@ export default function BlogGrid({ posts, limit }: { posts: Post[]; limit?: numb
 
   return (
     <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
-      {list.map((post, index) => (
-        <motion.article
-          key={post.slug}
-          initial={{ opacity: 0, y: 40 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: '-80px' }}
-          transition={{ duration: 0.6, delay: index * 0.1, ease: [0.22, 1, 0.36, 1] }}
-        >
+      {list.map((post) => (
+        <article key={post.slug}>
           <Link href={`/blog/${post.slug}/`} data-cursor-hover className="group block focus-visible-ring">
             <div className="relative overflow-hidden rounded-2xl">
               <Image
                 src={post.image}
                 alt={`Fotografia de casamento em ${post.bairro}`}
                 role="img"
-                width={800}
-                height={533}
+                width={400}
+                height={267}
                 loading="lazy"
                 placeholder="blur"
                 blurDataURL={SHIMMER_BLUR_DATA_URL}
@@ -49,7 +40,7 @@ export default function BlogGrid({ posts, limit }: { posts: Post[]; limit?: numb
               </svg>
             </span>
           </Link>
-        </motion.article>
+        </article>
       ))}
     </div>
   );

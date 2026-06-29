@@ -1,7 +1,4 @@
-'use client';
-
 import Link from 'next/link';
-import { motion } from 'framer-motion';
 import { services } from '@/lib/services';
 
 const ICONS: Record<string, JSX.Element> = {
@@ -41,29 +38,19 @@ export default function Services() {
   return (
     <section className="relative bg-cream py-24 md:py-32" id="servicos-preview">
       <div className="mx-auto max-w-7xl px-6 md:px-12">
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: '-100px' }}
-          transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
-          className="max-w-2xl"
-        >
+        <div className="max-w-2xl">
           <span className="font-body text-xs font-semibold uppercase tracking-[0.25em] text-blue-accent">
             O que eu faço
           </span>
           <h2 className="mt-4 font-heading text-4xl font-bold tracking-tightest text-blue-deep md:text-5xl">
             Serviços pensados para cada momento da sua celebração
           </h2>
-        </motion.div>
+        </div>
 
         <div className="mt-16 grid grid-cols-1 gap-6 md:grid-cols-2">
           {services.map((service, index) => (
-            <motion.div
+            <div
               key={service.id}
-              initial={{ opacity: 0, y: 40 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: '-80px' }}
-              transition={{ duration: 0.6, delay: index * 0.1, ease: [0.22, 1, 0.36, 1] }}
               className={`group relative overflow-hidden rounded-3xl border border-blue-deep/10 bg-white p-8 transition-transform duration-500 hover:scale-[1.02] md:p-10 ${
                 index % 2 === 1 ? 'md:translate-y-10' : ''
               }`}
@@ -97,7 +84,7 @@ export default function Services() {
                   </svg>
                 </Link>
               </div>
-            </motion.div>
+            </div>
           ))}
         </div>
       </div>

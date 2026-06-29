@@ -1,6 +1,3 @@
-'use client';
-
-import { motion } from 'framer-motion';
 import ContactForm from './ContactForm';
 
 const WHATSAPP_URL =
@@ -17,22 +14,11 @@ export default function FinalCTA() {
       </span>
 
       <div className="relative mx-auto max-w-5xl px-6 text-center md:px-12">
-        <motion.h2
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: '-100px' }}
-          transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
-          className="font-heading text-[clamp(2.25rem,7vw,5rem)] font-black italic leading-[0.98] tracking-tightest text-cream"
-        >
+        <h2 className="font-heading text-[clamp(2.25rem,7vw,5rem)] font-black italic leading-[0.98] tracking-tightest text-cream">
           Vamos contar a <span className="text-gradient-gold not-italic">sua</span> história juntos?
-        </motion.h2>
+        </h2>
 
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: '-100px' }}
-          transition={{ duration: 0.6, delay: 0.2, ease: [0.22, 1, 0.36, 1] }}
-        >
+        <div>
           <a
             href={WHATSAPP_URL}
             target="_blank"
@@ -42,7 +28,7 @@ export default function FinalCTA() {
           >
             Falar com Ivan agora
           </a>
-        </motion.div>
+        </div>
 
         <div className="mt-16 rounded-3xl border border-cream/10 bg-cream/5 p-8 text-left backdrop-blur-sm md:p-12">
           <h3 className="font-heading text-xl font-bold text-cream md:text-2xl">

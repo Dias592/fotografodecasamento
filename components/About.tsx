@@ -19,8 +19,8 @@ export default function About() {
             src="/images/about/ivan-dias-fotografo-retrato.webp"
             alt="Retrato do fotógrafo Ivan Dias segurando câmera profissional em estúdio"
             role="img"
-            width={900}
-            height={600}
+            width={400}
+            height={267}
             loading="lazy"
             placeholder="blur"
             blurDataURL={SHIMMER_BLUR_DATA_URL}
