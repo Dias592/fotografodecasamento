@@ -70,9 +70,7 @@ export function getServiceSchema() {
     name: 'Fotografia de Casamento em São Paulo',
     serviceType: 'Fotografia de Casamento',
     provider: {
-      '@type': 'LocalBusiness',
-      name: 'Ivan Dias Fotógrafo',
-      url: SITE_URL,
+      '@id': `${SITE_URL}/#localbusiness`,
     },
     areaServed: {
       '@type': 'Place',
