@@ -61,8 +61,7 @@ function Counter({ value, suffix }: { value: number; suffix: string }) {
 export default function Hero() {
   return (
     <section
-      className="relative grid min-h-screen grid-cols-1 overflow-hidden bg-blue-deep pt-28 md:grid-cols-[1.1fr_1fr] md:pt-0"
-      style={{ gridTemplateAreas: "'content image'" }}
+      className="relative grid min-h-screen grid-cols-1 overflow-hidden bg-blue-deep pt-28 md:grid-cols-[1.1fr_1fr] md:pt-0 md:[grid-template-areas:'content_image']"
     >
       <span
         aria-hidden="true"
@@ -72,8 +71,7 @@ export default function Hero() {
       </span>
 
       <div
-        className="hero-stagger relative z-10 flex flex-col justify-center px-6 pb-36 pt-10 md:px-16 md:pb-44 md:pt-0"
-        style={{ gridArea: 'content' }}
+        className="hero-stagger relative z-10 flex flex-col justify-center px-6 pb-36 pt-10 md:px-16 md:pb-44 md:pt-0 md:[grid-area:content]"
       >
         <span className="hero-item mb-6 inline-block w-fit rounded-full border border-brown-light/40 px-4 py-1.5 font-body text-[10px] font-medium uppercase tracking-[0.15em] text-brown-light md:text-xs md:tracking-[0.2em]">
           Fotógrafo de casamento · SP
@@ -116,7 +114,8 @@ export default function Hero() {
         <div className="mt-10 overflow-hidden rounded-2xl md:hidden">
           <img
             src="/images/hero/fotografo-casamento-sao-paulo-noivos-igreja-flores-mobile.webp"
-            srcSet="/images/hero/fotografo-casamento-sao-paulo-noivos-igreja-flores-mobile-1x.webp 1x, /images/hero/fotografo-casamento-sao-paulo-noivos-igreja-flores-mobile.webp 2x"
+            srcSet="/images/hero/fotografo-casamento-sao-paulo-noivos-igreja-flores-mobile-1x.webp 364w, /images/hero/fotografo-casamento-sao-paulo-noivos-igreja-flores-mobile.webp 728w"
+            sizes="(min-width: 768px) 0px, calc(100vw - 48px)"
             alt="Noivos se abraçando em frente à igreja decorada com flores durante casamento em São Paulo"
             width={728}
             height={1092}
@@ -138,8 +137,7 @@ export default function Hero() {
       </div>
 
       <div
-        className="relative hidden overflow-hidden md:block"
-        style={{ gridArea: 'image' }}
+        className="relative hidden overflow-hidden md:block md:[grid-area:image]"
         aria-hidden="false"
       >
         <div className="absolute inset-0 -top-[10%] h-[120%] w-full">

@@ -5,8 +5,10 @@ import Link from 'next/link';
 
 function srcSet1x2x(src: string) {
   const s1x = src.replace('.webp', '-1x.webp');
-  return `${s1x} 1x, ${src} 2x`;
+  return `${s1x} 400w, ${src} 800w`;
 }
+
+const PORTFOLIO_SIZES = '(min-width: 1024px) 33vw, (min-width: 640px) 50vw, calc(100vw - 48px)';
 
 type PortfolioItem = {
   id: string;
@@ -79,6 +81,7 @@ export default function Portfolio() {
               <img
                 src={item.src}
                 srcSet={srcSet1x2x(item.src)}
+                sizes={PORTFOLIO_SIZES}
                 alt={item.alt}
                 width={800}
                 height={533}

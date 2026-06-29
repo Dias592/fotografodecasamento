@@ -3,8 +3,10 @@ import { Post } from '@/lib/posts';
 
 function srcSet1x2x(src: string) {
   const s1x = src.replace('.webp', '-1x.webp');
-  return `${s1x} 1x, ${src} 2x`;
+  return `${s1x} 400w, ${src} 760w`;
 }
+
+const BLOG_SIZES = '(min-width: 768px) 33vw, calc(100vw - 48px)';
 
 export default function BlogGrid({ posts, limit }: { posts: Post[]; limit?: number }) {
   const list = limit ? posts.slice(0, limit) : posts;
@@ -18,6 +20,7 @@ export default function BlogGrid({ posts, limit }: { posts: Post[]; limit?: numb
               <img
                 src={post.image}
                 srcSet={srcSet1x2x(post.image)}
+                sizes={BLOG_SIZES}
                 alt={`Fotografia de casamento em ${post.bairro}`}
                 width={800}
                 height={533}
