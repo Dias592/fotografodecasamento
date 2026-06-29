@@ -159,15 +159,10 @@ export default function Gallery() {
           </button>
 
           <div className="relative max-h-[90vh] max-w-[90vw]" onClick={(e) => e.stopPropagation()}>
-            <Image
+            <img
               src={lightbox.src}
               alt={lightbox.alt}
-              width={1400}
-              height={933}
-              quality={90}
-              priority
-              sizes="90vw"
-              style={{ width: 'auto', height: 'auto', maxHeight: '90vh', maxWidth: '90vw' }}
+              style={{ maxHeight: '90vh', maxWidth: '90vw', width: 'auto', height: 'auto' }}
               className="rounded-lg object-contain"
             />
             <p className="mt-4 text-center font-body text-sm text-white/70">
