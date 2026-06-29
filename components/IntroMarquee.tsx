@@ -9,7 +9,7 @@ export default function IntroMarquee() {
         {[...items, ...items].map((title, index) => (
           <span
             key={`${title}-${index}`}
-            className="flex items-center gap-12 font-heading text-3xl font-bold uppercase italic tracking-tightest text-cream/15 md:text-5xl"
+            className="flex items-center gap-12 font-heading text-3xl font-bold uppercase italic tracking-tightest text-cream/30 md:text-5xl"
           >
             {title}
             <span className="text-brown-light/40">✦</span>

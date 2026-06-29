@@ -57,7 +57,7 @@ export default function Services() {
             >
               <span
                 aria-hidden="true"
-                className="absolute -right-4 -top-6 select-none font-heading text-7xl font-black text-blue-accent/10 transition-colors duration-500 group-hover:text-blue-accent/20 md:text-8xl"
+                className="absolute -right-4 -top-6 select-none font-heading text-7xl font-black text-blue-accent/15 transition-colors duration-500 group-hover:text-blue-accent/25 md:text-8xl"
               >
                 {service.number}
               </span>

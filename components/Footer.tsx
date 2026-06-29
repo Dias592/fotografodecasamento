@@ -223,9 +223,9 @@ export default function Footer() {
           © {new Date().getFullYear()} Ivan Dias Fotografia. Todos os direitos reservados.
         </p>
         <div className="mt-4 border-t border-cream/10 pt-4 text-center">
-          <span className="font-body text-xs text-cream/40">Outros serviços: </span>
+          <span className="font-body text-xs text-cream/60">Outros serviços: </span>
           <a href="https://pixiformaturas.com.br" target="_blank" rel="noopener noreferrer" className="font-body text-xs text-cream/85 transition-colors hover:text-cream">Pixi Formaturas</a>
-          <span className="font-body text-xs text-cream/40"> · </span>
+          <span className="font-body text-xs text-cream/60"> · </span>
           <a href="https://ivandiasfoto.com.br" target="_blank" rel="noopener noreferrer" className="font-body text-xs text-cream/85 transition-colors hover:text-cream">Ivan Dias Corporativo</a>
         </div>
       </div>

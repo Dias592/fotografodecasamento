@@ -16,8 +16,8 @@ export default function BlogGrid({ posts, limit }: { posts: Post[]; limit?: numb
                 src={post.image}
                 alt={`Fotografia de casamento em ${post.bairro}`}
                 role="img"
-                width={400}
-                height={267}
+                width={800}
+                height={533}
                 loading="lazy"
                 placeholder="blur"
                 blurDataURL={SHIMMER_BLUR_DATA_URL}

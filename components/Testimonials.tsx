@@ -112,10 +112,12 @@ export default function Testimonials() {
                 aria-label={`Ver depoimento de ${testimonial.names}`}
                 onClick={() => setIndex(i)}
                 data-cursor-hover
-                className={`relative h-2.5 rounded-full transition-all duration-300 focus-visible-ring before:absolute before:-inset-4 before:content-[''] ${
+                className={`flex h-11 w-11 items-center justify-center rounded-full transition-all duration-300 focus-visible-ring`}
+              >
+                <span className={`block h-2.5 rounded-full transition-all duration-300 ${
                   i === index ? 'w-8 bg-blue-accent' : 'w-2.5 bg-blue-deep/20'
-                }`}
-              />
+                }`} />
+              </button>
             ))}
           </div>
 

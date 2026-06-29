@@ -19,8 +19,8 @@ export default function About() {
             src="/images/about/ivan-dias-fotografo-retrato.webp"
             alt="Retrato do fotógrafo Ivan Dias segurando câmera profissional em estúdio"
             role="img"
-            width={400}
-            height={267}
+            width={800}
+            height={533}
             loading="lazy"
             placeholder="blur"
             blurDataURL={SHIMMER_BLUR_DATA_URL}
@@ -55,7 +55,7 @@ export default function About() {
             {BADGES.map((badge) => (
               <span
                 key={badge}
-                className="rounded-full bg-brown-light/15 px-5 py-2 font-body text-sm font-medium text-brown-warm"
+                className="rounded-full bg-brown-light/15 px-5 py-2 font-body text-sm font-semibold text-blue-deep/70"
               >
                 {badge}
               </span>

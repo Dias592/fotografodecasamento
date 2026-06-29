@@ -77,8 +77,8 @@ export default function Portfolio() {
                 src={item.src}
                 alt={item.alt}
                 role="img"
-                width={400}
-                height={267}
+                width={800}
+                height={533}
                 loading="lazy"
                 placeholder="blur"
                 blurDataURL={SHIMMER_BLUR_DATA_URL}
