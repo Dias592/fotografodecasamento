@@ -12,6 +12,16 @@ const nextConfig = {
       },
     ],
   },
+  async redirects() {
+    return [
+      {
+        source: '/:path*',
+        has: [{ type: 'host', value: 'www.ivandiasfotografo.com.br' }],
+        destination: 'https://ivandiasfotografo.com.br/:path*',
+        permanent: true,
+      },
+    ];
+  },
   webpack: (config, { dev }) => {
     if (!dev) {
       config.optimization.usedExports = true;

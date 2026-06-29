@@ -132,11 +132,11 @@ export function generateMetadata({ params }: Props): Metadata {
     title: service.title,
     description: service.description,
     keywords: pageKeywords[service.slug] ?? [],
-    alternates: { canonical: `/servicos/${service.slug}` },
+    alternates: { canonical: `/servicos/${service.slug}/` },
     openGraph: {
       title: `${service.title} | Ivan Dias Fotografia`,
       description: service.shortDescription,
-      url: `/servicos/${service.slug}`,
+      url: `/servicos/${service.slug}/`,
     },
   };
 }
