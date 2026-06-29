@@ -1,24 +1,18 @@
 'use client';
 
-import { useMemo, useState } from 'react';
+import { useCallback, useEffect, useMemo, useState } from 'react';
 import Image from 'next/image';
-import { motion } from 'framer-motion';
 import { SHIMMER_BLUR_DATA_URL } from '@/lib/utils';
 import { galleryItems, GalleryItem } from '@/lib/gallery';
 
 const CATEGORIES = ['Todos', 'Cerimônia', 'Festa', 'Pré-Wedding', 'Detalhes'] as const;
-
-const heightClass: Record<GalleryItem['height'], string> = {
-  tall: 'aspect-[3/4]',
-  medium: 'aspect-square',
-  short: 'aspect-[4/3]',
-};
 
 const PAGE_SIZE = 18;
 
 export default function Gallery() {
   const [filter, setFilter] = useState<(typeof CATEGORIES)[number]>('Todos');
   const [visible, setVisible] = useState(PAGE_SIZE);
+  const [lightbox, setLightbox] = useState<GalleryItem | null>(null);
 
   const filtered = useMemo(() => {
     setVisible(PAGE_SIZE);
@@ -28,6 +22,33 @@ export default function Gallery() {
 
   const visibleItems = filtered.slice(0, visible);
   const hasMore = visible < filtered.length;
+
+  const currentIndex = lightbox ? filtered.findIndex((i) => i.id === lightbox.id) : -1;
+
+  const goTo = useCallback(
+    (dir: -1 | 1) => {
+      if (currentIndex < 0) return;
+      const next = (currentIndex + dir + filtered.length) % filtered.length;
+      setLightbox(filtered[next]);
+    },
+    [currentIndex, filtered],
+  );
+
+  useEffect(() => {
+    if (!lightbox) return;
+    document.body.style.overflow = 'hidden';
+
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') setLightbox(null);
+      if (e.key === 'ArrowRight') goTo(1);
+      if (e.key === 'ArrowLeft') goTo(-1);
+    };
+    window.addEventListener('keydown', onKey);
+    return () => {
+      document.body.style.overflow = '';
+      window.removeEventListener('keydown', onKey);
+    };
+  }, [lightbox, goTo]);
 
   return (
     <section className="relative bg-blue-deep py-16 md:py-20" id="galeria-completa">
@@ -56,15 +77,12 @@ export default function Gallery() {
         </div>
 
         <div className="mt-10 columns-1 gap-5 sm:columns-2 lg:columns-3 [&>*]:mb-5">
-          {visibleItems.map((item, index) => (
-            <motion.figure
+          {visibleItems.map((item) => (
+            <figure
               key={item.id}
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: '-60px' }}
-              transition={{ duration: 0.5, delay: (index % 6) * 0.05, ease: [0.22, 1, 0.36, 1] }}
               data-cursor-hover
-              className="group relative overflow-hidden rounded-2xl"
+              className="group relative cursor-pointer overflow-hidden rounded-2xl"
+              onClick={() => setLightbox(item)}
             >
               <Image
                 src={item.src}
@@ -84,7 +102,7 @@ export default function Gallery() {
                   {item.category}
                 </figcaption>
               </div>
-            </motion.figure>
+            </figure>
           ))}
         </div>
 
@@ -101,6 +119,63 @@ export default function Gallery() {
           </div>
         )}
       </div>
+
+      {lightbox && (
+        <div
+          className="fixed inset-0 z-[9998] flex items-center justify-center bg-black/90 p-4 md:p-10"
+          onClick={() => setLightbox(null)}
+        >
+          <button
+            type="button"
+            onClick={() => setLightbox(null)}
+            aria-label="Fechar visualização"
+            className="absolute right-4 top-4 z-10 flex h-12 w-12 items-center justify-center rounded-full bg-white/10 text-white backdrop-blur-sm transition-colors hover:bg-white/20 focus-visible-ring"
+          >
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} className="h-6 w-6" aria-hidden="true">
+              <path d="M18 6 6 18M6 6l12 12" strokeLinecap="round" strokeLinejoin="round" />
+            </svg>
+          </button>
+
+          <button
+            type="button"
+            onClick={(e) => { e.stopPropagation(); goTo(-1); }}
+            aria-label="Foto anterior"
+            className="absolute left-4 top-1/2 z-10 flex h-12 w-12 -translate-y-1/2 items-center justify-center rounded-full bg-white/10 text-white backdrop-blur-sm transition-colors hover:bg-white/20 focus-visible-ring"
+          >
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} className="h-6 w-6" aria-hidden="true">
+              <path d="M15 18l-6-6 6-6" strokeLinecap="round" strokeLinejoin="round" />
+            </svg>
+          </button>
+
+          <button
+            type="button"
+            onClick={(e) => { e.stopPropagation(); goTo(1); }}
+            aria-label="Próxima foto"
+            className="absolute right-4 top-1/2 z-10 flex h-12 w-12 -translate-y-1/2 items-center justify-center rounded-full bg-white/10 text-white backdrop-blur-sm transition-colors hover:bg-white/20 focus-visible-ring"
+          >
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} className="h-6 w-6" aria-hidden="true">
+              <path d="M9 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round" />
+            </svg>
+          </button>
+
+          <div className="relative max-h-[90vh] max-w-[90vw]" onClick={(e) => e.stopPropagation()}>
+            <Image
+              src={lightbox.src}
+              alt={lightbox.alt}
+              width={1400}
+              height={933}
+              quality={90}
+              priority
+              sizes="90vw"
+              style={{ width: 'auto', height: 'auto', maxHeight: '90vh', maxWidth: '90vw' }}
+              className="rounded-lg object-contain"
+            />
+            <p className="mt-4 text-center font-body text-sm text-white/70">
+              {lightbox.alt} · {lightbox.category}
+            </p>
+          </div>
+        </div>
+      )}
     </section>
   );
 }
