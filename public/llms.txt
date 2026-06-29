@@ -1,0 +1,31 @@
+# Ivan Dias | Fotógrafo de Casamento em São Paulo
+
+> Site profissional do fotógrafo Ivan Dias, especializado em casamentos em São Paulo e região (ABC Paulista, interior e litoral).
+
+## Sobre o profissional
+- Nome: Ivan Dias
+- Especialidade: Fotografia de casamento
+- Localização: São Paulo, SP, Brasil
+- Área de atendimento: São Paulo capital, ABC Paulista (Santo André, São Bernardo do Campo, São Caetano do Sul), interior e litoral de SP
+- Experiência: 15+ anos, 700+ casamentos registrados
+- Contato: WhatsApp +55 11 95302-5177
+- Instagram: @ivandiasfotografo
+
+## Serviços oferecidos
+- Cobertura completa de casamento
+- Ensaio pré-wedding
+- Direção de casal
+- Fotografia aérea (drone)
+- Mini wedding
+- Casamento na praia
+
+## Páginas principais
+- /: Página inicial
+- /servicos/: Lista de serviços
+- /portfolio/: Galeria de trabalhos
+- /blog/: Artigos sobre fotografia de casamento em bairros de SP
+- /sobre/: Sobre Ivan Dias
+- /contato/: Formulário de contato e WhatsApp
+
+## Conteúdo do blog
+82 artigos sobre fotografia de casamento em diferentes bairros e regiões de São Paulo, incluindo dicas, inspirações e informações para casais.

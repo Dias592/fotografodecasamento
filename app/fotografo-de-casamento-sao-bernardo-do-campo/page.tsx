@@ -54,19 +54,10 @@ const jsonLd = {
   '@context': 'https://schema.org',
   '@graph': [
     {
-      '@type': ['LocalBusiness', 'PhotographyBusiness'],
-      name: 'Ivan Dias Fotógrafo',
-      description: 'Fotógrafo de casamento em São Bernardo do Campo e ABC Paulista.',
-      url: CANONICAL,
-      telephone: '+55-11-95302-5177',
-      areaServed: { '@type': 'Place', name: 'São Bernardo do Campo, SP, Brasil' },
-      priceRange: '$$$',
-    },
-    {
       '@type': 'Service',
       name: 'Fotografia de Casamento em São Bernardo do Campo',
       serviceType: 'Fotografia de Casamento',
-      provider: { '@type': 'LocalBusiness', name: 'Ivan Dias Fotógrafo' },
+      provider: { '@id': 'https://ivandiasfotografo.com.br/#localbusiness' },
       areaServed: { '@type': 'Place', name: 'São Bernardo do Campo, SP, Brasil' },
     },
     {
