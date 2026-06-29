@@ -1,7 +1,10 @@
-import Image from 'next/image';
 import Link from 'next/link';
 import { Post } from '@/lib/posts';
-import { SHIMMER_BLUR_DATA_URL } from '@/lib/utils';
+
+function srcSet1x2x(src: string) {
+  const s1x = src.replace('.webp', '-1x.webp');
+  return `${s1x} 1x, ${src} 2x`;
+}
 
 export default function BlogGrid({ posts, limit }: { posts: Post[]; limit?: number }) {
   const list = limit ? posts.slice(0, limit) : posts;
@@ -12,16 +15,14 @@ export default function BlogGrid({ posts, limit }: { posts: Post[]; limit?: numb
         <article key={post.slug}>
           <Link href={`/blog/${post.slug}/`} data-cursor-hover className="group block focus-visible-ring">
             <div className="relative overflow-hidden rounded-2xl">
-              <Image
+              <img
                 src={post.image}
+                srcSet={srcSet1x2x(post.image)}
                 alt={`Fotografia de casamento em ${post.bairro}`}
-                role="img"
                 width={800}
                 height={533}
                 loading="lazy"
-                placeholder="blur"
-                blurDataURL={SHIMMER_BLUR_DATA_URL}
-                sizes="(min-width: 768px) 33vw, 100vw"
+                decoding="async"
                 style={{ width: '100%', height: 'auto' }}
                 className="transition-transform duration-700 ease-out group-hover:scale-110"
               />

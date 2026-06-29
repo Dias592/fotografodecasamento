@@ -1,9 +1,12 @@
 'use client';
 
 import { useMemo, useState } from 'react';
-import Image from 'next/image';
 import Link from 'next/link';
-import { SHIMMER_BLUR_DATA_URL } from '@/lib/utils';
+
+function srcSet1x2x(src: string) {
+  const s1x = src.replace('.webp', '-1x.webp');
+  return `${s1x} 1x, ${src} 2x`;
+}
 
 type PortfolioItem = {
   id: string;
@@ -73,16 +76,14 @@ export default function Portfolio() {
               data-cursor-hover
               className="group relative overflow-hidden rounded-2xl"
             >
-              <Image
+              <img
                 src={item.src}
+                srcSet={srcSet1x2x(item.src)}
                 alt={item.alt}
-                role="img"
                 width={800}
                 height={533}
                 loading="lazy"
-                placeholder="blur"
-                blurDataURL={SHIMMER_BLUR_DATA_URL}
-                sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
+                decoding="async"
                 style={{ width: '100%', height: 'auto' }}
                 className="transition-transform duration-700 ease-out group-hover:scale-[1.08]"
               />

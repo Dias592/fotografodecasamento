@@ -1,5 +1,5 @@
-import Image from 'next/image';
-import { SHIMMER_BLUR_DATA_URL } from '@/lib/utils';
+
+
 
 const BADGES = ['Cobertura Completa', 'Pré-Wedding', 'Direção de Casal', 'Fotografia Aérea'];
 
@@ -15,16 +15,14 @@ export default function About() {
 
       <div className="mx-auto grid max-w-7xl grid-cols-1 items-center gap-16 px-6 md:grid-cols-2 md:px-12">
         <div className="w-full max-w-md overflow-hidden rounded-3xl md:justify-self-start">
-          <Image
+          <img
             src="/images/about/ivan-dias-fotografo-retrato.webp"
+            srcSet="/images/about/ivan-dias-fotografo-retrato-1x.webp 1x, /images/about/ivan-dias-fotografo-retrato.webp 2x"
             alt="Retrato do fotógrafo Ivan Dias segurando câmera profissional em estúdio"
-            role="img"
             width={800}
             height={533}
             loading="lazy"
-            placeholder="blur"
-            blurDataURL={SHIMMER_BLUR_DATA_URL}
-            sizes="(min-width: 768px) 40vw, 90vw"
+            decoding="async"
             style={{ width: '100%', height: 'auto' }}
           />
         </div>
