@@ -50,7 +50,7 @@ export default function HomePage() {
             Histórias de casamentos por bairro de São Paulo
           </h2>
           <div className="mt-14">
-            <BlogGrid posts={posts} limit={3} />
+            <BlogGrid posts={posts.slice(0, 3)} />
           </div>
         </div>
       </section>
