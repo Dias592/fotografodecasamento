@@ -1,7 +1,6 @@
 'use client';
 
 import { FormEvent, useState } from 'react';
-import { motion } from 'framer-motion';
 
 type FormState = {
   name: string;
@@ -75,13 +74,9 @@ export default function ContactForm({ variant = 'light' }: Props) {
   };
 
   return (
-    <motion.form
+    <form
       onSubmit={handleSubmit}
       noValidate
-      initial={{ opacity: 0, y: 30 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, margin: '-80px' }}
-      transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
       className="grid grid-cols-1 gap-5 md:grid-cols-2"
       aria-label="Formulário de contato"
     >
@@ -163,6 +158,6 @@ export default function ContactForm({ variant = 'light' }: Props) {
           </p>
         )}
       </div>
-    </motion.form>
+    </form>
   );
 }
