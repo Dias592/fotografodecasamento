@@ -5,31 +5,32 @@ module.exports = {
   generateIndexSitemap: false,
   exclude: ['/api/*'],
   transform: async (config, path) => {
+    const p = path.replace(/\/+$/, '') || '/';
     let priority = 0.6;
     let changefreq = 'monthly';
 
-    if (path === '/') {
+    if (p === '/') {
       priority = 1.0;
       changefreq = 'monthly';
-    } else if (path === '/portfolio/') {
+    } else if (p === '/portfolio') {
       priority = 0.9;
       changefreq = 'weekly';
-    } else if (path === '/servicos/') {
+    } else if (p === '/servicos') {
       priority = 0.9;
       changefreq = 'monthly';
-    } else if (path === '/contato/') {
+    } else if (p === '/contato') {
       priority = 0.8;
       changefreq = 'yearly';
-    } else if (path === '/sobre/') {
+    } else if (p === '/sobre') {
       priority = 0.7;
       changefreq = 'yearly';
-    } else if (path === '/blog/') {
+    } else if (p === '/blog') {
       priority = 0.7;
       changefreq = 'weekly';
-    } else if (path.startsWith('/servicos/')) {
+    } else if (p.startsWith('/servicos/')) {
       priority = 0.8;
       changefreq = 'monthly';
-    } else if (path.startsWith('/blog/')) {
+    } else if (p.startsWith('/blog/')) {
       priority = 0.6;
       changefreq = 'monthly';
     }
