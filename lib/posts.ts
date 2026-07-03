@@ -4060,39 +4060,6 @@ export const posts: Post[] = [
     ],
   },
   {
-    slug: 'fotografo-casamento-drone-sp',
-    bairro: 'Fotografia Aérea',
-    title: 'Fotógrafo de Casamento com Drone em SP: Vale a Pena Incluir no Pacote?',
-    description:
-      'Drone na cobertura do casamento vale a pena? Veja regras da ANAC, custo médio em São Paulo e para quais tipos de evento a fotografia aérea faz mais diferença.',
-    excerpt:
-      'A fotografia aérea pode ser um diferencial e tanto — ou um gasto desnecessário, dependendo do local. Veja quando vale a pena incluir o drone na cobertura do seu casamento em SP.',
-    date: '2025-04-13',
-    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-24.webp',
-    faq: [
-      {
-        question: 'É obrigatório ter licença da ANAC para usar drone em casamento em SP?',
-        answer:
-          'Sim. O uso de drones para fins comerciais no Brasil exige habilitação junto à ANAC e cadastro no SISANT. Em áreas urbanas como São Paulo, há restrições de altitude e zonas proibidas (próximas a aeroportos, por exemplo). Sempre pergunte ao fotógrafo se ele tem habilitação ANAC antes de contratar.',
-      },
-      {
-        question: 'Quanto custa incluir drone na cobertura de casamento em SP?',
-        answer:
-          'O custo adicional do drone em casamentos varia de R$ 1.000 a R$ 3.000, dependendo do tempo de voo e do pacote contratado. Alguns estúdios incluem o drone em pacotes premium. O investimento vale especialmente para casamentos ao ar livre, em fazendas, jardins ou espaços com visual privilegiado.',
-      },
-      {
-        question: 'Todo espaço de festa em SP permite uso de drone?',
-        answer:
-          'Não. Muitos espaços em SP, especialmente em regiões centrais e próximas a aeroportos (como Congonhas), proíbem ou restringem o uso de drones. Espaços ao ar livre em Alphaville, Granja Viana e no interior têm menos restrições. Verifique com o espaço e com o fotógrafo antes de incluir o drone no pacote.',
-      },
-      {
-        question: 'Para que tipo de casamento o drone faz mais diferença?',
-        answer:
-          'Casamentos ao ar livre são os que mais se beneficiam do drone: fazendas, jardins, praias, sítios, vinícolas e espaços com área verde ampla. Em casamentos em salões fechados ou em centros urbanos com restrições aéreas, o drone tem uso muito limitado e pode não valer o custo adicional.',
-      },
-    ],
-  },
-  {
     slug: 'cobertura-casamento-dois-fotografos-sao-paulo',
     bairro: 'Equipe de Cobertura',
     title: 'Como Funciona a Cobertura de Casamento com Dois Fotógrafos em São Paulo',

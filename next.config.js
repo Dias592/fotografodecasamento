@@ -35,6 +35,32 @@ const nextConfig = {
         destination: 'https://ivandiasfotografo.com.br/:path*',
         permanent: true,
       },
+      // Blog duplicates — redirect old/duplicate slugs to canonical
+      {
+        source: '/blog/fotografo-casamento-itaim-bibi-sp/:path*',
+        destination: '/blog/fotografo-de-casamento-itaim-bibi/',
+        permanent: true,
+      },
+      {
+        source: '/blog/fotografo-casamento-moema-sp/:path*',
+        destination: '/blog/fotografo-de-casamento-moema/',
+        permanent: true,
+      },
+      {
+        source: '/blog/fotografo-casamento-pinheiros-sp/:path*',
+        destination: '/blog/fotografo-de-casamento-pinheiros/',
+        permanent: true,
+      },
+      {
+        source: '/blog/fotografo-casamento-vila-mariana-sp/:path*',
+        destination: '/blog/fotografo-de-casamento-vila-mariana/',
+        permanent: true,
+      },
+      {
+        source: '/blog/fotografo-casamento-drone-sp/:path*',
+        destination: '/blog/fotografo-casamento-drone-incluso/',
+        permanent: true,
+      },
     ];
   },
   webpack: (config, { dev }) => {
