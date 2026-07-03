@@ -101,8 +101,8 @@ export default function SatellitePost({ post }: { post: Post }) {
           }),
           getBreadcrumbListSchema([
             { name: 'Início', url: '/' },
-            { name: 'Blog', url: '/blog' },
-            { name: post.title, url: `/blog/${post.slug}` },
+            { name: 'Blog', url: '/blog/' },
+            { name: post.title, url: `/blog/${post.slug}/` },
           ]),
           getFAQPageSchema(post.faq),
         ]}
