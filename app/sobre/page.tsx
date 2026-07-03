@@ -9,6 +9,7 @@ export const metadata: Metadata = {
   title: 'Sobre Ivan Dias | Fotógrafo de Casamento São Paulo',
   description: 'Conheça Ivan Dias, fotógrafo de casamento em São Paulo com mais de 15 anos de experiência e 700 casamentos registrados. Uma história de paixão pela fotografia.',
   alternates: { canonical: 'https://ivandiasfotografo.com.br/sobre/' },
+  openGraph: { url: '/sobre/' },
 };
 
 const TIMELINE = [
@@ -24,7 +25,7 @@ export default function SobrePage() {
       <SchemaOrg
         schema={getBreadcrumbListSchema([
           { name: 'Início', url: '/' },
-          { name: 'Sobre', url: '/sobre' },
+          { name: 'Sobre', url: '/sobre/' },
         ])}
       />
 

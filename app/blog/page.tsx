@@ -9,6 +9,7 @@ export const metadata: Metadata = {
   title: 'Blog | Dicas de Fotografia de Casamento | Ivan Dias',
   description: 'Dicas, inspirações e guias sobre fotografia de casamento em São Paulo. Tudo que você precisa saber para escolher o fotógrafo ideal para o seu grande dia.',
   alternates: { canonical: 'https://ivandiasfotografo.com.br/blog/' },
+  openGraph: { url: '/blog/' },
 };
 
 export default function BlogPage() {
@@ -17,7 +18,7 @@ export default function BlogPage() {
       <SchemaOrg
         schema={getBreadcrumbListSchema([
           { name: 'Início', url: '/' },
-          { name: 'Blog', url: '/blog' },
+          { name: 'Blog', url: '/blog/' },
         ])}
       />
 

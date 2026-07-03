@@ -8,6 +8,7 @@ export const metadata: Metadata = {
   title: 'Portfólio de Casamentos | Ivan Dias Fotógrafo SP',
   description: 'Veja os registros de casamentos, pré-weddings e mini weddings fotografados por Ivan Dias em São Paulo. Mais de 700 casamentos com estilo autoral e emotivo.',
   alternates: { canonical: 'https://ivandiasfotografo.com.br/portfolio/' },
+  openGraph: { url: '/portfolio/' },
 };
 
 export default function PortfolioPage() {
@@ -16,7 +17,7 @@ export default function PortfolioPage() {
       <SchemaOrg
         schema={getBreadcrumbListSchema([
           { name: 'Início', url: '/' },
-          { name: 'Portfólio', url: '/portfolio' },
+          { name: 'Portfólio', url: '/portfolio/' },
         ])}
       />
 
