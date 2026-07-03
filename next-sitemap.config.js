@@ -46,7 +46,7 @@ module.exports = {
   },
   robotsTxtOptions: {
     policies: [
-      { userAgent: '*', allow: '/' },
+      { userAgent: '*', allow: '/', disallow: ['/_next/static/', '/_next/image/'] },
       { userAgent: 'Googlebot', allow: '/' },
       { userAgent: 'Googlebot-Image', allow: '/' },
       { userAgent: 'GPTBot', allow: '/' },
