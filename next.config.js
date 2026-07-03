@@ -40,26 +40,31 @@ const nextConfig = {
         source: '/blog/fotografo-casamento-itaim-bibi-sp/:path*',
         destination: '/blog/fotografo-de-casamento-itaim-bibi/',
         permanent: true,
+        statusCode: 301,
       },
       {
         source: '/blog/fotografo-casamento-moema-sp/:path*',
         destination: '/blog/fotografo-de-casamento-moema/',
         permanent: true,
+        statusCode: 301,
       },
       {
         source: '/blog/fotografo-casamento-pinheiros-sp/:path*',
         destination: '/blog/fotografo-de-casamento-pinheiros/',
         permanent: true,
+        statusCode: 301,
       },
       {
         source: '/blog/fotografo-casamento-vila-mariana-sp/:path*',
         destination: '/blog/fotografo-de-casamento-vila-mariana/',
         permanent: true,
+        statusCode: 301,
       },
       {
         source: '/blog/fotografo-casamento-drone-sp/:path*',
         destination: '/blog/fotografo-casamento-drone-incluso/',
         permanent: true,
+        statusCode: 301,
       },
     ];
   },
