@@ -49,9 +49,32 @@ export default function ContatoPage() {
               <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" data-cursor-hover className="inline-flex w-fit items-center gap-3 rounded-full bg-blue-accent px-6 py-3 font-semibold uppercase tracking-wide text-white transition-transform hover:scale-105 focus-visible-ring">
                 Falar no WhatsApp
               </a>
-              <a href="tel:+5511953025177" className="hover:text-cream focus-visible-ring">(11) 95302-5177</a>
-              <a href="mailto:contato@ivandiasfotografo.com.br" className="hover:text-cream focus-visible-ring">contato@ivandiasfotografo.com.br</a>
-              <p>São Paulo · SP · Atendimento em toda a Grande São Paulo</p>
+              <address
+                itemScope
+                itemType="https://schema.org/LocalBusiness"
+                className="not-italic flex flex-col gap-2"
+              >
+                <span itemProp="name" className="sr-only">Ivan Dias Fotografo - Fotografo de Casamento</span>
+                <a itemProp="telephone" href="tel:+5511953025177" className="hover:text-cream focus-visible-ring">(11) 95302-5177</a>
+                <a href="mailto:contato@ivandiasfotografo.com.br" className="hover:text-cream focus-visible-ring">contato@ivandiasfotografo.com.br</a>
+                <span
+                  itemProp="address"
+                  itemScope
+                  itemType="https://schema.org/PostalAddress"
+                  className="flex flex-col gap-1"
+                >
+                  <span itemProp="streetAddress">Av. Ibirapuera, 2033</span>
+                  <span>
+                    <span itemProp="addressLocality">Moema, São Paulo</span>
+                    {' — '}
+                    <span itemProp="addressRegion">SP</span>
+                    {', '}
+                    <span itemProp="postalCode">04029-901</span>
+                  </span>
+                  <span itemProp="addressCountry" className="sr-only">BR</span>
+                </span>
+                <p className="mt-1">Atendimento em toda a Grande São Paulo</p>
+              </address>
             </div>
 
             <div className="mt-10 overflow-hidden rounded-2xl border border-cream/10">

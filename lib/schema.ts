@@ -1,7 +1,7 @@
 import { FAQ } from './posts';
 
 const SITE_URL = 'https://ivandiasfotografo.com.br';
-const PHONE = '+55-11-95302-5177';
+const PHONE = '+55 11 95302-5177';
 
 export const BAIRROS_ATENDIDOS = [
   'Itaim Bibi',
@@ -19,7 +19,7 @@ export function getLocalBusinessSchema() {
     '@context': 'https://schema.org',
     '@type': ['LocalBusiness', 'PhotographyBusiness'],
     '@id': `${SITE_URL}/#localbusiness`,
-    name: 'Ivan Dias Fotógrafo',
+    name: 'Ivan Dias Fotografo - Fotografo de Casamento',
     description: 'Fotógrafo de casamento em São Paulo especializado em pré-wedding, mini wedding e destination weddings.',
     url: SITE_URL,
     image: `${SITE_URL}/images/logo/ivan-dias-logo-preto.png`,

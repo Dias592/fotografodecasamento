@@ -197,24 +197,38 @@ export default function Footer() {
           <h2 className="font-heading text-sm font-semibold uppercase tracking-wide text-brown-light">
             Contato
           </h2>
-          <ul className="mt-5 flex flex-col gap-3 font-body text-sm text-cream/60">
-            <li>
-              <a href="tel:+5511953025177" className="transition-colors hover:text-cream focus-visible-ring">
-                (11) 95302-5177
-              </a>
-            </li>
-            <li>
-              <a href="mailto:contato@ivandiasfotografo.com.br" className="transition-colors hover:text-cream focus-visible-ring">
-                contato@ivandiasfotografo.com.br
-              </a>
-            </li>
-            <li>São Paulo · SP · Brasil</li>
-            <li>
-              <Link href="/contato/" className="font-semibold text-brown-light transition-colors hover:text-cream focus-visible-ring">
-                Fale comigo →
-              </Link>
-            </li>
-          </ul>
+          <address
+            itemScope
+            itemType="https://schema.org/LocalBusiness"
+            className="mt-5 not-italic flex flex-col gap-3 font-body text-sm text-cream/60"
+          >
+            <span itemProp="name" className="sr-only">Ivan Dias Fotografo - Fotografo de Casamento</span>
+            <a itemProp="telephone" href="tel:+5511953025177" className="transition-colors hover:text-cream focus-visible-ring">
+              (11) 95302-5177
+            </a>
+            <a href="mailto:contato@ivandiasfotografo.com.br" className="transition-colors hover:text-cream focus-visible-ring">
+              contato@ivandiasfotografo.com.br
+            </a>
+            <span
+              itemProp="address"
+              itemScope
+              itemType="https://schema.org/PostalAddress"
+              className="flex flex-col gap-1"
+            >
+              <span itemProp="streetAddress">Av. Ibirapuera, 2033</span>
+              <span>
+                <span itemProp="addressLocality">Moema, São Paulo</span>
+                {' — '}
+                <span itemProp="addressRegion">SP</span>
+                {', '}
+                <span itemProp="postalCode">04029-901</span>
+              </span>
+              <span itemProp="addressCountry" className="sr-only">BR</span>
+            </span>
+            <Link href="/contato/" className="font-semibold text-brown-light transition-colors hover:text-cream focus-visible-ring">
+              Fale comigo →
+            </Link>
+          </address>
         </div>
       </div>
 
