@@ -4126,39 +4126,6 @@ export const posts: Post[] = [
     ],
   },
   {
-    slug: 'fotografo-casamento-itaim-bibi-sp',
-    bairro: 'Itaim Bibi',
-    title: 'Casamento no Itaim Bibi SP: Espaços, Dicas e Como Planejar',
-    description:
-      'Fotógrafo de casamento no Itaim Bibi, em São Paulo: conheça os melhores espaços, dicas de horário para fotos externas e o que perguntar antes de contratar.',
-    excerpt:
-      'O Itaim Bibi reúne alguns dos espaços de casamento mais sofisticados de São Paulo. Veja dicas de locação, drone e horários ideais para fotos no bairro.',
-    date: '2025-04-07',
-    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-26.webp',
-    faq: [
-      {
-        question: 'Quais os melhores espaços para casamento no Itaim Bibi em SP?',
-        answer:
-          'O Itaim Bibi é um dos bairros mais sofisticados de SP para casamentos. Entre os espaços mais buscados estão o Espaço Único, o Villa Bisutti, o Club Transatlântico e hotéis como Grand Hyatt e Tivoli Mofarrej, que ficam na região. O bairro mistura espaços modernos com tradicionais, ideal para casamentos de médio e alto padrão.',
-      },
-      {
-        question: 'Fotógrafo de casamento no Itaim Bibi cobra taxa de deslocamento?',
-        answer:
-          'Fotógrafos baseados em SP geralmente não cobram taxa de deslocamento para o Itaim Bibi, pois é uma área central da cidade. Pergunte sempre ao fechar o contrato se há taxa para horários com trânsito intenso ou estacionamento no bairro.',
-      },
-      {
-        question: 'O Itaim Bibi tem restrições para uso de drone em casamentos?',
-        answer:
-          'Sim. Por ser uma área urbana densa e próxima ao Aeroporto de Congonhas, o Itaim Bibi tem restrições sérias para voos de drone. Em eventos internos ou em espaços fechados da região, o uso de drone é praticamente inviável. Consulte sempre o fotógrafo e o espaço antes de incluir esse serviço.',
-      },
-      {
-        question: 'Qual o melhor horário para fotos externas de casamento no Itaim Bibi?',
-        answer:
-          'A golden hour — cerca de 1 hora antes do pôr do sol — oferece luz natural suave e ideal para fotos externas. No Itaim Bibi, o fotógrafo pode aproveitar a arquitetura moderna do bairro, jardins de hotéis e ruas arborizadas como a Rua Pedroso Alvarenga. Evite o meio-dia pela luz dura e sombras indesejadas.',
-      },
-    ],
-  },
-  {
     slug: 'casamento-jardins-sp-saloes-fotografo',
     bairro: 'Jardins',
     title: 'Casamento nos Jardins SP: Os Melhores Salões e Como Escolher Seu Fotógrafo',
@@ -4192,34 +4159,6 @@ export const posts: Post[] = [
     ],
   },
   {
-    slug: 'fotografo-casamento-moema-sp',
-    bairro: 'Moema',
-    title: 'Casamento em Moema SP: Locações, Estilo e O Que Esperar na',
-    description:
-      'Fotógrafo de casamento em Moema, São Paulo: veja as melhores locações da região, incluindo o Parque Ibirapuera, e o que esperar de uma boa cobertura fotográfica.',
-    excerpt:
-      'Moema é um dos bairros mais desejados para casamentos em São Paulo. Veja locações, o charme do Parque Ibirapuera e dicas para a cobertura fotográfica.',
-    date: '2025-04-03',
-    image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-30.webp',
-    faq: [
-      {
-        question: 'Moema é um bom bairro para casar em São Paulo?',
-        answer:
-          'Sim. Moema é um dos bairros mais desejados para casamentos em SP pela combinação de espaços verdes (Parque Ibirapuera ao lado), gastronomia sofisticada e fácil acesso. É ideal para casamentos de médio e alto padrão, com boa oferta de espaços para diferentes estilos de cerimônia.',
-      },
-      {
-        question: 'Qual a vantagem de fazer fotos de casamento no Parque Ibirapuera?',
-        answer:
-          'O Parque Ibirapuera, próximo a Moema, é um dos cenários mais fotogênicos de SP: arquitetura de Oscar Niemeyer, lagos, árvores centenárias e luz natural generosa. Fotógrafos de casamento locais conhecem bem os melhores ângulos e horários para sessões no parque. É preciso verificar permissão prévia para fotos comerciais.',
-      },
-      {
-        question: 'Tem estacionamento fácil nos espaços de casamento em Moema?',
-        answer:
-          'A maioria dos espaços em Moema tem estacionamento próprio ou manobrista. Informe-se com o espaço sobre capacidade e custo. O fotógrafo geralmente chega mais cedo e não deve ter dificuldade, mas é um ponto importante a comunicar para convidados vindos de outras regiões.',
-      },
-    ],
-  },
-  {
     slug: 'casamento-vila-madalena-sp-guia-fotografico',
     bairro: 'Vila Madalena',
     title: 'Casamento em Vila Madalena SP: Guia Fotográfico com Dicas de Locações Únicas',
@@ -4244,57 +4183,6 @@ export const posts: Post[] = [
         question: 'Casamentos na Vila Madalena costumam ser em qual estilo?',
         answer:
           'Em geral, casamentos na Vila Madalena têm estilo descontraído, criativo e moderno. São comuns mini weddings em bares, bistrôs e espaços alternativos, casamentos temáticos e cerimônias ao ar livre. O bairro combina bem com fotografia autoral e documental.',
-      },
-    ],
-  },
-  {
-    slug: 'fotografo-casamento-pinheiros-sp',
-    bairro: 'Pinheiros',
-    title: 'Casamento em Pinheiros SP: Espaços Charmosos e Como',
-    description:
-      'Fotógrafo de casamento em Pinheiros, São Paulo: descubra espaços charmosos para mini weddings, boas locações externas e dicas de planejamento na região.',
-    excerpt:
-      'Pinheiros tem opções charmosas para casamentos íntimos e mini weddings em São Paulo. Veja locações, arquitetura e dicas para a cobertura fotográfica.',
-    date: '2025-03-30',
-    image: '/images/galeria/detalhes/casamento-sao-paulo-detalhes-18.webp',
-    faq: [
-      {
-        question: 'Pinheiros tem espaços para casamentos menores e mini weddings?',
-        answer:
-          'Sim. Pinheiros é um dos bairros de SP com mais opções para mini weddings e casamentos íntimos: bistrôs com espaço privativo, galerias de arte, ateliês e restaurantes com jardim. São espaços com capacidade de 20 a 80 pessoas, perfeitos para casamentos descontraídos e modernos.',
-      },
-      {
-        question: 'A arquitetura de Pinheiros é boa para fotos de casamento externas?',
-        answer:
-          'Sim. Pinheiros mistura arquitetura modernista, fachadas coloridas, ruas arborizadas e espaços culturais. A região entre a Rua dos Pinheiros, a Rua Teodoro Sampaio e o Mercado Municipal de Pinheiros oferece cenários variados e fotogênicos para sessões externas.',
-      },
-      {
-        question: 'Casar em Pinheiros é mais barato do que casar nos Jardins ou Itaim Bibi?',
-        answer:
-          'Em geral, sim. Pinheiros tem uma variedade maior de espaços acessíveis, incluindo galerias, bistrôs e casas históricas que oferecem valores mais competitivos que os espaços premium do Itaim e Jardins.',
-      },
-    ],
-  },
-  {
-    slug: 'fotografo-casamento-vila-mariana-sp',
-    bairro: 'Vila Mariana',
-    title: 'Casamento na Vila Mariana SP: Salões, Espaços e Inspirações',
-    description:
-      'Fotógrafo de casamento na Vila Mariana, São Paulo: conheça as opções de salões da região e veja dicas para escolher um profissional que conheça o bairro.',
-    excerpt:
-      'A Vila Mariana é uma boa opção para casamentos religiosos e civis em São Paulo. Veja espaços da região e o que considerar ao escolher o fotógrafo.',
-    date: '2025-03-28',
-    image: '/images/galeria/detalhes/casamento-sao-paulo-detalhes-21.webp',
-    faq: [
-      {
-        question: 'A Vila Mariana tem boas opções para casamentos em São Paulo?',
-        answer:
-          'Sim. A Vila Mariana é um bairro residencial consolidado com boa infraestrutura para eventos. Sua proximidade com o Parque Aclimação, igrejas tradicionais e salões de festa bem estruturados a torna uma boa opção para casamentos religiosos e civis de médio porte.',
-      },
-      {
-        question: 'Fotógrafo precisa conhecer o bairro para fotografar bem?',
-        answer:
-          'Conhecer o bairro ajuda muito. Fotógrafos com experiência na Vila Mariana sabem os melhores horários para fotos externas, onde o trânsito compromete o deslocamento e quais ângulos nos salões locais funcionam melhor. Pergunte ao fotógrafo se ele já trabalhou na região.',
       },
     ],
   },
@@ -5591,7 +5479,7 @@ export const posts: Post[] = [
       },
       {
         h2: 'Logística entre Vila Olímpia, Itaim Bibi e Moema',
-        content: '<p>Um cenário muito comum na região é a cerimônia em uma igreja do <a href="/blog/fotografo-de-casamento-itaim-bibi/">Itaim Bibi</a> ou <a href="/blog/fotografo-casamento-moema-sp/">Moema</a> com recepção em rooftop ou salão na Vila Olímpia — ou o inverso. Esse trajeto tem 5 a 15 minutos em tráfego normal, mas pode dobrar em sábados entre 17h e 19h, quando o corredor da Faria Lima fica congestionado.</p><p>Ivan Dias destaca como ponto crítico: o fotógrafo precisa chegar ao local da festa <em>antes</em> dos noivos para preparar a entrada. Isso exige sair da cerimônia com antecedência — detalhe que precisa estar no roteiro, não ser improviso. A regra prática: adicione 20 minutos extras ao tempo do GPS para qualquer deslocamento entre bairros em dia de casamento.</p>',
+        content: '<p>Um cenário muito comum na região é a cerimônia em uma igreja do <a href="/blog/fotografo-de-casamento-itaim-bibi/">Itaim Bibi</a> ou <a href="/blog/fotografo-de-casamento-moema/">Moema</a> com recepção em rooftop ou salão na Vila Olímpia — ou o inverso. Esse trajeto tem 5 a 15 minutos em tráfego normal, mas pode dobrar em sábados entre 17h e 19h, quando o corredor da Faria Lima fica congestionado.</p><p>Ivan Dias destaca como ponto crítico: o fotógrafo precisa chegar ao local da festa <em>antes</em> dos noivos para preparar a entrada. Isso exige sair da cerimônia com antecedência — detalhe que precisa estar no roteiro, não ser improviso. A regra prática: adicione 20 minutos extras ao tempo do GPS para qualquer deslocamento entre bairros em dia de casamento.</p>',
         table: {
           caption: 'Tempo estimado entre bairros — sábado, fora do horário de pico',
           headers: ['Origem', 'Destino', 'Tempo normal', 'Com trânsito intenso'],

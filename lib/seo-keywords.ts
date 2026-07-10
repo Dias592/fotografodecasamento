@@ -150,7 +150,7 @@ export const pageKeywords: Record<string, string[]> = {
   // ── SERVIÇO (19) ───────────────────────────────────────────────
   'ensaio-pre-casamento-fotografo': [...globalKeywords, 'ensaio pré-casamento SP', 'o que é pré-wedding', 'ensaio casal antes casamento'],
   'fotografo-casamento-drone-incluso': [...globalKeywords, 'fotógrafo casamento drone incluso', 'drone casamento pacote', 'imagens aéreas casamento SP'],
-  'fotografo-casamento-drone-sp': [...globalKeywords, 'fotógrafo drone casamento SP', 'drone casamento São Paulo', 'fotografia aérea casamento SP'],
+
   'mini-wedding-sao-paulo-fotografia-cobertura': [...globalKeywords, 'mini wedding SP fotografia', 'cobertura mini wedding São Paulo', 'fotógrafo mini wedding SP'],
   'ensaio-pre-wedding-sao-paulo-guia-completo': [...globalKeywords, 'guia pré-wedding São Paulo', 'ensaio casal SP locações', 'pré-wedding dicas SP'],
   'pre-wedding-praia-litoral-sp-fotografo': [...globalKeywords, 'pré-wedding praia SP', 'ensaio casal litoral São Paulo', 'pré-wedding Guarujá Santos'],
@@ -216,12 +216,12 @@ export const pageKeywords: Record<string, string[]> = {
   'fotografia-casamento-autoral-sao-paulo': [...globalKeywords, 'fotografia autoral casamento SP', 'estilo autoral fotógrafo casamento', 'fotógrafo artístico casamento SP'],
   'cobertura-casamento-dois-fotografos-sao-paulo': [...globalKeywords, 'dois fotógrafos casamento SP', 'cobertura dupla casamento', 'segundo fotógrafo quando contratar'],
   'fotografia-filmagem-casamento-sp-contratar-junto-separado': [...globalKeywords, 'foto e filmagem casamento junto', 'contratar fotógrafo cinegrafista SP', 'foto e vídeo casamento pacote'],
-  'fotografo-casamento-itaim-bibi-sp': [...globalKeywords, 'casamento Itaim Bibi espaços', 'fotógrafo Itaim Bibi dicas', 'planejamento casamento Itaim Bibi'],
+
   'casamento-jardins-sp-saloes-fotografo': [...globalKeywords, 'casamento Jardins SP salões', 'melhores salões Jardins casamento', 'fotógrafo casamento Jardins SP'],
-  'fotografo-casamento-moema-sp': [...globalKeywords, 'casamento Moema SP locações', 'fotógrafo Moema dicas', 'espaços casamento Moema SP'],
+
   'casamento-vila-madalena-sp-guia-fotografico': [...globalKeywords, 'casamento Vila Madalena SP', 'espaços casamento Vila Madalena', 'fotógrafo Vila Madalena SP'],
-  'fotografo-casamento-pinheiros-sp': [...globalKeywords, 'casamento Pinheiros SP espaços', 'fotógrafo Pinheiros dicas', 'espaços casamento Pinheiros SP'],
-  'fotografo-casamento-vila-mariana-sp': [...globalKeywords, 'casamento Vila Mariana SP salões', 'fotógrafo Vila Mariana dicas', 'espaços casamento Vila Mariana'],
+
+
   'casamento-alto-pinheiros-sp-fotografo': [...globalKeywords, 'casamento Alto de Pinheiros SP', 'locações casamento Alto Pinheiros', 'fotógrafo Alto Pinheiros SP'],
   'fotografo-casamento-abc-paulista-santo-andre-sao-bernardo': [...globalKeywords, 'fotógrafo casamento ABC paulista', 'casamento ABCDM cobertura', 'fotógrafo Santo André SBC SCS'],
   'fotografo-casamento-alphaville-barueri-sp': [...globalKeywords, 'casamento Alphaville Barueri SP', 'espaços Alphaville casamento', 'fotógrafo Alphaville SP'],
