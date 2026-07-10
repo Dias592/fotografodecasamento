@@ -3,7 +3,15 @@ module.exports = {
   siteUrl: 'https://ivandiasfotografo.com.br',
   generateRobotsTxt: true,
   generateIndexSitemap: false,
-  exclude: ['/api/*'],
+  exclude: [
+    '/api/*',
+    // Slugs antigos redirecionados — excluídos explicitamente do sitemap
+    '/blog/fotografo-casamento-itaim-bibi-sp/',
+    '/blog/fotografo-casamento-moema-sp/',
+    '/blog/fotografo-casamento-pinheiros-sp/',
+    '/blog/fotografo-casamento-vila-mariana-sp/',
+    '/blog/fotografo-casamento-drone-sp/',
+  ],
   transform: async (config, path) => {
     const p = path.replace(/\/+$/, '') || '/';
     let priority = 0.6;
