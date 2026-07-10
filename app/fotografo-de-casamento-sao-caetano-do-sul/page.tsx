@@ -24,6 +24,7 @@ export const metadata: Metadata = {
     description:
       'Fotografia de casamento em São Caetano do Sul e ABC Paulista. Cobertura completa, pré-wedding e mini wedding.',
     url: CANONICAL,
+    images: [{ url: '/images/hero/fotografo-casamento-sao-paulo-noivos-abraco.webp', width: 1200, height: 630, alt: 'Ivan Dias - Fotógrafo de Casamento em São Paulo' }],
   },
 };
 

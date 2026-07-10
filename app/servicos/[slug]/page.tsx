@@ -137,6 +137,7 @@ export function generateMetadata({ params }: Props): Metadata {
       title: `${service.title} | Ivan Dias Fotografia`,
       description: service.shortDescription,
       url: `/servicos/${service.slug}/`,
+      images: [{ url: '/images/hero/fotografo-casamento-sao-paulo-noivos-abraco.webp', width: 1200, height: 630, alt: 'Ivan Dias - Fotógrafo de Casamento em São Paulo' }],
     },
   };
 }

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: 'Serviços | Ivan Dias Fotógrafo de Casamento SP',
   description: 'Conheça os serviços de Ivan Dias: fotografia de casamento, pré-wedding, mini wedding e ensaios de casal em São Paulo e região.',
   alternates: { canonical: 'https://ivandiasfotografo.com.br/servicos/' },
-  openGraph: { url: '/servicos/' },
+  openGraph: { url: '/servicos/', images: [{ url: '/images/hero/fotografo-casamento-sao-paulo-noivos-abraco.webp', width: 1200, height: 630, alt: 'Ivan Dias - Fotógrafo de Casamento em São Paulo' }] },
 };
 
 export default function ServicosPage() {
