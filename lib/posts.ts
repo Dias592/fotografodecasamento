@@ -36,6 +36,119 @@ export type Post = {
 
 export const posts: Post[] = [
   {
+    slug: 'fotografo-de-casamento-sp',
+    bairro: 'São Paulo',
+    title: 'Fotógrafo de Casamento em SP: Como Escolher o Ideal para Seu Casamento',
+    description:
+      'Fotógrafo de casamento em SP com mais de 700 casamentos registrados. Ivan Dias atende em toda São Paulo — Itaim, Jardins, Moema, Pinheiros e região. Solicite orçamento.',
+    excerpt:
+      'Sou Ivan Dias, fotógrafo de casamento em SP com mais de 700 casamentos registrados e 15 anos de carreira na capital paulista. Atendo desde o Itaim Bibi e os Jardins até Moema, Pinheiros e Vila Mariana — além de toda a Grande SP. Neste guia conto o que você precisa avaliar para escolher o fotógrafo certo, quanto custa em 2026 e como agendar sua data.',
+    date: '2026-07-14',
+    image: '/images/hero/fotografo-casamento-sao-paulo-noivos-abraco.webp',
+    sections: [
+      {
+        h2: 'Por que SP é um mercado diferente para fotografia de casamento',
+        content:
+          '<p>São Paulo realiza mais de 50 mil casamentos por ano — o maior volume do Brasil. Essa concentração cria um mercado extremamente diversificado, com espaços de eventos que vão de salões clássicos no Jardim Europa a galpões industriais em Pinheiros, de chácaras em Cotia a rooftops com vista para a Paulista. Cada ambiente tem características fotográficas únicas: temperatura de cor, altura de pé-direito, tipo de iluminação artificial e acesso à luz natural são variáveis que mudam completamente de local para local.</p>' +
+          '<p>Para o fotógrafo, isso significa que não basta ter uma câmera boa — é necessário experiência acumulada em diferentes tipos de espaço. Um fotógrafo acostumado apenas com salões iluminados pode ter dificuldades em uma cerimônia em uma igreja com vitrais e pouca luz ambiente. Um que só fotografou casamentos ao ar livre pode não saber como posicionar o flash em um galpão escuro sem perder a atmosfera do ambiente.</p>' +
+          '<p>Para o casal, a diversidade de SP também significa mais opções de profissionais — e mais responsabilidade na hora de comparar. Em cidades menores há dois ou três fotógrafos de referência. Em São Paulo existem centenas de perfis no Instagram com feeds visualmente parecidos. A habilidade de distinguir consistência de resultado da edição de um feed é o que separa uma contratação segura de uma surpresa desagradável no dia do casamento.</p>' +
+          '<p>Outro fator exclusivo de SP é a logística do dia. Trânsito, distância entre church e espaço de festa, making of em apartamento no centro e cerimônia na Zona Sul: tudo isso afeta o planejamento fotográfico. Um fotógrafo com experiência na cidade já sabe calcular deslocamento, planejar as fotos externas no intervalo entre cerimônia e festa e chegar na luz certa mesmo com imprevistos no roteiro.</p>',
+      },
+      {
+        h2: 'O que avaliar antes de contratar fotógrafo em SP',
+        content: '<p>Quatro critérios objetivos separam profissionais consistentes de perfis bonitos no Instagram:</p>',
+        h3s: [
+          {
+            title: 'Portfólio consistente, não feed bonito',
+            content:
+              '<p>Peça para ver galerias completas de 3 a 5 casamentos — do making of ao último clique da festa. Feed do Instagram mostra apenas as melhores fotos de anos de trabalho; a galeria completa revela como o fotógrafo se comporta quando a luz é difícil, quando os noivos estão cansados e quando a festa está cheia de movimento. Consistência ao longo de um evento inteiro é o indicador mais confiável de qualidade.</p>',
+          },
+          {
+            title: 'Experiência em espaços paulistanos',
+            content:
+              '<p>Pergunte diretamente: "Você já fotografou neste salão?" ou "Já fez cobertura em uma igreja com essa iluminação?". Fotógrafos experientes em SP fazem visitas técnicas nos espaços antes do evento, no mesmo horário do casamento, para mapear a luz e os ângulos disponíveis. Esse protocolo faz diferença concreta no resultado final e é uma pergunta legítima a fazer antes de contratar.</p>',
+          },
+          {
+            title: 'Equipamento e plano de backup',
+            content:
+              '<p>Equipamento profissional é o mínimo — o que diferencia um profissional sério é o backup. Pergunte quantas câmeras o fotógrafo leva no dia, se ele tem lentes reserva e qual é o plano caso algum equipamento falhe durante a cerimônia. Profissionais sérios levam ao menos dois corpos de câmera full-frame e lentes duplicadas para as focais mais usadas. Sem backup, qualquer falha técnica compromete registros irrecuperáveis.</p>',
+          },
+          {
+            title: 'Contrato com garantias claras',
+            content:
+              '<p>O contrato deve especificar: quantidade mínima de fotos entregues, prazo de entrega, formato dos arquivos (JPG alta resolução, sem marca d\'água), política de cancelamento e o que acontece em caso de impedimento do fotógrafo (substituto de mesmo nível, devolução integral). Em SP, onde a agenda dos fotógrafos de referência esgota com 10 a 18 meses de antecedência, confirmar esses detalhes em contrato é essencial para proteger sua data.</p>',
+          },
+        ],
+      },
+      {
+        h2: 'Quanto custa fotógrafo de casamento em SP em 2026',
+        content:
+          '<p>O mercado paulistano tem uma das maiores faixas de variação de preço do Brasil — de R$ 1.500 até R$ 20.000 ou mais, dependendo do profissional e do pacote. Essa amplitude reflete diferenças reais de experiência, equipamento, número de fotógrafos na equipe e diferenciais como drone e vídeo. A tabela abaixo organiza as faixas praticadas no mercado em 2026:</p>',
+        table: {
+          caption: 'Faixas de preço — fotógrafo de casamento em SP (2026)',
+          headers: ['Faixa', 'Valor estimado', 'Perfil do profissional', 'O que costuma incluir'],
+          rows: [
+            ['Iniciante', 'R$ 1.500–2.800', 'Menos de 3 anos de experiência', '4–6h de cobertura, 1 fotógrafo, galeria digital'],
+            ['Intermediária', 'R$ 3.000–5.500', '3–10 anos, portfólio sólido', '8–10h, 2 fotógrafos, pré-wedding, edição profissional'],
+            ['Avançada', 'R$ 5.500–10.000', 'Referência em SP, agenda cheia', 'Cobertura completa, drone, álbum impresso, vídeo'],
+            ['Premium', 'R$ 10.000–20.000+', 'Premiados, publicações nacionais', 'Equipe dedicada, múltiplos dias, entregável exclusivo'],
+          ],
+        },
+      },
+      {
+        h2: 'Bairros e regiões onde Ivan Dias atende em SP',
+        content:
+          '<p>Atendo casamentos em toda a capital paulista e na Grande SP sem custo adicional de deslocamento dentro de um raio de 60 km do centro. Abaixo os bairros e cidades onde tenho maior volume de trabalho — com links para guias específicos de cada região:</p>' +
+          '<p><strong>Zona Sul e Centro Expandido:</strong> <a href="/blog/fotografo-de-casamento-itaim-bibi/">Itaim Bibi</a>, <a href="/blog/fotografo-de-casamento-jardins/">Jardins</a>, <a href="/blog/fotografo-de-casamento-moema/">Moema</a>, <a href="/blog/fotografo-de-casamento-vila-mariana/">Vila Mariana</a> e Paraíso são os bairros com maior concentração de salões de alto padrão em SP. Os espaços nessa região costumam ter iluminação mais trabalhada e pé-direito generoso — condições que favorecem coberturas fotográficas completas.</p>' +
+          '<p><strong>Zona Oeste:</strong> <a href="/blog/fotografo-de-casamento-pinheiros/">Pinheiros</a> e <a href="/blog/fotografo-de-casamento-perdizes/">Perdizes</a> concentram um perfil de casamento mais autoral — galpões convertidos, espaços híbridos e cerimônias ao ar livre em espaços como Primavera Garden e similares. São ambientes que pedem um fotógrafo confortável com luz mista e dinâmica de festa mais descontraída.</p>' +
+          '<p><strong>Zona Norte e Leste:</strong> <a href="/blog/fotografo-de-casamento-santana/">Santana</a> e <a href="/blog/fotografo-de-casamento-tatuape/">Tatuapé</a> têm uma oferta crescente de espaços de médio porte com excelente custo-benefício. Casamentos nessa região costumam ter perfil familiar e recepções com muitos convidados — o que exige experiência em gestão do grupo nas fotos coletivas.</p>' +
+          '<p><strong>ABC Paulista e Grande SP:</strong> Atendo regularmente em <a href="/fotografo-de-casamento-santo-andre/">Santo André</a>, <a href="/fotografo-de-casamento-sao-bernardo-do-campo/">São Bernardo do Campo</a> e <a href="/fotografo-de-casamento-sao-caetano-do-sul/">São Caetano do Sul</a>. Também atendo em Guarulhos, Osasco, Campinas e litoral paulista mediante consulta de disponibilidade e logística.</p>' +
+          '<p>Tem dúvida se atendo na sua cidade ou espaço de festa? <a href="https://wa.me/5511953025177?text=Ol%C3%A1%20Ivan!%20Vi%20seu%20site%20e%20quero%20saber%20sobre%20fotografia%20de%20casamento." target="_blank" rel="noopener noreferrer">Me chame no WhatsApp</a> — respondo em até 24 horas em dias úteis.</p>',
+      },
+      {
+        h2: 'Como agendar fotógrafo de casamento em SP',
+        content:
+          '<p>O processo de contratação tem quatro etapas simples: primeiro contato por WhatsApp ou formulário, conversa de briefing para entender o perfil do casamento, confirmação da data com sinal e assinatura do contrato. A partir daí a data fica reservada exclusivamente para vocês no meu calendário.</p>' +
+          '<p><strong>Antecedência ideal:</strong> Para casamentos em sábados de outubro a fevereiro — alta temporada em SP — o ideal é fechar com 10 a 14 meses de antecedência. Datas em dias úteis ou fora da alta temporada têm mais disponibilidade, mas ainda recomendo contato com 6 meses de antecedência para garantir a escolha do pacote sem pressa.</p>' +
+          '<p><strong>O que acontece após o casamento:</strong> Faço a seleção e edição das fotos em até 45 dias. A entrega é feita em galeria digital de alta resolução, com link de acesso e download ilimitado. Você recebe todas as fotos sem marca d\'água, em arquivo JPG para impressão e compartilhamento.</p>' +
+          '<p>Pronto para garantir sua data? Entre em contato agora pelo WhatsApp e vamos conversar sobre o seu casamento:</p>' +
+          '<p><a href="https://wa.me/5511953025177?text=Ol%C3%A1%20Ivan!%20Vi%20seu%20site%20e%20quero%20saber%20sobre%20fotografia%20de%20casamento." target="_blank" rel="noopener noreferrer" class="cta-whatsapp">Falar com Ivan no WhatsApp → (11) 95302-5177</a></p>',
+      },
+    ],
+    faq: [
+      {
+        question: 'Quanto custa fotógrafo de casamento em SP?',
+        answer:
+          'Os pacotes variam de R$ 1.500 (iniciantes) a R$ 20.000 ou mais (fotógrafos premiados). Para coberturas completas com profissional experiente em SP, a faixa mais comum é entre R$ 3.000 e R$ 8.000. Os pacotes de Ivan Dias para São Paulo partem de R$ 3.200, com cobertura completa do making of à festa e entrega em galeria digital de alta resolução.',
+      },
+      {
+        question: 'Com quanto tempo de antecedência devo contratar o fotógrafo de casamento em SP?',
+        answer:
+          'O ideal é fechar com 10 a 14 meses de antecedência para datas de alta temporada (outubro a fevereiro, especialmente sábados). Fora da alta temporada, 6 meses costuma ser suficiente. Fotógrafos de referência em SP têm agenda com até 18 meses de espera para datas disputadas.',
+      },
+      {
+        question: 'Ivan Dias atende em qual região de SP?',
+        answer:
+          'Atendo em toda a capital paulista — Itaim Bibi, Jardins, Moema, Pinheiros, Vila Mariana, Perdizes, Tatuapé, Santana e outros bairros — além de Santo André, São Bernardo do Campo, São Caetano do Sul, Guarulhos e Osasco na Grande SP, sem custo adicional de deslocamento dentro de 60 km do centro.',
+      },
+      {
+        question: 'O que está incluso no pacote de fotografia de casamento?',
+        answer:
+          'Os pacotes completos incluem making of da noiva e do noivo, cobertura da cerimônia e recepção, edição profissional de todas as fotos selecionadas e entrega em galeria digital de alta resolução com download ilimitado e sem marca d\'água. Pacotes avançados incluem pré-wedding, drone certificado pela ANAC e álbum fotográfico impresso.',
+      },
+      {
+        question: 'Em quanto tempo recebo as fotos do casamento?',
+        answer:
+          'O prazo médio de entrega é de 30 a 45 dias após a data do casamento. A entrega é feita em galeria digital online, com link de acesso compartilhável com família e amigos e opção de download de todas as fotos em alta resolução.',
+      },
+      {
+        question: 'Ivan Dias atende casamentos fora de SP?',
+        answer:
+          'Sim. Além da Grande SP, atendo casamentos em todo o estado de São Paulo, no litoral e em outras capitais brasileiras mediante consulta de disponibilidade. Viagens para fora de SP têm custo adicional de deslocamento e hospedagem a combinar. Entre em contato pelo WhatsApp para verificar disponibilidade e orçamento.',
+      },
+    ],
+  },
+  {
     slug: 'fotografo-de-casamento-itaim-bibi',
     bairro: 'Itaim Bibi',
     title: 'Casamento no Itaim Bibi: Guia de Fotografia SP',
