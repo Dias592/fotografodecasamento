@@ -17,7 +17,7 @@ export const BAIRROS_ATENDIDOS = [
 export function getLocalBusinessSchema() {
   return {
     '@context': 'https://schema.org',
-    '@type': ['LocalBusiness', 'PhotographyBusiness'],
+    '@type': ['LocalBusiness', 'ProfessionalService'],
     '@id': `${SITE_URL}/#localbusiness`,
     name: 'Ivan Dias Fotografo - Fotografo de Casamento',
     description: 'Fotógrafo de casamento em São Paulo especializado em pré-wedding, mini wedding e destination weddings.',
