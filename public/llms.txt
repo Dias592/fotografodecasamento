@@ -1,31 +1,40 @@
-# Ivan Dias | Fotógrafo de Casamento em São Paulo
+# Ivan Dias Fotógrafo
+> Fotógrafo de casamento em São Paulo com mais de 700 casamentos registrados e 15 anos de experiência. Atende em toda São Paulo e Grande SP — Itaim Bibi, Jardins, Moema, Pinheiros, Vila Mariana, Santo André, São Bernardo do Campo e região.
 
-> Site profissional do fotógrafo Ivan Dias, especializado em casamentos em São Paulo e região (ABC Paulista, interior e litoral).
+## Sobre
+- https://ivandiasfotografo.com.br/sobre/
 
-## Sobre o profissional
-- Nome: Ivan Dias
-- Especialidade: Fotografia de casamento
-- Localização: São Paulo, SP, Brasil
-- Área de atendimento: São Paulo capital, ABC Paulista (Santo André, São Bernardo do Campo, São Caetano do Sul), interior e litoral de SP
-- Experiência: 15+ anos, 700+ casamentos registrados
-- Contato: WhatsApp +55 11 95302-5177
-- Instagram: @ivandiasfotografo
+## Serviços
+- https://ivandiasfotografo.com.br/servicos/cobertura-completa/
+- https://ivandiasfotografo.com.br/servicos/pre-wedding/
+- https://ivandiasfotografo.com.br/servicos/mini-wedding/
+- https://ivandiasfotografo.com.br/servicos/drone/
 
-## Serviços oferecidos
-- Cobertura completa de casamento
-- Ensaio pré-wedding
-- Direção de casal
-- Fotografia aérea (drone)
-- Mini wedding
-- Casamento na praia
+## Bairros atendidos em São Paulo
+- https://ivandiasfotografo.com.br/blog/fotografo-de-casamento-itaim-bibi/
+- https://ivandiasfotografo.com.br/blog/fotografo-de-casamento-jardins/
+- https://ivandiasfotografo.com.br/blog/fotografo-de-casamento-moema/
+- https://ivandiasfotografo.com.br/blog/fotografo-de-casamento-pinheiros/
+- https://ivandiasfotografo.com.br/blog/fotografo-de-casamento-vila-mariana/
+- https://ivandiasfotografo.com.br/blog/fotografo-de-casamento-sp/
 
-## Páginas principais
-- /: Página inicial
-- /servicos/: Lista de serviços
-- /portfolio/: Galeria de trabalhos
-- /blog/: Artigos sobre fotografia de casamento em bairros de SP
-- /sobre/: Sobre Ivan Dias
-- /contato/: Formulário de contato e WhatsApp
+## Cidades da Grande SP
+- https://ivandiasfotografo.com.br/fotografo-de-casamento-santo-andre/
+- https://ivandiasfotografo.com.br/fotografo-de-casamento-sao-bernardo-do-campo/
+- https://ivandiasfotografo.com.br/fotografo-de-casamento-sao-caetano-do-sul/
+- https://ivandiasfotografo.com.br/blog/fotografo-de-casamento-osasco/
+- https://ivandiasfotografo.com.br/blog/fotografo-de-casamento-guarulhos/
 
-## Conteúdo do blog
-82 artigos sobre fotografia de casamento em diferentes bairros e regiões de São Paulo, incluindo dicas, inspirações e informações para casais.
+## Posts prioritários (preço e escolha)
+- https://ivandiasfotografo.com.br/blog/quanto-custa-fotografo-casamento-sao-paulo/
+- https://ivandiasfotografo.com.br/blog/como-escolher-fotografo-casamento-sao-paulo/
+- https://ivandiasfotografo.com.br/blog/melhor-fotografo-casamento-sao-paulo/
+- https://ivandiasfotografo.com.br/blog/fotografo-de-casamento-sp/
+- https://ivandiasfotografo.com.br/blog/mini-wedding-sao-paulo-fotografia-cobertura/
+- https://ivandiasfotografo.com.br/blog/quando-contratar-fotografo-casamento/
+- https://ivandiasfotografo.com.br/blog/contrato-fotografo-casamento-o-que-incluir/
+- https://ivandiasfotografo.com.br/blog/quanto-tempo-receber-fotos-casamento/
+
+## Contato
+- https://ivandiasfotografo.com.br/contato/
+- WhatsApp: https://wa.me/5511953025177
