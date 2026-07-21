@@ -27,6 +27,7 @@ export const metadata: Metadata = {
     description:
       'Fotografia de casamento autoral em São Paulo. Conheça o trabalho de Ivan Dias e agende sua sessão.',
     url: '/',
+    images: [{ url: 'https://ivandiasfotografo.com.br/images/hero/fotografo-casamento-sao-paulo-noivos-abraco.webp', width: 1200, height: 630, alt: 'Ivan Dias - Fotógrafo de Casamento em São Paulo' }],
   },
 };
 
