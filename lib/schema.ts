@@ -226,6 +226,27 @@ export function getFAQPageSchema(faq: FAQ[]) {
   };
 }
 
+export function getHowToSchema(data: {
+  slug: string;
+  title: string;
+  description: string;
+  steps: { name: string; text: string }[];
+}) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'HowTo',
+    name: data.title,
+    description: data.description,
+    step: data.steps.map((step, i) => ({
+      '@type': 'HowToStep',
+      position: i + 1,
+      name: step.name,
+      text: step.text,
+      url: `${SITE_URL}/blog/${data.slug}/#passo-${i + 1}`,
+    })),
+  };
+}
+
 export function getBreadcrumbListSchema(items: { name: string; url: string }[]) {
   return {
     '@context': 'https://schema.org',

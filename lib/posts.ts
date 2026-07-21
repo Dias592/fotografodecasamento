@@ -21,6 +21,11 @@ export type PostSection = {
   table?: PostTable;
 };
 
+export type PostHowToStep = {
+  name: string;
+  text: string;
+};
+
 export type Post = {
   slug: string;
   bairro: string;
@@ -32,6 +37,7 @@ export type Post = {
   image: string;
   faq: FAQ[];
   sections?: PostSection[];
+  howToSteps?: PostHowToStep[];
 };
 
 export const posts: Post[] = [
@@ -663,6 +669,32 @@ export const posts: Post[] = [
       'Negociar é normal — mas existe uma forma respeitosa de fazer isso, que preserva o relacionamento com o profissional e ainda assim ajuda a encaixar o orçamento no seu planejamento.',
     date: '2026-06-01',
     image: '/images/galeria/detalhes/casamento-sao-paulo-detalhes-11.webp',
+    howToSteps: [
+      {
+        name: 'Pesquise o mercado para entender o valor médio praticado em SP',
+        text: 'Antes de negociar, pesquise o que fotógrafos com estilo e experiência semelhantes cobram em São Paulo. Isso permite identificar se o orçamento recebido está acima, na média ou abaixo do mercado.',
+      },
+      {
+        name: 'Identifique o que pode ser ajustado no pacote',
+        text: 'É possível negociar: forma de pagamento (entrada menor, mais parcelas), inclusão ou não de pré-wedding e álbum impresso, número de horas de cobertura, e descontos para datas de baixa demanda ou contratação com bastante antecedência.',
+      },
+      {
+        name: 'Aborde a negociação com transparência e respeito',
+        text: 'Apresente sua realidade de orçamento de forma direta e respeitosa. Pergunte se existe flexibilidade e esteja aberto a abrir mão de algum item em troca de um valor menor. A postura colaborativa facilita muito o diálogo.',
+      },
+      {
+        name: 'Considere datas de baixa temporada e alta antecedência como argumentos',
+        text: 'Fechar com 10 a 12 meses de antecedência ou escolher datas de baixa procura (dias úteis, janeiro, março, julho, agosto) aumenta consideravelmente as chances de conseguir condições melhores.',
+      },
+      {
+        name: 'Evite comparações desrespeitosas ou pedidos de redução de qualidade',
+        text: 'Não compare preços de forma agressiva nem peça para reduzir horas de edição ou entrega. Isso compromete a relação de confiança — essencial em um serviço tão pessoal quanto a fotografia do casamento.',
+      },
+      {
+        name: 'Formalize qualquer ajuste negociado por escrito no contrato',
+        text: 'Qualquer mudança de escopo, desconto ou condição especial deve constar no contrato antes de assinar. Acordos verbais não têm validade legal e podem gerar desentendimentos depois.',
+      },
+    ],
     faq: [
       {
         question: 'É normal negociar o preço com o fotógrafo de casamento?',
@@ -792,6 +824,32 @@ export const posts: Post[] = [
       'Escolher o fotógrafo certo vai muito além de gostar do feed do Instagram. Veja os critérios que realmente importam na hora de comparar profissionais e tomar essa decisão com confiança.',
     date: '2025-05-05',
     image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-07.webp',
+    howToSteps: [
+      {
+        name: 'Defina o estilo fotográfico que combina com vocês',
+        text: 'Antes de pesquisar profissionais, alinhe com seu parceiro o estilo de fotos que imaginam: documental/espontâneo, clássico-elegante ou autoral. Essa clareza orienta toda a busca seguinte.',
+      },
+      {
+        name: 'Solicite e avalie portfólios de casamentos completos',
+        text: 'Peça para ver pelo menos dois ou três casamentos do início ao fim — não apenas as melhores fotos do feed. Isso revela consistência real de qualidade em condições variadas de luz e tempo.',
+      },
+      {
+        name: 'Faça as perguntas certas antes de contratar',
+        text: 'Pergunte sobre: número de casamentos fotografados, o que está incluso no pacote, prazo de entrega, equipamento redundante, plano para imprevistos e como funciona o backup das imagens.',
+      },
+      {
+        name: 'Identifique sinais de alerta',
+        text: 'Desconfie de ausência de contrato formal, portfólio com poucas fotos ou apenas imagens isoladas, prazos vagos, preços muito abaixo do mercado sem explicação e falta de transparência sobre o pacote.',
+      },
+      {
+        name: 'Avalie a conexão pessoal com o fotógrafo',
+        text: 'O fotógrafo acompanhará momentos íntimos do seu dia. Sentir-se à vontade com essa presença resulta em fotos mais espontâneas — essa química é tão importante quanto o portfólio.',
+      },
+      {
+        name: 'Compare preço e estilo para tomar a decisão',
+        text: 'Defina primeiro o estilo desejado e, dentro dele, compare propostas de orçamento. Escolher apenas pelo menor preço pode gerar um resultado muito diferente do esperado — e o casamento não se repete.',
+      },
+    ],
     faq: [
       {
         question: 'Quais são os critérios mais importantes para escolher um fotógrafo de casamento?',
@@ -916,6 +974,32 @@ export const posts: Post[] = [
       'A contratação do fotógrafo costuma ser uma das primeiras decisões do planejamento — e por um bom motivo. Veja quando fechar esse compromisso e por quê.',
     date: '2025-05-26',
     image: '/images/galeria/detalhes/casamento-sao-paulo-detalhes-14.webp',
+    howToSteps: [
+      {
+        name: 'Defina a data do casamento',
+        text: 'A data é o ponto de partida de todo o planejamento fotográfico. Sem ela definida, não é possível verificar disponibilidade de profissionais nem iniciar a contratação.',
+      },
+      {
+        name: 'Pesquise fotógrafos de casamento em São Paulo',
+        text: 'Busque profissionais com estilo alinhado ao seu. Em SP há centenas de opções — compare portfólios completos, não apenas feeds. Envolva cerimonialistas e espaços de eventos como fonte de indicações confiáveis.',
+      },
+      {
+        name: 'Inicie o contato com 8 a 12 meses de antecedência',
+        text: 'Esse é o prazo ideal para a maioria das datas. Para sábados de alta temporada (outubro a dezembro) ou fotógrafos muito requisitados, o contato deve ser feito com até 18 meses de antecedência.',
+      },
+      {
+        name: 'Formalize o contrato com sinal para garantir a data',
+        text: 'Após escolher o profissional, assine o contrato e pague o sinal acordado. Só com o contrato assinado a data fica reservada exclusivamente para o seu casamento no calendário do fotógrafo.',
+      },
+      {
+        name: 'Agende reunião de alinhamento com o fotógrafo',
+        text: 'Compartilhe o cronograma do dia, o estilo desejado e as expectativas em uma conversa dedicada. Esse alinhamento prévio evita surpresas no dia e garante que o profissional chegue totalmente preparado.',
+      },
+      {
+        name: 'Marque o ensaio pré-wedding com antecedência',
+        text: 'Se o pacote inclui pré-wedding, agende-o alguns meses antes do casamento. Esse ensaio cria familiaridade entre o casal e o fotógrafo — o que resulta em fotos mais naturais no grande dia.',
+      },
+    ],
     faq: [
       {
         question: 'Com quanto tempo de antecedência devo contratar o fotógrafo de casamento?',
@@ -1174,6 +1258,32 @@ export const posts: Post[] = [
       'Um bom contrato é a garantia de que seu casamento será registrado com segurança — e de que ambas as partes sabem exatamente o que esperar. Veja o que não pode faltar nesse documento.',
     date: '2025-07-07',
     image: '/images/galeria/cerimonia/casamento-sao-paulo-cerimonia-18.webp',
+    howToSteps: [
+      {
+        name: 'Inclua dados completos das partes e informações do evento',
+        text: 'O contrato deve registrar nome completo, CPF e contato do fotógrafo e do casal, além de data, horário de início e término, local da cerimônia e da festa e duração da cobertura contratada.',
+      },
+      {
+        name: 'Especifique valor, formas de pagamento e prazo de entrega',
+        text: 'Detalhe o valor total, o valor do sinal pago na assinatura, as parcelas restantes e as datas de vencimento. Inclua também o prazo máximo de entrega das fotos editadas e o formato de entrega (galeria digital, pendrive, álbum).',
+      },
+      {
+        name: 'Inclua plano de contingência para imprevistos',
+        text: 'Defina o que acontece se o fotógrafo não puder comparecer por doença ou acidente: substituto de confiança de mesmo nível ou reembolso integral. Essa cláusula protege o casal em uma data que não pode ser refeita.',
+      },
+      {
+        name: 'Especifique os direitos de uso das imagens',
+        text: 'Deixe claro quem pode usar as fotos e de que forma: se o fotógrafo pode publicá-las em portfólio e redes sociais, e se o casal recebe os arquivos em alta resolução para uso pessoal sem marca d\'água.',
+      },
+      {
+        name: 'Inclua cláusula de cancelamento e reembolso',
+        text: 'Defina prazos, valores reembolsáveis e eventuais taxas em caso de adiamento ou cancelamento — tanto por parte do casal quanto do fotógrafo. Ter isso por escrito evita desgastes em momentos delicados.',
+      },
+      {
+        name: 'Descreva serviços adicionais e o que acontece em hora extra',
+        text: 'Especifique quaisquer serviços combinados além da cobertura principal (segundo fotógrafo, pré-wedding, álbum impresso) com seus valores. Inclua também o custo por hora extra caso o evento ultrapasse o tempo contratado.',
+      },
+    ],
     faq: [
       {
         question: 'Por que é importante ter um contrato formal com o fotógrafo de casamento?',
@@ -1733,6 +1843,32 @@ export const posts: Post[] = [
       'Uma boa comunicação com o fotógrafo é tão importante quanto o equipamento que ele usa. Veja como fazer um briefing eficiente e garantir que o resultado final seja exatamente o que vocês imaginaram.',
     date: '2025-10-06',
     image: '/images/galeria/detalhes/casamento-sao-paulo-detalhes-15.webp',
+    howToSteps: [
+      {
+        name: 'Monte um moodboard com referências visuais do estilo desejado',
+        text: 'Reúna fotos que representem o clima e a atmosfera que vocês imaginam — do Pinterest, Instagram ou de outros casamentos. Um moodboard comunica o estilo de forma muito mais precisa do que palavras.',
+      },
+      {
+        name: 'Compartilhe o cronograma detalhado e os momentos essenciais do dia',
+        text: 'Envie os horários de cada etapa (making of, cerimônia, festa), os nomes e relações dos familiares para fotos em grupo, o contato do cerimonialista e quaisquer particularidades do local — como restrições de flash em igrejas.',
+      },
+      {
+        name: 'Indique os momentos específicos que não podem faltar',
+        text: 'Seja específico: se a reação da sua mãe durante a cerimônia é algo que você sabe que será emocionante, diga. Se há um amigo especial que você quer num registro único, mencione. Esse nível de detalhe personaliza o olhar do fotógrafo.',
+      },
+      {
+        name: 'Agende uma reunião de briefing 30 a 60 dias antes do casamento',
+        text: 'Reserve uma conversa — presencial ou por videochamada — dedicada a alinhar todos os detalhes. Com o cronograma já definido e tempo ainda para ajustes, essa é a reunião mais importante do processo pré-casamento.',
+      },
+      {
+        name: 'Comunique restrições e preferências sobre poses e ângulos',
+        text: 'Se você não gosta de fotos muito posadas, tem insegurança com ângulos específicos ou quer evitar certos momentos registrados, comunique com antecedência. Um bom fotógrafo respeita esses limites e adapta o trabalho.',
+      },
+      {
+        name: 'Envie um documento resumido por escrito com os pontos alinhados',
+        text: 'Além da reunião verbal, envie um resumo escrito com lista de momentos essenciais, cronograma e contatos-chave. Esse documento serve como referência rápida no dia do evento e garante que nada combinado seja esquecido.',
+      },
+    ],
     faq: [
       {
         question: 'Como devo comunicar o estilo de fotos que quero ao fotógrafo?',

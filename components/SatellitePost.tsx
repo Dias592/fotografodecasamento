@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { Post, PostSection, posts } from '@/lib/posts';
 import { SHIMMER_BLUR_DATA_URL } from '@/lib/utils';
 import SchemaOrg from './SchemaOrg';
-import { getArticleSchema, getBreadcrumbListSchema, getFAQPageSchema } from '@/lib/schema';
+import { getArticleSchema, getBreadcrumbListSchema, getFAQPageSchema, getHowToSchema } from '@/lib/schema';
 
 function SectionTable({ table }: { table: NonNullable<PostSection['table']> }) {
   return (
@@ -105,6 +105,14 @@ export default function SatellitePost({ post }: { post: Post }) {
             { name: post.title, url: `/blog/${post.slug}/` },
           ]),
           getFAQPageSchema(post.faq),
+          ...(post.howToSteps
+            ? [getHowToSchema({
+                slug: post.slug,
+                title: post.title,
+                description: post.description,
+                steps: post.howToSteps,
+              })]
+            : []),
         ]}
       />
 
