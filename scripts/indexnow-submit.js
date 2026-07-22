@@ -2,7 +2,7 @@ const https = require('https');
 const http = require('http');
 
 const HOST = 'ivandiasfotografo.com.br';
-const KEY = '550bdc6c-88ad-4395-979b-ac1fd86149e4';
+const KEY = '2193db46umdumf4787849c5e1747ef6788';
 const KEY_LOCATION = `https://${HOST}/${KEY}.txt`;
 const SITEMAP_URL = `https://${HOST}/sitemap.xml`;
 const BATCH_SIZE = 100;
