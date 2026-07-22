@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build && next-sitemap && node scripts/inject-sitemap-images.js && cp -r public .next/standalone/public && cp -r .next/static .next/standalone/.next/static",
     "start": "node .next/standalone/server.js",
-    "lint": "next lint"
+    "lint": "next lint",
+    "indexnow": "node scripts/indexnow-submit.js"
   },
   "dependencies": {
     "framer-motion": "11.3.19",
