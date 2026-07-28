@@ -36,6 +36,19 @@ const nextConfig = {
         destination: 'https://ivandiasfotografo.com.br/:path*',
         permanent: true,
       },
+      // Grupo 1 — páginas do site antigo
+      { source: '/ivan-dias-fotografo-de-casamento-orcamento', destination: '/contato/', permanent: true, statusCode: 301 },
+      { source: '/ivan-dias-fotografo-de-casamento-sobre', destination: '/sobre/', permanent: true, statusCode: 301 },
+      { source: '/fotografo-de-casamento-em-sao-paulo-ivan-dias', destination: '/', permanent: true, statusCode: 301 },
+      { source: '/politica-de-privacidade', destination: '/', permanent: true, statusCode: 301 },
+      { source: '/termos-de-uso', destination: '/', permanent: true, statusCode: 301 },
+      // Grupo 2 — slugs com hash hexadecimal (fonte externa)
+      { source: '/blog/:slug*-:hash([a-f0-9]{13,})', destination: '/blog/', permanent: true, statusCode: 301 },
+      // Grupo 3 — rotas fantasma do Next.js
+      { source: '/blog/post', destination: '/blog/', permanent: true, statusCode: 301 },
+      { source: '/blog/blog', destination: '/blog/', permanent: true, statusCode: 301 },
+      { source: '/blog/author', destination: '/sobre/', permanent: true, statusCode: 301 },
+      { source: '/blog/feed-news', destination: '/blog/', permanent: true, statusCode: 301 },
       // Blog duplicates — redirect old/duplicate slugs to canonical
       {
         source: '/blog/fotografo-casamento-itaim-bibi-sp/:path*',
