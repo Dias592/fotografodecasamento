@@ -171,7 +171,7 @@ export function getPersonSchema() {
     name: 'Ivan Dias',
     jobTitle: 'Fotógrafo de Casamento',
     url: `${SITE_URL}/sobre`,
-    image: `${SITE_URL}/images/ivan-dias.webp`,
+    image: `${SITE_URL}/images/about/ivan-dias-fotografo-retrato.webp`,
     worksFor: {
       '@type': 'Organization',
       name: 'Ivan Dias Fotografia',
